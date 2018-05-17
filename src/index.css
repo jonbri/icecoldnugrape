@@ -1,0 +1,216 @@
+/*
+ * Colors:
+ *   purple: #AA076B
+ *   gold:   #FFD700
+ *   silver: #f2f2f2
+ */
+
+@font-face {
+  font-family: Blackfat;
+  src: url(./assets/Blackfat.ttf);
+}
+@font-face {
+  font-family: Terminal;
+  src: url(./assets/Terminal.ttf);
+}
+
+body {
+  margin: 0 auto;
+  display:block;
+  padding: 0;
+  font-family: Terminal;
+  background-color: #AA076B; /* purple */
+  font-size: 20px;
+
+  /* fallback for old browsers */
+  background: purple;
+  background: -webkit-linear-gradient(to left, #AA076B, #61045F);
+  background: linear-gradient(to left, #AA076B, #61045F);
+}
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h2 {
+  color: #FFD700; /* gold */
+  font-family: Blackfat;
+  padding: 7px 0;
+  margin: 0;
+}
+h3 {
+  margin: 0;
+  margin-top: 2px;
+  color: #FFD700; /* gold */
+}
+
+
+.App {
+  text-align: center;
+  margin: auto;
+  border-left: 1px solid #f2f2f2; /* silver */
+  border-right: 1px solid #f2f2f2; /* silver */
+}
+
+
+.App-body {
+  max-width: 1000px;
+  margin:auto;
+  padding: 0 5px;
+}
+
+
+.App-header {
+  background-color: black;
+  position: relative;
+  text-align: left;
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+}
+.App-header>div {
+  max-width: 1000px;
+  height: 47px;
+  margin: auto;
+  padding: 5px 0;
+  position: relative;
+  background-image: url("./assets/rightHeaderImg.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+.App-header h1 {
+  font-family: Blackfat;
+  float: left;
+  color: #FFD700; /* gold */
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+}
+.App-header aside {
+  float: left;
+  font-size: 11px;
+  color: white;
+  font-style: italic;
+  position: relative;
+  top: 7px;
+  margin-left: 4px;
+}
+.App-header ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2px;
+}
+.App-header li {
+  display: inline;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.Home-essentialLinks {
+  margin-bottom: 10px;
+}
+.Home-essentialLinks h3 {
+  display: inline;
+}
+.Home-essentialLinks ul {
+  display: inline;
+}
+.Home-essentialLinks li {
+  display: inline;
+  padding-left: 5px;
+}
+.Home-youtubeVideo {
+  margin-bottom: 10px;
+}
+
+
+.Recordings ul {
+  display: block;
+}
+.Recordings li {
+  display: block;
+  text-align: left;
+}
+
+
+.Songs ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+
+.Recording {
+  position: relative;
+}
+.Recording ol {
+  text-align: left;
+}
+.Recording-subcontent {
+  background-color: #FFD700; /* gold */
+  border-radius: 6px;
+  width: 90%;
+  padding: 5px 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  margin-top: 10px;
+}
+.Recording-subcontent header {
+  font-weight: bold;
+}
+.Recording-subcontent li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+.Recording-nextprev ul {
+  font-family: Blackfat;
+  text-align: left;
+  margin-top: 5px;
+}
+.Recording-nextprev li {
+  display: inline;
+  margin-right: 5px;
+}
+
+
+.Song ul {
+  display: block;
+}
+.Song li {
+  display: block;
+  text-align: left;
+}
+.Song-subcontent {
+  background-color: #FFD700; /* gold */
+  border-radius: 6px;
+  width: 90%;
+  padding: 5px 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  margin-top: 10px;
+}
+.Song-subcontent header {
+  font-weight: bold;
+}
+
+
+.Search ul {
+  display: block;
+}
+.Search li {
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+}
+.Search-highlight {
+  color: #FFD700 /* gold */
+}
