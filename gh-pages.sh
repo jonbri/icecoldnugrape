@@ -7,6 +7,7 @@ echo "create staging repo"
 mkdir -p /tmp/icecoldnugrape
 rm -Rf /tmp/icecoldnugrape
 git clone -b gh-pages https://github.com/jonbri/icecoldnugrape.git /tmp/icecoldnugrape
+npm install
 
 echo "clear out content"
 git -C /tmp/icecoldnugrape rm -rf .
