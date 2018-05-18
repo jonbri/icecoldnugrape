@@ -15,6 +15,8 @@ git -C /tmp/icecoldnugrape clean -fxd
 echo "copy over new content"
 cp -R build/* /tmp/icecoldnugrape
 
+echo "icecoldnugrape.com" > /tmp/icecoldnugrape/CNAME
+
 echo "stage and create a new commit"
 git -C /tmp/icecoldnugrape add .
 git -C /tmp/icecoldnugrape add -u
