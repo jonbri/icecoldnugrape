@@ -21,7 +21,7 @@ echo "icecoldnugrape.com" > /tmp/icecoldnugrape/CNAME
 echo "stage and create a new commit"
 git -C /tmp/icecoldnugrape add .
 git -C /tmp/icecoldnugrape add -u
-git -C /tmp/icecoldnugrape commit -m 'update'
+git -C /tmp/icecoldnugrape commit -m "Update from: `git rev-parse --short master`"
 
 echo "push"
 git -C /tmp/icecoldnugrape push origin gh-pages
