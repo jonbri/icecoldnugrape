@@ -211,6 +211,9 @@ h3 {
 .Downloads h3 {
   text-transform: capitalize;
 }
+.Downloads .zip {
+  font-style: italic;
+}
 
 .Search ul {
   display: block;

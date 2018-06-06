@@ -481,6 +481,10 @@ import { Redirect } from 'react-router';
                     <h3>{oDownload.title}</h3>
                     }
 
+                    {oDownload.zip &&
+                      <a className="zip" href={"/media/" + oDownload.group + "/" + oDownload.zip}>Download All</a>
+                    }
+
                     {oDownload.songs.map((oSong, j) =>
                       <ul key={j}>
                         <li>
