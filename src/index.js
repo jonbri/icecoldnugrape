@@ -476,11 +476,15 @@ import { Redirect } from 'react-router';
                 {downloads_raw.map((oDownload, i) =>
                   <ul key={i}>
                     <li>
-                    <h3>{oDownload.group}</h3>
+
+                    {oDownload.title !== "" &&
+                    <h3>{oDownload.title}</h3>
+                    }
+
                     {oDownload.songs.map((oSong, j) =>
                       <ul key={j}>
                         <li>
-                          <a href={"/media/" + oDownload.group + "/" + oSong.path}>{oSong.path.replace(/(\d*)(\w+)(.(mp3|wav))/, "$2")}</a>
+                          <a href={"/media/" + oDownload.group + "/" + oSong.path}>{oSong.title}</a>
                         </li>
                       </ul>
                     )}
