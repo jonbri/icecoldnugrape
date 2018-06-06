@@ -202,6 +202,15 @@ h3 {
   font-weight: bold;
 }
 
+.Downloads {
+}
+.Downloads ul {
+  list-style-type: none;
+  text-align: left;
+}
+.Downloads h3 {
+  text-transform: capitalize;
+}
 
 .Search ul {
   display: block;

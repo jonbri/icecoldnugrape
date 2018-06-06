@@ -6,6 +6,7 @@ import { createStore } from 'redux';
 import recordings_raw from './recordings_raw.json';
 import songs_raw from './songs_raw.json';
 import youtube_raw from './youtube_raw.json';
+import downloads_raw from './downloads_raw.json';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import { Redirect } from 'react-router';
 
@@ -333,6 +334,7 @@ import { Redirect } from 'react-router';
               <ul>
                 <li><Link to="/recordings">Recordings</Link></li>
                 <li><Link to="/songs">Songs</Link></li>
+                <li><Link to="/downloads">Downloads</Link></li>
                 <li><Link to="/search">Search</Link></li>
                 <li><Link to="/random">Random</Link></li>
               </ul>
@@ -464,6 +466,28 @@ import { Redirect } from 'react-router';
                   </div>
                 }
 
+              </div>
+            )}/>
+
+            {/* Downloads */}
+            <Route exact path="/downloads" render={props => (
+              <div className="Downloads">
+                <h2>Downloads</h2>
+                {downloads_raw.map((oDownload, i) =>
+                  <ul key={i}>
+                    <li>
+                    <h3>{oDownload.group}</h3>
+                    {oDownload.songs.map((oSong, j) =>
+                      <ul key={j}>
+                        <li>
+                          <a href={"/media/" + oDownload.group + "/" + oSong.path}>{oSong.path.replace(/(\d*)(\w+)(.(mp3|wav))/, "$2")}</a>
+                        </li>
+                      </ul>
+                    )}
+                    </li>
+                    <br />
+                  </ul>
+                )}
               </div>
             )}/>
 
