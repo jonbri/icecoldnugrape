@@ -593,6 +593,317 @@
             }
         ]
     },
+
+    {
+        "group": "goldStar",
+        "title": "Gold Star Lost Recordings",
+        "zip": "goldStar.zip",
+        "songs": [
+            {
+                "title": "Nuclear Nightmare",
+                "path": "01nuclearNightmare.wav"
+            },
+            {
+                "title": "Cupid",
+                "path": "02cupid.wav"
+            },
+            {
+                "title": "Let's Take the Long Way Home",
+                "path": "03letsTakeTheLongWayHome.wav"
+            },
+            {
+                "title": "Up In the Sky Sometime",
+                "path": "04upInTheSkySometime.wav"
+            }
+        ]
+    },
+
+    {
+        "group": "8182",
+        "title": "81'-82' Compilation",
+        "zip": "8182.zip",
+        "songs": [
+            {
+                "title": "Ice Cream Man",
+                "path": "01iceCreamMan.mp3"
+            },
+            {
+                "title": "I Love Life So",
+                "path": "02iLoveLifeSo.mp3"
+            },
+            {
+                "title": "The Neighbors",
+                "path": "03theNeighbors.mp3"
+            },
+            {
+                "title": "Are You Feeling Good",
+                "path": "04areYouFeelingGood.mp3"
+            },
+            {
+                "title": "Back In Your Life",
+                "path": "05backInYourLife.mp3"
+            },
+            {
+                "title": "Tahetian Hop",
+                "path": "06tahetianHop.mp3"
+            },
+            {
+                "title": "Bring Back Springtime to the World of Nature",
+                "path": "07bringBackSpringtimeToTheWorldOfNature.mp3"
+            },
+            {
+                "title": "That Is Rock-n-Roll",
+                "path": "08thatIsRocknRoll.mp3"
+            },
+            {
+                "title": "My Name Is Jonathan",
+                "path": "09myNameIsJonathan.mp3"
+            },
+            {
+                "title": "Rockin' Rockin' Leprechauns",
+                "path": "10rockinRockinLeprechauns.mp3"
+            },
+            {
+                "title": "Somebody To Hold Me",
+                "path": "11somebodyToHoldMe.mp3"
+            },
+            {
+                "title": "Important In Your Life",
+                "path": "12importantInYourLife.mp3"
+            },
+            {
+                "title": "She's Running Away",
+                "path": "13shesRunningAway.mp3"
+            },
+            {
+                "title": "I Love Her Little Body",
+                "path": "14iLoveHerLittleBody.mp3"
+            },
+            {
+                "title": "The New Teller",
+                "path": "15theNewTeller.mp3"
+            },
+            {
+                "title": "Our Time Is Now",
+                "path": "16ourTimeIsNow.mp3"
+            }
+        ]
+    },
+
+
+    {
+        "group": "moreSurprises",
+        "title": "More Surprises",
+        "zip": "moreSurprises.zip",
+        "songs": [
+            {
+                "title": "More Surprises",
+                "path": "01moreSurprises.mp3"
+            },
+            {
+                "title": "Rock and Roll Will Happen",
+                "path": "02rockAndRollWillHappen.mp3"
+            },
+            {
+                "title": "I Love You So",
+                "path": "03iLoveYouSo.mp3"
+            },
+            {
+                "title": "At Home With a Lover",
+                "path": "04atHomeWithALover.mp3"
+            },
+            {
+                "title": "Five Year Old Feeling",
+                "path": "05fiveYearOldFeeling.mp3"
+            },
+            {
+                "title": "Give Her Time",
+                "path": "06giveHerTime.mp3"
+            },
+            {
+                "title": "Heart To Heart",
+                "path": "07heartToHeart.mp3"
+            },
+            {
+                "title": "Hi Fred",
+                "path": "08hiFred.mp3"
+            },
+            {
+                "title": "I Love People",
+                "path": "09iLovePeople.mp3"
+            },
+            {
+                "title": "I Love This World and it's Mystery",
+                "path": "10iLoveThisWorldAndItsMystery.mp3"
+            },
+            {
+                "title": "I'm Your God Pan",
+                "path": "11imYourGodPan.mp3"
+            },
+            {
+                "title": "I See What's Underneath",
+                "path": "12iSeeWhatsUnderneath.mp3"
+            },
+            {
+                "title": "I Want To Love Him So Bad",
+                "path": "13iWantToLoveHimSoBad.mp3"
+            },
+            {
+                "title": "Let's Say We Just Met",
+                "path": "14letsSayWeJustMet.mp3"
+            },
+            {
+                "title": "My Runabout Girl",
+                "path": "15myRunaboutGirl.mp3"
+            },
+            {
+                "title": "New Kind Of Neighborhood",
+                "path": "16newKindOfNeighborhood.mp3"
+            },
+            {
+                "title": "Tell How You Feel",
+                "path": "17tellHowYouFeel.mp3"
+            },
+            {
+                "title": "That's the Way I Feel",
+                "path": "18thatsTheWayIFeel.mp3"
+            },
+            {
+                "title": "That's When I Want To Tear the Walls Down",
+                "path": "19thatsWhenIWantToTearTheWallsDown.mp3"
+            },
+            {
+                "title": "The Desert",
+                "path": "20theDesert.mp3"
+            },
+            {
+                "title": "Time For Fooling Around",
+                "path": "21timeForFoolingAround.mp3"
+            },
+            {
+                "title": "The Best That I Have Got",
+                "path": "22theBestThatIHaveGot.mp3"
+            }
+        ]
+    },
+
+    {
+        "group": "jonathanSingsLive",
+        "title": "Jonathan Sings Live",
+        "zip": "jonathanSingsLive.zip",
+        "songs": [
+            {
+                "title": "That Summer Feeling",
+                "path": "01thatSummerFeeling.mp3"
+            },
+            {
+                "title": "This Kind Of Music",
+                "path": "02thisKindOfMusic.mp3"
+            },
+            {
+                "title": "The Neighbors",
+                "path": "03theNeighbors.mp3"
+            },
+            {
+                "title": "Somebody To Hold Me",
+                "path": "04somebodyToHoldMe.mp3"
+            },
+            {
+                "title": "Those Conga Drums",
+                "path": "05thoseCongaDrums.mp3"
+            },
+            {
+                "title": "Stop This Car",
+                "path": "06stopThisCar.mp3"
+            },
+            {
+                "title": "Not Yet Three",
+                "path": "07notYetThree.mp3"
+            },
+            {
+                "title": "Give Paris One More Chance",
+                "path": "08giveParisOneMoreChance.mp3"
+            },
+            {
+                "title": "Your the One For Me",
+                "path": "09yourTheOneForMe.mp3"
+            },
+            {
+                "title": "When I'm Walking",
+                "path": "10whenImWalking.mp3"
+            },
+            {
+                "title": "The Tag Game",
+                "path": "11theTagGame.mp3"
+            },
+            {
+                "title": "Dick Gregory",
+                "path": "12dickGregory.mp3"
+            },
+            {
+                "title": "Baby Boss Me Around",
+                "path": "13babyBossMeAround.mp3"
+            },
+            {
+                "title": "My Heart Was Won By a Girl",
+                "path": "14myHeartWasWonByAGirl.mp3"
+            }
+        ]
+    },
+
+    {
+        "group": "lauraPalmerTape",
+        "title": "Laura Palmer Tape",
+        "zip": "lauraPalmerTape.zip",
+        "songs": [
+            {
+                "title": "Government Center",
+                "path": "01governmentCenter.mp3"
+            },
+            {
+                "title": "The New Teller",
+                "path": "02theNewTeller.mp3"
+            },
+            {
+                "title": "Thunderbolts Of Joy",
+                "path": "03thunderboltsOfJoy.mp3"
+            },
+            {
+                "title": "My Honest Dear",
+                "path": "04myHonestDear.mp3"
+            },
+            {
+                "title": "Singing in the Rain",
+                "path": "05singingInTheRain.mp3"
+            },
+            {
+                "title": "So Much Respect For You",
+                "path": "06soMuchRespectForYou.mp3"
+            },
+            {
+                "title": "The Heavens Love Me",
+                "path": "07theHeavensLoveMe.mp3"
+            },
+            {
+                "title": "Kumbaya",
+                "path": "08cumbya.mp3"
+            },
+            {
+                "title": "Hi Fred",
+                "path": "09hiFred.mp3"
+            },
+            {
+                "title": "Flying Saucers Rock-n-Roll",
+                "path": "10flyingSaucersRocknRolll.mp3"
+            },
+            {
+                "title": "Wonderful Girl",
+                "path": "11wonderfulGirl.mp3"
+            }
+        ]
+    },
+
+
     {
         "group": "2010",
         "title": "2010 Compilation",
@@ -696,309 +1007,7 @@
             }
         ]
     },
-    {
-        "group": "8182",
-        "title": "81'-82' Compilation",
-        "zip": "8182.zip",
-        "songs": [
-            {
-                "title": "Ice Cream Man",
-                "path": "01iceCreamMan.mp3"
-            },
-            {
-                "title": "I Love Life So",
-                "path": "02iLoveLifeSo.mp3"
-            },
-            {
-                "title": "The Neighbors",
-                "path": "03theNeighbors.mp3"
-            },
-            {
-                "title": "Are You Feeling Good",
-                "path": "04areYouFeelingGood.mp3"
-            },
-            {
-                "title": "Back In Your Life",
-                "path": "05backInYourLife.mp3"
-            },
-            {
-                "title": "Tahetian Hop",
-                "path": "06tahetianHop.mp3"
-            },
-            {
-                "title": "Bring Back Springtime to the World of Nature",
-                "path": "07bringBackSpringtimeToTheWorldOfNature.mp3"
-            },
-            {
-                "title": "That Is Rock-n-Roll",
-                "path": "08thatIsRocknRoll.mp3"
-            },
-            {
-                "title": "My Name Is Jonathan",
-                "path": "09myNameIsJonathan.mp3"
-            },
-            {
-                "title": "Rockin' Rockin' Leprechauns",
-                "path": "10rockinRockinLeprechauns.mp3"
-            },
-            {
-                "title": "Somebody To Hold Me",
-                "path": "11somebodyToHoldMe.mp3"
-            },
-            {
-                "title": "Important In Your Life",
-                "path": "12importantInYourLife.mp3"
-            },
-            {
-                "title": "She's Running Away",
-                "path": "13shesRunningAway.mp3"
-            },
-            {
-                "title": "I Love Her Little Body",
-                "path": "14iLoveHerLittleBody.mp3"
-            },
-            {
-                "title": "The New Teller",
-                "path": "15theNewTeller.mp3"
-            },
-            {
-                "title": "Our Time Is Now",
-                "path": "16ourTimeIsNow.mp3"
-            }
-        ]
-    },
-    {
-        "group": "goldStar",
-        "title": "Gold Star Lost Recordings",
-        "zip": "goldStar.zip",
-        "songs": [
-            {
-                "title": "Nuclear Nightmare",
-                "path": "01nuclearNightmare.wav"
-            },
-            {
-                "title": "Cupid",
-                "path": "02cupid.wav"
-            },
-            {
-                "title": "Let's Take the Long Way Home",
-                "path": "03letsTakeTheLongWayHome.wav"
-            },
-            {
-                "title": "Up In the Sky Sometime",
-                "path": "04upInTheSkySometime.wav"
-            }
-        ]
-    },
-    {
-        "group": "jonathanSingsLive",
-        "title": "Jonathan Sings Live",
-        "zip": "jonathanSingsLive.zip",
-        "songs": [
-            {
-                "title": "That Summer Feeling",
-                "path": "01thatSummerFeeling.mp3"
-            },
-            {
-                "title": "This Kind Of Music",
-                "path": "02thisKindOfMusic.mp3"
-            },
-            {
-                "title": "The Neighbors",
-                "path": "03theNeighbors.mp3"
-            },
-            {
-                "title": "Somebody To Hold Me",
-                "path": "04somebodyToHoldMe.mp3"
-            },
-            {
-                "title": "Those Conga Drums",
-                "path": "05thoseCongaDrums.mp3"
-            },
-            {
-                "title": "Stop This Car",
-                "path": "06stopThisCar.mp3"
-            },
-            {
-                "title": "Not Yet Three",
-                "path": "07notYetThree.mp3"
-            },
-            {
-                "title": "Give Paris One More Chance",
-                "path": "08giveParisOneMoreChance.mp3"
-            },
-            {
-                "title": "Your the One For Me",
-                "path": "09yourTheOneForMe.mp3"
-            },
-            {
-                "title": "When I'm Walking",
-                "path": "10whenImWalking.mp3"
-            },
-            {
-                "title": "The Tag Game",
-                "path": "11theTagGame.mp3"
-            },
-            {
-                "title": "Dick Gregory",
-                "path": "12dickGregory.mp3"
-            },
-            {
-                "title": "Baby Boss Me Around",
-                "path": "13babyBossMeAround.mp3"
-            },
-            {
-                "title": "My Heart Was Won By a Girl",
-                "path": "14myHeartWasWonByAGirl.mp3"
-            }
-        ]
-    },
-    {
-        "group": "lauraPalmerTape",
-        "title": "Laura Palmer Tape",
-        "zip": "lauraPalmerTape.zip",
-        "songs": [
-            {
-                "title": "Government Center",
-                "path": "01governmentCenter.mp3"
-            },
-            {
-                "title": "The New Teller",
-                "path": "02theNewTeller.mp3"
-            },
-            {
-                "title": "Thunderbolts Of Joy",
-                "path": "03thunderboltsOfJoy.mp3"
-            },
-            {
-                "title": "My Honest Dear",
-                "path": "04myHonestDear.mp3"
-            },
-            {
-                "title": "Singing in the Rain",
-                "path": "05singingInTheRain.mp3"
-            },
-            {
-                "title": "So Much Respect For You",
-                "path": "06soMuchRespectForYou.mp3"
-            },
-            {
-                "title": "The Heavens Love Me",
-                "path": "07theHeavensLoveMe.mp3"
-            },
-            {
-                "title": "Kumbaya",
-                "path": "08cumbya.mp3"
-            },
-            {
-                "title": "Hi Fred",
-                "path": "09hiFred.mp3"
-            },
-            {
-                "title": "Flying Saucers Rock-n-Roll",
-                "path": "10flyingSaucersRocknRolll.mp3"
-            },
-            {
-                "title": "Wonderful Girl",
-                "path": "11wonderfulGirl.mp3"
-            }
-        ]
-    },
-    {
-        "group": "moreSurprises",
-        "title": "More Surprises",
-        "zip": "moreSurprises.zip",
-        "songs": [
-            {
-                "title": "More Surprises",
-                "path": "01moreSurprises.mp3"
-            },
-            {
-                "title": "Rock and Roll Will Happen",
-                "path": "02rockAndRollWillHappen.mp3"
-            },
-            {
-                "title": "I Love You So",
-                "path": "03iLoveYouSo.mp3"
-            },
-            {
-                "title": "At Home With a Lover",
-                "path": "04atHomeWithALover.mp3"
-            },
-            {
-                "title": "Five Year Old Feeling",
-                "path": "05fiveYearOldFeeling.mp3"
-            },
-            {
-                "title": "Give Her Time",
-                "path": "06giveHerTime.mp3"
-            },
-            {
-                "title": "Heart To Heart",
-                "path": "07heartToHeart.mp3"
-            },
-            {
-                "title": "Hi Fred",
-                "path": "08hiFred.mp3"
-            },
-            {
-                "title": "I Love People",
-                "path": "09iLovePeople.mp3"
-            },
-            {
-                "title": "I Love This World and it's Mystery",
-                "path": "10iLoveThisWorldAndItsMystery.mp3"
-            },
-            {
-                "title": "I'm Your God Pan",
-                "path": "11imYourGodPan.mp3"
-            },
-            {
-                "title": "I See What's Underneath",
-                "path": "12iSeeWhatsUnderneath.mp3"
-            },
-            {
-                "title": "I Want To Love Him So Bad",
-                "path": "13iWantToLoveHimSoBad.mp3"
-            },
-            {
-                "title": "Let's Say We Just Met",
-                "path": "14letsSayWeJustMet.mp3"
-            },
-            {
-                "title": "My Runabout Girl",
-                "path": "15myRunaboutGirl.mp3"
-            },
-            {
-                "title": "New Kind Of Neighborhood",
-                "path": "16newKindOfNeighborhood.mp3"
-            },
-            {
-                "title": "Tell How You Feel",
-                "path": "17tellHowYouFeel.mp3"
-            },
-            {
-                "title": "That's the Way I Feel",
-                "path": "18thatsTheWayIFeel.mp3"
-            },
-            {
-                "title": "That's When I Want To Tear the Walls Down",
-                "path": "19thatsWhenIWantToTearTheWallsDown.mp3"
-            },
-            {
-                "title": "The Desert",
-                "path": "20theDesert.mp3"
-            },
-            {
-                "title": "Time For Fooling Around",
-                "path": "21timeForFoolingAround.mp3"
-            },
-            {
-                "title": "The Best That I Have Got",
-                "path": "22theBestThatIHaveGot.mp3"
-            }
-        ]
-    },
+
     {
         "group": "oldies",
         "title": "Oldies Covers Compilation",
