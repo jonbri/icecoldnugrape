@@ -477,22 +477,22 @@ import { Redirect } from 'react-router';
                   <ul key={i}>
                     <li>
 
-                    {oDownload.title !== "" &&
-                    <h3>{oDownload.title}</h3>
-                    }
+                      {oDownload.title !== "" &&
+                        <h3>{oDownload.title}</h3>
+                      }
 
-                    {oDownload.zip &&
-                      <a className="zip" href={"/media/" + oDownload.group + "/" + oDownload.zip}>Download All</a>
-                    }
+                      {oDownload.zip &&
+                        <a className="zip" href={"/media/" + oDownload.group + "/" + oDownload.zip}>Download All</a>
+                      }
 
-                    {oDownload.songs.map((oSong, j) =>
-                      <ul key={j}>
-                        <li>
-                          <a href={"/media/" + oDownload.group + "/" + oSong.path}>{oSong.title}</a>
-                        </li>
-                      </ul>
-                    )}
-                    </li>
+                      {oDownload.songs.map((oSong, j) =>
+                        <ul key={j}>
+                          <li>
+                            <a href={"/media/" + oDownload.group + "/" + oSong.path}>{oSong.title}</a>
+                          </li>
+                        </ul>
+                      )}
+                      </li>
                     <br />
                   </ul>
                 )}
