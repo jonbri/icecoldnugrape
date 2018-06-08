@@ -382,10 +382,7 @@ import { Redirect } from 'react-router';
                 </ul>
                 <div className="Recordings-bottomText">
                   <p>
-                  The majority of the data for this website came from "<a href="http://www.bobsnerdywebpage.com/">Bob's Nerdy Website</a>"
-                  </p>
-                  <p>
-                  If you would like any of the downloads that were previously available from this website please contact me at: jonathandavidbrink@gmail.com
+                  The majority of the data for this website came from <a href="http://www.bobsnerdywebpage.com/">Bob's Nerdy Website</a>
                   </p>
                   <p>
                   Raw data: <a href="https://github.com/jonbri/icecoldnugrape/blob/master/src/recordings_raw.json">recordings_raw.json</a>, <a href="https://github.com/jonbri/icecoldnugrape/blob/master/src/songs_raw.json">songs_raw.json</a>

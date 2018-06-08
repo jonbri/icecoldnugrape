@@ -141,6 +141,18 @@ h3 {
   display: block;
   text-align: left;
 }
+.Recordings-bottomText {
+  background-color: #FFD700; /* gold */
+  border-radius: 6px;
+  width: 90%;
+  padding: 5px 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  margin-top: 10px;
+}
+.Recordings-bottomText a {
+  color: blue;
+}
 
 
 .Songs ul {
