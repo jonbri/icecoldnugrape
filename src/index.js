@@ -347,7 +347,7 @@ import { Redirect } from 'react-router';
             <Route exact path="/" render={props => (
               <div className="Home">
                 <div className="Home-essentialLinks">
-                  <h3>Essential Links: </h3>
+                  <h3>Quick Links: </h3>
                   <ul>
                   <li><a href="https://jojofiles.blogspot.com/">Blog</a></li>
                   <li><a href="http://www.bluearrowrecords.com/record-label/jonathan-richman/">Label</a></li>
