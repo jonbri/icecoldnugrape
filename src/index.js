@@ -332,9 +332,9 @@ import { Redirect } from 'react-router';
               </Link>
               <aside>Est. 2009</aside>
               <ul>
+                <li><Link to="/downloads">Downloads</Link></li>
                 <li><Link to="/recordings">Recordings</Link></li>
                 <li><Link to="/songs">Songs</Link></li>
-                <li><Link to="/downloads">Downloads</Link></li>
                 <li><Link to="/search">Search</Link></li>
                 <li><Link to="/random">Random</Link></li>
               </ul>
