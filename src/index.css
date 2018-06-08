@@ -92,6 +92,7 @@ h3 {
   margin: 0;
   margin-left: 5px;
   padding: 0;
+  padding-top: 2px;
 }
 .App-header aside {
   float: left;
@@ -99,7 +100,7 @@ h3 {
   color: white;
   font-style: italic;
   position: relative;
-  top: 7px;
+  top: 9px;
   margin-left: 4px;
 }
 .App-header ul {
