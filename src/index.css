@@ -7,11 +7,11 @@
 
 @font-face {
   font-family: Blackfat;
-  src: url(./assets/Blackfat.ttf);
+  src: url(./Blackfat.ttf);
 }
 @font-face {
   font-family: Terminal;
-  src: url(./assets/Terminal.ttf);
+  src: url(./Terminal.ttf);
 }
 
 body {
@@ -79,7 +79,7 @@ h3 {
   margin: auto;
   padding: 5px 0;
   position: relative;
-  background-image: url("./assets/rightHeaderImg.png");
+  background-image: url("./rightHeaderImg.png");
   background-position: right top;
   background-repeat: no-repeat;
 }

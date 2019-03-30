@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import registerServiceWorker from './registerServiceWorker';
 import { createStore } from 'redux';
 import recordings_raw from './recordings_raw.json';
 import songs_raw from './songs_raw.json';
@@ -9,6 +7,8 @@ import youtube_raw from './youtube_raw.json';
 import downloads_raw from './downloads_raw.json';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import { Redirect } from 'react-router';
+import './index.css';
+import './favicon.ico';
 
 (function() {
   var reducer = function(state = [], action) {
@@ -541,6 +541,4 @@ import { Redirect } from 'react-router';
   // start rendering
   store.subscribe(render);
   render();
-
-  registerServiceWorker();
 }());
