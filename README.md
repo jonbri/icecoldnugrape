@@ -36,3 +36,9 @@ Place the following at the very end of the `VirtualHost` tag:
 >   ProxyPass     /media/     http://localhost:3001/
 >   ProxyPass     /     http://localhost:3000/
 ```
+
+## Data
+src/recordings_raw.json fields:
+* `n` -> number
+* `s` -> section
+

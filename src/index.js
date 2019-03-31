@@ -89,11 +89,11 @@ import './favicon.ico';
 
       // check against comments
       (oRecording.comments || []).forEach(function(oComment) {
-        ["username", "text"]
+        ["name", "text"]
           .filter(term => searchRegex.test(oComment[term]))
           .filter(term => /^(Bob)|(JB)$/.test(oComment[term]) === false)
           .forEach(function(term) {
-            if (term === 'username') {
+            if (term === 'name') {
               aItems.push({
                   href: "/recordings/" + oRecording.linkid,
                   text: formattedSearchResult(oComment[term], 'Commenter: ')
@@ -119,7 +119,7 @@ import './favicon.ico';
 
       // check against song comments
       (oSong.comments || []).forEach(function(oComment) {
-        ["username", "text"]
+        ["name", "text"]
           .filter(term => searchRegex.test(oComment[term]))
           .forEach(function(term) {
             aItems.push({
@@ -422,7 +422,7 @@ import './favicon.ico';
                     {getRecording(props.match.params.recordingId).comments.length > 0 &&
                       <ul>
                         {getRecording(props.match.params.recordingId).comments
-                          .map((o, i) => <li key={i}><header>{o.username + ' (' + o.timestamp.split(' ')[0] + ')'}</header>{o.text}</li>)
+                          .map((o, i) => <li key={i}><header>{o.name + ' (' + o.time.split(' ')[0] + ')'}</header>{o.text}</li>)
                         }
                       </ul>
                     }
@@ -457,7 +457,7 @@ import './favicon.ico';
                   <div className="Song-subcontent">
                     <ul>
                       {getSong(props.match.params.songId).comments
-                        .map((o, i) => <li key={i}><header>{o.username + ' (' + o.timestamp.split(' ')[0] + ')'}</header>{o.text}</li>)
+                        .map((o, i) => <li key={i}><header>{o.name + ' (' + o.time.split(' ')[0] + ')'}</header>{o.text}</li>)
                       }
                     </ul>
                   </div>
