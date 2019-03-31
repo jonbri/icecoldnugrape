@@ -322,6 +322,20 @@ import './favicon.ico';
   }
 
   class App extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        searchTerm: 'zzzzzzz' // TODO
+      };
+      this.runSearch = this.runSearch.bind(this);
+    }
+    runSearch(s) {
+      console.log('`', s);
+      this.setState({
+        searchTerm: s
+      });
+    }
+
     render() {
       return <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
@@ -503,6 +517,8 @@ import './favicon.ico';
                 <input
                   onKeyUp={
                     (event) => {
+                      this.runSearch(event.target.value);
+                      /*
                       if (event.target.value.length > 1) {
                         store.dispatch({
                           type: "SEARCH",
@@ -515,11 +531,12 @@ import './favicon.ico';
                           value: 'zzzz_nomatch_zzzz'
                         })
                       }
+                      */
                     }
                   }
                 />
                 <br />
-                {generateSearchResults(store.getState().searchQuery)}
+                {generateSearchResults(this.state.searchTerm)}
               </div>
             )}/>
 
