@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
 import recordings_raw from './recordings_raw.json';
 import songs_raw from './songs_raw.json';
 import youtube_raw from './youtube_raw.json';
@@ -11,34 +10,15 @@ import './index.css';
 import './favicon.ico';
 
 (function() {
-  var reducer = function(state = [], action) {
-    switch (action.type) {
-    case "SEARCH":
-      return {
-        ...state,
-        searchQuery: action.value
-      }
-    default:
-      return state;
-    }
-  };
-
-  function enhanceRecordingsData(aRecordings) {
-    return aRecordings.map(function(oRecording) {
-      var oNewRecording = oRecording;
-      oNewRecording.formattedValue = formattedRecording(oRecording)
-      return oNewRecording;
-    });
-  }
-
-  var store = createStore(reducer, {
-    recordings: enhanceRecordingsData(recordings_raw),
-    songs: songs_raw,
-    searchResults: []
+  const recordings = recordings_raw.map(function(oRecording) {
+    var oNewRecording = oRecording;
+    oNewRecording.formattedValue = formattedRecording(oRecording)
+    return oNewRecording;
   });
+  const songs = songs_raw;
 
   function getRecording(sRecordingId) {
-    var oRecording = store.getState().recordings.filter(function(o) {
+    var oRecording = recordings.filter(function(o) {
       return (o.linkid + "") === sRecordingId;
     })[0] || {
       quality: 'not found',
@@ -48,13 +28,13 @@ import './favicon.ico';
   }
 
   function getSong(iSongId) {
-    var oSong = store.getState().songs.filter(function(o) {
+    var oSong = songs.filter(function(o) {
       return parseInt(o.linkid, 10) === parseInt(iSongId, 10);
     })[0] || {
       // defaults
     };
 
-    oSong.recordingsHistory = store.getState().recordings.slice(0).filter(function(oRecording) {
+    oSong.recordingsHistory = recordings.slice(0).filter(function(oRecording) {
       return oRecording.songs.slice(0).filter(function(oSong) {
         return parseInt(oSong.linkid, 10) === parseInt(iSongId, 10);
       }).length > 0;
@@ -65,8 +45,8 @@ import './favicon.ico';
 
   function generateSearchResults(sQuery) {
     var aItems = [],
-      aRecordings = store.getState().recordings,
-      aSongs = store.getState().songs,
+      aRecordings = recordings,
+      aSongs = songs,
       searchRegex = new RegExp(sQuery, "i"),
       re = new RegExp("(" + sQuery + ")", "gi");
 
@@ -238,8 +218,8 @@ import './favicon.ico';
   }
 
   function determineRandomPath() {
-    const aRecordings = store.getState().recordings,
-      aSongs = store.getState().songs;
+    const aRecordings = recordings,
+      aSongs = songs;
     if (Math.round(Math.random() * 10) > 1) { // 10% chance
       return "/recordings/" + aRecordings[Math.round(Math.random() * aRecordings.length) + 1].linkid;
     } else {
@@ -248,7 +228,7 @@ import './favicon.ico';
   }
 
   function determinePreviousRecording(sRecordingId) {
-    var aRecordings = store.getState().recordings;
+    var aRecordings = recordings;
     var i = aRecordings.length - 1;
     for (; i > 0; i--) {
         if (parseInt(aRecordings[i].linkid, 10) === parseInt(sRecordingId, 10)) {
@@ -262,7 +242,7 @@ import './favicon.ico';
   }
 
   function determineNextRecording(sRecordingId) {
-    var aRecordings = store.getState().recordings;
+    var aRecordings = recordings;
     var i =  0;
     for (; i < aRecordings.length; i++) {
         if (parseInt(aRecordings[i].linkid, 10) === parseInt(sRecordingId, 10)) {
@@ -330,7 +310,6 @@ import './favicon.ico';
       this.runSearch = this.runSearch.bind(this);
     }
     runSearch(s) {
-      console.log('`', s);
       this.setState({
         searchTerm: s
       });
@@ -389,7 +368,7 @@ import './favicon.ico';
               <div className="Recordings">
                 <h2>Recordings</h2>
                 <ul>
-                  {store.getState().recordings
+                  {recordings
                     .filter(o => o.show !== false)
                     .map((o, i) => <li key={i}><Link to={"/recordings/" + o.linkid}>{o.formattedValue}</Link></li>)
                   }
@@ -450,7 +429,7 @@ import './favicon.ico';
               <div className="Songs">
                 <h2>Songs</h2>
                 <ul>
-                {store.getState().songs
+                {songs
                   .map((o, i) => <li key={i}><Link to={"/songs/" + o.linkid}>{o.value}</Link></li>)
                 }
                 </ul>
@@ -518,20 +497,6 @@ import './favicon.ico';
                   onKeyUp={
                     (event) => {
                       this.runSearch(event.target.value);
-                      /*
-                      if (event.target.value.length > 1) {
-                        store.dispatch({
-                          type: "SEARCH",
-                          value: event.target.value
-                        })
-                      }
-                      if (event.target.value.length === 0) {
-                        store.dispatch({
-                          type: "SEARCH",
-                          value: 'zzzz_nomatch_zzzz'
-                        })
-                      }
-                      */
                     }
                   }
                 />
@@ -560,8 +525,5 @@ import './favicon.ico';
       <App />,
       document.getElementById('root'));
   };
-
-  // start rendering
-  store.subscribe(render);
   render();
 }());
