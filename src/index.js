@@ -321,9 +321,9 @@ import './favicon.ico';
     }
   }
 
-  const render = () => {
-    ReactDOM.render(
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+  class App extends React.Component {
+    render() {
+      return <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
           <header className="App-header">
             <div>
@@ -534,7 +534,13 @@ import './favicon.ico';
           <div style={{height: '10px'}}></div>
         {/* end of App */}
         </div>
-      </BrowserRouter>,
+      </BrowserRouter>;
+    }
+  }
+
+  const render = () => {
+    ReactDOM.render(
+      <App />,
       document.getElementById('root'));
   };
 
