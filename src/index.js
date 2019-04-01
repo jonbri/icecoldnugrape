@@ -1,3 +1,5 @@
+/* global document, process */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import recordings from './recordings_raw.json';
@@ -328,7 +330,7 @@ class App extends React.Component {
         <div className="App-body">
 
           {/* Home */}
-          <Route exact path="/" render={props => (
+          <Route exact path="/" render={() => (
             <div className="Home">
               <div className="Home-essentialLinks">
                 <h3>Quick Links: </h3>
@@ -355,7 +357,7 @@ class App extends React.Component {
           )}/>
 
           {/* Recordings */}
-          <Route exact path="/recordings" render={props => (
+          <Route exact path="/recordings" render={() => (
             <div className="Recordings">
               <h2>Recordings</h2>
               <ul>
@@ -366,7 +368,7 @@ class App extends React.Component {
               </ul>
               <div className="Recordings-bottomText">
                 <p>
-                The majority of the data for this website came from <a href="http://www.bobsnerdywebpage.com/">Bob's Nerdy Website</a>
+                The majority of the data for this website came from <a href="http://www.bobsnerdywebpage.com/">Bob&apos;s Nerdy Website</a>
                 </p>
                 <p>
                 Raw data: <a href="https://github.com/jonbri/icecoldnugrape/blob/master/src/recordings_raw.json">recordings_raw.json</a>, <a href="https://github.com/jonbri/icecoldnugrape/blob/master/src/songs_raw.json">songs_raw.json</a>
@@ -416,7 +418,7 @@ class App extends React.Component {
           )}/>
 
           {/* Songs */}
-          <Route exact path="/songs" render={props => (
+          <Route exact path="/songs" render={() => (
             <div className="Songs">
               <h2>Songs</h2>
               <ul>
@@ -451,7 +453,7 @@ class App extends React.Component {
           )}/>
 
           {/* Downloads */}
-          <Route exact path="/downloads" render={props => (
+          <Route exact path="/downloads" render={() => (
             <div className="Downloads">
               <h2>Downloads</h2>
               {downloads_raw.map((oDownload, i) =>
@@ -481,7 +483,7 @@ class App extends React.Component {
           )}/>
 
           {/* Search */}
-          <Route exact path="/search" render={props => (
+          <Route exact path="/search" render={() => (
             <div className="Search">
               <h2>Search</h2>
               <input
@@ -497,7 +499,7 @@ class App extends React.Component {
           )}/>
 
           {/* Random */}
-          <Route exact path="/random" render={props => (
+          <Route exact path="/random" render={() => (
             <Redirect to={determineRandomPath()} />
           )}/>
 
