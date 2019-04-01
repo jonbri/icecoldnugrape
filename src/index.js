@@ -502,9 +502,8 @@ class App extends React.Component {
   }
 }
 
-const render = () => {
-  ReactDOM.render(
-    <App />,
-    document.getElementById('root'));
-};
-render();
+// render the full application
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
