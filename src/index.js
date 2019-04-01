@@ -280,32 +280,21 @@ class App extends React.Component {
     });
   }
 
+  determineRecordingIndex(sRecordingId) {
+    return recordings.indexOf(
+      recordings
+        .filter(function(o) {
+          return parseInt(o.linkid, 10) === parseInt(sRecordingId, 10)
+        })[0]
+    );
+  }
+
   determinePreviousRecording(sRecordingId) {
-    var aRecordings = recordings;
-    var i = aRecordings.length - 1;
-    for (; i > 0; i--) {
-        if (parseInt(aRecordings[i].linkid, 10) === parseInt(sRecordingId, 10)) {
-            break;
-        }
-    }
-    if (aRecordings[i - 1]) {
-        return aRecordings[i - 1];
-    }
-    return {};
+    return recordings[this.determineRecordingIndex(sRecordingId) - 1] || {};
   }
 
   determineNextRecording(sRecordingId) {
-    var aRecordings = recordings;
-    var i =  0;
-    for (; i < aRecordings.length; i++) {
-        if (parseInt(aRecordings[i].linkid, 10) === parseInt(sRecordingId, 10)) {
-            break;
-        }
-    }
-    if (aRecordings[i + 1]) {
-        return aRecordings[i + 1];
-    }
-    return {};
+    return recordings[this.determineRecordingIndex(sRecordingId) + 1] || {};
   }
 
   render() {
