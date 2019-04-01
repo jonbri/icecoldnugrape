@@ -31,13 +31,11 @@ function getSong(iSongId) {
 }
 
 function generateSearchResults(sQuery) {
-  var aItems = [],
-    aRecordings = recordings,
-    aSongs = songs,
+  const aItems = [],
     searchRegex = new RegExp(sQuery, "i"),
     re = new RegExp("(" + sQuery + ")", "gi");
 
-  if (sQuery === undefined) {
+  if (sQuery === undefined || sQuery === "") {
     return;
   }
 
@@ -45,16 +43,30 @@ function generateSearchResults(sQuery) {
     return (sPrefix || '') + match.replace(re, "<span class=\"Search-highlight\">$1</span>");
   }
 
-  aRecordings.forEach(function(oRecording) {
-    // check against formatted recording value
+  // get recording matches
+  // check against formatted recording value
+  recordings.forEach(function(oRecording) {
     if (searchRegex.test(formattedRecording(oRecording))) {
       aItems.push({
         href: "/recordings/" + oRecording.linkid,
         text: formattedSearchResult(formattedRecording(oRecording))
       });
     }
+  });
 
-    // check against comments
+  // get song matches
+  // check against formatted song value
+  songs.forEach(function(oSong) {
+    if (searchRegex.test(oSong["value"])) {
+      aItems.push({
+        href: "/songs/" + oSong.linkid,
+        text: oSong["value"]
+      });
+    }
+  });
+
+  // check against recording comments
+  recordings.forEach(function(oRecording) {
     (oRecording.comments || []).forEach(function(oComment) {
       ["name", "text"]
         .filter(term => searchRegex.test(oComment[term]))
@@ -75,16 +87,8 @@ function generateSearchResults(sQuery) {
     });
   });
 
-  aSongs.forEach(function(oSong) {
-    // check against formatted song value
-    if (searchRegex.test(oSong["value"])) {
-      aItems.push({
-        href: "/songs/" + oSong.linkid,
-        text: oSong["value"]
-      });
-    }
-
-    // check against song comments
+  // check against song comments
+  songs.forEach(function(oSong) {
     (oSong.comments || []).forEach(function(oComment) {
       ["name", "text"]
         .filter(term => searchRegex.test(oComment[term]))
@@ -96,8 +100,6 @@ function generateSearchResults(sQuery) {
         });
     });
   });
-
-  // TODO: uniq
 
   return <ul>{
     aItems.map((oItem, i) =>
@@ -270,9 +272,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchTerm: 'zzzzzzz' // TODO
+      searchTerm: ''
     };
-    this.runSearch = this.runSearch.bind(this);
   }
   runSearch(s) {
     this.setState({
@@ -476,6 +477,7 @@ class App extends React.Component {
             <div className="Search">
               <h2>Search</h2>
               <input
+                autoFocus
                 onKeyUp={
                   (event) => {
                     this.runSearch(event.target.value);
