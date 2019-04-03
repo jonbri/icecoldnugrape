@@ -34,6 +34,29 @@ const aHeaderLinks = [
     }
 ];
 
+const aQuickLinks = [
+  {
+      href: "https://jojofiles.blogspot.com/",
+      name: "Blog"
+  },
+  {
+      href: "http://www.bluearrowrecords.com/record-label/jonathan-richman/",
+      name: "Label"
+  },
+  {
+      href: "https://www.highroadtouring.com/artists/jonathan-richman/",
+      name: "Tour"
+  },
+  {
+      href: "http://www.bobsnerdywebpage.com/",
+      name: "Bob"
+  },
+  {
+      href: "http://www.jojochords.com/index.html",
+      name: "Ramon"
+  }
+];
+
 function getRecording(sId) {
   return recordings.filter(o => (o.linkid + "") === sId)[0];
 }
@@ -365,11 +388,9 @@ class App extends React.Component {
                   <div className="Home-essentialLinks">
                     <h3>Quick Links: </h3>
                     <ul>
-                    <li><a href="https://jojofiles.blogspot.com/">Blog</a></li>
-                    <li><a href="http://www.bluearrowrecords.com/record-label/jonathan-richman/">Label</a></li>
-                    <li><a href="https://www.highroadtouring.com/artists/jonathan-richman/">Tour</a></li>
-                    <li><a href="http://www.bobsnerdywebpage.com/">Bob</a></li>
-                    <li><a href="http://www.jojochords.com/index.html">Ramon</a></li>
+                    {aQuickLinks.map(o => (
+                      <li key={o.name}><a href={o.href}>{o.name}</a></li>
+                    ))}
                     </ul>
                   </div>
 
