@@ -8,7 +8,7 @@ import youtube_raw from './youtube_raw.json';
 import downloads_raw from './downloads_raw.json';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import { Redirect } from 'react-router';
-import './index.css';
+import './index.scss';
 import './favicon.ico';
 
 const aHeaderLinks = [
@@ -385,7 +385,7 @@ class App extends React.Component {
               <Header />
               <div className="App-body">
                 <div className="Home">
-                  <div className="Home-essentialLinks">
+                  <div className="Home-quickLinks">
                     <h3>Quick Links: </h3>
                     <ul>
                     {aQuickLinks.map(o => (
