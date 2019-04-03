@@ -30,92 +30,6 @@ function getSong(iSongId) {
     })[0];
 }
 
-function generateSearchResults(sQuery) {
-  const aItems = [],
-    searchRegex = new RegExp(sQuery, "i"),
-    re = new RegExp("(" + sQuery + ")", "gi");
-
-  if (sQuery === undefined || sQuery === "") {
-    return;
-  }
-
-  function formattedSearchResult(match, sPrefix) {
-    return (sPrefix || '') + match.replace(re, "<span class=\"Search-highlight\">$1</span>");
-  }
-
-  // get recording matches
-  // check against formatted recording value
-  recordings.forEach(function(oRecording) {
-    if (searchRegex.test(formattedRecording(oRecording))) {
-      aItems.push({
-        href: "/recordings/" + oRecording.linkid,
-        text: formattedSearchResult(formattedRecording(oRecording))
-      });
-    }
-  });
-
-  // get song matches
-  // check against formatted song value
-  songs.forEach(function(oSong) {
-    if (searchRegex.test(oSong["value"])) {
-      aItems.push({
-        href: "/songs/" + oSong.linkid,
-        text: oSong["value"]
-      });
-    }
-  });
-
-  // check against recording comments
-  recordings.forEach(function(oRecording) {
-    (oRecording.comments || []).forEach(function(oComment) {
-      ["name", "text"]
-        .filter(term => searchRegex.test(oComment[term]))
-        .filter(term => /^(Bob)|(JB)$/.test(oComment[term]) === false)
-        .forEach(function(term) {
-          if (term === 'name') {
-            aItems.push({
-                href: "/recordings/" + oRecording.linkid,
-                text: formattedSearchResult(oComment[term], 'Commenter: ')
-            });
-          } else if (term === 'text') {
-            aItems.push({
-                href: "/recordings/" + oRecording.linkid,
-                text: formattedSearchResult(oComment[term], 'Comment: ')
-            });
-          }
-        });
-    });
-  });
-
-  // check against song comments
-  songs.forEach(function(oSong) {
-    (oSong.comments || []).forEach(function(oComment) {
-      ["name", "text"]
-        .filter(term => searchRegex.test(oComment[term]))
-        .forEach(function(term) {
-          aItems.push({
-            href: "/songs/" + oSong.linkid,
-            text: formattedSearchResult(oComment[term])
-          })
-        });
-    });
-  });
-
-  return <ul>{
-    aItems.map((oItem, i) =>
-      <li key={i}>
-        <Link to={oItem.href}>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: oItem.text
-            }}
-          />
-        </Link>
-      </li>
-    )
-  }</ul>;
-} // end of generateSearchResults
-
 function formattedRecording(oRecording) {
   var s = "",
       type = oRecording.type,
@@ -274,10 +188,18 @@ class App extends React.Component {
     this.state = {
       searchTerm: ''
     };
+    this.searchInputOnChange = this.searchInputOnChange.bind(this);
+    this.searchInputOnKeyUp = this.searchInputOnKeyUp.bind(this);
   }
-  runSearch(s) {
+
+  searchInputOnChange(e) {
     this.setState({
-      searchTerm: s
+      searchTerm: e.target.value
+    });
+  }
+  searchInputOnKeyUp(e) {
+    this.setState({
+      searchTerm: e.target.value
     });
   }
 
@@ -296,6 +218,93 @@ class App extends React.Component {
 
   determineNextRecording(sRecordingId) {
     return recordings[this.determineRecordingIndex(sRecordingId) + 1] || {};
+  }
+
+  generateSearchResults() {
+    const sQuery = this.state.searchTerm;
+    const aItems = [],
+      searchRegex = new RegExp(sQuery, "i"),
+      re = new RegExp("(" + sQuery + ")", "gi");
+
+    if (sQuery === undefined || sQuery === "") {
+      return;
+    }
+
+    function formattedSearchResult(match, sPrefix) {
+      return (sPrefix || '') + match.replace(re, "<span class=\"Search-highlight\">$1</span>");
+    }
+
+    // get recording matches
+    // check against formatted recording value
+    recordings.forEach(function(oRecording) {
+      if (searchRegex.test(formattedRecording(oRecording))) {
+        aItems.push({
+          href: "/recordings/" + oRecording.linkid,
+          text: formattedSearchResult(formattedRecording(oRecording))
+        });
+      }
+    });
+
+    // get song matches
+    // check against formatted song value
+    songs.forEach(function(oSong) {
+      if (searchRegex.test(oSong["value"])) {
+        aItems.push({
+          href: "/songs/" + oSong.linkid,
+          text: oSong["value"]
+        });
+      }
+    });
+
+    // check against recording comments
+    recordings.forEach(function(oRecording) {
+      (oRecording.comments || []).forEach(function(oComment) {
+        ["name", "text"]
+          .filter(term => searchRegex.test(oComment[term]))
+          .filter(term => /^(Bob)|(JB)$/.test(oComment[term]) === false)
+          .forEach(function(term) {
+            if (term === 'name') {
+              aItems.push({
+                  href: "/recordings/" + oRecording.linkid,
+                  text: formattedSearchResult(oComment[term], 'Commenter: ')
+              });
+            } else if (term === 'text') {
+              aItems.push({
+                  href: "/recordings/" + oRecording.linkid,
+                  text: formattedSearchResult(oComment[term], 'Comment: ')
+              });
+            }
+          });
+      });
+    });
+
+    // check against song comments
+    songs.forEach(function(oSong) {
+      (oSong.comments || []).forEach(function(oComment) {
+        ["name", "text"]
+          .filter(term => searchRegex.test(oComment[term]))
+          .forEach(function(term) {
+            aItems.push({
+              href: "/songs/" + oSong.linkid,
+              text: formattedSearchResult(oComment[term])
+            })
+          });
+      });
+    });
+
+    return <ul>{
+      aItems.map((oItem, i) =>
+        <li key={i}>
+          <Link to={oItem.href}>
+            <div
+              dangerouslySetInnerHTML={{
+                __html: oItem.text
+              }}
+            />
+          </Link>
+        </li>
+      )
+    }</ul>;
   }
 
   render() {
@@ -478,14 +487,12 @@ class App extends React.Component {
               <h2>Search</h2>
               <input
                 autoFocus
-                onKeyUp={
-                  (event) => {
-                    this.runSearch(event.target.value);
-                  }
-                }
+                value={this.state.searchTerm}
+                onKeyUp={this.searchInputOnKeyUp}
+                onChange={this.searchInputOnChange}
               />
               <br />
-              {generateSearchResults(this.state.searchTerm)}
+              {this.generateSearchResults()}
             </div>
           )}/>
 
