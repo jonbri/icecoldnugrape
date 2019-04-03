@@ -182,6 +182,51 @@ class TwitterWidget extends React.Component {
   }
 }
 
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    var aLinks = [
+        {
+            to: "/downloads",
+            name: "Downloads"
+        },
+        {
+            to: "/recordings",
+            name: "Recordings"
+        },
+        {
+            to: "/songs",
+            name: "Songs"
+        },
+        {
+            to: "/search",
+            name: "Search"
+        },
+        {
+            to: "/random",
+            name: "Random"
+        }
+    ]
+    return <header className="App-header">
+      <div>
+        <Link to="/">
+          <h1 className="App-title">ICECOLDNUGRAPE.COM</h1>
+        </Link>
+        <aside>Est. 2009</aside>
+        <ul>
+          {aLinks.map(o =>
+            <li key={o.name}>
+              <Link to={o.to}>{o.name}</Link>
+            </li>
+          )}
+        </ul>
+      </div>
+    </header>;
+  }
+}
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -310,21 +355,7 @@ class App extends React.Component {
   render() {
     return <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
-        <header className="App-header">
-          <div>
-            <Link to="/">
-              <h1 className="App-title">ICECOLDNUGRAPE.COM</h1>
-            </Link>
-            <aside>Est. 2009</aside>
-            <ul>
-              <li><Link to="/downloads">Downloads</Link></li>
-              <li><Link to="/recordings">Recordings</Link></li>
-              <li><Link to="/songs">Songs</Link></li>
-              <li><Link to="/search">Search</Link></li>
-              <li><Link to="/random">Random</Link></li>
-            </ul>
-          </div>
-        </header>
+        <Header />
 
         <div className="App-body">
 
