@@ -13,13 +13,14 @@ $silver: #F2F2F2;
 
 body {
   margin: 0 auto;
-  display:block;
+  text-align: center;
+  display: block;
   padding: 0;
   font-family: Terminal;
   background-color: $purple;
   font-size: 20px;
 
-  /* fallback for old browsers */
+  // fallback for old browsers
   background: purple;
   background: -webkit-linear-gradient(to left, $purple, #61045F);
   background: linear-gradient(to left, $purple, #61045F);
@@ -31,9 +32,9 @@ ul, ol {
 a {
   color: white;
   text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 h2 {
   color: $gold;
@@ -46,14 +47,6 @@ h3 {
   margin-top: 2px;
   color: $gold;
 }
-
-.App {
-  text-align: center;
-  margin: auto;
-  border-left: 1px solid $silver;
-  border-right: 1px solid $silver;
-}
-
 
 .App-body {
   max-width: 1000px;
@@ -99,8 +92,6 @@ h3 {
     margin-left: 4px;
   }
   ul {
-    margin: 0;
-    padding: 0;
     position: absolute;
     bottom: 2px;
     li {
@@ -123,7 +114,6 @@ h3 {
       display: inline;
     }
     ul {
-      display: inline;
       li {
         display: inline;
         padding-left: 5px;

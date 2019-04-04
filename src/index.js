@@ -381,7 +381,7 @@ class App extends React.Component {
     return <BrowserRouter basename={process.env.PUBLIC_URL}>
           {/* Home */}
           <Route exact path="/" render={() => (
-            <div className="App">
+            <div>
               <Header />
               <div className="App-body">
                 <div className="Home">
