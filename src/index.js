@@ -129,7 +129,7 @@ class YoutubeWidget extends React.Component {
       https://www.youtube.com/embed/${youtube_raw[this.dayOfYear() % youtube_raw.length]}
     `;
     return <div
-      className='Home-youtubeVideo'
+      className='youtube'
       dangerouslySetInnerHTML={{
         __html: `
           <iframe
@@ -165,7 +165,6 @@ class TwitterWidget extends React.Component {
   }
   render() {
     return <div
-      className='Home-twitter'
       dangerouslySetInnerHTML={{
         __html: `
           <a class="twitter-timeline"
@@ -179,10 +178,10 @@ class TwitterWidget extends React.Component {
 
 class Header extends React.Component {
   render() {
-    return <header className='App-header'>
+    return <header className='app-header'>
       <div>
         <Link to='/'>
-          <h1 className='App-title'>ICECOLDNUGRAPE.COM</h1>
+          <h1 className='app-title'>ICECOLDNUGRAPE.COM</h1>
         </Link>
         <aside><a href='https://web.archive.org/web/*/icecoldnugrape.com'>Since 2009</a></aside>
         <ul>
@@ -249,7 +248,7 @@ class App extends React.Component {
     }
 
     function formattedSearchResult(match, sPrefix) {
-      return (sPrefix || '') + match.replace(re, '<span class="Search-highlight">$1</span>');
+      return (sPrefix || '') + match.replace(re, '<span class="highlight">$1</span>');
     }
 
     // get recording matches
@@ -339,9 +338,9 @@ class App extends React.Component {
           <Route exact path='/' render={() => (
             <div>
               <Header />
-              <div className='App-body'>
-                <div className='Home'>
-                  <div className='Home-quickLinks'>
+              <div className='app-body'>
+                <div className='home'>
+                  <div className='quickLinks'>
                     <h3>Quick Links: </h3>
                     <ul>
                     {aQuickLinks.map(o => (
@@ -362,10 +361,10 @@ class App extends React.Component {
 
           {/* Recordings */}
           <Route exact path='/recordings' render={() => (
-            <div className='App'>
+            <div className='app'>
               <Header activeLink='Recordings' />
-              <div className='App-body'>
-                <div className='Recordings'>
+              <div className='app-body'>
+                <div className='recordings'>
                   <h2>Recordings</h2>
                   <ul>
                     {recordings
@@ -373,7 +372,7 @@ class App extends React.Component {
                       .map((o, i) => <li key={i}><Link to={'/recordings/' + o.linkid}>{getFormattedRecording(o)}</Link></li>)
                     }
                   </ul>
-                  <div className='Recordings-bottomText'>
+                  <div className='bottomText'>
                     <p>
                     The majority of the data for this website came from <a href='http://www.bobsnerdywebpage.com/'>Bob&apos;s Nerdy Website</a>
                     </p>
@@ -388,12 +387,12 @@ class App extends React.Component {
 
           {/* Recording */}
           <Route exact path={'/recordings/:recordingId'} render={props => (
-            <div className='App'>
+            <div className='app'>
               <Header activeLink='Recordings' />
-              <div className='App-body'>
-                <div className='Recording'>
+              <div className='app-body'>
+                <div className='recording'>
                   <h3>{getFormattedRecording(getRecording(props.match.params.recordingId))}</h3>
-                  <div className='Recording-nextprev'>
+                  <div className='nextprev'>
                     <ul>
                       {this.determinePreviousRecording(props.match.params.recordingId).linkid &&
                         <li><Link to={'/recordings/' + this.determinePreviousRecording(props.match.params.recordingId).linkid}>Previous</Link></li>
@@ -410,9 +409,9 @@ class App extends React.Component {
                   </ol>
 
                   {(getRecording(props.match.params.recordingId).quality || getRecording(props.match.params.recordingId).comments.length > 0) &&
-                    <div className='Recording-subcontent'>
+                    <div className='subcontent'>
                       {getRecording(props.match.params.recordingId).quality &&
-                        <div className='Recording-metadata'>
+                        <div className='recording-metadata'>
                           <label>Best known quality:</label>&nbsp;{getRecording(props.match.params.recordingId).quality}
                         </div>
                       }
@@ -433,10 +432,10 @@ class App extends React.Component {
 
           {/* Songs */}
           <Route exact path='/songs' render={() => (
-            <div className='App'>
+            <div className='app'>
               <Header activeLink='Songs' />
-              <div className='App-body'>
-                <div className='Songs'>
+              <div className='app-body'>
+                <div className='songs'>
                   <h2>Songs</h2>
                   <ul>
                   {songs
@@ -450,10 +449,10 @@ class App extends React.Component {
 
           {/* Song */}
           <Route exact path={'/songs/:songId'} render={props => (
-            <div className='App'>
+            <div className='app'>
               <Header activeLink='Songs' />
-              <div className='App-body'>
-                <div className='Song'>
+              <div className='app-body'>
+                <div className='song'>
                   <h3>{getSong(props.match.params.songId).value}</h3>
                   <ul>
                   {getSong(props.match.params.songId).recordingsHistory
@@ -462,7 +461,7 @@ class App extends React.Component {
                   </ul>
 
                   {getSong(props.match.params.songId).comments.length > 0 &&
-                    <div className='Song-subcontent'>
+                    <div className='subcontent'>
                       <ul>
                         {getSong(props.match.params.songId).comments
                           .map((o, i) => <li key={i}><header>{o.name + ' (' + o.time.split(' ')[0] + ')'}</header>{o.text}</li>)
@@ -478,10 +477,10 @@ class App extends React.Component {
 
           {/* Downloads */}
           <Route exact path='/downloads' render={() => (
-            <div className='App'>
+            <div className='app'>
               <Header activeLink='Downloads' />
-              <div className='App-body'>
-                <div className='Downloads'>
+              <div className='app-body'>
+                <div className='downloads'>
                   <h2>Downloads</h2>
                   {downloads_raw.map((oDownload, i) =>
                     <ul key={i}>
@@ -513,10 +512,10 @@ class App extends React.Component {
 
           {/* Search */}
           <Route exact path='/search' render={() => (
-            <div className='App'>
+            <div className='app'>
               <Header activeLink='Search' />
-              <div className='App-body'>
-                <div className='Search'>
+              <div className='app-body'>
+                <div className='search'>
                   <h2>Search</h2>
                   <input
                     autoFocus

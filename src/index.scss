@@ -11,6 +11,26 @@ $silver: #F2F2F2;
   src: url(./Terminal.ttf);
 }
 
+// used at bottom of "recording" and "song" pages
+@mixin subcontent {
+  background-color: $gold;
+  border-radius: 6px;
+  width: 90%;
+  padding: 5px 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  margin-top: 10px;
+  header {
+    font-weight: bold;
+  }
+  li {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+}
+
+
+// global styles
 body {
   margin: 0 auto;
   text-align: center;
@@ -24,38 +44,41 @@ body {
   background: purple;
   background: -webkit-linear-gradient(to left, $purple, #61045F);
   background: linear-gradient(to left, $purple, #61045F);
-}
-ul, ol {
-  padding: 0;
-  margin: 0;
-}
-a {
-  color: white;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
+
+  ul, ol {
+    padding: 0;
+    margin: 0;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  h2 {
+    color: $gold;
+    font-family: Blackfat;
+    padding: 7px 0;
+    margin: 0;
+  }
+  h3 {
+    margin: 0;
+    margin-top: 2px;
+    color: $gold;
   }
 }
-h2 {
-  color: $gold;
-  font-family: Blackfat;
-  padding: 7px 0;
-  margin: 0;
-}
-h3 {
-  margin: 0;
-  margin-top: 2px;
-  color: $gold;
+
+.app {
 }
 
-.App-body {
+.app-body {
   max-width: 1000px;
-  margin:auto;
+  margin: auto;
   padding: 0 5px;
 }
 
-
-.App-header {
+.app-header {
   background-color: black;
   position: relative;
   text-align: left;
@@ -106,26 +129,23 @@ h3 {
   }
 }
 
-
-.Home {
-  .Home-quickLinks {
+.home {
+  .quickLinks {
     margin-bottom: 10px;
     h3 {
       display: inline;
     }
-    ul {
-      li {
-        display: inline;
-        padding-left: 5px;
-      }
+    ul>li {
+      display: inline;
+      padding-left: 5px;
     }
   }
-  .Home-youtubeVideo {
+  .youtube {
     margin-bottom: 10px;
   }
 }
 
-.Recordings {
+.recordings {
   ul {
     display: block;
     li {
@@ -133,7 +153,7 @@ h3 {
       text-align: left;
     }
   }
-  .Recordings-bottomText {
+  .bottomText {
     background-color: $gold;
     border-radius: 6px;
     width: 90%;
@@ -141,76 +161,54 @@ h3 {
     padding-bottom: 10px;
     text-align: left;
     margin-top: 10px;
-  }
-  .Recordings-bottomText a {
-    color: blue;
+    a {
+      color: blue;
+    }
   }
 }
 
-.Songs {
+.songs {
   ul {
     list-style-type: none;
     text-align: left;
   }
 }
 
-
-.Recording {
+.recording {
   position: relative;
   ol {
     text-align: left;
   }
-  .Recording-subcontent {
-    background-color: $gold;
-    border-radius: 6px;
-    width: 90%;
-    padding: 5px 10px;
-    padding-bottom: 10px;
-    text-align: left;
-    margin-top: 10px;
+  .subcontent {
+    @include subcontent;
   }
-  .Recording-subcontent header {
-    font-weight: bold;
-  }
-  .Recording-subcontent li {
-    list-style-type: none;
-    margin-top: 10px;
-  }
-  .Recording-nextprev ul {
-    font-family: Blackfat;
-    text-align: left;
-    margin-top: 5px;
-  }
-  .Recording-nextprev li {
-    display: inline;
-    margin-right: 5px;
+  .nextprev {
+    ul {
+      font-family: Blackfat;
+      text-align: left;
+      margin-top: 5px;
+      li {
+        display: inline;
+        margin-right: 5px;
+      }
+    }
   }
 }
 
-
-.Song {
+.song {
   ul {
     display: block;
+    li {
+      display: block;
+      text-align: left;
+    }
   }
-  li {
-    display: block;
-    text-align: left;
-  }
-  .Song-subcontent {
-    background-color: $gold;
-    border-radius: 6px;
-    width: 90%;
-    padding: 5px 10px;
-    padding-bottom: 10px;
-    text-align: left;
-    margin-top: 10px;
-  }
-  .Song-subcontent header {
-    font-weight: bold;
+  .subcontent {
+    @include subcontent;
   }
 }
 
-.Downloads {
+.downloads {
   ul {
     list-style-type: none;
     text-align: left;
@@ -223,7 +221,7 @@ h3 {
   }
 }
 
-.Search {
+.search {
   ul {
     display: block;
     li {
@@ -232,7 +230,7 @@ h3 {
       margin-top: 5px;
     }
   }
-  .Search-highlight {
+  .highlight {
     color: $gold;
   }
 }
