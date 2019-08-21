@@ -1,5 +1,5 @@
 /* global document, process */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import recordings from './recordings_raw.json';
 import songs from './songs_raw.json';
@@ -116,36 +116,34 @@ function getFormattedRecording(oRecording) {
   return sFormattedRecording.trim();
 }
 
-class YoutubeWidget extends React.Component {
-  dayOfYear() {
+function YoutubeWidget() {
+  function dayOfYear() {
     const now = new Date(),
       start = new Date(now.getFullYear(), 0, 0),
       diff = now - start,
       oneDay = 1000 * 60 * 60 * 24;
     return Math.floor(diff / oneDay);
   }
-  render() {
-    const src = `
-      https://www.youtube.com/embed/${youtube_raw[this.dayOfYear() % youtube_raw.length]}
-    `;
-    return <div
-      className='youtube'
-      dangerouslySetInnerHTML={{
-        __html: `
-          <iframe
-            width="420"
-            height="315"
-            src="${src}"
-            frameborder="0"
-            allowfullscreen></iframe>
-        `
-      }}
-    />;
-  }
+  const src = `
+    https://www.youtube.com/embed/${youtube_raw[dayOfYear() % youtube_raw.length]}
+  `;
+  return <div
+    className='youtube'
+    dangerouslySetInnerHTML={{
+      __html: `
+        <iframe
+          width="420"
+          height="315"
+          src="${src}"
+          frameborder="0"
+          allowfullscreen></iframe>
+      `
+    }}
+  />;
 }
 
-class TwitterWidget extends React.Component {
-  componentDidMount() {
+function TwitterWidget() {
+  useEffect(function() {
     const id = 'twitter-wjs';
 
     // remove existing script tag (if it exists)
@@ -162,65 +160,48 @@ class TwitterWidget extends React.Component {
     // append script tag to document
     const scriptTags = document.getElementsByTagName('script')[0];
     scriptTags.parentNode.insertBefore(newScriptElement, scriptTags);
-  }
-  render() {
-    return <div
-      dangerouslySetInnerHTML={{
-        __html: `
-          <a class="twitter-timeline"
-          href="https://twitter.com/jojo_blog"
-          data-widget-id="617408069627215872">loading...</a>
-        `
-      }}
-    />;
-  }
+  });
+
+  return <div
+    dangerouslySetInnerHTML={{
+      __html: `
+        <a class="twitter-timeline"
+        href="https://twitter.com/jojo_blog"
+        data-widget-id="617408069627215872">loading...</a>
+      `
+    }}
+  />;
 }
 
-class Header extends React.Component {
-  render() {
-    return <header className='app-header'>
-      <div>
-        <Link to='/'>
-          <h1 className='app-title'>ICECOLDNUGRAPE.COM</h1>
-        </Link>
-        <aside><a href='https://web.archive.org/web/*/icecoldnugrape.com'>Since 2009</a></aside>
-        <ul>
-          {aHeaderLinks.map(o => {
-            return <li key={o.name}>
-              <Link
-                className={(this.props.activeLink === o.name) ? 'activeLink' : ''}
-                to={o.to}>{o.name}
-              </Link>
-            </li>;
-          })}
-        </ul>
-      </div>
-    </header>;
-  }
+function Header(props) {
+  return <header className='app-header'>
+    <div>
+      <Link to='/'>
+        <h1 className='app-title'>ICECOLDNUGRAPE.COM</h1>
+      </Link>
+      <aside><a href='https://web.archive.org/web/*/icecoldnugrape.com'>Since 2009</a></aside>
+      <ul>
+        {aHeaderLinks.map(o => {
+          return <li key={o.name}>
+            <Link
+              className={(props.activeLink === o.name) ? 'activeLink' : ''}
+              to={o.to}>{o.name}
+            </Link>
+          </li>;
+        })}
+      </ul>
+    </div>
+  </header>;
 }
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      searchTerm: ''
-    };
-    this.searchInputOnChange = this.searchInputOnChange.bind(this);
-    this.searchInputOnKeyUp = this.searchInputOnKeyUp.bind(this);
+function App() {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  function setSearchTermFromDomEvent(e) {
+    setSearchTerm(e.target.value);
   }
 
-  searchInputOnChange(e) {
-    this.setState({
-      searchTerm: e.target.value
-    });
-  }
-  searchInputOnKeyUp(e) {
-    this.setState({
-      searchTerm: e.target.value
-    });
-  }
-
-  determineRecordingIndex(sRecordingId) {
+  function determineRecordingIndex(sRecordingId) {
     return recordings.indexOf(
       recordings
         .filter(function(o) {
@@ -229,16 +210,16 @@ class App extends React.Component {
     );
   }
 
-  determinePreviousRecording(sRecordingId) {
-    return recordings[this.determineRecordingIndex(sRecordingId) - 1] || {};
+  function determinePreviousRecording(sRecordingId) {
+    return recordings[determineRecordingIndex(sRecordingId) - 1] || {};
   }
 
-  determineNextRecording(sRecordingId) {
-    return recordings[this.determineRecordingIndex(sRecordingId) + 1] || {};
+  function determineNextRecording(sRecordingId) {
+    return recordings[determineRecordingIndex(sRecordingId) + 1] || {};
   }
 
-  generateSearchResults() {
-    const sQuery = this.state.searchTerm;
+  function generateSearchResults() {
+    const sQuery = searchTerm;
     const aItems = [],
       searchRegex = new RegExp(sQuery, 'i'),
       re = new RegExp('(' + sQuery + ')', 'gi');
@@ -324,7 +305,7 @@ class App extends React.Component {
     }</ul>;
   }
 
-  determineRandomPath() {
+  function determineRandomPath() {
     if (Math.round(Math.random() * 10) > 1) { // 10% chance
       return '/recordings/' + recordings[Math.round(Math.random() * recordings.length) + 1].linkid;
     } else {
@@ -332,213 +313,210 @@ class App extends React.Component {
     }
   }
 
-  render() {
-    return <BrowserRouter basename={process.env.PUBLIC_URL}>
-          {/* Home */}
-          <Route exact path='/' render={() => (
-            <div>
-              <Header />
-              <div className='app-body'>
-                <div className='home'>
-                  <div className='quickLinks'>
-                    <h3>Quick Links: </h3>
-                    <ul>
-                    {aQuickLinks.map(o => (
-                      <li key={o.name}><a href={o.href}>{o.name}</a></li>
-                    ))}
-                    </ul>
-                  </div>
-
-                  <h3>Video of the day</h3>
-                  <YoutubeWidget />
-
-                  <h3>Twitter</h3>
-                  <TwitterWidget />
-                </div>
-              </div>
+  return <BrowserRouter basename={process.env.PUBLIC_URL}>
+    {/* Home */}
+    <Route exact path='/' render={() => (
+      <div>
+        <Header />
+        <div className='app-body'>
+          <div className='home'>
+            <div className='quickLinks'>
+              <h3>Quick Links: </h3>
+              <ul>
+              {aQuickLinks.map(o => (
+                <li key={o.name}><a href={o.href}>{o.name}</a></li>
+              ))}
+              </ul>
             </div>
-          )}/>
 
-          {/* Recordings */}
-          <Route exact path='/recordings' render={() => (
-            <div className='app'>
-              <Header activeLink='Recordings' />
-              <div className='app-body'>
-                <div className='recordings'>
-                  <h2>Recordings</h2>
+            <h3>Video of the day</h3>
+            <YoutubeWidget />
+
+            <h3>Twitter</h3>
+            <TwitterWidget />
+          </div>
+        </div>
+      </div>
+    )}/>
+
+    {/* Recordings */}
+    <Route exact path='/recordings' render={() => (
+      <div className='app'>
+        <Header activeLink='Recordings' />
+        <div className='app-body'>
+          <div className='recordings'>
+            <h2>Recordings</h2>
+            <ul>
+              {recordings
+                .filter(o => o.show !== false)
+                .map((o, i) => <li key={i}><Link to={'/recordings/' + o.linkid}>{getFormattedRecording(o)}</Link></li>)
+              }
+            </ul>
+            <div className='bottomText'>
+              <p>
+              The majority of the data for this website came from <a href='http://www.bobsnerdywebpage.com/'>Bob&apos;s Nerdy Website</a>
+              </p>
+              <p>
+              Raw data: <a href='https://github.com/jonbri/icecoldnugrape/blob/master/src/recordings_raw.json'>recordings_raw.json</a>, <a href='https://github.com/jonbri/icecoldnugrape/blob/master/src/songs_raw.json'>songs_raw.json</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    )}/>
+
+    {/* Recording */}
+    <Route exact path={'/recordings/:recordingId'} render={props => (
+      <div className='app'>
+        <Header activeLink='Recordings' />
+        <div className='app-body'>
+          <div className='recording'>
+            <h3>{getFormattedRecording(getRecording(props.match.params.recordingId))}</h3>
+            <div className='nextprev'>
+              <ul>
+                {determinePreviousRecording(props.match.params.recordingId).linkid &&
+                  <li><Link to={'/recordings/' + determinePreviousRecording(props.match.params.recordingId).linkid}>Previous</Link></li>
+                }
+                {determineNextRecording(props.match.params.recordingId).linkid &&
+                  <li><Link to={'/recordings/' + determineNextRecording(props.match.params.recordingId).linkid}>Next</Link></li>
+                }
+              </ul>
+            </div>
+            <ol>
+              {getRecording(props.match.params.recordingId).songs
+                .map((o, i) => <li key={i}><Link to={'/songs/' + o.linkid}>{getSong(o.linkid).value}</Link></li>)
+              }
+            </ol>
+
+            {(getRecording(props.match.params.recordingId).quality || getRecording(props.match.params.recordingId).comments.length > 0) &&
+              <div className='subcontent'>
+                {getRecording(props.match.params.recordingId).quality &&
+                  <div className='recording-metadata'>
+                    <label>Best known quality:</label>&nbsp;{getRecording(props.match.params.recordingId).quality}
+                  </div>
+                }
+
+                {getRecording(props.match.params.recordingId).comments.length > 0 &&
                   <ul>
-                    {recordings
-                      .filter(o => o.show !== false)
-                      .map((o, i) => <li key={i}><Link to={'/recordings/' + o.linkid}>{getFormattedRecording(o)}</Link></li>)
+                    {getRecording(props.match.params.recordingId).comments
+                      .map((o, i) => <li key={i}><header>{o.name + ' (' + o.time.split(' ')[0] + ')'}</header>{o.text}</li>)
                     }
                   </ul>
-                  <div className='bottomText'>
-                    <p>
-                    The majority of the data for this website came from <a href='http://www.bobsnerdywebpage.com/'>Bob&apos;s Nerdy Website</a>
-                    </p>
-                    <p>
-                    Raw data: <a href='https://github.com/jonbri/icecoldnugrape/blob/master/src/recordings_raw.json'>recordings_raw.json</a>, <a href='https://github.com/jonbri/icecoldnugrape/blob/master/src/songs_raw.json'>songs_raw.json</a>
-                    </p>
-                  </div>
-                </div>
+                }
               </div>
-            </div>
-          )}/>
+            }
+          </div>
+        </div>
+      </div>
+    )}/>
 
-          {/* Recording */}
-          <Route exact path={'/recordings/:recordingId'} render={props => (
-            <div className='app'>
-              <Header activeLink='Recordings' />
-              <div className='app-body'>
-                <div className='recording'>
-                  <h3>{getFormattedRecording(getRecording(props.match.params.recordingId))}</h3>
-                  <div className='nextprev'>
-                    <ul>
-                      {this.determinePreviousRecording(props.match.params.recordingId).linkid &&
-                        <li><Link to={'/recordings/' + this.determinePreviousRecording(props.match.params.recordingId).linkid}>Previous</Link></li>
-                      }
-                      {this.determineNextRecording(props.match.params.recordingId).linkid &&
-                        <li><Link to={'/recordings/' + this.determineNextRecording(props.match.params.recordingId).linkid}>Next</Link></li>
-                      }
-                    </ul>
-                  </div>
-                  <ol>
-                    {getRecording(props.match.params.recordingId).songs
-                      .map((o, i) => <li key={i}><Link to={'/songs/' + o.linkid}>{getSong(o.linkid).value}</Link></li>)
-                    }
-                  </ol>
+    {/* Songs */}
+    <Route exact path='/songs' render={() => (
+      <div className='app'>
+        <Header activeLink='Songs' />
+        <div className='app-body'>
+          <div className='songs'>
+            <h2>Songs</h2>
+            <ul>
+            {songs
+              .map((o, i) => <li key={i}><Link to={'/songs/' + o.linkid}>{o.value}</Link></li>)
+            }
+            </ul>
+          </div>
+        </div>
+      </div>
+    )}/>
 
-                  {(getRecording(props.match.params.recordingId).quality || getRecording(props.match.params.recordingId).comments.length > 0) &&
-                    <div className='subcontent'>
-                      {getRecording(props.match.params.recordingId).quality &&
-                        <div className='recording-metadata'>
-                          <label>Best known quality:</label>&nbsp;{getRecording(props.match.params.recordingId).quality}
-                        </div>
-                      }
+    {/* Song */}
+    <Route exact path={'/songs/:songId'} render={props => (
+      <div className='app'>
+        <Header activeLink='Songs' />
+        <div className='app-body'>
+          <div className='song'>
+            <h3>{getSong(props.match.params.songId).value}</h3>
+            <ul>
+            {getSong(props.match.params.songId).recordingsHistory
+              .map((o, i) => <li key={i}><Link to={'/recordings/' + o.linkid}>{getFormattedRecording(o)}</Link></li>)
+            }
+            </ul>
 
-                      {getRecording(props.match.params.recordingId).comments.length > 0 &&
-                        <ul>
-                          {getRecording(props.match.params.recordingId).comments
-                            .map((o, i) => <li key={i}><header>{o.name + ' (' + o.time.split(' ')[0] + ')'}</header>{o.text}</li>)
-                          }
-                        </ul>
-                      }
-                    </div>
+            {getSong(props.match.params.songId).comments.length > 0 &&
+              <div className='subcontent'>
+                <ul>
+                  {getSong(props.match.params.songId).comments
+                    .map((o, i) => <li key={i}><header>{o.name + ' (' + o.time.split(' ')[0] + ')'}</header>{o.text}</li>)
                   }
-                </div>
+                </ul>
               </div>
-            </div>
-          )}/>
+            }
 
-          {/* Songs */}
-          <Route exact path='/songs' render={() => (
-            <div className='app'>
-              <Header activeLink='Songs' />
-              <div className='app-body'>
-                <div className='songs'>
-                  <h2>Songs</h2>
-                  <ul>
-                  {songs
-                    .map((o, i) => <li key={i}><Link to={'/songs/' + o.linkid}>{o.value}</Link></li>)
-                  }
-                  </ul>
-                </div>
-              </div>
-            </div>
-          )}/>
+          </div>
+        </div>
+      </div>
+    )}/>
 
-          {/* Song */}
-          <Route exact path={'/songs/:songId'} render={props => (
-            <div className='app'>
-              <Header activeLink='Songs' />
-              <div className='app-body'>
-                <div className='song'>
-                  <h3>{getSong(props.match.params.songId).value}</h3>
-                  <ul>
-                  {getSong(props.match.params.songId).recordingsHistory
-                    .map((o, i) => <li key={i}><Link to={'/recordings/' + o.linkid}>{getFormattedRecording(o)}</Link></li>)
-                  }
-                  </ul>
+    {/* Downloads */}
+    <Route exact path='/downloads' render={() => (
+      <div className='app'>
+        <Header activeLink='Downloads' />
+        <div className='app-body'>
+          <div className='downloads'>
+            <h2>Downloads</h2>
+            {downloads_raw.map((oDownload, i) =>
+              <ul key={i}>
+                <li>
 
-                  {getSong(props.match.params.songId).comments.length > 0 &&
-                    <div className='subcontent'>
-                      <ul>
-                        {getSong(props.match.params.songId).comments
-                          .map((o, i) => <li key={i}><header>{o.name + ' (' + o.time.split(' ')[0] + ')'}</header>{o.text}</li>)
-                        }
-                      </ul>
-                    </div>
+                  {oDownload.title !== '' &&
+                    <h3>{oDownload.title}</h3>
                   }
 
-                </div>
-              </div>
-            </div>
-          )}/>
+                  {oDownload.zip &&
+                    <a className='zip' href={'/media/' + oDownload.group + '/' + oDownload.zip}>Download All</a>
+                  }
 
-          {/* Downloads */}
-          <Route exact path='/downloads' render={() => (
-            <div className='app'>
-              <Header activeLink='Downloads' />
-              <div className='app-body'>
-                <div className='downloads'>
-                  <h2>Downloads</h2>
-                  {downloads_raw.map((oDownload, i) =>
-                    <ul key={i}>
+                  {oDownload.songs.map((oSong, j) =>
+                    <ul key={j}>
                       <li>
-
-                        {oDownload.title !== '' &&
-                          <h3>{oDownload.title}</h3>
-                        }
-
-                        {oDownload.zip &&
-                          <a className='zip' href={'/media/' + oDownload.group + '/' + oDownload.zip}>Download All</a>
-                        }
-
-                        {oDownload.songs.map((oSong, j) =>
-                          <ul key={j}>
-                            <li>
-                              <a href={'/media/' + oDownload.group + '/' + oSong.path}>{oSong.title}</a>
-                            </li>
-                          </ul>
-                        )}
-                        </li>
-                      <br />
+                        <a href={'/media/' + oDownload.group + '/' + oSong.path}>{oSong.title}</a>
+                      </li>
                     </ul>
                   )}
-                </div>
-              </div>
-            </div>
-          )}/>
+                  </li>
+                <br />
+              </ul>
+            )}
+          </div>
+        </div>
+      </div>
+    )}/>
 
-          {/* Search */}
-          <Route exact path='/search' render={() => (
-            <div className='app'>
-              <Header activeLink='Search' />
-              <div className='app-body'>
-                <div className='search'>
-                  <h2>Search</h2>
-                  <input
-                    autoFocus
-                    value={this.state.searchTerm}
-                    onKeyUp={this.searchInputOnKeyUp}
-                    onChange={this.searchInputOnChange}
-                  />
-                  <br />
-                  {this.generateSearchResults()}
-                </div>
-              </div>
-            </div>
-          )}/>
+    {/* Search */}
+    <Route exact path='/search' render={() => (
+      <div className='app'>
+        <Header activeLink='Search' />
+        <div className='app-body'>
+          <div className='search'>
+            <h2>Search</h2>
+            <input
+              autoFocus
+              value={searchTerm}
+              onKeyUp={setSearchTermFromDomEvent}
+              onChange={setSearchTermFromDomEvent}
+            />
+            <br />
+            {generateSearchResults()}
+          </div>
+        </div>
+      </div>
+    )}/>
 
-          {/* Random */}
-          <Route exact path='/random' render={() => (
-            <Redirect to={this.determineRandomPath()} />
-          )}/>
+    {/* Random */}
+    <Route exact path='/random' render={() => (
+      <Redirect to={determineRandomPath()} />
+    )}/>
 
-        <div style={{height: '10px'}}></div>
-      {/* end of App */}
-    </BrowserRouter>;
-  }
+    <div style={{height: '10px'}}></div>
+  </BrowserRouter>;
 }
 
 // render the full application
