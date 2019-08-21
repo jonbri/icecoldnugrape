@@ -384,7 +384,11 @@ function App() {
             </div>
             <ol>
               {getRecording(props.match.params.recordingId).songs
-                .map((o, i) => <li key={i}><Link to={'/songs/' + o.linkid}>{getSong(o.linkid).value}</Link></li>)
+                .map((o, i) =>
+                  <li key={i}>
+                    <Link to={'/songs/' + o.linkid}>{i + 1}. {getSong(o.linkid).value}</Link>
+                  </li>
+                )
               }
             </ol>
 
