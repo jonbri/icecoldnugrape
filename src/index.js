@@ -78,19 +78,19 @@ function getFormattedRecording(oRecording) {
 
   // special label if it has type
   if (oRecording.type === 'Album') {
-    return (oRecording.year + ' Album: ' + oRecording.name).trim();
+    return (`${oRecording.name} (${oRecording.year})`).trim();
   } else if (oRecording.type === 'Studio Bootleg') {
-    return (oRecording.year + ' Studio Bootleg: ' + oRecording.name).trim();
+    return (`${oRecording.name} (studio bootleg, ${oRecording.year})`).trim();
   } else if (oRecording.type === 'Compilation') {
-    return ('Compilation: ' + oRecording.name).trim();
+    return (`${oRecording.name} (compilation)`).trim();
   } else if (oRecording.type === 'Interview') {
-    return (oRecording.year + ' Interview: ' + oRecording.name).trim();
+    return (`${oRecording.name} (${oRecording.year})`).trim();
   } else if (oRecording.type === 'TV') {
-    return (oRecording.year + ' TV: ' + oRecording.name).trim();
+    return (`${oRecording.name} (${oRecording.year})`).trim();
   } else if (oRecording.type === 'Radio') {
-    return (oRecording.year + ' Radio: ' + oRecording.name).trim();
+    return (`${oRecording.name} (${oRecording.year})`).trim();
   } else if (oRecording.type === 'Single') {
-    return (oRecording.year + ' Single: ' + oRecording.name).trim();
+    return (`${oRecording.name} (single, ${oRecording.year})`).trim();
   }
 
   if (oRecording.year || oRecording.month || oRecording.city) {
