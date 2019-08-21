@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --mode=development",
-    "build-prod": "webpack --mode=production",
+    "build:prod": "webpack --mode=production",
     "lint": "eslint src/**/*.js",
     "start": "webpack-dev-server",
     "serve": "ws --port 3000 --directory dist --spa index.html"
