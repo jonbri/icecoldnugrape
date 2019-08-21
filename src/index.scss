@@ -126,6 +126,10 @@ body {
         color: $gold;
       }
     }
+    .nextLink, .previousLink {
+      font-size: 80%;
+      font-style: italic;
+    }
   }
 }
 
@@ -182,17 +186,6 @@ body {
   }
   .subcontent {
     @include subcontent;
-  }
-  .nextprev {
-    ul {
-      font-family: Blackfat;
-      text-align: left;
-      margin-top: 5px;
-      li {
-        display: inline;
-        margin-right: 5px;
-      }
-    }
   }
 }
 

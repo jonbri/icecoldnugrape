@@ -189,6 +189,17 @@ function Header(props) {
             </Link>
           </li>;
         })}
+
+        {props.previousRecording &&
+          <li className="previousLink">
+            <Link to={'/recordings/' + props.previousRecording.linkid}>Previous</Link>
+          </li>
+        }
+        {props.nextRecording &&
+          <li className="nextLink">
+            <Link to={'/recordings/' + props.nextRecording.linkid}>Next</Link>
+          </li>
+        }
       </ul>
     </div>
   </header>;
@@ -208,14 +219,6 @@ function App() {
           return parseInt(o.linkid, 10) === parseInt(sRecordingId, 10)
         })[0]
     );
-  }
-
-  function determinePreviousRecording(sRecordingId) {
-    return recordings[determineRecordingIndex(sRecordingId) - 1] || {};
-  }
-
-  function determineNextRecording(sRecordingId) {
-    return recordings[determineRecordingIndex(sRecordingId) + 1] || {};
   }
 
   function generateSearchResults() {
@@ -368,20 +371,15 @@ function App() {
     {/* Recording */}
     <Route exact path={'/recordings/:recordingId'} render={props => (
       <div className='app'>
-        <Header activeLink='Recordings' />
+        <Header
+          activeLink='Recordings'
+          recordingId={props.match.params.recordingId}
+          previousRecording={recordings[determineRecordingIndex(props.match.params.recordingId) - 1]}
+          nextRecording={recordings[determineRecordingIndex(props.match.params.recordingId) + 1]}
+        />
         <div className='app-body'>
           <div className='recording'>
             <h3>{getFormattedRecording(getRecording(props.match.params.recordingId))}</h3>
-            <div className='nextprev'>
-              <ul>
-                {determinePreviousRecording(props.match.params.recordingId).linkid &&
-                  <li><Link to={'/recordings/' + determinePreviousRecording(props.match.params.recordingId).linkid}>Previous</Link></li>
-                }
-                {determineNextRecording(props.match.params.recordingId).linkid &&
-                  <li><Link to={'/recordings/' + determineNextRecording(props.match.params.recordingId).linkid}>Next</Link></li>
-                }
-              </ul>
-            </div>
             <ol>
               {getRecording(props.match.params.recordingId).songs
                 .map((o, i) =>
