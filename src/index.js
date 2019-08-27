@@ -201,42 +201,48 @@ function TwitterWidget() {
 function Header(props) {
   return (
     <header className="app-header">
-      <div>
-        <Link to="/">
-          <h1 className="app-title">ICECOLDNUGRAPE.COM</h1>
-        </Link>
-        <aside>
-          <a href="https://web.archive.org/web/*/icecoldnugrape.com">
-            Since 2009
-          </a>
-        </aside>
-        <ul>
-          {aHeaderLinks.map(o => {
-            return (
-              <li key={o.name}>
-                <Link
-                  className={props.activeLink === o.name ? "activeLink" : ""}
-                  to={o.to}
-                >
-                  {o.name}
+      <div className="header-fixed-container">
+        <div className="header-top">
+          <Link to="/">
+            <h1 className="app-title">ICECOLDNUGRAPE.COM</h1>
+          </Link>
+          <aside>
+            <a href="https://web.archive.org/web/*/icecoldnugrape.com">
+              Since 2009
+            </a>
+          </aside>
+        </div>
+        <div className="header-body">
+          <ul>
+            {aHeaderLinks.map(o => {
+              return (
+                <li key={o.name}>
+                  <Link
+                    className={props.activeLink === o.name ? "activeLink" : ""}
+                    to={o.to}
+                  >
+                    {o.name}
+                  </Link>
+                </li>
+              );
+            })}
+
+            {props.previousRecording && (
+              <li className="previousLink">
+                <Link to={"/recordings/" + props.previousRecording.linkid}>
+                  Previous
                 </Link>
               </li>
-            );
-          })}
-
-          {props.previousRecording && (
-            <li className="previousLink">
-              <Link to={"/recordings/" + props.previousRecording.linkid}>
-                Previous
-              </Link>
-            </li>
-          )}
-          {props.nextRecording && (
-            <li className="nextLink">
-              <Link to={"/recordings/" + props.nextRecording.linkid}>Next</Link>
-            </li>
-          )}
-        </ul>
+            )}
+            {props.nextRecording && (
+              <li className="nextLink">
+                <Link to={"/recordings/" + props.nextRecording.linkid}>
+                  Next
+                </Link>
+              </li>
+            )}
+          </ul>
+        </div>
       </div>
     </header>
   );

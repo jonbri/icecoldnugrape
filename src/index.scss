@@ -84,42 +84,51 @@ body {
   text-align: left;
   border-top: 2px solid $silver;
   border-bottom: 1px solid $silver;
-  >div {
+  .header-fixed-container {
     max-width: 1000px;
     height: 47px;
     margin: auto;
-    padding: 5px 0;
+    padding: 5px 5px;
     position: relative;
     background-image: url("./rightHeaderImg.png");
     background-position: right top;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-top {
+    display: flex;
+  }
+  .header-body {
+    position: relative;
   }
   h1 {
     font-family: Blackfat;
-    float: left;
     color: $gold;
     font-size: 24px;
     letter-spacing: 3px;
     margin: 0;
-    margin-left: 5px;
     padding: 0;
     padding-top: 2px;
   }
   aside {
-    float: left;
-    font-size: 11px;
-    color: white;
-    font-style: italic;
-    position: relative;
-    top: 9px;
-    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    a {
+      font-size: 11px;
+      color: white;
+      font-style: italic;
+      padding-bottom: 3px;
+      padding-left: 4px;
+    }
   }
   ul {
     position: absolute;
-    bottom: 2px;
+    top: -2px;
     li {
       display: inline;
-      margin-left: 5px;
+      margin-right: 5px;
       font-weight: bold;
       font-size: 20px;
       >.activeLink {
