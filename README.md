@@ -16,7 +16,7 @@ Two NodeJS server processes are used:
 1. Serve the web application
 ```
 npm run build:prod
-npm serve # runs on port 3000
+npm run serve # runs on port 3000
 ```
 2. Serve the "Downloads" content
 ```
