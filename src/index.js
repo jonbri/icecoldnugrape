@@ -28,7 +28,8 @@ const aQuickLinks = [
     href: "https://www.highroadtouring.com/artists/jonathan-richman/",
     name: "Tour"
   },
-  { href: "http://www.bobsnerdywebpage.com/", name: "Bob" },
+  { href: "https://jonathanrichman.bandcamp.com/", name: "Bandcamp" },
+  { href: "https://en.wikipedia.org/wiki/Jonathan_Richman", name: "Wiki" },
   { href: "http://www.jojochords.com/index.html", name: "Ramon" }
 ];
 
