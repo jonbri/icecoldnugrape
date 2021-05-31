@@ -144,14 +144,12 @@ function YoutubeWidget() {
       oneDay = 1000 * 60 * 60 * 24;
     return Math.floor(diff / oneDay);
   }
-  const src = `
-    https://www.youtube.com/embed/${
-      youtube_raw[dayOfYear() % youtube_raw.length]
-    }
-  `;
+  const youtubeHash = youtube_raw[dayOfYear() % youtube_raw.length];
+  const src = `https://www.youtube.com/embed/${youtubeHash}`;
   return (
     <div
       className="youtube"
+      data-youtube-hash={youtubeHash}
       dangerouslySetInnerHTML={{
         __html: `
         <iframe
