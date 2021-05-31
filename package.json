@@ -6,9 +6,9 @@
   "scripts": {
     "build": "webpack --mode=development",
     "build:prod": "webpack --mode=production",
-    "prettier": "prettier --write src/**/*.js",
-    "prettier:check": "prettier --check src/**/*.js",
-    "test": "npm run lint && npm run prettier:check",
+    "format": "prettier --write src/**/*.js",
+    "format:check": "prettier --check src/**/*.js",
+    "test": "npm run lint && npm run format:check",
     "lint": "eslint src/**/*.js",
     "start": "webpack-dev-server",
     "serve": "ws --port 3000 --directory dist --spa index.html"
