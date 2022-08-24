@@ -2,8 +2,8 @@
 
 ## Development
 ```
-npm install
-npm start # localhost:8080
+yarn
+yarn dev # localhost:3000
 ```
 
 ## Deployment
@@ -15,8 +15,9 @@ Altogether, there are three locations on the server used:
 Two NodeJS server processes are used:
 1. Serve the web application
 ```
-npm run build:prod
-npm run serve # runs on port 3000
+yarn build
+cd out
+ws --port 3000
 ```
 2. Serve the "Downloads" content
 ```
@@ -36,9 +37,4 @@ Place the following at the very end of the `VirtualHost` tag:
 >   ProxyPass     /media/     http://localhost:3001/
 >   ProxyPass     /     http://localhost:3000/
 ```
-
-## Data
-src/recordings_raw.json fields:
-* `n` -> number
-* `s` -> section
 
