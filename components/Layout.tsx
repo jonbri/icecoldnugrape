@@ -1,9 +1,13 @@
 import Head from "next/head";
 import Link from "next/link";
-import { ReactNode } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import { getRandomUrl } from "../lib/recording";
 import cn from "../styles/Layout.module.scss";
 
+interface SiteLink {
+  href: string;
+  text: string;
+}
 export interface LayoutProps {
   type: "index" | "search" | "downloads" | "recordings" | "songs";
   prev?: number | null;
@@ -11,28 +15,36 @@ export interface LayoutProps {
   children: ReactNode;
 }
 const Layout = ({ children, type, prev, next }: LayoutProps) => {
-  const siteLinks = [
-    {
-      href: "/downloads",
-      text: "Downloads",
-    },
-    {
-      href: "/recordings",
-      text: "Recordings",
-    },
-    {
-      href: "/songs",
-      text: "Songs",
-    },
-    {
-      href: "/search",
-      text: "Search",
-    },
-    {
-      href: getRandomUrl(),
-      text: "Random",
-    },
-  ];
+  const [siteLinks, setSiteLinks] = useState<SiteLink[]>([]);
+
+  // the "random" link needs to only render on client
+  // https://nextjs.org/docs/messages/react-hydration-error
+  useEffect(() => {
+    const siteLinks = [
+      {
+        href: "/downloads",
+        text: "Downloads",
+      },
+      {
+        href: "/recordings",
+        text: "Recordings",
+      },
+      {
+        href: "/songs",
+        text: "Songs",
+      },
+      {
+        href: "/search",
+        text: "Search",
+      },
+      {
+        href: getRandomUrl(),
+        text: "Random",
+      },
+    ];
+    setSiteLinks(siteLinks);
+  }, [children]);
+
   return (
     <div className={cn.root}>
       <Head>
