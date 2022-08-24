@@ -3,8 +3,10 @@ import { ParsedUrlQuery } from "querystring";
 import {
   getRecordings,
   getSongs,
+  getComments,
   GoodRecording,
   GoodSong,
+  GoodCommentInstance,
 } from "../lib/recording";
 import Layout from "../components/Layout";
 import { useEffect, useState } from "react";
@@ -12,15 +14,18 @@ import { useEffect, useState } from "react";
 interface SearchProps {
   recordings: GoodRecording[];
   songs: GoodSong[];
+  comments: GoodCommentInstance[];
 }
 interface Params extends ParsedUrlQuery {}
 export const getStaticProps: GetStaticProps<SearchProps, Params> = async () => {
   const recordings = getRecordings();
   const songs = getSongs();
+  const comments = getComments();
   return {
     props: {
       recordings,
       songs,
+      comments,
     },
   };
 };
@@ -29,7 +34,7 @@ interface Match {
   href: string;
   text: string;
 }
-const SearchPage = ({ recordings, songs }: SearchProps) => {
+const SearchPage = ({ recordings, songs, comments }: SearchProps) => {
   const [query, setQuery] = useState("");
   const [matches, setMatches] = useState<Match[]>([]);
   useEffect(() => {
@@ -57,10 +62,23 @@ const SearchPage = ({ recordings, songs }: SearchProps) => {
       })
       .map((song) => ({
         href: `/songs/${song.linkid}`,
-        text: song.value,
+        text: `SONG: ${song.value}`,
       }));
-    setMatches(recordingMatches.concat(songMatches));
-  }, [query, recordings, songs]);
+    const commentMatches = comments
+      .filter((comment) => {
+        const titleMatch = comment.comment.text
+          .toLowerCase()
+          .includes(query.toLowerCase());
+        return titleMatch;
+      })
+      .map((comment) => ({
+        href: `/${comment.type}/${comment.linkid}`,
+        text: `COMMENT: ${comment.comment.text}`,
+      }));
+
+    const matches = [...recordingMatches, ...songMatches, ...commentMatches];
+    setMatches(matches);
+  }, [query, recordings, songs, comments]);
   return (
     <Layout type="search">
       <input
@@ -74,7 +92,7 @@ const SearchPage = ({ recordings, songs }: SearchProps) => {
       <ul>
         {matches.map(({ href, text }, index) => {
           return (
-            <li key={`${href}index`}>
+            <li key={`${href}${index}`}>
               <a href={href}>{text}</a>
             </li>
           );

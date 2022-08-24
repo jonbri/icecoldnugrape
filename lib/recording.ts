@@ -175,6 +175,41 @@ export const getSong = (id: string) => {
   }
 };
 
+export interface GoodCommentInstance {
+  type: string;
+  linkid: number;
+  comment: GoodComment;
+}
+const recordingsWithComment = goodRecordings.filter(
+  ({ comments }) => comments.length > 0
+);
+const songsWithComment = goodSongs.filter(
+  ({ comments }) => comments.length > 0
+);
+const commentInstances: GoodCommentInstance[] = [];
+for (const recordingWithComment of recordingsWithComment) {
+  recordingWithComment.comments.forEach((comment) => {
+    commentInstances.push({
+      type: "recordings",
+      linkid: recordingWithComment.linkid,
+      comment,
+    });
+  });
+}
+for (const songWithComment of songsWithComment) {
+  songWithComment.comments.forEach((comment) => {
+    commentInstances.push({
+      type: "songs",
+      linkid: songWithComment.linkid,
+      comment,
+    });
+  });
+}
+
+export const getComments = () => {
+  return commentInstances;
+};
+
 export const getRandomUrl = () => {
   const recordings = getRecordings();
   const songs = getSongs().filter(({ value }) => value !== "");
