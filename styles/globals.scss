@@ -1,0 +1,65 @@
+$purple: #aa076b;
+$gold: #ffd700;
+
+@font-face {
+  font-family: Blackfat;
+  src: url(/Blackfat.ttf);
+}
+@font-face {
+  font-family: Terminal;
+  src: url(/Terminal.ttf);
+}
+
+// global styles
+body {
+  margin: 0 auto;
+  display: block;
+  font-family: Terminal;
+  font-size: 20px;
+  background-color: $purple;
+  background: purple;
+  background: -webkit-linear-gradient(to left, $purple, #61045f);
+  background: linear-gradient(to left, $purple, #61045f);
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+h2 {
+  color: $gold;
+  font-family: Blackfat;
+  padding: 7px 0;
+  margin: 0;
+}
+h3 {
+  margin: 0;
+  margin-top: 2px;
+  color: $gold;
+}
+
+.comments {
+  background-color: $gold;
+  border-radius: 6px;
+  width: 90%;
+  padding: 5px 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  margin-top: 10px;
+  header {
+    font-weight: bold;
+  }
+  li {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+}

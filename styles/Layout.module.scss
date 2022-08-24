@@ -1,0 +1,52 @@
+.root {
+  margin-bottom: 20px;
+}
+
+.header {
+  padding: 0 15px;
+  border-bottom: 1px solid white;
+  background-color: black;
+
+  position: relative;
+  background-image: url("/rightHeaderImg.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+
+  .title {
+    color: gold;
+    font-size: 25px;
+    margin-right: 4px;
+  }
+
+  aside,
+  ul,
+  li {
+    display: inline;
+  }
+
+  li {
+    margin-right: 7px;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  aside > a {
+    font-size: 14px;
+    font-style: italic;
+  }
+}
+
+.active {
+  color: gold;
+}
+
+.nextprev {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.bodyContainer {
+  padding: 0 16px;
+}
