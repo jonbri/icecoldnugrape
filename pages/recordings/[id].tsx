@@ -40,6 +40,8 @@ export const getStaticPaths: GetStaticPaths<Params> = async () => {
 
 const RecordingPage = ({ recording }: RecordingProps) => {
   const { songs, formattedTitle, prev, next } = recording;
+  const hasSubContent =
+    recording.quality !== undefined || recording.comments.length > 0;
   return (
     <Layout type="recordings" prev={prev} next={next}>
       <h3>{formattedTitle}</h3>
@@ -51,19 +53,21 @@ const RecordingPage = ({ recording }: RecordingProps) => {
         ))}
       </ul>
 
-      <div className="comments">
-        {recording.quality && (
-          <div>Best known quality: {recording.quality}</div>
-        )}
-        <ul>
-          {recording.comments.map(({ name, text, time }) => (
-            <li key={time}>
-              <header>{name + " (" + time.split(" ")[0] + ")"}</header>
-              {text}
-            </li>
-          ))}
-        </ul>
-      </div>
+      {hasSubContent && (
+        <div className="comments">
+          {recording.quality && (
+            <div>Best known quality: {recording.quality}</div>
+          )}
+          <ul>
+            {recording.comments.map(({ name, text, time }) => (
+              <li key={time}>
+                <header>{name + " (" + time.split(" ")[0] + ")"}</header>
+                {text}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </Layout>
   );
 };

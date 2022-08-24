@@ -62,7 +62,7 @@ const SearchPage = ({ recordings, songs, comments }: SearchProps) => {
       })
       .map((song) => ({
         href: `/songs/${song.linkid}`,
-        text: `SONG: ${song.value}`,
+        text: song.value,
       }));
     const commentMatches = comments
       .filter((comment) => {

@@ -44,6 +44,7 @@ export const getStaticPaths: GetStaticPaths<Params> = async () => {
 };
 
 const SongPage = ({ song, shows }: SongProps) => {
+  const hasSubContent = song.comments.length > 0;
   return (
     <Layout type="songs">
       <h3>{song.value}</h3>
@@ -55,7 +56,7 @@ const SongPage = ({ song, shows }: SongProps) => {
         ))}
       </ul>
 
-      {song.comments.length > 0 && (
+      {hasSubContent && (
         <div className="comments">
           <ul>
             {song.comments.map(({ name, text, time }) => (
