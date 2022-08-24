@@ -22,7 +22,7 @@ Two NodeJS server processes are used:
 ```
 yarn build
 cd out
-ws --port 3000
+serve -l 3000
 ```
 
 2. Serve the "Downloads" content
