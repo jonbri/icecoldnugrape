@@ -1,11 +1,11 @@
 import { GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
-import { getRecordings, GoodRecording } from "../lib/recording";
+import { getRecordings, Recording } from "../lib/data";
 import Layout from "../components/Layout";
 import type { NextPage } from "next";
 
 interface RecordingsPageProps {
-  recordings: GoodRecording[];
+  recordings: Recording[];
 }
 interface Params extends ParsedUrlQuery {}
 export const getStaticProps: GetStaticProps<

@@ -1,15 +1,11 @@
 import type { NextPage } from "next";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { ParsedUrlQuery } from "querystring";
-import {
-  getRecording,
-  getRecordings,
-  GoodRecording,
-} from "../../lib/recording";
+import { getRecording, getRecordings, Recording } from "../../lib/data";
 import Layout from "../../components/Layout";
 
 interface RecordingPageProps {
-  recording: GoodRecording;
+  recording: Recording;
 }
 interface Params extends ParsedUrlQuery {
   id: string;

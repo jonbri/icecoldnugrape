@@ -4,18 +4,18 @@ import {
   getRecordings,
   getSongs,
   getComments,
-  GoodRecording,
-  GoodSong,
-  GoodCommentInstance,
-} from "../lib/recording";
+  Recording,
+  Song,
+  CommentInstance,
+} from "../lib/data";
 import Layout from "../components/Layout";
 import { useEffect, useState } from "react";
 import type { NextPage } from "next";
 
 interface SearchPageProps {
-  recordings: GoodRecording[];
-  songs: GoodSong[];
-  comments: GoodCommentInstance[];
+  recordings: Recording[];
+  songs: Song[];
+  comments: CommentInstance[];
 }
 interface Params extends ParsedUrlQuery {}
 export const getStaticProps: GetStaticProps<

@@ -1,31 +1,27 @@
-// import recordingsData from "../data/recordings_raw.json";
-// import songsData from "../data/songs_raw.json";
-
-// import { goodRecordings, goodSongs } from "./rawImport";
 import payload from "./rawImport";
-const { goodRecordings, goodSongs } = payload;
+const { recordings, songs } = payload;
 
-export interface GoodComment {
+export interface Comment {
   name: string;
   text: string;
   time: string;
   bob?: number;
 }
-export interface GoodCommentInstance {
+export interface CommentInstance {
   type: string;
   linkid: number;
-  comment: GoodComment;
+  comment: Comment;
 }
-export interface GoodSong {
+export interface Song {
   linkid: number;
   value: string;
-  comments: GoodComment[];
+  comments: Comment[];
   shows: number[];
 }
-export interface GoodSongInstance extends GoodSong {
+export interface SongInstance extends Song {
   n: number;
 }
-export interface GoodRecording {
+export interface Recording {
   linkid: number;
   type: string;
   venue?: string;
@@ -37,18 +33,18 @@ export interface GoodRecording {
   year?: number;
   sublocation?: string;
   jon?: number;
-  songs?: GoodSongInstance[];
-  comments: GoodComment[];
+  songs?: SongInstance[];
+  comments: Comment[];
   formattedTitle: string;
   prev: number | null;
   next: number | null;
   name?: string;
 }
 
-export const getRecordings = () => goodRecordings;
+export const getRecordings = () => recordings;
 
 export const getRecording = (id: string) => {
-  for (const recording of goodRecordings) {
+  for (const recording of recordings) {
     if (recording.linkid === Number(id)) return recording;
   }
 };
@@ -56,35 +52,30 @@ export const getRecording = (id: string) => {
 export const idsToShows = (ids: number[]) =>
   ids.map((id) => getRecording(id + "")!);
 
-export const getSongs = () => goodSongs;
+export const getSongs = () => songs;
 
-export const getSong = (id: string) => {
-  for (const song of goodSongs) {
-    if (song.linkid === Number(id)) return song;
-  }
-};
+export const getSong = (id: number) =>
+  songs.find(({ linkid }) => linkid === id);
 
-const recordingsWithComment = goodRecordings.filter(
+const recordingsWithComment = recordings.filter(
   ({ comments }) => comments.length > 0
 );
-const songsWithComment = goodSongs.filter(
-  ({ comments }) => comments.length > 0
-);
-const commentInstances: GoodCommentInstance[] = [];
-for (const recordingWithComment of recordingsWithComment) {
-  recordingWithComment.comments.forEach((comment) => {
+const songsWithComment = songs.filter(({ comments }) => comments.length > 0);
+const commentInstances: CommentInstance[] = [];
+for (const recording of recordingsWithComment) {
+  recording.comments.forEach((comment: Comment) => {
     commentInstances.push({
       type: "recordings",
-      linkid: recordingWithComment.linkid,
+      linkid: recording.linkid,
       comment,
     });
   });
 }
-for (const songWithComment of songsWithComment) {
-  songWithComment.comments.forEach((comment) => {
+for (const song of songsWithComment) {
+  song.comments.forEach((comment: Comment) => {
     commentInstances.push({
       type: "songs",
-      linkid: songWithComment.linkid,
+      linkid: song.linkid,
       comment,
     });
   });

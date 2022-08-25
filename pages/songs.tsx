@@ -1,11 +1,11 @@
 import { GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
 import Layout from "../components/Layout";
-import { getSongs, GoodSong } from "../lib/recording";
+import { getSongs, Song } from "../lib/data";
 import type { NextPage } from "next";
 
 interface SongsPageProps {
-  songs: GoodSong[];
+  songs: Song[];
 }
 interface Params extends ParsedUrlQuery {}
 export const getStaticProps: GetStaticProps<

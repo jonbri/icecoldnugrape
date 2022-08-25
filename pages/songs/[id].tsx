@@ -2,17 +2,11 @@ import type { NextPage } from "next";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { ParsedUrlQuery } from "querystring";
 import Layout from "../../components/Layout";
-import {
-  getSongs,
-  getSong,
-  GoodSong,
-  idsToShows,
-  GoodRecording,
-} from "../../lib/recording";
+import { getSongs, getSong, idsToShows, Song, Recording } from "../../lib/data";
 
 interface SongPageProps {
-  song: GoodSong;
-  shows: GoodRecording[];
+  song: Song;
+  shows: Recording[];
 }
 interface Params extends ParsedUrlQuery {
   id: string;
@@ -21,7 +15,7 @@ export const getStaticProps: GetStaticProps<SongPageProps, Params> = async ({
   params,
 }) => {
   const { id } = params!;
-  const song = getSong(id);
+  const song = getSong(Number(id));
   const shows = idsToShows(song?.shows ?? []);
   return {
     props: {
@@ -34,7 +28,7 @@ export const getStaticProps: GetStaticProps<SongPageProps, Params> = async ({
 export const getStaticPaths: GetStaticPaths<Params> = async () => {
   const paths = getSongs().map(({ linkid: id }) => ({
     params: {
-      id: id.toString(),
+      id: id + "",
     },
   }));
   return {
@@ -55,7 +49,6 @@ const SongPage: NextPage<SongPageProps> = ({ song, shows }) => {
           </li>
         ))}
       </ul>
-
       {hasSubContent && (
         <div className="comments">
           <ul>

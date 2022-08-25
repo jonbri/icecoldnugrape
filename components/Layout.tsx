@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { ReactNode, useEffect, useState } from "react";
-import { getRandomUrl } from "../lib/recording";
+import { getRandomUrl } from "../lib/data";
 import cn from "../styles/Layout.module.scss";
 
 interface SiteLink {
