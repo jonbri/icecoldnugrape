@@ -8,8 +8,9 @@ interface SiteLink {
   href: string;
   text: string;
 }
+type PageType = "index" | "search" | "downloads" | "recordings" | "songs";
 export interface LayoutProps {
-  type: "index" | "search" | "downloads" | "recordings" | "songs";
+  type: PageType;
   prev?: number | null;
   next?: number | null;
   children: ReactNode;
@@ -56,7 +57,9 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
       <header className={cn.header}>
         <div>
           <Link href="/">
-            <a className={cn.title}>ICECOLDNUGRAPE.COM</a>
+            <h1>
+              <a className={cn.title}>ICECOLDNUGRAPE.COM</a>
+            </h1>
           </Link>
           <aside>
             <a href="https://web.archive.org/web/*/icecoldnugrape.com">

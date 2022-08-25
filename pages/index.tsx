@@ -25,7 +25,7 @@ const Home: NextPage = () => {
   return (
     <Layout type="index">
       <div className={cn.quickLinks}>
-        <h3 style={{ display: "inline", marginRight: "8px" }}>Quick Links:</h3>
+        <h2 style={{ display: "inline", marginRight: "8px" }}>Quick Links:</h2>
         <ul>
           {quickLinks.map(({ name, href }) => (
             <li key={name}>
@@ -34,10 +34,10 @@ const Home: NextPage = () => {
           ))}
         </ul>
       </div>
-      <h3>Video of the day</h3>
+      <h2>Video of the day</h2>
       {<YoutubeWidget />}
       <a href="https://twitter.com/jojo_blog">
-        <h3>@jojo_blog</h3>
+        <h2>@jojo_blog</h2>
       </a>
       {<TwitterWidget />}
       <br />

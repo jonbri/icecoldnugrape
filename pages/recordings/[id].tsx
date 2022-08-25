@@ -41,7 +41,7 @@ const RecordingPage: NextPage<RecordingPageProps> = ({ recording }) => {
     recording.quality !== undefined || recording.comments.length > 0;
   return (
     <Layout type="recordings" prev={prev} next={next}>
-      <h3>{formattedTitle}</h3>
+      <h2>{formattedTitle}</h2>
       <ul>
         {songs?.map(({ linkid, value, n }) => (
           <li key={linkid}>

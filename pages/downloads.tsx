@@ -35,7 +35,7 @@ const DownloadsPage: NextPage<DownloadsPageProps> = ({ downloadGroups }) => {
     <Layout type="downloads">
       {downloadGroups.map(({ group, title, songs, zip }) => (
         <div key={group}>
-          <h3>{title}</h3>
+          <h2>{title}</h2>
           {zip && (
             <a href={`${downloadPrefix}/${group}/${zip}`}>
               <em>Download All</em>

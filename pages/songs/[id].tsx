@@ -41,7 +41,7 @@ const SongPage: NextPage<SongPageProps> = ({ song, shows }) => {
   const hasSubContent = song.comments.length > 0;
   return (
     <Layout type="songs">
-      <h3>{song.value}</h3>
+      <h2>{song.value}</h2>
       <ul>
         {shows.map(({ linkid, formattedTitle }) => (
           <li key={linkid}>
