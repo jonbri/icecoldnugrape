@@ -1,4 +1,4 @@
-// import type { NextPage } from "next";
+import type { NextPage } from "next";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { ParsedUrlQuery } from "querystring";
 import {
@@ -8,15 +8,16 @@ import {
 } from "../../lib/recording";
 import Layout from "../../components/Layout";
 
-interface RecordingProps {
+interface RecordingPageProps {
   recording: GoodRecording;
 }
 interface Params extends ParsedUrlQuery {
   id: string;
 }
-export const getStaticProps: GetStaticProps<RecordingProps, Params> = async ({
-  params,
-}) => {
+export const getStaticProps: GetStaticProps<
+  RecordingPageProps,
+  Params
+> = async ({ params }) => {
   const { id } = params!;
   const recording = getRecording(id);
   return {
@@ -38,7 +39,7 @@ export const getStaticPaths: GetStaticPaths<Params> = async () => {
   };
 };
 
-const RecordingPage = ({ recording }: RecordingProps) => {
+const RecordingPage: NextPage<RecordingPageProps> = ({ recording }) => {
   const { songs, formattedTitle, prev, next } = recording;
   const hasSubContent =
     recording.quality !== undefined || recording.comments.length > 0;

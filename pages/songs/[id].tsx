@@ -1,4 +1,4 @@
-// import type { NextPage } from "next";
+import type { NextPage } from "next";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { ParsedUrlQuery } from "querystring";
 import Layout from "../../components/Layout";
@@ -10,14 +10,14 @@ import {
   GoodRecording,
 } from "../../lib/recording";
 
-interface SongProps {
+interface SongPageProps {
   song: GoodSong;
   shows: GoodRecording[];
 }
 interface Params extends ParsedUrlQuery {
   id: string;
 }
-export const getStaticProps: GetStaticProps<SongProps, Params> = async ({
+export const getStaticProps: GetStaticProps<SongPageProps, Params> = async ({
   params,
 }) => {
   const { id } = params!;
@@ -43,7 +43,7 @@ export const getStaticPaths: GetStaticPaths<Params> = async () => {
   };
 };
 
-const SongPage = ({ song, shows }: SongProps) => {
+const SongPage: NextPage<SongPageProps> = ({ song, shows }) => {
   const hasSubContent = song.comments.length > 0;
   return (
     <Layout type="songs">

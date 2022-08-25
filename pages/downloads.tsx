@@ -2,6 +2,7 @@ import { GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
 import Layout from "../components/Layout";
 import downloadsData from "../data/downloads_raw.json";
+import type { NextPage } from "next";
 
 interface DownloadGroup {
   group: string;
@@ -13,12 +14,12 @@ interface Download {
   title: string;
   path: string;
 }
-interface DownloadsProps {
+interface DownloadsPageProps {
   downloadGroups: DownloadGroup[];
 }
 interface Params extends ParsedUrlQuery {}
 export const getStaticProps: GetStaticProps<
-  DownloadsProps,
+  DownloadsPageProps,
   Params
 > = async ({}) => {
   return {
@@ -29,7 +30,7 @@ export const getStaticProps: GetStaticProps<
 };
 
 const downloadPrefix = "http://icecoldnugrape.com/media";
-const DownloadsPage = ({ downloadGroups }: DownloadsProps) => {
+const DownloadsPage: NextPage<DownloadsPageProps> = ({ downloadGroups }) => {
   return (
     <Layout type="downloads">
       {downloadGroups.map(({ group, title, songs, zip }) => (

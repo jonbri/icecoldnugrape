@@ -23,6 +23,8 @@ export interface GoodRecording {
   country?: string;
   city?: string;
   quality?: string;
+  month?: number;
+  date?: number;
   year?: number;
   sublocation?: string;
   jon?: number;
@@ -31,9 +33,10 @@ export interface GoodRecording {
   formattedTitle: string;
   prev: number | null;
   next: number | null;
+  name?: string;
 }
 
-const getFormattedRecording = (oRecording: any) => {
+const deriveFormattedTitle = (oRecording: any) => {
   let sFormattedRecording = "";
 
   function formatDate(year: any, month: any, date: any) {
@@ -131,7 +134,7 @@ const generateGoodRecordings = () => {
       })),
       next: i < length - 1 ? recordingsData[i + 1]?.linkid : null,
       prev: i > 0 ? recordingsData[i - 1]?.linkid : null,
-      formattedTitle: getFormattedRecording(rawRecording),
+      formattedTitle: deriveFormattedTitle(rawRecording),
     });
   }
   return goodRecordings;

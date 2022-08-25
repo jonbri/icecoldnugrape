@@ -10,14 +10,18 @@ import {
 } from "../lib/recording";
 import Layout from "../components/Layout";
 import { useEffect, useState } from "react";
+import type { NextPage } from "next";
 
-interface SearchProps {
+interface SearchPageProps {
   recordings: GoodRecording[];
   songs: GoodSong[];
   comments: GoodCommentInstance[];
 }
 interface Params extends ParsedUrlQuery {}
-export const getStaticProps: GetStaticProps<SearchProps, Params> = async () => {
+export const getStaticProps: GetStaticProps<
+  SearchPageProps,
+  Params
+> = async () => {
   const recordings = getRecordings();
   const songs = getSongs();
   const comments = getComments();
@@ -34,7 +38,11 @@ interface Match {
   href: string;
   text: string;
 }
-const SearchPage = ({ recordings, songs, comments }: SearchProps) => {
+const SearchPage: NextPage<SearchPageProps> = ({
+  recordings,
+  songs,
+  comments,
+}) => {
   const [query, setQuery] = useState("");
   const [matches, setMatches] = useState<Match[]>([]);
   useEffect(() => {

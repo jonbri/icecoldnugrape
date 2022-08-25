@@ -1,27 +1,27 @@
 import { GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
 import Layout from "../components/Layout";
-import { getSongs } from "../lib/recording";
-import { SongImport } from "../lib/types";
-// import type { NextPage } from "next";
+import { getSongs, GoodSong } from "../lib/recording";
+import type { NextPage } from "next";
 
-interface SongsProps {
-  songs: SongImport[];
+interface SongsPageProps {
+  songs: GoodSong[];
 }
 interface Params extends ParsedUrlQuery {}
 export const getStaticProps: GetStaticProps<
-  SongsProps,
+  SongsPageProps,
   Params
 > = async ({}) => {
   const songs = getSongs();
   return {
     props: {
       songs: songs!,
+      foo: "",
     },
   };
 };
 
-const SongsPage = ({ songs }: SongsProps) => {
+const SongsPage: NextPage<SongsPageProps> = ({ songs }) => {
   return (
     <Layout type="songs">
       <ul>

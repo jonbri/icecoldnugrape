@@ -2,13 +2,14 @@ import { GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
 import { getRecordings, GoodRecording } from "../lib/recording";
 import Layout from "../components/Layout";
+import type { NextPage } from "next";
 
-interface RecordingsProps {
+interface RecordingsPageProps {
   recordings: GoodRecording[];
 }
 interface Params extends ParsedUrlQuery {}
 export const getStaticProps: GetStaticProps<
-  RecordingsProps,
+  RecordingsPageProps,
   Params
 > = async ({}) => {
   const recordings = getRecordings();
@@ -19,7 +20,7 @@ export const getStaticProps: GetStaticProps<
   };
 };
 
-const RecordingsPage = ({ recordings }: RecordingsProps) => {
+const RecordingsPage: NextPage<RecordingsPageProps> = ({ recordings }) => {
   return (
     <Layout type="recordings">
       <ul>
