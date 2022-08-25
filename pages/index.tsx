@@ -1,8 +1,6 @@
 import type { NextPage } from "next";
 import Layout from "../components/Layout";
 import YoutubeWidget from "../components/YoutubeWidget";
-// import Head from "next/head";
-// import Image from "next/image";
 import TwitterWidget from "../components/TwitterWidget";
 import cn from "../styles/Home.module.scss";
 
@@ -25,7 +23,7 @@ const Home: NextPage = () => {
   return (
     <Layout type="index">
       <div className={cn.quickLinks}>
-        <h2 style={{ display: "inline", marginRight: "8px" }}>Quick Links:</h2>
+        <h2>Quick Links:</h2>
         <ul>
           {quickLinks.map(({ name, href }) => (
             <li key={name}>
@@ -41,6 +39,13 @@ const Home: NextPage = () => {
       </a>
       {<TwitterWidget />}
       <br />
+      <style global jsx>{`
+        h2 {
+          display: inline;
+          margin-right: 8px;
+          font-weight: normal;
+        }
+      `}</style>
     </Layout>
   );
 };

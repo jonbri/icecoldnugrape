@@ -32,26 +32,33 @@ export const getStaticProps: GetStaticProps<
 const downloadPrefix = "http://icecoldnugrape.com/media";
 const DownloadsPage: NextPage<DownloadsPageProps> = ({ downloadGroups }) => {
   return (
-    <Layout type="downloads">
-      {downloadGroups.map(({ group, title, songs, zip }) => (
-        <div key={group}>
-          <h2>{title}</h2>
-          {zip && (
-            <a href={`${downloadPrefix}/${group}/${zip}`}>
-              <em>Download All</em>
-            </a>
-          )}
-          <ul>
-            {songs.map(({ path, title }) => (
-              <li key={path}>
-                <a href={`${downloadPrefix}/${group}/${path}`}>{title}</a>
-              </li>
-            ))}
-          </ul>
-          <br />
-        </div>
-      ))}
-    </Layout>
+    <>
+      <Layout type="downloads">
+        {downloadGroups.map(({ group, title, songs, zip }) => (
+          <div key={group}>
+            <h2>{title}</h2>
+            {zip && (
+              <a href={`${downloadPrefix}/${group}/${zip}`}>
+                <em>Download All</em>
+              </a>
+            )}
+            <ul>
+              {songs.map(({ path, title }) => (
+                <li key={path}>
+                  <a href={`${downloadPrefix}/${group}/${path}`}>{title}</a>
+                </li>
+              ))}
+            </ul>
+            <br />
+          </div>
+        ))}
+      </Layout>
+      <style global jsx>{`
+        h2 {
+          font-weight: normal;
+        }
+      `}</style>
+    </>
   );
 };
 
