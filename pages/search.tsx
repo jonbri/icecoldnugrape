@@ -59,8 +59,12 @@ const SearchPage: NextPage<SearchPageProps> = ({
       })
       .map((recording) => ({
         href: `/recordings/${recording.linkid}`,
-        text: recording.formattedTitle,
+        text: recording.formattedTitle.replace(
+          new RegExp(`(${query})`, "i"),
+          '<span style="color:gold">$1</span>'
+        ),
       }));
+
     const songMatches = songs
       .filter((song) => {
         const titleMatch = song.value
@@ -70,8 +74,12 @@ const SearchPage: NextPage<SearchPageProps> = ({
       })
       .map((song) => ({
         href: `/songs/${song.linkid}`,
-        text: song.value,
+        text: song.value.replace(
+          new RegExp(`(${query})`, "i"),
+          '<span style="color:gold">$1</span>'
+        ),
       }));
+
     const commentMatches = comments
       .filter((comment) => {
         const titleMatch = comment.comment.text
@@ -81,7 +89,10 @@ const SearchPage: NextPage<SearchPageProps> = ({
       })
       .map((comment) => ({
         href: `/${comment.type}/${comment.linkid}`,
-        text: `COMMENT: ${comment.comment.text}`,
+        text: `COMMENT: ${comment.comment.text.replace(
+          new RegExp(`(${query})`, "i"),
+          '<span style="color:gold">$1</span>'
+        )}`,
       }));
 
     const matches = [...recordingMatches, ...songMatches, ...commentMatches];
@@ -107,7 +118,7 @@ const SearchPage: NextPage<SearchPageProps> = ({
         {matches.map(({ href, text }, index) => {
           return (
             <li key={`${href}${index}`}>
-              <a href={href}>{text}</a>
+              <a href={href} dangerouslySetInnerHTML={{ __html: text }}></a>
             </li>
           );
         })}
