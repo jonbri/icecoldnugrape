@@ -31,10 +31,6 @@
     margin-right: 7px;
   }
 
-  a {
-    font-weight: bold;
-  }
-
   aside > a {
     font-size: 14px;
     font-style: italic;
@@ -43,6 +39,7 @@
 
 .active {
   color: gold;
+  font-weight: bold;
 }
 
 .nextprev {

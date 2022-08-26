@@ -1,4 +1,6 @@
+import { useEffect, useRef, useState } from "react";
 import { GetStaticProps } from "next";
+import type { NextPage } from "next";
 import { ParsedUrlQuery } from "querystring";
 import {
   getRecordings,
@@ -9,8 +11,6 @@ import {
   CommentInstance,
 } from "../lib/data";
 import Layout from "../components/Layout";
-import { useEffect, useState } from "react";
-import type { NextPage } from "next";
 
 interface SearchPageProps {
   recordings: Recording[];
@@ -87,14 +87,20 @@ const SearchPage: NextPage<SearchPageProps> = ({
     const matches = [...recordingMatches, ...songMatches, ...commentMatches];
     setMatches(matches);
   }, [query, recordings, songs, comments]);
+
+  const inputRef = useRef<HTMLInputElement>(null);
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
   return (
     <Layout type="search">
       <input
-        placeholder="Search for recordings or songs"
-        size={30}
+        ref={inputRef}
+        placeholder="Search for recordings, songs, or comments"
+        size={40}
         value={query}
-        onChange={(e) => {
-          setQuery(e.target.value);
+        onChange={({ target }) => {
+          setQuery(target.value);
         }}
       />
       <ul>
