@@ -6,11 +6,15 @@
   padding: 0 15px;
   border-bottom: 1px solid white;
   background-color: black;
-
+  width: 100%;
+  min-width: 420px;
   position: relative;
-  background-image: url("/rightHeaderImg.png");
-  background-position: right top;
-  background-repeat: no-repeat;
+
+  @media all and (min-width: 600px) {
+    background-image: url("/rightHeaderImg.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
 
   .title {
     color: gold;
