@@ -23,7 +23,7 @@ const Home: NextPage = () => {
   return (
     <Layout type="index">
       <div className={cn.quickLinks}>
-        <h2 id="quickLinks">Quick Links:</h2>
+        <h2 id="quickLinks">Quick Links</h2>
         <ul>
           {quickLinks.map(({ name, href }) => (
             <li key={name}>
