@@ -61,7 +61,7 @@ const deriveFormattedTitle = ({
   country,
   venue,
 }: RecordingImport) => {
-  // special label if it has type
+  // special label there is a type
   switch (type) {
     case "Album":
       return `${name} (${year})`.trim();

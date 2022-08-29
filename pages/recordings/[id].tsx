@@ -39,11 +39,16 @@ const RecordingPage: NextPage<RecordingPageProps> = ({ recording }) => {
   const { songs, formattedTitle, prev, next } = recording;
   const hasSubContent =
     recording.quality !== undefined || recording.comments.length > 0;
+  const sortedSongs = songs?.sort(({ n: n0 }, { n: n1 }) => {
+    if (n0 > n1) return 1;
+    else if (n0 < n1) return -1;
+    return 0;
+  });
   return (
     <Layout type="recordings" prev={prev} next={next}>
       <h2>{formattedTitle}</h2>
       <ul>
-        {songs?.map(({ linkid, value, n }) => (
+        {sortedSongs?.map(({ linkid, value, n }) => (
           <li key={linkid}>
             <a href={`../songs/${linkid}`}>{`${n}. ${value}`}</a>
           </li>
