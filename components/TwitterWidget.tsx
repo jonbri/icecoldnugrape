@@ -21,15 +21,12 @@ const TwitterWidget = () => {
   });
 
   return (
-    <div
-      dangerouslySetInnerHTML={{
-        __html: `
-        <a class="twitter-timeline"
-        href="https://twitter.com/jojo_blog"
-        data-widget-id="617408069627215872">loading...</a>
-      `,
-      }}
-    />
+    <>
+      <br />
+      <a className="twitter-timeline" href="https://twitter.com/jojo_blog">
+        Loading...
+      </a>
+    </>
   );
 };
 
