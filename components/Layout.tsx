@@ -87,7 +87,7 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
             {prev && (
               <li>
                 <Link href={`/${type}/${prev}`}>
-                  <a className={cn.nextprev}>Previous</a>
+                  <a className={cn.nextprev}>Prev</a>
                 </Link>
               </li>
             )}

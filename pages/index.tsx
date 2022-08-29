@@ -5,7 +5,7 @@ import TwitterWidget from "../components/TwitterWidget";
 import cn from "../styles/Home.module.scss";
 
 const quickLinks = [
-  { href: "https://jojofiles.blogspot.com/", name: "Blog" },
+  { href: "https://jojofiles.blogspot.com/", name: "JojoBlog" },
   {
     href: "http://www.bluearrowrecords.com/record-label/jonathan-richman/",
     name: "Label",
@@ -39,11 +39,14 @@ const Home: NextPage = () => {
       </a>
       {<TwitterWidget />}
       <br />
-      <style global jsx>{`
+      <style jsx>{`
         h2 {
           display: inline;
           margin-right: 8px;
           font-weight: normal;
+        }
+        li {
+          font-size: 18px;
         }
       `}</style>
     </Layout>

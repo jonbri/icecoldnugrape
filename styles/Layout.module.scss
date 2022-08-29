@@ -29,6 +29,10 @@
   ul,
   li {
     display: inline;
+    font-size: 18px;
+    @media all and (min-width: 600px) {
+      font-size: 20px;
+    }
   }
 
   li {
@@ -36,7 +40,7 @@
   }
 
   aside > a {
-    font-size: 14px;
+    font-size: 12px;
     font-style: italic;
   }
 }
@@ -48,5 +52,5 @@
 
 .nextprev {
   font-style: italic;
-  font-size: 16px;
+  font-size: 14px;
 }
