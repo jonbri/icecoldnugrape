@@ -55,7 +55,7 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={cn.header}>
-        <div>
+        <div className={cn.h1Container}>
           <Link href="/">
             <h1>
               <a className={cn.title}>ICECOLDNUGRAPE.COM</a>

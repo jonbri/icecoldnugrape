@@ -16,7 +16,7 @@ const YoutubeWidget = () => {
       dangerouslySetInnerHTML={{
         __html: `
         <iframe
-          width="418"
+          width="420"
           height="315"
           src="${`https://www.youtube.com/embed/${youtubeHash}`}"
           frameborder="0"

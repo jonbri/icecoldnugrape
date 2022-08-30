@@ -14,6 +14,10 @@
   min-width: 420px;
   position: relative;
 
+  .h1Container {
+    margin-bottom: -5px;
+  }
+
   @media all and (min-width: 600px) {
     background-image: url("/rightHeaderImg.png");
     background-position: right top;
