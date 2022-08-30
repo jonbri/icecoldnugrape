@@ -15,8 +15,7 @@ export const getStaticProps: GetStaticProps<
   const songs = getSongs();
   return {
     props: {
-      songs: songs!,
-      foo: "",
+      songs,
     },
   };
 };
@@ -25,14 +24,11 @@ const SongsPage: NextPage<SongsPageProps> = ({ songs }) => {
   return (
     <Layout type="songs">
       <ul>
-        {songs.map((song) => {
-          const { linkid, value } = song;
-          return (
-            <li key={linkid}>
-              <a href={`songs/${linkid}`}>{value}</a>
-            </li>
-          );
-        })}
+        {songs.map(({ linkid, value }) => (
+          <li key={linkid}>
+            <a href={`songs/${linkid}`}>{value}</a>
+          </li>
+        ))}
       </ul>
     </Layout>
   );

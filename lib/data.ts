@@ -52,7 +52,12 @@ export const getRecording = (id: string) => {
 export const idsToShows = (ids: number[]) =>
   ids.map((id) => getRecording(id + "")!);
 
-export const getSongs = () => songs;
+export const getSongs = () =>
+  songs.sort(({ value: value0 }, { value: value1 }) => {
+    if (value0.toLowerCase() > value1.toLowerCase()) return 1;
+    else if (value0.toLowerCase() < value1.toLowerCase()) return -1;
+    return 0;
+  });
 
 export const getSong = (id: number) =>
   songs.find(({ linkid }) => linkid === id);
