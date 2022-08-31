@@ -61,31 +61,32 @@ const deriveFormattedTitle = ({
   country,
   venue,
 }: RecordingImport) => {
-  // special label there is a type
+  let formatted = "";
   switch (type) {
-    case "Album":
-      return `${name} (${year})`.trim();
-    case "Studio Bootleg":
-      return `${name} (Studio Bootleg, ${year})`.trim();
+    case "Show":
+      formatted = formatDate(year, month, date);
+      if (city) formatted += `${city} `;
+      if (sublocation) formatted += `${sublocation} `;
+      if (country) formatted += `${country} `;
+      if (venue) formatted += `${venue} `;
+      if (name) formatted += `${name} `;
+      break;
     case "Compilation":
-      return `${name} (Compilation)`.trim();
+      formatted = name!;
+      break;
+    case "Album":
+    case "Studio Bootleg":
+      formatted = `${name} (${year})`;
+      break;
     case "Interview":
-      return `${name} (${year})`.trim();
     case "TV":
-      return `${name} (${year})`.trim();
     case "Radio":
-      return `${name} (${year})`.trim();
     case "Single":
-      return `${name} (Single, ${year})`.trim();
+    default:
+      formatted = `${name} (${year})`;
+      break;
   }
-
-  let formattedTitle = formatDate(year, month, date);
-  if (city) formattedTitle += city + " ";
-  if (sublocation) formattedTitle += sublocation + " ";
-  if (country) formattedTitle += country + " ";
-  if (venue) formattedTitle += venue + " ";
-  if (name) formattedTitle += name + " ";
-  return formattedTitle.trim();
+  return formatted.trim();
 };
 
 const aggregateSongs = () =>

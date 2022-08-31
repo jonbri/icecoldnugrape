@@ -11,7 +11,7 @@ interface Params extends ParsedUrlQuery {}
 export const getStaticProps: GetStaticProps<
   SongsPageProps,
   Params
-> = async ({}) => {
+> = async () => {
   const songs = getSongs();
   return {
     props: {
