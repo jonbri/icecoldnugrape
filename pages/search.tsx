@@ -51,58 +51,47 @@ const SearchPage: NextPage<SearchPageProps> = ({
       return;
     }
     const recordingMatches = recordings
-      .filter((recording) => {
-        const titleMatch = recording.formattedTitle
-          .toLowerCase()
-          .includes(query.toLowerCase());
-        return titleMatch;
-      })
-      .map((recording) => ({
-        href: `/recordings/${recording.linkid}`,
-        text: recording.formattedTitle.replace(
+      .filter(({ formattedTitle }) =>
+        formattedTitle.toLowerCase().includes(query.toLowerCase())
+      )
+      .map(({ linkid, formattedTitle }) => ({
+        href: `/recordings/${linkid}`,
+        text: formattedTitle.replace(
           new RegExp(`(${query})`, "i"),
           '<span style="color:gold">$1</span>'
         ),
       }));
 
     const songMatches = songs
-      .filter((song) => {
-        const titleMatch = song.value
-          .toLowerCase()
-          .includes(query.toLowerCase());
-        return titleMatch;
-      })
-      .map((song) => ({
-        href: `/songs/${song.linkid}`,
-        text: song.value.replace(
+      .filter(({ value }) => value.toLowerCase().includes(query.toLowerCase()))
+      .map(({ linkid, value }) => ({
+        href: `/songs/${linkid}`,
+        text: value.replace(
           new RegExp(`(${query})`, "i"),
           '<span style="color:gold">$1</span>'
         ),
       }));
 
     const commentMatches = comments
-      .filter((comment) => {
-        const titleMatch = comment.comment.text
-          .toLowerCase()
-          .includes(query.toLowerCase());
-        return titleMatch;
-      })
-      .map((comment) => ({
-        href: `/${comment.type}/${comment.linkid}`,
-        text: `COMMENT: ${comment.comment.text.replace(
+      .filter(({ comment: { text } }) =>
+        text.toLowerCase().includes(query.toLowerCase())
+      )
+      .map(({ linkid, type, comment: { text } }) => ({
+        href: `/${type}/${linkid}`,
+        text: `COMMENT: ${text.replace(
           new RegExp(`(${query})`, "i"),
           '<span style="color:gold">$1</span>'
         )}`,
       }));
 
-    const matches = [...recordingMatches, ...songMatches, ...commentMatches];
-    setMatches(matches);
+    setMatches([...recordingMatches, ...songMatches, ...commentMatches]);
   }, [query, recordings, songs, comments]);
 
   const inputRef = useRef<HTMLInputElement>(null);
   useEffect(() => {
     inputRef.current?.focus();
   }, []);
+
   return (
     <Layout type="search">
       <input
@@ -110,18 +99,16 @@ const SearchPage: NextPage<SearchPageProps> = ({
         placeholder="Search for recordings, songs, or comments"
         size={40}
         value={query}
-        onChange={({ target }) => {
-          setQuery(target.value);
+        onChange={({ target: { value } }) => {
+          setQuery(value);
         }}
       />
       <ul>
-        {matches.map(({ href, text }, index) => {
-          return (
-            <li key={`${href}${index}`}>
-              <a href={href} dangerouslySetInnerHTML={{ __html: text }}></a>
-            </li>
-          );
-        })}
+        {matches.map(({ href, text }, index) => (
+          <li key={`${href}${index}`}>
+            <a href={href} dangerouslySetInnerHTML={{ __html: text }}></a>
+          </li>
+        ))}
       </ul>
     </Layout>
   );

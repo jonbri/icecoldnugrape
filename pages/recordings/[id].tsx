@@ -14,10 +14,10 @@ export const getStaticProps: GetStaticProps<PageProps, Params> = async ({
   params,
 }) => {
   const { id } = params!;
-  const recording = getRecording(id);
+  const recording = getRecording(id)!;
   return {
     props: {
-      recording: recording!,
+      recording,
     },
   };
 };
@@ -60,7 +60,7 @@ const Page: NextPage<PageProps> = ({
             <ul>
               {comments.map(({ name, text, time }) => (
                 <li key={time}>
-                  <header>{name + " (" + time.split(" ")[0] + ")"}</header>
+                  <header>{`${name} (${time.split(" ")[0]})`}</header>
                   {text}
                 </li>
               ))}

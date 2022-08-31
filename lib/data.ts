@@ -66,20 +66,20 @@ const recordingsWithComment = recordings.filter(
 );
 const songsWithComment = songs.filter(({ comments }) => comments.length > 0);
 const commentInstances: CommentInstance[] = [];
-for (const recording of recordingsWithComment) {
-  recording.comments.forEach((comment: Comment) => {
+for (const { linkid, comments } of recordingsWithComment) {
+  comments.forEach((comment) => {
     commentInstances.push({
       type: "recordings",
-      linkid: recording.linkid,
+      linkid,
       comment,
     });
   });
 }
-for (const song of songsWithComment) {
-  song.comments.forEach((comment: Comment) => {
+for (const { linkid, comments } of songsWithComment) {
+  comments.forEach((comment) => {
     commentInstances.push({
       type: "songs",
-      linkid: song.linkid,
+      linkid,
       comment,
     });
   });

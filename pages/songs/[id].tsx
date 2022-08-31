@@ -52,7 +52,7 @@ const Page: NextPage<PageProps> = ({ song: { value, comments }, shows }) => (
         <ul>
           {comments.map(({ name, text, time }) => (
             <li key={time}>
-              <header>{name + " (" + time.split(" ")[0] + ")"}</header>
+              <header>{`${name} (${time.split(" ")[0]})`}</header>
               {text}
             </li>
           ))}

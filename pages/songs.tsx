@@ -4,14 +4,11 @@ import Layout from "../components/Layout";
 import { getSongs, Song } from "../lib/data";
 import type { NextPage } from "next";
 
-interface SongsPageProps {
+interface PageProps {
   songs: Song[];
 }
 interface Params extends ParsedUrlQuery {}
-export const getStaticProps: GetStaticProps<
-  SongsPageProps,
-  Params
-> = async () => {
+export const getStaticProps: GetStaticProps<PageProps, Params> = async () => {
   const songs = getSongs();
   return {
     props: {
@@ -20,18 +17,16 @@ export const getStaticProps: GetStaticProps<
   };
 };
 
-const SongsPage: NextPage<SongsPageProps> = ({ songs }) => {
-  return (
-    <Layout type="songs">
-      <ul>
-        {songs.map(({ linkid, value }) => (
-          <li key={linkid}>
-            <a href={`songs/${linkid}`}>{value}</a>
-          </li>
-        ))}
-      </ul>
-    </Layout>
-  );
-};
+const Page: NextPage<PageProps> = ({ songs }) => (
+  <Layout type="songs">
+    <ul>
+      {songs.map(({ linkid, value }) => (
+        <li key={linkid}>
+          <a href={`songs/${linkid}`}>{value}</a>
+        </li>
+      ))}
+    </ul>
+  </Layout>
+);
 
-export default SongsPage;
+export default Page;
