@@ -4,16 +4,15 @@ import { ParsedUrlQuery } from "querystring";
 import { getRecording, getRecordings, Recording } from "../../lib/data";
 import Layout from "../../components/Layout";
 
-interface RecordingPageProps {
+interface PageProps {
   recording: Recording;
 }
 interface Params extends ParsedUrlQuery {
   id: string;
 }
-export const getStaticProps: GetStaticProps<
-  RecordingPageProps,
-  Params
-> = async ({ params }) => {
+export const getStaticProps: GetStaticProps<PageProps, Params> = async ({
+  params,
+}) => {
   const { id } = params!;
   const recording = getRecording(id);
   return {
@@ -35,10 +34,9 @@ export const getStaticPaths: GetStaticPaths<Params> = async () => {
   };
 };
 
-const RecordingPage: NextPage<RecordingPageProps> = ({ recording }) => {
-  const { songs, formattedTitle, prev, next } = recording;
-  const hasSubContent =
-    recording.quality !== undefined || recording.comments.length > 0;
+const Page: NextPage<PageProps> = ({
+  recording: { songs, formattedTitle, quality, comments, prev, next },
+}) => {
   const sortedSongs = songs?.sort(({ n: n0 }, { n: n1 }) => {
     if (n0 > n1) return 1;
     else if (n0 < n1) return -1;
@@ -55,23 +53,22 @@ const RecordingPage: NextPage<RecordingPageProps> = ({ recording }) => {
         ))}
       </ul>
 
-      {hasSubContent && (
-        <div className="comments">
-          {recording.quality && (
-            <div>Best known quality: {recording.quality}</div>
-          )}
-          <ul>
-            {recording.comments.map(({ name, text, time }) => (
-              <li key={time}>
-                <header>{name + " (" + time.split(" ")[0] + ")"}</header>
-                {text}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      {quality !== undefined ||
+        (comments.length > 0 && (
+          <div className="comments">
+            {quality && <div>Best known quality: {quality}</div>}
+            <ul>
+              {comments.map(({ name, text, time }) => (
+                <li key={time}>
+                  <header>{name + " (" + time.split(" ")[0] + ")"}</header>
+                  {text}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
     </Layout>
   );
 };
 
-export default RecordingPage;
+export default Page;
