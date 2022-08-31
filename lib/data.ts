@@ -5,7 +5,6 @@ export interface Comment {
   name: string;
   text: string;
   time: string;
-  bob?: number;
 }
 export interface CommentInstance {
   type: string;
@@ -32,7 +31,7 @@ export interface Recording {
   date?: number;
   year?: number;
   sublocation?: string;
-  jon?: number;
+  jon?: boolean;
   songs?: SongInstance[];
   comments: Comment[];
   formattedTitle: string;

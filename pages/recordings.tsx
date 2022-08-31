@@ -11,7 +11,7 @@ interface Params extends ParsedUrlQuery {}
 export const getStaticProps: GetStaticProps<
   RecordingsPageProps,
   Params
-> = async ({}) => {
+> = async () => {
   const recordings = getRecordings();
   return {
     props: {
@@ -24,16 +24,11 @@ const RecordingsPage: NextPage<RecordingsPageProps> = ({ recordings }) => {
   return (
     <Layout type="recordings">
       <ul>
-        {recordings.map((recording) => {
-          const { linkid, formattedTitle } = recording;
-          return (
-            <li key={linkid}>
-              <a href={`recordings/${linkid}`}>
-                {} {formattedTitle}
-              </a>
-            </li>
-          );
-        })}
+        {recordings.map(({ linkid, formattedTitle }) => (
+          <li key={linkid}>
+            <a href={`recordings/${linkid}`}>{formattedTitle}</a>
+          </li>
+        ))}
       </ul>
     </Layout>
   );

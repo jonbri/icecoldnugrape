@@ -12,7 +12,7 @@ interface RecordingImport {
   year?: number;
   month?: number;
   date?: number;
-  jon?: number;
+  jon?: boolean;
   songs: {
     linkid: number;
     n: number;
