@@ -1,65 +1,58 @@
 import { GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
 import Layout from "../components/Layout";
-import downloadsData from "../data/downloads_raw.json";
+import sections from "../data/downloads_raw.json";
 import type { NextPage } from "next";
 
-interface DownloadGroup {
+interface Download {
+  title: string;
+  path: string;
+}
+interface Section {
   group: string;
   title: string;
   songs: Download[];
   zip?: string;
 }
-interface Download {
-  title: string;
-  path: string;
-}
-interface DownloadsPageProps {
-  downloadGroups: DownloadGroup[];
+interface PageProps {
+  sections: Section[];
 }
 interface Params extends ParsedUrlQuery {}
-export const getStaticProps: GetStaticProps<
-  DownloadsPageProps,
-  Params
-> = async ({}) => {
-  return {
-    props: {
-      downloadGroups: downloadsData,
-    },
-  };
-};
+export const getStaticProps: GetStaticProps<PageProps, Params> = async () => ({
+  props: {
+    sections,
+  },
+});
 
 const downloadPrefix = "http://icecoldnugrape.com/media";
-const DownloadsPage: NextPage<DownloadsPageProps> = ({ downloadGroups }) => {
-  return (
-    <>
-      <Layout type="downloads">
-        {downloadGroups.map(({ group, title, songs, zip }) => (
-          <div key={group}>
-            <h2>{title}</h2>
-            {zip && (
-              <a href={`${downloadPrefix}/${group}/${zip}`}>
-                <em>Download All</em>
-              </a>
-            )}
-            <ul>
-              {songs.map(({ path, title }) => (
-                <li key={path}>
-                  <a href={`${downloadPrefix}/${group}/${path}`}>{title}</a>
-                </li>
-              ))}
-            </ul>
-            <br />
-          </div>
-        ))}
-      </Layout>
-      <style global jsx>{`
-        h2 {
-          font-weight: normal;
-        }
-      `}</style>
-    </>
-  );
-};
+const generateList = ({ group, title, songs, zip }: Section) => (
+  <section key={group}>
+    <h2>{title}</h2>
+    {zip && (
+      <a href={`${downloadPrefix}/${group}/${zip}`}>
+        <em>Download All</em>
+      </a>
+    )}
+    <ul>
+      {songs.map(({ path, title }) => (
+        <li key={path}>
+          <a href={`${downloadPrefix}/${group}/${path}`}>{title}</a>
+        </li>
+      ))}
+    </ul>
+    <style jsx>{`
+      h2 {
+        font-weight: normal;
+      }
+      section {
+        margin-bottom: 10px;
+      }
+    `}</style>
+  </section>
+);
 
-export default DownloadsPage;
+const Page: NextPage<PageProps> = ({ sections }) => (
+  <Layout type="downloads">{sections.map(generateList)}</Layout>
+);
+
+export default Page;

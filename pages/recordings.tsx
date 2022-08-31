@@ -8,7 +8,7 @@ interface Section {
   title: string;
   collection: Recording[];
 }
-interface RecordingsPageProps {
+interface PageProps {
   sections: Section[];
 }
 
@@ -29,10 +29,7 @@ const filterByType =
     type === targetType;
 
 interface Params extends ParsedUrlQuery {}
-export const getStaticProps: GetStaticProps<
-  RecordingsPageProps,
-  Params
-> = async () => {
+export const getStaticProps: GetStaticProps<PageProps, Params> = async () => {
   const recordings = getRecordings();
   const sections = sectionsData.map(({ key, title }) => ({
     title,
@@ -55,12 +52,19 @@ const generateList = ({ title, collection }: Section) => (
         </li>
       ))}
     </ul>
-    <br />
+    <style jsx>{`
+      h2 {
+        font-weight: normal;
+      }
+      section {
+        margin-bottom: 10px;
+      }
+    `}</style>
   </section>
 );
 
-const RecordingsPage: NextPage<RecordingsPageProps> = ({ sections }) => (
+const Page: NextPage<PageProps> = ({ sections }) => (
   <Layout type="recordings">{sections.map(generateList)}</Layout>
 );
 
-export default RecordingsPage;
+export default Page;
