@@ -5,18 +5,26 @@ import TwitterWidget from "../components/TwitterWidget";
 import cn from "../styles/Home.module.scss";
 
 const quickLinks = [
-  { href: "https://jojofiles.blogspot.com/", name: "JojoBlog" },
   {
-    href: "http://www.bluearrowrecords.com/record-label/jonathan-richman/",
+    name: "JojoBlog",
+    href: "https://jojofiles.blogspot.com/",
+  },
+  {
     name: "Label",
+    href: "http://www.bluearrowrecords.com/record-label/jonathan-richman/",
   },
   {
-    href: "https://www.highroadtouring.com/artists/jonathan-richman/",
     name: "Tour",
+    href: "https://www.highroadtouring.com/artists/jonathan-richman/",
   },
-  { href: "https://jonathanrichman.bandcamp.com/", name: "Bandcamp" },
-  { href: "https://en.wikipedia.org/wiki/Jonathan_Richman", name: "Wiki" },
-  { href: "http://www.jojochords.com/index.html", name: "Ramon" },
+  {
+    name: "Bandcamp",
+    href: "https://jonathanrichman.bandcamp.com/",
+  },
+  {
+    name: "JojoChords",
+    href: "http://www.jojochords.com/index.html",
+  },
 ];
 
 const Home: NextPage = () => {
