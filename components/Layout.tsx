@@ -51,7 +51,7 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
           : link
       )
     );
-  }, []);
+  }, [children]);
 
   return (
     <div className={cn.root}>
