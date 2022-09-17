@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier . --write",
-    "format:check": "prettier . --check"
+    "format:check": "prettier . --check",
+    "docgen": "node ./bin/docgen.js"
   },
   "dependencies": {
     "next": "12.2.5",
@@ -24,6 +25,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-next": "^0.0.0",
     "prettier": "^2.7.1",
+    "react-docgen-typescript": "^2.2.2",
     "sass": "^1.54.5",
     "typescript": "4.7.4"
   }
