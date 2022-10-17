@@ -52,7 +52,12 @@ const generateList = ({ group, title, songs, zip }: Section) => (
 );
 
 const Page: NextPage<PageProps> = ({ sections }) => (
-  <Layout type="downloads">{sections.map(generateList)}</Layout>
+  <Layout type="downloads">
+    <a href="http://icecoldnugrape.com/media/JonathanRichman_Oct132022_TheArtsCenter_Carrboro/JonathanRichman_Oct132022_TheArtsCenter_Carrboro.zip">
+      October 13, 2022 The ArtsCenter, Carrboro, NC
+    </a>
+    {sections.map(generateList)}
+  </Layout>
 );
 
 export default Page;
