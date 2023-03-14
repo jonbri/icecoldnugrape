@@ -63,7 +63,7 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
       </Head>
       <header className={cn.header}>
         <div className={cn.h1Container}>
-          <Link href="/">
+          <Link href="/" legacyBehavior>
             <h1>
               <a className={cn.title}>ICECOLDNUGRAPE.COM</a>
             </h1>
@@ -78,7 +78,7 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
           <ul>
             {siteLinks.map(({ href, text }) => (
               <li key={href}>
-                <Link href={href}>
+                <Link href={href} legacyBehavior>
                   <a
                     className={
                       type.toLowerCase() === text.toLowerCase()
@@ -93,14 +93,14 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
             ))}
             {prev && (
               <li>
-                <Link href={`/${type}/${prev}`}>
+                <Link href={`/${type}/${prev}`} legacyBehavior>
                   <a className={cn.nextprev}>Prev</a>
                 </Link>
               </li>
             )}
             {next && (
               <li>
-                <Link href={`/${type}/${next}`}>
+                <Link href={`/${type}/${next}`} legacyBehavior>
                   <a className={cn.nextprev}>Next</a>
                 </Link>
               </li>

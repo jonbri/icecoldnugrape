@@ -11,16 +11,16 @@
     "format:check": "prettier . --check"
   },
   "dependencies": {
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "18.14.2",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.6",
     "eslint": "^8.35.0",
-    "eslint-config-next": "^12.2.5",
+    "eslint-config-next": "^13.2.4",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-next": "^0.0.0",
     "prettier": "^2.7.1",
