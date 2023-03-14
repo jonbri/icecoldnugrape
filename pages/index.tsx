@@ -30,7 +30,6 @@ const quickLinks = [
 const Home: NextPage = () => (
   <Layout type="index">
     <div className={cn.quickLinks}>
-      <h2 id="quickLinks">Quick Links</h2>
       <ul>
         {quickLinks.map(({ name, href }) => (
           <li key={name}>
@@ -39,7 +38,6 @@ const Home: NextPage = () => (
         ))}
       </ul>
     </div>
-    <h2>Video of the day</h2>
     {<YoutubeWidget />}
     <a href="https://twitter.com/jojo_blog">
       <h2>@jojo_blog</h2>
