@@ -43,9 +43,6 @@ const Home: NextPage = () => (
       </ul>
     </div>
     {<YoutubeWidget />}
-    <a href="https://twitter.com/jojo_blog">
-      <h2>@jojo_blog</h2>
-    </a>
     {<TwitterWidget />}
     <br />
     <style jsx>{`
