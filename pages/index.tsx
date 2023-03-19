@@ -25,6 +25,10 @@ const quickLinks = [
     name: "JojoChords",
     href: "http://www.jojochords.com/index.html",
   },
+  {
+    name: "My Collection",
+    href: "/myCollection",
+  },
 ];
 
 const Home: NextPage = () => (

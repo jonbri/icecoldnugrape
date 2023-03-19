@@ -63,3 +63,21 @@ h2#quickLinks {
     margin-top: 10px;
   }
 }
+
+.myCollection {
+  text-align: left;
+  padding: 10px;
+  li {
+    list-style-type: none;
+  }
+  .back {
+    font-size: 14px;
+  }
+  .noPage {
+    background-color: white;
+    width: 50%;
+    li {
+      font-family: arial;
+    }
+  }
+}
