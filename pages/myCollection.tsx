@@ -43,7 +43,7 @@ const MyCollectionPage: NextPage<MyCollectionPageProps> = ({ recordings }) => {
         <ul>
           <li>1978-06-16 Stockholm, Sweeden, Radio</li>
           <li>1979-03-17 Leeds Polytechnic, UK</li>
-	  <li>1980 with J. Viglione, J. Hovorka, F. Pineau</li>
+          <li>1980 with J. Viglione, J. Hovorka, F. Pineau</li>
           <li>1980-07-18 West Hollywood, CA at The Roxy</li>
           <li>1984-07-01 Helsinki</li>
           <li>1984-07-29 Elephant Fayre</li>
