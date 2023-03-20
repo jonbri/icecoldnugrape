@@ -31,11 +31,17 @@ const MyCollectionPage: NextPage<MyCollectionPageProps> = ({ recordings }) => {
       <ul>
         {recordings
           .filter(({ jon }) => jon === true)
-          .map(({ linkid, formattedTitle }) => (
-            <li key={linkid}>
-              <a href={`recordings/${linkid}`}>{formattedTitle}</a>
-            </li>
-          ))}
+          .map(({ linkid, type, formattedTitle }) => {
+            let doubleFormattedTitle = formattedTitle;
+            if (type !== "Show") {
+              doubleFormattedTitle = `${type}: ${formattedTitle}`;
+            }
+            return (
+              <li key={linkid}>
+                <a href={`recordings/${linkid}`}>{doubleFormattedTitle}</a>
+              </li>
+            );
+          })}
       </ul>
     </div>
   );
