@@ -21,6 +21,10 @@ export const getStaticProps: GetStaticProps<
 };
 
 const MyCollectionPage: NextPage<MyCollectionPageProps> = ({ recordings }) => {
+  const all = recordings
+    .filter(({ type }) => type !== "Album")
+    .filter(({ jon }) => jon);
+  const totalCount = all.length;
   return (
     <div className="myCollection">
       <Link href="/" className="back">
@@ -29,20 +33,20 @@ const MyCollectionPage: NextPage<MyCollectionPageProps> = ({ recordings }) => {
       <br />
       <h1>My Collection</h1>
       <ul>
-        {recordings
-          .filter(({ jon }) => jon === true)
-          .map(({ linkid, type, formattedTitle }) => {
-            let doubleFormattedTitle = formattedTitle;
-            if (type !== "Show") {
-              doubleFormattedTitle = `${type}: ${formattedTitle}`;
-            }
-            return (
-              <li key={linkid}>
-                <a href={`recordings/${linkid}`}>{doubleFormattedTitle}</a>
-              </li>
-            );
-          })}
+        {all.map(({ linkid, type, formattedTitle }) => {
+          let doubleFormattedTitle = formattedTitle;
+          if (type !== "Show") {
+            doubleFormattedTitle = `${type}: ${formattedTitle}`;
+          }
+          return (
+            <li key={linkid}>
+              <a href={`recordings/${linkid}`}>{doubleFormattedTitle}</a>
+            </li>
+          );
+        })}
       </ul>
+      <br />
+      Total: {totalCount}
     </div>
   );
 };
