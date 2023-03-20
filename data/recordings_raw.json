@@ -1541,6 +1541,20 @@
     ]
   },
   {
+    "linkid": 1978061600,
+    "type": "Radio",
+    "venue": "",
+    "country": "Sweeden",
+    "city": "Stockholm",
+    "format": "",
+    "year": 1978,
+    "month": 6,
+    "date": 16,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 1978061700,
     "type": "Radio",
     "country": "Sweden",
@@ -1829,6 +1843,20 @@
         "time": "2011-10-16 15:51:18"
       }
     ]
+  },
+  {
+    "linkid": 1979031700,
+    "type": "Show",
+    "venue": "Polytechnic",
+    "country": "UK",
+    "city": "Leeds",
+    "format": "",
+    "year": 1979,
+    "month": 3,
+    "date": 17,
+    "jon": true,
+    "songs": [],
+    "comments": []
   },
   {
     "linkid": 1979040100,
@@ -4359,6 +4387,20 @@
     ]
   },
   {
+    "linkid": 1984070100,
+    "type": "Show",
+    "venue": "",
+    "country": "Finland",
+    "city": "Helsinki",
+    "format": "",
+    "year": 1984,
+    "month": 7,
+    "date": 1,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 1984071200,
     "type": "Show",
     "venue": "West Side Club",
@@ -4450,7 +4492,7 @@
     "month": 7,
     "date": 29,
     "name": "Elephant Fayre",
-    "jon": false,
+    "jon": true,
     "songs": [
       { "linkid": 500, "n": 1 },
       { "linkid": 266, "n": 2 },
@@ -4916,7 +4958,7 @@
     "year": 1985,
     "month": 6,
     "date": 24,
-    "jon": false,
+    "jon": true,
     "songs": [
       { "linkid": 895, "n": 1 },
       { "linkid": 442, "n": 2 },
@@ -5260,6 +5302,20 @@
       { "linkid": 122, "n": 23 },
       { "linkid": 678, "n": 24 }
     ],
+    "comments": []
+  },
+  {
+    "linkid": 1986011900,
+    "type": "Show",
+    "venue": "The Roxy",
+    "country": "USA",
+    "city": "Los Angeles",
+    "format": "",
+    "year": 1986,
+    "month": 1,
+    "date": 19,
+    "jon": true,
+    "songs": [],
     "comments": []
   },
   {
@@ -5758,6 +5814,20 @@
         "time": "2011-04-09 00:00:00"
       }
     ]
+  },
+  {
+    "linkid": 1986092700,
+    "type": "Show",
+    "venue": "Maxwell's",
+    "country": "USA",
+    "city": "",
+    "format": "",
+    "year": 1986,
+    "month": 9,
+    "date": 27,
+    "jon": true,
+    "songs": [],
+    "comments": []
   },
   {
     "linkid": 1986120600,
@@ -6497,6 +6567,20 @@
     "comments": []
   },
   {
+    "linkid": 1988012200,
+    "type": "Show",
+    "venue": "",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "format": "",
+    "year": 1988,
+    "month": 1,
+    "date": 22,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 1988012700,
     "type": "Show",
     "venue": "Huset",
@@ -6590,7 +6674,7 @@
     "year": 1988,
     "month": 2,
     "date": 12,
-    "jon": false,
+    "jon": true,
     "songs": [
       { "linkid": 895, "n": 1 },
       { "linkid": 556, "n": 2 },
@@ -7016,6 +7100,20 @@
     "comments": []
   },
   {
+    "linkid": 1988071000,
+    "type": "Show",
+    "venue": "",
+    "country": "USA",
+    "city": "Hoboken",
+    "format": "",
+    "year": 1988,
+    "month": 7,
+    "date": 10,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 1988091000,
     "type": "Show",
     "country": "Japan",
@@ -7150,6 +7248,20 @@
         "time": "2011-04-09 00:00:00"
       }
     ]
+  },
+  {
+    "linkid": 1988111000,
+    "type": "Show",
+    "venue": "Schoeps Teddy Ballgame",
+    "country": "USA",
+    "city": "",
+    "format": "",
+    "year": 1988,
+    "month": 11,
+    "date": 10,
+    "jon": true,
+    "songs": [],
+    "comments": []
   },
   {
     "linkid": 1988111400,
@@ -8431,7 +8543,7 @@
     "year": 1991,
     "month": 5,
     "date": 4,
-    "jon": false,
+    "jon": true,
     "songs": [
       { "linkid": 895, "n": 1 },
       { "linkid": 181, "n": 2 },
@@ -8572,6 +8684,20 @@
     ]
   },
   {
+    "linkid": 1991061700,
+    "type": "Show",
+    "venue": "",
+    "country": "Canada",
+    "city": "Victoria",
+    "format": "",
+    "year": 1991,
+    "month": 6,
+    "date": 17,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 1991081000,
     "type": "Show",
     "venue": "Dailys Bar",
@@ -8708,7 +8834,7 @@
     "year": 1991,
     "month": 9,
     "date": 30,
-    "jon": false,
+    "jon": true,
     "songs": [
       { "linkid": 189, "n": 1 },
       { "linkid": 62, "n": 2 },
@@ -11846,6 +11972,20 @@
     ]
   },
   {
+    "linkid": 1998051200,
+    "type": "Show",
+    "venue": "",
+    "country": "USA",
+    "city": "Amsterdam",
+    "format": "",
+    "year": 1998,
+    "month": 5,
+    "date": 12,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 1998051800,
     "type": "Show",
     "venue": "Coney Island High",
@@ -12086,7 +12226,7 @@
     "year": 1998,
     "month": 11,
     "date": 9,
-    "jon": false,
+    "jon": true,
     "songs": [
       { "linkid": 580, "n": 1 },
       { "linkid": 333, "n": 2 },
@@ -12607,7 +12747,7 @@
     "year": 1999,
     "month": 10,
     "date": 16,
-    "jon": false,
+    "jon": true,
     "breaks": [20],
     "songs": [
       { "linkid": 876, "n": 1, "set": 1 },
@@ -14103,6 +14243,20 @@
     ]
   },
   {
+    "linkid": 2003041400,
+    "type": "Show",
+    "venue": "Verbano Park",
+    "country": "Italy",
+    "city": "Sesto Calende",
+    "format": "",
+    "year": 2003,
+    "month": 4,
+    "date": 14,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 2003100300,
     "type": "Show",
     "venue": "The Variety Playhouse",
@@ -14276,13 +14430,13 @@
     "linkid": 2004041000,
     "type": "Show",
     "venue": "Night and Day Cafe",
-    "country": "England",
+    "country": "UK",
     "city": "Manchester",
     "quality": "Excellent",
     "year": 2004,
     "month": 4,
     "date": 10,
-    "jon": false,
+    "jon": true,
     "songs": [
       { "linkid": 794, "n": 1 },
       { "linkid": 573, "n": 2 },
@@ -14786,7 +14940,7 @@
     "year": 2004,
     "month": 6,
     "date": 5,
-    "jon": false,
+    "jon": true,
     "songs": [
       { "linkid": 742, "n": 1 },
       { "linkid": 347, "n": 2 },
@@ -15232,8 +15386,8 @@
     "year": 2005,
     "month": 1,
     "date": 28,
-    "name": "Tsunami Benefit",
-    "jon": false,
+    "name": "Tsunami Relief Benefit",
+    "jon": true,
     "songs": [
       { "linkid": 529, "n": 1 },
       { "linkid": 705, "n": 2 },
@@ -16386,6 +16540,20 @@
     ]
   },
   {
+    "linkid": 2008030200,
+    "type": "Show",
+    "venue": "The Earl",
+    "country": "USA",
+    "city": "Atlanta",
+    "format": "",
+    "year": 2008,
+    "month": 3,
+    "date": 2,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 2008031400,
     "type": "Radio",
     "country": "USA",
@@ -16563,6 +16731,20 @@
       { "linkid": 538, "n": 18 },
       { "linkid": 485, "n": 19 }
     ],
+    "comments": []
+  },
+  {
+    "linkid": 2008090600,
+    "type": "Show",
+    "venue": "Nouveau Casino",
+    "country": "France",
+    "city": "Paris",
+    "format": "",
+    "year": 2008,
+    "month": 9,
+    "date": 6,
+    "jon": true,
+    "songs": [],
     "comments": []
   },
   {
@@ -17719,6 +17901,20 @@
     ]
   },
   {
+    "linkid": 2012022500,
+    "type": "Show",
+    "venue": "Brudenell Social Club",
+    "country": "UK",
+    "city": "Leeds",
+    "format": "",
+    "year": 2012,
+    "month": 2,
+    "date": 25,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 2012022600,
     "type": "Show",
     "venue": "The Kazimier",
@@ -17902,6 +18098,20 @@
     "comments": []
   },
   {
+    "linkid": 2013021700,
+    "type": "Show",
+    "venue": "Cats Cradle",
+    "country": "USA",
+    "city": "Carrboro",
+    "format": "",
+    "year": 2013,
+    "month": 2,
+    "date": 17,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 2013022100,
     "type": "Show",
     "venue": "Consolidated Fire Hall",
@@ -18029,6 +18239,34 @@
     ]
   },
   {
+    "linkid": 2013112100,
+    "type": "Show",
+    "venue": "Bowery Ballroom",
+    "country": "USA",
+    "city": "New York",
+    "format": "",
+    "year": 2013,
+    "month": 11,
+    "date": 21,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2013112200,
+    "type": "Show",
+    "venue": "Bowery Ballroom",
+    "country": "USA",
+    "city": "New York",
+    "format": "",
+    "year": 2013,
+    "month": 11,
+    "date": 22,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 2013112900,
     "type": "Show",
     "venue": "Continental Club",
@@ -18071,6 +18309,20 @@
     ]
   },
   {
+    "linkid": 2013120500,
+    "type": "Show",
+    "venue": "The Mint",
+    "country": "USA",
+    "city": "Los Angeles",
+    "format": "",
+    "year": 2013,
+    "month": 12,
+    "date": 5,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 2014030700,
     "type": "Show",
     "venue": "40 Watt Club",
@@ -18096,6 +18348,20 @@
       { "linkid": 35, "n": 12 },
       { "linkid": 58, "n": 13 }
     ],
+    "comments": []
+  },
+  {
+    "linkid": 2014061700,
+    "type": "Show",
+    "venue": "",
+    "country": "USA",
+    "city": "La Crosse",
+    "format": "",
+    "year": 2014,
+    "month": 6,
+    "date": 17,
+    "jon": true,
+    "songs": [],
     "comments": []
   },
   {
@@ -18127,6 +18393,20 @@
     "comments": []
   },
   {
+    "linkid": 2014111500,
+    "type": "Show",
+    "venue": "Haybarn Theatre, Goddard College",
+    "country": "USA",
+    "city": "Plainfield",
+    "format": "",
+    "year": 2014,
+    "month": 11,
+    "date": 15,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 2014112200,
     "type": "Show",
     "venue": "Cat's Cradle",
@@ -18153,8 +18433,204 @@
       { "linkid": 800, "n": 13 },
       { "linkid": 742, "n": 14 },
       { "linkid": 927, "n": 15 },
-      { "linkid": 481, "n": 16 }
+      { "linkid": 482, "n": 16 }
     ],
+    "comments": []
+  },
+  {
+    "linkid": 2015030600,
+    "type": "Show",
+    "venue": "Duke Coffeehouse",
+    "country": "USA",
+    "city": "Zanabar",
+    "format": "",
+    "year": 2015,
+    "month": 3,
+    "date": 6,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2015103000,
+    "type": "Show",
+    "venue": "Duke Coffeehouse",
+    "country": "USA",
+    "city": "Durham",
+    "format": "",
+    "year": 2015,
+    "month": 10,
+    "date": 30,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2015110100,
+    "type": "Show",
+    "venue": "Harvester Performance Center",
+    "country": "USA",
+    "city": "Rocky Mount",
+    "format": "",
+    "year": 2015,
+    "month": 11,
+    "date": 1,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2015110500,
+    "type": "Show",
+    "venue": "Chameleon Club",
+    "country": "USA",
+    "city": "Lancaster",
+    "format": "",
+    "year": 2015,
+    "month": 11,
+    "date": 5,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2016040200,
+    "type": "Show",
+    "venue": "",
+    "country": "USA",
+    "city": "",
+    "format": "",
+    "year": 2016,
+    "month": 4,
+    "date": 2,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2016040800,
+    "type": "Show",
+    "venue": "The Evening Muse",
+    "country": "USA",
+    "city": "Charlotte",
+    "format": "",
+    "year": 2016,
+    "month": 4,
+    "date": 18,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2016041900,
+    "type": "Show",
+    "venue": "The Altamont",
+    "country": "USA",
+    "city": "Asheville",
+    "format": "",
+    "year": 2016,
+    "month": 4,
+    "date": 19,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2016052100,
+    "type": "Show",
+    "venue": "",
+    "country": "",
+    "city": "",
+    "format": "",
+    "year": 2016,
+    "month": 5,
+    "date": 21,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2016111300,
+    "type": "Show",
+    "venue": "Towne Cinema",
+    "country": "USA",
+    "city": "Avondale Estates",
+    "format": "",
+    "year": 2016,
+    "month": 11,
+    "date": 13,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2016111400,
+    "type": "Show",
+    "venue": "Cats Cradle Backroom",
+    "country": "USA",
+    "city": "Carrboro",
+    "format": "",
+    "year": 2016,
+    "month": 11,
+    "date": 14,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2018022300,
+    "type": "Show",
+    "venue": "",
+    "country": "",
+    "city": "",
+    "format": "",
+    "year": 2018,
+    "month": 2,
+    "date": 23,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2018101600,
+    "type": "Show",
+    "venue": "Middle East Club",
+    "country": "USA",
+    "city": "Boston",
+    "format": "",
+    "year": 2018,
+    "month": 10,
+    "date": 16,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2019022000,
+    "type": "Show",
+    "venue": "The Arts Center",
+    "country": "USA",
+    "city": "Carrboro",
+    "format": "",
+    "year": 2019,
+    "month": 2,
+    "date": 20,
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 2022101300,
+    "type": "Show",
+    "venue": "The Arts Center",
+    "country": "USA",
+    "city": "Carrboro",
+    "format": "",
+    "year": 2022,
+    "month": 10,
+    "date": 13,
+    "jon": true,
+    "songs": [],
     "comments": []
   },
   {
