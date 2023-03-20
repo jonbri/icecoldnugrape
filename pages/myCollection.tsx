@@ -45,8 +45,10 @@ const MyCollectionPage: NextPage<MyCollectionPageProps> = ({ recordings }) => {
           );
         })}
       </ul>
-      <br />
       Total: {totalCount}
+      <br />
+      <br />
+      <div className="available">Contact: jonathandavidbrink@gmail.com</div>
     </div>
   );
 };

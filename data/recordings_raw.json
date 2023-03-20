@@ -2517,7 +2517,7 @@
     "type": "Studio Bootleg",
     "quality": "Good",
     "year": 1980,
-    "name": "Studio Session Late 1980",
+    "name": "Studio Session Late 1980 (Jonathan Goes Funky)",
     "jon": true,
     "songs": [
       { "linkid": 691, "n": 1 },
@@ -2543,7 +2543,7 @@
     "comments": [
       {
         "name": "Bob",
-        "text": "Previously listed as 'Studio Session 1982/3'. This looks better identified as the session recorded at Capitol Recording Studios, Los Angeles, in late 1980 (see Tim Mitchell's book 'There's Something About Jonathan' - page 130). By the way, there's a short CD circulating, called 'Jonathan Goes Funky' which is made up of  six tracks from this session. ",
+        "text": "Previously listed as 'Studio Session 1982/3'. This looks better identified as the session recorded at Capitol Recording Studios, Los Angeles, in late 1980 (see Tim Mitchell's book 'There's Something About Jonathan' - page 130). By the way, there's a short CD circulating, called 'Jonathan Goes Funky' which is made up of six tracks from this session. ",
         "time": "2011-10-16 18:51:43"
       }
     ]
@@ -3131,6 +3131,16 @@
         "time": "2012-05-18 12:37:51"
       }
     ]
+  },
+  {
+    "linkid": 1982022100,
+    "type": "Interview",
+    "country": "USA",
+    "year": 1982,
+    "name": "WBCN Radio Interview",
+    "jon": true,
+    "songs": [],
+    "comments": []
   },
   {
     "linkid": 1982030200,
@@ -17599,6 +17609,15 @@
     ]
   },
   {
+    "linkid": 2010110100,
+    "type": "TV",
+    "country": "USA",
+    "year": 2010,
+    "name": "Jimmy Fallon",
+    "songs": [],
+    "comments": []
+  },
+  {
     "linkid": 2011022400,
     "type": "Show",
     "venue": "Grey Eagle",
@@ -18691,7 +18710,7 @@
     "type": "Compilation",
     "quality": "Good",
     "name": "Route 128 Revisited",
-    "jon": false,
+    "jon": true,
     "songs": [
       { "linkid": 32, "n": 1 },
       { "linkid": 696, "n": 2 },
@@ -18748,5 +18767,34 @@
         "time": "2011-10-16 19:46:49"
       }
     ]
+  },
+  {
+    "linkid": 9000000004,
+    "type": "Compilation",
+    "quality": "",
+    "name": "Beantown Gems",
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 9000000005,
+    "type": "Compilation",
+    "quality": "",
+    "name": "Paley Sessions",
+    "jon": true,
+    "songs": [],
+    "comments": []
+  },
+  {
+    "linkid": 9000000006,
+    "type": "Radio",
+    "year": 0,
+    "country": "USA",
+    "city": "Chicago",
+    "name": "WBEZ",
+    "jon": true,
+    "songs": [],
+    "comments": []
   }
 ]
