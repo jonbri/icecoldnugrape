@@ -7381,13 +7381,15 @@
     ]
   },
   {
-    "linkid": 1988000005,
+    "linkid": 1988020905,
     "type": "Show",
     "venue": "Szene Wien",
     "country": "Austria",
     "city": "Vienna",
     "quality": "Excellent",
     "year": 1988,
+    "month": 2,
+    "date": 9,
     "jon": true,
     "jonnote": "aac",
     "songs": [
