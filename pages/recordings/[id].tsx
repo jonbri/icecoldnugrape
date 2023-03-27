@@ -36,7 +36,7 @@ export const getStaticPaths: GetStaticPaths<Params> = async () => {
 };
 
 const Page: NextPage<PageProps> = ({
-  recording: { songs, formattedTitle, quality, comments, prev, next },
+  recording: { songs, formattedTitle, quality, comments, jon, prev, next },
 }) => {
   const sortedSongs = songs?.sort(({ n: n0 }, { n: n1 }) => {
     if (n0 > n1) return 1;
@@ -46,9 +46,12 @@ const Page: NextPage<PageProps> = ({
   return (
     <Layout type="recordings" prev={prev} next={next}>
       <h2>{formattedTitle}</h2>
-      <div className="available">
-        This recording is <Link href="/myCollection">available for trade</Link>
-      </div>
+      {jon === true ? (
+        <div className="available">
+          This recording is{" "}
+          <Link href="/myCollection">available for trade</Link>
+        </div>
+      ) : null}
       <ul>
         {sortedSongs?.map(({ linkid, value, n }) => (
           <li key={linkid}>
