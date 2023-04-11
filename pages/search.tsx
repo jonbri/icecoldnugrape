@@ -1,91 +1,49 @@
-import { useEffect, useRef, useState } from "react";
-import { GetStaticProps } from "next";
+import { ReactNode, useEffect, useRef, useState } from "react";
 import type { NextPage } from "next";
-import { ParsedUrlQuery } from "querystring";
-import {
-  getRecordings,
-  getSongs,
-  getComments,
-  Recording,
-  Song,
-  CommentInstance,
-} from "../lib/data";
+import { getRecordings, getSongs, getComments } from "../lib/data";
 import Layout from "../components/Layout";
+import Fuse from "fuse.js";
 
-interface SearchPageProps {
-  recordings: Recording[];
-  songs: Song[];
-  comments: CommentInstance[];
-}
-interface Params extends ParsedUrlQuery {}
-export const getStaticProps: GetStaticProps<
-  SearchPageProps,
-  Params
-> = async () => {
-  const recordings = getRecordings();
-  const songs = getSongs();
-  const comments = getComments();
-  return {
-    props: {
-      recordings,
-      songs,
-      comments,
-    },
-  };
-};
+const allRecordings = getRecordings().map(
+  ({ linkid, formattedTitle: text }) => ({
+    href: `/recordings/${linkid}`,
+    text,
+  })
+);
+const allSongs = getSongs().map(({ linkid, value: text }) => ({
+  href: `/songs/${linkid}`,
+  text,
+}));
+const allComments = getComments().map(
+  ({ linkid, type, comment: { text } }) => ({
+    href: `/${type}/${linkid}`,
+    text: `COMMENT: ${text}`,
+  })
+);
 
-interface Match {
+const fuse = new Fuse([...allRecordings, ...allSongs, ...allComments], {
+  minMatchCharLength: 2,
+  includeMatches: true,
+  threshold: 0.3,
+  keys: [{ name: "text" }],
+});
+
+interface Result {
   href: string;
   text: string;
 }
-const SearchPage: NextPage<SearchPageProps> = ({
-  recordings,
-  songs,
-  comments,
-}) => {
+
+const SearchPage: NextPage = ({}) => {
   const [query, setQuery] = useState("");
-  const [matches, setMatches] = useState<Match[]>([]);
+  const [results, setResults] = useState<Fuse.FuseResult<Result>[]>([]);
+
   useEffect(() => {
     if (query === "") {
-      setMatches([]);
+      setResults([]);
       return;
     }
-    const recordingMatches = recordings
-      .filter(({ formattedTitle }) =>
-        formattedTitle.toLowerCase().includes(query.toLowerCase())
-      )
-      .map(({ linkid, formattedTitle }) => ({
-        href: `/recordings/${linkid}`,
-        text: formattedTitle.replace(
-          new RegExp(`(${query})`, "i"),
-          '<span style="color:gold">$1</span>'
-        ),
-      }));
-
-    const songMatches = songs
-      .filter(({ value }) => value.toLowerCase().includes(query.toLowerCase()))
-      .map(({ linkid, value }) => ({
-        href: `/songs/${linkid}`,
-        text: value.replace(
-          new RegExp(`(${query})`, "i"),
-          '<span style="color:gold">$1</span>'
-        ),
-      }));
-
-    const commentMatches = comments
-      .filter(({ comment: { text } }) =>
-        text.toLowerCase().includes(query.toLowerCase())
-      )
-      .map(({ linkid, type, comment: { text } }) => ({
-        href: `/${type}/${linkid}`,
-        text: `COMMENT: ${text.replace(
-          new RegExp(`(${query})`, "i"),
-          '<span style="color:gold">$1</span>'
-        )}`,
-      }));
-
-    setMatches([...recordingMatches, ...songMatches, ...commentMatches]);
-  }, [query, recordings, songs, comments]);
+    setResults(fuse.search<Result>(query));
+  }, [query]);
 
   const inputRef = useRef<HTMLInputElement>(null);
   useEffect(() => {
@@ -104,14 +62,49 @@ const SearchPage: NextPage<SearchPageProps> = ({
         }}
       />
       <ul>
-        {matches.map(({ href, text }, index) => (
-          <li key={`${href}${index}`}>
-            <a href={href} dangerouslySetInnerHTML={{ __html: text }}></a>
-          </li>
-        ))}
+        {results.map((result, index) => {
+          const {
+            item: { href },
+          } = result;
+          return (
+            <li key={`${href}${index}`}>
+              <a href={href}>
+                <FuseHighlight result={result} attribute="text" />
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </Layout>
   );
+};
+
+interface FuseHighlightProps {
+  result: Fuse.FuseResult<Result>;
+  attribute: string;
+}
+const FuseHighlight = ({ result, attribute }: FuseHighlightProps) => {
+  // Recursively builds JSX output adding `<mark>` tags around matches
+  const highlight = (
+    value: string,
+    indices: readonly Fuse.RangeTuple[] = [],
+    i = 1
+  ): string | ReactNode => {
+    const pair = indices[indices.length - i];
+    return !pair ? (
+      value
+    ) : (
+      <>
+        {highlight(value.substring(0, pair[0]), indices, i + 1)}
+        <mark>{value.substring(pair[0], pair[1] + 1)}</mark>
+        {value.substring(pair[1] + 1)}
+      </>
+    );
+  };
+  const { value, indices } = result.matches?.find(
+    ({ key }) => key === attribute
+  )!;
+  return <>{highlight(value!, indices)}</>;
 };
 
 export default SearchPage;
