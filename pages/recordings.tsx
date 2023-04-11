@@ -44,7 +44,7 @@ export const getStaticProps: GetStaticProps<PageProps, Params> = async () => {
 
 const generateList = ({ title, collection }: Section) => (
   <section key={title}>
-    <h2>{title}</h2>
+    <h2>{`${title} (${collection.length})`}</h2>
     <ul>
       {collection.map(({ linkid, formattedTitle }) => (
         <li key={linkid}>
@@ -63,8 +63,17 @@ const generateList = ({ title, collection }: Section) => (
   </section>
 );
 
-const Page: NextPage<PageProps> = ({ sections }) => (
-  <Layout type="recordings">{sections.map(generateList)}</Layout>
-);
+const Page: NextPage<PageProps> = ({ sections }) => {
+  const total = sections.reduce(
+    (acc, { collection: { length } }) => acc + length,
+    0
+  );
+  return (
+    <Layout type="recordings">
+      {sections.map(generateList)}
+      {`Total recordings: ${total}`}
+    </Layout>
+  );
+};
 
 export default Page;
