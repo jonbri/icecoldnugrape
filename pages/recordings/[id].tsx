@@ -60,20 +60,19 @@ const Page: NextPage<PageProps> = ({
         ))}
       </ul>
 
-      {quality !== undefined ||
-        (comments.length > 0 && (
-          <div className="comments">
-            {quality && <div>Best known quality: {quality}</div>}
-            <ul>
-              {comments.map(({ name, text, time }) => (
-                <li key={time}>
-                  <header>{`${name} (${time.split(" ")[0]})`}</header>
-                  {text}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      {quality !== undefined || comments.length > 0 ? (
+        <div className="comments">
+          {quality && <div>Best known quality: {quality}</div>}
+          <ul>
+            {comments.map(({ name, text, time }) => (
+              <li key={time}>
+                <header>{`${name} (${time.split(" ")[0]})`}</header>
+                {text}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
     </Layout>
   );
 };
