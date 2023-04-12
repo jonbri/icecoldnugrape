@@ -12,7 +12,7 @@ yarn dev # localhost:3000
 Altogether, there are three locations on the server used:
 
 - `~/icecoldnugrape` - GitHub clone location
-- `~/media` - "Downloads" drop-zone location
+- `~/media` - "Listen" drop-zone location
 - `/etc/apache2/sites-available/000-default.conf` - reverse-proxy config
 
 Two NodeJS server processes are used:
@@ -25,7 +25,7 @@ cd out
 serve -l 3000
 ```
 
-2. Serve the "Downloads" content
+2. Serve the "Listen" content
 
 ```
 npm install --global local-web-server

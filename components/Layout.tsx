@@ -19,7 +19,7 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
   const [siteLinks, setSiteLinks] = useState<SiteLink[]>([
     {
       href: "/downloads",
-      text: "Downloads",
+      text: "Listen",
     },
     {
       href: "/recordings",
