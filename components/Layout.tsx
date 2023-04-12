@@ -8,7 +8,7 @@ interface SiteLink {
   href: string;
   text: string;
 }
-type PageType = "index" | "search" | "downloads" | "recordings" | "songs";
+type PageType = "index" | "search" | "listen" | "recordings" | "songs";
 export interface LayoutProps {
   type: PageType;
   prev?: number | null;
@@ -18,7 +18,7 @@ export interface LayoutProps {
 const Layout = ({ children, type, prev, next }: LayoutProps) => {
   const [siteLinks, setSiteLinks] = useState<SiteLink[]>([
     {
-      href: "/downloads",
+      href: "/listen",
       text: "Listen",
     },
     {

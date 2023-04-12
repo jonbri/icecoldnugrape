@@ -51,8 +51,17 @@ const generateList = ({ group, title, songs, zip }: Section) => (
   </section>
 );
 
-const Page: NextPage<PageProps> = ({ sections }) => (
-  <Layout type="downloads">{sections.map(generateList)}</Layout>
-);
+const Page: NextPage<PageProps> = ({ sections }) => {
+  const total = sections.reduce(
+    (acc, { songs: { length } }) => acc + length,
+    0
+  );
+  return (
+    <Layout type="listen">
+      {sections.map(generateList)}
+      {`Total downloads: ${total}`}
+    </Layout>
+  );
+};
 
 export default Page;
