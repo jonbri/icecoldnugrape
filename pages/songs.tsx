@@ -17,16 +17,19 @@ export const getStaticProps: GetStaticProps<PageProps, Params> = async () => {
   };
 };
 
-const Page: NextPage<PageProps> = ({ songs }) => (
-  <Layout type="songs">
-    <ul>
-      {songs.map(({ linkid, value }) => (
-        <li key={linkid}>
-          <a href={`songs/${linkid}`}>{value}</a>
-        </li>
-      ))}
-    </ul>
-  </Layout>
-);
+const Page: NextPage<PageProps> = ({ songs }) => {
+  return (
+    <Layout type="songs">
+      <ul>
+        {songs.map(({ linkid, value }) => (
+          <li key={linkid}>
+            <a href={`songs/${linkid}`}>{value}</a>
+          </li>
+        ))}
+      </ul>
+      {`Total songs: ${songs.length}`}
+    </Layout>
+  );
+};
 
 export default Page;
