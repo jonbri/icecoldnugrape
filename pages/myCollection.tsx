@@ -48,7 +48,7 @@ const MyCollectionPage: NextPage<MyCollectionPageProps> = ({ recordings }) => {
       Total: {totalCount}
       <br />
       <br />
-      <div className="available">Contact: jonathandavidbrink@gmail.com</div>
+      <div className="available">Contact: icecoldnugrape@yahoo.com</div>
     </div>
   );
 };
