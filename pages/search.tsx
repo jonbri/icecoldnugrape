@@ -22,9 +22,9 @@ const allComments = getComments().map(
 );
 
 const fuse = new Fuse([...allRecordings, ...allSongs, ...allComments], {
-  minMatchCharLength: 2,
+  minMatchCharLength: 4,
   includeMatches: true,
-  threshold: 0.3,
+  ignoreLocation: true,
   keys: [{ name: "text" }],
 });
 
