@@ -24,7 +24,6 @@ const allComments = getComments().map(
 const fuse = new Fuse([...allRecordings, ...allSongs, ...allComments], {
   minMatchCharLength: 4,
   includeMatches: true,
-  ignoreLocation: true,
   keys: [{ name: "text" }],
 });
 
