@@ -1,0 +1,14 @@
+{
+  "components/*": {
+    "type": "component"
+  },
+  "data/*": {
+    "type": "data"
+  },
+  "lib/*": {
+    "type": "lib"
+  },
+  "pages/*": {
+    "type": "pages"
+  }
+}
