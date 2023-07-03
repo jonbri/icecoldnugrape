@@ -35,7 +35,7 @@ const Home: NextPage = () => (
     <div className={cn.quickLinks}>
       <ul>
         {quickLinks.map(({ name, href }) => (
-          <li key={name}>
+          <li key={name} className="text-xl">
             <a href={href}>{name}</a>
           </li>
         ))}
@@ -50,7 +50,8 @@ const Home: NextPage = () => (
         font-weight: normal;
       }
       li {
-        font-size: 18px;
+        // font-size: 18px;
+        color: red;
       }
     `}</style>
   </Layout>
