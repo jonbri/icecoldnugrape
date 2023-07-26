@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Layout from "../components/Layout";
 import YoutubeWidget from "../components/YoutubeWidget";
+import TwitterWidget from "../components/TwitterWidget";
 import cn from "../styles/Home.module.scss";
 
 const quickLinks = [
@@ -42,6 +43,7 @@ const Home: NextPage = () => (
       </ul>
     </div>
     {<YoutubeWidget />}
+    {<TwitterWidget />}
     <br />
     <style jsx>{`
       h2 {
