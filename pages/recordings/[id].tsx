@@ -49,7 +49,7 @@ const Page: NextPage<PageProps> = ({
       {jon === true ? (
         <div className="available">
           This recording is{" "}
-          <Link href="/myCollection">available for trade</Link>
+          <Link href="/myCollection">available for trade or just ask me</Link>
         </div>
       ) : null}
       <ul>
