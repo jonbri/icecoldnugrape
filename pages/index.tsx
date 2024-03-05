@@ -26,7 +26,7 @@ const quickLinks = [
     href: "http://www.jojochords.com/index.html",
   },
   {
-    name: "My Collection",
+    name: "Trade",
     href: "/myCollection",
   },
 ];
