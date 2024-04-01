@@ -4,8 +4,8 @@
 body {
   margin: 0 auto;
   display: block;
-  font-family: Terminal;
-  font-size: 20px;
+  font-family: tahoma;
+  font-size: 18px;
   background-color: $purple;
 }
 
@@ -76,9 +76,6 @@ h2#quickLinks {
   .noPage {
     background-color: white;
     width: 75%;
-    li {
-      font-family: arial;
-    }
   }
 }
 
