@@ -49,7 +49,7 @@ const generateList = ({ title, collection }: Section) => (
     <ul>
       {collection.map(({ linkid, formattedTitle }) => (
         <li key={linkid}>
-          <Link href={`recordings/${linkid}`}>{formattedTitle}</Link>
+          <Link href={`/recordings/${linkid}`}>{formattedTitle}</Link>
         </li>
       ))}
     </ul>

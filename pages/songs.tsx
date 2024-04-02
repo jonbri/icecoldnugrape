@@ -24,7 +24,7 @@ const Page: NextPage<PageProps> = ({ songs }) => {
       <ul>
         {songs.map(({ linkid, value }) => (
           <li key={linkid}>
-            <Link href={`songs/${linkid}`}>{value}</Link>
+            <Link href={`/songs/${linkid}`}>{value}</Link>
           </li>
         ))}
       </ul>
