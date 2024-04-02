@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import { getRecordings, getSongs, getComments } from "../lib/data";
 import Layout from "../components/Layout";
 import Fuse from "fuse.js";
+import Link from "next/link";
 
 const allRecordings = getRecordings().map(
   ({ linkid, formattedTitle: text }) => ({
@@ -67,9 +68,9 @@ const SearchPage: NextPage = ({}) => {
           } = result;
           return (
             <li key={`${href}${index}`}>
-              <a href={href}>
+              <Link href={href}>
                 <FuseHighlight result={result} attribute="text" />
-              </a>
+              </Link>
             </li>
           );
         })}
