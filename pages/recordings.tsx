@@ -1,4 +1,5 @@
 import { GetStaticProps } from "next";
+import Link from "next/link";
 import { ParsedUrlQuery } from "querystring";
 import { getRecordings, Recording } from "../lib/data";
 import Layout from "../components/Layout";
@@ -48,7 +49,7 @@ const generateList = ({ title, collection }: Section) => (
     <ul>
       {collection.map(({ linkid, formattedTitle }) => (
         <li key={linkid}>
-          <a href={`recordings/${linkid}`}>{formattedTitle}</a>
+          <Link href={`recordings/${linkid}`}>{formattedTitle}</Link>
         </li>
       ))}
     </ul>

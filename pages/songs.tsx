@@ -1,4 +1,5 @@
 import { GetStaticProps } from "next";
+import Link from "next/link";
 import { ParsedUrlQuery } from "querystring";
 import Layout from "../components/Layout";
 import { getSongs, Song } from "../lib/data";
@@ -23,7 +24,7 @@ const Page: NextPage<PageProps> = ({ songs }) => {
       <ul>
         {songs.map(({ linkid, value }) => (
           <li key={linkid}>
-            <a href={`songs/${linkid}`}>{value}</a>
+            <Link href={`songs/${linkid}`}>{value}</Link>
           </li>
         ))}
       </ul>

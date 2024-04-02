@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 import Layout from "../components/Layout";
 import YoutubeWidget from "../components/YoutubeWidget";
 import TwitterWidget from "../components/TwitterWidget";
@@ -37,7 +38,11 @@ const Home: NextPage = () => (
       <ul>
         {quickLinks.map(({ name, href }) => (
           <li key={name}>
-            <a href={href}>{name}</a>
+            {href.startsWith("http") ? (
+              <a href={href}>{name}</a>
+            ) : (
+              <Link href={href}>Trade</Link>
+            )}
           </li>
         ))}
       </ul>
