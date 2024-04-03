@@ -2,7 +2,10 @@ import Head from "next/head";
 import Link from "next/link";
 import { ReactNode, useEffect, useState } from "react";
 import { getRandomUrl } from "../lib/data";
+import { Ubuntu as Font } from "next/font/google";
 import cn from "../styles/Layout.module.scss";
+
+const font = Font({ subsets: ["latin"], weight: "300" });
 
 interface SiteLink {
   href: string;
@@ -50,7 +53,7 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
   }, [children]);
 
   return (
-    <div className={cn.root}>
+    <div className={`${cn.root} ${font.className}`}>
       <Head>
         <title>icecoldnugrape</title>
         <meta name="og:title" content="icecoldnugrape" />
