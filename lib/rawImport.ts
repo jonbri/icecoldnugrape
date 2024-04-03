@@ -78,9 +78,19 @@ const deriveFormattedTitle = ({
     case "Studio Bootleg":
       formatted = `${name} (${year})`;
       break;
+    case "Radio":
+      formatted = formatDate(year, month, date);
+      if (city) formatted += `${city} `;
+      if (sublocation) formatted += `${sublocation} `;
+      if (country) formatted += `${country} `;
+      if (venue) formatted += `${venue} `;
+      if (name) formatted += `${name} `;
+      if (!/radio/i.test(name ?? "")) {
+        formatted += " (Radio)";
+      }
+      break;
     case "Interview":
     case "TV":
-    case "Radio":
     case "Single":
     default:
       formatted = `${name} (${year})`;
