@@ -58,7 +58,6 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
         <title>icecoldnugrape</title>
         <meta name="og:title" content="icecoldnugrape" />
         <meta name="description" content="icecoldnugrape" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={cn.header}>
         <div className={cn.h1Container}>
