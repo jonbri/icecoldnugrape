@@ -45,9 +45,9 @@ const months = [
 const numToMonth = (num?: number) => (num === undefined ? "" : months[num - 1]);
 const formatDate = (year?: number, month?: number, date?: number) => {
   let formatted = "";
-  if (year !== undefined) formatted += `${year} `;
-  if (month !== undefined) formatted += `${numToMonth(month)} `;
-  if (date !== undefined) formatted += `${date} `;
+  if (year !== undefined && year !== 0) formatted += `${year} `;
+  if (month !== undefined && month !== 0) formatted += `${numToMonth(month)} `;
+  if (date !== undefined && date !== 0) formatted += `${date} `;
   return formatted;
 };
 const deriveFormattedTitle = ({
