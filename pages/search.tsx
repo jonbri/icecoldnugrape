@@ -16,9 +16,9 @@ const allSongs = getSongs().map(({ linkid, value: text }) => ({
   text,
 }));
 const allComments = getComments().map(
-  ({ linkid, type, comment: { text } }) => ({
+  ({ linkid, type, comment: { text, name } }) => ({
     href: `/${type}/${linkid}`,
-    text: `COMMENT: ${text}`,
+    text: `${name}: ${text}`,
   })
 );
 
