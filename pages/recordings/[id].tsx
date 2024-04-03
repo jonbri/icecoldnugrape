@@ -54,7 +54,7 @@ const Page: NextPage<PageProps> = ({
       ) : null}
       <ul>
         {sortedSongs?.map(({ linkid, value, n }) => (
-          <li key={linkid}>
+          <li key={`${n}-${linkid}`}>
             <a href={`../songs/${linkid}`}>{`${n}. ${value}`}</a>
           </li>
         ))}
