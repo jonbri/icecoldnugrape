@@ -89,20 +89,24 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
                 </Link>
               </li>
             ))}
-            {prev && (
-              <li>
+            <li>
+              {prev ? (
                 <Link href={`/${type}/${prev}`} className={cn.nextprev}>
                   Prev
                 </Link>
-              </li>
-            )}
-            {next && (
-              <li>
+              ) : (
+                <span className={cn.nextprevdisabled}>Prev</span>
+              )}
+            </li>
+            <li>
+              {next ? (
                 <Link href={`/${type}/${next}`} className={cn.nextprev}>
                   Next
                 </Link>
-              </li>
-            )}
+              ) : (
+                <span className={cn.nextprevdisabled}>Next</span>
+              )}
+            </li>
           </ul>
         </div>
       </header>
