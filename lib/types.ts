@@ -28,7 +28,6 @@ export interface Recording extends Omit<RecordingImport, "songs" | "comments"> {
 }
 
 export interface SongImport {
-  linkid: number;
   value: SongList;
   comments: Comment[];
   set?: number; // -1 | 1 | 2 | 3
@@ -50,8 +49,14 @@ export interface Comment {
   time: string;
   bob?: number;
 }
-export interface CommentInstance {
+export interface RecordingCommentInstance {
   type: string;
   linkid: number;
+  comment: Comment;
+}
+
+export interface SongCommentInstance {
+  type: string;
+  song: string;
   comment: Comment;
 }

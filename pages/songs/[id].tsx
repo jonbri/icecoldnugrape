@@ -3,7 +3,7 @@ import Link from "next/link";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { ParsedUrlQuery } from "querystring";
 import Layout from "../../components/Layout";
-import { getSongs, getSong, idsToShows } from "../../lib/data";
+import { getSongs, getSongFromSanitized, idsToShows } from "../../lib/data";
 import { Song, Recording } from "../../lib/types";
 
 interface PageProps {
@@ -17,7 +17,7 @@ export const getStaticProps: GetStaticProps<PageProps, Params> = async ({
   params,
 }) => {
   const { id } = params!;
-  const song = getSong(id)!;
+  const song = getSongFromSanitized(id)!;
   const shows = idsToShows(song?.shows ?? []);
   return {
     props: {

@@ -1,6 +1,12 @@
 import { ReactNode, useEffect, useRef, useState } from "react";
 import type { NextPage } from "next";
-import { getRecordings, getSongs, getComments } from "../lib/data";
+import {
+  getRecordings,
+  getSongs,
+  getSongFromName,
+  getRecordingComments,
+  getSongComments,
+} from "../lib/data";
 import Layout from "../components/Layout";
 import Fuse from "fuse.js";
 import Link from "next/link";
@@ -15,18 +21,29 @@ const allSongs = getSongs().map(({ sanitized, value: text }) => ({
   href: `/songs/${sanitized}`,
   text,
 }));
-const allComments = getComments().map(
+
+const recordingComments = getRecordingComments().map(
   ({ linkid, type, comment: { text, name } }) => ({
     href: `/${type}/${linkid}`,
     text: `${name}: ${text}`,
   })
 );
 
-const fuse = new Fuse([...allRecordings, ...allSongs, ...allComments], {
-  minMatchCharLength: 4,
-  includeMatches: true,
-  keys: [{ name: "text" }],
-});
+const songComments = getSongComments().map(
+  ({ song, type, comment: { text, name } }) => ({
+    href: `/${type}/${getSongFromName(song)!.sanitized}`,
+    text: `${name}: ${text}`,
+  })
+);
+
+const fuse = new Fuse(
+  [...allRecordings, ...allSongs, ...recordingComments, ...songComments],
+  {
+    minMatchCharLength: 4,
+    includeMatches: true,
+    keys: [{ name: "text" }],
+  }
+);
 
 interface Result {
   href: string;

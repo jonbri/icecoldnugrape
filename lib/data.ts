@@ -1,5 +1,5 @@
 import payload from "./rawImport";
-import { CommentInstance } from "./types";
+import { RecordingCommentInstance, SongCommentInstance } from "./types";
 const { recordings, songs } = payload;
 
 export const getRecordings = () => recordings;
@@ -20,34 +20,40 @@ export const getSongs = () =>
     return 0;
   });
 
-export const getSong = (id: string) =>
+export const getSongFromSanitized = (id: string) =>
   songs.find(({ sanitized }) => sanitized === id);
+
+export const getSongFromName = (name: string) =>
+  songs.find(({ value }) => value === name);
 
 const recordingsWithComment = recordings.filter(
   ({ comments }) => comments.length > 0
 );
 const songsWithComment = songs.filter(({ comments }) => comments.length > 0);
-const commentInstances: CommentInstance[] = [];
+const recordingCommentInstances: RecordingCommentInstance[] = [];
 for (const { linkid, comments } of recordingsWithComment) {
   comments.forEach((comment) => {
-    commentInstances.push({
+    recordingCommentInstances.push({
       type: "recordings",
       linkid,
       comment,
     });
   });
 }
-for (const { linkid, comments } of songsWithComment) {
+
+const songCommentInstances: SongCommentInstance[] = [];
+for (const { value, comments } of songsWithComment) {
   comments.forEach((comment) => {
-    commentInstances.push({
+    songCommentInstances.push({
       type: "songs",
-      linkid,
+      song: value,
       comment,
     });
   });
 }
 
-export const getComments = () => commentInstances;
+export const getRecordingComments = () => recordingCommentInstances;
+export const getSongComments = () => songCommentInstances;
 
 export const getRandomUrl = () => {
   const recordings = getRecordings();
