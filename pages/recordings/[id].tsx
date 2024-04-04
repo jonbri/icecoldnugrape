@@ -53,9 +53,9 @@ const Page: NextPage<PageProps> = ({
   const hasSets = set2?.length > 0;
   const generateSetList = (set: SongInstance[]) => (
     <ul>
-      {set.map(({ value, sanitized, n }) => (
+      {set.map(({ name, sanitized, n }) => (
         <li key={`${n}-${sanitized}`}>
-          <Link href={`/songs/${sanitized}`}>{`${n}. ${value}`}</Link>
+          <Link href={`/songs/${sanitized}`}>{`${n}. ${name}`}</Link>
         </li>
       ))}
     </ul>

@@ -14,9 +14,9 @@ export const idsToShows = (ids: number[]) =>
   ids.map((id) => getRecording(id + "")!);
 
 export const getSongs = () =>
-  songs.sort(({ value: value0 }, { value: value1 }) => {
-    if (value0.toLowerCase() > value1.toLowerCase()) return 1;
-    else if (value0.toLowerCase() < value1.toLowerCase()) return -1;
+  songs.sort(({ name: name0 }, { name: name1 }) => {
+    if (name0.toLowerCase() > name1.toLowerCase()) return 1;
+    else if (name0.toLowerCase() < name1.toLowerCase()) return -1;
     return 0;
   });
 
@@ -24,7 +24,7 @@ export const getSongFromSanitized = (id: string) =>
   songs.find(({ sanitized }) => sanitized === id);
 
 export const getSongFromName = (name: string) =>
-  songs.find(({ value }) => value === name);
+  songs.find((song) => song.name === name);
 
 const recordingsWithComment = recordings.filter(
   ({ comments }) => comments.length > 0
@@ -42,11 +42,11 @@ for (const { linkid, comments } of recordingsWithComment) {
 }
 
 const songCommentInstances: SongCommentInstance[] = [];
-for (const { value, comments } of songsWithComment) {
+for (const { name, comments } of songsWithComment) {
   comments.forEach((comment) => {
     songCommentInstances.push({
       type: "songs",
-      song: value,
+      song: name,
       comment,
     });
   });

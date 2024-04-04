@@ -39,9 +39,9 @@ export const getStaticPaths: GetStaticPaths<Params> = async () => {
   };
 };
 
-const Page: NextPage<PageProps> = ({ song: { value, comments }, shows }) => (
+const Page: NextPage<PageProps> = ({ song: { name, comments }, shows }) => (
   <Layout type="songs">
-    <h2>{value}</h2>
+    <h2>{name}</h2>
     <ul>
       {shows.map(({ linkid, formattedTitle }) => (
         <li key={linkid}>

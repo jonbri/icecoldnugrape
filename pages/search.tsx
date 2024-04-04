@@ -17,9 +17,9 @@ const allRecordings = getRecordings().map(
     text,
   })
 );
-const allSongs = getSongs().map(({ sanitized, value: text }) => ({
+const allSongs = getSongs().map(({ sanitized, name }) => ({
   href: `/songs/${sanitized}`,
-  text,
+  text: name,
 }));
 
 const recordingComments = getRecordingComments().map(

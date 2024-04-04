@@ -2,28 +2,28 @@ import { RecordingImport, SongImport } from "../lib/types";
 
 export const songs: SongImport[] = [
   {
-    value: "drumbeat...",
+    name: "drumbeat...",
   },
   {
-    value: "(She's Gonna) Respect Me",
+    name: "(She's Gonna) Respect Me",
   },
   {
-    value: "Sister Ray",
+    name: "Sister Ray",
   },
   {
-    value: "409",
+    name: "409",
   },
   {
-    value: "4am in Tokyo, Japan",
+    name: "4am in Tokyo, Japan",
   },
   {
-    value: "7 Day Weekend",
+    name: "7 Day Weekend",
   },
   {
-    value: "96 Tears",
+    name: "96 Tears",
   },
   {
-    value: "A Crush Or Love?",
+    name: "A Crush Or Love?",
     comments: [
       {
         name: "JR Fan 1",
@@ -33,10 +33,10 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "A Hard Time Saying Goodbye",
+    name: "A Hard Time Saying Goodbye",
   },
   {
-    value: "A Higher Power",
+    name: "A Higher Power",
     comments: [
       {
         name: "Jerry",
@@ -46,7 +46,7 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "A Plea For Tenderness",
+    name: "A Plea For Tenderness",
     comments: [
       {
         name: "JR Fan 1",
@@ -56,13 +56,13 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "A Que Venimos Sino a Caer?",
+    name: "A Que Venimos Sino a Caer?",
   },
   {
-    value: "A Song About New York",
+    name: "A Song About New York",
   },
   {
-    value: "Abdul and Cleopatra",
+    name: "Abdul and Cleopatra",
     comments: [
       {
         name: "JR Fan 1",
@@ -72,10 +72,10 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Abominable Snowman in the Market",
+    name: "Abominable Snowman in the Market",
   },
   {
-    value: "Abu Jamal",
+    name: "Abu Jamal",
     comments: [
       {
         name: "Jerry",
@@ -90,31 +90,31 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Action Packed",
+    name: "Action Packed",
   },
   {
-    value: "Affection",
+    name: "Affection",
   },
   {
-    value: "African Lady",
+    name: "African Lady",
   },
   {
-    value: "Afternoon",
+    name: "Afternoon",
   },
   {
-    value: "Amazing Grace",
+    name: "Amazing Grace",
   },
   {
-    value: "Amorcito Corazon",
+    name: "Amorcito Corazon",
   },
   {
-    value: "Ancient Long Ago",
+    name: "Ancient Long Ago",
   },
   {
-    value: "Angels Watching Over Me",
+    name: "Angels Watching Over Me",
   },
   {
-    value: "Are You Feeling Good?",
+    name: "Are You Feeling Good?",
     comments: [
       {
         name: "JB",
@@ -124,10 +124,10 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Arriverderci Roma",
+    name: "Arriverderci Roma",
   },
   {
-    value: "As My Mother Lay Lying",
+    name: "As My Mother Lay Lying",
     comments: [
       {
         name: "Jerry",
@@ -137,10 +137,10 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Astral Plane",
+    name: "Astral Plane",
   },
   {
-    value: "At Home With a Lover",
+    name: "At Home With a Lover",
     comments: [
       {
         name: "JB",
@@ -150,10 +150,10 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "At Night",
+    name: "At Night",
   },
   {
-    value: "Baby Baby Boss Me Around",
+    name: "Baby Baby Boss Me Around",
     comments: [
       {
         name: "JB",
@@ -163,31 +163,31 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Baby We Can't Go Wrong",
+    name: "Baby We Can't Go Wrong",
   },
   {
-    value: "Baby, I'm A Rockin' Rebel'oh",
+    name: "Baby, I'm A Rockin' Rebel'oh",
   },
   {
-    value: "Back in the USA",
+    name: "Back in the USA",
   },
   {
-    value: "Back in Your Life",
+    name: "Back in Your Life",
   },
   {
-    value: "Bajando, Bajando por Ceniza y Mineral",
+    name: "Bajando, Bajando por Ceniza y Mineral",
   },
   {
-    value: "Bang, Bang, Lulu",
+    name: "Bang, Bang, Lulu",
   },
   {
-    value: "Barcelona",
+    name: "Barcelona",
   },
   {
-    value: "Because Her Beauty is Raw and Wild",
+    name: "Because Her Beauty is Raw and Wild",
   },
   {
-    value: "Behold the Lilies of the Field ",
+    name: "Behold the Lilies of the Field ",
     comments: [
       {
         name: "JB",
@@ -197,43 +197,43 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Blowin in the Wind",
+    name: "Blowin in the Wind",
   },
   {
-    value: "Blue Moon",
+    name: "Blue Moon",
   },
   {
-    value: "Blue Suede Shoes",
+    name: "Blue Suede Shoes",
   },
   {
-    value: "Boogie Woogie Country Girl",
+    name: "Boogie Woogie Country Girl",
   },
   {
-    value: "Born To Be Wild",
+    name: "Born To Be Wild",
   },
   {
-    value: "Born Too Late",
+    name: "Born Too Late",
   },
   {
-    value: "Boston My Hometown",
+    name: "Boston My Hometown",
   },
   {
-    value: "Boston, USA",
+    name: "Boston, USA",
   },
   {
-    value: "Bring Back Springtime To The World Of Nature",
+    name: "Bring Back Springtime To The World Of Nature",
   },
   {
-    value: "Bundle Of Joy",
+    name: "Bundle Of Joy",
   },
   {
-    value: "Buzz Buzz Buzz",
+    name: "Buzz Buzz Buzz",
   },
   {
-    value: "C'etait Toujours Toi",
+    name: "C'etait Toujours Toi",
   },
   {
-    value: "California Desert Party",
+    name: "California Desert Party",
     comments: [
       {
         name: "JB",
@@ -243,31 +243,31 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Cambridge Clown",
+    name: "Cambridge Clown",
   },
   {
-    value: "Camina y Ven",
+    name: "Camina y Ven",
   },
   {
-    value: "Cappuccino Bar",
+    name: "Cappuccino Bar",
   },
   {
-    value: "Carla",
+    name: "Carla",
   },
   {
-    value: "Celestial",
+    name: "Celestial",
   },
   {
-    value: "Chewing Gum Wrapper",
+    name: "Chewing Gum Wrapper",
   },
   {
-    value: "Chiusa la Festa, Chiusa la Sera",
+    name: "Chiusa la Festa, Chiusa la Sera",
   },
   {
-    value: "Circa",
+    name: "Circa",
   },
   {
-    value: "Circle I",
+    name: "Circle I",
     comments: [
       {
         name: "JB",
@@ -277,22 +277,22 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "City vs. Country",
+    name: "City vs. Country",
   },
   {
-    value: "Closer",
+    name: "Closer",
   },
   {
-    value: "Coin De Rue",
+    name: "Coin De Rue",
   },
   {
-    value: "Come On Everybody",
+    name: "Come On Everybody",
   },
   {
-    value: "Con el Merengue",
+    name: "Con el Merengue",
   },
   {
-    value: "Corner Store",
+    name: "Corner Store",
     comments: [
       {
         name: "VinnieQ",
@@ -302,10 +302,10 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Cosi Veloce",
+    name: "Cosi Veloce",
   },
   {
-    value: "Couples Must Fight",
+    name: "Couples Must Fight",
     comments: [
       {
         name: "Jerry",
@@ -320,10 +320,10 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Cozy With a K",
+    name: "Cozy With a K",
   },
   {
-    value: "Crazy Eddie",
+    name: "Crazy Eddie",
     comments: [
       {
         name: "Jerry",
@@ -333,7 +333,7 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Crazy Little Mama",
+    name: "Crazy Little Mama",
     comments: [
       {
         name: "Pol Dodu",
@@ -343,22 +343,22 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Creeps On The March",
+    name: "Creeps On The March",
   },
   {
-    value: "Dancin' Late at Night",
+    name: "Dancin' Late at Night",
   },
   {
-    value: "I Was Dancing in the Lesbian Bar",
+    name: "I Was Dancing in the Lesbian Bar",
   },
   {
-    value: "Dancing In the Moonlight",
+    name: "Dancing In the Moonlight",
   },
   {
-    value: "David and Goliath",
+    name: "David and Goliath",
   },
   {
-    value: "Death Comes to Everyone",
+    name: "Death Comes to Everyone",
     comments: [
       {
         name: "Jerry",
@@ -373,61 +373,61 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Dick Gregory",
+    name: "Dick Gregory",
   },
   {
-    value: "Dignified And Old",
+    name: "Dignified And Old",
   },
   {
-    value: "Do You Want To Dance",
+    name: "Do You Want To Dance",
   },
   {
-    value: "Dodge Veg-o-matic",
+    name: "Dodge Veg-o-matic",
   },
   {
-    value: "Don't Let Our Youth Go To Waste",
+    name: "Don't Let Our Youth Go To Waste",
   },
   {
-    value: "Don't Worry Baby",
+    name: "Don't Worry Baby",
   },
   {
-    value: "Don't You Just Know It",
+    name: "Don't You Just Know It",
   },
   {
-    value: "Doo Wop Number",
+    name: "Doo Wop Number",
   },
   {
-    value: "Double Chocolate Malted",
+    name: "Double Chocolate Malted",
   },
   {
-    value: "Down In Bermuda",
+    name: "Down In Bermuda",
   },
   {
-    value: "Down In Cuba",
+    name: "Down In Cuba",
   },
   {
-    value: "Down the Mississippi",
+    name: "Down the Mississippi",
   },
   {
-    value: "Drift Away",
+    name: "Drift Away",
   },
   {
-    value: "Egyptian Reggae",
+    name: "Egyptian Reggae",
   },
   {
-    value: "El Joven se Estemece",
+    name: "El Joven se Estemece",
   },
   {
-    value: "El UFO Man",
+    name: "El UFO Man",
   },
   {
-    value: "Emaline",
+    name: "Emaline",
   },
   {
-    value: "Empty Heart",
+    name: "Empty Heart",
   },
   {
-    value: "Es Como El Pan",
+    name: "Es Como El Pan",
     comments: [
       {
         name: "JB",
@@ -437,7 +437,7 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Everyday Clothes",
+    name: "Everyday Clothes",
     comments: [
       {
         name: "Jerry",
@@ -447,145 +447,145 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Everything's Gotta Be Right",
+    name: "Everything's Gotta Be Right",
   },
   {
-    value: "Falling in Love Must Be Two",
+    name: "Falling in Love Must Be Two",
   },
   {
-    value: "Feel It",
+    name: "Feel It",
   },
   {
-    value: "Fender Stratocaster",
+    name: "Fender Stratocaster",
   },
   {
-    value: "Five Year Old Feeling",
+    name: "Five Year Old Feeling",
   },
   {
-    value: "Floatin'",
+    name: "Floatin'",
   },
   {
-    value: "Fly Into the Mystery",
+    name: "Fly Into the Mystery",
   },
   {
-    value: "Foggy Notion",
+    name: "Foggy Notion",
   },
   {
-    value: "Follow the Leader",
+    name: "Follow the Leader",
   },
   {
-    value: "For Drama We Have the Seasons",
+    name: "For Drama We Have the Seasons",
   },
   {
-    value: "French Style",
+    name: "French Style",
   },
   {
-    value: "Friday Night in Osaka in Japan",
+    name: "Friday Night in Osaka in Japan",
   },
   {
-    value: "Gail Loves Me",
+    name: "Gail Loves Me",
   },
   {
-    value: "Get In the Groove",
+    name: "Get In the Groove",
   },
   {
-    value: "Girl With the Curl",
+    name: "Girl With the Curl",
   },
   {
-    value: "Girlfren'",
+    name: "Girlfren'",
   },
   {
-    value: "Give Paris One More Chance",
+    name: "Give Paris One More Chance",
   },
   {
-    value: "Goin' Home",
+    name: "Goin' Home",
   },
   {
-    value: "Good Golly Miss Molly",
+    name: "Good Golly Miss Molly",
   },
   {
-    value: "Good Lovin'",
+    name: "Good Lovin'",
   },
   {
-    value: "Good Night Baby",
+    name: "Good Night Baby",
   },
   {
-    value: "Government Center",
+    name: "Government Center",
   },
   {
-    value: "Green Onions",
+    name: "Green Onions",
   },
   {
-    value: "Ha Muerto la Rosa",
+    name: "Ha Muerto la Rosa",
   },
   {
-    value: "Hang On Sloopy",
+    name: "Hang On Sloopy",
   },
   {
-    value: "Happy Birthday",
+    name: "Happy Birthday",
   },
   {
-    value: "Happy Birthday Dawn",
+    name: "Happy Birthday Dawn",
   },
   {
-    value: "Happy Birthday to Joey",
+    name: "Happy Birthday to Joey",
   },
   {
-    value: "Harbour Lights",
+    name: "Harbour Lights",
   },
   {
-    value: "Haseemla Classica",
+    name: "Haseemla Classica",
   },
   {
-    value: "Have You Got Something You Love",
+    name: "Have You Got Something You Love",
   },
   {
-    value: "He Gave Us the Wine to Taste",
+    name: "He Gave Us the Wine to Taste",
   },
   {
-    value: "Heart To Heart",
+    name: "Heart To Heart",
   },
   {
-    value: "Hello from Cupid",
+    name: "Hello from Cupid",
   },
   {
-    value: "Hello Josephine",
+    name: "Hello Josephine",
   },
   {
-    value: "Her Mystery Not Of High Heels and Eye Shadow",
+    name: "Her Mystery Not Of High Heels and Eye Shadow",
   },
   {
-    value: "Her Way Moves Me",
+    name: "Her Way Moves Me",
   },
   {
-    value: "Here Come the Martian Martians",
+    name: "Here Come the Martian Martians",
   },
   {
-    value: "Here Comes My Baby",
+    name: "Here Comes My Baby",
   },
   {
-    value: "Here It Is",
+    name: "Here It Is",
   },
   {
-    value: "Here We Are in Ancient Egypt",
+    name: "Here We Are in Ancient Egypt",
   },
   {
-    value: "Here We Are In Dreamland",
+    name: "Here We Are In Dreamland",
   },
   {
-    value: "Hey Good Looking",
+    name: "Hey Good Looking",
   },
   {
-    value: "Hey There Little Insect",
+    name: "Hey There Little Insect",
   },
   {
-    value: "Hi Dear",
+    name: "Hi Dear",
   },
   {
-    value: "Hi Fred, We Still Love You",
+    name: "Hi Fred, We Still Love You",
   },
   {
-    value: "Hospital",
+    name: "Hospital",
     comments: [
       {
         name: "Jerry",
@@ -595,28 +595,28 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Hot Love",
+    name: "Hot Love",
   },
   {
-    value: "Howdy-D Burger Drive-in",
+    name: "Howdy-D Burger Drive-in",
   },
   {
-    value: "I Can Hear Her Fighting With Herself",
+    name: "I Can Hear Her Fighting With Herself",
   },
   {
-    value: "I Can't Find My Best Friend",
+    name: "I Can't Find My Best Friend",
   },
   {
-    value: "I Can't Sleep Now",
+    name: "I Can't Sleep Now",
   },
   {
-    value: "I Don't Complain About My Lucky Star",
+    name: "I Don't Complain About My Lucky Star",
   },
   {
-    value: "I Don't Want To Go Halfway",
+    name: "I Don't Want To Go Halfway",
   },
   {
-    value: "I Eat With Gusto, Damn! You Bet",
+    name: "I Eat With Gusto, Damn! You Bet",
     comments: [
       {
         name: "Jerry",
@@ -631,118 +631,118 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "I Grew Up In the Suburbs",
+    name: "I Grew Up In the Suburbs",
   },
   {
-    value: "I Had a Crush On Her",
+    name: "I Had a Crush On Her",
   },
   {
-    value: "I Had a Favorite Flower",
+    name: "I Had a Favorite Flower",
   },
   {
-    value: "I Had to Change",
+    name: "I Had to Change",
   },
   {
-    value: "I Have Come Out to Play",
+    name: "I Have Come Out to Play",
   },
   {
-    value: "I Have No Reason to Doubt Her",
+    name: "I Have No Reason to Doubt Her",
   },
   {
-    value: "I Know I Turn Her On",
+    name: "I Know I Turn Her On",
   },
   {
-    value: "I Like it Like That",
+    name: "I Like it Like That",
   },
   {
-    value: "I Love Her Little Body",
+    name: "I Love Her Little Body",
   },
   {
-    value: "I Love Hot Nights",
+    name: "I Love Hot Nights",
   },
   {
-    value: "I Love Life More and More",
+    name: "I Love Life More and More",
   },
   {
-    value: "I Love Life So",
+    name: "I Love Life So",
   },
   {
-    value: "I Love People",
+    name: "I Love People",
   },
   {
-    value: "I Love the World",
+    name: "I Love the World",
   },
   {
-    value: "I Love This World and It's Mystery",
+    name: "I Love This World and It's Mystery",
   },
   {
-    value: "I Love You So",
+    name: "I Love You So",
   },
   {
-    value: "I Moved Away",
+    name: "I Moved Away",
   },
   {
-    value: "I Must Be King",
+    name: "I Must Be King",
   },
   {
-    value: "I Need Someone",
+    name: "I Need Someone",
   },
   {
-    value: "I See What's Underneath",
+    name: "I See What's Underneath",
   },
   {
-    value: "I Took a Chance on Her",
+    name: "I Took a Chance on Her",
   },
   {
-    value: "I Wanna Sleep In Your Arms",
+    name: "I Wanna Sleep In Your Arms",
   },
   {
-    value: "I Want Somebody to Love Me",
+    name: "I Want Somebody to Love Me",
   },
   {
-    value: "I Want To Love Him So Bad",
+    name: "I Want To Love Him So Bad",
   },
   {
-    value: "I'd Rather Feel Than Not Feel At All",
+    name: "I'd Rather Feel Than Not Feel At All",
   },
   {
-    value: "I'm a Jerk",
+    name: "I'm a Jerk",
   },
   {
-    value: "I'm a Little Airplane",
+    name: "I'm a Little Airplane",
   },
   {
-    value: "I'm a Little Dinosaur",
+    name: "I'm a Little Dinosaur",
   },
   {
-    value: "I'm Crying",
+    name: "I'm Crying",
   },
   {
-    value: "I'm Dropping My Friends (One by One)",
+    name: "I'm Dropping My Friends (One by One)",
   },
   {
-    value: "I'm in a Dancing Mood",
+    name: "I'm in a Dancing Mood",
   },
   {
-    value: "I'm Just Beginning To Live",
+    name: "I'm Just Beginning To Live",
   },
   {
-    value: "I'm Nature's Mosquito",
+    name: "I'm Nature's Mosquito",
   },
   {
-    value: "I'm Not Afraid To Make Mistakes",
+    name: "I'm Not Afraid To Make Mistakes",
   },
   {
-    value: "I'm Not Obsessed With Her",
+    name: "I'm Not Obsessed With Her",
   },
   {
-    value: "I'm So Confused",
+    name: "I'm So Confused",
   },
   {
-    value: "I'm Straight",
+    name: "I'm Straight",
   },
   {
-    value: "I'm Your God Pan",
+    name: "I'm Your God Pan",
     comments: [
       {
         name: "Jerry",
@@ -757,16 +757,16 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Ice Cold NuGrape",
+    name: "Ice Cold NuGrape",
   },
   {
-    value: "Ice Cream Man",
+    name: "Ice Cream Man",
   },
   {
-    value: "If She Don't Love Me",
+    name: "If She Don't Love Me",
   },
   {
-    value: "Important in Your Life",
+    name: "Important in Your Life",
     comments: [
       {
         name: "Jerry",
@@ -776,220 +776,220 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "In Che Mondo Vivamo",
+    name: "In Che Mondo Vivamo",
   },
   {
-    value: "In Japan",
+    name: "In Japan",
   },
   {
-    value: "instrumental",
+    name: "instrumental",
   },
   {
-    value: "interview...",
+    name: "interview...",
   },
   {
-    value: "It Will Stand",
+    name: "It Will Stand",
   },
   {
-    value: "It's Afternoon And The Range Is Calling",
+    name: "It's Afternoon And The Range Is Calling",
   },
   {
-    value: "It's Fall Time",
+    name: "It's Fall Time",
   },
   {
-    value: "It's You",
+    name: "It's You",
   },
   {
-    value: "Jail",
+    name: "Jail",
   },
   {
-    value: "Jambalaya",
+    name: "Jambalaya",
   },
   {
-    value: "Jenny Jenny Jenny",
+    name: "Jenny Jenny Jenny",
   },
   {
-    value: "Johnny Too Bad",
+    name: "Johnny Too Bad",
   },
   {
-    value: "Jonathan I Feel So Bad",
+    name: "Jonathan I Feel So Bad",
   },
   {
-    value: "Jose Bove",
+    name: "Jose Bove",
   },
   {
-    value: "Joy Over Sorrow",
+    name: "Joy Over Sorrow",
   },
   {
-    value: "Just About 17",
+    name: "Just About 17",
   },
   {
-    value: "Just For Fun",
+    name: "Just For Fun",
   },
   {
-    value: "Just Look At Me",
+    name: "Just Look At Me",
   },
   {
-    value: "Just Wanna Be Young",
+    name: "Just Wanna Be Young",
   },
   {
-    value: "Justine",
+    name: "Justine",
   },
   {
-    value: "Karma Chameleon",
+    name: "Karma Chameleon",
   },
   {
-    value: "Keep on Dancing",
+    name: "Keep on Dancing",
   },
   {
-    value: "Keith Richards",
+    name: "Keith Richards",
   },
   {
-    value: "Kumbaya",
+    name: "Kumbaya",
   },
   {
-    value: "La Bamba",
+    name: "La Bamba",
   },
   {
-    value: "Le Freak",
+    name: "Le Freak",
   },
   {
-    value: "Le Printemps Des Amoreux Est Venue",
+    name: "Le Printemps Des Amoreux Est Venue",
   },
   {
-    value: "Leaves On The Sidewalk After The Rain",
+    name: "Leaves On The Sidewalk After The Rain",
   },
   {
-    value: "Les Etoiles",
+    name: "Les Etoiles",
   },
   {
-    value: "Let Her Go Into the Darkness",
+    name: "Let Her Go Into the Darkness",
   },
   {
-    value: "Let Her Go To Her Old Boyfriend",
+    name: "Let Her Go To Her Old Boyfriend",
   },
   {
-    value: "Let The Four Winds Blow",
+    name: "Let The Four Winds Blow",
   },
   {
-    value: "Let's Get Wild",
+    name: "Let's Get Wild",
   },
   {
-    value: "Let's Say We Just Met",
+    name: "Let's Say We Just Met",
   },
   {
-    value: "Let's Take a Trip",
+    name: "Let's Take a Trip",
   },
   {
-    value: "Let's Go Playing",
+    name: "Let's Go Playing",
   },
   {
-    value: "Let's Take The Long Way Home",
+    name: "Let's Take The Long Way Home",
   },
   {
-    value: "Let's Twist Again",
+    name: "Let's Twist Again",
   },
   {
-    value: "Life Hurts and I Expect It",
+    name: "Life Hurts and I Expect It",
   },
   {
-    value: "Little Bell",
+    name: "Little Bell",
   },
   {
-    value: "Little Boy In My Heart",
+    name: "Little Boy In My Heart",
   },
   {
-    value: "Little Latin Lupe Lu",
+    name: "Little Latin Lupe Lu",
   },
   {
-    value: "Little Sister",
+    name: "Little Sister",
   },
   {
-    value: "Lonely Financial Zone",
+    name: "Lonely Financial Zone",
   },
   {
-    value: "Lonely Little Thrift Store",
+    name: "Lonely Little Thrift Store",
   },
   {
-    value: "Lonely Without Her",
+    name: "Lonely Without Her",
   },
   {
-    value: "Louie Louie",
+    name: "Louie Louie",
   },
   {
-    value: "Louise",
+    name: "Louise",
   },
   {
-    value: "Love Me Like I Love",
+    name: "Love Me Like I Love",
   },
   {
-    value: "Lover Please",
+    name: "Lover Please",
   },
   {
-    value: "Lydia",
+    name: "Lydia",
   },
   {
-    value: "A Mistake Today For Me",
+    name: "A Mistake Today For Me",
   },
   {
-    value: "Malaguena De Jojo",
+    name: "Malaguena De Jojo",
   },
   {
-    value: "Malingering",
+    name: "Malingering",
   },
   {
-    value: "Maybe a Walk Home From Natick High School",
+    name: "Maybe a Walk Home From Natick High School",
   },
   {
-    value: "Me And Her Got A Good Thing Goin' Baby ",
+    name: "Me And Her Got A Good Thing Goin' Baby ",
   },
   {
-    value: "Miracles Will Start To Happen",
+    name: "Miracles Will Start To Happen",
   },
   {
-    value: "Modern World",
+    name: "Modern World",
   },
   {
-    value: "Mona",
+    name: "Mona",
   },
   {
-    value: "Money",
+    name: "Money",
   },
   {
-    value: "Monologue About Bermuda",
+    name: "Monologue About Bermuda",
   },
   {
-    value: "Mood Lighting for Dreaming",
+    name: "Mood Lighting for Dreaming",
   },
   {
-    value: "More Fun In Our 40's",
+    name: "More Fun In Our 40's",
   },
   {
-    value: "More Surprises",
+    name: "More Surprises",
   },
   {
-    value: "The Morning of Our Lives",
+    name: "The Morning of Our Lives",
   },
   {
-    value: "Mr Squiltage goes to College",
+    name: "Mr Squiltage goes to College",
   },
   {
-    value: "Mr. Sorrow",
+    name: "Mr. Sorrow",
   },
   {
-    value: "My Affected Accent",
+    name: "My Affected Accent",
   },
   {
-    value: "My Appearance on the Balcony",
+    name: "My Appearance on the Balcony",
   },
   {
-    value: "My Baby",
+    name: "My Baby",
   },
   {
-    value: "My Baby Love Love Loves Me",
+    name: "My Baby Love Love Loves Me",
   },
   {
-    value: "My Career As a Homewrecker",
+    name: "My Career As a Homewrecker",
     comments: [
       {
         name: "Jerry",
@@ -1004,28 +1004,28 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "My Guiding Star",
+    name: "My Guiding Star",
   },
   {
-    value: "My Guy",
+    name: "My Guy",
   },
   {
-    value: "My Heart Needs Repair",
+    name: "My Heart Needs Repair",
   },
   {
-    value: "My Heart Was Won by a Girl",
+    name: "My Heart Was Won by a Girl",
   },
   {
-    value: "My Honest Dear",
+    name: "My Honest Dear",
   },
   {
-    value: "My Jeans",
+    name: "My Jeans",
   },
   {
-    value: "My Little Girls Got A Full Time Daddy Now",
+    name: "My Little Girls Got A Full Time Daddy Now",
   },
   {
-    value: "My Little Kookenhaken",
+    name: "My Little Kookenhaken",
     comments: [
       {
         name: "JB",
@@ -1035,16 +1035,16 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "My Love For Her Ain't Sad",
+    name: "My Love For Her Ain't Sad",
   },
   {
-    value: "My Love is a Flower (Just Beginning to Bloom)",
+    name: "My Love is a Flower (Just Beginning to Bloom)",
   },
   {
-    value: "My Modern Lover",
+    name: "My Modern Lover",
   },
   {
-    value: "My Name Is Jonathan",
+    name: "My Name Is Jonathan",
     comments: [
       {
         name: "JB",
@@ -1054,250 +1054,250 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "My Runabout Girl",
+    name: "My Runabout Girl",
   },
   {
-    value: "Mystery of the Summer Night",
+    name: "Mystery of the Summer Night",
   },
   {
-    value: "Neon Sign",
+    name: "Neon Sign",
   },
   {
-    value: "New England",
+    name: "New England",
   },
   {
-    value: "New Kind Of Neighborhood",
+    name: "New Kind Of Neighborhood",
   },
   {
-    value: "unknown (french)",
+    name: "unknown (french)",
   },
   {
-    value: "unknown (spanish)",
+    name: "unknown (spanish)",
   },
   {
-    value: "New York at 4am is More My Style",
+    name: "New York at 4am is More My Style",
   },
   {
-    value: "Nineteen in Naples",
+    name: "Nineteen in Naples",
   },
   {
-    value: "Nishi",
+    name: "Nishi",
   },
   {
-    value: "No Habla Mis Palabras De Amor",
+    name: "No Habla Mis Palabras De Amor",
   },
   {
-    value: "No More Gasoline",
+    name: "No More Gasoline",
   },
   {
-    value: "No One Was Like Vermeer",
+    name: "No One Was Like Vermeer",
   },
   {
-    value: "Not Happy For Tomorrow...Happy For Today",
+    name: "Not Happy For Tomorrow...Happy For Today",
   },
   {
-    value: "Not In My Name",
+    name: "Not In My Name",
   },
   {
-    value: 'Not Just "Plus One" On The Guest List Anymore',
+    name: 'Not Just "Plus One" On The Guest List Anymore',
   },
   {
-    value: "Not So Much To Be Loved As To Love",
+    name: "Not So Much To Be Loved As To Love",
   },
   {
-    value: "Not Yet 3",
+    name: "Not Yet 3",
   },
   {
-    value: "Nothing Can Change This Love",
+    name: "Nothing Can Change This Love",
   },
   {
-    value: "Now is Better Than Before",
+    name: "Now is Better Than Before",
   },
   {
-    value: "I Don't Want No Nuclear Power Plants (In My Life)",
+    name: "I Don't Want No Nuclear Power Plants (In My Life)",
   },
   {
-    value: "Oh Boy",
+    name: "Oh Boy",
   },
   {
-    value: "Oh Carol",
+    name: "Oh Carol",
   },
   {
-    value: "Old World",
+    name: "Old World",
   },
   {
-    value: "Older Girl",
+    name: "Older Girl",
   },
   {
-    value: "On a du Soleil",
+    name: "On a du Soleil",
   },
   {
-    value: "Our Party Will Be On The Beach Tonight",
+    name: "Our Party Will Be On The Beach Tonight",
   },
   {
-    value: "Our Swinging Pad",
+    name: "Our Swinging Pad",
   },
   {
-    value: "Pablo Picasso",
+    name: "Pablo Picasso",
   },
   {
-    value: "Pacific Coast Highway",
+    name: "Pacific Coast Highway",
   },
   {
-    value: "Pantomima de El Amor Brujo",
+    name: "Pantomima de El Amor Brujo",
   },
   {
-    value: "J'aime Paris au mois de mai",
+    name: "J'aime Paris au mois de mai",
   },
   {
-    value: "Parties In The USA",
+    name: "Parties In The USA",
   },
   {
-    value: "Partners in Crime",
+    name: "Partners in Crime",
   },
   {
-    value: "Party In The Woods Tonight",
+    name: "Party In The Woods Tonight",
   },
   {
-    value: "Pearl",
+    name: "Pearl",
   },
   {
-    value: "Peggy Sue",
+    name: "Peggy Sue",
   },
   {
-    value: "Peppermint Twist",
+    name: "Peppermint Twist",
   },
   {
-    value: "Place Pigalle",
+    name: "Place Pigalle",
   },
   {
-    value: "Poem by Pier Paolo Pasolini",
+    name: "Poem by Pier Paolo Pasolini",
   },
   {
-    value: "Polk Salad Annie",
+    name: "Polk Salad Annie",
   },
   {
-    value: "Pretty is Pretty (But It's Not All That There Is)",
+    name: "Pretty is Pretty (But It's Not All That There Is)",
   },
   {
-    value: "Pretty Little Girl",
+    name: "Pretty Little Girl",
   },
   {
-    value: "Pterodactyl in the Airport",
+    name: "Pterodactyl in the Airport",
   },
   {
-    value: "Quarter to Three",
+    name: "Quarter to Three",
   },
   {
-    value: "Que C'est Triste Venise",
+    name: "Que C'est Triste Venise",
   },
   {
-    value: "Que reste-t-il de nos amours?",
+    name: "Que reste-t-il de nos amours?",
   },
   {
-    value: "Quintage Goes to Market",
+    name: "Quintage Goes to Market",
   },
   {
-    value: "Ready Teddy",
+    name: "Ready Teddy",
   },
   {
-    value: "Reelin' & Rockin'",
+    name: "Reelin' & Rockin'",
   },
   {
-    value: "Reno",
+    name: "Reno",
   },
   {
-    value: "Ride Down On The Highway",
+    name: "Ride Down On The Highway",
   },
   {
-    value: "Roadrunner",
+    name: "Roadrunner",
   },
   {
-    value: "Rock 'N' Roll Drummer Straight From The Hospy-Tel",
+    name: "Rock 'N' Roll Drummer Straight From The Hospy-Tel",
   },
   {
-    value: "Rock n' Roll Number 9",
+    name: "Rock n' Roll Number 9",
   },
   {
-    value: "Rock and Roll Music",
+    name: "Rock and Roll Music",
   },
   {
-    value: "Rock and Roll Will Happen",
+    name: "Rock and Roll Will Happen",
   },
   {
-    value: "Rock Island Line",
+    name: "Rock Island Line",
   },
   {
-    value: "Rock Me All Night Long",
+    name: "Rock Me All Night Long",
   },
   {
-    value: "Rock Your Baby",
+    name: "Rock Your Baby",
   },
   {
-    value: "Rockin' Shoppin' Center",
+    name: "Rockin' Shoppin' Center",
   },
   {
-    value: "Rockin' Robin",
+    name: "Rockin' Robin",
   },
   {
-    value: "Rockin' Rockin' Leprechauns",
+    name: "Rockin' Rockin' Leprechauns",
   },
   {
-    value: "Rodeo Wind",
+    name: "Rodeo Wind",
   },
   {
-    value: "Roll Over Beethoven",
+    name: "Roll Over Beethoven",
   },
   {
-    value: "Roll With Me Henry",
+    name: "Roll With Me Henry",
   },
   {
-    value: "Rollercoaster By the Sea",
+    name: "Rollercoaster By the Sea",
   },
   {
-    value: "Rooming House on Venice Beach",
+    name: "Rooming House on Venice Beach",
   },
   {
-    value: "Round and Round",
+    name: "Round and Round",
   },
   {
-    value: "Route 66",
+    name: "Route 66",
   },
   {
-    value: "Ruby Ruby",
+    name: "Ruby Ruby",
   },
   {
-    value: "Sa Voix M'Atisse",
+    name: "Sa Voix M'Atisse",
   },
   {
-    value: "Salvador Dali",
+    name: "Salvador Dali",
   },
   {
-    value: "Satisfied Mind",
+    name: "Satisfied Mind",
   },
   {
-    value: "Satisfy",
+    name: "Satisfy",
   },
   {
-    value: "Seven Day Weekend",
+    name: "Seven Day Weekend",
   },
   {
-    value: "Sex Machine",
+    name: "Sex Machine",
   },
   {
-    value: "Shake",
+    name: "Shake",
   },
   {
-    value: "She Brings Out the Best in Me",
+    name: "She Brings Out the Best in Me",
   },
   {
-    value: "She Cracked",
+    name: "She Cracked",
   },
   {
-    value: "She Doesn't Laugh At My Jokes",
+    name: "She Doesn't Laugh At My Jokes",
   },
   {
-    value: "She Lives in a Rock & Roll House",
+    name: "She Lives in a Rock & Roll House",
     comments: [
       {
         name: "JB",
@@ -1307,52 +1307,52 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "She Loves You Jonathan, Give Her Time",
+    name: "She Loves You Jonathan, Give Her Time",
   },
   {
-    value: "She's a Once in a Lifetime Girl",
+    name: "She's a Once in a Lifetime Girl",
   },
   {
-    value: "She's Running Away",
+    name: "She's Running Away",
   },
   {
-    value: "Shirin and Fahrad",
+    name: "Shirin and Fahrad",
   },
   {
-    value: "Silence",
+    name: "Silence",
   },
   {
-    value: "Silence alors, Silence",
+    name: "Silence alors, Silence",
   },
   {
-    value: "Since She Started To Ride",
+    name: "Since She Started To Ride",
   },
   {
-    value: "Sleepwalk",
+    name: "Sleepwalk",
   },
   {
-    value: "Slipping and Sliding",
+    name: "Slipping and Sliding",
   },
   {
-    value: "Somebody To Hold Me",
+    name: "Somebody To Hold Me",
   },
   {
-    value: "Someone I Care About",
+    name: "Someone I Care About",
   },
   {
-    value: "Song Of Remembrance For Old Girlfriends",
+    name: "Song Of Remembrance For Old Girlfriends",
   },
   {
-    value: "Sorrow Showed Me the Way",
+    name: "Sorrow Showed Me the Way",
   },
   {
-    value: "South American Folk Song",
+    name: "South American Folk Song",
   },
   {
-    value: "Springtime",
+    name: "Springtime",
   },
   {
-    value: "Springtime In New York",
+    name: "Springtime In New York",
     comments: [
       {
         name: "Jerry",
@@ -1362,19 +1362,19 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Stay",
+    name: "Stay",
   },
   {
-    value: "Stop This Car",
+    name: "Stop This Car",
   },
   {
-    value: "Stop Your Sobbing",
+    name: "Stop Your Sobbing",
   },
   {
-    value: "Stultified",
+    name: "Stultified",
   },
   {
-    value: "Stupenda e Misera Citta",
+    name: "Stupenda e Misera Citta",
     comments: [
       {
         name: "JB",
@@ -1384,34 +1384,34 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Such Loneliness",
+    name: "Such Loneliness",
   },
   {
-    value: "Summer Morning",
+    name: "Summer Morning",
   },
   {
-    value: "Summer Night",
+    name: "Summer Night",
   },
   {
-    value: "Sunday Afternoon",
+    name: "Sunday Afternoon",
   },
   {
-    value: "Surfin' Safari",
+    name: "Surfin' Safari",
   },
   {
-    value: "Surrender",
+    name: "Surrender",
   },
   {
-    value: "Tahitian Hop",
+    name: "Tahitian Hop",
   },
   {
-    value: "Take a Walk Around Town",
+    name: "Take a Walk Around Town",
   },
   {
-    value: "Take Me Off The Shelf",
+    name: "Take Me Off The Shelf",
   },
   {
-    value: "Take Me to the Plaza",
+    name: "Take Me to the Plaza",
     comments: [
       {
         name: "Jerry",
@@ -1421,34 +1421,34 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Tallahassee Lassie",
+    name: "Tallahassee Lassie",
   },
   {
-    value: "Tandem Jump",
+    name: "Tandem Jump",
   },
   {
-    value: "Tell How You Feel",
+    name: "Tell How You Feel",
   },
   {
-    value: "Tequila",
+    name: "Tequila",
   },
   {
-    value: "That Little Sleeper Car",
+    name: "That Little Sleeper Car",
   },
   {
-    value: "That Summer Feeling",
+    name: "That Summer Feeling",
   },
   {
-    value: "That's When I Want To Tear Down The Walls Between People",
+    name: "That's When I Want To Tear Down The Walls Between People",
   },
   {
-    value: "The Ballad Of Yoyo",
+    name: "The Ballad Of Yoyo",
   },
   {
-    value: "The Baltimores",
+    name: "The Baltimores",
   },
   {
-    value: "The Beach",
+    name: "The Beach",
     comments: [
       {
         name: "Jerry",
@@ -1458,166 +1458,166 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "The Best That I Have Got",
+    name: "The Best That I Have Got",
   },
   {
-    value: "The Changing of the Seasons",
+    name: "The Changing of the Seasons",
   },
   {
-    value: "The Crush",
+    name: "The Crush",
   },
   {
-    value: "The Dark Crypt Like Arcade",
+    name: "The Dark Crypt Like Arcade",
   },
   {
-    value: "The Desert",
+    name: "The Desert",
   },
   {
-    value: "The Fenway",
+    name: "The Fenway",
   },
   {
-    value: "The Girl Stands Up to Me Now",
+    name: "The Girl Stands Up to Me Now",
   },
   {
-    value: "The Heart of Saturday Night",
+    name: "The Heart of Saturday Night",
   },
   {
-    value: "The Little Green and White Wrapper",
+    name: "The Little Green and White Wrapper",
   },
   {
-    value: "The Lonely Little Thrift Store",
+    name: "The Lonely Little Thrift Store",
   },
   {
-    value: "The Mixer (Men and Women Together)",
+    name: "The Mixer (Men and Women Together)",
   },
   {
-    value: "The Neighbors",
+    name: "The Neighbors",
   },
   {
-    value: "The New Teller",
+    name: "The New Teller",
   },
   {
-    value: "The Night Is Still Young",
+    name: "The Night Is Still Young",
   },
   {
-    value: "The Old Corner Store",
+    name: "The Old Corner Store",
   },
   {
-    value: "The Old Snack Bar",
+    name: "The Old Snack Bar",
   },
   {
-    value: "The Sea Was Calling Me Home",
+    name: "The Sea Was Calling Me Home",
   },
   {
-    value: "The Silent Treatment",
+    name: "The Silent Treatment",
   },
   {
-    value: "The Springtime of the Lovers",
+    name: "The Springtime of the Lovers",
   },
   {
-    value: "The Sweeping Wind",
+    name: "The Sweeping Wind",
   },
   {
-    value: "The Tag Game",
+    name: "The Tag Game",
   },
   {
-    value: "The Twist",
+    name: "The Twist",
   },
   {
-    value: "The UFO Man",
+    name: "The UFO Man",
   },
   {
-    value: "The Wheels on the Bus",
+    name: "The Wheels on the Bus",
   },
   {
-    value: "The World Is Showing It's Hand",
+    name: "The World Is Showing It's Hand",
   },
   {
-    value: "Theme From Moulin Rouge",
+    name: "Theme From Moulin Rouge",
   },
   {
-    value: "There Is No Abomination",
+    name: "There Is No Abomination",
   },
   {
-    value: "There Is No Squiltage",
+    name: "There Is No Squiltage",
   },
   {
-    value: "There's Something About Mary",
+    name: "There's Something About Mary",
   },
   {
-    value: "These Bodies That Came To Cavort",
+    name: "These Bodies That Came To Cavort",
   },
   {
-    value: "They're Not Trying on the Dance Floor",
+    name: "They're Not Trying on the Dance Floor",
   },
   {
-    value: "This Kind Of Music",
+    name: "This Kind Of Music",
   },
   {
-    value: "This Little Light Of Mine",
+    name: "This Little Light Of Mine",
   },
   {
-    value: "This Love of Mine",
+    name: "This Love of Mine",
   },
   {
-    value: "This Romance Will Be Different For Me",
+    name: "This Romance Will Be Different For Me",
   },
   {
-    value: "Those Conga Drums",
+    name: "Those Conga Drums",
   },
   {
-    value: "Time For Foolin' Around",
+    name: "Time For Foolin' Around",
   },
   {
-    value: "Time Stopped When We Held Hands",
+    name: "Time Stopped When We Held Hands",
   },
   {
-    value: "To Hide a Little Thought",
+    name: "To Hide a Little Thought",
   },
   {
-    value: "Tokyo, Japan, 4 am on Friday night",
+    name: "Tokyo, Japan, 4 am on Friday night",
   },
   {
-    value: "Too Fat",
+    name: "Too Fat",
   },
   {
-    value: "Too Hip",
+    name: "Too Hip",
   },
   {
-    value: "Too Many Fish In The Sea",
+    name: "Too Many Fish In The Sea",
   },
   {
-    value: "Tout ce que je cherchais etait toujours toi",
+    name: "Tout ce que je cherchais etait toujours toi",
   },
   {
-    value: "instrumental (trombone)",
+    name: "instrumental (trombone)",
   },
   {
-    value: "True Love Is Not Nice",
+    name: "True Love Is Not Nice",
   },
   {
-    value: "Twilight in Boston",
+    name: "Twilight in Boston",
   },
   {
-    value: "Twist and Shout",
+    name: "Twist and Shout",
   },
   {
-    value: "Twist Twist Senora",
+    name: "Twist Twist Senora",
   },
   {
-    value: "Twisting the Night Away",
+    name: "Twisting the Night Away",
   },
   {
-    value: "unknown (?)",
+    name: "unknown (?)",
   },
   {
-    value: "Up In Cold Maine Under the Stars",
+    name: "Up In Cold Maine Under the Stars",
   },
   {
-    value: "Up In The Sky Sometime",
+    name: "Up In The Sky Sometime",
   },
   {
-    value: "Vampire Girl",
+    name: "Vampire Girl",
     comments: [
       {
         name: "Jerry",
@@ -1637,13 +1637,13 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Vampiresa Mujer",
+    name: "Vampiresa Mujer",
   },
   {
-    value: "Vecchio Frack",
+    name: "Vecchio Frack",
   },
   {
-    value: "Velvet Underground",
+    name: "Velvet Underground",
     comments: [
       {
         name: "Jerry",
@@ -1653,31 +1653,31 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Vincent Van Gogh",
+    name: "Vincent Van Gogh",
   },
   {
-    value: "Volando Voy",
+    name: "Volando Voy",
   },
   {
-    value: "Volare",
+    name: "Volare",
   },
   {
-    value: "Wake Up Sleepy Heads",
+    name: "Wake Up Sleepy Heads",
   },
   {
-    value: "Walk Up the Street",
+    name: "Walk Up the Street",
   },
   {
-    value: "Walter Johnson",
+    name: "Walter Johnson",
   },
   {
-    value: "We're Having A Party",
+    name: "We're Having A Party",
   },
   {
-    value: "Wheels on the Bus",
+    name: "Wheels on the Bus",
   },
   {
-    value: "When Harpo Played  His Harp",
+    name: "When Harpo Played  His Harp",
     comments: [
       {
         name: "Jerry",
@@ -1687,37 +1687,37 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "When I Dance",
+    name: "When I Dance",
   },
   {
-    value: "When I Get Mad at Her",
+    name: "When I Get Mad at Her",
   },
   {
-    value: "When I Say I Love You",
+    name: "When I Say I Love You",
   },
   {
-    value: "When I Say Wife",
+    name: "When I Say Wife",
   },
   {
-    value: "When I'm Walking",
+    name: "When I'm Walking",
   },
   {
-    value: "When She Kisses Me",
+    name: "When She Kisses Me",
   },
   {
-    value: "When We Refuse to Suffer",
+    name: "When We Refuse to Suffer",
   },
   {
-    value: "Who Can Say When a Wall Is Ready to Come Down",
+    name: "Who Can Say When a Wall Is Ready to Come Down",
   },
   {
-    value: "Wild Thing",
+    name: "Wild Thing",
   },
   {
-    value: "Wild Weekend",
+    name: "Wild Weekend",
   },
   {
-    value: "Wild Wild Party",
+    name: "Wild Wild Party",
     comments: [
       {
         name: "JB",
@@ -1727,61 +1727,61 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Winter is Over For Me",
+    name: "Winter is Over For Me",
   },
   {
-    value: "Winters Get Hard in New England",
+    name: "Winters Get Hard in New England",
   },
   {
-    value: "Wipeout",
+    name: "Wipeout",
   },
   {
-    value: "Womanhood",
+    name: "Womanhood",
   },
   {
-    value: "Wonderful Girl",
+    name: "Wonderful Girl",
   },
   {
-    value: "Ya Ya",
+    name: "Ya Ya",
   },
   {
-    value: "Yo Jo Jo",
+    name: "Yo Jo Jo",
   },
   {
-    value: "Yo Tengo una Novia",
+    name: "Yo Tengo una Novia",
   },
   {
-    value: "You Are",
+    name: "You Are",
   },
   {
-    value: "You Can Have A Cell Phone That's Ok But Not Me",
+    name: "You Can Have A Cell Phone That's Ok But Not Me",
   },
   {
-    value: "You Can't Talk To the Dude",
+    name: "You Can't Talk To the Dude",
   },
   {
-    value: "You Must Ask the Heart",
+    name: "You Must Ask the Heart",
   },
   {
-    value: "You're the One For Me",
+    name: "You're the One For Me",
   },
   {
-    value: "You've Got To Cry",
+    name: "You've Got To Cry",
   },
   {
-    value: "You're Crazy For Taking the Bus",
+    name: "You're Crazy For Taking the Bus",
   },
   {
-    value: "Yoyos On Parade",
+    name: "Yoyos On Parade",
   },
   {
-    value: "Coomyah",
+    name: "Coomyah",
   },
   {
-    value: "I Hear You Calling Me",
+    name: "I Hear You Calling Me",
   },
   {
-    value: "Cerca",
+    name: "Cerca",
     comments: [
       {
         name: "DMDCAF",
@@ -1796,19 +1796,19 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Your Good Girl's Gonna Go Bad",
+    name: "Your Good Girl's Gonna Go Bad",
   },
   {
-    value: "Man Walks Among Us",
+    name: "Man Walks Among Us",
   },
   {
-    value: "I Can't Stay Mad At You",
+    name: "I Can't Stay Mad At You",
   },
   {
-    value: "1963",
+    name: "1963",
   },
   {
-    value: "Grunion Run",
+    name: "Grunion Run",
     comments: [
       {
         name: "Jerry",
@@ -1823,127 +1823,127 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "unknown (italian)",
+    name: "unknown (italian)",
   },
   {
-    value: "Harpo En Su Harpa",
+    name: "Harpo En Su Harpa",
   },
   {
-    value: "No Te Oye",
+    name: "No Te Oye",
   },
   {
-    value: "No Mas Por Fun",
+    name: "No Mas Por Fun",
   },
   {
-    value: "Papel De Chicle",
+    name: "Papel De Chicle",
   },
   {
-    value: "Los Vecinos",
+    name: "Los Vecinos",
   },
   {
-    value: "Ahora Es Mejor",
+    name: "Ahora Es Mejor",
   },
   {
-    value: "Una Fuerza Alla",
+    name: "Una Fuerza Alla",
   },
   {
-    value: "Sabor a Mi",
+    name: "Sabor a Mi",
   },
   {
-    value: "Melodia Tradicional Ecuadoriana",
+    name: "Melodia Tradicional Ecuadoriana",
   },
   {
-    value: "Just Because I'm Irish",
+    name: "Just Because I'm Irish",
   },
   {
-    value: "The Rose",
+    name: "The Rose",
   },
   {
-    value: "That's How I Feel",
+    name: "That's How I Feel",
   },
   {
-    value: "Tonight",
+    name: "Tonight",
   },
   {
-    value: "Time Has Been Going By So Fast",
+    name: "Time Has Been Going By So Fast",
   },
   {
-    value: "The Lovers Are Here and They're Full of Sweat",
+    name: "The Lovers Are Here and They're Full of Sweat",
   },
   {
-    value: "Our Drab Ways",
+    name: "Our Drab Ways",
   },
   {
-    value: "If You Want To Leave Our Party Just Go",
+    name: "If You Want To Leave Our Party Just Go",
   },
   {
-    value: "I Was The One She Came For",
+    name: "I Was The One She Came For",
   },
   {
-    value: "We'll Be the Noise, We'll Be the Scandal",
+    name: "We'll Be the Noise, We'll Be the Scandal",
   },
   {
-    value: "Winter Afternoon By B.U. In Boston",
+    name: "Winter Afternoon By B.U. In Boston",
   },
   {
-    value: "The Bitter Herb",
+    name: "The Bitter Herb",
   },
   {
-    value: "Even Though I Know I Am The Wind And The Sun, I",
+    name: "Even Though I Know I Am The Wind And The Sun, I",
   },
   {
-    value: "It Was Time For Me To Be With Her",
+    name: "It Was Time For Me To Be With Her",
   },
   {
-    value: "O Moon, Queen Of Night On Earth",
+    name: "O Moon, Queen Of Night On Earth",
   },
   {
-    value: "Mary Anne",
+    name: "Mary Anne",
   },
   {
-    value: "Roadrunner Twice",
+    name: "Roadrunner Twice",
   },
   {
-    value: "Roadrunner Thrice",
+    name: "Roadrunner Thrice",
   },
   {
-    value: "I'm Waiting For the Man",
+    name: "I'm Waiting For the Man",
   },
   {
-    value: "I Feel Alright",
+    name: "I Feel Alright",
   },
   {
-    value: "Veil Of Cold",
+    name: "Veil Of Cold",
   },
   {
-    value: "I See Your Light",
+    name: "I See Your Light",
   },
   {
-    value: "Awkward Love",
+    name: "Awkward Love",
   },
   {
-    value: "Guitar Doodle No. 1",
+    name: "Guitar Doodle No. 1",
   },
   {
-    value: "Touch Me If You Want",
+    name: "Touch Me If You Want",
   },
   {
-    value: "Do You Believe In Magic",
+    name: "Do You Believe In Magic",
   },
   {
-    value: "Guitar Doodle No. 2",
+    name: "Guitar Doodle No. 2",
   },
   {
-    value: "Young and in Love",
+    name: "Young and in Love",
   },
   {
-    value: "Do de do do",
+    name: "Do de do do",
   },
   {
-    value: "Willie and the Hand Jive",
+    name: "Willie and the Hand Jive",
   },
   {
-    value: "Trip to the Sea",
+    name: "Trip to the Sea",
     comments: [
       {
         name: "JB",
@@ -1953,133 +1953,133 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Thunderbolts of Joy",
+    name: "Thunderbolts of Joy",
   },
   {
-    value: "Singing in the Rain",
+    name: "Singing in the Rain",
   },
   {
-    value: "So Much Respect For You",
+    name: "So Much Respect For You",
   },
   {
-    value: "I'm Not Alone (The Heavens Love Me)",
+    name: "I'm Not Alone (The Heavens Love Me)",
   },
   {
-    value: "Flying Saucers Rock and Roll",
+    name: "Flying Saucers Rock and Roll",
   },
   {
-    value: "Stir It Up",
+    name: "Stir It Up",
   },
   {
-    value: "In the Checkout Line",
+    name: "In the Checkout Line",
   },
   {
-    value: "Brand New Dance",
+    name: "Brand New Dance",
   },
   {
-    value: "Sugar and Spice",
+    name: "Sugar and Spice",
   },
   {
-    value: "Ballad of Stink",
+    name: "Ballad of Stink",
   },
   {
-    value: "Moron Creek",
+    name: "Moron Creek",
   },
   {
-    value: "Young at Heart",
+    name: "Young at Heart",
   },
   {
-    value: "Wedding Bells",
+    name: "Wedding Bells",
   },
   {
-    value: "Adios (To My Own Desert Love)",
+    name: "Adios (To My Own Desert Love)",
   },
   {
-    value: "Spanish Drama",
+    name: "Spanish Drama",
   },
   {
-    value: "Michael Row Your Boat Ashore",
+    name: "Michael Row Your Boat Ashore",
   },
   {
-    value: "And That's Rock n' Roll",
+    name: "And That's Rock n' Roll",
   },
   {
-    value: "Nuclear Nightmare",
+    name: "Nuclear Nightmare",
   },
   {
-    value: "Cupid",
+    name: "Cupid",
   },
   {
-    value: "Dueling Jojo's",
+    name: "Dueling Jojo's",
   },
   {
-    value: "Something You Believe In",
+    name: "Something You Believe In",
   },
   {
-    value: "Start All Over",
+    name: "Start All Over",
   },
   {
-    value: "Fear",
+    name: "Fear",
   },
   {
-    value: "Oh, Bus Driver",
+    name: "Oh, Bus Driver",
   },
   {
-    value: "New York Poem",
+    name: "New York Poem",
   },
   {
-    value: "Dance With Me",
+    name: "Dance With Me",
   },
   {
-    value: "Weeds Breaking Through The Concrete",
+    name: "Weeds Breaking Through The Concrete",
   },
   {
-    value: "Revolution Summer Theme",
+    name: "Revolution Summer Theme",
   },
   {
-    value: "Francine's Theme",
+    name: "Francine's Theme",
   },
   {
-    value: "A Chill in the Night Air",
+    name: "A Chill in the Night Air",
   },
   {
-    value: "Music for Next Year's Jukebox",
+    name: "Music for Next Year's Jukebox",
   },
   {
-    value: "Hipster Cafe",
+    name: "Hipster Cafe",
   },
   {
-    value: "Vacant Lot",
+    name: "Vacant Lot",
   },
   {
-    value: "Hope's Theme",
+    name: "Hope's Theme",
   },
   {
-    value: "Francine's Theme (Reprise)",
+    name: "Francine's Theme (Reprise)",
   },
   {
-    value: "Hope's Theme (Reprise)",
+    name: "Hope's Theme (Reprise)",
   },
   {
-    value: "Weeds Breaking Through The Concrete (Reprise)",
+    name: "Weeds Breaking Through The Concrete (Reprise)",
   },
   {
-    value: "Now What?",
+    name: "Now What?",
   },
   {
-    value: "Italian Song About a Party",
+    name: "Italian Song About a Party",
   },
   {
-    value: "Hebrew Party Song",
+    name: "Hebrew Party Song",
   },
   {
-    value: "My Love She Is From Somewhere Else",
+    name: "My Love She Is From Somewhere Else",
   },
   {
-    value: "When We Run On the Beach",
+    name: "When We Run On the Beach",
   },
   {
-    value: "Bohemia",
+    name: "Bohemia",
     comments: [
       {
         name: "JB",
@@ -2104,43 +2104,43 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Love In a Different Way",
+    name: "Love In a Different Way",
   },
   {
-    value: "El Muerto Vivo",
+    name: "El Muerto Vivo",
   },
   {
-    value: "Coge la Guitarra",
+    name: "Coge la Guitarra",
   },
   {
-    value: "Loneliness",
+    name: "Loneliness",
   },
   {
-    value: "The Other World",
+    name: "The Other World",
   },
   {
-    value: "Si el Sexo hay que Planificar",
+    name: "Si el Sexo hay que Planificar",
   },
   {
-    value: "We Want to Take You Higher",
+    name: "We Want to Take You Higher",
   },
   {
-    value: "Naked (poem)",
+    name: "Naked (poem)",
   },
   {
-    value: "My Life is Full of Color",
+    name: "My Life is Full of Color",
   },
   {
-    value: "(Marie's the Name) Of His Latest Flame",
+    name: "(Marie's the Name) Of His Latest Flame",
   },
   {
-    value: "What She's Thinking About Me Affects Me All Day Long",
+    name: "What She's Thinking About Me Affects Me All Day Long",
   },
   {
-    value: "The Sadness of the Youth",
+    name: "The Sadness of the Youth",
   },
   {
-    value: "Rama Lama Ding Dong",
+    name: "Rama Lama Ding Dong",
     comments: [
       {
         name: "JB",
@@ -2150,58 +2150,58 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "La Festa e Galactica",
+    name: "La Festa e Galactica",
   },
   {
-    value: "La Guitarra Flamenca Rubia",
+    name: "La Guitarra Flamenca Rubia",
   },
   {
-    value: "Come to Our Party",
+    name: "Come to Our Party",
   },
   {
-    value: "Tromba",
+    name: "Tromba",
   },
   {
-    value: "Her Laugh is Like a Trumpet",
+    name: "Her Laugh is Like a Trumpet",
   },
   {
-    value: "We Had a Fight Last Night",
+    name: "We Had a Fight Last Night",
   },
   {
-    value: "Galactica",
+    name: "Galactica",
   },
   {
-    value: "Parent Pushing Stroller",
+    name: "Parent Pushing Stroller",
   },
   {
-    value: "Your Mind",
+    name: "Your Mind",
   },
   {
-    value: "Trash on the Beach",
+    name: "Trash on the Beach",
   },
   {
-    value: "Ego Went Away",
+    name: "Ego Went Away",
   },
   {
-    value: "La Fiesta Es Para Todos",
+    name: "La Fiesta Es Para Todos",
   },
   {
-    value: "Ja La BBQ",
+    name: "Ja La BBQ",
   },
   {
-    value: "Touched More",
+    name: "Touched More",
   },
   {
-    value: "Honeymoon Is Over",
+    name: "Honeymoon Is Over",
   },
   {
-    value: "O Sun!",
+    name: "O Sun!",
   },
   {
-    value: "angels poem",
+    name: "angels poem",
   },
   {
-    value: "Nuestro Tema",
+    name: "Nuestro Tema",
     comments: [
       {
         name: "JB",
@@ -2211,13 +2211,13 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Nuestra Que Macar",
+    name: "Nuestra Que Macar",
   },
   {
-    value: "Cantange a Cantar",
+    name: "Cantange a Cantar",
   },
   {
-    value: "Doing It To Death",
+    name: "Doing It To Death",
     comments: [
       {
         name: "JB",
@@ -2227,11 +2227,11 @@ export const songs: SongImport[] = [
     ],
   },
   {
-    value: "Torna a Surriento",
+    name: "Torna a Surriento",
   },
 ];
 
-const SongNames: string[] = songs.map(({ value }) => value);
+const SongNames: string[] = songs.map(({ name }) => name);
 export type SongName = typeof SongNames[number];
 
 export const recordings: RecordingImport[] = [

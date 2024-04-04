@@ -28,7 +28,7 @@ export interface Recording extends Omit<RecordingImport, "songs" | "comments"> {
 }
 
 export interface SongImport {
-  value: SongName;
+  name: SongName;
   comments?: Comment[];
   set?: number; // -1 | 1 | 2 | 3
 }

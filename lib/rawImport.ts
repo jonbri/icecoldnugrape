@@ -84,10 +84,10 @@ const aggregateSongs = (): Song[] =>
   songsData.map((rawSong) => ({
     ...rawSong,
     comments: rawSong.comments ?? [],
-    sanitized: sanitize(rawSong.value),
+    sanitized: sanitize(rawSong.name),
     shows: recordingsData
       .filter(({ songs }) =>
-        songs.map(({ name }) => name).includes(rawSong.value)
+        songs.map(({ name }) => name).includes(rawSong.name)
       )
       .map(({ linkid }) => linkid),
   }));
@@ -117,10 +117,10 @@ const aggregateRecordings = () => {
       ...rawRecording,
       comments: rawRecording.comments ?? [],
       songs: rawRecording.songs.map(({ name, n, set = -1 }) => {
-        const song = songs.find(({ value }) => value === name)!;
+        const song = songs.find((s) => s.name === name)!;
         return {
           ...song,
-          sanitized: sanitize(song.value),
+          sanitized: sanitize(song.name),
           n,
           set,
         };
