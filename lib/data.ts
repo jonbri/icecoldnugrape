@@ -51,7 +51,7 @@ export const getComments = () => commentInstances;
 
 export const getRandomUrl = () => {
   const recordings = getRecordings();
-  const songs = getSongs().filter(({ value }) => value !== "");
+  const songs = getSongs();
   const recordingsRandomNumber = getRandomNumber(0, recordings.length - 1);
   const songsRandomNumber = getRandomNumber(0, songs.length - 1);
   const randomRecordingsLinkId = recordings[recordingsRandomNumber].linkid;

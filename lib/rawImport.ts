@@ -1,5 +1,4 @@
-import { recordings as recordingsData } from "../data/recordings_raw";
-import { songs as songsData } from "../data/songs_raw";
+import { recordings as recordingsData, songs as songsData } from "../data/raw";
 import {
   RecordingImport,
   Recording,
@@ -85,7 +84,7 @@ const aggregateSongs = (): Song[] =>
     ...rawSong,
     shows: recordingsData
       .filter(({ songs }) =>
-        songs.map(({ linkid }) => linkid).includes(rawSong.linkid)
+        songs.map(({ name }) => name).includes(rawSong.value)
       )
       .map(({ linkid }) => linkid),
   }));
@@ -113,8 +112,8 @@ const aggregateRecordings = () => {
     const rawRecording = recordingsData[i] as RecordingImport;
     recordings.push({
       ...rawRecording,
-      songs: rawRecording.songs.map(({ linkid, n, set = -1 }) => ({
-        ...songs.find(({ linkid: songLinkid }) => songLinkid === linkid)!,
+      songs: rawRecording.songs.map(({ name, n, set = -1 }) => ({
+        ...songs.find(({ value }) => value === name)!,
         n,
         set,
       })),
