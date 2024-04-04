@@ -37,6 +37,7 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
       text: "Random",
     },
   ]);
+  const showNextPrev = prev || next;
 
   useEffect(() => {
     const href = getRandomUrl();
@@ -89,24 +90,28 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
                 </Link>
               </li>
             ))}
-            <li>
-              {prev ? (
-                <Link href={`/${type}/${prev}`} className={cn.nextprev}>
-                  Prev
-                </Link>
-              ) : (
-                <span className={cn.nextprevdisabled}>Prev</span>
-              )}
-            </li>
-            <li>
-              {next ? (
-                <Link href={`/${type}/${next}`} className={cn.nextprev}>
-                  Next
-                </Link>
-              ) : (
-                <span className={cn.nextprevdisabled}>Next</span>
-              )}
-            </li>
+            {showNextPrev ? (
+              <li>
+                {prev ? (
+                  <Link href={`/${type}/${prev}`} className={cn.nextprev}>
+                    Prev
+                  </Link>
+                ) : (
+                  <span className={cn.nextprevdisabled}>Prev</span>
+                )}
+              </li>
+            ) : null}
+            {showNextPrev ? (
+              <li>
+                {next ? (
+                  <Link href={`/${type}/${next}`} className={cn.nextprev}>
+                    Next
+                  </Link>
+                ) : (
+                  <span className={cn.nextprevdisabled}>Next</span>
+                )}
+              </li>
+            ) : null}
           </ul>
         </div>
       </header>
