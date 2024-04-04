@@ -92,24 +92,32 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
             ))}
             {showNextPrev ? (
               <li>
-                {prev ? (
-                  <Link href={`/${type}/${prev}`} className={cn.nextprev}>
-                    Prev
-                  </Link>
-                ) : (
-                  <span className={cn.nextprevdisabled}>Prev</span>
-                )}
+                <Link
+                  href={`/${type}/${prev}`}
+                  aria-disabled={!prev}
+                  className={cn.nextprev}
+                  style={{
+                    opacity: prev ? 1 : 0,
+                    pointerEvents: prev ? "auto" : "none",
+                  }}
+                >
+                  Prev
+                </Link>
               </li>
             ) : null}
             {showNextPrev ? (
               <li>
-                {next ? (
-                  <Link href={`/${type}/${next}`} className={cn.nextprev}>
-                    Next
-                  </Link>
-                ) : (
-                  <span className={cn.nextprevdisabled}>Next</span>
-                )}
+                <Link
+                  href={`/${type}/${next}`}
+                  aria-disabled={!next}
+                  className={cn.nextprev}
+                  style={{
+                    opacity: next ? 1 : 0,
+                    pointerEvents: next ? "auto" : "none",
+                  }}
+                >
+                  Next
+                </Link>
               </li>
             ) : null}
           </ul>
