@@ -11,8 +11,8 @@ const allRecordings = getRecordings().map(
     text,
   })
 );
-const allSongs = getSongs().map(({ linkid, value: text }) => ({
-  href: `/songs/${linkid}`,
+const allSongs = getSongs().map(({ sanitized, value: text }) => ({
+  href: `/songs/${sanitized}`,
   text,
 }));
 const allComments = getComments().map(
@@ -67,7 +67,7 @@ const SearchPage: NextPage = ({}) => {
             item: { href },
           } = result;
           return (
-            <li key={`${href}${index}`}>
+            <li key={`${href}-${index}`}>
               <Link href={href}>
                 <FuseHighlight result={result} attribute="text" />
               </Link>

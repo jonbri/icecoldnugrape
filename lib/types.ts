@@ -35,6 +35,7 @@ export interface SongImport {
 }
 export interface Song extends SongImport {
   shows: number[];
+  sanitized: string;
 }
 export interface SongInstance extends Song {
   n: number;

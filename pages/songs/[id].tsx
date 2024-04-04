@@ -17,7 +17,7 @@ export const getStaticProps: GetStaticProps<PageProps, Params> = async ({
   params,
 }) => {
   const { id } = params!;
-  const song = getSong(Number(id))!;
+  const song = getSong(id)!;
   const shows = idsToShows(song?.shows ?? []);
   return {
     props: {
@@ -28,9 +28,9 @@ export const getStaticProps: GetStaticProps<PageProps, Params> = async ({
 };
 
 export const getStaticPaths: GetStaticPaths<Params> = async () => {
-  const paths = getSongs().map(({ linkid: id }) => ({
+  const paths = getSongs().map(({ sanitized: id }) => ({
     params: {
-      id: id + "",
+      id,
     },
   }));
   return {

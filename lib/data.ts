@@ -20,8 +20,8 @@ export const getSongs = () =>
     return 0;
   });
 
-export const getSong = (id: number) =>
-  songs.find(({ linkid }) => linkid === id);
+export const getSong = (id: string) =>
+  songs.find(({ sanitized }) => sanitized === id);
 
 const recordingsWithComment = recordings.filter(
   ({ comments }) => comments.length > 0
@@ -55,9 +55,10 @@ export const getRandomUrl = () => {
   const recordingsRandomNumber = getRandomNumber(0, recordings.length - 1);
   const songsRandomNumber = getRandomNumber(0, songs.length - 1);
   const randomRecordingsLinkId = recordings[recordingsRandomNumber].linkid;
-  const randomSongsLinkId = songs[songsRandomNumber].linkid;
-  if (getRandomNumber(0, 2) === 0)
+  const randomSongsLinkId = songs[songsRandomNumber].sanitized;
+  if (getRandomNumber(0, 2) === 0) {
     return `/recordings/${randomRecordingsLinkId}`;
+  }
   return `/songs/${randomSongsLinkId}`;
 };
 const getRandomNumber = (min: number, max: number) =>

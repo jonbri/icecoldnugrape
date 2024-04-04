@@ -1,11 +1,12 @@
 import { recordings as recordingsData, songs as songsData } from "../data/raw";
-import {
-  RecordingImport,
-  Recording,
-  SongImport,
-  Song,
-  SongInstance,
-} from "./types";
+import { RecordingImport, Recording, Song } from "./types";
+import slugify from "slugify";
+
+const sanitize = (s: string) =>
+  slugify(s, {
+    lower: true,
+    strict: true,
+  });
 
 const months = [
   "Jan",
@@ -82,6 +83,7 @@ const deriveFormattedTitle = ({
 const aggregateSongs = (): Song[] =>
   songsData.map((rawSong) => ({
     ...rawSong,
+    sanitized: sanitize(rawSong.value),
     shows: recordingsData
       .filter(({ songs }) =>
         songs.map(({ name }) => name).includes(rawSong.value)
@@ -112,11 +114,15 @@ const aggregateRecordings = () => {
     const rawRecording = recordingsData[i] as RecordingImport;
     recordings.push({
       ...rawRecording,
-      songs: rawRecording.songs.map(({ name, n, set = -1 }) => ({
-        ...songs.find(({ value }) => value === name)!,
-        n,
-        set,
-      })),
+      songs: rawRecording.songs.map(({ name, n, set = -1 }) => {
+        const song = songs.find(({ value }) => value === name)!;
+        return {
+          ...song,
+          sanitized: sanitize(song.value),
+          n,
+          set,
+        };
+      }),
       next: getNextRecordingOfSameType(i),
       prev: getPreviousRecordingOfSameType(i),
       formattedTitle: deriveFormattedTitle(rawRecording),

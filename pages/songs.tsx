@@ -23,9 +23,9 @@ const Page: NextPage<PageProps> = ({ songs }) => {
   return (
     <Layout type="songs">
       <ul>
-        {songs.map(({ linkid, value }) => (
+        {songs.map(({ linkid, value, sanitized }) => (
           <li key={linkid}>
-            <Link href={`/songs/${linkid}`}>{value}</Link>
+            <Link href={`/songs/${sanitized}`}>{value}</Link>
           </li>
         ))}
       </ul>
