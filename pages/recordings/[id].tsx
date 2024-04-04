@@ -59,7 +59,7 @@ const Page: NextPage<PageProps> = ({
     <ul>
       {set.map(({ linkid, value, n }) => (
         <li key={`${n}-${linkid}`}>
-          <a href={`../songs/${linkid}`}>{`${n}. ${value}`}</a>
+          <Link href={`/songs/${linkid}`}>{`${n}. ${value}`}</Link>
         </li>
       ))}
     </ul>

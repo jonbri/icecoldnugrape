@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { ParsedUrlQuery } from "querystring";
 import Layout from "../../components/Layout";
@@ -43,7 +44,7 @@ const Page: NextPage<PageProps> = ({ song: { value, comments }, shows }) => (
     <ul>
       {shows.map(({ linkid, formattedTitle }) => (
         <li key={linkid}>
-          <a href={`../recordings/${linkid}`}>{formattedTitle}</a>
+          <Link href={`/recordings/${linkid}`}>{formattedTitle}</Link>
         </li>
       ))}
     </ul>

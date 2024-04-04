@@ -40,7 +40,7 @@ const MyCollectionPage: NextPage<MyCollectionPageProps> = ({ recordings }) => {
           }
           return (
             <li key={linkid}>
-              <a href={`recordings/${linkid}`}>{doubleFormattedTitle}</a>
+              <Link href={`/recordings/${linkid}`}>{doubleFormattedTitle}</Link>
             </li>
           );
         })}
