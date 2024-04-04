@@ -6,8 +6,8 @@ import {
   getSongFromName,
   getRecordingComments,
   getSongComments,
-} from "../lib/data";
-import Layout from "../components/Layout";
+} from "../src/data";
+import Layout from "../src/components/Layout";
 import Fuse from "fuse.js";
 import Link from "next/link";
 

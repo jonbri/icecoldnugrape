@@ -1,4 +1,4 @@
-import { SongName } from "../data/raw";
+import { SongName } from "./raw";
 
 export interface RecordingImport {
   linkid: number;

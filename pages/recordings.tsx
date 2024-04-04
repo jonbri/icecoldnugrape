@@ -1,9 +1,9 @@
 import { GetStaticProps } from "next";
 import Link from "next/link";
 import { ParsedUrlQuery } from "querystring";
-import { getRecordings } from "../lib/data";
-import { Recording } from "../lib/types";
-import Layout from "../components/Layout";
+import { getRecordings } from "../src/data";
+import { Recording } from "../src/types";
+import Layout from "../src/components/Layout";
 import type { NextPage } from "next";
 
 interface Section {

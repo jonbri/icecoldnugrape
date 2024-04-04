@@ -2,8 +2,8 @@ import { GetStaticProps } from "next";
 import Link from "next/link";
 import type { NextPage } from "next";
 import { ParsedUrlQuery } from "querystring";
-import { getRecordings } from "../lib/data";
-import { Recording } from "../lib/types";
+import { getRecordings } from "../src/data";
+import { Recording } from "../src/types";
 import { Ubuntu as Font } from "next/font/google";
 import cn from "../styles/Layout.module.scss";
 

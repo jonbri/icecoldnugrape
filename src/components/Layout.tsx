@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
 import { ReactNode, useEffect, useState } from "react";
-import { getRandomUrl } from "../lib/data";
+import { getRandomUrl } from "../data";
 import { Ubuntu as Font } from "next/font/google";
-import cn from "../styles/Layout.module.scss";
+import cn from "../../styles/Layout.module.scss";
 
 const font = Font({ subsets: ["latin"], weight: "300" });
 

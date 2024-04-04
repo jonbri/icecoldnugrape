@@ -1,4 +1,4 @@
-import { RecordingImport, SongImport } from "../lib/types";
+import { RecordingImport, SongImport } from "./types";
 
 export const songs: SongImport[] = [
   {

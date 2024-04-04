@@ -1,9 +1,9 @@
 import { GetStaticProps } from "next";
 import Link from "next/link";
 import { ParsedUrlQuery } from "querystring";
-import Layout from "../components/Layout";
-import { getSongs } from "../lib/data";
-import { Song } from "../lib/types";
+import Layout from "../src/components/Layout";
+import { getSongs } from "../src/data";
+import { Song } from "../src/types";
 import type { NextPage } from "next";
 
 interface PageProps {

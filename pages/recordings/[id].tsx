@@ -2,9 +2,9 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { ParsedUrlQuery } from "querystring";
-import { getRecording, getRecordings } from "../../lib/data";
-import { Recording, SongInstance } from "../../lib/types";
-import Layout from "../../components/Layout";
+import { getRecording, getRecordings } from "../../src/data";
+import { Recording, SongInstance } from "../../src/types";
+import Layout from "../../src/components/Layout";
 
 interface PageProps {
   recording: Recording;

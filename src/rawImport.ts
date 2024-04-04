@@ -1,4 +1,4 @@
-import { recordings as recordingsData, songs as songsData } from "../data/raw";
+import { recordings as recordingsData, songs as songsData } from "./raw";
 import { RecordingImport, Recording, Song } from "./types";
 import slugify from "slugify";
 
