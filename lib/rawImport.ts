@@ -110,13 +110,27 @@ const aggregateSongs = () =>
       .map(({ linkid }) => linkid),
   }));
 
+const getNextRecordingOfSameType = (position: number) => {
+  const { type } = recordingsData[position];
+  for (let i = position + 1; i < recordingsData.length; i++) {
+    if (recordingsData[i].type === type) return recordingsData[i].linkid;
+  }
+  return null;
+};
+
+const getPreviousRecordingOfSameType = (position: number) => {
+  const { type } = recordingsData[position];
+  for (let i = position - 1; i >= 0; i--) {
+    if (recordingsData[i].type === type) return recordingsData[i].linkid;
+  }
+  return null;
+};
+
 const aggregateRecordings = () => {
   const recordings: Recording[] = [];
   const { length } = recordingsData;
   for (let i = 0; i < length; i++) {
     const rawRecording = recordingsData[i] as RecordingImport;
-    const prev = i > 0 ? recordingsData[i - 1]?.linkid : null;
-    const next = i < length - 1 ? recordingsData[i + 1]?.linkid : null;
     recordings.push({
       ...rawRecording,
       songs: rawRecording.songs.map(({ linkid, n, set = -1 }) => ({
@@ -124,8 +138,8 @@ const aggregateRecordings = () => {
         n,
         set,
       })),
-      next,
-      prev,
+      next: getNextRecordingOfSameType(i),
+      prev: getPreviousRecordingOfSameType(i),
       formattedTitle: deriveFormattedTitle(rawRecording),
     });
   }
