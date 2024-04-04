@@ -11,6 +11,7 @@ const TwitterWidget = () => {
     // create new script tag
     const newScriptElement = document.createElement("script");
     newScriptElement.id = id;
+    newScriptElement.async = true;
     newScriptElement.src = "//platform.twitter.com/widgets.js";
 
     // append script tag to document
