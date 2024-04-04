@@ -83,6 +83,7 @@ const deriveFormattedTitle = ({
 const aggregateSongs = (): Song[] =>
   songsData.map((rawSong) => ({
     ...rawSong,
+    comments: rawSong.comments ?? [],
     sanitized: sanitize(rawSong.value),
     shows: recordingsData
       .filter(({ songs }) =>
@@ -114,6 +115,7 @@ const aggregateRecordings = () => {
     const rawRecording = recordingsData[i] as RecordingImport;
     recordings.push({
       ...rawRecording,
+      comments: rawRecording.comments ?? [],
       songs: rawRecording.songs.map(({ name, n, set = -1 }) => {
         const song = songs.find(({ value }) => value === name)!;
         return {

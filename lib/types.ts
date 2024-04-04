@@ -15,7 +15,7 @@ export interface RecordingImport {
   breaks?: number[];
   format?: string;
   songs: LinkedSongImport[];
-  comments: Comment[];
+  comments?: Comment[];
   name?: string;
   sublocation?: string;
 }
@@ -29,12 +29,13 @@ export interface Recording extends Omit<RecordingImport, "songs" | "comments"> {
 
 export interface SongImport {
   value: SongList;
-  comments: Comment[];
+  comments?: Comment[];
   set?: number; // -1 | 1 | 2 | 3
 }
 export interface Song extends SongImport {
   shows: number[];
   sanitized: string;
+  comments: Comment[];
 }
 export interface SongInstance extends Song {
   n: number;

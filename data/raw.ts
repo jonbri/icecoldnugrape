@@ -778,7 +778,6 @@ export const recordings: RecordingImport[] = [
       { name: "Foggy Notion", n: 14 },
       { name: "I'm Straight", n: 15 },
     ],
-    comments: [],
   },
   {
     linkid: 1973000000,
@@ -892,7 +891,6 @@ export const recordings: RecordingImport[] = [
       { name: "Willie and the Hand Jive", n: 24 },
       { name: "Trip to the Sea", n: 25 },
     ],
-    comments: [],
   },
   {
     linkid: 1974000005,
@@ -1322,7 +1320,6 @@ export const recordings: RecordingImport[] = [
       { name: "interview...", n: 1 },
       { name: "Girlfren'", n: 2 },
     ],
-    comments: [],
   },
   {
     linkid: 1976000005,
@@ -1334,7 +1331,6 @@ export const recordings: RecordingImport[] = [
       { name: "New England", n: 1 },
       { name: "Here Come the Martian Martians", n: 2 },
     ],
-    comments: [],
   },
   {
     linkid: 1976000010,
@@ -1762,7 +1758,6 @@ export const recordings: RecordingImport[] = [
       { name: "Roadrunner", n: 1 },
       { name: "Roadrunner Twice", n: 2 },
     ],
-    comments: [],
   },
   {
     linkid: 1977000020,
@@ -1774,7 +1769,6 @@ export const recordings: RecordingImport[] = [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Rollercoaster By the Sea", n: 2 },
     ],
-    comments: [],
   },
   {
     linkid: 1978021705,
@@ -1881,7 +1875,6 @@ export const recordings: RecordingImport[] = [
       { name: "Route 66", n: 5 },
       { name: "Affection", n: 16 },
     ],
-    comments: [],
   },
   {
     linkid: 1978030400,
@@ -1910,7 +1903,6 @@ export const recordings: RecordingImport[] = [
       { name: "Route 66", n: 9, set: 1 },
       { name: "Roadrunner", n: 11, set: 1 },
     ],
-    comments: [],
   },
   {
     linkid: 1978041500,
@@ -1943,7 +1935,6 @@ export const recordings: RecordingImport[] = [
       { name: "The Sweeping Wind", n: 17 },
       { name: "Fly Into the Mystery", n: 18 },
     ],
-    comments: [],
   },
   {
     linkid: 1978043000,
@@ -2135,7 +2126,6 @@ export const recordings: RecordingImport[] = [
     date: 16,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1978061700,
@@ -2370,7 +2360,6 @@ export const recordings: RecordingImport[] = [
       { name: "Abdul and Cleopatra", n: 1 },
       { name: "Oh Carol", n: 2 },
     ],
-    comments: [],
   },
   {
     linkid: 1978000015,
@@ -2382,7 +2371,6 @@ export const recordings: RecordingImport[] = [
       { name: "New England", n: 1 },
       { name: "Astral Plane", n: 2 },
     ],
-    comments: [],
   },
   {
     linkid: 1978000020,
@@ -2394,7 +2382,6 @@ export const recordings: RecordingImport[] = [
       { name: "Buzz Buzz Buzz", n: 1 },
       { name: "Hospital", n: 2 },
     ],
-    comments: [],
   },
   {
     linkid: 1978000025,
@@ -2406,7 +2393,6 @@ export const recordings: RecordingImport[] = [
       { name: "The Morning of Our Lives", n: 1 },
       { name: "Roadrunner Thrice", n: 2 },
     ],
-    comments: [],
   },
   {
     linkid: 1978000030,
@@ -2458,7 +2444,6 @@ export const recordings: RecordingImport[] = [
     date: 17,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1979040100,
@@ -2666,7 +2651,6 @@ export const recordings: RecordingImport[] = [
     name: "Lydia",
     jon: false,
     songs: [{ name: "Lydia", n: 1 }],
-    comments: [],
   },
   {
     linkid: 1979000020,
@@ -3115,7 +3099,6 @@ export const recordings: RecordingImport[] = [
       { name: "Here Come the Martian Martians", n: 3 },
       { name: "Affection", n: 4 },
     ],
-    comments: [],
   },
   {
     linkid: 1980000020,
@@ -3745,7 +3728,6 @@ export const recordings: RecordingImport[] = [
     name: "WBCN Radio Interview",
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1982020000,
@@ -4248,7 +4230,6 @@ export const recordings: RecordingImport[] = [
       { name: "Abdul and Cleopatra", n: 9 },
       { name: "That Summer Feeling", n: 10 },
     ],
-    comments: [],
   },
   {
     linkid: 1983021400,
@@ -4433,7 +4414,6 @@ export const recordings: RecordingImport[] = [
       { name: "My Runabout Girl", n: 20 },
       { name: "Walter Johnson", n: 21 },
     ],
-    comments: [],
   },
   {
     linkid: 1983100900,
@@ -4462,7 +4442,6 @@ export const recordings: RecordingImport[] = [
       { name: "Five Year Old Feeling", n: 13 },
       { name: "Ice Cream Man", n: 14 },
     ],
-    comments: [],
   },
   {
     linkid: 1983101000,
@@ -4692,7 +4671,6 @@ export const recordings: RecordingImport[] = [
     name: "WTUL Radio",
     jon: false,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1983112210,
@@ -4750,7 +4728,6 @@ export const recordings: RecordingImport[] = [
       { name: "Down In Bermuda", n: 5 },
       { name: "Fear", n: 6 },
     ],
-    comments: [],
   },
   {
     linkid: 1983000010,
@@ -4842,7 +4819,6 @@ export const recordings: RecordingImport[] = [
       { name: "Baby Baby Boss Me Around", n: 6 },
       { name: "Somebody To Hold Me", n: 7 },
     ],
-    comments: [],
   },
   {
     linkid: 1983000030,
@@ -4859,7 +4835,6 @@ export const recordings: RecordingImport[] = [
       { name: "Affection", n: 6 },
       { name: "The Neighbors", n: 7 },
     ],
-    comments: [],
   },
   {
     linkid: 1984000005,
@@ -4875,7 +4850,6 @@ export const recordings: RecordingImport[] = [
       { name: "Hey There Little Insect", n: 4 },
       { name: "I Must Be King", n: 5 },
     ],
-    comments: [],
   },
   {
     linkid: 1984000010,
@@ -4888,7 +4862,6 @@ export const recordings: RecordingImport[] = [
       { name: "This Kind Of Music", n: 2 },
       { name: "The Tag Game", n: 3 },
     ],
-    comments: [],
   },
   {
     linkid: 1984012700,
@@ -5015,7 +4988,6 @@ export const recordings: RecordingImport[] = [
     date: 1,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1984070700,
@@ -5211,7 +5183,6 @@ export const recordings: RecordingImport[] = [
       { name: "The Baltimores", n: 9 },
       { name: "Vincent Van Gogh", n: 10 },
     ],
-    comments: [],
   },
   {
     linkid: 1984080300,
@@ -5341,7 +5312,6 @@ export const recordings: RecordingImport[] = [
       { name: "Shirin and Fahrad", n: 25 },
       { name: "I Must Be King", n: 26 },
     ],
-    comments: [],
   },
   {
     linkid: 1985050800,
@@ -5510,7 +5480,6 @@ export const recordings: RecordingImport[] = [
       { name: "I'm a Little Dinosaur", n: 16 },
       { name: "Shirin and Fahrad", n: 17 },
     ],
-    comments: [],
   },
   {
     linkid: 1985062000,
@@ -5690,7 +5659,6 @@ export const recordings: RecordingImport[] = [
     name: "The Janice Long Show",
     jon: false,
     songs: [{ name: "interview...", n: 1 }],
-    comments: [],
   },
   {
     linkid: 1985080600,
@@ -5772,7 +5740,6 @@ export const recordings: RecordingImport[] = [
       { name: "Corner Store", n: 18 },
       { name: "Chewing Gum Wrapper", n: 19 },
     ],
-    comments: [],
   },
   {
     linkid: 1985092700,
@@ -5819,7 +5786,6 @@ export const recordings: RecordingImport[] = [
       { name: "Circle I", n: 2 },
       { name: "Shirin and Fahrad", n: 3 },
     ],
-    comments: [],
   },
   {
     linkid: 1985000010,
@@ -5939,7 +5905,6 @@ export const recordings: RecordingImport[] = [
       { name: "Corner Store", n: 23 },
       { name: "Shirin and Fahrad", n: 24 },
     ],
-    comments: [],
   },
   {
     linkid: 1986011900,
@@ -5953,7 +5918,6 @@ export const recordings: RecordingImport[] = [
     date: 19,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1986012100,
@@ -5987,7 +5951,6 @@ export const recordings: RecordingImport[] = [
       { name: "I'm Just Beginning To Live", n: 17 },
       { name: "It's You", n: 18 },
     ],
-    comments: [],
   },
   {
     linkid: 1986030400,
@@ -6464,7 +6427,6 @@ export const recordings: RecordingImport[] = [
     date: 27,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1986120600,
@@ -6500,7 +6462,6 @@ export const recordings: RecordingImport[] = [
       { name: "Those Conga Drums", n: 20 },
       { name: "Volare", n: 21 },
     ],
-    comments: [],
   },
   {
     linkid: 1986000005,
@@ -6519,7 +6480,6 @@ export const recordings: RecordingImport[] = [
       { name: "Now is Better Than Before", n: 5 },
       { name: "The UFO Man", n: 6 },
     ],
-    comments: [],
   },
   {
     linkid: 1986000010,
@@ -6587,7 +6547,6 @@ export const recordings: RecordingImport[] = [
       { name: "When I Dance", n: 14 },
       { name: "Let's Take a Trip", n: 15 },
     ],
-    comments: [],
   },
   {
     linkid: 1987012500,
@@ -6753,7 +6712,6 @@ export const recordings: RecordingImport[] = [
       { name: "When I'm Walking", n: 20 },
       { name: "Let's Take a Trip", n: 21 },
     ],
-    comments: [],
   },
   {
     linkid: 1987031400,
@@ -6767,7 +6725,6 @@ export const recordings: RecordingImport[] = [
     date: 14,
     jon: false,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1987031500,
@@ -6801,7 +6758,6 @@ export const recordings: RecordingImport[] = [
       { name: "Just About 17", n: 18 },
       { name: "Walter Johnson", n: 19 },
     ],
-    comments: [],
   },
   {
     linkid: 1987032700,
@@ -7027,7 +6983,6 @@ export const recordings: RecordingImport[] = [
       { name: "Yo Jo Jo", n: 12 },
       { name: "Give Paris One More Chance", n: 13 },
     ],
-    comments: [],
   },
   {
     linkid: 1987102700,
@@ -7050,7 +7005,6 @@ export const recordings: RecordingImport[] = [
       { name: "Vincent Van Gogh", n: 8 },
       { name: "When I Dance", n: 9 },
     ],
-    comments: [],
   },
   {
     linkid: 1987122600,
@@ -7087,7 +7041,6 @@ export const recordings: RecordingImport[] = [
       { name: "Affection", n: 21 },
       { name: "Walter Johnson", n: 22 },
     ],
-    comments: [],
   },
   {
     linkid: 1987000000,
@@ -7184,7 +7137,6 @@ export const recordings: RecordingImport[] = [
       { name: "The UFO Man", n: 11 },
       { name: "Affection", n: 12 },
     ],
-    comments: [],
   },
   {
     linkid: 1988012000,
@@ -7201,7 +7153,6 @@ export const recordings: RecordingImport[] = [
       { name: "When Harpo Played  His Harp", n: 3 },
       { name: "Gail Loves Me", n: 4 },
     ],
-    comments: [],
   },
   {
     linkid: 1988012200,
@@ -7215,7 +7166,6 @@ export const recordings: RecordingImport[] = [
     date: 22,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1988012700,
@@ -7399,7 +7349,6 @@ export const recordings: RecordingImport[] = [
       { name: "Theme From Moulin Rouge", n: 22 },
       { name: "instrumental", n: 23 },
     ],
-    comments: [],
   },
   {
     linkid: 1988030300,
@@ -7734,7 +7683,6 @@ export const recordings: RecordingImport[] = [
       { name: "That Summer Feeling", n: 14 },
       { name: "It's You", n: 15 },
     ],
-    comments: [],
   },
   {
     linkid: 1988071000,
@@ -7748,7 +7696,6 @@ export const recordings: RecordingImport[] = [
     date: 10,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1988091000,
@@ -7789,7 +7736,6 @@ export const recordings: RecordingImport[] = [
       { name: "Just About 17", n: 26 },
       { name: "Walter Johnson", n: 27 },
     ],
-    comments: [],
   },
   {
     linkid: 1988110300,
@@ -7898,7 +7844,6 @@ export const recordings: RecordingImport[] = [
     date: 10,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1988111400,
@@ -8126,7 +8071,6 @@ export const recordings: RecordingImport[] = [
       { name: "It's You", n: 15 },
       { name: "Malaguena De Jojo", n: 16 },
     ],
-    comments: [],
   },
   {
     linkid: 1989072200,
@@ -8267,7 +8211,6 @@ export const recordings: RecordingImport[] = [
       { name: "Closer", n: 27 },
       { name: "Give Paris One More Chance", n: 28 },
     ],
-    comments: [],
   },
   {
     linkid: 1989120000,
@@ -8495,7 +8438,6 @@ export const recordings: RecordingImport[] = [
       { name: "Everyday Clothes", n: 21 },
       { name: "Just For Fun", n: 22 },
     ],
-    comments: [],
   },
   {
     linkid: 1990090400,
@@ -8633,7 +8575,6 @@ export const recordings: RecordingImport[] = [
       { name: "When She Kisses Me", n: 26 },
       { name: "A Mistake Today For Me", n: 27 },
     ],
-    comments: [],
   },
   {
     linkid: 1990093000,
@@ -8681,7 +8622,6 @@ export const recordings: RecordingImport[] = [
       { name: "Dancin' Late at Night", n: 32 },
       { name: "Volare", n: 33 },
     ],
-    comments: [],
   },
   {
     linkid: 1990100305,
@@ -8734,7 +8674,6 @@ export const recordings: RecordingImport[] = [
       { name: "Since She Started To Ride", n: 35 },
       { name: "That Summer Feeling", n: 36 },
     ],
-    comments: [],
   },
   {
     linkid: 1990100310,
@@ -9334,7 +9273,6 @@ export const recordings: RecordingImport[] = [
     date: 17,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1991081000,
@@ -9553,7 +9491,6 @@ export const recordings: RecordingImport[] = [
     date: 10,
     jon: false,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1991103000,
@@ -9596,7 +9533,6 @@ export const recordings: RecordingImport[] = [
       { name: "J'aime Paris au mois de mai", n: 26 },
       { name: "Fender Stratocaster", n: 27 },
     ],
-    comments: [],
   },
   {
     linkid: 1991111200,
@@ -9704,7 +9640,6 @@ export const recordings: RecordingImport[] = [
       { name: "Circa", n: 39 },
       { name: "A Mistake Today For Me", n: 40 },
     ],
-    comments: [],
   },
   {
     linkid: 1991121100,
@@ -9923,7 +9858,6 @@ export const recordings: RecordingImport[] = [
       { name: "Down In Bermuda", n: 28 },
       { name: "Give Paris One More Chance", n: 29 },
     ],
-    comments: [],
   },
   {
     linkid: 1992020200,
@@ -10049,7 +9983,6 @@ export const recordings: RecordingImport[] = [
       { name: "Fender Stratocaster", n: 11 },
       { name: "Give Paris One More Chance", n: 12 },
     ],
-    comments: [],
   },
   {
     linkid: 1992071500,
@@ -10413,7 +10346,6 @@ export const recordings: RecordingImport[] = [
       { name: "Closer", n: 27 },
       { name: "You Can't Talk To the Dude", n: 28 },
     ],
-    comments: [],
   },
   {
     linkid: 1993061900,
@@ -10451,7 +10383,6 @@ export const recordings: RecordingImport[] = [
       { name: "When She Kisses Me", n: 22 },
       { name: "That Summer Feeling", n: 23 },
     ],
-    comments: [],
   },
   {
     linkid: 1993062105,
@@ -10558,7 +10489,6 @@ export const recordings: RecordingImport[] = [
       { name: "Give Paris One More Chance", n: 30 },
       { name: "A Higher Power", n: 31 },
     ],
-    comments: [],
   },
   {
     linkid: 1994020600,
@@ -10651,7 +10581,6 @@ export const recordings: RecordingImport[] = [
       { name: "unknown (french)", n: 28 },
       { name: "Let Her Go Into the Darkness", n: 29 },
     ],
-    comments: [],
   },
   {
     linkid: 1994021200,
@@ -10971,7 +10900,6 @@ export const recordings: RecordingImport[] = [
       { name: "A Higher Power", n: 23 },
       { name: "You Can't Talk To the Dude", n: 24 },
     ],
-    comments: [],
   },
   {
     linkid: 1994101600,
@@ -11056,7 +10984,6 @@ export const recordings: RecordingImport[] = [
       { name: "Nothing Can Change This Love", n: 25 },
       { name: "A Higher Power", n: 26 },
     ],
-    comments: [],
   },
   {
     linkid: 1994110100,
@@ -11089,7 +11016,6 @@ export const recordings: RecordingImport[] = [
       { name: "Vampire Girl", n: 18 },
       { name: "Give Paris One More Chance", n: 19 },
     ],
-    comments: [],
   },
   {
     linkid: 1994110400,
@@ -11172,7 +11098,6 @@ export const recordings: RecordingImport[] = [
       { name: "You Must Ask the Heart", n: 20 },
       { name: "A Higher Power", n: 21 },
     ],
-    comments: [],
   },
   {
     linkid: 1994111000,
@@ -11258,7 +11183,6 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     name: "VPRO Interview, Dutch TV",
     songs: [],
-    comments: [],
   },
   {
     linkid: 1994000010,
@@ -11376,7 +11300,6 @@ export const recordings: RecordingImport[] = [
       { name: "My Career As a Homewrecker", n: 28 },
       { name: "Let Her Go Into the Darkness", n: 29 },
     ],
-    comments: [],
   },
   {
     linkid: 1995040400,
@@ -11396,7 +11319,6 @@ export const recordings: RecordingImport[] = [
       { name: "Twilight in Boston", n: 3 },
       { name: "The Fenway", n: 4 },
     ],
-    comments: [],
   },
   {
     linkid: 1995040600,
@@ -11473,7 +11395,6 @@ export const recordings: RecordingImport[] = [
       { name: "Louie Louie", n: 14 },
       { name: "Angels Watching Over Me", n: 15 },
     ],
-    comments: [],
   },
   {
     linkid: 1995040800,
@@ -11515,7 +11436,6 @@ export const recordings: RecordingImport[] = [
       { name: "A Mistake Today For Me", n: 26 },
       { name: "You Must Ask the Heart", n: 27 },
     ],
-    comments: [],
   },
   {
     linkid: 1995042100,
@@ -11639,7 +11559,6 @@ export const recordings: RecordingImport[] = [
       { name: "You Can't Talk To the Dude", n: 23 },
       { name: "When Harpo Played  His Harp", n: 24 },
     ],
-    comments: [],
   },
   {
     linkid: 1995052500,
@@ -11675,7 +11594,6 @@ export const recordings: RecordingImport[] = [
       { name: "You Must Ask the Heart", n: 21 },
       { name: "A Higher Power", n: 22 },
     ],
-    comments: [],
   },
   {
     linkid: 1995071200,
@@ -11750,7 +11668,6 @@ export const recordings: RecordingImport[] = [
       { name: "Now is Better Than Before", n: 18 },
       { name: "A Mistake Today For Me", n: 19 },
     ],
-    comments: [],
   },
   {
     linkid: 1995071500,
@@ -11786,7 +11703,6 @@ export const recordings: RecordingImport[] = [
       { name: "Give Paris One More Chance", n: 19 },
       { name: "You Must Ask the Heart", n: 20 },
     ],
-    comments: [],
   },
   {
     linkid: 1995101900,
@@ -11955,7 +11871,6 @@ export const recordings: RecordingImport[] = [
       { name: "You Can't Talk To the Dude", n: 28 },
       { name: "Amorcito Corazon", n: 29 },
     ],
-    comments: [],
   },
   {
     linkid: 1996020300,
@@ -11992,7 +11907,6 @@ export const recordings: RecordingImport[] = [
       { name: "Amorcito Corazon", n: 22 },
       { name: "You Can't Talk To the Dude", n: 23 },
     ],
-    comments: [],
   },
   {
     linkid: 1996051200,
@@ -12030,7 +11944,6 @@ export const recordings: RecordingImport[] = [
       { name: "You Can't Talk To the Dude", n: 22 },
       { name: "Surrender", n: 23 },
     ],
-    comments: [],
   },
   {
     linkid: 1996072400,
@@ -12230,7 +12143,6 @@ export const recordings: RecordingImport[] = [
       { name: "Rock 'N' Roll Drummer Straight From The Hospy-Tel", n: 17 },
       { name: "unknown (spanish)", n: 18 },
     ],
-    comments: [],
   },
   {
     linkid: 1997031200,
@@ -12268,7 +12180,6 @@ export const recordings: RecordingImport[] = [
       { name: "That Little Sleeper Car", n: 22 },
       { name: "You Must Ask the Heart", n: 23 },
     ],
-    comments: [],
   },
   {
     linkid: 1997030000,
@@ -12545,7 +12456,6 @@ export const recordings: RecordingImport[] = [
       { name: "Vampire Girl", n: 24 },
       { name: "You Can't Talk To the Dude", n: 25 },
     ],
-    comments: [],
   },
   {
     linkid: 1997102405,
@@ -12580,7 +12490,6 @@ export const recordings: RecordingImport[] = [
       { name: "Sabor a Mi", n: 19 },
       { name: "I Was Dancing in the Lesbian Bar", n: 20 },
     ],
-    comments: [],
   },
   {
     linkid: 1997102410,
@@ -12636,7 +12545,6 @@ export const recordings: RecordingImport[] = [
     date: 12,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 1998051800,
@@ -12945,7 +12853,6 @@ export const recordings: RecordingImport[] = [
       { name: "They're Not Trying on the Dance Floor", n: 19 },
       { name: "The Lonely Little Thrift Store", n: 20 },
     ],
-    comments: [],
   },
   {
     linkid: 1998120400,
@@ -13076,7 +12983,6 @@ export const recordings: RecordingImport[] = [
       { name: "Vampire Girl", n: 16 },
       { name: "You Must Ask the Heart", n: 17 },
     ],
-    comments: [],
   },
   {
     linkid: 1998000000,
@@ -13146,7 +13052,6 @@ export const recordings: RecordingImport[] = [
       { name: "The Fenway", n: 4 },
       { name: "The Lonely Little Thrift Store", n: 5 },
     ],
-    comments: [],
   },
   {
     linkid: 1999021610,
@@ -13285,7 +13190,6 @@ export const recordings: RecordingImport[] = [
       { name: "instrumental", n: 20 },
       { name: "The Night Is Still Young", n: 21 },
     ],
-    comments: [],
   },
   {
     linkid: 1999100300,
@@ -13316,7 +13220,6 @@ export const recordings: RecordingImport[] = [
       { name: "You Can't Talk To the Dude", n: 15 },
       { name: "You Must Ask the Heart", n: 16 },
     ],
-    comments: [],
   },
   {
     linkid: 1999101200,
@@ -13350,7 +13253,6 @@ export const recordings: RecordingImport[] = [
       { name: "You Can't Talk To the Dude", n: 17 },
       { name: "Arriverderci Roma", n: 18 },
     ],
-    comments: [],
   },
   {
     linkid: 1999101500,
@@ -13764,7 +13666,6 @@ export const recordings: RecordingImport[] = [
       { name: "The UFO Man", n: 8 },
       { name: "The Night Is Still Young", n: 9 },
     ],
-    comments: [],
   },
   {
     linkid: 2000102500,
@@ -13875,7 +13776,6 @@ export const recordings: RecordingImport[] = [
       { name: "You Can't Talk To the Dude", n: 26 },
       { name: "Surrender", n: 27 },
     ],
-    comments: [],
   },
   {
     linkid: 2000110500,
@@ -14183,7 +14083,6 @@ export const recordings: RecordingImport[] = [
       { name: "You Can't Talk To the Dude", n: 24 },
       { name: "Surrender", n: 25 },
     ],
-    comments: [],
   },
   {
     linkid: 2002033100,
@@ -14224,7 +14123,6 @@ export const recordings: RecordingImport[] = [
       { name: "Vincent Van Gogh", n: 26 },
       { name: "Maybe a Walk Home From Natick High School", n: 27 },
     ],
-    comments: [],
   },
   {
     linkid: 2002111105,
@@ -14732,7 +14630,6 @@ export const recordings: RecordingImport[] = [
       { name: "Con el Merengue", n: 23 },
       { name: "The Night Is Still Young", n: 24 },
     ],
-    comments: [],
   },
   {
     linkid: 2003032500,
@@ -14772,7 +14669,6 @@ export const recordings: RecordingImport[] = [
       { name: "Vampire Girl", n: 24 },
       { name: "Arriverderci Roma", n: 25 },
     ],
-    comments: [],
   },
   {
     linkid: 2003032800,
@@ -14855,7 +14751,6 @@ export const recordings: RecordingImport[] = [
       { name: "The World Is Showing It's Hand", n: 22 },
       { name: "You Must Ask the Heart", n: 23 },
     ],
-    comments: [],
   },
   {
     linkid: 2003040400,
@@ -14903,7 +14798,6 @@ export const recordings: RecordingImport[] = [
     date: 14,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2003100300,
@@ -15659,7 +15553,6 @@ export const recordings: RecordingImport[] = [
       { name: "He Gave Us the Wine to Taste", n: 22 },
       { name: "Behold the Lilies of the Field ", n: 23 },
     ],
-    comments: [],
   },
   {
     linkid: 2004092500,
@@ -15904,7 +15797,6 @@ export const recordings: RecordingImport[] = [
       { name: "Walter Johnson", n: 21 },
       { name: "J'aime Paris au mois de mai", n: 22 },
     ],
-    comments: [],
   },
   {
     linkid: 2004110500,
@@ -15987,7 +15879,6 @@ export const recordings: RecordingImport[] = [
       { name: "I Don't Complain About My Lucky Star", n: 22 },
       { name: "Leaves On The Sidewalk After The Rain", n: 23 },
     ],
-    comments: [],
   },
   {
     linkid: 2004000000,
@@ -16045,7 +15936,6 @@ export const recordings: RecordingImport[] = [
       { name: "Les Etoiles", n: 5 },
       { name: "Not So Much To Be Loved As To Love", n: 6 },
     ],
-    comments: [],
   },
   {
     linkid: 2005040200,
@@ -16088,7 +15978,6 @@ export const recordings: RecordingImport[] = [
       { name: "Not So Much To Be Loved As To Love", n: 27 },
       { name: "Nishi", n: 28 },
     ],
-    comments: [],
   },
   {
     linkid: 2005041305,
@@ -16144,7 +16033,6 @@ export const recordings: RecordingImport[] = [
       { name: "Vampiresa Mujer", n: 21 },
       { name: "Not So Much To Be Loved As To Love", n: 22 },
     ],
-    comments: [],
   },
   {
     linkid: 2005041400,
@@ -16400,7 +16288,6 @@ export const recordings: RecordingImport[] = [
       { name: "My Baby Love Love Loves Me", n: 20, set: 2 },
       { name: "Not So Much To Be Loved As To Love", n: 21, set: 2 },
     ],
-    comments: [],
   },
   {
     linkid: 2005062200,
@@ -16437,7 +16324,6 @@ export const recordings: RecordingImport[] = [
       { name: "Nishi", n: 21 },
       { name: "Walter Johnson", n: 22 },
     ],
-    comments: [],
   },
   {
     linkid: 2005062300,
@@ -16482,7 +16368,6 @@ export const recordings: RecordingImport[] = [
       { name: "My Love For Her Ain't Sad", n: 25, set: 2 },
       { name: "In Che Mondo Vivamo", n: 26, set: 2 },
     ],
-    comments: [],
   },
   {
     linkid: 2005062500,
@@ -16521,7 +16406,6 @@ export const recordings: RecordingImport[] = [
       { name: "You Can't Talk To the Dude", n: 19, set: 2 },
       { name: "My Love For Her Ain't Sad", n: 20, set: 2 },
     ],
-    comments: [],
   },
   {
     linkid: 2006101300,
@@ -16591,7 +16475,6 @@ export const recordings: RecordingImport[] = [
       { name: "Vincent Van Gogh", n: 12 },
       { name: "Surrender", n: 13 },
     ],
-    comments: [],
   },
   {
     linkid: 2006101600,
@@ -16624,7 +16507,6 @@ export const recordings: RecordingImport[] = [
       { name: "Surrender", n: 18 },
       { name: "Vincent Van Gogh", n: 19 },
     ],
-    comments: [],
   },
   {
     linkid: 2006101700,
@@ -16884,7 +16766,6 @@ export const recordings: RecordingImport[] = [
       { name: "The Night Is Still Young", n: 15 },
       { name: "Surrender", n: 16 },
     ],
-    comments: [],
   },
   {
     linkid: 2007051900,
@@ -16920,7 +16801,6 @@ export const recordings: RecordingImport[] = [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 20 },
       { name: "Es Como El Pan", n: 21 },
     ],
-    comments: [],
   },
   {
     linkid: 2007052200,
@@ -17032,7 +16912,6 @@ export const recordings: RecordingImport[] = [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 19 },
       { name: "Nineteen in Naples", n: 20 },
     ],
-    comments: [],
   },
   {
     linkid: 2007113000,
@@ -17208,7 +17087,6 @@ export const recordings: RecordingImport[] = [
     date: 2,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2008031400,
@@ -17259,7 +17137,6 @@ export const recordings: RecordingImport[] = [
       { name: "I Was Dancing in the Lesbian Bar", n: 14 },
       { name: "Surrender", n: 15 },
     ],
-    comments: [],
   },
   {
     linkid: 2008050600,
@@ -17390,7 +17267,6 @@ export const recordings: RecordingImport[] = [
       { name: "No One Was Like Vermeer", n: 18 },
       { name: "My Baby Love Love Loves Me", n: 19 },
     ],
-    comments: [],
   },
   {
     linkid: 2008090600,
@@ -17404,7 +17280,6 @@ export const recordings: RecordingImport[] = [
     date: 6,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2008101000,
@@ -17512,7 +17387,6 @@ export const recordings: RecordingImport[] = [
       { name: "My Baby Love Love Loves Me", n: 10 },
       { name: "Ha Muerto la Rosa", n: 11 },
     ],
-    comments: [],
   },
   {
     linkid: 2008000015,
@@ -17521,7 +17395,6 @@ export const recordings: RecordingImport[] = [
     name: "You Can Have a Cell Phone That's Ok But Not Me",
     jon: false,
     songs: [{ name: "You Can Have A Cell Phone That's Ok But Not Me", n: 1 }],
-    comments: [],
   },
   {
     linkid: 2009030500,
@@ -17599,7 +17472,6 @@ export const recordings: RecordingImport[] = [
       { name: "My Baby Love Love Loves Me", n: 18 },
       { name: "Maybe a Walk Home From Natick High School", n: 19 },
     ],
-    comments: [],
   },
   {
     linkid: 2009031400,
@@ -17669,7 +17541,6 @@ export const recordings: RecordingImport[] = [
       { name: "My Affected Accent", n: 16 },
       { name: "Not So Much To Be Loved As To Love", n: 17 },
     ],
-    comments: [],
   },
   {
     linkid: 2009033000,
@@ -17738,7 +17609,6 @@ export const recordings: RecordingImport[] = [
       { name: "Springtime In New York", n: 16 },
       { name: "As My Mother Lay Lying", n: 17 },
     ],
-    comments: [],
   },
   {
     linkid: 2009092200,
@@ -17765,7 +17635,6 @@ export const recordings: RecordingImport[] = [
       { name: "We're Having A Party", n: 9, set: 1 },
       { name: "Stultified", n: 10, set: 1 },
     ],
-    comments: [],
   },
   {
     linkid: 2009101100,
@@ -18003,7 +17872,6 @@ export const recordings: RecordingImport[] = [
       { name: "When We Refuse to Suffer", n: 18 },
       { name: "Stultified", n: 19 },
     ],
-    comments: [],
   },
   {
     linkid: 2010052100,
@@ -18038,7 +17906,6 @@ export const recordings: RecordingImport[] = [
       { name: "These Bodies That Came To Cavort", n: 17 },
       { name: "Mr. Sorrow", n: 18 },
     ],
-    comments: [],
   },
   {
     linkid: 2010052200,
@@ -18071,7 +17938,6 @@ export const recordings: RecordingImport[] = [
       { name: "Sa Voix M'Atisse", n: 15 },
       { name: "Arriverderci Roma", n: 16 },
     ],
-    comments: [],
   },
   {
     linkid: 2010100200,
@@ -18099,7 +17965,6 @@ export const recordings: RecordingImport[] = [
       { name: "Not So Much To Be Loved As To Love", n: 11 },
       { name: "I Was The One She Came For", n: 12 },
     ],
-    comments: [],
   },
   {
     linkid: 2010100800,
@@ -18264,7 +18129,6 @@ export const recordings: RecordingImport[] = [
     year: 2010,
     name: "Jimmy Fallon",
     songs: [],
-    comments: [],
   },
   {
     linkid: 2011022400,
@@ -18421,7 +18285,6 @@ export const recordings: RecordingImport[] = [
       { name: "Keith Richards", n: 16 },
       { name: "Not So Much To Be Loved As To Love", n: 17 },
     ],
-    comments: [],
   },
   {
     linkid: 2011051500,
@@ -18455,7 +18318,6 @@ export const recordings: RecordingImport[] = [
       { name: "My Baby Love Love Loves Me", n: 19 },
       { name: "He Gave Us the Wine to Taste", n: 20 },
     ],
-    comments: [],
   },
   {
     linkid: 2011102000,
@@ -18580,7 +18442,6 @@ export const recordings: RecordingImport[] = [
     date: 25,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2012022600,
@@ -18648,7 +18509,6 @@ export const recordings: RecordingImport[] = [
       { name: "These Bodies That Came To Cavort", n: 12 },
       { name: "It Was Time For Me To Be With Her", n: 13 },
     ],
-    comments: [],
   },
   {
     linkid: 2012031800,
@@ -18678,7 +18538,6 @@ export const recordings: RecordingImport[] = [
       { name: "Volando Voy", n: 13 },
       { name: "La Guitarra Flamenca Rubia", n: 14 },
     ],
-    comments: [],
   },
   {
     linkid: 2012032000,
@@ -18693,7 +18552,6 @@ export const recordings: RecordingImport[] = [
     jon: true,
     jonnote: "mp3",
     songs: [],
-    comments: [],
   },
   {
     linkid: 2012032100,
@@ -18708,7 +18566,6 @@ export const recordings: RecordingImport[] = [
     jon: true,
     jonnote: "mp3",
     songs: [],
-    comments: [],
   },
   {
     linkid: 2012061500,
@@ -18763,7 +18620,6 @@ export const recordings: RecordingImport[] = [
     date: 7,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2013021700,
@@ -18777,7 +18633,6 @@ export const recordings: RecordingImport[] = [
     date: 17,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2013022100,
@@ -18918,7 +18773,6 @@ export const recordings: RecordingImport[] = [
     date: 21,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2013112200,
@@ -18932,7 +18786,6 @@ export const recordings: RecordingImport[] = [
     date: 22,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2013112900,
@@ -18988,7 +18841,6 @@ export const recordings: RecordingImport[] = [
     date: 5,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2014030700,
@@ -19016,7 +18868,6 @@ export const recordings: RecordingImport[] = [
       { name: "A Que Venimos Sino a Caer?", n: 12 },
       { name: "As My Mother Lay Lying", n: 13 },
     ],
-    comments: [],
   },
   {
     linkid: 2014061700,
@@ -19030,7 +18881,6 @@ export const recordings: RecordingImport[] = [
     date: 17,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2014061900,
@@ -19058,7 +18908,6 @@ export const recordings: RecordingImport[] = [
       { name: "Honeymoon Is Over", n: 12 },
       { name: "These Bodies That Came To Cavort", n: 13 },
     ],
-    comments: [],
   },
   {
     linkid: 2014111500,
@@ -19072,7 +18921,6 @@ export const recordings: RecordingImport[] = [
     date: 15,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2014112200,
@@ -19103,7 +18951,6 @@ export const recordings: RecordingImport[] = [
       { name: "unknown (italian)", n: 15 },
       { name: "My Affected Accent", n: 16 },
     ],
-    comments: [],
   },
   {
     linkid: 2015030600,
@@ -19117,7 +18964,6 @@ export const recordings: RecordingImport[] = [
     date: 6,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2015103000,
@@ -19131,7 +18977,6 @@ export const recordings: RecordingImport[] = [
     date: 30,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2015110100,
@@ -19145,7 +18990,6 @@ export const recordings: RecordingImport[] = [
     date: 1,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2015110500,
@@ -19159,7 +19003,6 @@ export const recordings: RecordingImport[] = [
     date: 5,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2016040200,
@@ -19173,7 +19016,6 @@ export const recordings: RecordingImport[] = [
     date: 2,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2016040800,
@@ -19187,7 +19029,6 @@ export const recordings: RecordingImport[] = [
     date: 18,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2016041900,
@@ -19201,7 +19042,6 @@ export const recordings: RecordingImport[] = [
     date: 19,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2016052100,
@@ -19215,7 +19055,6 @@ export const recordings: RecordingImport[] = [
     date: 21,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2016111300,
@@ -19229,7 +19068,6 @@ export const recordings: RecordingImport[] = [
     date: 13,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2016111400,
@@ -19243,7 +19081,6 @@ export const recordings: RecordingImport[] = [
     date: 14,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2018022300,
@@ -19257,7 +19094,6 @@ export const recordings: RecordingImport[] = [
     date: 23,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2018101600,
@@ -19271,7 +19107,6 @@ export const recordings: RecordingImport[] = [
     date: 16,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2019022000,
@@ -19285,7 +19120,6 @@ export const recordings: RecordingImport[] = [
     date: 20,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 2022101300,
@@ -19299,7 +19133,6 @@ export const recordings: RecordingImport[] = [
     date: 13,
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 9000000000,
@@ -19322,7 +19155,6 @@ export const recordings: RecordingImport[] = [
       { name: "Stop This Car", n: 12 },
       { name: "You Are", n: 13 },
     ],
-    comments: [],
   },
   {
     linkid: 9000000001,
@@ -19352,7 +19184,6 @@ export const recordings: RecordingImport[] = [
       { name: "The Mixer (Men and Women Together)", n: 19 },
       { name: "96 Tears", n: 20 },
     ],
-    comments: [],
   },
   {
     linkid: 9000000002,
@@ -19424,7 +19255,6 @@ export const recordings: RecordingImport[] = [
     name: "Beantown Gems",
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 9000000005,
@@ -19433,7 +19263,6 @@ export const recordings: RecordingImport[] = [
     name: "Paley Sessions",
     jon: true,
     songs: [],
-    comments: [],
   },
   {
     linkid: 9000000006,
@@ -19444,38 +19273,30 @@ export const recordings: RecordingImport[] = [
     name: "WBEZ",
     jon: true,
     songs: [],
-    comments: [],
   },
 ];
 
 export const songs: SongImport[] = [
   {
     value: "drumbeat...",
-    comments: [],
   },
   {
     value: "(She's Gonna) Respect Me",
-    comments: [],
   },
   {
     value: "Sister Ray",
-    comments: [],
   },
   {
     value: "409",
-    comments: [],
   },
   {
     value: "4am in Tokyo, Japan",
-    comments: [],
   },
   {
     value: "7 Day Weekend",
-    comments: [],
   },
   {
     value: "96 Tears",
-    comments: [],
   },
   {
     value: "A Crush Or Love?",
@@ -19489,7 +19310,6 @@ export const songs: SongImport[] = [
   },
   {
     value: "A Hard Time Saying Goodbye",
-    comments: [],
   },
   {
     value: "A Higher Power",
@@ -19513,11 +19333,9 @@ export const songs: SongImport[] = [
   },
   {
     value: "A Que Venimos Sino a Caer?",
-    comments: [],
   },
   {
     value: "A Song About New York",
-    comments: [],
   },
   {
     value: "Abdul and Cleopatra",
@@ -19531,7 +19349,6 @@ export const songs: SongImport[] = [
   },
   {
     value: "Abominable Snowman in the Market",
-    comments: [],
   },
   {
     value: "Abu Jamal",
@@ -19550,35 +19367,27 @@ export const songs: SongImport[] = [
   },
   {
     value: "Action Packed",
-    comments: [],
   },
   {
     value: "Affection",
-    comments: [],
   },
   {
     value: "African Lady",
-    comments: [],
   },
   {
     value: "Afternoon",
-    comments: [],
   },
   {
     value: "Amazing Grace",
-    comments: [],
   },
   {
     value: "Amorcito Corazon",
-    comments: [],
   },
   {
     value: "Ancient Long Ago",
-    comments: [],
   },
   {
     value: "Angels Watching Over Me",
-    comments: [],
   },
   {
     value: "Are You Feeling Good?",
@@ -19592,7 +19401,6 @@ export const songs: SongImport[] = [
   },
   {
     value: "Arriverderci Roma",
-    comments: [],
   },
   {
     value: "As My Mother Lay Lying",
@@ -19606,7 +19414,6 @@ export const songs: SongImport[] = [
   },
   {
     value: "Astral Plane",
-    comments: [],
   },
   {
     value: "At Home With a Lover",
@@ -19620,7 +19427,6 @@ export const songs: SongImport[] = [
   },
   {
     value: "At Night",
-    comments: [],
   },
   {
     value: "Baby Baby Boss Me Around",
@@ -19634,35 +19440,27 @@ export const songs: SongImport[] = [
   },
   {
     value: "Baby We Can't Go Wrong",
-    comments: [],
   },
   {
     value: "Baby, I'm A Rockin' Rebel'oh",
-    comments: [],
   },
   {
     value: "Back in the USA",
-    comments: [],
   },
   {
     value: "Back in Your Life",
-    comments: [],
   },
   {
     value: "Bajando, Bajando por Ceniza y Mineral",
-    comments: [],
   },
   {
     value: "Bang, Bang, Lulu",
-    comments: [],
   },
   {
     value: "Barcelona",
-    comments: [],
   },
   {
     value: "Because Her Beauty is Raw and Wild",
-    comments: [],
   },
   {
     value: "Behold the Lilies of the Field ",
@@ -19676,51 +19474,39 @@ export const songs: SongImport[] = [
   },
   {
     value: "Blowin in the Wind",
-    comments: [],
   },
   {
     value: "Blue Moon",
-    comments: [],
   },
   {
     value: "Blue Suede Shoes",
-    comments: [],
   },
   {
     value: "Boogie Woogie Country Girl",
-    comments: [],
   },
   {
     value: "Born To Be Wild",
-    comments: [],
   },
   {
     value: "Born Too Late",
-    comments: [],
   },
   {
     value: "Boston My Hometown",
-    comments: [],
   },
   {
     value: "Boston, USA",
-    comments: [],
   },
   {
     value: "Bring Back Springtime To The World Of Nature",
-    comments: [],
   },
   {
     value: "Bundle Of Joy",
-    comments: [],
   },
   {
     value: "Buzz Buzz Buzz",
-    comments: [],
   },
   {
     value: "C'etait Toujours Toi",
-    comments: [],
   },
   {
     value: "California Desert Party",
@@ -19734,35 +19520,27 @@ export const songs: SongImport[] = [
   },
   {
     value: "Cambridge Clown",
-    comments: [],
   },
   {
     value: "Camina y Ven",
-    comments: [],
   },
   {
     value: "Cappuccino Bar",
-    comments: [],
   },
   {
     value: "Carla",
-    comments: [],
   },
   {
     value: "Celestial",
-    comments: [],
   },
   {
     value: "Chewing Gum Wrapper",
-    comments: [],
   },
   {
     value: "Chiusa la Festa, Chiusa la Sera",
-    comments: [],
   },
   {
     value: "Circa",
-    comments: [],
   },
   {
     value: "Circle I",
@@ -19776,23 +19554,18 @@ export const songs: SongImport[] = [
   },
   {
     value: "City vs. Country",
-    comments: [],
   },
   {
     value: "Closer",
-    comments: [],
   },
   {
     value: "Coin De Rue",
-    comments: [],
   },
   {
     value: "Come On Everybody",
-    comments: [],
   },
   {
     value: "Con el Merengue",
-    comments: [],
   },
   {
     value: "Corner Store",
@@ -19806,7 +19579,6 @@ export const songs: SongImport[] = [
   },
   {
     value: "Cosi Veloce",
-    comments: [],
   },
   {
     value: "Couples Must Fight",
@@ -19825,7 +19597,6 @@ export const songs: SongImport[] = [
   },
   {
     value: "Cozy With a K",
-    comments: [],
   },
   {
     value: "Crazy Eddie",
@@ -19849,23 +19620,18 @@ export const songs: SongImport[] = [
   },
   {
     value: "Creeps On The March",
-    comments: [],
   },
   {
     value: "Dancin' Late at Night",
-    comments: [],
   },
   {
     value: "I Was Dancing in the Lesbian Bar",
-    comments: [],
   },
   {
     value: "Dancing In the Moonlight",
-    comments: [],
   },
   {
     value: "David and Goliath",
-    comments: [],
   },
   {
     value: "Death Comes to Everyone",
@@ -19884,75 +19650,57 @@ export const songs: SongImport[] = [
   },
   {
     value: "Dick Gregory",
-    comments: [],
   },
   {
     value: "Dignified And Old",
-    comments: [],
   },
   {
     value: "Do You Want To Dance",
-    comments: [],
   },
   {
     value: "Dodge Veg-o-matic",
-    comments: [],
   },
   {
     value: "Don't Let Our Youth Go To Waste",
-    comments: [],
   },
   {
     value: "Don't Worry Baby",
-    comments: [],
   },
   {
     value: "Don't You Just Know It",
-    comments: [],
   },
   {
     value: "Doo Wop Number",
-    comments: [],
   },
   {
     value: "Double Chocolate Malted",
-    comments: [],
   },
   {
     value: "Down In Bermuda",
-    comments: [],
   },
   {
     value: "Down In Cuba",
-    comments: [],
   },
   {
     value: "Down the Mississippi",
-    comments: [],
   },
   {
     value: "Drift Away",
-    comments: [],
   },
   {
     value: "Egyptian Reggae",
-    comments: [],
   },
   {
     value: "El Joven se Estemece",
-    comments: [],
   },
   {
     value: "El UFO Man",
-    comments: [],
   },
   {
     value: "Emaline",
-    comments: [],
   },
   {
     value: "Empty Heart",
-    comments: [],
   },
   {
     value: "Es Como El Pan",
@@ -19976,187 +19724,141 @@ export const songs: SongImport[] = [
   },
   {
     value: "Everything's Gotta Be Right",
-    comments: [],
   },
   {
     value: "Falling in Love Must Be Two",
-    comments: [],
   },
   {
     value: "Feel It",
-    comments: [],
   },
   {
     value: "Fender Stratocaster",
-    comments: [],
   },
   {
     value: "Five Year Old Feeling",
-    comments: [],
   },
   {
     value: "Floatin'",
-    comments: [],
   },
   {
     value: "Fly Into the Mystery",
-    comments: [],
   },
   {
     value: "Foggy Notion",
-    comments: [],
   },
   {
     value: "Follow the Leader",
-    comments: [],
   },
   {
     value: "For Drama We Have the Seasons",
-    comments: [],
   },
   {
     value: "French Style",
-    comments: [],
   },
   {
     value: "Friday Night in Osaka in Japan",
-    comments: [],
   },
   {
     value: "Gail Loves Me",
-    comments: [],
   },
   {
     value: "Get In the Groove",
-    comments: [],
   },
   {
     value: "Girl With the Curl",
-    comments: [],
   },
   {
     value: "Girlfren'",
-    comments: [],
   },
   {
     value: "Give Paris One More Chance",
-    comments: [],
   },
   {
     value: "Goin' Home",
-    comments: [],
   },
   {
     value: "Good Golly Miss Molly",
-    comments: [],
   },
   {
     value: "Good Lovin'",
-    comments: [],
   },
   {
     value: "Good Night Baby",
-    comments: [],
   },
   {
     value: "Government Center",
-    comments: [],
   },
   {
     value: "Green Onions",
-    comments: [],
   },
   {
     value: "Ha Muerto la Rosa",
-    comments: [],
   },
   {
     value: "Hang On Sloopy",
-    comments: [],
   },
   {
     value: "Happy Birthday",
-    comments: [],
   },
   {
     value: "Happy Birthday Dawn",
-    comments: [],
   },
   {
     value: "Happy Birthday to Joey",
-    comments: [],
   },
   {
     value: "Harbour Lights",
-    comments: [],
   },
   {
     value: "Haseemla Classica",
-    comments: [],
   },
   {
     value: "Have You Got Something You Love",
-    comments: [],
   },
   {
     value: "He Gave Us the Wine to Taste",
-    comments: [],
   },
   {
     value: "Heart To Heart",
-    comments: [],
   },
   {
     value: "Hello from Cupid",
-    comments: [],
   },
   {
     value: "Hello Josephine",
-    comments: [],
   },
   {
     value: "Her Mystery Not Of High Heels and Eye Shadow",
-    comments: [],
   },
   {
     value: "Her Way Moves Me",
-    comments: [],
   },
   {
     value: "Here Come the Martian Martians",
-    comments: [],
   },
   {
     value: "Here Comes My Baby",
-    comments: [],
   },
   {
     value: "Here It Is",
-    comments: [],
   },
   {
     value: "Here We Are in Ancient Egypt",
-    comments: [],
   },
   {
     value: "Here We Are In Dreamland",
-    comments: [],
   },
   {
     value: "Hey Good Looking",
-    comments: [],
   },
   {
     value: "Hey There Little Insect",
-    comments: [],
   },
   {
     value: "Hi Dear",
-    comments: [],
   },
   {
     value: "Hi Fred, We Still Love You",
-    comments: [],
   },
   {
     value: "Hospital",
@@ -20170,31 +19872,24 @@ export const songs: SongImport[] = [
   },
   {
     value: "Hot Love",
-    comments: [],
   },
   {
     value: "Howdy-D Burger Drive-in",
-    comments: [],
   },
   {
     value: "I Can Hear Her Fighting With Herself",
-    comments: [],
   },
   {
     value: "I Can't Find My Best Friend",
-    comments: [],
   },
   {
     value: "I Can't Sleep Now",
-    comments: [],
   },
   {
     value: "I Don't Complain About My Lucky Star",
-    comments: [],
   },
   {
     value: "I Don't Want To Go Halfway",
-    comments: [],
   },
   {
     value: "I Eat With Gusto, Damn! You Bet",
@@ -20213,151 +19908,114 @@ export const songs: SongImport[] = [
   },
   {
     value: "I Grew Up In the Suburbs",
-    comments: [],
   },
   {
     value: "I Had a Crush On Her",
-    comments: [],
   },
   {
     value: "I Had a Favorite Flower",
-    comments: [],
   },
   {
     value: "I Had to Change",
-    comments: [],
   },
   {
     value: "I Have Come Out to Play",
-    comments: [],
   },
   {
     value: "I Have No Reason to Doubt Her",
-    comments: [],
   },
   {
     value: "I Know I Turn Her On",
-    comments: [],
   },
   {
     value: "I Like it Like That",
-    comments: [],
   },
   {
     value: "I Love Her Little Body",
-    comments: [],
   },
   {
     value: "I Love Hot Nights",
-    comments: [],
   },
   {
     value: "I Love Life More and More",
-    comments: [],
   },
   {
     value: "I Love Life So",
-    comments: [],
   },
   {
     value: "I Love People",
-    comments: [],
   },
   {
     value: "I Love the World",
-    comments: [],
   },
   {
     value: "I Love This World and It's Mystery",
-    comments: [],
   },
   {
     value: "I Love You So",
-    comments: [],
   },
   {
     value: "I Moved Away",
-    comments: [],
   },
   {
     value: "I Must Be King",
-    comments: [],
   },
   {
     value: "I Need Someone",
-    comments: [],
   },
   {
     value: "I See What's Underneath",
-    comments: [],
   },
   {
     value: "I Took a Chance on Her",
-    comments: [],
   },
   {
     value: "I Wanna Sleep In Your Arms",
-    comments: [],
   },
   {
     value: "I Want Somebody to Love Me",
-    comments: [],
   },
   {
     value: "I Want To Love Him So Bad",
-    comments: [],
   },
   {
     value: "I'd Rather Feel Than Not Feel At All",
-    comments: [],
   },
   {
     value: "I'm a Jerk",
-    comments: [],
   },
   {
     value: "I'm a Little Airplane",
-    comments: [],
   },
   {
     value: "I'm a Little Dinosaur",
-    comments: [],
   },
   {
     value: "I'm Crying",
-    comments: [],
   },
   {
     value: "I'm Dropping My Friends (One by One)",
-    comments: [],
   },
   {
     value: "I'm in a Dancing Mood",
-    comments: [],
   },
   {
     value: "I'm Just Beginning To Live",
-    comments: [],
   },
   {
     value: "I'm Nature's Mosquito",
-    comments: [],
   },
   {
     value: "I'm Not Afraid To Make Mistakes",
-    comments: [],
   },
   {
     value: "I'm Not Obsessed With Her",
-    comments: [],
   },
   {
     value: "I'm So Confused",
-    comments: [],
   },
   {
     value: "I'm Straight",
-    comments: [],
   },
   {
     value: "I'm Your God Pan",
@@ -20376,15 +20034,12 @@ export const songs: SongImport[] = [
   },
   {
     value: "Ice Cold NuGrape",
-    comments: [],
   },
   {
     value: "Ice Cream Man",
-    comments: [],
   },
   {
     value: "If She Don't Love Me",
-    comments: [],
   },
   {
     value: "Important in Your Life",
@@ -20398,287 +20053,216 @@ export const songs: SongImport[] = [
   },
   {
     value: "In Che Mondo Vivamo",
-    comments: [],
   },
   {
     value: "In Japan",
-    comments: [],
   },
   {
     value: "instrumental",
-    comments: [],
   },
   {
     value: "interview...",
-    comments: [],
   },
   {
     value: "It Will Stand",
-    comments: [],
   },
   {
     value: "It's Afternoon And The Range Is Calling",
-    comments: [],
   },
   {
     value: "It's Fall Time",
-    comments: [],
   },
   {
     value: "It's You",
-    comments: [],
   },
   {
     value: "Jail",
-    comments: [],
   },
   {
     value: "Jambalaya",
-    comments: [],
   },
   {
     value: "Jenny Jenny Jenny",
-    comments: [],
   },
   {
     value: "Johnny Too Bad",
-    comments: [],
   },
   {
     value: "Jonathan I Feel So Bad",
-    comments: [],
   },
   {
     value: "Jose Bove",
-    comments: [],
   },
   {
     value: "Joy Over Sorrow",
-    comments: [],
   },
   {
     value: "Just About 17",
-    comments: [],
   },
   {
     value: "Just For Fun",
-    comments: [],
   },
   {
     value: "Just Look At Me",
-    comments: [],
   },
   {
     value: "Just Wanna Be Young",
-    comments: [],
   },
   {
     value: "Justine",
-    comments: [],
   },
   {
     value: "Karma Chameleon",
-    comments: [],
   },
   {
     value: "Keep on Dancing",
-    comments: [],
   },
   {
     value: "Keith Richards",
-    comments: [],
   },
   {
     value: "Kumbaya",
-    comments: [],
   },
   {
     value: "La Bamba",
-    comments: [],
   },
   {
     value: "Le Freak",
-    comments: [],
   },
   {
     value: "Le Printemps Des Amoreux Est Venue",
-    comments: [],
   },
   {
     value: "Leaves On The Sidewalk After The Rain",
-    comments: [],
   },
   {
     value: "Les Etoiles",
-    comments: [],
   },
   {
     value: "Let Her Go Into the Darkness",
-    comments: [],
   },
   {
     value: "Let Her Go To Her Old Boyfriend",
-    comments: [],
   },
   {
     value: "Let The Four Winds Blow",
-    comments: [],
   },
   {
     value: "Let's Get Wild",
-    comments: [],
   },
   {
     value: "Let's Say We Just Met",
-    comments: [],
   },
   {
     value: "Let's Take a Trip",
-    comments: [],
   },
   {
     value: "Let's Go Playing",
-    comments: [],
   },
   {
     value: "Let's Take The Long Way Home",
-    comments: [],
   },
   {
     value: "Let's Twist Again",
-    comments: [],
   },
   {
     value: "Life Hurts and I Expect It",
-    comments: [],
   },
   {
     value: "Little Bell",
-    comments: [],
   },
   {
     value: "Little Boy In My Heart",
-    comments: [],
   },
   {
     value: "Little Latin Lupe Lu",
-    comments: [],
   },
   {
     value: "Little Sister",
-    comments: [],
   },
   {
     value: "Lonely Financial Zone",
-    comments: [],
   },
   {
     value: "Lonely Little Thrift Store",
-    comments: [],
   },
   {
     value: "Lonely Without Her",
-    comments: [],
   },
   {
     value: "Louie Louie",
-    comments: [],
   },
   {
     value: "Louise",
-    comments: [],
   },
   {
     value: "Love Me Like I Love",
-    comments: [],
   },
   {
     value: "Lover Please",
-    comments: [],
   },
   {
     value: "Lydia",
-    comments: [],
   },
   {
     value: "A Mistake Today For Me",
-    comments: [],
   },
   {
     value: "Malaguena De Jojo",
-    comments: [],
   },
   {
     value: "Malingering",
-    comments: [],
   },
   {
     value: "Maybe a Walk Home From Natick High School",
-    comments: [],
   },
   {
     value: "Me And Her Got A Good Thing Goin' Baby ",
-    comments: [],
   },
   {
     value: "Miracles Will Start To Happen",
-    comments: [],
   },
   {
     value: "Modern World",
-    comments: [],
   },
   {
     value: "Mona",
-    comments: [],
   },
   {
     value: "Money",
-    comments: [],
   },
   {
     value: "Monologue About Bermuda",
-    comments: [],
   },
   {
     value: "Mood Lighting for Dreaming",
-    comments: [],
   },
   {
     value: "More Fun In Our 40's",
-    comments: [],
   },
   {
     value: "More Surprises",
-    comments: [],
   },
   {
     value: "The Morning of Our Lives",
-    comments: [],
   },
   {
     value: "Mr Squiltage goes to College",
-    comments: [],
   },
   {
     value: "Mr. Sorrow",
-    comments: [],
   },
   {
     value: "My Affected Accent",
-    comments: [],
   },
   {
     value: "My Appearance on the Balcony",
-    comments: [],
   },
   {
     value: "My Baby",
-    comments: [],
   },
   {
     value: "My Baby Love Love Loves Me",
-    comments: [],
   },
   {
     value: "My Career As a Homewrecker",
@@ -20697,31 +20281,24 @@ export const songs: SongImport[] = [
   },
   {
     value: "My Guiding Star",
-    comments: [],
   },
   {
     value: "My Guy",
-    comments: [],
   },
   {
     value: "My Heart Needs Repair",
-    comments: [],
   },
   {
     value: "My Heart Was Won by a Girl",
-    comments: [],
   },
   {
     value: "My Honest Dear",
-    comments: [],
   },
   {
     value: "My Jeans",
-    comments: [],
   },
   {
     value: "My Little Girls Got A Full Time Daddy Now",
-    comments: [],
   },
   {
     value: "My Little Kookenhaken",
@@ -20735,15 +20312,12 @@ export const songs: SongImport[] = [
   },
   {
     value: "My Love For Her Ain't Sad",
-    comments: [],
   },
   {
     value: "My Love is a Flower (Just Beginning to Bloom)",
-    comments: [],
   },
   {
     value: "My Modern Lover",
-    comments: [],
   },
   {
     value: "My Name Is Jonathan",
@@ -20757,327 +20331,246 @@ export const songs: SongImport[] = [
   },
   {
     value: "My Runabout Girl",
-    comments: [],
   },
   {
     value: "Mystery of the Summer Night",
-    comments: [],
   },
   {
     value: "Neon Sign",
-    comments: [],
   },
   {
     value: "New England",
-    comments: [],
   },
   {
     value: "New Kind Of Neighborhood",
-    comments: [],
   },
   {
     value: "unknown (french)",
-    comments: [],
   },
   {
     value: "unknown (spanish)",
-    comments: [],
   },
   {
     value: "New York at 4am is More My Style",
-    comments: [],
   },
   {
     value: "Nineteen in Naples",
-    comments: [],
   },
   {
     value: "Nishi",
-    comments: [],
   },
   {
     value: "No Habla Mis Palabras De Amor",
-    comments: [],
   },
   {
     value: "No More Gasoline",
-    comments: [],
   },
   {
     value: "No One Was Like Vermeer",
-    comments: [],
   },
   {
     value: "Not Happy For Tomorrow...Happy For Today",
-    comments: [],
   },
   {
     value: "Not In My Name",
-    comments: [],
   },
   {
     value: 'Not Just "Plus One" On The Guest List Anymore',
-    comments: [],
   },
   {
     value: "Not So Much To Be Loved As To Love",
-    comments: [],
   },
   {
     value: "Not Yet 3",
-    comments: [],
   },
   {
     value: "Nothing Can Change This Love",
-    comments: [],
   },
   {
     value: "Now is Better Than Before",
-    comments: [],
   },
   {
     value: "I Don't Want No Nuclear Power Plants (In My Life)",
-    comments: [],
   },
   {
     value: "Oh Boy",
-    comments: [],
   },
   {
     value: "Oh Carol",
-    comments: [],
   },
   {
     value: "Old World",
-    comments: [],
   },
   {
     value: "Older Girl",
-    comments: [],
   },
   {
     value: "On a du Soleil",
-    comments: [],
   },
   {
     value: "Our Party Will Be On The Beach Tonight",
-    comments: [],
   },
   {
     value: "Our Swinging Pad",
-    comments: [],
   },
   {
     value: "Pablo Picasso",
-    comments: [],
   },
   {
     value: "Pacific Coast Highway",
-    comments: [],
   },
   {
     value: "Pantomima de El Amor Brujo",
-    comments: [],
   },
   {
     value: "J'aime Paris au mois de mai",
-    comments: [],
   },
   {
     value: "Parties In The USA",
-    comments: [],
   },
   {
     value: "Partners in Crime",
-    comments: [],
   },
   {
     value: "Party In The Woods Tonight",
-    comments: [],
   },
   {
     value: "Pearl",
-    comments: [],
   },
   {
     value: "Peggy Sue",
-    comments: [],
   },
   {
     value: "Peppermint Twist",
-    comments: [],
   },
   {
     value: "Place Pigalle",
-    comments: [],
   },
   {
     value: "Poem by Pier Paolo Pasolini",
-    comments: [],
   },
   {
     value: "Polk Salad Annie",
-    comments: [],
   },
   {
     value: "Pretty is Pretty (But It's Not All That There Is)",
-    comments: [],
   },
   {
     value: "Pretty Little Girl",
-    comments: [],
   },
   {
     value: "Pterodactyl in the Airport",
-    comments: [],
   },
   {
     value: "Quarter to Three",
-    comments: [],
   },
   {
     value: "Que C'est Triste Venise",
-    comments: [],
   },
   {
     value: "Que reste-t-il de nos amours?",
-    comments: [],
   },
   {
     value: "Quintage Goes to Market",
-    comments: [],
   },
   {
     value: "Ready Teddy",
-    comments: [],
   },
   {
     value: "Reelin' & Rockin'",
-    comments: [],
   },
   {
     value: "Reno",
-    comments: [],
   },
   {
     value: "Ride Down On The Highway",
-    comments: [],
   },
   {
     value: "Roadrunner",
-    comments: [],
   },
   {
     value: "Rock 'N' Roll Drummer Straight From The Hospy-Tel",
-    comments: [],
   },
   {
     value: "Rock n' Roll Number 9",
-    comments: [],
   },
   {
     value: "Rock and Roll Music",
-    comments: [],
   },
   {
     value: "Rock and Roll Will Happen",
-    comments: [],
   },
   {
     value: "Rock Island Line",
-    comments: [],
   },
   {
     value: "Rock Me All Night Long",
-    comments: [],
   },
   {
     value: "Rock Your Baby",
-    comments: [],
   },
   {
     value: "Rockin' Shoppin' Center",
-    comments: [],
   },
   {
     value: "Rockin' Robin",
-    comments: [],
   },
   {
     value: "Rockin' Rockin' Leprechauns",
-    comments: [],
   },
   {
     value: "Rodeo Wind",
-    comments: [],
   },
   {
     value: "Roll Over Beethoven",
-    comments: [],
   },
   {
     value: "Roll With Me Henry",
-    comments: [],
   },
   {
     value: "Rollercoaster By the Sea",
-    comments: [],
   },
   {
     value: "Rooming House on Venice Beach",
-    comments: [],
   },
   {
     value: "Round and Round",
-    comments: [],
   },
   {
     value: "Route 66",
-    comments: [],
   },
   {
     value: "Ruby Ruby",
-    comments: [],
   },
   {
     value: "Sa Voix M'Atisse",
-    comments: [],
   },
   {
     value: "Salvador Dali",
-    comments: [],
   },
   {
     value: "Satisfied Mind",
-    comments: [],
   },
   {
     value: "Satisfy",
-    comments: [],
   },
   {
     value: "Seven Day Weekend",
-    comments: [],
   },
   {
     value: "Sex Machine",
-    comments: [],
   },
   {
     value: "Shake",
-    comments: [],
   },
   {
     value: "She Brings Out the Best in Me",
-    comments: [],
   },
   {
     value: "She Cracked",
-    comments: [],
   },
   {
     value: "She Doesn't Laugh At My Jokes",
-    comments: [],
   },
   {
     value: "She Lives in a Rock & Roll House",
@@ -21091,63 +20584,48 @@ export const songs: SongImport[] = [
   },
   {
     value: "She Loves You Jonathan, Give Her Time",
-    comments: [],
   },
   {
     value: "She's a Once in a Lifetime Girl",
-    comments: [],
   },
   {
     value: "She's Running Away",
-    comments: [],
   },
   {
     value: "Shirin and Fahrad",
-    comments: [],
   },
   {
     value: "Silence",
-    comments: [],
   },
   {
     value: "Silence alors, Silence",
-    comments: [],
   },
   {
     value: "Since She Started To Ride",
-    comments: [],
   },
   {
     value: "Sleepwalk",
-    comments: [],
   },
   {
     value: "Slipping and Sliding",
-    comments: [],
   },
   {
     value: "Somebody To Hold Me",
-    comments: [],
   },
   {
     value: "Someone I Care About",
-    comments: [],
   },
   {
     value: "Song Of Remembrance For Old Girlfriends",
-    comments: [],
   },
   {
     value: "Sorrow Showed Me the Way",
-    comments: [],
   },
   {
     value: "South American Folk Song",
-    comments: [],
   },
   {
     value: "Springtime",
-    comments: [],
   },
   {
     value: "Springtime In New York",
@@ -21161,19 +20639,15 @@ export const songs: SongImport[] = [
   },
   {
     value: "Stay",
-    comments: [],
   },
   {
     value: "Stop This Car",
-    comments: [],
   },
   {
     value: "Stop Your Sobbing",
-    comments: [],
   },
   {
     value: "Stultified",
-    comments: [],
   },
   {
     value: "Stupenda e Misera Citta",
@@ -21187,39 +20661,30 @@ export const songs: SongImport[] = [
   },
   {
     value: "Such Loneliness",
-    comments: [],
   },
   {
     value: "Summer Morning",
-    comments: [],
   },
   {
     value: "Summer Night",
-    comments: [],
   },
   {
     value: "Sunday Afternoon",
-    comments: [],
   },
   {
     value: "Surfin' Safari",
-    comments: [],
   },
   {
     value: "Surrender",
-    comments: [],
   },
   {
     value: "Tahitian Hop",
-    comments: [],
   },
   {
     value: "Take a Walk Around Town",
-    comments: [],
   },
   {
     value: "Take Me Off The Shelf",
-    comments: [],
   },
   {
     value: "Take Me to the Plaza",
@@ -21233,39 +20698,30 @@ export const songs: SongImport[] = [
   },
   {
     value: "Tallahassee Lassie",
-    comments: [],
   },
   {
     value: "Tandem Jump",
-    comments: [],
   },
   {
     value: "Tell How You Feel",
-    comments: [],
   },
   {
     value: "Tequila",
-    comments: [],
   },
   {
     value: "That Little Sleeper Car",
-    comments: [],
   },
   {
     value: "That Summer Feeling",
-    comments: [],
   },
   {
     value: "That's When I Want To Tear Down The Walls Between People",
-    comments: [],
   },
   {
     value: "The Ballad Of Yoyo",
-    comments: [],
   },
   {
     value: "The Baltimores",
-    comments: [],
   },
   {
     value: "The Beach",
@@ -21279,215 +20735,162 @@ export const songs: SongImport[] = [
   },
   {
     value: "The Best That I Have Got",
-    comments: [],
   },
   {
     value: "The Changing of the Seasons",
-    comments: [],
   },
   {
     value: "The Crush",
-    comments: [],
   },
   {
     value: "The Dark Crypt Like Arcade",
-    comments: [],
   },
   {
     value: "The Desert",
-    comments: [],
   },
   {
     value: "The Fenway",
-    comments: [],
   },
   {
     value: "The Girl Stands Up to Me Now",
-    comments: [],
   },
   {
     value: "The Heart of Saturday Night",
-    comments: [],
   },
   {
     value: "The Little Green and White Wrapper",
-    comments: [],
   },
   {
     value: "The Lonely Little Thrift Store",
-    comments: [],
   },
   {
     value: "The Mixer (Men and Women Together)",
-    comments: [],
   },
   {
     value: "The Neighbors",
-    comments: [],
   },
   {
     value: "The New Teller",
-    comments: [],
   },
   {
     value: "The Night Is Still Young",
-    comments: [],
   },
   {
     value: "The Old Corner Store",
-    comments: [],
   },
   {
     value: "The Old Snack Bar",
-    comments: [],
   },
   {
     value: "The Sea Was Calling Me Home",
-    comments: [],
   },
   {
     value: "The Silent Treatment",
-    comments: [],
   },
   {
     value: "The Springtime of the Lovers",
-    comments: [],
   },
   {
     value: "The Sweeping Wind",
-    comments: [],
   },
   {
     value: "The Tag Game",
-    comments: [],
   },
   {
     value: "The Twist",
-    comments: [],
   },
   {
     value: "The UFO Man",
-    comments: [],
   },
   {
     value: "The Wheels on the Bus",
-    comments: [],
   },
   {
     value: "The World Is Showing It's Hand",
-    comments: [],
   },
   {
     value: "Theme From Moulin Rouge",
-    comments: [],
   },
   {
     value: "There Is No Abomination",
-    comments: [],
   },
   {
     value: "There Is No Squiltage",
-    comments: [],
   },
   {
     value: "There's Something About Mary",
-    comments: [],
   },
   {
     value: "These Bodies That Came To Cavort",
-    comments: [],
   },
   {
     value: "They're Not Trying on the Dance Floor",
-    comments: [],
   },
   {
     value: "This Kind Of Music",
-    comments: [],
   },
   {
     value: "This Little Light Of Mine",
-    comments: [],
   },
   {
     value: "This Love of Mine",
-    comments: [],
   },
   {
     value: "This Romance Will Be Different For Me",
-    comments: [],
   },
   {
     value: "Those Conga Drums",
-    comments: [],
   },
   {
     value: "Time For Foolin' Around",
-    comments: [],
   },
   {
     value: "Time Stopped When We Held Hands",
-    comments: [],
   },
   {
     value: "To Hide a Little Thought",
-    comments: [],
   },
   {
     value: "Tokyo, Japan, 4 am on Friday night",
-    comments: [],
   },
   {
     value: "Too Fat",
-    comments: [],
   },
   {
     value: "Too Hip",
-    comments: [],
   },
   {
     value: "Too Many Fish In The Sea",
-    comments: [],
   },
   {
     value: "Tout ce que je cherchais etait toujours toi",
-    comments: [],
   },
   {
     value: "instrumental (trombone)",
-    comments: [],
   },
   {
     value: "True Love Is Not Nice",
-    comments: [],
   },
   {
     value: "Twilight in Boston",
-    comments: [],
   },
   {
     value: "Twist and Shout",
-    comments: [],
   },
   {
     value: "Twist Twist Senora",
-    comments: [],
   },
   {
     value: "Twisting the Night Away",
-    comments: [],
   },
   {
     value: "unknown (?)",
-    comments: [],
   },
   {
     value: "Up In Cold Maine Under the Stars",
-    comments: [],
   },
   {
     value: "Up In The Sky Sometime",
-    comments: [],
   },
   {
     value: "Vampire Girl",
@@ -21511,11 +20914,9 @@ export const songs: SongImport[] = [
   },
   {
     value: "Vampiresa Mujer",
-    comments: [],
   },
   {
     value: "Vecchio Frack",
-    comments: [],
   },
   {
     value: "Velvet Underground",
@@ -21529,35 +20930,27 @@ export const songs: SongImport[] = [
   },
   {
     value: "Vincent Van Gogh",
-    comments: [],
   },
   {
     value: "Volando Voy",
-    comments: [],
   },
   {
     value: "Volare",
-    comments: [],
   },
   {
     value: "Wake Up Sleepy Heads",
-    comments: [],
   },
   {
     value: "Walk Up the Street",
-    comments: [],
   },
   {
     value: "Walter Johnson",
-    comments: [],
   },
   {
     value: "We're Having A Party",
-    comments: [],
   },
   {
     value: "Wheels on the Bus",
-    comments: [],
   },
   {
     value: "When Harpo Played  His Harp",
@@ -21571,43 +20964,33 @@ export const songs: SongImport[] = [
   },
   {
     value: "When I Dance",
-    comments: [],
   },
   {
     value: "When I Get Mad at Her",
-    comments: [],
   },
   {
     value: "When I Say I Love You",
-    comments: [],
   },
   {
     value: "When I Say Wife",
-    comments: [],
   },
   {
     value: "When I'm Walking",
-    comments: [],
   },
   {
     value: "When She Kisses Me",
-    comments: [],
   },
   {
     value: "When We Refuse to Suffer",
-    comments: [],
   },
   {
     value: "Who Can Say When a Wall Is Ready to Come Down",
-    comments: [],
   },
   {
     value: "Wild Thing",
-    comments: [],
   },
   {
     value: "Wild Weekend",
-    comments: [],
   },
   {
     value: "Wild Wild Party",
@@ -21621,75 +21004,57 @@ export const songs: SongImport[] = [
   },
   {
     value: "Winter is Over For Me",
-    comments: [],
   },
   {
     value: "Winters Get Hard in New England",
-    comments: [],
   },
   {
     value: "Wipeout",
-    comments: [],
   },
   {
     value: "Womanhood",
-    comments: [],
   },
   {
     value: "Wonderful Girl",
-    comments: [],
   },
   {
     value: "Ya Ya",
-    comments: [],
   },
   {
     value: "Yo Jo Jo",
-    comments: [],
   },
   {
     value: "Yo Tengo una Novia",
-    comments: [],
   },
   {
     value: "You Are",
-    comments: [],
   },
   {
     value: "You Can Have A Cell Phone That's Ok But Not Me",
-    comments: [],
   },
   {
     value: "You Can't Talk To the Dude",
-    comments: [],
   },
   {
     value: "You Must Ask the Heart",
-    comments: [],
   },
   {
     value: "You're the One For Me",
-    comments: [],
   },
   {
     value: "You've Got To Cry",
-    comments: [],
   },
   {
     value: "You're Crazy For Taking the Bus",
-    comments: [],
   },
   {
     value: "Yoyos On Parade",
-    comments: [],
   },
   {
     value: "Coomyah",
-    comments: [],
   },
   {
     value: "I Hear You Calling Me",
-    comments: [],
   },
   {
     value: "Cerca",
@@ -21708,19 +21073,15 @@ export const songs: SongImport[] = [
   },
   {
     value: "Your Good Girl's Gonna Go Bad",
-    comments: [],
   },
   {
     value: "Man Walks Among Us",
-    comments: [],
   },
   {
     value: "I Can't Stay Mad At You",
-    comments: [],
   },
   {
     value: "1963",
-    comments: [],
   },
   {
     value: "Grunion Run",
@@ -21739,163 +21100,123 @@ export const songs: SongImport[] = [
   },
   {
     value: "unknown (italian)",
-    comments: [],
   },
   {
     value: "Harpo En Su Harpa",
-    comments: [],
   },
   {
     value: "No Te Oye",
-    comments: [],
   },
   {
     value: "No Mas Por Fun",
-    comments: [],
   },
   {
     value: "Papel De Chicle",
-    comments: [],
   },
   {
     value: "Los Vecinos",
-    comments: [],
   },
   {
     value: "Ahora Es Mejor",
-    comments: [],
   },
   {
     value: "Una Fuerza Alla",
-    comments: [],
   },
   {
     value: "Sabor a Mi",
-    comments: [],
   },
   {
     value: "Melodia Tradicional Ecuadoriana",
-    comments: [],
   },
   {
     value: "Just Because I'm Irish",
-    comments: [],
   },
   {
     value: "The Rose",
-    comments: [],
   },
   {
     value: "That's How I Feel",
-    comments: [],
   },
   {
     value: "Tonight",
-    comments: [],
   },
   {
     value: "Time Has Been Going By So Fast",
-    comments: [],
   },
   {
     value: "The Lovers Are Here and They're Full of Sweat",
-    comments: [],
   },
   {
     value: "Our Drab Ways",
-    comments: [],
   },
   {
     value: "If You Want To Leave Our Party Just Go",
-    comments: [],
   },
   {
     value: "I Was The One She Came For",
-    comments: [],
   },
   {
     value: "We'll Be the Noise, We'll Be the Scandal",
-    comments: [],
   },
   {
     value: "Winter Afternoon By B.U. In Boston",
-    comments: [],
   },
   {
     value: "The Bitter Herb",
-    comments: [],
   },
   {
     value: "Even Though I Know I Am The Wind And The Sun, I",
-    comments: [],
   },
   {
     value: "It Was Time For Me To Be With Her",
-    comments: [],
   },
   {
     value: "O Moon, Queen Of Night On Earth",
-    comments: [],
   },
   {
     value: "Mary Anne",
-    comments: [],
   },
   {
     value: "Roadrunner Twice",
-    comments: [],
   },
   {
     value: "Roadrunner Thrice",
-    comments: [],
   },
   {
     value: "I'm Waiting For the Man",
-    comments: [],
   },
   {
     value: "I Feel Alright",
-    comments: [],
   },
   {
     value: "Veil Of Cold",
-    comments: [],
   },
   {
     value: "I See Your Light",
-    comments: [],
   },
   {
     value: "Awkward Love",
-    comments: [],
   },
   {
     value: "Guitar Doodle No. 1",
-    comments: [],
   },
   {
     value: "Touch Me If You Want",
-    comments: [],
   },
   {
     value: "Do You Believe In Magic",
-    comments: [],
   },
   {
     value: "Guitar Doodle No. 2",
-    comments: [],
   },
   {
     value: "Young and in Love",
-    comments: [],
   },
   {
     value: "Do de do do",
-    comments: [],
   },
   {
     value: "Willie and the Hand Jive",
-    comments: [],
   },
   {
     value: "Trip to the Sea",
@@ -21909,171 +21230,129 @@ export const songs: SongImport[] = [
   },
   {
     value: "Thunderbolts of Joy",
-    comments: [],
   },
   {
     value: "Singing in the Rain",
-    comments: [],
   },
   {
     value: "So Much Respect For You",
-    comments: [],
   },
   {
     value: "I'm Not Alone (The Heavens Love Me)",
-    comments: [],
   },
   {
     value: "Flying Saucers Rock and Roll",
-    comments: [],
   },
   {
     value: "Stir It Up",
-    comments: [],
   },
   {
     value: "In the Checkout Line",
-    comments: [],
   },
   {
     value: "Brand New Dance",
-    comments: [],
   },
   {
     value: "Sugar and Spice",
-    comments: [],
   },
   {
     value: "Ballad of Stink",
-    comments: [],
   },
   {
     value: "Moron Creek",
-    comments: [],
   },
   {
     value: "Young at Heart",
-    comments: [],
   },
   {
     value: "Wedding Bells",
-    comments: [],
   },
   {
     value: "Adios (To My Own Desert Love)",
-    comments: [],
   },
   {
     value: "Spanish Drama",
-    comments: [],
   },
   {
     value: "Michael Row Your Boat Ashore",
-    comments: [],
   },
   {
     value: "And That's Rock n' Roll",
-    comments: [],
   },
   {
     value: "Nuclear Nightmare",
-    comments: [],
   },
   {
     value: "Cupid",
-    comments: [],
   },
   {
     value: "Dueling Jojo's",
-    comments: [],
   },
   {
     value: "Something You Believe In",
-    comments: [],
   },
   {
     value: "Start All Over",
-    comments: [],
   },
   {
     value: "Fear",
-    comments: [],
   },
   {
     value: "Oh, Bus Driver",
-    comments: [],
   },
   {
     value: "New York Poem",
-    comments: [],
   },
   {
     value: "Dance With Me",
-    comments: [],
   },
   {
     value: "Weeds Breaking Through The Concrete",
-    comments: [],
   },
   {
     value: "Revolution Summer Theme",
-    comments: [],
   },
   {
     value: "Francine's Theme",
-    comments: [],
   },
   {
     value: "A Chill in the Night Air",
-    comments: [],
   },
   {
     value: "Music for Next Year's Jukebox",
-    comments: [],
   },
   {
     value: "Hipster Cafe",
-    comments: [],
   },
   {
     value: "Vacant Lot",
-    comments: [],
   },
   {
     value: "Hope's Theme",
-    comments: [],
   },
   {
     value: "Francine's Theme (Reprise)",
-    comments: [],
   },
   {
     value: "Hope's Theme (Reprise)",
-    comments: [],
   },
   {
     value: "Weeds Breaking Through The Concrete (Reprise)",
-    comments: [],
   },
   {
     value: "Now What?",
-    comments: [],
   },
   {
     value: "Italian Song About a Party",
-    comments: [],
   },
   {
     value: "Hebrew Party Song",
-    comments: [],
   },
   {
     value: "My Love She Is From Somewhere Else",
-    comments: [],
   },
   {
     value: "When We Run On the Beach",
-    comments: [],
   },
   {
     value: "Bohemia",
@@ -22102,51 +21381,39 @@ export const songs: SongImport[] = [
   },
   {
     value: "Love In a Different Way",
-    comments: [],
   },
   {
     value: "El Muerto Vivo",
-    comments: [],
   },
   {
     value: "Coge la Guitarra",
-    comments: [],
   },
   {
     value: "Loneliness",
-    comments: [],
   },
   {
     value: "The Other World",
-    comments: [],
   },
   {
     value: "Si el Sexo hay que Planificar",
-    comments: [],
   },
   {
     value: "We Want to Take You Higher",
-    comments: [],
   },
   {
     value: "Naked (poem)",
-    comments: [],
   },
   {
     value: "My Life is Full of Color",
-    comments: [],
   },
   {
     value: "(Marie's the Name) Of His Latest Flame",
-    comments: [],
   },
   {
     value: "What She's Thinking About Me Affects Me All Day Long",
-    comments: [],
   },
   {
     value: "The Sadness of the Youth",
-    comments: [],
   },
   {
     value: "Rama Lama Ding Dong",
@@ -22160,71 +21427,54 @@ export const songs: SongImport[] = [
   },
   {
     value: "La Festa e Galactica",
-    comments: [],
   },
   {
     value: "La Guitarra Flamenca Rubia",
-    comments: [],
   },
   {
     value: "Come to Our Party",
-    comments: [],
   },
   {
     value: "Tromba",
-    comments: [],
   },
   {
     value: "Her Laugh is Like a Trumpet",
-    comments: [],
   },
   {
     value: "We Had a Fight Last Night",
-    comments: [],
   },
   {
     value: "Galactica",
-    comments: [],
   },
   {
     value: "Parent Pushing Stroller",
-    comments: [],
   },
   {
     value: "Your Mind",
-    comments: [],
   },
   {
     value: "Trash on the Beach",
-    comments: [],
   },
   {
     value: "Ego Went Away",
-    comments: [],
   },
   {
     value: "La Fiesta Es Para Todos",
-    comments: [],
   },
   {
     value: "Ja La BBQ",
-    comments: [],
   },
   {
     value: "Touched More",
-    comments: [],
   },
   {
     value: "Honeymoon Is Over",
-    comments: [],
   },
   {
     value: "O Sun!",
-    comments: [],
   },
   {
     value: "angels poem",
-    comments: [],
   },
   {
     value: "Nuestro Tema",
@@ -22238,11 +21488,9 @@ export const songs: SongImport[] = [
   },
   {
     value: "Nuestra Que Macar",
-    comments: [],
   },
   {
     value: "Cantange a Cantar",
-    comments: [],
   },
   {
     value: "Doing It To Death",
@@ -22256,6 +21504,5 @@ export const songs: SongImport[] = [
   },
   {
     value: "Torna a Surriento",
-    comments: [],
   },
 ];
