@@ -3,6 +3,10 @@ import Link from "next/link";
 import type { NextPage } from "next";
 import { ParsedUrlQuery } from "querystring";
 import { getRecordings, Recording } from "../lib/data";
+import { Ubuntu as Font } from "next/font/google";
+import cn from "../styles/Layout.module.scss";
+
+const font = Font({ subsets: ["latin"], weight: "300" });
 
 interface MyCollectionPageProps {
   recordings: Recording[];
@@ -26,7 +30,7 @@ const MyCollectionPage: NextPage<MyCollectionPageProps> = ({ recordings }) => {
     .filter(({ jon }) => jon);
   const totalCount = all.length;
   return (
-    <div className="myCollection">
+    <div className={`${cn.myCollection} ${font.className}`}>
       <Link href="/" className="back">
         Back
       </Link>
@@ -35,7 +39,7 @@ const MyCollectionPage: NextPage<MyCollectionPageProps> = ({ recordings }) => {
       <ul>
         {all.map(({ linkid, type, formattedTitle }) => {
           let doubleFormattedTitle = formattedTitle;
-          if (type !== "Show") {
+          if (type !== "Show" && type !== "Radio") {
             doubleFormattedTitle = `${type}: ${formattedTitle}`;
           }
           return (
