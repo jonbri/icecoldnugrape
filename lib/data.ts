@@ -1,45 +1,6 @@
 import payload from "./rawImport";
+import { CommentInstance } from "./types";
 const { recordings, songs } = payload;
-
-export interface Comment {
-  name: string;
-  text: string;
-  time: string;
-}
-export interface CommentInstance {
-  type: string;
-  linkid: number;
-  comment: Comment;
-}
-export interface Song {
-  linkid: number;
-  value: string;
-  comments: Comment[];
-  shows: number[];
-  set?: number; // -1 | 1 | 2 | 3
-}
-export interface SongInstance extends Song {
-  n: number;
-}
-export interface Recording {
-  linkid: number;
-  type: string;
-  venue?: string;
-  country?: string;
-  city?: string;
-  quality?: string;
-  month?: number;
-  date?: number;
-  year?: number;
-  sublocation?: string;
-  jon?: boolean;
-  songs?: SongInstance[];
-  comments: Comment[];
-  formattedTitle: string;
-  prev: number | null;
-  next: number | null;
-  name?: string;
-}
 
 export const getRecordings = () => recordings;
 

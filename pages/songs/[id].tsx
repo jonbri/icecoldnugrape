@@ -3,7 +3,8 @@ import Link from "next/link";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { ParsedUrlQuery } from "querystring";
 import Layout from "../../components/Layout";
-import { getSongs, getSong, idsToShows, Song, Recording } from "../../lib/data";
+import { getSongs, getSong, idsToShows } from "../../lib/data";
+import { Song, Recording } from "../../lib/types";
 
 interface PageProps {
   song: Song;

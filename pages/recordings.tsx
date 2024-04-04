@@ -1,7 +1,8 @@
 import { GetStaticProps } from "next";
 import Link from "next/link";
 import { ParsedUrlQuery } from "querystring";
-import { getRecordings, Recording } from "../lib/data";
+import { getRecordings } from "../lib/data";
+import { Recording } from "../lib/types";
 import Layout from "../components/Layout";
 import type { NextPage } from "next";
 

@@ -1,32 +1,12 @@
-import recordingsData from "../data/recordings_raw.json";
-import songsData from "../data/songs_raw.json";
-import { Recording, Song } from "./data";
-
-interface RecordingImport {
-  linkid: number;
-  type: string;
-  venue?: string;
-  country?: string;
-  city?: string;
-  quality?: string;
-  year?: number;
-  month?: number;
-  date?: number;
-  jon?: boolean;
-  songs: {
-    linkid: number;
-    n: number;
-    set?: number; // -1 | 1 | 2 | 3
-  }[];
-  comments: {
-    name: string;
-    text: string;
-    time: string;
-    bob?: number;
-  }[];
-  name?: string;
-  sublocation?: string;
-}
+import { recordings as recordingsData } from "../data/recordings_raw";
+import { songs as songsData } from "../data/songs_raw";
+import {
+  RecordingImport,
+  Recording,
+  SongImport,
+  Song,
+  SongInstance,
+} from "./types";
 
 const months = [
   "Jan",
@@ -100,7 +80,7 @@ const deriveFormattedTitle = ({
   return formatted.trim();
 };
 
-const aggregateSongs = () =>
+const aggregateSongs = (): Song[] =>
   songsData.map((rawSong) => ({
     ...rawSong,
     shows: recordingsData
