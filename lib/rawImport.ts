@@ -16,6 +16,7 @@ interface RecordingImport {
   songs: {
     linkid: number;
     n: number;
+    set?: number; // -1 | 1 | 2 | 3
   }[];
   comments: {
     name: string;
@@ -113,14 +114,15 @@ const aggregateRecordings = () => {
   const recordings: Recording[] = [];
   const { length } = recordingsData;
   for (let i = 0; i < length; i++) {
-    const rawRecording = recordingsData[i];
+    const rawRecording = recordingsData[i] as RecordingImport;
     const prev = i > 0 ? recordingsData[i - 1]?.linkid : null;
     const next = i < length - 1 ? recordingsData[i + 1]?.linkid : null;
     recordings.push({
       ...rawRecording,
-      songs: rawRecording.songs.map(({ linkid, n }) => ({
+      songs: rawRecording.songs.map(({ linkid, n, set = -1 }) => ({
         ...songs.find(({ linkid: songLinkid }) => songLinkid === linkid)!,
         n,
+        set,
       })),
       next,
       prev,

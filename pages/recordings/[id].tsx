@@ -2,7 +2,12 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { ParsedUrlQuery } from "querystring";
-import { getRecording, getRecordings, Recording } from "../../lib/data";
+import {
+  getRecording,
+  getRecordings,
+  Recording,
+  SongInstance,
+} from "../../lib/data";
 import Layout from "../../components/Layout";
 
 interface PageProps {
@@ -38,11 +43,35 @@ export const getStaticPaths: GetStaticPaths<Params> = async () => {
 const Page: NextPage<PageProps> = ({
   recording: { songs, formattedTitle, quality, comments, jon, prev, next },
 }) => {
-  const sortedSongs = songs?.sort(({ n: n0 }, { n: n1 }) => {
-    if (n0 > n1) return 1;
-    else if (n0 < n1) return -1;
-    return 0;
-  });
+  const sortedSongs =
+    songs?.sort(({ n: n0 }, { n: n1 }) => {
+      if (n0 > n1) return 1;
+      else if (n0 < n1) return -1;
+      return 0;
+    }) ?? [];
+
+  const set1 = sortedSongs.filter(({ set }) => set === 1);
+  const set2 = sortedSongs.filter(({ set }) => set === 2);
+  const set3 = sortedSongs.filter(({ set }) => set === 3);
+
+  const hasSets = set2?.length > 0;
+  const generateSetList = (set: SongInstance[]) => (
+    <ul>
+      {set.map(({ linkid, value, n }) => (
+        <li key={`${n}-${linkid}`}>
+          <a href={`../songs/${linkid}`}>{`${n}. ${value}`}</a>
+        </li>
+      ))}
+    </ul>
+  );
+  const generateSet = (set: SongInstance[]) =>
+    set.length > 0 ? (
+      <>
+        <h3>Set {set[0].set}</h3>
+        {generateSetList(set)}
+      </>
+    ) : null;
+
   return (
     <Layout type="recordings" prev={prev} next={next}>
       <h2>{formattedTitle}</h2>
@@ -52,13 +81,16 @@ const Page: NextPage<PageProps> = ({
           <Link href="/myCollection">available for trade or just ask me</Link>
         </div>
       ) : null}
-      <ul>
-        {sortedSongs?.map(({ linkid, value, n }) => (
-          <li key={`${n}-${linkid}`}>
-            <a href={`../songs/${linkid}`}>{`${n}. ${value}`}</a>
-          </li>
-        ))}
-      </ul>
+
+      {hasSets ? (
+        <>
+          {generateSet(set1)}
+          {generateSet(set2)}
+          {generateSet(set3)}
+        </>
+      ) : (
+        generateSetList(sortedSongs)
+      )}
 
       {quality !== undefined || comments.length > 0 ? (
         <div className="comments">

@@ -16,6 +16,7 @@ export interface Song {
   value: string;
   comments: Comment[];
   shows: number[];
+  set?: number; // -1 | 1 | 2 | 3
 }
 export interface SongInstance extends Song {
   n: number;
