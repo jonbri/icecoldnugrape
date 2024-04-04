@@ -50,7 +50,7 @@ interface Result {
   text: string;
 }
 
-const SearchPage: NextPage = ({}) => {
+const SearchPage: NextPage = () => {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Fuse.FuseResult<Result>[]>([]);
 
@@ -100,7 +100,10 @@ interface FuseHighlightProps {
   result: Fuse.FuseResult<Result>;
   attribute: string;
 }
-const FuseHighlight = ({ result, attribute }: FuseHighlightProps) => {
+const FuseHighlight = ({
+  result: { matches = [] },
+  attribute,
+}: FuseHighlightProps) => {
   // Recursively builds JSX output adding `<mark>` tags around matches
   const highlight = (
     value: string,
@@ -118,9 +121,7 @@ const FuseHighlight = ({ result, attribute }: FuseHighlightProps) => {
       </>
     );
   };
-  const { value, indices } = result.matches?.find(
-    ({ key }) => key === attribute
-  )!;
+  const { value, indices } = matches.find(({ key }) => key === attribute)!;
   return <>{highlight(value!, indices)}</>;
 };
 

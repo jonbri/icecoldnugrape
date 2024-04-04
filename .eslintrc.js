@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["next/core-web-vitals", "prettier"],
+  extends: ["next/core-web-vitals", "prettier", "eslint:recommended"],
 };
