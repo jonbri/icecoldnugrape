@@ -1,629 +1,2238 @@
 import { RecordingImport, SongImport } from "../lib/types";
 
-export type SongList =
-  | "drumbeat..."
-  | "(She's Gonna) Respect Me"
-  | "Sister Ray"
-  | "409"
-  | "4am in Tokyo, Japan"
-  | "7 Day Weekend"
-  | "96 Tears"
-  | "A Crush Or Love?"
-  | "A Hard Time Saying Goodbye"
-  | "A Higher Power"
-  | "A Plea For Tenderness"
-  | "A Que Venimos Sino a Caer?"
-  | "A Song About New York"
-  | "Abdul and Cleopatra"
-  | "Abominable Snowman in the Market"
-  | "Abu Jamal"
-  | "Action Packed"
-  | "Affection"
-  | "African Lady"
-  | "Afternoon"
-  | "Amazing Grace"
-  | "Amorcito Corazon"
-  | "Ancient Long Ago"
-  | "Angels Watching Over Me"
-  | "Are You Feeling Good?"
-  | "Arriverderci Roma"
-  | "As My Mother Lay Lying"
-  | "Astral Plane"
-  | "At Home With a Lover"
-  | "At Night"
-  | "Baby Baby Boss Me Around"
-  | "Baby We Can't Go Wrong"
-  | "Baby, I'm A Rockin' Rebel'oh"
-  | "Back in the USA"
-  | "Back in Your Life"
-  | "Bajando, Bajando por Ceniza y Mineral"
-  | "Bang, Bang, Lulu"
-  | "Barcelona"
-  | "Because Her Beauty is Raw and Wild"
-  | "Behold the Lilies of the Field "
-  | "Blowin in the Wind"
-  | "Blue Moon"
-  | "Blue Suede Shoes"
-  | "Boogie Woogie Country Girl"
-  | "Born To Be Wild"
-  | "Born Too Late"
-  | "Boston My Hometown"
-  | "Boston, USA"
-  | "Bring Back Springtime To The World Of Nature"
-  | "Bundle Of Joy"
-  | "Buzz Buzz Buzz"
-  | "C'etait Toujours Toi"
-  | "California Desert Party"
-  | "Cambridge Clown"
-  | "Camina y Ven"
-  | "Cappuccino Bar"
-  | "Carla"
-  | "Celestial"
-  | "Chewing Gum Wrapper"
-  | "Chiusa la Festa, Chiusa la Sera"
-  | "Circa"
-  | "Circle I"
-  | "City vs. Country"
-  | "Closer"
-  | "Coin De Rue"
-  | "Come On Everybody"
-  | "Con el Merengue"
-  | "Corner Store"
-  | "Cosi Veloce"
-  | "Couples Must Fight"
-  | "Cozy With a K"
-  | "Crazy Eddie"
-  | "Crazy Little Mama"
-  | "Creeps On The March"
-  | "Dancin' Late at Night"
-  | "I Was Dancing in the Lesbian Bar"
-  | "Dancing In the Moonlight"
-  | "David and Goliath"
-  | "Death Comes to Everyone"
-  | "Dick Gregory"
-  | "Dignified And Old"
-  | "Do You Want To Dance"
-  | "Dodge Veg-o-matic"
-  | "Don't Let Our Youth Go To Waste"
-  | "Don't Worry Baby"
-  | "Don't You Just Know It"
-  | "Doo Wop Number"
-  | "Double Chocolate Malted"
-  | "Down In Bermuda"
-  | "Down In Cuba"
-  | "Down the Mississippi"
-  | "Drift Away"
-  | "Egyptian Reggae"
-  | "El Joven se Estemece"
-  | "El UFO Man"
-  | "Emaline"
-  | "Empty Heart"
-  | "Es Como El Pan"
-  | "Everyday Clothes"
-  | "Everything's Gotta Be Right"
-  | "Falling in Love Must Be Two"
-  | "Feel It"
-  | "Fender Stratocaster"
-  | "Five Year Old Feeling"
-  | "Floatin'"
-  | "Fly Into the Mystery"
-  | "Foggy Notion"
-  | "Follow the Leader"
-  | "For Drama We Have the Seasons"
-  | "French Style"
-  | "Friday Night in Osaka in Japan"
-  | "Gail Loves Me"
-  | "Get In the Groove"
-  | "Girl With the Curl"
-  | "Girlfren'"
-  | "Give Paris One More Chance"
-  | "Goin' Home"
-  | "Good Golly Miss Molly"
-  | "Good Lovin'"
-  | "Good Night Baby"
-  | "Government Center"
-  | "Green Onions"
-  | "Ha Muerto la Rosa"
-  | "Hang On Sloopy"
-  | "Happy Birthday"
-  | "Happy Birthday Dawn"
-  | "Happy Birthday to Joey"
-  | "Harbour Lights"
-  | "Haseemla Classica"
-  | "Have You Got Something You Love"
-  | "He Gave Us the Wine to Taste"
-  | "Heart To Heart"
-  | "Hello from Cupid"
-  | "Hello Josephine"
-  | "Her Mystery Not Of High Heels and Eye Shadow"
-  | "Her Way Moves Me"
-  | "Here Come the Martian Martians"
-  | "Here Comes My Baby"
-  | "Here It Is"
-  | "Here We Are in Ancient Egypt"
-  | "Here We Are In Dreamland"
-  | "Hey Good Looking"
-  | "Hey There Little Insect"
-  | "Hi Dear"
-  | "Hi Fred, We Still Love You"
-  | "Hospital"
-  | "Hot Love"
-  | "Howdy-D Burger Drive-in"
-  | "I Can Hear Her Fighting With Herself"
-  | "I Can't Find My Best Friend"
-  | "I Can't Sleep Now"
-  | "I Don't Complain About My Lucky Star"
-  | "I Don't Want To Go Halfway"
-  | "I Eat With Gusto, Damn! You Bet"
-  | "I Grew Up In the Suburbs"
-  | "I Had a Crush On Her"
-  | "I Had a Favorite Flower"
-  | "I Had to Change"
-  | "I Have Come Out to Play"
-  | "I Have No Reason to Doubt Her"
-  | "I Know I Turn Her On"
-  | "I Like it Like That"
-  | "I Love Her Little Body"
-  | "I Love Hot Nights"
-  | "I Love Life More and More"
-  | "I Love Life So"
-  | "I Love People"
-  | "I Love the World"
-  | "I Love This World and It's Mystery"
-  | "I Love You So"
-  | "I Moved Away"
-  | "I Must Be King"
-  | "I Need Someone"
-  | "I See What's Underneath"
-  | "I Took a Chance on Her"
-  | "I Wanna Sleep In Your Arms"
-  | "I Want Somebody to Love Me"
-  | "I Want To Love Him So Bad"
-  | "I'd Rather Feel Than Not Feel At All"
-  | "I'm a Jerk"
-  | "I'm a Little Airplane"
-  | "I'm a Little Dinosaur"
-  | "I'm Crying"
-  | "I'm Dropping My Friends (One by One)"
-  | "I'm in a Dancing Mood"
-  | "I'm Just Beginning To Live"
-  | "I'm Nature's Mosquito"
-  | "I'm Not Afraid To Make Mistakes"
-  | "I'm Not Obsessed With Her"
-  | "I'm So Confused"
-  | "I'm Straight"
-  | "I'm Your God Pan"
-  | "Ice Cold NuGrape"
-  | "Ice Cream Man"
-  | "If She Don't Love Me"
-  | "Important in Your Life"
-  | "In Che Mondo Vivamo"
-  | "In Japan"
-  | "instrumental"
-  | "interview..."
-  | "It Will Stand"
-  | "It's Afternoon And The Range Is Calling"
-  | "It's Fall Time"
-  | "It's You"
-  | "Jail"
-  | "Jambalaya"
-  | "Jenny Jenny Jenny"
-  | "Johnny Too Bad"
-  | "Jonathan I Feel So Bad"
-  | "Jose Bove"
-  | "Joy Over Sorrow"
-  | "Just About 17"
-  | "Just For Fun"
-  | "Just Look At Me"
-  | "Just Wanna Be Young"
-  | "Justine"
-  | "Karma Chameleon"
-  | "Keep on Dancing"
-  | "Keith Richards"
-  | "Kumbaya"
-  | "La Bamba"
-  | "Le Freak"
-  | "Le Printemps Des Amoreux Est Venue"
-  | "Leaves On The Sidewalk After The Rain"
-  | "Les Etoiles"
-  | "Let Her Go Into the Darkness"
-  | "Let Her Go To Her Old Boyfriend"
-  | "Let The Four Winds Blow"
-  | "Let's Get Wild"
-  | "Let's Say We Just Met"
-  | "Let's Take a Trip"
-  | "Let's Go Playing"
-  | "Let's Take The Long Way Home"
-  | "Let's Twist Again"
-  | "Life Hurts and I Expect It"
-  | "Little Bell"
-  | "Little Boy In My Heart"
-  | "Little Latin Lupe Lu"
-  | "Little Sister"
-  | "Lonely Financial Zone"
-  | "Lonely Little Thrift Store"
-  | "Lonely Without Her"
-  | "Louie Louie"
-  | "Louise"
-  | "Love Me Like I Love"
-  | "Lover Please"
-  | "Lydia"
-  | "A Mistake Today For Me"
-  | "Malaguena De Jojo"
-  | "Malingering"
-  | "Maybe a Walk Home From Natick High School"
-  | "Me And Her Got A Good Thing Goin' Baby "
-  | "Miracles Will Start To Happen"
-  | "Modern World"
-  | "Mona"
-  | "Money"
-  | "Monologue About Bermuda"
-  | "Mood Lighting for Dreaming"
-  | "More Fun In Our 40's"
-  | "More Surprises"
-  | "The Morning of Our Lives"
-  | "Mr Squiltage goes to College"
-  | "Mr. Sorrow"
-  | "My Affected Accent"
-  | "My Appearance on the Balcony"
-  | "My Baby"
-  | "My Baby Love Love Loves Me"
-  | "My Career As a Homewrecker"
-  | "My Guiding Star"
-  | "My Guy"
-  | "My Heart Needs Repair"
-  | "My Heart Was Won by a Girl"
-  | "My Honest Dear"
-  | "My Jeans"
-  | "My Little Girls Got A Full Time Daddy Now"
-  | "My Little Kookenhaken"
-  | "My Love For Her Ain't Sad"
-  | "My Love is a Flower (Just Beginning to Bloom)"
-  | "My Modern Lover"
-  | "My Name Is Jonathan"
-  | "My Runabout Girl"
-  | "Mystery of the Summer Night"
-  | "Neon Sign"
-  | "New England"
-  | "New Kind Of Neighborhood"
-  | "unknown (french)"
-  | "unknown (spanish)"
-  | "New York at 4am is More My Style"
-  | "Nineteen in Naples"
-  | "Nishi"
-  | "No Habla Mis Palabras De Amor"
-  | "No More Gasoline"
-  | "No One Was Like Vermeer"
-  | "Not Happy For Tomorrow...Happy For Today"
-  | "Not In My Name"
-  | 'Not Just "Plus One" On The Guest List Anymore'
-  | "Not So Much To Be Loved As To Love"
-  | "Not Yet 3"
-  | "Nothing Can Change This Love"
-  | "Now is Better Than Before"
-  | "I Don't Want No Nuclear Power Plants (In My Life)"
-  | "Oh Boy"
-  | "Oh Carol"
-  | "Old World"
-  | "Older Girl"
-  | "On a du Soleil"
-  | "Our Party Will Be On The Beach Tonight"
-  | "Our Swinging Pad"
-  | "Pablo Picasso"
-  | "Pacific Coast Highway"
-  | "Pantomima de El Amor Brujo"
-  | "J'aime Paris au mois de mai"
-  | "Parties In The USA"
-  | "Partners in Crime"
-  | "Party In The Woods Tonight"
-  | "Pearl"
-  | "Peggy Sue"
-  | "Peppermint Twist"
-  | "Place Pigalle"
-  | "Poem by Pier Paolo Pasolini"
-  | "Polk Salad Annie"
-  | "Pretty is Pretty (But It's Not All That There Is)"
-  | "Pretty Little Girl"
-  | "Pterodactyl in the Airport"
-  | "Quarter to Three"
-  | "Que C'est Triste Venise"
-  | "Que reste-t-il de nos amours?"
-  | "Quintage Goes to Market"
-  | "Ready Teddy"
-  | "Reelin' & Rockin'"
-  | "Reno"
-  | "Ride Down On The Highway"
-  | "Roadrunner"
-  | "Rock 'N' Roll Drummer Straight From The Hospy-Tel"
-  | "Rock n' Roll Number 9"
-  | "Rock and Roll Music"
-  | "Rock and Roll Will Happen"
-  | "Rock Island Line"
-  | "Rock Me All Night Long"
-  | "Rock Your Baby"
-  | "Rockin' Shoppin' Center"
-  | "Rockin' Robin"
-  | "Rockin' Rockin' Leprechauns"
-  | "Rodeo Wind"
-  | "Roll Over Beethoven"
-  | "Roll With Me Henry"
-  | "Rollercoaster By the Sea"
-  | "Rooming House on Venice Beach"
-  | "Round and Round"
-  | "Route 66"
-  | "Ruby Ruby"
-  | "Sa Voix M'Atisse"
-  | "Salvador Dali"
-  | "Satisfied Mind"
-  | "Satisfy"
-  | "Seven Day Weekend"
-  | "Sex Machine"
-  | "Shake"
-  | "She Brings Out the Best in Me"
-  | "She Cracked"
-  | "She Doesn't Laugh At My Jokes"
-  | "She Lives in a Rock & Roll House"
-  | "She Loves You Jonathan, Give Her Time"
-  | "She's a Once in a Lifetime Girl"
-  | "She's Running Away"
-  | "Shirin and Fahrad"
-  | "Silence"
-  | "Silence alors, Silence"
-  | "Since She Started To Ride"
-  | "Sleepwalk"
-  | "Slipping and Sliding"
-  | "Somebody To Hold Me"
-  | "Someone I Care About"
-  | "Song Of Remembrance For Old Girlfriends"
-  | "Sorrow Showed Me the Way"
-  | "South American Folk Song"
-  | "Springtime"
-  | "Springtime In New York"
-  | "Stay"
-  | "Stop This Car"
-  | "Stop Your Sobbing"
-  | "Stultified"
-  | "Stupenda e Misera Citta"
-  | "Such Loneliness"
-  | "Summer Morning"
-  | "Summer Night"
-  | "Sunday Afternoon"
-  | "Surfin' Safari"
-  | "Surrender"
-  | "Tahitian Hop"
-  | "Take a Walk Around Town"
-  | "Take Me Off The Shelf"
-  | "Take Me to the Plaza"
-  | "Tallahassee Lassie"
-  | "Tandem Jump"
-  | "Tell How You Feel"
-  | "Tequila"
-  | "That Little Sleeper Car"
-  | "That Summer Feeling"
-  | "That's When I Want To Tear Down The Walls Between People"
-  | "The Ballad Of Yoyo"
-  | "The Baltimores"
-  | "The Beach"
-  | "The Best That I Have Got"
-  | "The Changing of the Seasons"
-  | "The Crush"
-  | "The Dark Crypt Like Arcade"
-  | "The Desert"
-  | "The Fenway"
-  | "The Girl Stands Up to Me Now"
-  | "The Heart of Saturday Night"
-  | "The Little Green and White Wrapper"
-  | "The Lonely Little Thrift Store"
-  | "The Mixer (Men and Women Together)"
-  | "The Neighbors"
-  | "The New Teller"
-  | "The Night Is Still Young"
-  | "The Old Corner Store"
-  | "The Old Snack Bar"
-  | "The Sea Was Calling Me Home"
-  | "The Silent Treatment"
-  | "The Springtime of the Lovers"
-  | "The Sweeping Wind"
-  | "The Tag Game"
-  | "The Twist"
-  | "The UFO Man"
-  | "The Wheels on the Bus"
-  | "The World Is Showing It's Hand"
-  | "Theme From Moulin Rouge"
-  | "There Is No Abomination"
-  | "There Is No Squiltage"
-  | "There's Something About Mary"
-  | "These Bodies That Came To Cavort"
-  | "They're Not Trying on the Dance Floor"
-  | "This Kind Of Music"
-  | "This Little Light Of Mine"
-  | "This Love of Mine"
-  | "This Romance Will Be Different For Me"
-  | "Those Conga Drums"
-  | "Time For Foolin' Around"
-  | "Time Stopped When We Held Hands"
-  | "To Hide a Little Thought"
-  | "Tokyo, Japan, 4 am on Friday night"
-  | "Too Fat"
-  | "Too Hip"
-  | "Too Many Fish In The Sea"
-  | "Tout ce que je cherchais etait toujours toi"
-  | "instrumental (trombone)"
-  | "True Love Is Not Nice"
-  | "Twilight in Boston"
-  | "Twist and Shout"
-  | "Twist Twist Senora"
-  | "Twisting the Night Away"
-  | "unknown (?)"
-  | "Up In Cold Maine Under the Stars"
-  | "Up In The Sky Sometime"
-  | "Vampire Girl"
-  | "Vampiresa Mujer"
-  | "Vecchio Frack"
-  | "Velvet Underground"
-  | "Vincent Van Gogh"
-  | "Volando Voy"
-  | "Volare"
-  | "Wake Up Sleepy Heads"
-  | "Walk Up the Street"
-  | "Walter Johnson"
-  | "We're Having A Party"
-  | "Wheels on the Bus"
-  | "When Harpo Played  His Harp"
-  | "When I Dance"
-  | "When I Get Mad at Her"
-  | "When I Say I Love You"
-  | "When I Say Wife"
-  | "When I'm Walking"
-  | "When She Kisses Me"
-  | "When We Refuse to Suffer"
-  | "Who Can Say When a Wall Is Ready to Come Down"
-  | "Wild Thing"
-  | "Wild Weekend"
-  | "Wild Wild Party"
-  | "Winter is Over For Me"
-  | "Winters Get Hard in New England"
-  | "Wipeout"
-  | "Womanhood"
-  | "Wonderful Girl"
-  | "Ya Ya"
-  | "Yo Jo Jo"
-  | "Yo Tengo una Novia"
-  | "You Are"
-  | "You Can Have A Cell Phone That's Ok But Not Me"
-  | "You Can't Talk To the Dude"
-  | "You Must Ask the Heart"
-  | "You're the One For Me"
-  | "You've Got To Cry"
-  | "You're Crazy For Taking the Bus"
-  | "Yoyos On Parade"
-  | "Coomyah"
-  | "I Hear You Calling Me"
-  | "Cerca"
-  | "Your Good Girl's Gonna Go Bad"
-  | "Man Walks Among Us"
-  | "I Can't Stay Mad At You"
-  | "1963"
-  | "Grunion Run"
-  | "unknown (italian)"
-  | "Harpo En Su Harpa"
-  | "No Te Oye"
-  | "No Mas Por Fun"
-  | "Papel De Chicle"
-  | "Los Vecinos"
-  | "Ahora Es Mejor"
-  | "Una Fuerza Alla"
-  | "Sabor a Mi"
-  | "Melodia Tradicional Ecuadoriana"
-  | "Just Because I'm Irish"
-  | "The Rose"
-  | "That's How I Feel"
-  | "Tonight"
-  | "Time Has Been Going By So Fast"
-  | "The Lovers Are Here and They're Full of Sweat"
-  | "Our Drab Ways"
-  | "If You Want To Leave Our Party Just Go"
-  | "I Was The One She Came For"
-  | "We'll Be the Noise, We'll Be the Scandal"
-  | "Winter Afternoon By B.U. In Boston"
-  | "The Bitter Herb"
-  | "Even Though I Know I Am The Wind And The Sun, I"
-  | "It Was Time For Me To Be With Her"
-  | "O Moon, Queen Of Night On Earth"
-  | "Mary Anne"
-  | "Roadrunner Twice"
-  | "Roadrunner Thrice"
-  | "I'm Waiting For the Man"
-  | "I Feel Alright"
-  | "Veil Of Cold"
-  | "I See Your Light"
-  | "Awkward Love"
-  | "Guitar Doodle No. 1"
-  | "Touch Me If You Want"
-  | "Do You Believe In Magic"
-  | "Guitar Doodle No. 2"
-  | "Young and in Love"
-  | "Do de do do"
-  | "Willie and the Hand Jive"
-  | "Trip to the Sea"
-  | "Thunderbolts of Joy"
-  | "Singing in the Rain"
-  | "So Much Respect For You"
-  | "I'm Not Alone (The Heavens Love Me)"
-  | "Flying Saucers Rock and Roll"
-  | "Stir It Up"
-  | "In the Checkout Line"
-  | "Brand New Dance"
-  | "Sugar and Spice"
-  | "Ballad of Stink"
-  | "Moron Creek"
-  | "Young at Heart"
-  | "Wedding Bells"
-  | "Adios (To My Own Desert Love)"
-  | "Spanish Drama"
-  | "Michael Row Your Boat Ashore"
-  | "And That's Rock n' Roll"
-  | "Nuclear Nightmare"
-  | "Cupid"
-  | "Dueling Jojo's"
-  | "Something You Believe In"
-  | "Start All Over"
-  | "Fear"
-  | "Oh, Bus Driver"
-  | "New York Poem"
-  | "Dance With Me"
-  | "Weeds Breaking Through The Concrete"
-  | "Revolution Summer Theme"
-  | "Francine's Theme"
-  | "A Chill in the Night Air"
-  | "Music for Next Year's Jukebox"
-  | "Hipster Cafe"
-  | "Vacant Lot"
-  | "Hope's Theme"
-  | "Francine's Theme (Reprise)"
-  | "Hope's Theme (Reprise)"
-  | "Weeds Breaking Through The Concrete (Reprise)"
-  | "Now What?"
-  | "Italian Song About a Party"
-  | "Hebrew Party Song"
-  | "My Love She Is From Somewhere Else"
-  | "When We Run On the Beach"
-  | "Bohemia"
-  | "Love In a Different Way"
-  | "El Muerto Vivo"
-  | "Coge la Guitarra"
-  | "Loneliness"
-  | "The Other World"
-  | "Si el Sexo hay que Planificar"
-  | "We Want to Take You Higher"
-  | "Naked (poem)"
-  | "My Life is Full of Color"
-  | "(Marie's the Name) Of His Latest Flame"
-  | "What She's Thinking About Me Affects Me All Day Long"
-  | "The Sadness of the Youth"
-  | "Rama Lama Ding Dong"
-  | "La Festa e Galactica"
-  | "La Guitarra Flamenca Rubia"
-  | "Come to Our Party"
-  | "Tromba"
-  | "Her Laugh is Like a Trumpet"
-  | "We Had a Fight Last Night"
-  | "Galactica"
-  | "Parent Pushing Stroller"
-  | "Your Mind"
-  | "Trash on the Beach"
-  | "Ego Went Away"
-  | "La Fiesta Es Para Todos"
-  | "Ja La BBQ"
-  | "Touched More"
-  | "Honeymoon Is Over"
-  | "O Sun!"
-  | "angels poem"
-  | "Nuestro Tema"
-  | "Nuestra Que Macar"
-  | "Cantange a Cantar"
-  | "Doing It To Death"
-  | "Torna a Surriento";
+export const songs: SongImport[] = [
+  {
+    value: "drumbeat...",
+  },
+  {
+    value: "(She's Gonna) Respect Me",
+  },
+  {
+    value: "Sister Ray",
+  },
+  {
+    value: "409",
+  },
+  {
+    value: "4am in Tokyo, Japan",
+  },
+  {
+    value: "7 Day Weekend",
+  },
+  {
+    value: "96 Tears",
+  },
+  {
+    value: "A Crush Or Love?",
+    comments: [
+      {
+        name: "JR Fan 1",
+        text: "he should do a duet with Celine Dion",
+        time: "2011-11-02 00:23:52",
+      },
+    ],
+  },
+  {
+    value: "A Hard Time Saying Goodbye",
+  },
+  {
+    value: "A Higher Power",
+    comments: [
+      {
+        name: "Jerry",
+        text: "One of my all time favorite JR songs.",
+        time: "2011-10-28 11:19:12",
+      },
+    ],
+  },
+  {
+    value: "A Plea For Tenderness",
+    comments: [
+      {
+        name: "JR Fan 1",
+        text: "This song gives me good chills!",
+        time: "2011-11-02 00:24:29",
+      },
+    ],
+  },
+  {
+    value: "A Que Venimos Sino a Caer?",
+  },
+  {
+    value: "A Song About New York",
+  },
+  {
+    value: "Abdul and Cleopatra",
+    comments: [
+      {
+        name: "JR Fan 1",
+        text: "JR is the man!  He lives near my family.  I want to wear his socks",
+        time: "2011-11-02 00:26:05",
+      },
+    ],
+  },
+  {
+    value: "Abominable Snowman in the Market",
+  },
+  {
+    value: "Abu Jamal",
+    comments: [
+      {
+        name: "Jerry",
+        text: "Kind of a strange JR song.",
+        time: "2011-11-08 20:10:05",
+      },
+      {
+        name: "JB",
+        text: "It's weird when JR get's political...but it happens so rarely that you know it's a subject that means a lot to him",
+        time: "2011-11-09 14:57:08",
+      },
+    ],
+  },
+  {
+    value: "Action Packed",
+  },
+  {
+    value: "Affection",
+  },
+  {
+    value: "African Lady",
+  },
+  {
+    value: "Afternoon",
+  },
+  {
+    value: "Amazing Grace",
+  },
+  {
+    value: "Amorcito Corazon",
+  },
+  {
+    value: "Ancient Long Ago",
+  },
+  {
+    value: "Angels Watching Over Me",
+  },
+  {
+    value: "Are You Feeling Good?",
+    comments: [
+      {
+        name: "JB",
+        text: 'Also known as "Better"',
+        time: "2011-11-25 01:27:16",
+      },
+    ],
+  },
+  {
+    value: "Arriverderci Roma",
+  },
+  {
+    value: "As My Mother Lay Lying",
+    comments: [
+      {
+        name: "Jerry",
+        text: "Unlike any other song JR has written.Incredibly moving.",
+        time: "2011-10-28 11:24:20",
+      },
+    ],
+  },
+  {
+    value: "Astral Plane",
+  },
+  {
+    value: "At Home With a Lover",
+    comments: [
+      {
+        name: "JB",
+        text: "I just remembered how much I love this song",
+        time: "2012-08-08 12:08:29",
+      },
+    ],
+  },
+  {
+    value: "At Night",
+  },
+  {
+    value: "Baby Baby Boss Me Around",
+    comments: [
+      {
+        name: "JB",
+        text: 'Also known as "Don\'t Change For Me"',
+        time: "2011-11-25 01:25:04",
+      },
+    ],
+  },
+  {
+    value: "Baby We Can't Go Wrong",
+  },
+  {
+    value: "Baby, I'm A Rockin' Rebel'oh",
+  },
+  {
+    value: "Back in the USA",
+  },
+  {
+    value: "Back in Your Life",
+  },
+  {
+    value: "Bajando, Bajando por Ceniza y Mineral",
+  },
+  {
+    value: "Bang, Bang, Lulu",
+  },
+  {
+    value: "Barcelona",
+  },
+  {
+    value: "Because Her Beauty is Raw and Wild",
+  },
+  {
+    value: "Behold the Lilies of the Field ",
+    comments: [
+      {
+        name: "JB",
+        text: "Doesn't seem to get played much anymore, but I love this song",
+        time: "2012-08-14 07:32:54",
+      },
+    ],
+  },
+  {
+    value: "Blowin in the Wind",
+  },
+  {
+    value: "Blue Moon",
+  },
+  {
+    value: "Blue Suede Shoes",
+  },
+  {
+    value: "Boogie Woogie Country Girl",
+  },
+  {
+    value: "Born To Be Wild",
+  },
+  {
+    value: "Born Too Late",
+  },
+  {
+    value: "Boston My Hometown",
+  },
+  {
+    value: "Boston, USA",
+  },
+  {
+    value: "Bring Back Springtime To The World Of Nature",
+  },
+  {
+    value: "Bundle Of Joy",
+  },
+  {
+    value: "Buzz Buzz Buzz",
+  },
+  {
+    value: "C'etait Toujours Toi",
+  },
+  {
+    value: "California Desert Party",
+    comments: [
+      {
+        name: "JB",
+        text: 'This song was written in the studio during the recording of "Modern Lover\'s 88"',
+        time: "2011-11-05 09:09:10",
+      },
+    ],
+  },
+  {
+    value: "Cambridge Clown",
+  },
+  {
+    value: "Camina y Ven",
+  },
+  {
+    value: "Cappuccino Bar",
+  },
+  {
+    value: "Carla",
+  },
+  {
+    value: "Celestial",
+  },
+  {
+    value: "Chewing Gum Wrapper",
+  },
+  {
+    value: "Chiusa la Festa, Chiusa la Sera",
+  },
+  {
+    value: "Circa",
+  },
+  {
+    value: "Circle I",
+    comments: [
+      {
+        name: "JB",
+        text: "The single version of this song: http://www.youtube.com/watch?v=FMmSH-628jI",
+        time: "2011-11-24 21:58:34",
+      },
+    ],
+  },
+  {
+    value: "City vs. Country",
+  },
+  {
+    value: "Closer",
+  },
+  {
+    value: "Coin De Rue",
+  },
+  {
+    value: "Come On Everybody",
+  },
+  {
+    value: "Con el Merengue",
+  },
+  {
+    value: "Corner Store",
+    comments: [
+      {
+        name: "VinnieQ",
+        text: "i always wanted to hear the full version of CornerStore from the film Kingpin, but i never found it..",
+        time: "2013-12-12 11:54:10",
+      },
+    ],
+  },
+  {
+    value: "Cosi Veloce",
+  },
+  {
+    value: "Couples Must Fight",
+    comments: [
+      {
+        name: "Jerry",
+        text: "Great short guitar solo on this song.",
+        time: "2011-10-31 18:20:10",
+      },
+      {
+        name: "JB",
+        text: "How is JR able to point out things that rarely get pointed out in such a lucid way?",
+        time: "2011-11-01 07:53:20",
+      },
+    ],
+  },
+  {
+    value: "Cozy With a K",
+  },
+  {
+    value: "Crazy Eddie",
+    comments: [
+      {
+        name: "Jerry",
+        text: "I love this song. It's so Jonathan.",
+        time: "2011-10-28 12:40:47",
+      },
+    ],
+  },
+  {
+    value: "Crazy Little Mama",
+    comments: [
+      {
+        name: "Pol Dodu",
+        text: 'The proper title for this one is "At my front door", although on stage in 1979 in Paris for the Chorus show, Jonathan himself first introduced it as "Crazy little Mama", before correcting himself. It\'s a cover of the biggest hit by The El Dorados, from 1955...',
+        time: "2012-05-18 12:35:59",
+      },
+    ],
+  },
+  {
+    value: "Creeps On The March",
+  },
+  {
+    value: "Dancin' Late at Night",
+  },
+  {
+    value: "I Was Dancing in the Lesbian Bar",
+  },
+  {
+    value: "Dancing In the Moonlight",
+  },
+  {
+    value: "David and Goliath",
+  },
+  {
+    value: "Death Comes to Everyone",
+    comments: [
+      {
+        name: "Jerry",
+        text: "Strange title for a JR song.",
+        time: "2012-01-17 17:06:53",
+      },
+      {
+        name: "JB",
+        text: "I've never heard this song. I wonder if it's a full song or some sort of poem",
+        time: "2012-01-20 12:24:51",
+      },
+    ],
+  },
+  {
+    value: "Dick Gregory",
+  },
+  {
+    value: "Dignified And Old",
+  },
+  {
+    value: "Do You Want To Dance",
+  },
+  {
+    value: "Dodge Veg-o-matic",
+  },
+  {
+    value: "Don't Let Our Youth Go To Waste",
+  },
+  {
+    value: "Don't Worry Baby",
+  },
+  {
+    value: "Don't You Just Know It",
+  },
+  {
+    value: "Doo Wop Number",
+  },
+  {
+    value: "Double Chocolate Malted",
+  },
+  {
+    value: "Down In Bermuda",
+  },
+  {
+    value: "Down In Cuba",
+  },
+  {
+    value: "Down the Mississippi",
+  },
+  {
+    value: "Drift Away",
+  },
+  {
+    value: "Egyptian Reggae",
+  },
+  {
+    value: "El Joven se Estemece",
+  },
+  {
+    value: "El UFO Man",
+  },
+  {
+    value: "Emaline",
+  },
+  {
+    value: "Empty Heart",
+  },
+  {
+    value: "Es Como El Pan",
+    comments: [
+      {
+        name: "JB",
+        text: "Jonathan performing this in someone's backyard!: http://vimeo.com/1385299",
+        time: "2011-11-24 23:48:28",
+      },
+    ],
+  },
+  {
+    value: "Everyday Clothes",
+    comments: [
+      {
+        name: "Jerry",
+        text: "A quintessential JR song!",
+        time: "2011-10-28 11:22:52",
+      },
+    ],
+  },
+  {
+    value: "Everything's Gotta Be Right",
+  },
+  {
+    value: "Falling in Love Must Be Two",
+  },
+  {
+    value: "Feel It",
+  },
+  {
+    value: "Fender Stratocaster",
+  },
+  {
+    value: "Five Year Old Feeling",
+  },
+  {
+    value: "Floatin'",
+  },
+  {
+    value: "Fly Into the Mystery",
+  },
+  {
+    value: "Foggy Notion",
+  },
+  {
+    value: "Follow the Leader",
+  },
+  {
+    value: "For Drama We Have the Seasons",
+  },
+  {
+    value: "French Style",
+  },
+  {
+    value: "Friday Night in Osaka in Japan",
+  },
+  {
+    value: "Gail Loves Me",
+  },
+  {
+    value: "Get In the Groove",
+  },
+  {
+    value: "Girl With the Curl",
+  },
+  {
+    value: "Girlfren'",
+  },
+  {
+    value: "Give Paris One More Chance",
+  },
+  {
+    value: "Goin' Home",
+  },
+  {
+    value: "Good Golly Miss Molly",
+  },
+  {
+    value: "Good Lovin'",
+  },
+  {
+    value: "Good Night Baby",
+  },
+  {
+    value: "Government Center",
+  },
+  {
+    value: "Green Onions",
+  },
+  {
+    value: "Ha Muerto la Rosa",
+  },
+  {
+    value: "Hang On Sloopy",
+  },
+  {
+    value: "Happy Birthday",
+  },
+  {
+    value: "Happy Birthday Dawn",
+  },
+  {
+    value: "Happy Birthday to Joey",
+  },
+  {
+    value: "Harbour Lights",
+  },
+  {
+    value: "Haseemla Classica",
+  },
+  {
+    value: "Have You Got Something You Love",
+  },
+  {
+    value: "He Gave Us the Wine to Taste",
+  },
+  {
+    value: "Heart To Heart",
+  },
+  {
+    value: "Hello from Cupid",
+  },
+  {
+    value: "Hello Josephine",
+  },
+  {
+    value: "Her Mystery Not Of High Heels and Eye Shadow",
+  },
+  {
+    value: "Her Way Moves Me",
+  },
+  {
+    value: "Here Come the Martian Martians",
+  },
+  {
+    value: "Here Comes My Baby",
+  },
+  {
+    value: "Here It Is",
+  },
+  {
+    value: "Here We Are in Ancient Egypt",
+  },
+  {
+    value: "Here We Are In Dreamland",
+  },
+  {
+    value: "Hey Good Looking",
+  },
+  {
+    value: "Hey There Little Insect",
+  },
+  {
+    value: "Hi Dear",
+  },
+  {
+    value: "Hi Fred, We Still Love You",
+  },
+  {
+    value: "Hospital",
+    comments: [
+      {
+        name: "Jerry",
+        text: "The very first JR song I ever heard. I heard Hospital on the radio around 1976 or so. That got me hooked for life.",
+        time: "2011-10-28 11:21:15",
+      },
+    ],
+  },
+  {
+    value: "Hot Love",
+  },
+  {
+    value: "Howdy-D Burger Drive-in",
+  },
+  {
+    value: "I Can Hear Her Fighting With Herself",
+  },
+  {
+    value: "I Can't Find My Best Friend",
+  },
+  {
+    value: "I Can't Sleep Now",
+  },
+  {
+    value: "I Don't Complain About My Lucky Star",
+  },
+  {
+    value: "I Don't Want To Go Halfway",
+  },
+  {
+    value: "I Eat With Gusto, Damn! You Bet",
+    comments: [
+      {
+        name: "Jerry",
+        text: "His funniest song? Even though it's not really a song.",
+        time: "2011-11-28 17:29:51",
+      },
+      {
+        name: "JB",
+        text: "This song threw me off at first but now I think it's hilarious",
+        time: "2011-11-29 07:33:03",
+      },
+    ],
+  },
+  {
+    value: "I Grew Up In the Suburbs",
+  },
+  {
+    value: "I Had a Crush On Her",
+  },
+  {
+    value: "I Had a Favorite Flower",
+  },
+  {
+    value: "I Had to Change",
+  },
+  {
+    value: "I Have Come Out to Play",
+  },
+  {
+    value: "I Have No Reason to Doubt Her",
+  },
+  {
+    value: "I Know I Turn Her On",
+  },
+  {
+    value: "I Like it Like That",
+  },
+  {
+    value: "I Love Her Little Body",
+  },
+  {
+    value: "I Love Hot Nights",
+  },
+  {
+    value: "I Love Life More and More",
+  },
+  {
+    value: "I Love Life So",
+  },
+  {
+    value: "I Love People",
+  },
+  {
+    value: "I Love the World",
+  },
+  {
+    value: "I Love This World and It's Mystery",
+  },
+  {
+    value: "I Love You So",
+  },
+  {
+    value: "I Moved Away",
+  },
+  {
+    value: "I Must Be King",
+  },
+  {
+    value: "I Need Someone",
+  },
+  {
+    value: "I See What's Underneath",
+  },
+  {
+    value: "I Took a Chance on Her",
+  },
+  {
+    value: "I Wanna Sleep In Your Arms",
+  },
+  {
+    value: "I Want Somebody to Love Me",
+  },
+  {
+    value: "I Want To Love Him So Bad",
+  },
+  {
+    value: "I'd Rather Feel Than Not Feel At All",
+  },
+  {
+    value: "I'm a Jerk",
+  },
+  {
+    value: "I'm a Little Airplane",
+  },
+  {
+    value: "I'm a Little Dinosaur",
+  },
+  {
+    value: "I'm Crying",
+  },
+  {
+    value: "I'm Dropping My Friends (One by One)",
+  },
+  {
+    value: "I'm in a Dancing Mood",
+  },
+  {
+    value: "I'm Just Beginning To Live",
+  },
+  {
+    value: "I'm Nature's Mosquito",
+  },
+  {
+    value: "I'm Not Afraid To Make Mistakes",
+  },
+  {
+    value: "I'm Not Obsessed With Her",
+  },
+  {
+    value: "I'm So Confused",
+  },
+  {
+    value: "I'm Straight",
+  },
+  {
+    value: "I'm Your God Pan",
+    comments: [
+      {
+        name: "Jerry",
+        text: "What does God Pan mean?",
+        time: "2011-11-28 17:31:19",
+      },
+      {
+        name: "JB",
+        text: 'I believe he is referring to the Roman god "Pan", the god of nature-like things: http://en.wikipedia.org/wiki/Pan_(god). So, maybe the grammar should be: "I\'m Your God, Pan". He keeps his Pan-Pipe ready for Pan-Melodies! He lives in the woods...not much to steal...but those colors well, those colors are real (natural)',
+        time: "2011-11-29 07:35:43",
+      },
+    ],
+  },
+  {
+    value: "Ice Cold NuGrape",
+  },
+  {
+    value: "Ice Cream Man",
+  },
+  {
+    value: "If She Don't Love Me",
+  },
+  {
+    value: "Important in Your Life",
+    comments: [
+      {
+        name: "Jerry",
+        text: "My favorite song on this album.",
+        time: "2011-10-30 20:59:49",
+      },
+    ],
+  },
+  {
+    value: "In Che Mondo Vivamo",
+  },
+  {
+    value: "In Japan",
+  },
+  {
+    value: "instrumental",
+  },
+  {
+    value: "interview...",
+  },
+  {
+    value: "It Will Stand",
+  },
+  {
+    value: "It's Afternoon And The Range Is Calling",
+  },
+  {
+    value: "It's Fall Time",
+  },
+  {
+    value: "It's You",
+  },
+  {
+    value: "Jail",
+  },
+  {
+    value: "Jambalaya",
+  },
+  {
+    value: "Jenny Jenny Jenny",
+  },
+  {
+    value: "Johnny Too Bad",
+  },
+  {
+    value: "Jonathan I Feel So Bad",
+  },
+  {
+    value: "Jose Bove",
+  },
+  {
+    value: "Joy Over Sorrow",
+  },
+  {
+    value: "Just About 17",
+  },
+  {
+    value: "Just For Fun",
+  },
+  {
+    value: "Just Look At Me",
+  },
+  {
+    value: "Just Wanna Be Young",
+  },
+  {
+    value: "Justine",
+  },
+  {
+    value: "Karma Chameleon",
+  },
+  {
+    value: "Keep on Dancing",
+  },
+  {
+    value: "Keith Richards",
+  },
+  {
+    value: "Kumbaya",
+  },
+  {
+    value: "La Bamba",
+  },
+  {
+    value: "Le Freak",
+  },
+  {
+    value: "Le Printemps Des Amoreux Est Venue",
+  },
+  {
+    value: "Leaves On The Sidewalk After The Rain",
+  },
+  {
+    value: "Les Etoiles",
+  },
+  {
+    value: "Let Her Go Into the Darkness",
+  },
+  {
+    value: "Let Her Go To Her Old Boyfriend",
+  },
+  {
+    value: "Let The Four Winds Blow",
+  },
+  {
+    value: "Let's Get Wild",
+  },
+  {
+    value: "Let's Say We Just Met",
+  },
+  {
+    value: "Let's Take a Trip",
+  },
+  {
+    value: "Let's Go Playing",
+  },
+  {
+    value: "Let's Take The Long Way Home",
+  },
+  {
+    value: "Let's Twist Again",
+  },
+  {
+    value: "Life Hurts and I Expect It",
+  },
+  {
+    value: "Little Bell",
+  },
+  {
+    value: "Little Boy In My Heart",
+  },
+  {
+    value: "Little Latin Lupe Lu",
+  },
+  {
+    value: "Little Sister",
+  },
+  {
+    value: "Lonely Financial Zone",
+  },
+  {
+    value: "Lonely Little Thrift Store",
+  },
+  {
+    value: "Lonely Without Her",
+  },
+  {
+    value: "Louie Louie",
+  },
+  {
+    value: "Louise",
+  },
+  {
+    value: "Love Me Like I Love",
+  },
+  {
+    value: "Lover Please",
+  },
+  {
+    value: "Lydia",
+  },
+  {
+    value: "A Mistake Today For Me",
+  },
+  {
+    value: "Malaguena De Jojo",
+  },
+  {
+    value: "Malingering",
+  },
+  {
+    value: "Maybe a Walk Home From Natick High School",
+  },
+  {
+    value: "Me And Her Got A Good Thing Goin' Baby ",
+  },
+  {
+    value: "Miracles Will Start To Happen",
+  },
+  {
+    value: "Modern World",
+  },
+  {
+    value: "Mona",
+  },
+  {
+    value: "Money",
+  },
+  {
+    value: "Monologue About Bermuda",
+  },
+  {
+    value: "Mood Lighting for Dreaming",
+  },
+  {
+    value: "More Fun In Our 40's",
+  },
+  {
+    value: "More Surprises",
+  },
+  {
+    value: "The Morning of Our Lives",
+  },
+  {
+    value: "Mr Squiltage goes to College",
+  },
+  {
+    value: "Mr. Sorrow",
+  },
+  {
+    value: "My Affected Accent",
+  },
+  {
+    value: "My Appearance on the Balcony",
+  },
+  {
+    value: "My Baby",
+  },
+  {
+    value: "My Baby Love Love Loves Me",
+  },
+  {
+    value: "My Career As a Homewrecker",
+    comments: [
+      {
+        name: "Jerry",
+        text: "A strange JR song. Dark and almost evil sounding at times. Unless I'm missing the point of the song entirely. It wouldn't be the first time!",
+        time: "2011-11-29 17:30:29",
+      },
+      {
+        name: "JB",
+        text: "Yeah, this one and The Neighbors are both dark. Still not completely sure if I really get them...and I've heard them both countless times!",
+        time: "2011-11-30 07:16:05",
+      },
+    ],
+  },
+  {
+    value: "My Guiding Star",
+  },
+  {
+    value: "My Guy",
+  },
+  {
+    value: "My Heart Needs Repair",
+  },
+  {
+    value: "My Heart Was Won by a Girl",
+  },
+  {
+    value: "My Honest Dear",
+  },
+  {
+    value: "My Jeans",
+  },
+  {
+    value: "My Little Girls Got A Full Time Daddy Now",
+  },
+  {
+    value: "My Little Kookenhaken",
+    comments: [
+      {
+        name: "JB",
+        text: "Sweet!!! Someone referenced this page: http://www.boiseweekly.com/Cobweb/archives/2012/06/01/jonathan-richman-is-the-crazy-uncle-you-wish-you-had",
+        time: "2012-10-13 19:30:24",
+      },
+    ],
+  },
+  {
+    value: "My Love For Her Ain't Sad",
+  },
+  {
+    value: "My Love is a Flower (Just Beginning to Bloom)",
+  },
+  {
+    value: "My Modern Lover",
+  },
+  {
+    value: "My Name Is Jonathan",
+    comments: [
+      {
+        name: "JB",
+        text: "Also known as \"I Can't Stand To See People With Their Feeling's Hurt\"",
+        time: "2011-11-25 01:26:28",
+      },
+    ],
+  },
+  {
+    value: "My Runabout Girl",
+  },
+  {
+    value: "Mystery of the Summer Night",
+  },
+  {
+    value: "Neon Sign",
+  },
+  {
+    value: "New England",
+  },
+  {
+    value: "New Kind Of Neighborhood",
+  },
+  {
+    value: "unknown (french)",
+  },
+  {
+    value: "unknown (spanish)",
+  },
+  {
+    value: "New York at 4am is More My Style",
+  },
+  {
+    value: "Nineteen in Naples",
+  },
+  {
+    value: "Nishi",
+  },
+  {
+    value: "No Habla Mis Palabras De Amor",
+  },
+  {
+    value: "No More Gasoline",
+  },
+  {
+    value: "No One Was Like Vermeer",
+  },
+  {
+    value: "Not Happy For Tomorrow...Happy For Today",
+  },
+  {
+    value: "Not In My Name",
+  },
+  {
+    value: 'Not Just "Plus One" On The Guest List Anymore',
+  },
+  {
+    value: "Not So Much To Be Loved As To Love",
+  },
+  {
+    value: "Not Yet 3",
+  },
+  {
+    value: "Nothing Can Change This Love",
+  },
+  {
+    value: "Now is Better Than Before",
+  },
+  {
+    value: "I Don't Want No Nuclear Power Plants (In My Life)",
+  },
+  {
+    value: "Oh Boy",
+  },
+  {
+    value: "Oh Carol",
+  },
+  {
+    value: "Old World",
+  },
+  {
+    value: "Older Girl",
+  },
+  {
+    value: "On a du Soleil",
+  },
+  {
+    value: "Our Party Will Be On The Beach Tonight",
+  },
+  {
+    value: "Our Swinging Pad",
+  },
+  {
+    value: "Pablo Picasso",
+  },
+  {
+    value: "Pacific Coast Highway",
+  },
+  {
+    value: "Pantomima de El Amor Brujo",
+  },
+  {
+    value: "J'aime Paris au mois de mai",
+  },
+  {
+    value: "Parties In The USA",
+  },
+  {
+    value: "Partners in Crime",
+  },
+  {
+    value: "Party In The Woods Tonight",
+  },
+  {
+    value: "Pearl",
+  },
+  {
+    value: "Peggy Sue",
+  },
+  {
+    value: "Peppermint Twist",
+  },
+  {
+    value: "Place Pigalle",
+  },
+  {
+    value: "Poem by Pier Paolo Pasolini",
+  },
+  {
+    value: "Polk Salad Annie",
+  },
+  {
+    value: "Pretty is Pretty (But It's Not All That There Is)",
+  },
+  {
+    value: "Pretty Little Girl",
+  },
+  {
+    value: "Pterodactyl in the Airport",
+  },
+  {
+    value: "Quarter to Three",
+  },
+  {
+    value: "Que C'est Triste Venise",
+  },
+  {
+    value: "Que reste-t-il de nos amours?",
+  },
+  {
+    value: "Quintage Goes to Market",
+  },
+  {
+    value: "Ready Teddy",
+  },
+  {
+    value: "Reelin' & Rockin'",
+  },
+  {
+    value: "Reno",
+  },
+  {
+    value: "Ride Down On The Highway",
+  },
+  {
+    value: "Roadrunner",
+  },
+  {
+    value: "Rock 'N' Roll Drummer Straight From The Hospy-Tel",
+  },
+  {
+    value: "Rock n' Roll Number 9",
+  },
+  {
+    value: "Rock and Roll Music",
+  },
+  {
+    value: "Rock and Roll Will Happen",
+  },
+  {
+    value: "Rock Island Line",
+  },
+  {
+    value: "Rock Me All Night Long",
+  },
+  {
+    value: "Rock Your Baby",
+  },
+  {
+    value: "Rockin' Shoppin' Center",
+  },
+  {
+    value: "Rockin' Robin",
+  },
+  {
+    value: "Rockin' Rockin' Leprechauns",
+  },
+  {
+    value: "Rodeo Wind",
+  },
+  {
+    value: "Roll Over Beethoven",
+  },
+  {
+    value: "Roll With Me Henry",
+  },
+  {
+    value: "Rollercoaster By the Sea",
+  },
+  {
+    value: "Rooming House on Venice Beach",
+  },
+  {
+    value: "Round and Round",
+  },
+  {
+    value: "Route 66",
+  },
+  {
+    value: "Ruby Ruby",
+  },
+  {
+    value: "Sa Voix M'Atisse",
+  },
+  {
+    value: "Salvador Dali",
+  },
+  {
+    value: "Satisfied Mind",
+  },
+  {
+    value: "Satisfy",
+  },
+  {
+    value: "Seven Day Weekend",
+  },
+  {
+    value: "Sex Machine",
+  },
+  {
+    value: "Shake",
+  },
+  {
+    value: "She Brings Out the Best in Me",
+  },
+  {
+    value: "She Cracked",
+  },
+  {
+    value: "She Doesn't Laugh At My Jokes",
+  },
+  {
+    value: "She Lives in a Rock & Roll House",
+    comments: [
+      {
+        name: "JB",
+        text: "A great lost song",
+        time: "2012-02-11 07:17:31",
+      },
+    ],
+  },
+  {
+    value: "She Loves You Jonathan, Give Her Time",
+  },
+  {
+    value: "She's a Once in a Lifetime Girl",
+  },
+  {
+    value: "She's Running Away",
+  },
+  {
+    value: "Shirin and Fahrad",
+  },
+  {
+    value: "Silence",
+  },
+  {
+    value: "Silence alors, Silence",
+  },
+  {
+    value: "Since She Started To Ride",
+  },
+  {
+    value: "Sleepwalk",
+  },
+  {
+    value: "Slipping and Sliding",
+  },
+  {
+    value: "Somebody To Hold Me",
+  },
+  {
+    value: "Someone I Care About",
+  },
+  {
+    value: "Song Of Remembrance For Old Girlfriends",
+  },
+  {
+    value: "Sorrow Showed Me the Way",
+  },
+  {
+    value: "South American Folk Song",
+  },
+  {
+    value: "Springtime",
+  },
+  {
+    value: "Springtime In New York",
+    comments: [
+      {
+        name: "Jerry",
+        text: "The lame must be shaken up. Great line.",
+        time: "2011-10-31 18:21:06",
+      },
+    ],
+  },
+  {
+    value: "Stay",
+  },
+  {
+    value: "Stop This Car",
+  },
+  {
+    value: "Stop Your Sobbing",
+  },
+  {
+    value: "Stultified",
+  },
+  {
+    value: "Stupenda e Misera Citta",
+    comments: [
+      {
+        name: "JB",
+        text: "Post about this song: http://jojofiles.blogspot.com/2008/06/stupenda-e-misera-citt.html",
+        time: "2011-10-12 18:35:49",
+      },
+    ],
+  },
+  {
+    value: "Such Loneliness",
+  },
+  {
+    value: "Summer Morning",
+  },
+  {
+    value: "Summer Night",
+  },
+  {
+    value: "Sunday Afternoon",
+  },
+  {
+    value: "Surfin' Safari",
+  },
+  {
+    value: "Surrender",
+  },
+  {
+    value: "Tahitian Hop",
+  },
+  {
+    value: "Take a Walk Around Town",
+  },
+  {
+    value: "Take Me Off The Shelf",
+  },
+  {
+    value: "Take Me to the Plaza",
+    comments: [
+      {
+        name: "Jerry",
+        text: "I love this song from the dvd.",
+        time: "2011-11-09 20:22:30",
+      },
+    ],
+  },
+  {
+    value: "Tallahassee Lassie",
+  },
+  {
+    value: "Tandem Jump",
+  },
+  {
+    value: "Tell How You Feel",
+  },
+  {
+    value: "Tequila",
+  },
+  {
+    value: "That Little Sleeper Car",
+  },
+  {
+    value: "That Summer Feeling",
+  },
+  {
+    value: "That's When I Want To Tear Down The Walls Between People",
+  },
+  {
+    value: "The Ballad Of Yoyo",
+  },
+  {
+    value: "The Baltimores",
+  },
+  {
+    value: "The Beach",
+    comments: [
+      {
+        name: "Jerry",
+        text: "Crappy sugar lemonade!",
+        time: "2011-10-28 13:16:43",
+      },
+    ],
+  },
+  {
+    value: "The Best That I Have Got",
+  },
+  {
+    value: "The Changing of the Seasons",
+  },
+  {
+    value: "The Crush",
+  },
+  {
+    value: "The Dark Crypt Like Arcade",
+  },
+  {
+    value: "The Desert",
+  },
+  {
+    value: "The Fenway",
+  },
+  {
+    value: "The Girl Stands Up to Me Now",
+  },
+  {
+    value: "The Heart of Saturday Night",
+  },
+  {
+    value: "The Little Green and White Wrapper",
+  },
+  {
+    value: "The Lonely Little Thrift Store",
+  },
+  {
+    value: "The Mixer (Men and Women Together)",
+  },
+  {
+    value: "The Neighbors",
+  },
+  {
+    value: "The New Teller",
+  },
+  {
+    value: "The Night Is Still Young",
+  },
+  {
+    value: "The Old Corner Store",
+  },
+  {
+    value: "The Old Snack Bar",
+  },
+  {
+    value: "The Sea Was Calling Me Home",
+  },
+  {
+    value: "The Silent Treatment",
+  },
+  {
+    value: "The Springtime of the Lovers",
+  },
+  {
+    value: "The Sweeping Wind",
+  },
+  {
+    value: "The Tag Game",
+  },
+  {
+    value: "The Twist",
+  },
+  {
+    value: "The UFO Man",
+  },
+  {
+    value: "The Wheels on the Bus",
+  },
+  {
+    value: "The World Is Showing It's Hand",
+  },
+  {
+    value: "Theme From Moulin Rouge",
+  },
+  {
+    value: "There Is No Abomination",
+  },
+  {
+    value: "There Is No Squiltage",
+  },
+  {
+    value: "There's Something About Mary",
+  },
+  {
+    value: "These Bodies That Came To Cavort",
+  },
+  {
+    value: "They're Not Trying on the Dance Floor",
+  },
+  {
+    value: "This Kind Of Music",
+  },
+  {
+    value: "This Little Light Of Mine",
+  },
+  {
+    value: "This Love of Mine",
+  },
+  {
+    value: "This Romance Will Be Different For Me",
+  },
+  {
+    value: "Those Conga Drums",
+  },
+  {
+    value: "Time For Foolin' Around",
+  },
+  {
+    value: "Time Stopped When We Held Hands",
+  },
+  {
+    value: "To Hide a Little Thought",
+  },
+  {
+    value: "Tokyo, Japan, 4 am on Friday night",
+  },
+  {
+    value: "Too Fat",
+  },
+  {
+    value: "Too Hip",
+  },
+  {
+    value: "Too Many Fish In The Sea",
+  },
+  {
+    value: "Tout ce que je cherchais etait toujours toi",
+  },
+  {
+    value: "instrumental (trombone)",
+  },
+  {
+    value: "True Love Is Not Nice",
+  },
+  {
+    value: "Twilight in Boston",
+  },
+  {
+    value: "Twist and Shout",
+  },
+  {
+    value: "Twist Twist Senora",
+  },
+  {
+    value: "Twisting the Night Away",
+  },
+  {
+    value: "unknown (?)",
+  },
+  {
+    value: "Up In Cold Maine Under the Stars",
+  },
+  {
+    value: "Up In The Sky Sometime",
+  },
+  {
+    value: "Vampire Girl",
+    comments: [
+      {
+        name: "Jerry",
+        text: "She's not so scary she's got all of my records! ",
+        time: "2011-10-28 12:45:23",
+      },
+      {
+        name: "JB",
+        text: 'The term "Vampire Girl" has entered into my natural dialect because of this song',
+        time: "2011-10-28 13:00:05",
+      },
+      {
+        name: "JB",
+        text: 'The term "Vampire Girl" has entered into my natural dialect because of this song',
+        time: "2011-10-28 13:03:00",
+      },
+    ],
+  },
+  {
+    value: "Vampiresa Mujer",
+  },
+  {
+    value: "Vecchio Frack",
+  },
+  {
+    value: "Velvet Underground",
+    comments: [
+      {
+        name: "Jerry",
+        text: "I love it when JR writes songs about real people. Velvet Underground,Pablo Picasso,Walter Johnson, etc.",
+        time: "2011-11-08 20:12:29",
+      },
+    ],
+  },
+  {
+    value: "Vincent Van Gogh",
+  },
+  {
+    value: "Volando Voy",
+  },
+  {
+    value: "Volare",
+  },
+  {
+    value: "Wake Up Sleepy Heads",
+  },
+  {
+    value: "Walk Up the Street",
+  },
+  {
+    value: "Walter Johnson",
+  },
+  {
+    value: "We're Having A Party",
+  },
+  {
+    value: "Wheels on the Bus",
+  },
+  {
+    value: "When Harpo Played  His Harp",
+    comments: [
+      {
+        name: "Jerry",
+        text: "Magical",
+        time: "2011-10-30 21:00:31",
+      },
+    ],
+  },
+  {
+    value: "When I Dance",
+  },
+  {
+    value: "When I Get Mad at Her",
+  },
+  {
+    value: "When I Say I Love You",
+  },
+  {
+    value: "When I Say Wife",
+  },
+  {
+    value: "When I'm Walking",
+  },
+  {
+    value: "When She Kisses Me",
+  },
+  {
+    value: "When We Refuse to Suffer",
+  },
+  {
+    value: "Who Can Say When a Wall Is Ready to Come Down",
+  },
+  {
+    value: "Wild Thing",
+  },
+  {
+    value: "Wild Weekend",
+  },
+  {
+    value: "Wild Wild Party",
+    comments: [
+      {
+        name: "JB",
+        text: 'This could be one of most rare fully-formed Jonathan Richman songs. As tantalizing as "A Little Boy In My Heart" and "I Don\'t Want No More Nuclear Power"',
+        time: "2011-11-24 23:00:55",
+      },
+    ],
+  },
+  {
+    value: "Winter is Over For Me",
+  },
+  {
+    value: "Winters Get Hard in New England",
+  },
+  {
+    value: "Wipeout",
+  },
+  {
+    value: "Womanhood",
+  },
+  {
+    value: "Wonderful Girl",
+  },
+  {
+    value: "Ya Ya",
+  },
+  {
+    value: "Yo Jo Jo",
+  },
+  {
+    value: "Yo Tengo una Novia",
+  },
+  {
+    value: "You Are",
+  },
+  {
+    value: "You Can Have A Cell Phone That's Ok But Not Me",
+  },
+  {
+    value: "You Can't Talk To the Dude",
+  },
+  {
+    value: "You Must Ask the Heart",
+  },
+  {
+    value: "You're the One For Me",
+  },
+  {
+    value: "You've Got To Cry",
+  },
+  {
+    value: "You're Crazy For Taking the Bus",
+  },
+  {
+    value: "Yoyos On Parade",
+  },
+  {
+    value: "Coomyah",
+  },
+  {
+    value: "I Hear You Calling Me",
+  },
+  {
+    value: "Cerca",
+    comments: [
+      {
+        name: "DMDCAF",
+        text: "There were many shows I was at where Jonathan at least did some of CLOSER as CERCA in espanol! Definitely my favorite song of his in Spanish!",
+        time: "2011-10-29 00:20:56",
+      },
+      {
+        name: "JB",
+        text: 'I love when he goes "mas y mas y mas y mas y mas y mas"!',
+        time: "2011-10-29 15:44:12",
+      },
+    ],
+  },
+  {
+    value: "Your Good Girl's Gonna Go Bad",
+  },
+  {
+    value: "Man Walks Among Us",
+  },
+  {
+    value: "I Can't Stay Mad At You",
+  },
+  {
+    value: "1963",
+  },
+  {
+    value: "Grunion Run",
+    comments: [
+      {
+        name: "Jerry",
+        text: "I'd like to put together a cd of JR instrumentals.",
+        time: "2011-11-08 20:15:18",
+      },
+      {
+        name: "JB",
+        text: "Can you believe that there is not a single known live version of this song?",
+        time: "2011-11-09 14:56:19",
+      },
+    ],
+  },
+  {
+    value: "unknown (italian)",
+  },
+  {
+    value: "Harpo En Su Harpa",
+  },
+  {
+    value: "No Te Oye",
+  },
+  {
+    value: "No Mas Por Fun",
+  },
+  {
+    value: "Papel De Chicle",
+  },
+  {
+    value: "Los Vecinos",
+  },
+  {
+    value: "Ahora Es Mejor",
+  },
+  {
+    value: "Una Fuerza Alla",
+  },
+  {
+    value: "Sabor a Mi",
+  },
+  {
+    value: "Melodia Tradicional Ecuadoriana",
+  },
+  {
+    value: "Just Because I'm Irish",
+  },
+  {
+    value: "The Rose",
+  },
+  {
+    value: "That's How I Feel",
+  },
+  {
+    value: "Tonight",
+  },
+  {
+    value: "Time Has Been Going By So Fast",
+  },
+  {
+    value: "The Lovers Are Here and They're Full of Sweat",
+  },
+  {
+    value: "Our Drab Ways",
+  },
+  {
+    value: "If You Want To Leave Our Party Just Go",
+  },
+  {
+    value: "I Was The One She Came For",
+  },
+  {
+    value: "We'll Be the Noise, We'll Be the Scandal",
+  },
+  {
+    value: "Winter Afternoon By B.U. In Boston",
+  },
+  {
+    value: "The Bitter Herb",
+  },
+  {
+    value: "Even Though I Know I Am The Wind And The Sun, I",
+  },
+  {
+    value: "It Was Time For Me To Be With Her",
+  },
+  {
+    value: "O Moon, Queen Of Night On Earth",
+  },
+  {
+    value: "Mary Anne",
+  },
+  {
+    value: "Roadrunner Twice",
+  },
+  {
+    value: "Roadrunner Thrice",
+  },
+  {
+    value: "I'm Waiting For the Man",
+  },
+  {
+    value: "I Feel Alright",
+  },
+  {
+    value: "Veil Of Cold",
+  },
+  {
+    value: "I See Your Light",
+  },
+  {
+    value: "Awkward Love",
+  },
+  {
+    value: "Guitar Doodle No. 1",
+  },
+  {
+    value: "Touch Me If You Want",
+  },
+  {
+    value: "Do You Believe In Magic",
+  },
+  {
+    value: "Guitar Doodle No. 2",
+  },
+  {
+    value: "Young and in Love",
+  },
+  {
+    value: "Do de do do",
+  },
+  {
+    value: "Willie and the Hand Jive",
+  },
+  {
+    value: "Trip to the Sea",
+    comments: [
+      {
+        name: "JB",
+        text: "Does anyone know if this is a cover version?",
+        time: "2012-02-13 12:18:17",
+      },
+    ],
+  },
+  {
+    value: "Thunderbolts of Joy",
+  },
+  {
+    value: "Singing in the Rain",
+  },
+  {
+    value: "So Much Respect For You",
+  },
+  {
+    value: "I'm Not Alone (The Heavens Love Me)",
+  },
+  {
+    value: "Flying Saucers Rock and Roll",
+  },
+  {
+    value: "Stir It Up",
+  },
+  {
+    value: "In the Checkout Line",
+  },
+  {
+    value: "Brand New Dance",
+  },
+  {
+    value: "Sugar and Spice",
+  },
+  {
+    value: "Ballad of Stink",
+  },
+  {
+    value: "Moron Creek",
+  },
+  {
+    value: "Young at Heart",
+  },
+  {
+    value: "Wedding Bells",
+  },
+  {
+    value: "Adios (To My Own Desert Love)",
+  },
+  {
+    value: "Spanish Drama",
+  },
+  {
+    value: "Michael Row Your Boat Ashore",
+  },
+  {
+    value: "And That's Rock n' Roll",
+  },
+  {
+    value: "Nuclear Nightmare",
+  },
+  {
+    value: "Cupid",
+  },
+  {
+    value: "Dueling Jojo's",
+  },
+  {
+    value: "Something You Believe In",
+  },
+  {
+    value: "Start All Over",
+  },
+  {
+    value: "Fear",
+  },
+  {
+    value: "Oh, Bus Driver",
+  },
+  {
+    value: "New York Poem",
+  },
+  {
+    value: "Dance With Me",
+  },
+  {
+    value: "Weeds Breaking Through The Concrete",
+  },
+  {
+    value: "Revolution Summer Theme",
+  },
+  {
+    value: "Francine's Theme",
+  },
+  {
+    value: "A Chill in the Night Air",
+  },
+  {
+    value: "Music for Next Year's Jukebox",
+  },
+  {
+    value: "Hipster Cafe",
+  },
+  {
+    value: "Vacant Lot",
+  },
+  {
+    value: "Hope's Theme",
+  },
+  {
+    value: "Francine's Theme (Reprise)",
+  },
+  {
+    value: "Hope's Theme (Reprise)",
+  },
+  {
+    value: "Weeds Breaking Through The Concrete (Reprise)",
+  },
+  {
+    value: "Now What?",
+  },
+  {
+    value: "Italian Song About a Party",
+  },
+  {
+    value: "Hebrew Party Song",
+  },
+  {
+    value: "My Love She Is From Somewhere Else",
+  },
+  {
+    value: "When We Run On the Beach",
+  },
+  {
+    value: "Bohemia",
+    comments: [
+      {
+        name: "JB",
+        text: "What could be said about this song? For me it's the epitome of Jonathan Richman",
+        time: "2011-11-01 08:09:09",
+      },
+      {
+        name: "JB",
+        text: "JojoBlog post for the song with a live performance: http://jojofiles.blogspot.com/2011/11/door-to-bohemia.html",
+        time: "2011-11-01 08:09:31",
+      },
+      {
+        name: "Jerry",
+        text: "I hope that Bohemia shows up on the next album but aren't there quite a few excellent JR songs that never appeared on any of his albums?",
+        time: "2011-11-01 16:47:43",
+      },
+      {
+        name: "JB",
+        text: "Some unreleased recent songs: Mr. Sorrow, Bohemia, Her Love Is From Somewhere Else, Hard Time Saying Goodbye, Italian Party Song, Hebrew Party Song (barbeque), Keith Richards. There's even a few that I'm missing",
+        time: "2011-11-01 22:47:44",
+      },
+    ],
+  },
+  {
+    value: "Love In a Different Way",
+  },
+  {
+    value: "El Muerto Vivo",
+  },
+  {
+    value: "Coge la Guitarra",
+  },
+  {
+    value: "Loneliness",
+  },
+  {
+    value: "The Other World",
+  },
+  {
+    value: "Si el Sexo hay que Planificar",
+  },
+  {
+    value: "We Want to Take You Higher",
+  },
+  {
+    value: "Naked (poem)",
+  },
+  {
+    value: "My Life is Full of Color",
+  },
+  {
+    value: "(Marie's the Name) Of His Latest Flame",
+  },
+  {
+    value: "What She's Thinking About Me Affects Me All Day Long",
+  },
+  {
+    value: "The Sadness of the Youth",
+  },
+  {
+    value: "Rama Lama Ding Dong",
+    comments: [
+      {
+        name: "JB",
+        text: "Originally by the Edsels",
+        time: "2012-02-10 06:57:37",
+      },
+    ],
+  },
+  {
+    value: "La Festa e Galactica",
+  },
+  {
+    value: "La Guitarra Flamenca Rubia",
+  },
+  {
+    value: "Come to Our Party",
+  },
+  {
+    value: "Tromba",
+  },
+  {
+    value: "Her Laugh is Like a Trumpet",
+  },
+  {
+    value: "We Had a Fight Last Night",
+  },
+  {
+    value: "Galactica",
+  },
+  {
+    value: "Parent Pushing Stroller",
+  },
+  {
+    value: "Your Mind",
+  },
+  {
+    value: "Trash on the Beach",
+  },
+  {
+    value: "Ego Went Away",
+  },
+  {
+    value: "La Fiesta Es Para Todos",
+  },
+  {
+    value: "Ja La BBQ",
+  },
+  {
+    value: "Touched More",
+  },
+  {
+    value: "Honeymoon Is Over",
+  },
+  {
+    value: "O Sun!",
+  },
+  {
+    value: "angels poem",
+  },
+  {
+    value: "Nuestro Tema",
+    comments: [
+      {
+        name: "JB",
+        text: "By Silvio Rodriguez",
+        time: "2021-01-27 08:09:09",
+      },
+    ],
+  },
+  {
+    value: "Nuestra Que Macar",
+  },
+  {
+    value: "Cantange a Cantar",
+  },
+  {
+    value: "Doing It To Death",
+    comments: [
+      {
+        name: "JB",
+        text: "By James Brown",
+        time: "2021-05-04 08:09:09",
+      },
+    ],
+  },
+  {
+    value: "Torna a Surriento",
+  },
+];
+
+const SongNames: string[] = songs.map(({ value }) => value);
+export type SongName = typeof SongNames[number];
 
 export const recordings: RecordingImport[] = [
   {
@@ -19273,2236 +20882,5 @@ export const recordings: RecordingImport[] = [
     name: "WBEZ",
     jon: true,
     songs: [],
-  },
-];
-
-export const songs: SongImport[] = [
-  {
-    value: "drumbeat...",
-  },
-  {
-    value: "(She's Gonna) Respect Me",
-  },
-  {
-    value: "Sister Ray",
-  },
-  {
-    value: "409",
-  },
-  {
-    value: "4am in Tokyo, Japan",
-  },
-  {
-    value: "7 Day Weekend",
-  },
-  {
-    value: "96 Tears",
-  },
-  {
-    value: "A Crush Or Love?",
-    comments: [
-      {
-        name: "JR Fan 1",
-        text: "he should do a duet with Celine Dion",
-        time: "2011-11-02 00:23:52",
-      },
-    ],
-  },
-  {
-    value: "A Hard Time Saying Goodbye",
-  },
-  {
-    value: "A Higher Power",
-    comments: [
-      {
-        name: "Jerry",
-        text: "One of my all time favorite JR songs.",
-        time: "2011-10-28 11:19:12",
-      },
-    ],
-  },
-  {
-    value: "A Plea For Tenderness",
-    comments: [
-      {
-        name: "JR Fan 1",
-        text: "This song gives me good chills!",
-        time: "2011-11-02 00:24:29",
-      },
-    ],
-  },
-  {
-    value: "A Que Venimos Sino a Caer?",
-  },
-  {
-    value: "A Song About New York",
-  },
-  {
-    value: "Abdul and Cleopatra",
-    comments: [
-      {
-        name: "JR Fan 1",
-        text: "JR is the man!  He lives near my family.  I want to wear his socks",
-        time: "2011-11-02 00:26:05",
-      },
-    ],
-  },
-  {
-    value: "Abominable Snowman in the Market",
-  },
-  {
-    value: "Abu Jamal",
-    comments: [
-      {
-        name: "Jerry",
-        text: "Kind of a strange JR song.",
-        time: "2011-11-08 20:10:05",
-      },
-      {
-        name: "JB",
-        text: "It's weird when JR get's political...but it happens so rarely that you know it's a subject that means a lot to him",
-        time: "2011-11-09 14:57:08",
-      },
-    ],
-  },
-  {
-    value: "Action Packed",
-  },
-  {
-    value: "Affection",
-  },
-  {
-    value: "African Lady",
-  },
-  {
-    value: "Afternoon",
-  },
-  {
-    value: "Amazing Grace",
-  },
-  {
-    value: "Amorcito Corazon",
-  },
-  {
-    value: "Ancient Long Ago",
-  },
-  {
-    value: "Angels Watching Over Me",
-  },
-  {
-    value: "Are You Feeling Good?",
-    comments: [
-      {
-        name: "JB",
-        text: 'Also known as "Better"',
-        time: "2011-11-25 01:27:16",
-      },
-    ],
-  },
-  {
-    value: "Arriverderci Roma",
-  },
-  {
-    value: "As My Mother Lay Lying",
-    comments: [
-      {
-        name: "Jerry",
-        text: "Unlike any other song JR has written.Incredibly moving.",
-        time: "2011-10-28 11:24:20",
-      },
-    ],
-  },
-  {
-    value: "Astral Plane",
-  },
-  {
-    value: "At Home With a Lover",
-    comments: [
-      {
-        name: "JB",
-        text: "I just remembered how much I love this song",
-        time: "2012-08-08 12:08:29",
-      },
-    ],
-  },
-  {
-    value: "At Night",
-  },
-  {
-    value: "Baby Baby Boss Me Around",
-    comments: [
-      {
-        name: "JB",
-        text: 'Also known as "Don\'t Change For Me"',
-        time: "2011-11-25 01:25:04",
-      },
-    ],
-  },
-  {
-    value: "Baby We Can't Go Wrong",
-  },
-  {
-    value: "Baby, I'm A Rockin' Rebel'oh",
-  },
-  {
-    value: "Back in the USA",
-  },
-  {
-    value: "Back in Your Life",
-  },
-  {
-    value: "Bajando, Bajando por Ceniza y Mineral",
-  },
-  {
-    value: "Bang, Bang, Lulu",
-  },
-  {
-    value: "Barcelona",
-  },
-  {
-    value: "Because Her Beauty is Raw and Wild",
-  },
-  {
-    value: "Behold the Lilies of the Field ",
-    comments: [
-      {
-        name: "JB",
-        text: "Doesn't seem to get played much anymore, but I love this song",
-        time: "2012-08-14 07:32:54",
-      },
-    ],
-  },
-  {
-    value: "Blowin in the Wind",
-  },
-  {
-    value: "Blue Moon",
-  },
-  {
-    value: "Blue Suede Shoes",
-  },
-  {
-    value: "Boogie Woogie Country Girl",
-  },
-  {
-    value: "Born To Be Wild",
-  },
-  {
-    value: "Born Too Late",
-  },
-  {
-    value: "Boston My Hometown",
-  },
-  {
-    value: "Boston, USA",
-  },
-  {
-    value: "Bring Back Springtime To The World Of Nature",
-  },
-  {
-    value: "Bundle Of Joy",
-  },
-  {
-    value: "Buzz Buzz Buzz",
-  },
-  {
-    value: "C'etait Toujours Toi",
-  },
-  {
-    value: "California Desert Party",
-    comments: [
-      {
-        name: "JB",
-        text: 'This song was written in the studio during the recording of "Modern Lover\'s 88"',
-        time: "2011-11-05 09:09:10",
-      },
-    ],
-  },
-  {
-    value: "Cambridge Clown",
-  },
-  {
-    value: "Camina y Ven",
-  },
-  {
-    value: "Cappuccino Bar",
-  },
-  {
-    value: "Carla",
-  },
-  {
-    value: "Celestial",
-  },
-  {
-    value: "Chewing Gum Wrapper",
-  },
-  {
-    value: "Chiusa la Festa, Chiusa la Sera",
-  },
-  {
-    value: "Circa",
-  },
-  {
-    value: "Circle I",
-    comments: [
-      {
-        name: "JB",
-        text: "The single version of this song: http://www.youtube.com/watch?v=FMmSH-628jI",
-        time: "2011-11-24 21:58:34",
-      },
-    ],
-  },
-  {
-    value: "City vs. Country",
-  },
-  {
-    value: "Closer",
-  },
-  {
-    value: "Coin De Rue",
-  },
-  {
-    value: "Come On Everybody",
-  },
-  {
-    value: "Con el Merengue",
-  },
-  {
-    value: "Corner Store",
-    comments: [
-      {
-        name: "VinnieQ",
-        text: "i always wanted to hear the full version of CornerStore from the film Kingpin, but i never found it..",
-        time: "2013-12-12 11:54:10",
-      },
-    ],
-  },
-  {
-    value: "Cosi Veloce",
-  },
-  {
-    value: "Couples Must Fight",
-    comments: [
-      {
-        name: "Jerry",
-        text: "Great short guitar solo on this song.",
-        time: "2011-10-31 18:20:10",
-      },
-      {
-        name: "JB",
-        text: "How is JR able to point out things that rarely get pointed out in such a lucid way?",
-        time: "2011-11-01 07:53:20",
-      },
-    ],
-  },
-  {
-    value: "Cozy With a K",
-  },
-  {
-    value: "Crazy Eddie",
-    comments: [
-      {
-        name: "Jerry",
-        text: "I love this song. It's so Jonathan.",
-        time: "2011-10-28 12:40:47",
-      },
-    ],
-  },
-  {
-    value: "Crazy Little Mama",
-    comments: [
-      {
-        name: "Pol Dodu",
-        text: 'The proper title for this one is "At my front door", although on stage in 1979 in Paris for the Chorus show, Jonathan himself first introduced it as "Crazy little Mama", before correcting himself. It\'s a cover of the biggest hit by The El Dorados, from 1955...',
-        time: "2012-05-18 12:35:59",
-      },
-    ],
-  },
-  {
-    value: "Creeps On The March",
-  },
-  {
-    value: "Dancin' Late at Night",
-  },
-  {
-    value: "I Was Dancing in the Lesbian Bar",
-  },
-  {
-    value: "Dancing In the Moonlight",
-  },
-  {
-    value: "David and Goliath",
-  },
-  {
-    value: "Death Comes to Everyone",
-    comments: [
-      {
-        name: "Jerry",
-        text: "Strange title for a JR song.",
-        time: "2012-01-17 17:06:53",
-      },
-      {
-        name: "JB",
-        text: "I've never heard this song. I wonder if it's a full song or some sort of poem",
-        time: "2012-01-20 12:24:51",
-      },
-    ],
-  },
-  {
-    value: "Dick Gregory",
-  },
-  {
-    value: "Dignified And Old",
-  },
-  {
-    value: "Do You Want To Dance",
-  },
-  {
-    value: "Dodge Veg-o-matic",
-  },
-  {
-    value: "Don't Let Our Youth Go To Waste",
-  },
-  {
-    value: "Don't Worry Baby",
-  },
-  {
-    value: "Don't You Just Know It",
-  },
-  {
-    value: "Doo Wop Number",
-  },
-  {
-    value: "Double Chocolate Malted",
-  },
-  {
-    value: "Down In Bermuda",
-  },
-  {
-    value: "Down In Cuba",
-  },
-  {
-    value: "Down the Mississippi",
-  },
-  {
-    value: "Drift Away",
-  },
-  {
-    value: "Egyptian Reggae",
-  },
-  {
-    value: "El Joven se Estemece",
-  },
-  {
-    value: "El UFO Man",
-  },
-  {
-    value: "Emaline",
-  },
-  {
-    value: "Empty Heart",
-  },
-  {
-    value: "Es Como El Pan",
-    comments: [
-      {
-        name: "JB",
-        text: "Jonathan performing this in someone's backyard!: http://vimeo.com/1385299",
-        time: "2011-11-24 23:48:28",
-      },
-    ],
-  },
-  {
-    value: "Everyday Clothes",
-    comments: [
-      {
-        name: "Jerry",
-        text: "A quintessential JR song!",
-        time: "2011-10-28 11:22:52",
-      },
-    ],
-  },
-  {
-    value: "Everything's Gotta Be Right",
-  },
-  {
-    value: "Falling in Love Must Be Two",
-  },
-  {
-    value: "Feel It",
-  },
-  {
-    value: "Fender Stratocaster",
-  },
-  {
-    value: "Five Year Old Feeling",
-  },
-  {
-    value: "Floatin'",
-  },
-  {
-    value: "Fly Into the Mystery",
-  },
-  {
-    value: "Foggy Notion",
-  },
-  {
-    value: "Follow the Leader",
-  },
-  {
-    value: "For Drama We Have the Seasons",
-  },
-  {
-    value: "French Style",
-  },
-  {
-    value: "Friday Night in Osaka in Japan",
-  },
-  {
-    value: "Gail Loves Me",
-  },
-  {
-    value: "Get In the Groove",
-  },
-  {
-    value: "Girl With the Curl",
-  },
-  {
-    value: "Girlfren'",
-  },
-  {
-    value: "Give Paris One More Chance",
-  },
-  {
-    value: "Goin' Home",
-  },
-  {
-    value: "Good Golly Miss Molly",
-  },
-  {
-    value: "Good Lovin'",
-  },
-  {
-    value: "Good Night Baby",
-  },
-  {
-    value: "Government Center",
-  },
-  {
-    value: "Green Onions",
-  },
-  {
-    value: "Ha Muerto la Rosa",
-  },
-  {
-    value: "Hang On Sloopy",
-  },
-  {
-    value: "Happy Birthday",
-  },
-  {
-    value: "Happy Birthday Dawn",
-  },
-  {
-    value: "Happy Birthday to Joey",
-  },
-  {
-    value: "Harbour Lights",
-  },
-  {
-    value: "Haseemla Classica",
-  },
-  {
-    value: "Have You Got Something You Love",
-  },
-  {
-    value: "He Gave Us the Wine to Taste",
-  },
-  {
-    value: "Heart To Heart",
-  },
-  {
-    value: "Hello from Cupid",
-  },
-  {
-    value: "Hello Josephine",
-  },
-  {
-    value: "Her Mystery Not Of High Heels and Eye Shadow",
-  },
-  {
-    value: "Her Way Moves Me",
-  },
-  {
-    value: "Here Come the Martian Martians",
-  },
-  {
-    value: "Here Comes My Baby",
-  },
-  {
-    value: "Here It Is",
-  },
-  {
-    value: "Here We Are in Ancient Egypt",
-  },
-  {
-    value: "Here We Are In Dreamland",
-  },
-  {
-    value: "Hey Good Looking",
-  },
-  {
-    value: "Hey There Little Insect",
-  },
-  {
-    value: "Hi Dear",
-  },
-  {
-    value: "Hi Fred, We Still Love You",
-  },
-  {
-    value: "Hospital",
-    comments: [
-      {
-        name: "Jerry",
-        text: "The very first JR song I ever heard. I heard Hospital on the radio around 1976 or so. That got me hooked for life.",
-        time: "2011-10-28 11:21:15",
-      },
-    ],
-  },
-  {
-    value: "Hot Love",
-  },
-  {
-    value: "Howdy-D Burger Drive-in",
-  },
-  {
-    value: "I Can Hear Her Fighting With Herself",
-  },
-  {
-    value: "I Can't Find My Best Friend",
-  },
-  {
-    value: "I Can't Sleep Now",
-  },
-  {
-    value: "I Don't Complain About My Lucky Star",
-  },
-  {
-    value: "I Don't Want To Go Halfway",
-  },
-  {
-    value: "I Eat With Gusto, Damn! You Bet",
-    comments: [
-      {
-        name: "Jerry",
-        text: "His funniest song? Even though it's not really a song.",
-        time: "2011-11-28 17:29:51",
-      },
-      {
-        name: "JB",
-        text: "This song threw me off at first but now I think it's hilarious",
-        time: "2011-11-29 07:33:03",
-      },
-    ],
-  },
-  {
-    value: "I Grew Up In the Suburbs",
-  },
-  {
-    value: "I Had a Crush On Her",
-  },
-  {
-    value: "I Had a Favorite Flower",
-  },
-  {
-    value: "I Had to Change",
-  },
-  {
-    value: "I Have Come Out to Play",
-  },
-  {
-    value: "I Have No Reason to Doubt Her",
-  },
-  {
-    value: "I Know I Turn Her On",
-  },
-  {
-    value: "I Like it Like That",
-  },
-  {
-    value: "I Love Her Little Body",
-  },
-  {
-    value: "I Love Hot Nights",
-  },
-  {
-    value: "I Love Life More and More",
-  },
-  {
-    value: "I Love Life So",
-  },
-  {
-    value: "I Love People",
-  },
-  {
-    value: "I Love the World",
-  },
-  {
-    value: "I Love This World and It's Mystery",
-  },
-  {
-    value: "I Love You So",
-  },
-  {
-    value: "I Moved Away",
-  },
-  {
-    value: "I Must Be King",
-  },
-  {
-    value: "I Need Someone",
-  },
-  {
-    value: "I See What's Underneath",
-  },
-  {
-    value: "I Took a Chance on Her",
-  },
-  {
-    value: "I Wanna Sleep In Your Arms",
-  },
-  {
-    value: "I Want Somebody to Love Me",
-  },
-  {
-    value: "I Want To Love Him So Bad",
-  },
-  {
-    value: "I'd Rather Feel Than Not Feel At All",
-  },
-  {
-    value: "I'm a Jerk",
-  },
-  {
-    value: "I'm a Little Airplane",
-  },
-  {
-    value: "I'm a Little Dinosaur",
-  },
-  {
-    value: "I'm Crying",
-  },
-  {
-    value: "I'm Dropping My Friends (One by One)",
-  },
-  {
-    value: "I'm in a Dancing Mood",
-  },
-  {
-    value: "I'm Just Beginning To Live",
-  },
-  {
-    value: "I'm Nature's Mosquito",
-  },
-  {
-    value: "I'm Not Afraid To Make Mistakes",
-  },
-  {
-    value: "I'm Not Obsessed With Her",
-  },
-  {
-    value: "I'm So Confused",
-  },
-  {
-    value: "I'm Straight",
-  },
-  {
-    value: "I'm Your God Pan",
-    comments: [
-      {
-        name: "Jerry",
-        text: "What does God Pan mean?",
-        time: "2011-11-28 17:31:19",
-      },
-      {
-        name: "JB",
-        text: 'I believe he is referring to the Roman god "Pan", the god of nature-like things: http://en.wikipedia.org/wiki/Pan_(god). So, maybe the grammar should be: "I\'m Your God, Pan". He keeps his Pan-Pipe ready for Pan-Melodies! He lives in the woods...not much to steal...but those colors well, those colors are real (natural)',
-        time: "2011-11-29 07:35:43",
-      },
-    ],
-  },
-  {
-    value: "Ice Cold NuGrape",
-  },
-  {
-    value: "Ice Cream Man",
-  },
-  {
-    value: "If She Don't Love Me",
-  },
-  {
-    value: "Important in Your Life",
-    comments: [
-      {
-        name: "Jerry",
-        text: "My favorite song on this album.",
-        time: "2011-10-30 20:59:49",
-      },
-    ],
-  },
-  {
-    value: "In Che Mondo Vivamo",
-  },
-  {
-    value: "In Japan",
-  },
-  {
-    value: "instrumental",
-  },
-  {
-    value: "interview...",
-  },
-  {
-    value: "It Will Stand",
-  },
-  {
-    value: "It's Afternoon And The Range Is Calling",
-  },
-  {
-    value: "It's Fall Time",
-  },
-  {
-    value: "It's You",
-  },
-  {
-    value: "Jail",
-  },
-  {
-    value: "Jambalaya",
-  },
-  {
-    value: "Jenny Jenny Jenny",
-  },
-  {
-    value: "Johnny Too Bad",
-  },
-  {
-    value: "Jonathan I Feel So Bad",
-  },
-  {
-    value: "Jose Bove",
-  },
-  {
-    value: "Joy Over Sorrow",
-  },
-  {
-    value: "Just About 17",
-  },
-  {
-    value: "Just For Fun",
-  },
-  {
-    value: "Just Look At Me",
-  },
-  {
-    value: "Just Wanna Be Young",
-  },
-  {
-    value: "Justine",
-  },
-  {
-    value: "Karma Chameleon",
-  },
-  {
-    value: "Keep on Dancing",
-  },
-  {
-    value: "Keith Richards",
-  },
-  {
-    value: "Kumbaya",
-  },
-  {
-    value: "La Bamba",
-  },
-  {
-    value: "Le Freak",
-  },
-  {
-    value: "Le Printemps Des Amoreux Est Venue",
-  },
-  {
-    value: "Leaves On The Sidewalk After The Rain",
-  },
-  {
-    value: "Les Etoiles",
-  },
-  {
-    value: "Let Her Go Into the Darkness",
-  },
-  {
-    value: "Let Her Go To Her Old Boyfriend",
-  },
-  {
-    value: "Let The Four Winds Blow",
-  },
-  {
-    value: "Let's Get Wild",
-  },
-  {
-    value: "Let's Say We Just Met",
-  },
-  {
-    value: "Let's Take a Trip",
-  },
-  {
-    value: "Let's Go Playing",
-  },
-  {
-    value: "Let's Take The Long Way Home",
-  },
-  {
-    value: "Let's Twist Again",
-  },
-  {
-    value: "Life Hurts and I Expect It",
-  },
-  {
-    value: "Little Bell",
-  },
-  {
-    value: "Little Boy In My Heart",
-  },
-  {
-    value: "Little Latin Lupe Lu",
-  },
-  {
-    value: "Little Sister",
-  },
-  {
-    value: "Lonely Financial Zone",
-  },
-  {
-    value: "Lonely Little Thrift Store",
-  },
-  {
-    value: "Lonely Without Her",
-  },
-  {
-    value: "Louie Louie",
-  },
-  {
-    value: "Louise",
-  },
-  {
-    value: "Love Me Like I Love",
-  },
-  {
-    value: "Lover Please",
-  },
-  {
-    value: "Lydia",
-  },
-  {
-    value: "A Mistake Today For Me",
-  },
-  {
-    value: "Malaguena De Jojo",
-  },
-  {
-    value: "Malingering",
-  },
-  {
-    value: "Maybe a Walk Home From Natick High School",
-  },
-  {
-    value: "Me And Her Got A Good Thing Goin' Baby ",
-  },
-  {
-    value: "Miracles Will Start To Happen",
-  },
-  {
-    value: "Modern World",
-  },
-  {
-    value: "Mona",
-  },
-  {
-    value: "Money",
-  },
-  {
-    value: "Monologue About Bermuda",
-  },
-  {
-    value: "Mood Lighting for Dreaming",
-  },
-  {
-    value: "More Fun In Our 40's",
-  },
-  {
-    value: "More Surprises",
-  },
-  {
-    value: "The Morning of Our Lives",
-  },
-  {
-    value: "Mr Squiltage goes to College",
-  },
-  {
-    value: "Mr. Sorrow",
-  },
-  {
-    value: "My Affected Accent",
-  },
-  {
-    value: "My Appearance on the Balcony",
-  },
-  {
-    value: "My Baby",
-  },
-  {
-    value: "My Baby Love Love Loves Me",
-  },
-  {
-    value: "My Career As a Homewrecker",
-    comments: [
-      {
-        name: "Jerry",
-        text: "A strange JR song. Dark and almost evil sounding at times. Unless I'm missing the point of the song entirely. It wouldn't be the first time!",
-        time: "2011-11-29 17:30:29",
-      },
-      {
-        name: "JB",
-        text: "Yeah, this one and The Neighbors are both dark. Still not completely sure if I really get them...and I've heard them both countless times!",
-        time: "2011-11-30 07:16:05",
-      },
-    ],
-  },
-  {
-    value: "My Guiding Star",
-  },
-  {
-    value: "My Guy",
-  },
-  {
-    value: "My Heart Needs Repair",
-  },
-  {
-    value: "My Heart Was Won by a Girl",
-  },
-  {
-    value: "My Honest Dear",
-  },
-  {
-    value: "My Jeans",
-  },
-  {
-    value: "My Little Girls Got A Full Time Daddy Now",
-  },
-  {
-    value: "My Little Kookenhaken",
-    comments: [
-      {
-        name: "JB",
-        text: "Sweet!!! Someone referenced this page: http://www.boiseweekly.com/Cobweb/archives/2012/06/01/jonathan-richman-is-the-crazy-uncle-you-wish-you-had",
-        time: "2012-10-13 19:30:24",
-      },
-    ],
-  },
-  {
-    value: "My Love For Her Ain't Sad",
-  },
-  {
-    value: "My Love is a Flower (Just Beginning to Bloom)",
-  },
-  {
-    value: "My Modern Lover",
-  },
-  {
-    value: "My Name Is Jonathan",
-    comments: [
-      {
-        name: "JB",
-        text: "Also known as \"I Can't Stand To See People With Their Feeling's Hurt\"",
-        time: "2011-11-25 01:26:28",
-      },
-    ],
-  },
-  {
-    value: "My Runabout Girl",
-  },
-  {
-    value: "Mystery of the Summer Night",
-  },
-  {
-    value: "Neon Sign",
-  },
-  {
-    value: "New England",
-  },
-  {
-    value: "New Kind Of Neighborhood",
-  },
-  {
-    value: "unknown (french)",
-  },
-  {
-    value: "unknown (spanish)",
-  },
-  {
-    value: "New York at 4am is More My Style",
-  },
-  {
-    value: "Nineteen in Naples",
-  },
-  {
-    value: "Nishi",
-  },
-  {
-    value: "No Habla Mis Palabras De Amor",
-  },
-  {
-    value: "No More Gasoline",
-  },
-  {
-    value: "No One Was Like Vermeer",
-  },
-  {
-    value: "Not Happy For Tomorrow...Happy For Today",
-  },
-  {
-    value: "Not In My Name",
-  },
-  {
-    value: 'Not Just "Plus One" On The Guest List Anymore',
-  },
-  {
-    value: "Not So Much To Be Loved As To Love",
-  },
-  {
-    value: "Not Yet 3",
-  },
-  {
-    value: "Nothing Can Change This Love",
-  },
-  {
-    value: "Now is Better Than Before",
-  },
-  {
-    value: "I Don't Want No Nuclear Power Plants (In My Life)",
-  },
-  {
-    value: "Oh Boy",
-  },
-  {
-    value: "Oh Carol",
-  },
-  {
-    value: "Old World",
-  },
-  {
-    value: "Older Girl",
-  },
-  {
-    value: "On a du Soleil",
-  },
-  {
-    value: "Our Party Will Be On The Beach Tonight",
-  },
-  {
-    value: "Our Swinging Pad",
-  },
-  {
-    value: "Pablo Picasso",
-  },
-  {
-    value: "Pacific Coast Highway",
-  },
-  {
-    value: "Pantomima de El Amor Brujo",
-  },
-  {
-    value: "J'aime Paris au mois de mai",
-  },
-  {
-    value: "Parties In The USA",
-  },
-  {
-    value: "Partners in Crime",
-  },
-  {
-    value: "Party In The Woods Tonight",
-  },
-  {
-    value: "Pearl",
-  },
-  {
-    value: "Peggy Sue",
-  },
-  {
-    value: "Peppermint Twist",
-  },
-  {
-    value: "Place Pigalle",
-  },
-  {
-    value: "Poem by Pier Paolo Pasolini",
-  },
-  {
-    value: "Polk Salad Annie",
-  },
-  {
-    value: "Pretty is Pretty (But It's Not All That There Is)",
-  },
-  {
-    value: "Pretty Little Girl",
-  },
-  {
-    value: "Pterodactyl in the Airport",
-  },
-  {
-    value: "Quarter to Three",
-  },
-  {
-    value: "Que C'est Triste Venise",
-  },
-  {
-    value: "Que reste-t-il de nos amours?",
-  },
-  {
-    value: "Quintage Goes to Market",
-  },
-  {
-    value: "Ready Teddy",
-  },
-  {
-    value: "Reelin' & Rockin'",
-  },
-  {
-    value: "Reno",
-  },
-  {
-    value: "Ride Down On The Highway",
-  },
-  {
-    value: "Roadrunner",
-  },
-  {
-    value: "Rock 'N' Roll Drummer Straight From The Hospy-Tel",
-  },
-  {
-    value: "Rock n' Roll Number 9",
-  },
-  {
-    value: "Rock and Roll Music",
-  },
-  {
-    value: "Rock and Roll Will Happen",
-  },
-  {
-    value: "Rock Island Line",
-  },
-  {
-    value: "Rock Me All Night Long",
-  },
-  {
-    value: "Rock Your Baby",
-  },
-  {
-    value: "Rockin' Shoppin' Center",
-  },
-  {
-    value: "Rockin' Robin",
-  },
-  {
-    value: "Rockin' Rockin' Leprechauns",
-  },
-  {
-    value: "Rodeo Wind",
-  },
-  {
-    value: "Roll Over Beethoven",
-  },
-  {
-    value: "Roll With Me Henry",
-  },
-  {
-    value: "Rollercoaster By the Sea",
-  },
-  {
-    value: "Rooming House on Venice Beach",
-  },
-  {
-    value: "Round and Round",
-  },
-  {
-    value: "Route 66",
-  },
-  {
-    value: "Ruby Ruby",
-  },
-  {
-    value: "Sa Voix M'Atisse",
-  },
-  {
-    value: "Salvador Dali",
-  },
-  {
-    value: "Satisfied Mind",
-  },
-  {
-    value: "Satisfy",
-  },
-  {
-    value: "Seven Day Weekend",
-  },
-  {
-    value: "Sex Machine",
-  },
-  {
-    value: "Shake",
-  },
-  {
-    value: "She Brings Out the Best in Me",
-  },
-  {
-    value: "She Cracked",
-  },
-  {
-    value: "She Doesn't Laugh At My Jokes",
-  },
-  {
-    value: "She Lives in a Rock & Roll House",
-    comments: [
-      {
-        name: "JB",
-        text: "A great lost song",
-        time: "2012-02-11 07:17:31",
-      },
-    ],
-  },
-  {
-    value: "She Loves You Jonathan, Give Her Time",
-  },
-  {
-    value: "She's a Once in a Lifetime Girl",
-  },
-  {
-    value: "She's Running Away",
-  },
-  {
-    value: "Shirin and Fahrad",
-  },
-  {
-    value: "Silence",
-  },
-  {
-    value: "Silence alors, Silence",
-  },
-  {
-    value: "Since She Started To Ride",
-  },
-  {
-    value: "Sleepwalk",
-  },
-  {
-    value: "Slipping and Sliding",
-  },
-  {
-    value: "Somebody To Hold Me",
-  },
-  {
-    value: "Someone I Care About",
-  },
-  {
-    value: "Song Of Remembrance For Old Girlfriends",
-  },
-  {
-    value: "Sorrow Showed Me the Way",
-  },
-  {
-    value: "South American Folk Song",
-  },
-  {
-    value: "Springtime",
-  },
-  {
-    value: "Springtime In New York",
-    comments: [
-      {
-        name: "Jerry",
-        text: "The lame must be shaken up. Great line.",
-        time: "2011-10-31 18:21:06",
-      },
-    ],
-  },
-  {
-    value: "Stay",
-  },
-  {
-    value: "Stop This Car",
-  },
-  {
-    value: "Stop Your Sobbing",
-  },
-  {
-    value: "Stultified",
-  },
-  {
-    value: "Stupenda e Misera Citta",
-    comments: [
-      {
-        name: "JB",
-        text: "Post about this song: http://jojofiles.blogspot.com/2008/06/stupenda-e-misera-citt.html",
-        time: "2011-10-12 18:35:49",
-      },
-    ],
-  },
-  {
-    value: "Such Loneliness",
-  },
-  {
-    value: "Summer Morning",
-  },
-  {
-    value: "Summer Night",
-  },
-  {
-    value: "Sunday Afternoon",
-  },
-  {
-    value: "Surfin' Safari",
-  },
-  {
-    value: "Surrender",
-  },
-  {
-    value: "Tahitian Hop",
-  },
-  {
-    value: "Take a Walk Around Town",
-  },
-  {
-    value: "Take Me Off The Shelf",
-  },
-  {
-    value: "Take Me to the Plaza",
-    comments: [
-      {
-        name: "Jerry",
-        text: "I love this song from the dvd.",
-        time: "2011-11-09 20:22:30",
-      },
-    ],
-  },
-  {
-    value: "Tallahassee Lassie",
-  },
-  {
-    value: "Tandem Jump",
-  },
-  {
-    value: "Tell How You Feel",
-  },
-  {
-    value: "Tequila",
-  },
-  {
-    value: "That Little Sleeper Car",
-  },
-  {
-    value: "That Summer Feeling",
-  },
-  {
-    value: "That's When I Want To Tear Down The Walls Between People",
-  },
-  {
-    value: "The Ballad Of Yoyo",
-  },
-  {
-    value: "The Baltimores",
-  },
-  {
-    value: "The Beach",
-    comments: [
-      {
-        name: "Jerry",
-        text: "Crappy sugar lemonade!",
-        time: "2011-10-28 13:16:43",
-      },
-    ],
-  },
-  {
-    value: "The Best That I Have Got",
-  },
-  {
-    value: "The Changing of the Seasons",
-  },
-  {
-    value: "The Crush",
-  },
-  {
-    value: "The Dark Crypt Like Arcade",
-  },
-  {
-    value: "The Desert",
-  },
-  {
-    value: "The Fenway",
-  },
-  {
-    value: "The Girl Stands Up to Me Now",
-  },
-  {
-    value: "The Heart of Saturday Night",
-  },
-  {
-    value: "The Little Green and White Wrapper",
-  },
-  {
-    value: "The Lonely Little Thrift Store",
-  },
-  {
-    value: "The Mixer (Men and Women Together)",
-  },
-  {
-    value: "The Neighbors",
-  },
-  {
-    value: "The New Teller",
-  },
-  {
-    value: "The Night Is Still Young",
-  },
-  {
-    value: "The Old Corner Store",
-  },
-  {
-    value: "The Old Snack Bar",
-  },
-  {
-    value: "The Sea Was Calling Me Home",
-  },
-  {
-    value: "The Silent Treatment",
-  },
-  {
-    value: "The Springtime of the Lovers",
-  },
-  {
-    value: "The Sweeping Wind",
-  },
-  {
-    value: "The Tag Game",
-  },
-  {
-    value: "The Twist",
-  },
-  {
-    value: "The UFO Man",
-  },
-  {
-    value: "The Wheels on the Bus",
-  },
-  {
-    value: "The World Is Showing It's Hand",
-  },
-  {
-    value: "Theme From Moulin Rouge",
-  },
-  {
-    value: "There Is No Abomination",
-  },
-  {
-    value: "There Is No Squiltage",
-  },
-  {
-    value: "There's Something About Mary",
-  },
-  {
-    value: "These Bodies That Came To Cavort",
-  },
-  {
-    value: "They're Not Trying on the Dance Floor",
-  },
-  {
-    value: "This Kind Of Music",
-  },
-  {
-    value: "This Little Light Of Mine",
-  },
-  {
-    value: "This Love of Mine",
-  },
-  {
-    value: "This Romance Will Be Different For Me",
-  },
-  {
-    value: "Those Conga Drums",
-  },
-  {
-    value: "Time For Foolin' Around",
-  },
-  {
-    value: "Time Stopped When We Held Hands",
-  },
-  {
-    value: "To Hide a Little Thought",
-  },
-  {
-    value: "Tokyo, Japan, 4 am on Friday night",
-  },
-  {
-    value: "Too Fat",
-  },
-  {
-    value: "Too Hip",
-  },
-  {
-    value: "Too Many Fish In The Sea",
-  },
-  {
-    value: "Tout ce que je cherchais etait toujours toi",
-  },
-  {
-    value: "instrumental (trombone)",
-  },
-  {
-    value: "True Love Is Not Nice",
-  },
-  {
-    value: "Twilight in Boston",
-  },
-  {
-    value: "Twist and Shout",
-  },
-  {
-    value: "Twist Twist Senora",
-  },
-  {
-    value: "Twisting the Night Away",
-  },
-  {
-    value: "unknown (?)",
-  },
-  {
-    value: "Up In Cold Maine Under the Stars",
-  },
-  {
-    value: "Up In The Sky Sometime",
-  },
-  {
-    value: "Vampire Girl",
-    comments: [
-      {
-        name: "Jerry",
-        text: "She's not so scary she's got all of my records! ",
-        time: "2011-10-28 12:45:23",
-      },
-      {
-        name: "JB",
-        text: 'The term "Vampire Girl" has entered into my natural dialect because of this song',
-        time: "2011-10-28 13:00:05",
-      },
-      {
-        name: "JB",
-        text: 'The term "Vampire Girl" has entered into my natural dialect because of this song',
-        time: "2011-10-28 13:03:00",
-      },
-    ],
-  },
-  {
-    value: "Vampiresa Mujer",
-  },
-  {
-    value: "Vecchio Frack",
-  },
-  {
-    value: "Velvet Underground",
-    comments: [
-      {
-        name: "Jerry",
-        text: "I love it when JR writes songs about real people. Velvet Underground,Pablo Picasso,Walter Johnson, etc.",
-        time: "2011-11-08 20:12:29",
-      },
-    ],
-  },
-  {
-    value: "Vincent Van Gogh",
-  },
-  {
-    value: "Volando Voy",
-  },
-  {
-    value: "Volare",
-  },
-  {
-    value: "Wake Up Sleepy Heads",
-  },
-  {
-    value: "Walk Up the Street",
-  },
-  {
-    value: "Walter Johnson",
-  },
-  {
-    value: "We're Having A Party",
-  },
-  {
-    value: "Wheels on the Bus",
-  },
-  {
-    value: "When Harpo Played  His Harp",
-    comments: [
-      {
-        name: "Jerry",
-        text: "Magical",
-        time: "2011-10-30 21:00:31",
-      },
-    ],
-  },
-  {
-    value: "When I Dance",
-  },
-  {
-    value: "When I Get Mad at Her",
-  },
-  {
-    value: "When I Say I Love You",
-  },
-  {
-    value: "When I Say Wife",
-  },
-  {
-    value: "When I'm Walking",
-  },
-  {
-    value: "When She Kisses Me",
-  },
-  {
-    value: "When We Refuse to Suffer",
-  },
-  {
-    value: "Who Can Say When a Wall Is Ready to Come Down",
-  },
-  {
-    value: "Wild Thing",
-  },
-  {
-    value: "Wild Weekend",
-  },
-  {
-    value: "Wild Wild Party",
-    comments: [
-      {
-        name: "JB",
-        text: 'This could be one of most rare fully-formed Jonathan Richman songs. As tantalizing as "A Little Boy In My Heart" and "I Don\'t Want No More Nuclear Power"',
-        time: "2011-11-24 23:00:55",
-      },
-    ],
-  },
-  {
-    value: "Winter is Over For Me",
-  },
-  {
-    value: "Winters Get Hard in New England",
-  },
-  {
-    value: "Wipeout",
-  },
-  {
-    value: "Womanhood",
-  },
-  {
-    value: "Wonderful Girl",
-  },
-  {
-    value: "Ya Ya",
-  },
-  {
-    value: "Yo Jo Jo",
-  },
-  {
-    value: "Yo Tengo una Novia",
-  },
-  {
-    value: "You Are",
-  },
-  {
-    value: "You Can Have A Cell Phone That's Ok But Not Me",
-  },
-  {
-    value: "You Can't Talk To the Dude",
-  },
-  {
-    value: "You Must Ask the Heart",
-  },
-  {
-    value: "You're the One For Me",
-  },
-  {
-    value: "You've Got To Cry",
-  },
-  {
-    value: "You're Crazy For Taking the Bus",
-  },
-  {
-    value: "Yoyos On Parade",
-  },
-  {
-    value: "Coomyah",
-  },
-  {
-    value: "I Hear You Calling Me",
-  },
-  {
-    value: "Cerca",
-    comments: [
-      {
-        name: "DMDCAF",
-        text: "There were many shows I was at where Jonathan at least did some of CLOSER as CERCA in espanol! Definitely my favorite song of his in Spanish!",
-        time: "2011-10-29 00:20:56",
-      },
-      {
-        name: "JB",
-        text: 'I love when he goes "mas y mas y mas y mas y mas y mas"!',
-        time: "2011-10-29 15:44:12",
-      },
-    ],
-  },
-  {
-    value: "Your Good Girl's Gonna Go Bad",
-  },
-  {
-    value: "Man Walks Among Us",
-  },
-  {
-    value: "I Can't Stay Mad At You",
-  },
-  {
-    value: "1963",
-  },
-  {
-    value: "Grunion Run",
-    comments: [
-      {
-        name: "Jerry",
-        text: "I'd like to put together a cd of JR instrumentals.",
-        time: "2011-11-08 20:15:18",
-      },
-      {
-        name: "JB",
-        text: "Can you believe that there is not a single known live version of this song?",
-        time: "2011-11-09 14:56:19",
-      },
-    ],
-  },
-  {
-    value: "unknown (italian)",
-  },
-  {
-    value: "Harpo En Su Harpa",
-  },
-  {
-    value: "No Te Oye",
-  },
-  {
-    value: "No Mas Por Fun",
-  },
-  {
-    value: "Papel De Chicle",
-  },
-  {
-    value: "Los Vecinos",
-  },
-  {
-    value: "Ahora Es Mejor",
-  },
-  {
-    value: "Una Fuerza Alla",
-  },
-  {
-    value: "Sabor a Mi",
-  },
-  {
-    value: "Melodia Tradicional Ecuadoriana",
-  },
-  {
-    value: "Just Because I'm Irish",
-  },
-  {
-    value: "The Rose",
-  },
-  {
-    value: "That's How I Feel",
-  },
-  {
-    value: "Tonight",
-  },
-  {
-    value: "Time Has Been Going By So Fast",
-  },
-  {
-    value: "The Lovers Are Here and They're Full of Sweat",
-  },
-  {
-    value: "Our Drab Ways",
-  },
-  {
-    value: "If You Want To Leave Our Party Just Go",
-  },
-  {
-    value: "I Was The One She Came For",
-  },
-  {
-    value: "We'll Be the Noise, We'll Be the Scandal",
-  },
-  {
-    value: "Winter Afternoon By B.U. In Boston",
-  },
-  {
-    value: "The Bitter Herb",
-  },
-  {
-    value: "Even Though I Know I Am The Wind And The Sun, I",
-  },
-  {
-    value: "It Was Time For Me To Be With Her",
-  },
-  {
-    value: "O Moon, Queen Of Night On Earth",
-  },
-  {
-    value: "Mary Anne",
-  },
-  {
-    value: "Roadrunner Twice",
-  },
-  {
-    value: "Roadrunner Thrice",
-  },
-  {
-    value: "I'm Waiting For the Man",
-  },
-  {
-    value: "I Feel Alright",
-  },
-  {
-    value: "Veil Of Cold",
-  },
-  {
-    value: "I See Your Light",
-  },
-  {
-    value: "Awkward Love",
-  },
-  {
-    value: "Guitar Doodle No. 1",
-  },
-  {
-    value: "Touch Me If You Want",
-  },
-  {
-    value: "Do You Believe In Magic",
-  },
-  {
-    value: "Guitar Doodle No. 2",
-  },
-  {
-    value: "Young and in Love",
-  },
-  {
-    value: "Do de do do",
-  },
-  {
-    value: "Willie and the Hand Jive",
-  },
-  {
-    value: "Trip to the Sea",
-    comments: [
-      {
-        name: "JB",
-        text: "Does anyone know if this is a cover version?",
-        time: "2012-02-13 12:18:17",
-      },
-    ],
-  },
-  {
-    value: "Thunderbolts of Joy",
-  },
-  {
-    value: "Singing in the Rain",
-  },
-  {
-    value: "So Much Respect For You",
-  },
-  {
-    value: "I'm Not Alone (The Heavens Love Me)",
-  },
-  {
-    value: "Flying Saucers Rock and Roll",
-  },
-  {
-    value: "Stir It Up",
-  },
-  {
-    value: "In the Checkout Line",
-  },
-  {
-    value: "Brand New Dance",
-  },
-  {
-    value: "Sugar and Spice",
-  },
-  {
-    value: "Ballad of Stink",
-  },
-  {
-    value: "Moron Creek",
-  },
-  {
-    value: "Young at Heart",
-  },
-  {
-    value: "Wedding Bells",
-  },
-  {
-    value: "Adios (To My Own Desert Love)",
-  },
-  {
-    value: "Spanish Drama",
-  },
-  {
-    value: "Michael Row Your Boat Ashore",
-  },
-  {
-    value: "And That's Rock n' Roll",
-  },
-  {
-    value: "Nuclear Nightmare",
-  },
-  {
-    value: "Cupid",
-  },
-  {
-    value: "Dueling Jojo's",
-  },
-  {
-    value: "Something You Believe In",
-  },
-  {
-    value: "Start All Over",
-  },
-  {
-    value: "Fear",
-  },
-  {
-    value: "Oh, Bus Driver",
-  },
-  {
-    value: "New York Poem",
-  },
-  {
-    value: "Dance With Me",
-  },
-  {
-    value: "Weeds Breaking Through The Concrete",
-  },
-  {
-    value: "Revolution Summer Theme",
-  },
-  {
-    value: "Francine's Theme",
-  },
-  {
-    value: "A Chill in the Night Air",
-  },
-  {
-    value: "Music for Next Year's Jukebox",
-  },
-  {
-    value: "Hipster Cafe",
-  },
-  {
-    value: "Vacant Lot",
-  },
-  {
-    value: "Hope's Theme",
-  },
-  {
-    value: "Francine's Theme (Reprise)",
-  },
-  {
-    value: "Hope's Theme (Reprise)",
-  },
-  {
-    value: "Weeds Breaking Through The Concrete (Reprise)",
-  },
-  {
-    value: "Now What?",
-  },
-  {
-    value: "Italian Song About a Party",
-  },
-  {
-    value: "Hebrew Party Song",
-  },
-  {
-    value: "My Love She Is From Somewhere Else",
-  },
-  {
-    value: "When We Run On the Beach",
-  },
-  {
-    value: "Bohemia",
-    comments: [
-      {
-        name: "JB",
-        text: "What could be said about this song? For me it's the epitome of Jonathan Richman",
-        time: "2011-11-01 08:09:09",
-      },
-      {
-        name: "JB",
-        text: "JojoBlog post for the song with a live performance: http://jojofiles.blogspot.com/2011/11/door-to-bohemia.html",
-        time: "2011-11-01 08:09:31",
-      },
-      {
-        name: "Jerry",
-        text: "I hope that Bohemia shows up on the next album but aren't there quite a few excellent JR songs that never appeared on any of his albums?",
-        time: "2011-11-01 16:47:43",
-      },
-      {
-        name: "JB",
-        text: "Some unreleased recent songs: Mr. Sorrow, Bohemia, Her Love Is From Somewhere Else, Hard Time Saying Goodbye, Italian Party Song, Hebrew Party Song (barbeque), Keith Richards. There's even a few that I'm missing",
-        time: "2011-11-01 22:47:44",
-      },
-    ],
-  },
-  {
-    value: "Love In a Different Way",
-  },
-  {
-    value: "El Muerto Vivo",
-  },
-  {
-    value: "Coge la Guitarra",
-  },
-  {
-    value: "Loneliness",
-  },
-  {
-    value: "The Other World",
-  },
-  {
-    value: "Si el Sexo hay que Planificar",
-  },
-  {
-    value: "We Want to Take You Higher",
-  },
-  {
-    value: "Naked (poem)",
-  },
-  {
-    value: "My Life is Full of Color",
-  },
-  {
-    value: "(Marie's the Name) Of His Latest Flame",
-  },
-  {
-    value: "What She's Thinking About Me Affects Me All Day Long",
-  },
-  {
-    value: "The Sadness of the Youth",
-  },
-  {
-    value: "Rama Lama Ding Dong",
-    comments: [
-      {
-        name: "JB",
-        text: "Originally by the Edsels",
-        time: "2012-02-10 06:57:37",
-      },
-    ],
-  },
-  {
-    value: "La Festa e Galactica",
-  },
-  {
-    value: "La Guitarra Flamenca Rubia",
-  },
-  {
-    value: "Come to Our Party",
-  },
-  {
-    value: "Tromba",
-  },
-  {
-    value: "Her Laugh is Like a Trumpet",
-  },
-  {
-    value: "We Had a Fight Last Night",
-  },
-  {
-    value: "Galactica",
-  },
-  {
-    value: "Parent Pushing Stroller",
-  },
-  {
-    value: "Your Mind",
-  },
-  {
-    value: "Trash on the Beach",
-  },
-  {
-    value: "Ego Went Away",
-  },
-  {
-    value: "La Fiesta Es Para Todos",
-  },
-  {
-    value: "Ja La BBQ",
-  },
-  {
-    value: "Touched More",
-  },
-  {
-    value: "Honeymoon Is Over",
-  },
-  {
-    value: "O Sun!",
-  },
-  {
-    value: "angels poem",
-  },
-  {
-    value: "Nuestro Tema",
-    comments: [
-      {
-        name: "JB",
-        text: "By Silvio Rodriguez",
-        time: "2021-01-27 08:09:09",
-      },
-    ],
-  },
-  {
-    value: "Nuestra Que Macar",
-  },
-  {
-    value: "Cantange a Cantar",
-  },
-  {
-    value: "Doing It To Death",
-    comments: [
-      {
-        name: "JB",
-        text: "By James Brown",
-        time: "2021-05-04 08:09:09",
-      },
-    ],
-  },
-  {
-    value: "Torna a Surriento",
   },
 ];
