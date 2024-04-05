@@ -3,7 +3,6 @@ import Link from "next/link";
 import { ReactNode, useEffect, useState } from "react";
 import { getRandomUrl } from "../data";
 import { Ubuntu as Font } from "next/font/google";
-import cn from "../../styles/Layout.module.scss";
 
 const font = Font({ subsets: ["latin"], weight: "300" });
 
@@ -54,27 +53,43 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
   }, [children]);
 
   return (
-    <div className={`${cn.root} ${font.className}`}>
+    <div className={font.className}>
       <Head>
         <title>icecoldnugrape</title>
         <meta name="og:title" content="icecoldnugrape" />
         <meta name="description" content="icecoldnugrape" />
         <link rel="icon" href="/icecoldnugrape/favicon.ico" />
       </Head>
-      <header className={cn.header}>
-        <div className={cn.h1Container}>
-          <h1>
-            <Link href="/" className={cn.title}>
-              ICECOLDNUGRAPE.COM
-            </Link>
-          </h1>
-          <aside>
-            <a href="https://web.archive.org/web/*/icecoldnugrape.com">
-              Since 2009
-            </a>
-          </aside>
-        </div>
-        <div>
+      <header>
+        <h1>
+          <Link href="/">ICECOLDNUGRAPE.COM</Link>
+        </h1>
+        <aside>
+          <Link href="https://web.archive.org/web/*/icecoldnugrape.com">
+            Since 2009
+          </Link>
+        </aside>
+        <div className="links">
+          <ul>
+            <li>
+              <a href="#">JojoBlog</a>
+            </li>
+            <li>
+              <a href="#">Label</a>
+            </li>
+            <li>
+              <a href="#">Tour</a>
+            </li>
+            <li>
+              <a href="#">Bandcamp</a>
+            </li>
+            <li>
+              <a href="#">JojoChords</a>
+            </li>
+            <li>
+              <a href="#">Trade</a>
+            </li>
+          </ul>
           <ul>
             {siteLinks.map(({ href, text }) => (
               <li key={href}>
@@ -82,7 +97,7 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
                   href={href}
                   className={
                     type.toLowerCase() === text.toLowerCase()
-                      ? cn.active
+                      ? "active"
                       : undefined
                   }
                 >
@@ -95,7 +110,6 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
                 <Link
                   href={`/${type}/${prev}`}
                   aria-disabled={!prev}
-                  className={cn.nextprev}
                   style={{
                     opacity: prev ? 1 : 0,
                     pointerEvents: prev ? "auto" : "none",
@@ -110,7 +124,6 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
                 <Link
                   href={`/${type}/${next}`}
                   aria-disabled={!next}
-                  className={cn.nextprev}
                   style={{
                     opacity: next ? 1 : 0,
                     pointerEvents: next ? "auto" : "none",
@@ -123,7 +136,7 @@ const Layout = ({ children, type, prev, next }: LayoutProps) => {
           </ul>
         </div>
       </header>
-      <div className={cn.bodyContainer}>{children}</div>
+      {children}
     </div>
   );
 };

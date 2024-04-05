@@ -1,0 +1,43 @@
+$purple: #301934;
+$gold: #ffd700;
+$white: #fff;
+
+body {
+  background-color: $purple;
+  color: $gold;
+  margin: auto;
+}
+
+a {
+  color: $gold;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: $gold;
+}
+
+.active {
+  color: $white;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  width: 50%;
+  ul {
+    margin-right: 5px;
+  }
+}
