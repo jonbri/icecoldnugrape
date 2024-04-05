@@ -1,25 +1,18 @@
-import { GetStaticProps } from "next";
 import Link from "next/link";
-import { ParsedUrlQuery } from "querystring";
-import { getRecordings } from "../src/data";
-import { Recording } from "../src/types";
-import Layout from "../src/components/Layout";
-import type { NextPage } from "next";
+import { getRecordings } from "../../data";
+import { Recording } from "../../types";
 
 interface Section {
   title: string;
   collection: Recording[];
 }
-interface PageProps {
-  sections: Section[];
-}
 
 const sectionsData = [
   { key: "Album", title: "Albums" },
+  { key: "Show", title: "Shows" },
   { key: "Single", title: "Singles" },
   { key: "Compilation", title: "Compilations" },
   { key: "Studio Bootleg", title: "Studio Bootlegs" },
-  { key: "Show", title: "Shows" },
   { key: "Radio", title: "Radio" },
   { key: "TV", title: "TV" },
   { key: "Interview", title: "Interviews" },
@@ -30,52 +23,33 @@ const filterByType =
   ({ type }: Recording) =>
     type === targetType;
 
-interface Params extends ParsedUrlQuery {}
-export const getStaticProps: GetStaticProps<PageProps, Params> = async () => {
-  const recordings = getRecordings();
-  const sections = sectionsData.map(({ key, title }) => ({
-    title,
-    collection: recordings.filter(filterByType(key)),
-  }));
-  return {
-    props: {
-      sections,
-    },
-  };
-};
-
 const generateList = ({ title, collection }: Section) => (
   <section key={title}>
     <h2>{`${title} (${collection.length})`}</h2>
-    <ul>
+    <ul className="hoverable">
       {collection.map(({ linkid, formattedTitle }) => (
         <li key={linkid}>
           <Link href={`/recordings/${linkid}`}>{formattedTitle}</Link>
         </li>
       ))}
     </ul>
-    <style jsx>{`
-      h2 {
-        font-weight: normal;
-      }
-      section {
-        margin-bottom: 10px;
-      }
-    `}</style>
   </section>
 );
 
-const Page: NextPage<PageProps> = ({ sections }) => {
+export default function Page() {
+  const recordings = getRecordings();
+  const sections = sectionsData.map(({ key, title }) => ({
+    title,
+    collection: recordings.filter(filterByType(key)),
+  }));
   const total = sections.reduce(
     (acc, { collection: { length } }) => acc + length,
     0
   );
   return (
-    <Layout type="recordings">
+    <div className="recordings">
       {sections.map(generateList)}
       {`Total recordings: ${total}`}
-    </Layout>
+    </div>
   );
-};
-
-export default Page;
+}

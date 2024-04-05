@@ -6,6 +6,12 @@ body {
   background-color: $purple;
   color: $gold;
   margin: auto;
+  header {
+    user-select: none;
+    margin-bottom: 5px;
+  }
+  font-size: 20px;
+  padding: 2px 5px;
 }
 
 a {
@@ -16,6 +22,7 @@ a {
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 4px 0px;
 }
 
 h1,
@@ -29,15 +36,72 @@ h6 {
   color: $gold;
 }
 
+h1 {
+  font-size: 26px;
+  width: 100%;
+}
+h2 {
+  font-size: 20px;
+  color: white;
+}
+
 .active {
   color: $white;
-  font-weight: bold;
+  transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .links {
   display: flex;
-  width: 50%;
   ul {
+    margin-right: 15px;
+  }
+}
+
+.recordings {
+  > section {
+    margin-bottom: 10px;
+    h2 {
+      margin-top: 5px;
+    }
+  }
+}
+
+.hoverable {
+  margin: 0;
+  > li {
+    :hover {
+      border-bottom: 1px solid $gold;
+      color: $white;
+    }
+  }
+}
+
+.comments {
+  background-color: white;
+  color: black;
+  padding: 0 5px;
+  margin-top: 10px;
+  font-size: 18px;
+  width: 50%;
+  li {
+    margin-top: 15px;
+  }
+  header {
+    font-weight: bold;
+  }
+}
+
+ul.inline {
+  display: inline;
+  li {
+    display: inline;
     margin-right: 5px;
   }
+}
+
+.available {
+  margin-top: 20px;
+}
+.quality {
+  margin-top: 10px;
 }

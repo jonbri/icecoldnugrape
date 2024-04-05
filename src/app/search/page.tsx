@@ -1,15 +1,15 @@
+"use client";
+
+import Link from "next/link";
 import { ReactNode, useEffect, useRef, useState } from "react";
-import type { NextPage } from "next";
 import {
   getRecordings,
   getSongs,
   getSongFromName,
   getRecordingComments,
   getSongComments,
-} from "../src/data";
-import Layout from "../src/components/Layout";
+} from "../../data";
 import Fuse from "fuse.js";
-import Link from "next/link";
 
 const allRecordings = getRecordings().map(
   ({ linkid, formattedTitle: text }) => ({
@@ -50,7 +50,7 @@ interface Result {
   text: string;
 }
 
-const SearchPage: NextPage = () => {
+export default function Search() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Fuse.FuseResult<Result>[]>([]);
 
@@ -68,7 +68,7 @@ const SearchPage: NextPage = () => {
   }, []);
 
   return (
-    <Layout type="search">
+    <div>
       <input
         ref={inputRef}
         placeholder="Search for recordings, songs, or comments"
@@ -78,7 +78,7 @@ const SearchPage: NextPage = () => {
           setQuery(value);
         }}
       />
-      <ul>
+      <ul className="hoverable">
         {results.map((result, index) => {
           const {
             item: { href },
@@ -92,9 +92,9 @@ const SearchPage: NextPage = () => {
           );
         })}
       </ul>
-    </Layout>
+    </div>
   );
-};
+}
 
 interface FuseHighlightProps {
   result: Fuse.FuseResult<Result>;
@@ -124,5 +124,3 @@ const FuseHighlight = ({
   const { value, indices } = matches.find(({ key }) => key === attribute)!;
   return <>{highlight(value!, indices)}</>;
 };
-
-export default SearchPage;
