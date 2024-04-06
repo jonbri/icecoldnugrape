@@ -32,13 +32,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         Songs
       </Link>
     ),
-    random: <Link href={getRandomUrl()}>?</Link>,
+    random: <Link href={getRandomUrl()}>Random</Link>,
     search: (
       <Link
         href="/search"
         className={pathname.startsWith("/search") ? "active" : undefined}
       >
-        S
+        Search
       </Link>
     ),
     listen: (
@@ -46,7 +46,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         href="/listen"
         className={pathname.startsWith("/listen") ? "active" : undefined}
       >
-        L
+        Listen
       </Link>
     ),
     trade: (
@@ -101,12 +101,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   const isHome = pathname === "/";
   const isRecordings = pathname === "/recordings";
   const isSongs = pathname === "/songs";
-  // const isRandom = pathname === "/random";
-  // const isSearch = pathname === "/search";
-  // const isListen = pathname === "/listen";
   const isTrade = pathname === "/trade";
-  // const isRecordingsId = /^\/recordings\/\d+$/.test(pathname);
-  // const isSongsId = /^\/songs\/\w+/.test(pathname);
 
   return (
     <html lang="en">
@@ -137,7 +132,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <li>{links.songs}</li>
                 <li>{links.random}</li>
                 <li>{links.search}</li>
-                <li>{links.listen}</li>
+                {isHome ? <li>{links.listen}</li> : null}
                 {showNextPrev ? (
                   <>
                     <li>{links.prev}</li>
