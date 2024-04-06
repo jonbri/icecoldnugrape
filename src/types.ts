@@ -1,4 +1,4 @@
-import { SongName } from "./raw";
+import { SongType } from "./raw";
 
 export interface RecordingImport {
   linkid: number;
@@ -28,7 +28,7 @@ export interface Recording extends Omit<RecordingImport, "songs" | "comments"> {
 }
 
 export interface SongImport {
-  name: SongName;
+  name: SongType;
   comments?: Comment[];
   set?: number; // -1 | 1 | 2 | 3
 }
@@ -41,7 +41,7 @@ export interface SongInstance extends Song {
   n: number;
 }
 export interface LinkedSongImport extends Pick<SongInstance, "n" | "set"> {
-  name: SongName;
+  name: SongType;
 }
 
 export interface Comment {
