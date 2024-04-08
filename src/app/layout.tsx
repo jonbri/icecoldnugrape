@@ -43,26 +43,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         Listen
       </Link>
     ),
-    trade: (
-      <Link href="/trade" className={isTrade ? "active" : undefined}>
-        Trade
-      </Link>
-    ),
-    bandcamp: (
-      <Link href="https://jonathanrichman.bandcamp.com/">Bandcamp</Link>
-    ),
-    tour: (
-      <Link href="https://www.highroadtouring.com/artists/jonathan-richman/">
-        Tour
-      </Link>
-    ),
-    label: (
-      <Link href="http://www.bluearrowrecords.com/record-label/jonathan-richman/">
-        Label
-      </Link>
-    ),
-    jojochords: <Link href="http://www.jojochords.com/index.html">Chords</Link>,
-    jojoblog: <Link href="https://jojofiles.blogspot.com/">Blog</Link>,
     prev: (
       <Link
         href={`/recordings/${prev}`}
@@ -123,35 +103,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               ) : null}
             </div>
           </header>
-          <div id="content">
-            {isHome ? (
-              <ul className="inline">
-                <li>{links.bandcamp}</li>
-                <li>{links.tour}</li>
-                <li>{links.label}</li>
-                <li>{links.jojochords}</li>
-                <li>{links.jojoblog}</li>
-              </ul>
-            ) : null}
-            {children}
-            <br />
-            {isHome ? (
-              <ul>
-                <li>{links.trade} </li>
-                <li>
-                  <Link href="https://github.com/jonbri/icecoldnugrape">
-                    GitHub
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://web.archive.org/web/*/icecoldnugrape.com">
-                    Since 2009
-                  </Link>
-                </li>
-              </ul>
-            ) : null}
-            <br />
-          </div>
+          <div id="content">{children}</div>
         </div>
       </body>
     </html>

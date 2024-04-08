@@ -111,6 +111,11 @@ ul.inline {
   }
 }
 
+.external-links {
+  display: flex;
+  flex-direction: column;
+}
+
 .available {
   margin-top: 20px;
 }
