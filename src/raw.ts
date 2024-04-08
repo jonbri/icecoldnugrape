@@ -219,7 +219,7 @@ export type SongType =
   | "Justine"
   | "Karma Chameleon"
   | "Keep on Dancing"
-  | "Keith Richards"
+  | "Keith"
   | "Kumbaya"
   | "La Bamba"
   | "Le Freak"
@@ -588,7 +588,7 @@ export type SongType =
   | "Hebrew Party Song"
   | "My Love She Is From Somewhere Else"
   | "When We Run On the Beach"
-  | "Bohemia"
+  | "They Showed Me The Door To Bohemia"
   | "Love In a Different Way"
   | "El Muerto Vivo"
   | "Coge la Guitarra"
@@ -632,7 +632,37 @@ export type SongType =
   | "But Then Ego Went Away"
   | "Outside O'Duffy's"
   | "Longtemps"
-  | "Mother I Give You My Soul Call";
+  | "Mother I Give You My Soul Call"
+  | "That's All We Need At Our Party"
+  | "Sad Trumpets Of Afternoon"
+  | "Penchant For The Stagnant"
+  | "SA"
+  | "The Fading Of An Old World"
+  | "O Mind! Let Us Go Home!"
+  | "O Mind! Just Dance!"
+  | "This Lovers' Lane Is Very Narrow"
+  | "¡Alegre Soy!"
+  | "Yes, Take Me Home"
+  | "And Do No Other Thing"
+  | "Want To Visit My Inner House?"
+  | "Me And Her And The Beach"
+  | "This Is One Sad World"
+  | "When She Is Walking Up The Street Towards Me"
+  | "This Kind Of Weather Is For Me"
+  | "Distant Are The Stars"
+  | "I Had To See The Harm I'd Done Before I Could Change"
+  | "Shameless, Shameless"
+  | "Sento, Sento"
+  | "Want To Visit My Inner House? (Reprise)"
+  | "Cold Pizza"
+  | "To Celebrate, To Adore"
+  | "La Bamba"
+  | "Guitar In Orange Drums In Pale Purple"
+  | "Everybody Loves Dolly"
+  | "Yatasamaroun"
+  | "Yatasamaroun - Extended Mix"
+  | "En La Discoteca Reggaeton"
+  | "I'm In A Dancing Mood";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1085,7 +1115,7 @@ export const songs: SongImport[] = [
   { name: "Justine" },
   { name: "Karma Chameleon" },
   { name: "Keep on Dancing" },
-  { name: "Keith Richards" },
+  { name: "Keith" },
   { name: "Kumbaya" },
   { name: "La Bamba" },
   { name: "Le Freak" },
@@ -1615,7 +1645,7 @@ export const songs: SongImport[] = [
   { name: "My Love She Is From Somewhere Else" },
   { name: "When We Run On the Beach" },
   {
-    name: "Bohemia",
+    name: "They Showed Me The Door To Bohemia",
     comments: [
       {
         name: "JB",
@@ -1710,6 +1740,36 @@ export const songs: SongImport[] = [
   { name: "Outside O'Duffy's" },
   { name: "Longtemps" },
   { name: "Mother I Give You My Soul Call" },
+  { name: "That's All We Need At Our Party" },
+  { name: "Sad Trumpets Of Afternoon" },
+  { name: "Penchant For The Stagnant" },
+  { name: "SA" },
+  { name: "The Fading Of An Old World" },
+  { name: "O Mind! Let Us Go Home!" },
+  { name: "O Mind! Just Dance!" },
+  { name: "This Lovers' Lane Is Very Narrow" },
+  { name: "¡Alegre Soy!" },
+  { name: "Yes, Take Me Home" },
+  { name: "And Do No Other Thing" },
+  { name: "Want To Visit My Inner House?" },
+  { name: "Me And Her And The Beach" },
+  { name: "This Is One Sad World" },
+  { name: "When She Is Walking Up The Street Towards Me" },
+  { name: "This Kind Of Weather Is For Me" },
+  { name: "Distant Are The Stars" },
+  { name: "I Had To See The Harm I'd Done Before I Could Change" },
+  { name: "Shameless, Shameless" },
+  { name: "Sento, Sento" },
+  { name: "Want To Visit My Inner House? (Reprise)" },
+  { name: "Cold Pizza" },
+  { name: "To Celebrate, To Adore" },
+  { name: "La Bamba" },
+  { name: "Guitar In Orange Drums In Pale Purple" },
+  { name: "Everybody Loves Dolly" },
+  { name: "Yatasamaroun" },
+  { name: "Yatasamaroun - Extended Mix" },
+  { name: "En La Discoteca Reggaeton" },
+  { name: "I'm In A Dancing Mood" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -18745,7 +18805,7 @@ export const recordings: RecordingImport[] = [
       { name: "The Dark Crypt Like Arcade", n: 8 },
       { name: "Take Me to the Plaza", n: 9 },
       { name: "Not So Much To Be Loved As To Love", n: 10 },
-      { name: "Keith Richards", n: 11 },
+      { name: "Keith", n: 11 },
       { name: "Egyptian Reggae", n: 12 },
       { name: "A Que Venimos Sino a Caer?", n: 13 },
       { name: "A Hard Time Saying Goodbye", n: 14 },
@@ -18780,7 +18840,7 @@ export const recordings: RecordingImport[] = [
       { name: "Dancing In the Moonlight", n: 4 },
       { name: "The Dark Crypt Like Arcade", n: 5 },
       { name: "The Sadness of the Youth", n: 6 },
-      { name: "Keith Richards", n: 7 },
+      { name: "Keith", n: 7 },
       { name: "I Was Dancing in the Lesbian Bar", n: 8 },
       { name: "Le Printemps Des Amoreux Est Venue", n: 9 },
       { name: "Because Her Beauty is Raw and Wild", n: 10 },
@@ -18831,7 +18891,7 @@ export const recordings: RecordingImport[] = [
       { name: "Les Etoiles", n: 12 },
       { name: "I Was Dancing in the Lesbian Bar", n: 13 },
       { name: "My Affected Accent", n: 14 },
-      { name: "Keith Richards", n: 15 },
+      { name: "Keith", n: 15 },
       { name: "My Baby Love Love Loves Me", n: 16 },
       { name: "Es Como El Pan", n: 17 },
     ],
@@ -18910,7 +18970,7 @@ export const recordings: RecordingImport[] = [
       { name: "The World Is Showing It's Hand", n: 11 },
       { name: "El Joven se Estemece", n: 12 },
       { name: "When We Refuse to Suffer", n: 13 },
-      { name: "Keith Richards", n: 14 },
+      { name: "Keith", n: 14 },
     ],
     comments: [
       {
@@ -18953,7 +19013,7 @@ export const recordings: RecordingImport[] = [
       { name: "I Was The One She Came For", n: 12 },
       { name: "My Affected Accent", n: 13 },
       { name: "instrumental", n: 14 },
-      { name: "Keith Richards", n: 15 },
+      { name: "Keith", n: 15 },
       { name: "Time Has Been Going By So Fast", n: 16 },
       { name: "A Que Venimos Sino a Caer?", n: 17 },
       { name: "When We Refuse to Suffer", n: 18 },
@@ -18986,7 +19046,7 @@ export const recordings: RecordingImport[] = [
       { name: "Stultified", n: 10 },
       { name: "Velvet Underground", n: 11 },
       { name: "In Che Mondo Vivamo", n: 12 },
-      { name: "Keith Richards", n: 13 },
+      { name: "Keith", n: 13 },
       { name: "A Que Venimos Sino a Caer?", n: 14 },
       { name: "This Romance Will Be Different For Me", n: 15 },
       { name: "A Hard Time Saying Goodbye", n: 16 },
@@ -19018,7 +19078,7 @@ export const recordings: RecordingImport[] = [
       { name: "These Bodies That Came To Cavort", n: 8 },
       { name: "I Was Dancing in the Lesbian Bar", n: 9 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 10 },
-      { name: "Keith Richards", n: 11 },
+      { name: "Keith", n: 11 },
       { name: "Let Her Go Into the Darkness", n: 12 },
       { name: "Italian Song About a Party", n: 13 },
       { name: "Our Party Will Be On The Beach Tonight", n: 14 },
@@ -19229,7 +19289,7 @@ export const recordings: RecordingImport[] = [
     jon: true,
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
-      { name: "Bohemia", n: 2 },
+      { name: "They Showed Me The Door To Bohemia", n: 2 },
       { name: "He Gave Us the Wine to Taste", n: 3 },
       { name: "El Joven se Estemece", n: 4 },
       { name: "Here It Is", n: 5 },
@@ -19243,7 +19303,7 @@ export const recordings: RecordingImport[] = [
       { name: "Sa Voix M'Atisse", n: 13 },
       { name: "Take Me to the Plaza", n: 14 },
       { name: "My Love She Is From Somewhere Else", n: 15 },
-      { name: "Keith Richards", n: 16 },
+      { name: "Keith", n: 16 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 17 },
       { name: "I Was The One She Came For", n: 18 },
       { name: "Arriverderci Roma", n: 19 },
@@ -19283,7 +19343,7 @@ export const recordings: RecordingImport[] = [
       { name: "A Que Venimos Sino a Caer?", n: 9 },
       { name: "My Baby Love Love Loves Me", n: 10 },
       { name: "When We Refuse to Suffer", n: 11 },
-      { name: "Bohemia", n: 12 },
+      { name: "They Showed Me The Door To Bohemia", n: 12 },
       { name: "I Was Dancing in the Lesbian Bar", n: 13 },
       { name: "Sa Voix M'Atisse", n: 14 },
       { name: "It Was Time For Me To Be With Her", n: 15 },
@@ -19329,7 +19389,7 @@ export const recordings: RecordingImport[] = [
       { name: "Le Printemps Des Amoreux Est Venue", n: 10 },
       { name: "Old World", n: 11 },
       { name: "When We Refuse to Suffer", n: 12 },
-      { name: "Bohemia", n: 13 },
+      { name: "They Showed Me The Door To Bohemia", n: 13 },
       { name: "These Bodies That Came To Cavort", n: 14 },
       { name: "Because Her Beauty is Raw and Wild", n: 15 },
       { name: "I Was Dancing in the Lesbian Bar", n: 16 },
@@ -19360,7 +19420,7 @@ export const recordings: RecordingImport[] = [
       { name: "Egyptian Reggae", n: 4 },
       { name: "I Was The One She Came For", n: 5 },
       { name: "Le Printemps Des Amoreux Est Venue", n: 6 },
-      { name: "Bohemia", n: 7 },
+      { name: "They Showed Me The Door To Bohemia", n: 7 },
       { name: "No One Was Like Vermeer", n: 8 },
       { name: "Italian Song About a Party", n: 9 },
       { name: "My Love She Is From Somewhere Else", n: 10 },
@@ -19369,7 +19429,7 @@ export const recordings: RecordingImport[] = [
       { name: "That Summer Feeling", n: 13 },
       { name: "If You Want To Leave Our Party Just Go", n: 14 },
       { name: "When We Refuse to Suffer", n: 15 },
-      { name: "Keith Richards", n: 16 },
+      { name: "Keith", n: 16 },
       { name: "Not So Much To Be Loved As To Love", n: 17 },
     ],
   },
@@ -19391,13 +19451,13 @@ export const recordings: RecordingImport[] = [
       { name: "Hebrew Party Song", n: 5 },
       { name: "If You Want To Leave Our Party Just Go", n: 6 },
       { name: "O Moon, Queen Of Night On Earth", n: 7 },
-      { name: "Keith Richards", n: 8 },
+      { name: "Keith", n: 8 },
       { name: "Because Her Beauty is Raw and Wild", n: 9 },
       { name: "Take Me to the Plaza", n: 10 },
       { name: "These Bodies That Came To Cavort", n: 11 },
       { name: "Sa Voix M'Atisse", n: 12 },
       { name: "Vincent Van Gogh", n: 13 },
-      { name: "Bohemia", n: 14 },
+      { name: "They Showed Me The Door To Bohemia", n: 14 },
       { name: "I Was Dancing in the Lesbian Bar", n: 15 },
       { name: "That Summer Feeling", n: 16 },
       { name: "When We Refuse to Suffer", n: 17 },
@@ -19424,7 +19484,7 @@ export const recordings: RecordingImport[] = [
       { name: "I Was The One She Came For", n: 5 },
       { name: "Hebrew Party Song", n: 6 },
       { name: "Stultified", n: 7 },
-      { name: "Bohemia", n: 8 },
+      { name: "They Showed Me The Door To Bohemia", n: 8 },
       { name: "We'll Be the Noise, We'll Be the Scandal", n: 9 },
       { name: "No One Was Like Vermeer", n: 10 },
       { name: "Old World", n: 11 },
@@ -19481,7 +19541,7 @@ export const recordings: RecordingImport[] = [
       { name: "I Was Dancing in the Lesbian Bar", n: 8 },
       { name: "O Moon, Queen Of Night On Earth", n: 9 },
       { name: "I Was Dancing in the Lesbian Bar", n: 10 },
-      { name: "Bohemia", n: 11 },
+      { name: "They Showed Me The Door To Bohemia", n: 11 },
       { name: "My Baby Love Love Loves Me", n: 12 },
       { name: "unknown (italian)", n: 13 },
       { name: "unknown (?)", n: 14 },
@@ -19557,7 +19617,7 @@ export const recordings: RecordingImport[] = [
       { name: "Le Printemps Des Amoreux Est Venue", n: 13 },
       { name: "My Love She Is From Somewhere Else", n: 14 },
       { name: "These Bodies That Came To Cavort", n: 15 },
-      { name: "Bohemia", n: 16 },
+      { name: "They Showed Me The Door To Bohemia", n: 16 },
       { name: "My Baby Love Love Loves Me", n: 17 },
       { name: "Not So Much To Be Loved As To Love", n: 18 },
     ],
@@ -19583,10 +19643,10 @@ export const recordings: RecordingImport[] = [
     jon: false,
     songs: [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 1 },
-      { name: "Bohemia", n: 2 },
+      { name: "They Showed Me The Door To Bohemia", n: 2 },
       { name: "El Joven se Estemece", n: 3 },
       { name: "Let Her Go Into the Darkness", n: 4 },
-      { name: "Keith Richards", n: 5 },
+      { name: "Keith", n: 5 },
       { name: "No One Was Like Vermeer", n: 6 },
       { name: "La Festa e Galactica", n: 7 },
       { name: "Older Girl", n: 8 },
@@ -19675,7 +19735,7 @@ export const recordings: RecordingImport[] = [
       { name: "Celestial", n: 7 },
       { name: "Vincent Van Gogh", n: 8 },
       { name: "A Que Venimos Sino a Caer?", n: 9 },
-      { name: "Keith Richards", n: 10 },
+      { name: "Keith", n: 10 },
       { name: "Le Printemps Des Amoreux Est Venue", n: 11 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 12 },
       { name: "O Moon, Queen Of Night On Earth", n: 13 },
@@ -19744,7 +19804,7 @@ export const recordings: RecordingImport[] = [
       { name: "Springtime In New York", n: 10 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 11 },
       { name: "Parent Pushing Stroller", n: 12 },
-      { name: "Keith Richards", n: 13 },
+      { name: "Keith", n: 13 },
       { name: "We Want to Take You Higher", n: 14 },
       { name: "My Baby Love Love Loves Me", n: 15 },
       { name: "We Had a Fight Last Night", n: 16 },
@@ -19899,7 +19959,7 @@ export const recordings: RecordingImport[] = [
       { name: "He Gave Us the Wine to Taste", n: 11 },
       { name: "Old World", n: 12 },
       { name: "My Baby Love Love Loves Me", n: 13 },
-      { name: "Keith Richards", n: 14 },
+      { name: "Keith", n: 14 },
       { name: "instrumental", n: 15 },
       { name: "Polk Salad Annie", n: 16 },
     ],
@@ -20040,6 +20100,30 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
+    linkid: 2015030100,
+    type: "Single",
+    name: "O Sun!",
+    year: 2015,
+    month: 3,
+    date: 1,
+    songs: [
+      { name: "O Sun!", n: 1 },
+      { name: "Wait! Wait!", n: 2 },
+    ],
+  },
+  {
+    linkid: 2015030105,
+    type: "Single",
+    name: "Keith",
+    year: 2015,
+    month: 3,
+    date: 1,
+    songs: [
+      { name: "Keith", n: 1 },
+      { name: "Wait! Wait!", n: 2 },
+    ],
+  },
+  {
     linkid: 2015030600,
     type: "Show",
     venue: "Duke Coffeehouse",
@@ -20096,6 +20180,8 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     name: "Ishkode! Ishkode!",
     year: 2016,
+    month: 3,
+    date: 1,
     songs: [
       { n: 1, name: "Whoa! How Different We All Are!" },
       { n: 2, name: "Ishkode! Ishkode!" },
@@ -20189,6 +20275,30 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
+    linkid: 2016111500,
+    type: "Single",
+    name: "That's All We Need At Our Party",
+    year: 2016,
+    month: 11,
+    date: 15,
+    songs: [
+      { name: "That's All We Need At Our Party", n: 1 },
+      { name: "Sad Trumpets Of Afternoon", n: 2 },
+    ],
+  },
+  {
+    linkid: 2018030100,
+    type: "Single",
+    name: "Penchant For The Stagnant",
+    year: 2018,
+    month: 3,
+    date: 1,
+    songs: [
+      { name: "Penchant For The Stagnant", n: 1 },
+      { name: "Not So Much To Be Loved As To Love", n: 2 },
+    ],
+  },
+  {
     linkid: 2018022300,
     type: "Show",
     venue: "",
@@ -20200,6 +20310,28 @@ export const recordings: RecordingImport[] = [
     date: 23,
     jon: true,
     songs: [],
+  },
+  {
+    linkid: 2018100100,
+    type: "Album",
+    name: "SA!",
+    year: 2018,
+    month: 10,
+    date: 1,
+    songs: [
+      { n: 1, name: "SA" },
+      { n: 2, name: "My Love She Is From Somewhere Else" },
+      { n: 3, name: "The Fading Of An Old World" },
+      { n: 4, name: "O Mind! Let Us Go Home!" },
+      { n: 5, name: "Penchant For The Stagnant" },
+      { n: 6, name: "O Mind! Just Dance!" },
+      { n: 7, name: "This Lovers' Lane Is Very Narrow" },
+      { n: 8, name: "¡Alegre Soy!" },
+      { n: 9, name: "Yes, Take Me Home" },
+      { n: 10, name: "And Do No Other Thing" },
+      { n: 11, name: "Sad Trumpets Of Afternoon" },
+      { n: 12, name: "SA" },
+    ],
   },
   {
     linkid: 2018101600,
@@ -20228,6 +20360,42 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
+    linkid: 2021121400,
+    type: "Album",
+    name: "Want To Visit My Inner House?",
+    year: 2021,
+    month: 12,
+    date: 14,
+    songs: [
+      { n: 1, name: "Want To Visit My Inner House?" },
+      { n: 2, name: "Me And Her And The Beach" },
+      { n: 3, name: "This Is One Sad World" },
+      { n: 4, name: "When She Is Walking Up The Street Towards Me" },
+      { n: 5, name: "This Kind Of Weather Is For Me" },
+      { n: 6, name: "Distant Are The Stars" },
+      { n: 7, name: "I Had To See The Harm I'd Done Before I Could Change" },
+      { n: 8, name: "Shameless, Shameless" },
+      { n: 9, name: "Sento, Sento" },
+      { n: 10, name: "Want To Visit My Inner House? (Reprise)" },
+    ],
+  },
+  {
+    linkid: 2022031800,
+    type: "Single",
+    name: "Cold Pizza & Other Hot Stuff EP",
+    year: 2022,
+    month: 3,
+    date: 18,
+    songs: [
+      { name: "Cold Pizza", n: 1 },
+      { name: "New Kind Of Neighborhood", n: 2 },
+      { name: "To Celebrate, To Adore", n: 3 },
+      { name: "La Bamba", n: 4 },
+      { name: "Guitar In Orange Drums In Pale Purple", n: 5 },
+      { name: "Everybody Loves Dolly", n: 6 },
+    ],
+  },
+  {
     linkid: 2022101300,
     type: "Show",
     venue: "The Arts Center",
@@ -20239,6 +20407,20 @@ export const recordings: RecordingImport[] = [
     date: 13,
     jon: true,
     songs: [],
+  },
+  {
+    linkid: 2023030200,
+    type: "Single",
+    name: "Yatasamaroun EP",
+    year: 2023,
+    month: 3,
+    date: 2,
+    songs: [
+      { name: "Yatasamaroun", n: 1 },
+      { name: "Yatasamaroun - Extended Mix", n: 2 },
+      { name: "En La Discoteca Reggaeton", n: 3 },
+      { name: "I'm In A Dancing Mood", n: 4 },
+    ],
   },
   {
     linkid: 9000000000,
