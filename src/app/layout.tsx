@@ -12,48 +12,39 @@ const font = Font({ subsets: ["latin"], weight: "300" });
 export default function RootLayout({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const id = pathname.split("/").reverse()[0];
+  const isHome = pathname === "/";
+  const isTrade = pathname === "/trade";
+  const isRecordings = pathname.startsWith("/recordings");
+  const isSongs = pathname.startsWith("/songs");
+  const isSearch = pathname.startsWith("/search");
+  const isListen = pathname.startsWith("/listen");
   const { prev, next } = getRecording(id) ?? {};
   const showNextPrev = prev || next;
 
   const links = {
     recordings: (
-      <Link
-        href="/recordings"
-        className={pathname.startsWith("/recordings") ? "active" : undefined}
-      >
+      <Link href="/recordings" className={isRecordings ? "active" : undefined}>
         Recordings
       </Link>
     ),
     songs: (
-      <Link
-        href="/songs"
-        className={pathname.startsWith("/songs") ? "active" : undefined}
-      >
+      <Link href="/songs" className={isSongs ? "active" : undefined}>
         Songs
       </Link>
     ),
     random: <Link href={getRandomUrl()}>Random</Link>,
     search: (
-      <Link
-        href="/search"
-        className={pathname.startsWith("/search") ? "active" : undefined}
-      >
+      <Link href="/search" className={isSearch ? "active" : undefined}>
         Search
       </Link>
     ),
     listen: (
-      <Link
-        href="/listen"
-        className={pathname.startsWith("/listen") ? "active" : undefined}
-      >
+      <Link href="/listen" className={isListen ? "active" : undefined}>
         Listen
       </Link>
     ),
     trade: (
-      <Link
-        href="/trade"
-        className={pathname.startsWith("/trade") ? "active" : undefined}
-      >
+      <Link href="/trade" className={isTrade ? "active" : undefined}>
         Trade
       </Link>
     ),
@@ -98,11 +89,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     ),
   };
 
-  const isHome = pathname === "/";
-  const isRecordings = pathname === "/recordings";
-  const isSongs = pathname === "/songs";
-  const isTrade = pathname === "/trade";
-
   return (
     <html lang="en">
       <head>
@@ -120,46 +106,36 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   {!isHome ? <span>&#8593;</span> : null}icecoldnugrape.com
                 </Link>
               </h1>
-              <div
-                className="links"
-                style={{
-                  display:
-                    isHome || isRecordings || isSongs ? "flex" : "inherit",
-                  flexDirection:
-                    isHome || isRecordings || isSongs ? "column" : "inherit",
-                }}
-              >
-                {!isTrade ? (
-                  <ul className="inline">
-                    <li>{links.recordings}</li>
-                    <li>{links.songs}</li>
-                    <li>{links.random}</li>
-                    <li>{links.search}</li>
-                    {isHome ? <li>{links.listen}</li> : null}
-                    {showNextPrev ? (
-                      <>
-                        <li>{links.prev}</li>
-                        <li>{links.next}</li>
-                      </>
-                    ) : null}
-                  </ul>
-                ) : null}
-                {isHome ? (
-                  <ul className="inline">
-                    <li>{links.bandcamp}</li>
-                    <li>{links.tour}</li>
-                    <li>{links.label}</li>
-                    <li>{links.jojochords}</li>
-                    <li>{links.jojoblog}</li>
-                  </ul>
-                ) : null}
-              </div>
+              {!isTrade ? (
+                <ul className="inline">
+                  <li>{links.recordings}</li>
+                  <li>{links.songs}</li>
+                  <li>{links.random}</li>
+                  <li>{links.search}</li>
+                  {isHome ? <li>{links.listen}</li> : null}
+                  {showNextPrev ? (
+                    <>
+                      <li>{links.prev}</li>
+                      <li>{links.next}</li>
+                    </>
+                  ) : null}
+                </ul>
+              ) : null}
             </div>
           </header>
           <div id="content">
+            {isHome ? (
+              <ul className="inline">
+                <li>{links.bandcamp}</li>
+                <li>{links.tour}</li>
+                <li>{links.label}</li>
+                <li>{links.jojochords}</li>
+                <li>{links.jojoblog}</li>
+              </ul>
+            ) : null}
             {children}
             <br />
-            {pathname === "/" ? (
+            {isHome ? (
               <ul>
                 <li>{links.trade} </li>
                 <li>

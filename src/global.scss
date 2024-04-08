@@ -21,7 +21,7 @@ body {
   }
 }
 #header-content {
-  padding: 5px;
+  padding: 0 5px;
 }
 #content {
   padding: 5px;
@@ -61,13 +61,6 @@ h2 {
 .active {
   color: $white;
   transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-.links {
-  display: flex;
-  ul {
-    margin-right: 15px;
-  }
 }
 
 .recordings {
