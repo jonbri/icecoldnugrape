@@ -69,7 +69,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           {recording.jon === true ? (
             <div className="quality">
               This recording is{" "}
-              <Link href="/myCollection">
+              <Link href="/trade">
                 <strong>available</strong>
               </Link>
             </div>
