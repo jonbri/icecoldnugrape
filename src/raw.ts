@@ -612,7 +612,6 @@ export type SongType =
   | "Parent Pushing Stroller"
   | "Your Mind"
   | "Trash on the Beach"
-  | "Ego Went Away"
   | "La Fiesta Es Para Todos"
   | "Ja La BBQ"
   | "Touched More"
@@ -623,30 +622,26 @@ export type SongType =
   | "Nuestra Que Macar"
   | "Cantange a Cantar"
   | "Doing It To Death"
-  | "Torna a Surriento";
+  | "Torna a Surriento"
+  | "Whoa! How Different We All Are!"
+  | "Ishkode! Ishkode!"
+  | "Wait! Wait!"
+  | "Without The Heart For Chaperone"
+  | "'A Nnammurata Mia"
+  | "Let Me Do This Right!"
+  | "But Then Ego Went Away"
+  | "Outside O'Duffy's"
+  | "Longtemps"
+  | "Mother I Give You My Soul Call";
 
 export const songs: SongImport[] = [
-  {
-    name: "drumbeat...",
-  },
-  {
-    name: "(She's Gonna) Respect Me",
-  },
-  {
-    name: "Sister Ray",
-  },
-  {
-    name: "409",
-  },
-  {
-    name: "4am in Tokyo, Japan",
-  },
-  {
-    name: "7 Day Weekend",
-  },
-  {
-    name: "96 Tears",
-  },
+  { name: "drumbeat..." },
+  { name: "(She's Gonna) Respect Me" },
+  { name: "Sister Ray" },
+  { name: "409" },
+  { name: "4am in Tokyo, Japan" },
+  { name: "7 Day Weekend" },
+  { name: "96 Tears" },
   {
     name: "A Crush Or Love?",
     comments: [
@@ -657,9 +652,7 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "A Hard Time Saying Goodbye",
-  },
+  { name: "A Hard Time Saying Goodbye" },
   {
     name: "A Higher Power",
     comments: [
@@ -680,12 +673,8 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "A Que Venimos Sino a Caer?",
-  },
-  {
-    name: "A Song About New York",
-  },
+  { name: "A Que Venimos Sino a Caer?" },
+  { name: "A Song About New York" },
   {
     name: "Abdul and Cleopatra",
     comments: [
@@ -696,9 +685,7 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Abominable Snowman in the Market",
-  },
+  { name: "Abominable Snowman in the Market" },
   {
     name: "Abu Jamal",
     comments: [
@@ -714,30 +701,14 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Action Packed",
-  },
-  {
-    name: "Affection",
-  },
-  {
-    name: "African Lady",
-  },
-  {
-    name: "Afternoon",
-  },
-  {
-    name: "Amazing Grace",
-  },
-  {
-    name: "Amorcito Corazon",
-  },
-  {
-    name: "Ancient Long Ago",
-  },
-  {
-    name: "Angels Watching Over Me",
-  },
+  { name: "Action Packed" },
+  { name: "Affection" },
+  { name: "African Lady" },
+  { name: "Afternoon" },
+  { name: "Amazing Grace" },
+  { name: "Amorcito Corazon" },
+  { name: "Ancient Long Ago" },
+  { name: "Angels Watching Over Me" },
   {
     name: "Are You Feeling Good?",
     comments: [
@@ -748,9 +719,7 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Arriverderci Roma",
-  },
+  { name: "Arriverderci Roma" },
   {
     name: "As My Mother Lay Lying",
     comments: [
@@ -761,9 +730,7 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Astral Plane",
-  },
+  { name: "Astral Plane" },
   {
     name: "At Home With a Lover",
     comments: [
@@ -774,9 +741,7 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "At Night",
-  },
+  { name: "At Night" },
   {
     name: "Baby Baby Boss Me Around",
     comments: [
@@ -787,30 +752,14 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Baby We Can't Go Wrong",
-  },
-  {
-    name: "Baby, I'm A Rockin' Rebel'oh",
-  },
-  {
-    name: "Back in the USA",
-  },
-  {
-    name: "Back in Your Life",
-  },
-  {
-    name: "Bajando, Bajando por Ceniza y Mineral",
-  },
-  {
-    name: "Bang, Bang, Lulu",
-  },
-  {
-    name: "Barcelona",
-  },
-  {
-    name: "Because Her Beauty is Raw and Wild",
-  },
+  { name: "Baby We Can't Go Wrong" },
+  { name: "Baby, I'm A Rockin' Rebel'oh" },
+  { name: "Back in the USA" },
+  { name: "Back in Your Life" },
+  { name: "Bajando, Bajando por Ceniza y Mineral" },
+  { name: "Bang, Bang, Lulu" },
+  { name: "Barcelona" },
+  { name: "Because Her Beauty is Raw and Wild" },
   {
     name: "Behold the Lilies of the Field ",
     comments: [
@@ -821,42 +770,18 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Blowin in the Wind",
-  },
-  {
-    name: "Blue Moon",
-  },
-  {
-    name: "Blue Suede Shoes",
-  },
-  {
-    name: "Boogie Woogie Country Girl",
-  },
-  {
-    name: "Born To Be Wild",
-  },
-  {
-    name: "Born Too Late",
-  },
-  {
-    name: "Boston My Hometown",
-  },
-  {
-    name: "Boston, USA",
-  },
-  {
-    name: "Bring Back Springtime To The World Of Nature",
-  },
-  {
-    name: "Bundle Of Joy",
-  },
-  {
-    name: "Buzz Buzz Buzz",
-  },
-  {
-    name: "C'etait Toujours Toi",
-  },
+  { name: "Blowin in the Wind" },
+  { name: "Blue Moon" },
+  { name: "Blue Suede Shoes" },
+  { name: "Boogie Woogie Country Girl" },
+  { name: "Born To Be Wild" },
+  { name: "Born Too Late" },
+  { name: "Boston My Hometown" },
+  { name: "Boston, USA" },
+  { name: "Bring Back Springtime To The World Of Nature" },
+  { name: "Bundle Of Joy" },
+  { name: "Buzz Buzz Buzz" },
+  { name: "C'etait Toujours Toi" },
   {
     name: "California Desert Party",
     comments: [
@@ -867,30 +792,14 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Cambridge Clown",
-  },
-  {
-    name: "Camina y Ven",
-  },
-  {
-    name: "Cappuccino Bar",
-  },
-  {
-    name: "Carla",
-  },
-  {
-    name: "Celestial",
-  },
-  {
-    name: "Chewing Gum Wrapper",
-  },
-  {
-    name: "Chiusa la Festa, Chiusa la Sera",
-  },
-  {
-    name: "Circa",
-  },
+  { name: "Cambridge Clown" },
+  { name: "Camina y Ven" },
+  { name: "Cappuccino Bar" },
+  { name: "Carla" },
+  { name: "Celestial" },
+  { name: "Chewing Gum Wrapper" },
+  { name: "Chiusa la Festa, Chiusa la Sera" },
+  { name: "Circa" },
   {
     name: "Circle I",
     comments: [
@@ -901,21 +810,11 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "City vs. Country",
-  },
-  {
-    name: "Closer",
-  },
-  {
-    name: "Coin De Rue",
-  },
-  {
-    name: "Come On Everybody",
-  },
-  {
-    name: "Con el Merengue",
-  },
+  { name: "City vs. Country" },
+  { name: "Closer" },
+  { name: "Coin De Rue" },
+  { name: "Come On Everybody" },
+  { name: "Con el Merengue" },
   {
     name: "Corner Store",
     comments: [
@@ -926,9 +825,7 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Cosi Veloce",
-  },
+  { name: "Cosi Veloce" },
   {
     name: "Couples Must Fight",
     comments: [
@@ -944,9 +841,7 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Cozy With a K",
-  },
+  { name: "Cozy With a K" },
   {
     name: "Crazy Eddie",
     comments: [
@@ -967,21 +862,11 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Creeps On The March",
-  },
-  {
-    name: "Dancin' Late at Night",
-  },
-  {
-    name: "I Was Dancing in the Lesbian Bar",
-  },
-  {
-    name: "Dancing In the Moonlight",
-  },
-  {
-    name: "David and Goliath",
-  },
+  { name: "Creeps On The March" },
+  { name: "Dancin' Late at Night" },
+  { name: "I Was Dancing in the Lesbian Bar" },
+  { name: "Dancing In the Moonlight" },
+  { name: "David and Goliath" },
   {
     name: "Death Comes to Everyone",
     comments: [
@@ -997,60 +882,24 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Dick Gregory",
-  },
-  {
-    name: "Dignified And Old",
-  },
-  {
-    name: "Do You Want To Dance",
-  },
-  {
-    name: "Dodge Veg-o-matic",
-  },
-  {
-    name: "Don't Let Our Youth Go To Waste",
-  },
-  {
-    name: "Don't Worry Baby",
-  },
-  {
-    name: "Don't You Just Know It",
-  },
-  {
-    name: "Doo Wop Number",
-  },
-  {
-    name: "Double Chocolate Malted",
-  },
-  {
-    name: "Down In Bermuda",
-  },
-  {
-    name: "Down In Cuba",
-  },
-  {
-    name: "Down the Mississippi",
-  },
-  {
-    name: "Drift Away",
-  },
-  {
-    name: "Egyptian Reggae",
-  },
-  {
-    name: "El Joven se Estemece",
-  },
-  {
-    name: "El UFO Man",
-  },
-  {
-    name: "Emaline",
-  },
-  {
-    name: "Empty Heart",
-  },
+  { name: "Dick Gregory" },
+  { name: "Dignified And Old" },
+  { name: "Do You Want To Dance" },
+  { name: "Dodge Veg-o-matic" },
+  { name: "Don't Let Our Youth Go To Waste" },
+  { name: "Don't Worry Baby" },
+  { name: "Don't You Just Know It" },
+  { name: "Doo Wop Number" },
+  { name: "Double Chocolate Malted" },
+  { name: "Down In Bermuda" },
+  { name: "Down In Cuba" },
+  { name: "Down the Mississippi" },
+  { name: "Drift Away" },
+  { name: "Egyptian Reggae" },
+  { name: "El Joven se Estemece" },
+  { name: "El UFO Man" },
+  { name: "Emaline" },
+  { name: "Empty Heart" },
   {
     name: "Es Como El Pan",
     comments: [
@@ -1071,144 +920,52 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Everything's Gotta Be Right",
-  },
-  {
-    name: "Falling in Love Must Be Two",
-  },
-  {
-    name: "Feel It",
-  },
-  {
-    name: "Fender Stratocaster",
-  },
-  {
-    name: "Five Year Old Feeling",
-  },
-  {
-    name: "Floatin'",
-  },
-  {
-    name: "Fly Into the Mystery",
-  },
-  {
-    name: "Foggy Notion",
-  },
-  {
-    name: "Follow the Leader",
-  },
-  {
-    name: "For Drama We Have the Seasons",
-  },
-  {
-    name: "French Style",
-  },
-  {
-    name: "Friday Night in Osaka in Japan",
-  },
-  {
-    name: "Gail Loves Me",
-  },
-  {
-    name: "Get In the Groove",
-  },
-  {
-    name: "Girl With the Curl",
-  },
-  {
-    name: "Girlfren'",
-  },
-  {
-    name: "Give Paris One More Chance",
-  },
-  {
-    name: "Goin' Home",
-  },
-  {
-    name: "Good Golly Miss Molly",
-  },
-  {
-    name: "Good Lovin'",
-  },
-  {
-    name: "Good Night Baby",
-  },
-  {
-    name: "Government Center",
-  },
-  {
-    name: "Green Onions",
-  },
-  {
-    name: "Ha Muerto la Rosa",
-  },
-  {
-    name: "Hang On Sloopy",
-  },
-  {
-    name: "Happy Birthday",
-  },
-  {
-    name: "Happy Birthday Dawn",
-  },
-  {
-    name: "Happy Birthday to Joey",
-  },
-  {
-    name: "Harbour Lights",
-  },
-  {
-    name: "Haseemla Classica",
-  },
-  {
-    name: "Have You Got Something You Love",
-  },
-  {
-    name: "He Gave Us the Wine to Taste",
-  },
-  {
-    name: "Heart To Heart",
-  },
-  {
-    name: "Hello from Cupid",
-  },
-  {
-    name: "Hello Josephine",
-  },
-  {
-    name: "Her Mystery Not Of High Heels and Eye Shadow",
-  },
-  {
-    name: "Her Way Moves Me",
-  },
-  {
-    name: "Here Come the Martian Martians",
-  },
-  {
-    name: "Here Comes My Baby",
-  },
-  {
-    name: "Here It Is",
-  },
-  {
-    name: "Here We Are in Ancient Egypt",
-  },
-  {
-    name: "Here We Are In Dreamland",
-  },
-  {
-    name: "Hey Good Looking",
-  },
-  {
-    name: "Hey There Little Insect",
-  },
-  {
-    name: "Hi Dear",
-  },
-  {
-    name: "Hi Fred, We Still Love You",
-  },
+  { name: "Everything's Gotta Be Right" },
+  { name: "Falling in Love Must Be Two" },
+  { name: "Feel It" },
+  { name: "Fender Stratocaster" },
+  { name: "Five Year Old Feeling" },
+  { name: "Floatin'" },
+  { name: "Fly Into the Mystery" },
+  { name: "Foggy Notion" },
+  { name: "Follow the Leader" },
+  { name: "For Drama We Have the Seasons" },
+  { name: "French Style" },
+  { name: "Friday Night in Osaka in Japan" },
+  { name: "Gail Loves Me" },
+  { name: "Get In the Groove" },
+  { name: "Girl With the Curl" },
+  { name: "Girlfren'" },
+  { name: "Give Paris One More Chance" },
+  { name: "Goin' Home" },
+  { name: "Good Golly Miss Molly" },
+  { name: "Good Lovin'" },
+  { name: "Good Night Baby" },
+  { name: "Government Center" },
+  { name: "Green Onions" },
+  { name: "Ha Muerto la Rosa" },
+  { name: "Hang On Sloopy" },
+  { name: "Happy Birthday" },
+  { name: "Happy Birthday Dawn" },
+  { name: "Happy Birthday to Joey" },
+  { name: "Harbour Lights" },
+  { name: "Haseemla Classica" },
+  { name: "Have You Got Something You Love" },
+  { name: "He Gave Us the Wine to Taste" },
+  { name: "Heart To Heart" },
+  { name: "Hello from Cupid" },
+  { name: "Hello Josephine" },
+  { name: "Her Mystery Not Of High Heels and Eye Shadow" },
+  { name: "Her Way Moves Me" },
+  { name: "Here Come the Martian Martians" },
+  { name: "Here Comes My Baby" },
+  { name: "Here It Is" },
+  { name: "Here We Are in Ancient Egypt" },
+  { name: "Here We Are In Dreamland" },
+  { name: "Hey Good Looking" },
+  { name: "Hey There Little Insect" },
+  { name: "Hi Dear" },
+  { name: "Hi Fred, We Still Love You" },
   {
     name: "Hospital",
     comments: [
@@ -1219,27 +976,13 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Hot Love",
-  },
-  {
-    name: "Howdy-D Burger Drive-in",
-  },
-  {
-    name: "I Can Hear Her Fighting With Herself",
-  },
-  {
-    name: "I Can't Find My Best Friend",
-  },
-  {
-    name: "I Can't Sleep Now",
-  },
-  {
-    name: "I Don't Complain About My Lucky Star",
-  },
-  {
-    name: "I Don't Want To Go Halfway",
-  },
+  { name: "Hot Love" },
+  { name: "Howdy-D Burger Drive-in" },
+  { name: "I Can Hear Her Fighting With Herself" },
+  { name: "I Can't Find My Best Friend" },
+  { name: "I Can't Sleep Now" },
+  { name: "I Don't Complain About My Lucky Star" },
+  { name: "I Don't Want To Go Halfway" },
   {
     name: "I Eat With Gusto, Damn! You Bet",
     comments: [
@@ -1255,117 +998,43 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "I Grew Up In the Suburbs",
-  },
-  {
-    name: "I Had a Crush On Her",
-  },
-  {
-    name: "I Had a Favorite Flower",
-  },
-  {
-    name: "I Had to Change",
-  },
-  {
-    name: "I Have Come Out to Play",
-  },
-  {
-    name: "I Have No Reason to Doubt Her",
-  },
-  {
-    name: "I Know I Turn Her On",
-  },
-  {
-    name: "I Like it Like That",
-  },
-  {
-    name: "I Love Her Little Body",
-  },
-  {
-    name: "I Love Hot Nights",
-  },
-  {
-    name: "I Love Life More and More",
-  },
-  {
-    name: "I Love Life So",
-  },
-  {
-    name: "I Love People",
-  },
-  {
-    name: "I Love the World",
-  },
-  {
-    name: "I Love This World and It's Mystery",
-  },
-  {
-    name: "I Love You So",
-  },
-  {
-    name: "I Moved Away",
-  },
-  {
-    name: "I Must Be King",
-  },
-  {
-    name: "I Need Someone",
-  },
-  {
-    name: "I See What's Underneath",
-  },
-  {
-    name: "I Took a Chance on Her",
-  },
-  {
-    name: "I Wanna Sleep In Your Arms",
-  },
-  {
-    name: "I Want Somebody to Love Me",
-  },
-  {
-    name: "I Want To Love Him So Bad",
-  },
-  {
-    name: "I'd Rather Feel Than Not Feel At All",
-  },
-  {
-    name: "I'm a Jerk",
-  },
-  {
-    name: "I'm a Little Airplane",
-  },
-  {
-    name: "I'm a Little Dinosaur",
-  },
-  {
-    name: "I'm Crying",
-  },
-  {
-    name: "I'm Dropping My Friends (One by One)",
-  },
-  {
-    name: "I'm in a Dancing Mood",
-  },
-  {
-    name: "I'm Just Beginning To Live",
-  },
-  {
-    name: "I'm Nature's Mosquito",
-  },
-  {
-    name: "I'm Not Afraid To Make Mistakes",
-  },
-  {
-    name: "I'm Not Obsessed With Her",
-  },
-  {
-    name: "I'm So Confused",
-  },
-  {
-    name: "I'm Straight",
-  },
+  { name: "I Grew Up In the Suburbs" },
+  { name: "I Had a Crush On Her" },
+  { name: "I Had a Favorite Flower" },
+  { name: "I Had to Change" },
+  { name: "I Have Come Out to Play" },
+  { name: "I Have No Reason to Doubt Her" },
+  { name: "I Know I Turn Her On" },
+  { name: "I Like it Like That" },
+  { name: "I Love Her Little Body" },
+  { name: "I Love Hot Nights" },
+  { name: "I Love Life More and More" },
+  { name: "I Love Life So" },
+  { name: "I Love People" },
+  { name: "I Love the World" },
+  { name: "I Love This World and It's Mystery" },
+  { name: "I Love You So" },
+  { name: "I Moved Away" },
+  { name: "I Must Be King" },
+  { name: "I Need Someone" },
+  { name: "I See What's Underneath" },
+  { name: "I Took a Chance on Her" },
+  { name: "I Wanna Sleep In Your Arms" },
+  { name: "I Want Somebody to Love Me" },
+  { name: "I Want To Love Him So Bad" },
+  { name: "I'd Rather Feel Than Not Feel At All" },
+  { name: "I'm a Jerk" },
+  { name: "I'm a Little Airplane" },
+  { name: "I'm a Little Dinosaur" },
+  { name: "I'm Crying" },
+  { name: "I'm Dropping My Friends (One by One)" },
+  { name: "I'm in a Dancing Mood" },
+  { name: "I'm Just Beginning To Live" },
+  { name: "I'm Nature's Mosquito" },
+  { name: "I'm Not Afraid To Make Mistakes" },
+  { name: "I'm Not Obsessed With Her" },
+  { name: "I'm So Confused" },
+  { name: "I'm Straight" },
   {
     name: "I'm Your God Pan",
     comments: [
@@ -1381,15 +1050,9 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Ice Cold NuGrape",
-  },
-  {
-    name: "Ice Cream Man",
-  },
-  {
-    name: "If She Don't Love Me",
-  },
+  { name: "Ice Cold NuGrape" },
+  { name: "Ice Cream Man" },
+  { name: "If She Don't Love Me" },
   {
     name: "Important in Your Life",
     comments: [
@@ -1400,219 +1063,77 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "In Che Mondo Vivamo",
-  },
-  {
-    name: "In Japan",
-  },
-  {
-    name: "instrumental",
-  },
-  {
-    name: "interview...",
-  },
-  {
-    name: "It Will Stand",
-  },
-  {
-    name: "It's Afternoon And The Range Is Calling",
-  },
-  {
-    name: "It's Fall Time",
-  },
-  {
-    name: "It's You",
-  },
-  {
-    name: "Jail",
-  },
-  {
-    name: "Jambalaya",
-  },
-  {
-    name: "Jenny Jenny Jenny",
-  },
-  {
-    name: "Johnny Too Bad",
-  },
-  {
-    name: "Jonathan I Feel So Bad",
-  },
-  {
-    name: "Jose Bove",
-  },
-  {
-    name: "Joy Over Sorrow",
-  },
-  {
-    name: "Just About 17",
-  },
-  {
-    name: "Just For Fun",
-  },
-  {
-    name: "Just Look At Me",
-  },
-  {
-    name: "Just Wanna Be Young",
-  },
-  {
-    name: "Justine",
-  },
-  {
-    name: "Karma Chameleon",
-  },
-  {
-    name: "Keep on Dancing",
-  },
-  {
-    name: "Keith Richards",
-  },
-  {
-    name: "Kumbaya",
-  },
-  {
-    name: "La Bamba",
-  },
-  {
-    name: "Le Freak",
-  },
-  {
-    name: "Le Printemps Des Amoreux Est Venue",
-  },
-  {
-    name: "Leaves On The Sidewalk After The Rain",
-  },
-  {
-    name: "Les Etoiles",
-  },
-  {
-    name: "Let Her Go Into the Darkness",
-  },
-  {
-    name: "Let Her Go To Her Old Boyfriend",
-  },
-  {
-    name: "Let The Four Winds Blow",
-  },
-  {
-    name: "Let's Get Wild",
-  },
-  {
-    name: "Let's Say We Just Met",
-  },
-  {
-    name: "Let's Take a Trip",
-  },
-  {
-    name: "Let's Go Playing",
-  },
-  {
-    name: "Let's Take The Long Way Home",
-  },
-  {
-    name: "Let's Twist Again",
-  },
-  {
-    name: "Life Hurts and I Expect It",
-  },
-  {
-    name: "Little Bell",
-  },
-  {
-    name: "Little Boy In My Heart",
-  },
-  {
-    name: "Little Latin Lupe Lu",
-  },
-  {
-    name: "Little Sister",
-  },
-  {
-    name: "Lonely Financial Zone",
-  },
-  {
-    name: "Lonely Little Thrift Store",
-  },
-  {
-    name: "Lonely Without Her",
-  },
-  {
-    name: "Louie Louie",
-  },
-  {
-    name: "Louise",
-  },
-  {
-    name: "Love Me Like I Love",
-  },
-  {
-    name: "Lover Please",
-  },
-  {
-    name: "Lydia",
-  },
-  {
-    name: "A Mistake Today For Me",
-  },
-  {
-    name: "Malaguena De Jojo",
-  },
-  {
-    name: "Malingering",
-  },
-  {
-    name: "Maybe a Walk Home From Natick High School",
-  },
-  {
-    name: "Me And Her Got A Good Thing Goin' Baby ",
-  },
-  {
-    name: "Miracles Will Start To Happen",
-  },
-  {
-    name: "Modern World",
-  },
-  {
-    name: "Mona",
-  },
-  {
-    name: "Money",
-  },
-  {
-    name: "Monologue About Bermuda",
-  },
-  {
-    name: "Mood Lighting for Dreaming",
-  },
-  {
-    name: "More Fun In Our 40's",
-  },
-  {
-    name: "More Surprises",
-  },
-  {
-    name: "The Morning of Our Lives",
-  },
-  {
-    name: "Mr Squiltage goes to College",
-  },
-  {
-    name: "Mr. Sorrow",
-  },
-  {
-    name: "My Affected Accent",
-  },
-  {
-    name: "My Appearance on the Balcony",
-  },
-  {
-    name: "My Baby",
-  },
-  {
-    name: "My Baby Love Love Loves Me",
-  },
+  { name: "In Che Mondo Vivamo" },
+  { name: "In Japan" },
+  { name: "instrumental" },
+  { name: "interview..." },
+  { name: "It Will Stand" },
+  { name: "It's Afternoon And The Range Is Calling" },
+  { name: "It's Fall Time" },
+  { name: "It's You" },
+  { name: "Jail" },
+  { name: "Jambalaya" },
+  { name: "Jenny Jenny Jenny" },
+  { name: "Johnny Too Bad" },
+  { name: "Jonathan I Feel So Bad" },
+  { name: "Jose Bove" },
+  { name: "Joy Over Sorrow" },
+  { name: "Just About 17" },
+  { name: "Just For Fun" },
+  { name: "Just Look At Me" },
+  { name: "Just Wanna Be Young" },
+  { name: "Justine" },
+  { name: "Karma Chameleon" },
+  { name: "Keep on Dancing" },
+  { name: "Keith Richards" },
+  { name: "Kumbaya" },
+  { name: "La Bamba" },
+  { name: "Le Freak" },
+  { name: "Le Printemps Des Amoreux Est Venue" },
+  { name: "Leaves On The Sidewalk After The Rain" },
+  { name: "Les Etoiles" },
+  { name: "Let Her Go Into the Darkness" },
+  { name: "Let Her Go To Her Old Boyfriend" },
+  { name: "Let The Four Winds Blow" },
+  { name: "Let's Get Wild" },
+  { name: "Let's Say We Just Met" },
+  { name: "Let's Take a Trip" },
+  { name: "Let's Go Playing" },
+  { name: "Let's Take The Long Way Home" },
+  { name: "Let's Twist Again" },
+  { name: "Life Hurts and I Expect It" },
+  { name: "Little Bell" },
+  { name: "Little Boy In My Heart" },
+  { name: "Little Latin Lupe Lu" },
+  { name: "Little Sister" },
+  { name: "Lonely Financial Zone" },
+  { name: "Lonely Little Thrift Store" },
+  { name: "Lonely Without Her" },
+  { name: "Louie Louie" },
+  { name: "Louise" },
+  { name: "Love Me Like I Love" },
+  { name: "Lover Please" },
+  { name: "Lydia" },
+  { name: "A Mistake Today For Me" },
+  { name: "Malaguena De Jojo" },
+  { name: "Malingering" },
+  { name: "Maybe a Walk Home From Natick High School" },
+  { name: "Me And Her Got A Good Thing Goin' Baby " },
+  { name: "Miracles Will Start To Happen" },
+  { name: "Modern World" },
+  { name: "Mona" },
+  { name: "Money" },
+  { name: "Monologue About Bermuda" },
+  { name: "Mood Lighting for Dreaming" },
+  { name: "More Fun In Our 40's" },
+  { name: "More Surprises" },
+  { name: "The Morning of Our Lives" },
+  { name: "Mr Squiltage goes to College" },
+  { name: "Mr. Sorrow" },
+  { name: "My Affected Accent" },
+  { name: "My Appearance on the Balcony" },
+  { name: "My Baby" },
+  { name: "My Baby Love Love Loves Me" },
   {
     name: "My Career As a Homewrecker",
     comments: [
@@ -1628,27 +1149,13 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "My Guiding Star",
-  },
-  {
-    name: "My Guy",
-  },
-  {
-    name: "My Heart Needs Repair",
-  },
-  {
-    name: "My Heart Was Won by a Girl",
-  },
-  {
-    name: "My Honest Dear",
-  },
-  {
-    name: "My Jeans",
-  },
-  {
-    name: "My Little Girls Got A Full Time Daddy Now",
-  },
+  { name: "My Guiding Star" },
+  { name: "My Guy" },
+  { name: "My Heart Needs Repair" },
+  { name: "My Heart Was Won by a Girl" },
+  { name: "My Honest Dear" },
+  { name: "My Jeans" },
+  { name: "My Little Girls Got A Full Time Daddy Now" },
   {
     name: "My Little Kookenhaken",
     comments: [
@@ -1659,15 +1166,9 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "My Love For Her Ain't Sad",
-  },
-  {
-    name: "My Love is a Flower (Just Beginning to Bloom)",
-  },
-  {
-    name: "My Modern Lover",
-  },
+  { name: "My Love For Her Ain't Sad" },
+  { name: "My Love is a Flower (Just Beginning to Bloom)" },
+  { name: "My Modern Lover" },
   {
     name: "My Name Is Jonathan",
     comments: [
@@ -1678,249 +1179,87 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "My Runabout Girl",
-  },
-  {
-    name: "Mystery of the Summer Night",
-  },
-  {
-    name: "Neon Sign",
-  },
-  {
-    name: "New England",
-  },
-  {
-    name: "New Kind Of Neighborhood",
-  },
-  {
-    name: "unknown (french)",
-  },
-  {
-    name: "unknown (spanish)",
-  },
-  {
-    name: "New York at 4am is More My Style",
-  },
-  {
-    name: "Nineteen in Naples",
-  },
-  {
-    name: "Nishi",
-  },
-  {
-    name: "No Habla Mis Palabras De Amor",
-  },
-  {
-    name: "No More Gasoline",
-  },
-  {
-    name: "No One Was Like Vermeer",
-  },
-  {
-    name: "Not Happy For Tomorrow...Happy For Today",
-  },
-  {
-    name: "Not In My Name",
-  },
-  {
-    name: 'Not Just "Plus One" On The Guest List Anymore',
-  },
-  {
-    name: "Not So Much To Be Loved As To Love",
-  },
-  {
-    name: "Not Yet 3",
-  },
-  {
-    name: "Nothing Can Change This Love",
-  },
-  {
-    name: "Now is Better Than Before",
-  },
-  {
-    name: "I Don't Want No Nuclear Power Plants (In My Life)",
-  },
-  {
-    name: "Oh Boy",
-  },
-  {
-    name: "Oh Carol",
-  },
-  {
-    name: "Old World",
-  },
-  {
-    name: "Older Girl",
-  },
-  {
-    name: "On a du Soleil",
-  },
-  {
-    name: "Our Party Will Be On The Beach Tonight",
-  },
-  {
-    name: "Our Swinging Pad",
-  },
-  {
-    name: "Pablo Picasso",
-  },
-  {
-    name: "Pacific Coast Highway",
-  },
-  {
-    name: "Pantomima de El Amor Brujo",
-  },
-  {
-    name: "J'aime Paris au mois de mai",
-  },
-  {
-    name: "Parties In The USA",
-  },
-  {
-    name: "Partners in Crime",
-  },
-  {
-    name: "Party In The Woods Tonight",
-  },
-  {
-    name: "Pearl",
-  },
-  {
-    name: "Peggy Sue",
-  },
-  {
-    name: "Peppermint Twist",
-  },
-  {
-    name: "Place Pigalle",
-  },
-  {
-    name: "Poem by Pier Paolo Pasolini",
-  },
-  {
-    name: "Polk Salad Annie",
-  },
-  {
-    name: "Pretty is Pretty (But It's Not All That There Is)",
-  },
-  {
-    name: "Pretty Little Girl",
-  },
-  {
-    name: "Pterodactyl in the Airport",
-  },
-  {
-    name: "Quarter to Three",
-  },
-  {
-    name: "Que C'est Triste Venise",
-  },
-  {
-    name: "Que reste-t-il de nos amours?",
-  },
-  {
-    name: "Quintage Goes to Market",
-  },
-  {
-    name: "Ready Teddy",
-  },
-  {
-    name: "Reelin' & Rockin'",
-  },
-  {
-    name: "Reno",
-  },
-  {
-    name: "Ride Down On The Highway",
-  },
-  {
-    name: "Roadrunner",
-  },
-  {
-    name: "Rock 'N' Roll Drummer Straight From The Hospy-Tel",
-  },
-  {
-    name: "Rock n' Roll Number 9",
-  },
-  {
-    name: "Rock and Roll Music",
-  },
-  {
-    name: "Rock and Roll Will Happen",
-  },
-  {
-    name: "Rock Island Line",
-  },
-  {
-    name: "Rock Me All Night Long",
-  },
-  {
-    name: "Rock Your Baby",
-  },
-  {
-    name: "Rockin' Shoppin' Center",
-  },
-  {
-    name: "Rockin' Robin",
-  },
-  {
-    name: "Rockin' Rockin' Leprechauns",
-  },
-  {
-    name: "Rodeo Wind",
-  },
-  {
-    name: "Roll Over Beethoven",
-  },
-  {
-    name: "Roll With Me Henry",
-  },
-  {
-    name: "Rollercoaster By the Sea",
-  },
-  {
-    name: "Rooming House on Venice Beach",
-  },
-  {
-    name: "Round and Round",
-  },
-  {
-    name: "Route 66",
-  },
-  {
-    name: "Ruby Ruby",
-  },
-  {
-    name: "Sa Voix M'Atisse",
-  },
-  {
-    name: "Salvador Dali",
-  },
-  {
-    name: "Satisfied Mind",
-  },
-  {
-    name: "Satisfy",
-  },
-  {
-    name: "Seven Day Weekend",
-  },
-  {
-    name: "Sex Machine",
-  },
-  {
-    name: "Shake",
-  },
-  {
-    name: "She Brings Out the Best in Me",
-  },
-  {
-    name: "She Cracked",
-  },
-  {
-    name: "She Doesn't Laugh At My Jokes",
-  },
+  { name: "My Runabout Girl" },
+  { name: "Mystery of the Summer Night" },
+  { name: "Neon Sign" },
+  { name: "New England" },
+  { name: "New Kind Of Neighborhood" },
+  { name: "unknown (french)" },
+  { name: "unknown (spanish)" },
+  { name: "New York at 4am is More My Style" },
+  { name: "Nineteen in Naples" },
+  { name: "Nishi" },
+  { name: "No Habla Mis Palabras De Amor" },
+  { name: "No More Gasoline" },
+  { name: "No One Was Like Vermeer" },
+  { name: "Not Happy For Tomorrow...Happy For Today" },
+  { name: "Not In My Name" },
+  { name: 'Not Just "Plus One" On The Guest List Anymore' },
+  { name: "Not So Much To Be Loved As To Love" },
+  { name: "Not Yet 3" },
+  { name: "Nothing Can Change This Love" },
+  { name: "Now is Better Than Before" },
+  { name: "I Don't Want No Nuclear Power Plants (In My Life)" },
+  { name: "Oh Boy" },
+  { name: "Oh Carol" },
+  { name: "Old World" },
+  { name: "Older Girl" },
+  { name: "On a du Soleil" },
+  { name: "Our Party Will Be On The Beach Tonight" },
+  { name: "Our Swinging Pad" },
+  { name: "Pablo Picasso" },
+  { name: "Pacific Coast Highway" },
+  { name: "Pantomima de El Amor Brujo" },
+  { name: "J'aime Paris au mois de mai" },
+  { name: "Parties In The USA" },
+  { name: "Partners in Crime" },
+  { name: "Party In The Woods Tonight" },
+  { name: "Pearl" },
+  { name: "Peggy Sue" },
+  { name: "Peppermint Twist" },
+  { name: "Place Pigalle" },
+  { name: "Poem by Pier Paolo Pasolini" },
+  { name: "Polk Salad Annie" },
+  { name: "Pretty is Pretty (But It's Not All That There Is)" },
+  { name: "Pretty Little Girl" },
+  { name: "Pterodactyl in the Airport" },
+  { name: "Quarter to Three" },
+  { name: "Que C'est Triste Venise" },
+  { name: "Que reste-t-il de nos amours?" },
+  { name: "Quintage Goes to Market" },
+  { name: "Ready Teddy" },
+  { name: "Reelin' & Rockin'" },
+  { name: "Reno" },
+  { name: "Ride Down On The Highway" },
+  { name: "Roadrunner" },
+  { name: "Rock 'N' Roll Drummer Straight From The Hospy-Tel" },
+  { name: "Rock n' Roll Number 9" },
+  { name: "Rock and Roll Music" },
+  { name: "Rock and Roll Will Happen" },
+  { name: "Rock Island Line" },
+  { name: "Rock Me All Night Long" },
+  { name: "Rock Your Baby" },
+  { name: "Rockin' Shoppin' Center" },
+  { name: "Rockin' Robin" },
+  { name: "Rockin' Rockin' Leprechauns" },
+  { name: "Rodeo Wind" },
+  { name: "Roll Over Beethoven" },
+  { name: "Roll With Me Henry" },
+  { name: "Rollercoaster By the Sea" },
+  { name: "Rooming House on Venice Beach" },
+  { name: "Round and Round" },
+  { name: "Route 66" },
+  { name: "Ruby Ruby" },
+  { name: "Sa Voix M'Atisse" },
+  { name: "Salvador Dali" },
+  { name: "Satisfied Mind" },
+  { name: "Satisfy" },
+  { name: "Seven Day Weekend" },
+  { name: "Sex Machine" },
+  { name: "Shake" },
+  { name: "She Brings Out the Best in Me" },
+  { name: "She Cracked" },
+  { name: "She Doesn't Laugh At My Jokes" },
   {
     name: "She Lives in a Rock & Roll House",
     comments: [
@@ -1931,51 +1270,21 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "She Loves You Jonathan, Give Her Time",
-  },
-  {
-    name: "She's a Once in a Lifetime Girl",
-  },
-  {
-    name: "She's Running Away",
-  },
-  {
-    name: "Shirin and Fahrad",
-  },
-  {
-    name: "Silence",
-  },
-  {
-    name: "Silence alors, Silence",
-  },
-  {
-    name: "Since She Started To Ride",
-  },
-  {
-    name: "Sleepwalk",
-  },
-  {
-    name: "Slipping and Sliding",
-  },
-  {
-    name: "Somebody To Hold Me",
-  },
-  {
-    name: "Someone I Care About",
-  },
-  {
-    name: "Song Of Remembrance For Old Girlfriends",
-  },
-  {
-    name: "Sorrow Showed Me the Way",
-  },
-  {
-    name: "South American Folk Song",
-  },
-  {
-    name: "Springtime",
-  },
+  { name: "She Loves You Jonathan, Give Her Time" },
+  { name: "She's a Once in a Lifetime Girl" },
+  { name: "She's Running Away" },
+  { name: "Shirin and Fahrad" },
+  { name: "Silence" },
+  { name: "Silence alors, Silence" },
+  { name: "Since She Started To Ride" },
+  { name: "Sleepwalk" },
+  { name: "Slipping and Sliding" },
+  { name: "Somebody To Hold Me" },
+  { name: "Someone I Care About" },
+  { name: "Song Of Remembrance For Old Girlfriends" },
+  { name: "Sorrow Showed Me the Way" },
+  { name: "South American Folk Song" },
+  { name: "Springtime" },
   {
     name: "Springtime In New York",
     comments: [
@@ -1986,18 +1295,10 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Stay",
-  },
-  {
-    name: "Stop This Car",
-  },
-  {
-    name: "Stop Your Sobbing",
-  },
-  {
-    name: "Stultified",
-  },
+  { name: "Stay" },
+  { name: "Stop This Car" },
+  { name: "Stop Your Sobbing" },
+  { name: "Stultified" },
   {
     name: "Stupenda e Misera Citta",
     comments: [
@@ -2008,33 +1309,15 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Such Loneliness",
-  },
-  {
-    name: "Summer Morning",
-  },
-  {
-    name: "Summer Night",
-  },
-  {
-    name: "Sunday Afternoon",
-  },
-  {
-    name: "Surfin' Safari",
-  },
-  {
-    name: "Surrender",
-  },
-  {
-    name: "Tahitian Hop",
-  },
-  {
-    name: "Take a Walk Around Town",
-  },
-  {
-    name: "Take Me Off The Shelf",
-  },
+  { name: "Such Loneliness" },
+  { name: "Summer Morning" },
+  { name: "Summer Night" },
+  { name: "Sunday Afternoon" },
+  { name: "Surfin' Safari" },
+  { name: "Surrender" },
+  { name: "Tahitian Hop" },
+  { name: "Take a Walk Around Town" },
+  { name: "Take Me Off The Shelf" },
   {
     name: "Take Me to the Plaza",
     comments: [
@@ -2045,33 +1328,15 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Tallahassee Lassie",
-  },
-  {
-    name: "Tandem Jump",
-  },
-  {
-    name: "Tell How You Feel",
-  },
-  {
-    name: "Tequila",
-  },
-  {
-    name: "That Little Sleeper Car",
-  },
-  {
-    name: "That Summer Feeling",
-  },
-  {
-    name: "That's When I Want To Tear Down The Walls Between People",
-  },
-  {
-    name: "The Ballad Of Yoyo",
-  },
-  {
-    name: "The Baltimores",
-  },
+  { name: "Tallahassee Lassie" },
+  { name: "Tandem Jump" },
+  { name: "Tell How You Feel" },
+  { name: "Tequila" },
+  { name: "That Little Sleeper Car" },
+  { name: "That Summer Feeling" },
+  { name: "That's When I Want To Tear Down The Walls Between People" },
+  { name: "The Ballad Of Yoyo" },
+  { name: "The Baltimores" },
   {
     name: "The Beach",
     comments: [
@@ -2082,165 +1347,59 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "The Best That I Have Got",
-  },
-  {
-    name: "The Changing of the Seasons",
-  },
-  {
-    name: "The Crush",
-  },
-  {
-    name: "The Dark Crypt Like Arcade",
-  },
-  {
-    name: "The Desert",
-  },
-  {
-    name: "The Fenway",
-  },
-  {
-    name: "The Girl Stands Up to Me Now",
-  },
-  {
-    name: "The Heart of Saturday Night",
-  },
-  {
-    name: "The Little Green and White Wrapper",
-  },
-  {
-    name: "The Lonely Little Thrift Store",
-  },
-  {
-    name: "The Mixer (Men and Women Together)",
-  },
-  {
-    name: "The Neighbors",
-  },
-  {
-    name: "The New Teller",
-  },
-  {
-    name: "The Night Is Still Young",
-  },
-  {
-    name: "The Old Corner Store",
-  },
-  {
-    name: "The Old Snack Bar",
-  },
-  {
-    name: "The Sea Was Calling Me Home",
-  },
-  {
-    name: "The Silent Treatment",
-  },
-  {
-    name: "The Springtime of the Lovers",
-  },
-  {
-    name: "The Sweeping Wind",
-  },
-  {
-    name: "The Tag Game",
-  },
-  {
-    name: "The Twist",
-  },
-  {
-    name: "The UFO Man",
-  },
-  {
-    name: "The Wheels on the Bus",
-  },
-  {
-    name: "The World Is Showing It's Hand",
-  },
-  {
-    name: "Theme From Moulin Rouge",
-  },
-  {
-    name: "There Is No Abomination",
-  },
-  {
-    name: "There Is No Squiltage",
-  },
-  {
-    name: "There's Something About Mary",
-  },
-  {
-    name: "These Bodies That Came To Cavort",
-  },
-  {
-    name: "They're Not Trying on the Dance Floor",
-  },
-  {
-    name: "This Kind Of Music",
-  },
-  {
-    name: "This Little Light Of Mine",
-  },
-  {
-    name: "This Love of Mine",
-  },
-  {
-    name: "This Romance Will Be Different For Me",
-  },
-  {
-    name: "Those Conga Drums",
-  },
-  {
-    name: "Time For Foolin' Around",
-  },
-  {
-    name: "Time Stopped When We Held Hands",
-  },
-  {
-    name: "To Hide a Little Thought",
-  },
-  {
-    name: "Tokyo, Japan, 4 am on Friday night",
-  },
-  {
-    name: "Too Fat",
-  },
-  {
-    name: "Too Hip",
-  },
-  {
-    name: "Too Many Fish In The Sea",
-  },
-  {
-    name: "Tout ce que je cherchais etait toujours toi",
-  },
-  {
-    name: "instrumental (trombone)",
-  },
-  {
-    name: "True Love Is Not Nice",
-  },
-  {
-    name: "Twilight in Boston",
-  },
-  {
-    name: "Twist and Shout",
-  },
-  {
-    name: "Twist Twist Senora",
-  },
-  {
-    name: "Twisting the Night Away",
-  },
-  {
-    name: "unknown (?)",
-  },
-  {
-    name: "Up In Cold Maine Under the Stars",
-  },
-  {
-    name: "Up In The Sky Sometime",
-  },
+  { name: "The Best That I Have Got" },
+  { name: "The Changing of the Seasons" },
+  { name: "The Crush" },
+  { name: "The Dark Crypt Like Arcade" },
+  { name: "The Desert" },
+  { name: "The Fenway" },
+  { name: "The Girl Stands Up to Me Now" },
+  { name: "The Heart of Saturday Night" },
+  { name: "The Little Green and White Wrapper" },
+  { name: "The Lonely Little Thrift Store" },
+  { name: "The Mixer (Men and Women Together)" },
+  { name: "The Neighbors" },
+  { name: "The New Teller" },
+  { name: "The Night Is Still Young" },
+  { name: "The Old Corner Store" },
+  { name: "The Old Snack Bar" },
+  { name: "The Sea Was Calling Me Home" },
+  { name: "The Silent Treatment" },
+  { name: "The Springtime of the Lovers" },
+  { name: "The Sweeping Wind" },
+  { name: "The Tag Game" },
+  { name: "The Twist" },
+  { name: "The UFO Man" },
+  { name: "The Wheels on the Bus" },
+  { name: "The World Is Showing It's Hand" },
+  { name: "Theme From Moulin Rouge" },
+  { name: "There Is No Abomination" },
+  { name: "There Is No Squiltage" },
+  { name: "There's Something About Mary" },
+  { name: "These Bodies That Came To Cavort" },
+  { name: "They're Not Trying on the Dance Floor" },
+  { name: "This Kind Of Music" },
+  { name: "This Little Light Of Mine" },
+  { name: "This Love of Mine" },
+  { name: "This Romance Will Be Different For Me" },
+  { name: "Those Conga Drums" },
+  { name: "Time For Foolin' Around" },
+  { name: "Time Stopped When We Held Hands" },
+  { name: "To Hide a Little Thought" },
+  { name: "Tokyo, Japan, 4 am on Friday night" },
+  { name: "Too Fat" },
+  { name: "Too Hip" },
+  { name: "Too Many Fish In The Sea" },
+  { name: "Tout ce que je cherchais etait toujours toi" },
+  { name: "instrumental (trombone)" },
+  { name: "True Love Is Not Nice" },
+  { name: "Twilight in Boston" },
+  { name: "Twist and Shout" },
+  { name: "Twist Twist Senora" },
+  { name: "Twisting the Night Away" },
+  { name: "unknown (?)" },
+  { name: "Up In Cold Maine Under the Stars" },
+  { name: "Up In The Sky Sometime" },
   {
     name: "Vampire Girl",
     comments: [
@@ -2261,12 +1420,8 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Vampiresa Mujer",
-  },
-  {
-    name: "Vecchio Frack",
-  },
+  { name: "Vampiresa Mujer" },
+  { name: "Vecchio Frack" },
   {
     name: "Velvet Underground",
     comments: [
@@ -2277,30 +1432,14 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Vincent Van Gogh",
-  },
-  {
-    name: "Volando Voy",
-  },
-  {
-    name: "Volare",
-  },
-  {
-    name: "Wake Up Sleepy Heads",
-  },
-  {
-    name: "Walk Up the Street",
-  },
-  {
-    name: "Walter Johnson",
-  },
-  {
-    name: "We're Having A Party",
-  },
-  {
-    name: "Wheels on the Bus",
-  },
+  { name: "Vincent Van Gogh" },
+  { name: "Volando Voy" },
+  { name: "Volare" },
+  { name: "Wake Up Sleepy Heads" },
+  { name: "Walk Up the Street" },
+  { name: "Walter Johnson" },
+  { name: "We're Having A Party" },
+  { name: "Wheels on the Bus" },
   {
     name: "When Harpo Played  His Harp",
     comments: [
@@ -2311,36 +1450,16 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "When I Dance",
-  },
-  {
-    name: "When I Get Mad at Her",
-  },
-  {
-    name: "When I Say I Love You",
-  },
-  {
-    name: "When I Say Wife",
-  },
-  {
-    name: "When I'm Walking",
-  },
-  {
-    name: "When She Kisses Me",
-  },
-  {
-    name: "When We Refuse to Suffer",
-  },
-  {
-    name: "Who Can Say When a Wall Is Ready to Come Down",
-  },
-  {
-    name: "Wild Thing",
-  },
-  {
-    name: "Wild Weekend",
-  },
+  { name: "When I Dance" },
+  { name: "When I Get Mad at Her" },
+  { name: "When I Say I Love You" },
+  { name: "When I Say Wife" },
+  { name: "When I'm Walking" },
+  { name: "When She Kisses Me" },
+  { name: "When We Refuse to Suffer" },
+  { name: "Who Can Say When a Wall Is Ready to Come Down" },
+  { name: "Wild Thing" },
+  { name: "Wild Weekend" },
   {
     name: "Wild Wild Party",
     comments: [
@@ -2351,60 +1470,24 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Winter is Over For Me",
-  },
-  {
-    name: "Winters Get Hard in New England",
-  },
-  {
-    name: "Wipeout",
-  },
-  {
-    name: "Womanhood",
-  },
-  {
-    name: "Wonderful Girl",
-  },
-  {
-    name: "Ya Ya",
-  },
-  {
-    name: "Yo Jo Jo",
-  },
-  {
-    name: "Yo Tengo una Novia",
-  },
-  {
-    name: "You Are",
-  },
-  {
-    name: "You Can Have A Cell Phone That's Ok But Not Me",
-  },
-  {
-    name: "You Can't Talk To the Dude",
-  },
-  {
-    name: "You Must Ask the Heart",
-  },
-  {
-    name: "You're the One For Me",
-  },
-  {
-    name: "You've Got To Cry",
-  },
-  {
-    name: "You're Crazy For Taking the Bus",
-  },
-  {
-    name: "Yoyos On Parade",
-  },
-  {
-    name: "Coomyah",
-  },
-  {
-    name: "I Hear You Calling Me",
-  },
+  { name: "Winter is Over For Me" },
+  { name: "Winters Get Hard in New England" },
+  { name: "Wipeout" },
+  { name: "Womanhood" },
+  { name: "Wonderful Girl" },
+  { name: "Ya Ya" },
+  { name: "Yo Jo Jo" },
+  { name: "Yo Tengo una Novia" },
+  { name: "You Are" },
+  { name: "You Can Have A Cell Phone That's Ok But Not Me" },
+  { name: "You Can't Talk To the Dude" },
+  { name: "You Must Ask the Heart" },
+  { name: "You're the One For Me" },
+  { name: "You've Got To Cry" },
+  { name: "You're Crazy For Taking the Bus" },
+  { name: "Yoyos On Parade" },
+  { name: "Coomyah" },
+  { name: "I Hear You Calling Me" },
   {
     name: "Cerca",
     comments: [
@@ -2420,18 +1503,10 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Your Good Girl's Gonna Go Bad",
-  },
-  {
-    name: "Man Walks Among Us",
-  },
-  {
-    name: "I Can't Stay Mad At You",
-  },
-  {
-    name: "1963",
-  },
+  { name: "Your Good Girl's Gonna Go Bad" },
+  { name: "Man Walks Among Us" },
+  { name: "I Can't Stay Mad At You" },
+  { name: "1963" },
   {
     name: "Grunion Run",
     comments: [
@@ -2447,126 +1522,46 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "unknown (italian)",
-  },
-  {
-    name: "Harpo En Su Harpa",
-  },
-  {
-    name: "No Te Oye",
-  },
-  {
-    name: "No Mas Por Fun",
-  },
-  {
-    name: "Papel De Chicle",
-  },
-  {
-    name: "Los Vecinos",
-  },
-  {
-    name: "Ahora Es Mejor",
-  },
-  {
-    name: "Una Fuerza Alla",
-  },
-  {
-    name: "Sabor a Mi",
-  },
-  {
-    name: "Melodia Tradicional Ecuadoriana",
-  },
-  {
-    name: "Just Because I'm Irish",
-  },
-  {
-    name: "The Rose",
-  },
-  {
-    name: "That's How I Feel",
-  },
-  {
-    name: "Tonight",
-  },
-  {
-    name: "Time Has Been Going By So Fast",
-  },
-  {
-    name: "The Lovers Are Here and They're Full of Sweat",
-  },
-  {
-    name: "Our Drab Ways",
-  },
-  {
-    name: "If You Want To Leave Our Party Just Go",
-  },
-  {
-    name: "I Was The One She Came For",
-  },
-  {
-    name: "We'll Be the Noise, We'll Be the Scandal",
-  },
-  {
-    name: "Winter Afternoon By B.U. In Boston",
-  },
-  {
-    name: "The Bitter Herb",
-  },
-  {
-    name: "Even Though I Know I Am The Wind And The Sun, I",
-  },
-  {
-    name: "It Was Time For Me To Be With Her",
-  },
-  {
-    name: "O Moon, Queen Of Night On Earth",
-  },
-  {
-    name: "Mary Anne",
-  },
-  {
-    name: "Roadrunner Twice",
-  },
-  {
-    name: "Roadrunner Thrice",
-  },
-  {
-    name: "I'm Waiting For the Man",
-  },
-  {
-    name: "I Feel Alright",
-  },
-  {
-    name: "Veil Of Cold",
-  },
-  {
-    name: "I See Your Light",
-  },
-  {
-    name: "Awkward Love",
-  },
-  {
-    name: "Guitar Doodle No. 1",
-  },
-  {
-    name: "Touch Me If You Want",
-  },
-  {
-    name: "Do You Believe In Magic",
-  },
-  {
-    name: "Guitar Doodle No. 2",
-  },
-  {
-    name: "Young and in Love",
-  },
-  {
-    name: "Do de do do",
-  },
-  {
-    name: "Willie and the Hand Jive",
-  },
+  { name: "unknown (italian)" },
+  { name: "Harpo En Su Harpa" },
+  { name: "No Te Oye" },
+  { name: "No Mas Por Fun" },
+  { name: "Papel De Chicle" },
+  { name: "Los Vecinos" },
+  { name: "Ahora Es Mejor" },
+  { name: "Una Fuerza Alla" },
+  { name: "Sabor a Mi" },
+  { name: "Melodia Tradicional Ecuadoriana" },
+  { name: "Just Because I'm Irish" },
+  { name: "The Rose" },
+  { name: "That's How I Feel" },
+  { name: "Tonight" },
+  { name: "Time Has Been Going By So Fast" },
+  { name: "The Lovers Are Here and They're Full of Sweat" },
+  { name: "Our Drab Ways" },
+  { name: "If You Want To Leave Our Party Just Go" },
+  { name: "I Was The One She Came For" },
+  { name: "We'll Be the Noise, We'll Be the Scandal" },
+  { name: "Winter Afternoon By B.U. In Boston" },
+  { name: "The Bitter Herb" },
+  { name: "Even Though I Know I Am The Wind And The Sun, I" },
+  { name: "It Was Time For Me To Be With Her" },
+  { name: "O Moon, Queen Of Night On Earth" },
+  { name: "Mary Anne" },
+  { name: "Roadrunner Twice" },
+  { name: "Roadrunner Thrice" },
+  { name: "I'm Waiting For the Man" },
+  { name: "I Feel Alright" },
+  { name: "Veil Of Cold" },
+  { name: "I See Your Light" },
+  { name: "Awkward Love" },
+  { name: "Guitar Doodle No. 1" },
+  { name: "Touch Me If You Want" },
+  { name: "Do You Believe In Magic" },
+  { name: "Guitar Doodle No. 2" },
+  { name: "Young and in Love" },
+  { name: "Do de do do" },
+  { name: "Willie and the Hand Jive" },
   {
     name: "Trip to the Sea",
     comments: [
@@ -2577,132 +1572,48 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Thunderbolts of Joy",
-  },
-  {
-    name: "Singing in the Rain",
-  },
-  {
-    name: "So Much Respect For You",
-  },
-  {
-    name: "I'm Not Alone (The Heavens Love Me)",
-  },
-  {
-    name: "Flying Saucers Rock and Roll",
-  },
-  {
-    name: "Stir It Up",
-  },
-  {
-    name: "In the Checkout Line",
-  },
-  {
-    name: "Brand New Dance",
-  },
-  {
-    name: "Sugar and Spice",
-  },
-  {
-    name: "Ballad of Stink",
-  },
-  {
-    name: "Moron Creek",
-  },
-  {
-    name: "Young at Heart",
-  },
-  {
-    name: "Wedding Bells",
-  },
-  {
-    name: "Adios (To My Own Desert Love)",
-  },
-  {
-    name: "Spanish Drama",
-  },
-  {
-    name: "Michael Row Your Boat Ashore",
-  },
-  {
-    name: "And That's Rock n' Roll",
-  },
-  {
-    name: "Nuclear Nightmare",
-  },
-  {
-    name: "Cupid",
-  },
-  {
-    name: "Dueling Jojo's",
-  },
-  {
-    name: "Something You Believe In",
-  },
-  {
-    name: "Start All Over",
-  },
-  {
-    name: "Fear",
-  },
-  {
-    name: "Oh, Bus Driver",
-  },
-  {
-    name: "New York Poem",
-  },
-  {
-    name: "Dance With Me",
-  },
-  {
-    name: "Weeds Breaking Through The Concrete",
-  },
-  {
-    name: "Revolution Summer Theme",
-  },
-  {
-    name: "Francine's Theme",
-  },
-  {
-    name: "A Chill in the Night Air",
-  },
-  {
-    name: "Music for Next Year's Jukebox",
-  },
-  {
-    name: "Hipster Cafe",
-  },
-  {
-    name: "Vacant Lot",
-  },
-  {
-    name: "Hope's Theme",
-  },
-  {
-    name: "Francine's Theme (Reprise)",
-  },
-  {
-    name: "Hope's Theme (Reprise)",
-  },
-  {
-    name: "Weeds Breaking Through The Concrete (Reprise)",
-  },
-  {
-    name: "Now What?",
-  },
-  {
-    name: "Italian Song About a Party",
-  },
-  {
-    name: "Hebrew Party Song",
-  },
-  {
-    name: "My Love She Is From Somewhere Else",
-  },
-  {
-    name: "When We Run On the Beach",
-  },
+  { name: "Thunderbolts of Joy" },
+  { name: "Singing in the Rain" },
+  { name: "So Much Respect For You" },
+  { name: "I'm Not Alone (The Heavens Love Me)" },
+  { name: "Flying Saucers Rock and Roll" },
+  { name: "Stir It Up" },
+  { name: "In the Checkout Line" },
+  { name: "Brand New Dance" },
+  { name: "Sugar and Spice" },
+  { name: "Ballad of Stink" },
+  { name: "Moron Creek" },
+  { name: "Young at Heart" },
+  { name: "Wedding Bells" },
+  { name: "Adios (To My Own Desert Love)" },
+  { name: "Spanish Drama" },
+  { name: "Michael Row Your Boat Ashore" },
+  { name: "And That's Rock n' Roll" },
+  { name: "Nuclear Nightmare" },
+  { name: "Cupid" },
+  { name: "Dueling Jojo's" },
+  { name: "Something You Believe In" },
+  { name: "Start All Over" },
+  { name: "Fear" },
+  { name: "Oh, Bus Driver" },
+  { name: "New York Poem" },
+  { name: "Dance With Me" },
+  { name: "Weeds Breaking Through The Concrete" },
+  { name: "Revolution Summer Theme" },
+  { name: "Francine's Theme" },
+  { name: "A Chill in the Night Air" },
+  { name: "Music for Next Year's Jukebox" },
+  { name: "Hipster Cafe" },
+  { name: "Vacant Lot" },
+  { name: "Hope's Theme" },
+  { name: "Francine's Theme (Reprise)" },
+  { name: "Hope's Theme (Reprise)" },
+  { name: "Weeds Breaking Through The Concrete (Reprise)" },
+  { name: "Now What?" },
+  { name: "Italian Song About a Party" },
+  { name: "Hebrew Party Song" },
+  { name: "My Love She Is From Somewhere Else" },
+  { name: "When We Run On the Beach" },
   {
     name: "Bohemia",
     comments: [
@@ -2728,42 +1639,18 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Love In a Different Way",
-  },
-  {
-    name: "El Muerto Vivo",
-  },
-  {
-    name: "Coge la Guitarra",
-  },
-  {
-    name: "Loneliness",
-  },
-  {
-    name: "The Other World",
-  },
-  {
-    name: "Si el Sexo hay que Planificar",
-  },
-  {
-    name: "We Want to Take You Higher",
-  },
-  {
-    name: "Naked (poem)",
-  },
-  {
-    name: "My Life is Full of Color",
-  },
-  {
-    name: "(Marie's the Name) Of His Latest Flame",
-  },
-  {
-    name: "What She's Thinking About Me Affects Me All Day Long",
-  },
-  {
-    name: "The Sadness of the Youth",
-  },
+  { name: "Love In a Different Way" },
+  { name: "El Muerto Vivo" },
+  { name: "Coge la Guitarra" },
+  { name: "Loneliness" },
+  { name: "The Other World" },
+  { name: "Si el Sexo hay que Planificar" },
+  { name: "We Want to Take You Higher" },
+  { name: "Naked (poem)" },
+  { name: "My Life is Full of Color" },
+  { name: "(Marie's the Name) Of His Latest Flame" },
+  { name: "What She's Thinking About Me Affects Me All Day Long" },
+  { name: "The Sadness of the Youth" },
   {
     name: "Rama Lama Ding Dong",
     comments: [
@@ -2774,57 +1661,23 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "La Festa e Galactica",
-  },
-  {
-    name: "La Guitarra Flamenca Rubia",
-  },
-  {
-    name: "Come to Our Party",
-  },
-  {
-    name: "Tromba",
-  },
-  {
-    name: "Her Laugh is Like a Trumpet",
-  },
-  {
-    name: "We Had a Fight Last Night",
-  },
-  {
-    name: "Galactica",
-  },
-  {
-    name: "Parent Pushing Stroller",
-  },
-  {
-    name: "Your Mind",
-  },
-  {
-    name: "Trash on the Beach",
-  },
-  {
-    name: "Ego Went Away",
-  },
-  {
-    name: "La Fiesta Es Para Todos",
-  },
-  {
-    name: "Ja La BBQ",
-  },
-  {
-    name: "Touched More",
-  },
-  {
-    name: "Honeymoon Is Over",
-  },
-  {
-    name: "O Sun!",
-  },
-  {
-    name: "angels poem",
-  },
+  { name: "La Festa e Galactica" },
+  { name: "La Guitarra Flamenca Rubia" },
+  { name: "Come to Our Party" },
+  { name: "Tromba" },
+  { name: "Her Laugh is Like a Trumpet" },
+  { name: "We Had a Fight Last Night" },
+  { name: "Galactica" },
+  { name: "Parent Pushing Stroller" },
+  { name: "Your Mind" },
+  { name: "Trash on the Beach" },
+  { name: "But Then Ego Went Away" },
+  { name: "La Fiesta Es Para Todos" },
+  { name: "Ja La BBQ" },
+  { name: "Touched More" },
+  { name: "Honeymoon Is Over" },
+  { name: "O Sun!" },
+  { name: "angels poem" },
   {
     name: "Nuestro Tema",
     comments: [
@@ -2835,12 +1688,8 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Nuestra Que Macar",
-  },
-  {
-    name: "Cantange a Cantar",
-  },
+  { name: "Nuestra Que Macar" },
+  { name: "Cantange a Cantar" },
   {
     name: "Doing It To Death",
     comments: [
@@ -2851,9 +1700,16 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  {
-    name: "Torna a Surriento",
-  },
+  { name: "Torna a Surriento" },
+  { name: "Whoa! How Different We All Are!" },
+  { name: "Ishkode! Ishkode!" },
+  { name: "Wait! Wait!" },
+  { name: "Without The Heart For Chaperone" },
+  { name: "'A Nnammurata Mia" },
+  { name: "Let Me Do This Right!" },
+  { name: "Outside O'Duffy's" },
+  { name: "Longtemps" },
+  { name: "Mother I Give You My Soul Call" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -21125,7 +19981,7 @@ export const recordings: RecordingImport[] = [
     date: 19,
     jon: false,
     songs: [
-      { name: "Ego Went Away", n: 1 },
+      { name: "But Then Ego Went Away", n: 1 },
       { name: "Because Her Beauty is Raw and Wild", n: 2 },
       { name: "That Summer Feeling", n: 3 },
       { name: "Sa Voix M'Atisse", n: 4 },
@@ -21234,6 +20090,25 @@ export const recordings: RecordingImport[] = [
     date: 5,
     jon: true,
     songs: [],
+  },
+  {
+    linkid: 2016030100,
+    type: "Album",
+    name: "Ishkode! Ishkode!",
+    year: 2016,
+    songs: [
+      { n: 0, name: "Whoa! How Different We All Are!" },
+      { n: 1, name: "Ishkode! Ishkode!" },
+      { n: 2, name: "Wait! Wait!" },
+      { n: 3, name: "O Sun!" },
+      { n: 4, name: "Without The Heart For Chaperone" },
+      { n: 5, name: "'A Nnammurata Mia" },
+      { n: 6, name: "Let Me Do This Right!" },
+      { n: 7, name: "But Then Ego Went Away" },
+      { n: 8, name: "Outside O'Duffy's" },
+      { n: 9, name: "Longtemps" },
+      { n: 10, name: "Mother I Give You My Soul Call" },
+    ],
   },
   {
     linkid: 2016040200,
