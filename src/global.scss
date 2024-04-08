@@ -68,10 +68,12 @@ h2 {
 
 .hoverable {
   margin: 0;
-  a {
-    &:hover {
-      border-bottom: 1px solid $gold;
-      color: $white;
+  @media (hover: hover) {
+    a {
+      &:hover {
+        border-bottom: 1px solid $gold;
+        color: $white;
+      }
     }
   }
 }
