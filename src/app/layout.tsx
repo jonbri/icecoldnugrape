@@ -112,64 +112,71 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="icon" href="/icecoldnugrape/favicon.ico" />
       </head>
       <body className={font.className}>
-        <header>
-          <h1>
-            <Link href="/">
-              {!isHome ? <span>&#8593;</span> : null}icecoldnugrape.com
-            </Link>
-          </h1>
-          <div
-            className="links"
-            style={{
-              display: isHome || isRecordings || isSongs ? "flex" : "inherit",
-              flexDirection:
-                isHome || isRecordings || isSongs ? "column" : "inherit",
-            }}
-          >
-            {!isTrade ? (
-              <ul className="inline">
-                <li>{links.recordings}</li>
-                <li>{links.songs}</li>
-                <li>{links.random}</li>
-                <li>{links.search}</li>
-                {isHome ? <li>{links.listen}</li> : null}
-                {showNextPrev ? (
-                  <>
-                    <li>{links.prev}</li>
-                    <li>{links.next}</li>
-                  </>
+        <div id="container">
+          <header>
+            <div id="header-content">
+              <h1>
+                <Link href="/">
+                  {!isHome ? <span>&#8593;</span> : null}icecoldnugrape.com
+                </Link>
+              </h1>
+              <div
+                className="links"
+                style={{
+                  display:
+                    isHome || isRecordings || isSongs ? "flex" : "inherit",
+                  flexDirection:
+                    isHome || isRecordings || isSongs ? "column" : "inherit",
+                }}
+              >
+                {!isTrade ? (
+                  <ul className="inline">
+                    <li>{links.recordings}</li>
+                    <li>{links.songs}</li>
+                    <li>{links.random}</li>
+                    <li>{links.search}</li>
+                    {isHome ? <li>{links.listen}</li> : null}
+                    {showNextPrev ? (
+                      <>
+                        <li>{links.prev}</li>
+                        <li>{links.next}</li>
+                      </>
+                    ) : null}
+                  </ul>
                 ) : null}
+                {isHome ? (
+                  <ul className="inline">
+                    <li>{links.bandcamp}</li>
+                    <li>{links.tour}</li>
+                    <li>{links.label}</li>
+                    <li>{links.jojochords}</li>
+                    <li>{links.jojoblog}</li>
+                  </ul>
+                ) : null}
+              </div>
+            </div>
+          </header>
+          <div id="content">
+            {children}
+            <br />
+            {pathname === "/" ? (
+              <ul>
+                <li>{links.trade} </li>
+                <li>
+                  <Link href="https://github.com/jonbri/icecoldnugrape">
+                    GitHub
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://web.archive.org/web/*/icecoldnugrape.com">
+                    Since 2009
+                  </Link>
+                </li>
               </ul>
             ) : null}
-            {isHome ? (
-              <ul className="inline">
-                <li>{links.bandcamp}</li>
-                <li>{links.tour}</li>
-                <li>{links.label}</li>
-                <li>{links.jojochords}</li>
-                <li>{links.jojoblog}</li>
-              </ul>
-            ) : null}
+            <br />
           </div>
-        </header>
-        {children}
-        <br />
-        {pathname === "/" ? (
-          <ul>
-            <li>{links.trade} </li>
-            <li>
-              <Link href="https://github.com/jonbri/icecoldnugrape">
-                GitHub
-              </Link>
-            </li>
-            <li>
-              <Link href="https://web.archive.org/web/*/icecoldnugrape.com">
-                Since 2009
-              </Link>
-            </li>
-          </ul>
-        ) : null}
-        <br />
+        </div>
       </body>
     </html>
   );
