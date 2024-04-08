@@ -68,8 +68,8 @@ h2 {
 
 .hoverable {
   margin: 0;
-  > li {
-    :hover {
+  a {
+    &:hover {
       border-bottom: 1px solid $gold;
       color: $white;
     }
