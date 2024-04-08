@@ -74,16 +74,18 @@ export default function Page({ params }: { params: { slug: string } }) {
               </Link>
             </div>
           ) : null}
-          <div className="comments">
-            <ul>
-              {recording.comments.map(({ name, text, time }) => (
-                <li key={time}>
-                  <header>{`${name} (${time.split(" ")[0]})`}</header>
-                  {text}
-                </li>
-              ))}
-            </ul>
-          </div>
+          {recording.comments.length > 0 ? (
+            <div className="comments">
+              <ul>
+                {recording.comments.map(({ name, text, time }) => (
+                  <li key={time}>
+                    <header>{`${name} (${time.split(" ")[0]})`}</header>
+                    {text}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
         </>
       ) : null}
     </div>
