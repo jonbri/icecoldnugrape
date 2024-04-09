@@ -104,6 +104,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </div>
           </header>
           <div id="content">{children}</div>
+          <br />
         </div>
       </body>
     </html>

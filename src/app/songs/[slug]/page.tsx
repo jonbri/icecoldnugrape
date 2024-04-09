@@ -27,8 +27,13 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
         ))}
       </ul>
-      Total: {shows.length}
-      {song.comments.length > 0 && (
+      {shows.length > 5 ? (
+        <div>
+          <br />
+          Total: {shows.length}
+        </div>
+      ) : null}
+      {song.comments.length > 0 ? (
         <div className="comments">
           <ul>
             {song.comments.map(({ name, text, time }) => (
@@ -39,7 +44,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             ))}
           </ul>
         </div>
-      )}
+      ) : null}
     </div>
   );
 }
