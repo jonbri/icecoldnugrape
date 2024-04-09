@@ -38,7 +38,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           <ul>
             {song.comments.map(({ name, text, time }) => (
               <li key={time}>
-                <header>{`${name} (${time.split(" ")[0]})`}</header>
+                <h3>{`${name} (${time.split(" ")[0]})`}</h3>
                 {text}
               </li>
             ))}
