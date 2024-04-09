@@ -52,7 +52,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           pointerEvents: prev ? "auto" : "none",
         }}
       >
-        {`<`}
+        Prev
       </Link>
     ),
     next: (
@@ -64,7 +64,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           pointerEvents: next ? "auto" : "none",
         }}
       >
-        {`>`}
+        Next
       </Link>
     ),
   };
