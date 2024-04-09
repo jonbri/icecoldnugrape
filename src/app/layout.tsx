@@ -95,8 +95,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   {isHome ? <li>{links.listen}</li> : null}
                   {showNextPrev ? (
                     <>
-                      <li>{links.prev}</li>
-                      <li>{links.next}</li>
+                      <li className="nextprev">{links.prev}</li>
+                      <li className="nextprev">{links.next}</li>
                     </>
                   ) : null}
                 </ul>
