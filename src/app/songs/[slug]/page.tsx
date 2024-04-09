@@ -27,6 +27,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
         ))}
       </ul>
+      Total: {shows.length}
       {song.comments.length > 0 && (
         <div className="comments">
           <ul>
