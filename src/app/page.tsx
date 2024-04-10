@@ -39,7 +39,9 @@ export default function Page() {
             </a>
           </li>
           <li>
-            <a href="r/jonathanrichman">r/jonathanrichman</a>
+            <a href="https://www.reddit.com/r/jonathanrichman/">
+              r/jonathanrichman
+            </a>
           </li>
         </ul>
       </div>
