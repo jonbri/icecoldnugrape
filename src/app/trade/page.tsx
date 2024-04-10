@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getRecordings } from "../../data";
+import Total from "../../components/Total";
 
 export default function Page() {
   const recordings = getRecordings();
@@ -22,9 +23,7 @@ export default function Page() {
           );
         })}
       </ul>
-      <br />
-      Total: {totalCount}
-      <br />
+      <Total>{totalCount}</Total>
       <div className="available">Contact: icecoldnugrape@yahoo.com</div>
     </div>
   );

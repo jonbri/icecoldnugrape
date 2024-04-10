@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Total from "../../components/Total";
 
 interface Download {
   title: string;
@@ -1151,8 +1152,7 @@ export default function Page() {
   return (
     <div className="listen">
       {sections.map(generateList)}
-      <br />
-      {`Total downloads: ${total}`}
+      <Total>{total}</Total>
     </div>
   );
 }

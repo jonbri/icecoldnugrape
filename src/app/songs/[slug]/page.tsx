@@ -1,4 +1,5 @@
 import Comments from "../../../components/Comments";
+import Total from "../../../components/Total";
 import { getSongFromSanitized, getSongs, idsToShows } from "../../../data";
 import Link from "next/link";
 
@@ -28,12 +29,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
         ))}
       </ul>
-      {shows.length > 5 ? (
-        <div>
-          <br />
-          Total: {shows.length}
-        </div>
-      ) : null}
+      {shows.length > 5 ? <Total>{shows.length}</Total> : null}
       {song.comments.length > 0 ? <Comments comments={song.comments} /> : null}
     </div>
   );

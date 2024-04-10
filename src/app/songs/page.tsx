@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getSongs } from "../../data";
+import Total from "../../components/Total";
 
 export default function Page() {
   const songs = getSongs();
@@ -12,7 +13,7 @@ export default function Page() {
           </li>
         ))}
       </ul>
-      {`Total songs: ${songs.length}`}
+      <Total>{songs.length}</Total>
     </div>
   );
 }

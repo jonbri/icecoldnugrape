@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getRecordings } from "../../data";
 import { Recording } from "../../types";
+import Total from "../../components/Total";
 
 interface Section {
   title: string;
@@ -49,7 +50,7 @@ export default function Page() {
   return (
     <div className="recordings">
       {sections.map(generateList)}
-      {`Total recordings: ${total}`}
+      <Total>{total}</Total>
     </div>
   );
 }
