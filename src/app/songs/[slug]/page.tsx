@@ -1,3 +1,4 @@
+import Comments from "../../../components/Comments";
 import { getSongFromSanitized, getSongs, idsToShows } from "../../../data";
 import Link from "next/link";
 
@@ -33,18 +34,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           Total: {shows.length}
         </div>
       ) : null}
-      {song.comments.length > 0 ? (
-        <div className="comments">
-          <ul>
-            {song.comments.map(({ name, text, time }) => (
-              <li key={time}>
-                <h3>{`${name} (${time.split(" ")[0]})`}</h3>
-                {text}
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : null}
+      {song.comments.length > 0 ? <Comments comments={song.comments} /> : null}
     </div>
   );
 }

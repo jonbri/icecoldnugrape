@@ -1,3 +1,4 @@
+import Comments from "../../../components/Comments";
 import { getRecording, getRecordings } from "../../../data";
 import { SongInstance } from "../../../types";
 import Link from "next/link";
@@ -75,16 +76,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             </div>
           ) : null}
           {recording.comments.length > 0 ? (
-            <div className="comments">
-              <ul>
-                {recording.comments.map(({ name, text, time }) => (
-                  <li key={time}>
-                    <h3>{`${name} (${time.split(" ")[0]})`}</h3>
-                    {text}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <Comments comments={recording.comments} />
           ) : null}
         </>
       ) : null}
