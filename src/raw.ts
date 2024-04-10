@@ -1774,7 +1774,6 @@ export const songs: SongImport[] = [
   { name: "Want To Visit My Inner House? (Reprise)" },
   { name: "Cold Pizza" },
   { name: "To Celebrate, To Adore" },
-  { name: "La Bamba" },
   { name: "Guitar In Orange Drums In Pale Purple" },
   { name: "Everybody Loves Dolly" },
   { name: "Yatasamaroun" },
