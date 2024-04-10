@@ -1127,7 +1127,7 @@ const sections: Section[] = [
 const downloadPrefix = "http://192.81.214.19/media";
 const generateList = ({ group, title, songs, zip }: Section) => (
   <section key={group}>
-    <h2>{title}</h2>
+    {title ? <h2>{title}</h2> : null}
     {zip && (
       <a href={`${downloadPrefix}/${group}/${zip}`}>
         <em>Download All</em>
@@ -1151,6 +1151,7 @@ export default function Page() {
   return (
     <div className="listen">
       {sections.map(generateList)}
+      <br />
       {`Total downloads: ${total}`}
     </div>
   );
