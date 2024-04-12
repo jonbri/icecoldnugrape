@@ -722,27 +722,13 @@ export const songs: SongImport[] = [
     comments: [
       {
         name: "JR Fan 1",
-        text: "JR is the man!  He lives near my family.  I want to wear his socks",
+        text: "JR is the man! He lives near my family. I want to wear his socks",
         time: "2011-11-02 00:26:05",
       },
     ],
   },
   { name: "Abominable Snowman in the Market" },
-  {
-    name: "Abu Jamal",
-    comments: [
-      {
-        name: "Jerry",
-        text: "Kind of a strange JR song.",
-        time: "2011-11-08 20:10:05",
-      },
-      {
-        name: "JB",
-        text: "It's weird when JR get's political...but it happens so rarely that you know it's a subject that means a lot to him",
-        time: "2011-11-09 14:57:08",
-      },
-    ],
-  },
+  { name: "Abu Jamal" },
   { name: "Action Packed" },
   { name: "Affection" },
   { name: "African Lady" },
@@ -767,7 +753,7 @@ export const songs: SongImport[] = [
     comments: [
       {
         name: "Jerry",
-        text: "Unlike any other song JR has written.Incredibly moving.",
+        text: "Unlike any other song JR has written. Incredibly moving.",
         time: "2011-10-28 11:24:20",
       },
     ],
@@ -862,7 +848,7 @@ export const songs: SongImport[] = [
     comments: [
       {
         name: "VinnieQ",
-        text: "i always wanted to hear the full version of CornerStore from the film Kingpin, but i never found it..",
+        text: "I always wanted to hear the full version of Corner Store from the film Kingpin, but i never found it..",
         time: "2013-12-12 11:54:10",
       },
     ],
@@ -1215,7 +1201,7 @@ export const songs: SongImport[] = [
     comments: [
       {
         name: "JB",
-        text: "Also known as \"I Can't Stand To See People With Their Feeling's Hurt\"",
+        text: 'Also known as "I Can\'t Stand To See People With Their Feelings Hurt"',
         time: "2011-11-25 01:26:28",
       },
     ],
@@ -1446,18 +1432,13 @@ export const songs: SongImport[] = [
     comments: [
       {
         name: "Jerry",
-        text: "She's not so scary she's got all of my records! ",
+        text: "She's not so scary she's got all of my records!",
         time: "2011-10-28 12:45:23",
       },
       {
         name: "JB",
         text: 'The term "Vampire Girl" has entered into my natural dialect because of this song',
         time: "2011-10-28 13:00:05",
-      },
-      {
-        name: "JB",
-        text: 'The term "Vampire Girl" has entered into my natural dialect because of this song',
-        time: "2011-10-28 13:03:00",
       },
     ],
   },
@@ -1468,7 +1449,7 @@ export const songs: SongImport[] = [
     comments: [
       {
         name: "Jerry",
-        text: "I love it when JR writes songs about real people. Velvet Underground,Pablo Picasso,Walter Johnson, etc.",
+        text: "I love it when JR writes songs about real people. Velvet Underground, Pablo Picasso, Walter Johnson, etc.",
         time: "2011-11-08 20:12:29",
       },
     ],
@@ -1835,7 +1816,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Ok, I'd better say a few words... When I received both this and the following one (Cambridge Boathouse) they were mixed up and named as Boston 1971 & 1973, but I think they were accidentally mis-labeled at some time.   Why do I think this? Well, by doing a comparison of some tracks included in Precise Modern Lovers Order & also by checking out some other people's early Modern Lovers web pages: they tie in as actually being from Harvard University 1971 & Cambridge Boathouse.  Quality-wise though, the recording sound is pretty rough, especially when you compare them to the cleaned up songs included on Precise Modern Lovers Order, but, because some are not included on either Precise Modern Lovers Order or Live at the Longbranch Saloon, then they are probably only available within this recording. So, that's my ten cents, enough said...",
+        text: "Ok, I'd better say a few words... When I received both this and the following one (Cambridge Boathouse) they were mixed up and named as Boston 1971 & 1973, but I think they were accidentally mis-labeled at some time. Why do I think this? Well, by doing a comparison of some tracks included in Precise Modern Lovers Order & also by checking out some other people's early Modern Lovers web pages: they tie in as actually being from Harvard University 1971 & Cambridge Boathouse. Quality-wise though, the recording sound is pretty rough, especially when you compare them to the cleaned up songs included on Precise Modern Lovers Order, but, because some are not included on either Precise Modern Lovers Order or Live at the Longbranch Saloon, then they are probably only available within this recording. So, that's my ten cents, enough said...",
         time: "2011-10-16 14:21:38",
       },
     ],
@@ -1912,7 +1893,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "1-4 Jonathan's first demos said to have been made in the Harvard Square area of Boston, Summer 19705-7  From The Modern Lovers first session, Intermedia Studios, Boston, 19718-9 From The Warner Brothers Demos with John Cale, Elektra Studios, LA, April 197210-11 From Dinky Dawsons Studio, Boston with Kim Fowley, Summer 197212 Gold Star Studios, LA, with Kim Fowley, October 197313 Live Radcliffe, Cambridge, October 197214 - 17 The Mercer Arts Center, NYC, New Years Eve 197218 Cambridge Boathouse, MA, 1972 Also, - Tracks 5,7, and 9, are among the extra tracks on the 2003 Castle Music re-issue of 'The Modern Lovers' (CMQCD 782) Track 6 was on the original 1976 release of 'The Modern Lovers', but the version here has some brief studio chat before it begins.",
+        text: "1-4 Jonathan's first demos said to have been made in the Harvard Square area of Boston, Summer 19705-7 From The Modern Lovers first session, Intermedia Studios, Boston, 19718-9 From The Warner Brothers Demos with John Cale, Elektra Studios, LA, April 1972 10-11 From Dinky Dawsons Studio, Boston with Kim Fowley, Summer 1972 12 Gold Star Studios, LA, with Kim Fowley, October 1973 13 Live Radcliffe, Cambridge, October 1972 14 - 17 The Mercer Arts Center, NYC, New Years Eve 1972 18 Cambridge Boathouse, MA, 1972 Also, - Tracks 5, 7, and 9, are among the extra tracks on the 2003 Castle Music re-issue of 'The Modern Lovers' (CMQCD 782) Track 6 was on the original 1976 release of 'The Modern Lovers', but the version here has some brief studio chat before it begins.",
         time: "2011-10-14 19:51:25",
       },
       {
@@ -2015,7 +1996,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Much of this recording is in a very poor state, and a number of the tracks are barely audible. The tape had a note attached  'with Mo Tucker in audience'.",
+        text: "Much of this recording is in a very poor state, and a number of the tracks are barely audible. The tape had a note attached 'with Mo Tucker in audience'.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -2160,7 +2141,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: "I LOVE this show!It's such a rare period in Jonathan's career.The highlight for me is \"Hi Fred, We Still Love You\". It was also on the Laura Palmer Tape and this version gives us a peek as to what JR meant the song to be.",
+        text: "I LOVE this show! It's such a rare period in Jonathan's career. The highlight for me is \"Hi Fred, We Still Love You\". It was also on the Laura Palmer Tape and this version gives us a peek as to what JR meant the song to be.",
         time: "2011-11-12 21:31:53",
       },
       {
@@ -2200,7 +2181,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathan Richman and a new line up of 'The Modern Lovers' - including Ernie Brookes and Curly Keranen; and  maybe Andy Paley too.",
+        text: "Jonathan Richman and a new line up of 'The Modern Lovers' - including Ernie Brookes and Curly Keranen; and maybe Andy Paley too.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -2236,7 +2217,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathan with Leroy Radcliffe on guitar, Curly Keranen on bass, accompanied an unnamed drummer.The sound is a little 'boomy'. ",
+        text: "Jonathan with Leroy Radcliffe on guitar, Curly Keranen on bass, accompanied an unnamed drummer. The sound is a little 'boomy'.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -2300,7 +2281,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A 90 minute interview with Jonathan for Varulven magazine; along with Joe Viglione and Fred Pineau. ",
+        text: "A 90 minute interview with Jonathan for Varulven magazine; along with Joe Viglione and Fred Pineau.",
         time: "2011-10-16 14:40:34",
       },
     ],
@@ -2434,12 +2415,12 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "This is such a fun recording! Jonathan taking the second line up of Modern Lovers on the road with his new songs; Ice Cream Man; Here come the Martian  Martians; Rockin' Rockin' Leprechauns; etc  to a New York audience that sound like they fully expected to hear the 'old stuff!' Lots of heckling at the beginning but Jonathan soon has them won over  well most of them) Best heckle is something like 'You sound like you've got a head full of Ice Cream!'",
+        text: "This is such a fun recording! Jonathan taking the second line up of Modern Lovers on the road with his new songs; Ice Cream Man; Here come the Martian  Martians; Rockin' Rockin' Leprechauns; etc to a New York audience that sound like they fully expected to hear the 'old stuff!' Lots of heckling at the beginning but Jonathan soon has them won over (well most of them). Best heckle is something like 'You sound like you've got a head full of Ice Cream!'",
         time: "2011-04-09 00:00:00",
       },
       {
         name: "neats",
-        text: "i was at this show too..very close to the front and it was still hard to hear...curly, leroy and the late d sharpe..d sharpe had a great drum kit..big african skin floor tom..leroy had the epiphone casino type guitar...curly was, curly on standup bass..",
+        text: "I was at this show too..very close to the front and it was still hard to hear...curly, leroy and the late d sharpe..d sharpe had a great drum kit..big african skin floor tom..leroy had the epiphone casino type guitar...curly was, curly on standup bass..",
         time: "2012-02-26 22:15:00",
       },
       {
@@ -2451,36 +2432,6 @@ export const recordings: RecordingImport[] = [
         name: "JB",
         text: "http://haystackpudding.com/MP3/befa3b71.html",
         time: "2012-08-08 12:26:02",
-      },
-      {
-        name: "Ramon",
-        text: "Track 6 is really Coomyah",
-        time: "2013-08-01 21:01:13",
-      },
-      {
-        name: "JB",
-        text: "Thanks Ramon, I updated the track listing",
-        time: "2013-08-02 14:45:15",
-      },
-      {
-        name: "Ramon",
-        text: "On my copy, track 13 is Summer Morning",
-        time: "2013-08-03 11:32:33",
-      },
-      {
-        name: "JB",
-        text: "Thanks Ramon, I updated it to to Summer Morning",
-        time: "2013-08-03 23:02:36",
-      },
-      {
-        name: "Ramon",
-        text: "Between 'Important in your Life' and 'Abominable...' I have a version of 'Fly into the Mystery'",
-        time: "2013-08-05 09:19:45",
-      },
-      {
-        name: "JB",
-        text: "Thanks Ramon, I added the song",
-        time: "2013-08-05 19:14:40",
       },
     ],
   },
@@ -2528,7 +2479,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "An unusual and rare recording; Jonathan and Greg (Curly Keranen?) performing for the staff of Government Center one lunch-time, someone has provided everyone with lyric sheets so they can join in the chorus, which they do after Jonathan has ran though the song once.(On the same CD as 'Boston Center for the Arts' 1974)",
+        text: "An unusual and rare recording; Jonathan and Greg (Curly Keranen?) performing for the staff of Government Center one lunch-time, someone has provided everyone with lyric sheets so they can join in the chorus, which they do after Jonathan has ran though the song once. (On the same CD as 'Boston Center for the Arts' 1974)",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -2684,7 +2635,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "JB",
-        text: "This is the late show of two shows played that day ",
+        text: "This is the late show of two shows played that day",
         time: "2011-10-16 14:56:04",
       },
     ],
@@ -2816,7 +2767,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "neats",
-        text: "i was at this show..i was a freshman at nyu..pretty sure he played nyu 2 different times",
+        text: "I was at this show..I was a freshman at nyu..pretty sure he played nyu 2 different times",
         time: "2012-02-26 22:08:04",
       },
     ],
@@ -2917,7 +2868,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Exact date of this show unknown. But it seems to be pretty likely near the date of  the New York University show - from the 29th October - as both shows include 'Little Boy In My Heart' along with a trombone instrumental.Another fun sounding two set show with the Modern Lovers, marred only by two of the songs were cut short on the taping.",
+        text: "Exact date of this show unknown. But it seems to be pretty likely near the date of the New York University show - from the 29th October - as both shows include 'Little Boy In My Heart' along with a trombone instrumental. Another fun sounding two set show with the Modern Lovers, marred only by two of the songs were cut short on the taping.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -3019,7 +2970,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: "So classic...includes a very early version of Abdul ",
+        text: "So classic...includes a very early version of Abdul",
         time: "2013-05-12 21:16:12",
       },
     ],
@@ -3160,7 +3111,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathan with the Modern Lovers: Asa Brebner, Leroy Radcliffe and D. Sharpe. Ice Cream Man is great fun... with loads and loads of false endings.",
+        text: "Jonathan with the Modern Lovers: Asa Brebner, Leroy Radcliffe and D. Sharpe. Ice Cream Man is great fun...with loads and loads of false endings.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -3180,7 +3131,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Presented by Kid Jenson 'Round Table' was a platform for guests to review some of the latest singles out in the UK. Jonathan and Ed Stewart are the shows guests, but, it's a  pretty crappy set of singles out that week unfortunately - Bonny Tyler, Althea and Donna, Billy Joel, Peter Sarstedt... in between songs Jonathan explains a little about the music he likes, etc... About 40 minutes long.",
+        text: "Presented by Kid Jenson 'Round Table' was a platform for guests to review some of the latest singles out in the UK. Jonathan and Ed Stewart are the shows guests, but, it's a pretty crappy set of singles out that week unfortunately - Bonny Tyler, Althea and Donna, Billy Joel, Peter Sarstedt... in between songs Jonathan explains a little about the music he likes, etc... About 40 minutes long.",
         time: "2011-10-16 15:21:06",
       },
     ],
@@ -3248,7 +3199,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A little bit of echo for the 1st couple of  songs only, but excellent for the rest of the show.",
+        text: "A little bit of echo for the 1st couple of songs only, but excellent for the rest of the show.",
         time: "2011-10-16 15:33:45",
       },
       {
@@ -3283,7 +3234,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "I received this a while back unnamed and undated, and previously had it listed as 1978 filler, Venue Unknown. However I've now been given a lot more info about where it was recorded and also confirmation of the date. Apparently this was a free concert recorded by BRT , Belgium National TV, since then re-named  VRT, which was broadcast in three sections. VRT say that what we have here is just one of them,... so maybe someone out there has the others?",
+        text: "I received this a while back unnamed and undated, and previously had it listed as 1978 filler, Venue Unknown. However I've now been given a lot more info about where it was recorded and also confirmation of the date. Apparently this was a free concert recorded by BRT, Belgium National TV, since then re-named VRT, which was broadcast in three sections. VRT say that what we have here is just one of them... so maybe someone out there has the others?",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -3340,7 +3291,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Good  live in the studio recording of the Modern Lovers, with nice and relaxed performance. Some nice chat between songs too.",
+        text: "Good live in the studio recording of the Modern Lovers, with nice and relaxed performance. Some nice chat between songs too.",
         time: "2011-10-16 15:42:32",
       },
       {
@@ -3584,7 +3535,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Studio interview in between a few of Jonathan recordings (Abdul and Cleopatra, Buzz Buzz Buzz and  the 'Oh Carol ' version of 'Morning of our lives' are played). About 15 minutes long.",
+        text: "Studio interview in between a few of Jonathan recordings (Abdul and Cleopatra, Buzz Buzz Buzz and the 'Oh Carol' version of 'Morning of our lives' are played). About 15 minutes long.",
         time: "2011-10-16 15:23:57",
       },
     ],
@@ -3717,7 +3668,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A really good recording and something of rarity from this time. Tonight's and the following nights recording are solo performances, a lot of fun, and full of spontaneity. An added bonus too is the inclusion of  a rare recording of 'I Don't Want No Nuclear Power Plants (in My Life)', a song once planned to be released as a single with the Beserkley label. This release never came to be and the song quickly dropped from Jonathans live shows.",
+        text: "A really good recording and something of rarity from this time. Tonight's and the following nights recording are solo performances, a lot of fun, and full of spontaneity. An added bonus too is the inclusion of a rare recording of 'I Don't Want No Nuclear Power Plants (in My Life)', a song once planned to be released as a single with the Beserkley label. This release never came to be and the song quickly dropped from Jonathan's live shows.",
         time: "2011-10-16 16:03:45",
       },
     ],
@@ -3770,7 +3721,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "In the book 'There's Something About Jonathan' reference is made to a recording done at Gold Star Studios, Los Angeles, involved a full orchestra, 'Cupid ' and 'Lets Take The Long Way Home' both look to be from this session. I'm not sure about the other two, but as they arrived on the same CD I'll leave them here for now.",
+        text: "In the book 'There's Something About Jonathan' reference is made to a recording done at Gold Star Studios, Los Angeles, involved a full orchestra, 'Cupid' and 'Lets Take The Long Way Home' both look to be from this session. I'm not sure about the other two, but as they arrived on the same CD I'll leave them here for now.",
         time: "2011-10-16 18:36:09",
       },
       {
@@ -3785,7 +3736,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "Emmett",
-        text: 'Jonathan made an appearance in London in the spring of 1979.  Since Jonathan had had a "hit" with a full band, it raised an eyebrow that he was doing such a major show completely by himself.  Since that time, Jonathan has done many shows solo, "with an amp the size of the toaster"-style.  But for most of the last 20 years has preferred to have his drummer, Tommy, a company is "solo" show.',
+        text: 'Jonathan made an appearance in London in the spring of 1979. Since Jonathan had had a "hit" with a full band, it raised an eyebrow that he was doing such a major show completely by himself. Since that time, Jonathan has done many shows solo, "with an amp the size of the toaster"-style. But for most of the last 20 years has preferred to have his drummer, Tommy, accompany his "solo" show.',
         time: "2013-10-17 13:02:15",
       },
     ],
@@ -3843,7 +3794,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A few songs from his latest LP, 'Back in Your Life', are played (The songs are - Back in Your Life, Natures Mosquito, Affection and Roadrunner) Jonathan gives a little bit of info about each and also about his new LP. ",
+        text: "A few songs from his latest LP, 'Back in Your Life', are played (The songs are - Back in Your Life, Natures Mosquito, Affection and Roadrunner). Jonathan gives a little bit of info about each and also about his new LP. ",
         time: "2011-10-16 18:17:29",
       },
     ],
@@ -3893,7 +3844,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Said to have been recorded in Jonathans apartment in Cambridge. With Leroy Radcliffe, Andy Paley, Ellie Marshall, and  another backing singer, Liz Does.",
+        text: "Said to have been recorded in Jonathan's apartment in Cambridge. With Leroy Radcliffe, Andy Paley, Ellie Marshall, and another backing singer, Liz Does.",
         time: "2011-10-16 18:27:32",
       },
       {
@@ -3936,7 +3887,7 @@ export const recordings: RecordingImport[] = [
   {
     linkid: 1980051000,
     type: "Show",
-    venue: "The Tam OShanter",
+    venue: "The Tam O'Shanter",
     country: "USA",
     quality: "Poor",
     year: 1980,
@@ -4310,7 +4261,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Previously listed as 'Studio Session 1982/3'. This looks better identified as the session recorded at Capitol Recording Studios, Los Angeles, in late 1980 (see Tim Mitchell's book 'There's Something About Jonathan' - page 130). By the way, there's a short CD circulating, called 'Jonathan Goes Funky' which is made up of six tracks from this session. ",
+        text: "Previously listed as 'Studio Session 1982/3'. This looks better identified as the session recorded at Capitol Recording Studios, Los Angeles, in late 1980 (see Tim Mitchell's book 'There's Something About Jonathan' - page 130). By the way, there's a short CD circulating, called 'Jonathan Goes Funky' which is made up of six tracks from this session.",
         time: "2011-10-16 18:51:43",
       },
     ],
@@ -4404,7 +4355,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Set 2 sounds to have come from a different source to that for Set 1, and is a much better recording; hence a different rating for each of the sets.With the Rocking Robins & Michael Guardabascio. ",
+        text: "Set 2 sounds to have come from a different source to that for Set 1, and is a much better recording; hence a different rating for each of the sets. With the Rocking Robins & Michael Guardabascio.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -4468,7 +4419,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "With Curly Keranen, Michael Guardabascio and Ken Forfia, plus 'The Rockin' Robins' : Ellie Marshall and  Beth Harrington.Yoyos On Parade' & 'Creeps On The March' aren't really songs they're just a few lines while Jonathans messing about for a minute or two.",
+        text: "With Curly Keranen, Michael Guardabascio and Ken Forfia, plus 'The Rockin' Robins': Ellie Marshall and  Beth Harrington. Yoyos On Parade' & 'Creeps On The March' aren't really songs they're just a few lines while Jonathan is messing about for a minute or two.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -4691,7 +4642,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Right, I had this previously listed as New York 1982, and as a one CD show only, but now have a copy of the full show as below... the thing is that the one CD copy seemed to sound better than the new complete copy does (the 1 CD copy ran from fireside chat to Abdul & Cleopatra) so I now need to do some further sound checking and come up with the best recording.Here's the show... and by the way, 'Bring Back Springtime' still stands out as a great unlisted and unrecorded song...",
+        text: "Right, I had this previously listed as New York 1982, and as a one CD show only, but now have a copy of the full show as below... the thing is that the one CD copy seemed to sound better than the new complete copy does (the 1 CD copy ran from fireside chat to Abdul & Cleopatra) so I now need to do some further sound checking and come up with the best recording. Here's the show... and by the way, 'Bring Back Springtime' still stands out as a great unlisted and unrecorded song...",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -4711,7 +4662,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Seems like 'Roadrunner' is the only recording from this show - unless someone knows otherwise? ",
+        text: "Seems like 'Roadrunner' is the only recording from this show - unless someone knows otherwise?",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -4740,7 +4691,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "With Beth Harrington, Ellie Marshall, and Ken Forfia. A pretty short show this, at something like 30 minutes long. ",
+        text: "With Beth Harrington, Ellie Marshall, and Ken Forfia. A pretty short show this, at something like 30 minutes long.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -4867,7 +4818,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A Bootleg CD circulating on Wild Child Records (?) The cover describes the recording as \"unreleased demo version with bonus tracks\". It seems likely that these recordings were done at Sunset Studios, Burbank, in Autumn 1981. (see Tim Mitchell's Book, 'There's Something About Jonathan' - page 132). Most of the recordings are very similar to those that were released on \"Jonathan Sings!\" , though a couple didn't make it onto the record.",
+        text: "A Bootleg CD circulating on Wild Child Records (?). The cover describes the recording as \"unreleased demo version with bonus tracks\". It seems likely that these recordings were done at Sunset Studios, Burbank, in Autumn 1981. (see Tim Mitchell's Book, 'There's Something About Jonathan' - page 132). Most of the recordings are very similar to those that were released on \"Jonathan Sings!\" , though a couple didn't make it onto the record.",
         time: "2011-10-16 19:34:18",
       },
       {
@@ -4894,7 +4845,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Pol Dodu",
-        text: "Recorded live at the Th&eacute;&acirc;tre de l'Empire in paris, this was actually broadcast on April 8th 1979 in Antoine de Caunes' Chorus show. Now available for sale as a download here : http://www.ina.fr/art-et-culture/arts-du-spectacle/video/I10251089/jonathan-richman-sur-la-scene-du-theatre-de-l-empire-a-paris.fr.html",
+        text: "Recorded live at the Theatre de l'Empire in paris, this was actually broadcast on April 8th 1979 in Antoine de Caunes' Chorus show. Now available for sale as a download here: http://www.ina.fr/art-et-culture/arts-du-spectacle/video/I10251089/jonathan-richman-sur-la-scene-du-theatre-de-l-empire-a-paris.fr.html",
         time: "2012-05-18 12:37:51",
       },
     ],
@@ -4978,7 +4929,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A solo show in the main, except for a few songs with 'the Rockin Robins' on each set, joined by Andy Paley on piano for 'Up In The Sky Sometime'.",
+        text: "A solo show in the main, except for a few songs with 'The Rockin Robins' on each set, joined by Andy Paley on piano for 'Up In The Sky Sometime'.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -5050,7 +5001,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "Bob",
-        text: "Recently got hold of this one, and guess what... it's as good as the following nights show.And a couple of  very rare songs too.",
+        text: "Recently got hold of this one, and guess what... it's as good as the following nights show. And a couple of very rare songs too.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -5091,7 +5042,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "cover files available     This is a great little show! It sounds really intimate and of the 16 songs Jonathan plays 6 that I've only heard here (well maybe one or two exist on a couple of other live shows but the performance here is spot on). This is one of my favorites and listened to lots.",
+        text: "Cover files available. This is a great little show! It sounds really intimate and of the 16 songs Jonathan plays 6 that I've only heard here (well maybe one or two exist on a couple of other live shows but the performance here is spot on). This is one of my favorites and listened to lots.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -5186,7 +5137,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "With  Beth Harrington, Ellie Marshall, and Michael Guardabascio.",
+        text: "With Beth Harrington, Ellie Marshall, and Michael Guardabascio.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -5509,7 +5460,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A super fun show and one of the best we have! Lots of jokes, fooling around, and an unusual song list, plus, towards the end of the show Jonathan's joined on stage by The Baltimores, for a great version of......... well, what else but ........ The Baltimores!Jonathan at his very best!!!!",
+        text: "A super fun show and one of the best we have! Lots of jokes, fooling around, and an unusual song list, plus, towards the end of the show Jonathan's joined on stage by The Baltimores, for a great version of... well, what else but...The Baltimores! Jonathan at his very best!!!!",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -5671,7 +5622,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "One of the best sounding shows I have of The Modern Lovers from the early 1980's.Jonathan doesn't introduce all the band members so can't be sure of the full line-up tonight, but the performers included 'The Rockin' Robins' (Beth and Ellie), Curly Keranan, and Carla Brownlee on Saxophone. Carla's Sax is put to full use throughout and some of the songs have never sounded better",
+        text: "One of the best sounding shows I have of The Modern Lovers from the early 1980's. Jonathan doesn't introduce all the band members so can't be sure of the full line-up tonight, but the performers included 'The Rockin' Robins' (Beth and Ellie), Curly Keranan, and Carla Brownlee on Saxophone. Carla's Sax is put to full use throughout and some of the songs have never sounded better",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -5732,7 +5683,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "Jerry",
-        text: "I've been to The Bottom Line a few times back in the 70's. I saw Billy Joel,Patti Smith and Elliot Murphy there.",
+        text: "I've been to The Bottom Line a few times back in the 70's. I saw Billy Joel, Patti Smith and Elliot Murphy there.",
         time: "2011-11-19 20:51:54",
       },
       {
@@ -5790,7 +5741,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "With Curley & Ellie, and probably Jonathans Saxophone.",
+        text: "With Curley & Ellie, and probably Jonathan's Saxophone.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -5834,7 +5785,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Personal highlights are 'I'm a Jerk' and a really nice and long 'Affection'.Deservedly Excellent.",
+        text: "Personal highlights are 'I'm a Jerk' and a really nice and long 'Affection'. Deservedly Excellent.",
         time: "2011-10-16 20:45:20",
       },
     ],
@@ -5888,7 +5839,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: "Full band present with Asa, Curly, and Ellie on Rhythm guitar",
+        text: "Full band present with Asa, Curly, and Ellie on rhythm guitar",
         time: "2011-11-05 09:11:43",
       },
     ],
@@ -5936,7 +5887,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "cover files availableWith Jonathan on Sax and Curly Keranen on Acoustic Bass: no guitars! ",
+        text: "Cover files available. With Jonathan on Sax and Curly Keranen on acoustic Bass: no guitars! ",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -5963,7 +5914,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Jerry",
-        text: "Really solid album. One of his best and one of my favorites.Love The Tag Game.",
+        text: "Really solid album. One of his best and one of my favorites. Love The Tag Game.",
         time: "2011-10-28 17:15:49",
       },
       {
@@ -6221,7 +6172,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Excellent recording made for Radio-Bellevue, recorded through the soundboard and mixed on-the-fly, incorporating a couple of  ambience microphones standing in front of the stage. With Ellie Marshall and Curly Keranen.",
+        text: "Excellent recording made for Radio-Bellevue, recorded through the soundboard and mixed on-the-fly, incorporating a couple of ambience microphones standing in front of the stage. With Ellie Marshall and Curly Keranen.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -6335,7 +6286,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Very good audience recording of Jonathan with Ellie & Curly. Including an improvised and otherwise completely unknown song, 'Jonathan I feel so Bad'', the words of which Jonathan seems to be spilling out, line by line, in a stream of consciousness style of improvisation.",
+        text: "Very good audience recording of Jonathan with Ellie & Curly. Including an improvised and otherwise completely unknown song, 'Jonathan I feel so Bad', the words of which Jonathan seems to be spilling out, line by line, in a stream of consciousness style of improvisation.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -6401,7 +6352,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "With Jonathan, Curly & Ellie Marshall. A few faults with the original taping : every once and a while the microphone seems to be getting a bit of a knock which then affects the recording levels for the next 30 seconds. This doesn't happen too much at the start though it's a lot more noticeable for the last 10 minutes.",
+        text: "With Jonathan, Curly & Ellie Marshall. A few faults with the original taping: every once and a while the microphone seems to be getting a bit of a knock which then affects the recording levels for the next 30 seconds. This doesn't happen too much at the start though it's a lot more noticeable for the last 10 minutes.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -6618,7 +6569,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A pretty good show with Asa Brebner, and almost certainly Andy Paley. The recording ends a little before the end of the show and just a few seconds into 'My Jeans'.  It's one of the few shows I have that includes 'Lets say we just met', and it's a cracking version performed on this one - great!!!",
+        text: "A pretty good show with Asa Brebner, and almost certainly Andy Paley. The recording ends a little before the end of the show and just a few seconds into 'My Jeans'. It's one of the few shows I have that includes 'Lets say we just met', and it's a cracking version performed on this one - great!!!",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -6692,12 +6643,12 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A nice show, with a very atmospheric outdoors feel to it somehow; kids talking and playing in the background  between songs and a very enthusiastic band of Modern Lovers (Jonathan with Andy Paley & Asa Brebner) plus a couple of Jonathan's jokes thrown in between songs too. ",
+        text: "A nice show, with a very atmospheric outdoors feel to it somehow; kids talking and playing in the background between songs and a very enthusiastic band of Modern Lovers (Jonathan with Andy Paley & Asa Brebner) plus a couple of Jonathan's jokes thrown in between songs too.",
         time: "2011-04-09 00:00:00",
       },
       {
         name: "Leo Lyons",
-        text: "I think I took this photo of Jonathan at this gig.http://www.flickr.com/photos/21639778@N00/8544246781/",
+        text: "I think I took this photo of Jonathan at this gig. http://www.flickr.com/photos/21639778@N00/8544246781/",
         time: "2013-03-10 10:53:05",
       },
     ],
@@ -6728,7 +6679,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A short performance from this huge and popular UK Music Festival, at about only 40 minutes long or so, because of the needs of the Festival organizers to get on with setting up their next act. The highlights are, to my mind, 'Tell how you Feel' and a great and spirited version of 'Louie Louie'.Maybe this tape doesn't have the best of sound quality - but still a great show!",
+        text: "A short performance from this huge and popular UK Music Festival, at about only 40 minutes long or so, because of the needs of the Festival organizers to get on with setting up their next act. The highlights are, to my mind, 'Tell how you Feel' and a great and spirited version of 'Louie Louie'. Maybe this tape doesn't have the best of sound quality - but still a great show!",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -6774,7 +6725,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Ramon",
-        text: "I am pretty sure that the instrumental, track 20, is really Malaguena De Jojo. ",
+        text: "I am pretty sure that the instrumental, track 20, is really Malaguena De Jojo.",
         time: "2012-03-24 13:54:15",
       },
       {
@@ -6882,7 +6833,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: "William McQueen Opened.Ticket price was $8. http://www.bottomlinecabaret.com/tline_index.html",
+        text: "William McQueen Opened. Ticket price was $8. http://www.bottomlinecabaret.com/tline_index.html",
         time: "2012-03-20 12:52:18",
       },
     ],
@@ -6949,7 +6900,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A great and hugely extended 'This kind of Music', something like 15 minutes in total, adds to a very memorable performance. ",
+        text: "A great and hugely extended 'This Kind Of Music', something like 15 minutes in total, adds to a very memorable performance.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -7003,7 +6954,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Excellent apart from a couple of songs where Jonathan's singing away from the microphone. ",
+        text: "Excellent apart from a couple of songs where Jonathan's singing away from the microphone.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -7171,7 +7122,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Great show and lots of Sax!",
+        text: "Great show and lots of sax!",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -7269,7 +7220,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Nice show with the full band :Jonathan, Brennan Totten and Andy Paley, plus plenty of Sax too! ",
+        text: "Nice show with the full band: Jonathan, Brennan Totten and Andy Paley, plus plenty of sax too! ",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -7306,7 +7257,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Another neat sounding show; Jonathan's trying his best with the local lingo, the music and atmosphere is great and he's playing Sax loads. Vincent van Gogh, Wipeout, La Bamba, and Egyptian Reggae all given a full Sax blowout!",
+        text: "Another neat sounding show; Jonathan's trying his best with the local lingo, the music and atmosphere is great and he's playing sax loads. Vincent van Gogh, Wipeout, La Bamba, and Egyptian Reggae all given a full sax blowout!",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -7349,7 +7300,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Another of those great sounding mid-eighties shows with a lot of Saxophone.cover files available",
+        text: "Another of those great sounding mid-eighties shows with a lot of saxophone. Cover files available",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -7491,7 +7442,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathan breaks a string mid set and then spends the best part of the next 10 minutes taking time out telling jokes, the jokes are awful but the delivery's great  - Our kids really like the frog joke!",
+        text: "Jonathan breaks a string mid set and then spends the best part of the next 10 minutes taking time out telling jokes, the jokes are awful but the delivery's great - our kids really like the frog joke!",
         time: "2011-10-18 21:29:47",
       },
       {
@@ -7544,7 +7495,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: "From http://haystackpudding.com/MP3/ddb96478.html:Jonathan was in a really good mood as he played at Holsteins, the now defunct sit-down folk club on Lincoln Avenue. Holsteins was run by the Holstein brothers, Fred and Ed, who were folk musicians themselves. It was a great place to see a show, and it was on the same side of the street as where Lounge Ax later stood, about a block north. The club was long and not wide,",
+        text: "From http://haystackpudding.com/MP3/ddb96478.html: Jonathan was in a really good mood as he played at Holsteins, the now defunct sit-down folk club on Lincoln Avenue. Holsteins was run by the Holstein brothers, Fred and Ed, who were folk musicians themselves. It was a great place to see a show, and it was on the same side of the street as where Lounge Axe later stood, about a block north. The club was long and not wide,",
         time: "2012-08-08 12:17:19",
       },
     ],
@@ -7589,7 +7540,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathan's pretty chatty and comes up with plenty of ad libs during 'That Summer Feeling', and Brennan Totten's here too.",
+        text: "Jonathan's pretty chatty and comes up with plenty of ad-libs during 'That Summer Feeling', and Brennan Totten's here too.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -7976,7 +7927,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A great show with Brennan Totten & Johnny Avila. A really lively one this one, the band is on top form: full of enthusiasm, and playing to a highly excited crowd. Some excellent guitar work is here too, especially on 'Chewing gum wrapper' and 'Conga Drums' - this is by far the best version of 'Conga Drums' that I've yet heard.Unfortunately, the tape runs out near the end of 'Walter Johnson', the shows second encore, just a couple of lines short of what would have been the end; so unfortunately, the recording comes to a bit of an abrupt ending - this though is probably the only slight flaw with the recording.Has a great atmosphere of an excellent show, superbly captured!!!!!",
+        text: "A great show with Brennan Totten & Johnny Avila. A really lively one this one, the band is on top form: full of enthusiasm, and playing to a highly excited crowd. Some excellent guitar work is here too, especially on 'Chewing Gum Wrapper' and 'Conga Drums' - this is by far the best version of 'Conga Drums' that I've yet heard. Unfortunately, the tape runs out near the end of 'Walter Johnson', the shows second encore, just a couple of lines short of what would have been the end; so unfortunately, the recording comes to a bit of an abrupt ending - this though is probably the only slight flaw with the recording. Has a great atmosphere of an excellent show, superbly captured!!!",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -8023,7 +7974,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "With Brennan Totten, Johnny Avila and a lot of Sax!",
+        text: "With Brennan Totten, Johnny Avila and a lot of sax!",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -8112,7 +8063,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: "includes an intro",
+        text: "Includes an intro",
         time: "2011-10-18 22:30:57",
       },
     ],
@@ -8240,7 +8191,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Interview by 'Big Jim Hunsicker', with Jonathan and Brennan Totten. From an intended cable TV show that was never aired , the video of which has since deteriorated, this is the audio recording of the programme. About thirty minutes long. (On the same CD as 14th March 2008). Jonathan does a few songs between questions",
+        text: "Interview by 'Big Jim Hunsicker', with Jonathan and Brennan Totten. From an intended cable TV show that was never aired, the video of which has since deteriorated, this is the audio recording of the programme. About thirty minutes long. (On the same CD as 14th March 2008). Jonathan does a few songs between questions",
         time: "2011-10-18 22:46:08",
       },
       {
@@ -8285,7 +8236,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A fairly lively audience for this show, and with a sound quality that is probably a little better than I've marked it in the main, but, the sound quality drops away for all of 'California Desert Party' and also for part of 'UFO Man' so I've rated this one as 'good' only. Even so, it's a pretty good recording.Brennan Totten does the singing for a couple of songs midway through the show (Born to be Wild & My Baby). With a pretty funny encore.",
+        text: "A fairly lively audience for this show, and with a sound quality that is probably a little better than I've marked it in the main, but, the sound quality drops away for all of 'California Desert Party' and also for part of 'UFO Man' so I've rated this one as 'good' only. Even so, it's a pretty good recording. Brennan Totten does the singing for a couple of songs midway through the show (Born to be Wild & My Baby). With a pretty funny encore.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -8420,12 +8371,12 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: 'encore starts with "The Beach"',
+        text: 'Encore starts with "The Beach"',
         time: "2011-10-11 20:11:20",
       },
       {
         name: "JB",
-        text: '"Everyday Clothes" is a capella',
+        text: '"Everyday Clothes" is acapella',
         time: "2011-10-11 20:11:58",
       },
     ],
@@ -8472,12 +8423,12 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: '"When I\'m Walkin\'" and "The Fenway" are performed a capella',
+        text: '"When I\'m Walkin\'" and "The Fenway" are performed acapella',
         time: "2011-10-11 20:17:44",
       },
       {
         name: "Ramon",
-        text: 'My copy doesn\'t have "When I Dance" (it shows up on the track listing as a medley with "This kind of music" but there is no sign of it on the track.  Is your copy different?',
+        text: 'My copy doesn\'t have "When I Dance" (it shows up on the track listing as a medley with "This Kind Of Music" but there is no sign of it on the track. Is your copy different?',
         time: "2012-08-05 09:30:04",
       },
       {
@@ -8611,7 +8562,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "With Johnny Avila & Brennan Totten; includes a great sounding 'Affection' peppered with ad libs. ",
+        text: "With Johnny Avila & Brennan Totten; includes a great sounding 'Affection' peppered with ad-libs. ",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -8657,7 +8608,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Last date of the tour before the band are heading home to the states, and a fun show it is too! including a great version of  'Hospital'. Brennan Totten, guitar, and Johnny Avila, drums. At the end of the show Jonathan can be heard throwing cards out into the audience, imploring people to use them to write him - \"I always write back, sometimes it takes a while, but I write back!\"",
+        text: "Last date of the tour before the band are heading home to the states, and a fun show it is too! Including a great version of  'Hospital'. Brennan Totten, guitar, and Johnny Avila, drums. At the end of the show Jonathan can be heard throwing cards out into the audience, imploring people to use them to write him - \"I always write back, sometimes it takes a while, but I write back!\"",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -8708,7 +8659,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A cracking show that includes an excellent and completely unknown song... 'Wild Wild Party', never seen it listed anywhere before... as well as a very early version of 'You can't talk to the Dude' introduced as a brand new song...  and with very different lyrics too. Recommended.",
+        text: "A cracking show that includes an excellent and completely unknown song... 'Wild Wild Party', never seen it listed anywhere before... as well as a very early version of 'You Can't Talk To The Dude' introduced as a brand new song...  and with very different lyrics too. Recommended.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -8959,7 +8910,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A nice show this one, a bunch of instrumentals performed near the beginning and a great version of 'Closer'.'Fender Stratocaster' and 'Make a Mistake' are both described as new songs.",
+        text: "A nice show this one, a bunch of instrumentals performed near the beginning and a great version of 'Closer'. 'Fender Stratocaster' and 'Make a Mistake' are both described as new songs.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -9006,7 +8957,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A pretty interactive and friendly show with some nice chat between songs too, and an especially nice moment when a woman joins Jonathan up on stage, unexpectedly, part way through 'Affection'.Some slight background hiss during the early part but this fades away part way though. ",
+        text: "A pretty interactive and friendly show with some nice chat between songs too, and an especially nice moment when a woman joins Jonathan up on stage, unexpectedly, part way through 'Affection'. Some slight background hiss during the early part but this fades away part way though.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -9072,7 +9023,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathan's pretty chatty tonight... inviting questions from the audience, etc, more so during the first set than the second. There's an interesting explanation of why 'Roadrunner' doesn't get performed much anymore and also an early embryonic version of You Can't Talk to the Dude'.",
+        text: "Jonathan's pretty chatty tonight... inviting questions from the audience, etc, more so during the first set than the second. There's an interesting explanation of why 'Roadrunner' doesn't get performed much anymore and also an early embryonic version of 'You Can't Talk to the Dude'.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -9126,7 +9077,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A Radio broadcast of the full show, quite long, at about 1 1/2 hours and with many encores. The Spanish presenters do chip in quite a bit between some songs, but nothing too much and the show isn't spoilt . A very good recording!",
+        text: "A Radio broadcast of the full show, quite long, at about 1 1/2 hours and with many encores. The Spanish presenters do chip in quite a bit between some songs, but nothing too much and the show isn't spoilt. A very good recording!",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -9160,7 +9111,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: 'From an FM broadcast " O3 Musicbox Live "  Austrian Radio (ORF). With Brennan Totten & Johnny Avila.With Brennan Totten & Johnny Avila.',
+        text: 'From an FM broadcast "O3 Musicbox Live"  Austrian Radio (ORF). With Brennan Totten & Johnny Avila. With Brennan Totten & Johnny Avila.',
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -9355,7 +9306,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Not the best of sound with this one... it's a little quiet and sounds like the venue was a large cavernous hall so a bit hollow sounding.",
+        text: "Not the best of sound with this one...it's a little quiet and sounds like the venue was a large cavernous hall so a bit hollow sounding.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -9583,7 +9534,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathans pretty talkative on this one, there are just one or two flaws with it, it cuts out for about 20 seconds during 'hot nights' and also the recording stops during 'At night' just before the end of the show.",
+        text: "Jonathan's pretty talkative on this one, there are just one or two flaws with it, it cuts out for about 20 seconds during 'hot nights' and also the recording stops during 'At Night' just before the end of the show.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -9946,7 +9897,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: 'Those Nashville musicians are top notch.This is the one album where I actually think that the re-makes of his songs don\'t spoil the album. The version of "I Must Be King" here sounds more fresh than the "Jonathan Sings\'s" version',
+        text: 'Those Nashville musicians are top notch. This is the one album where I actually think that the re-makes of his songs don\'t spoil the album. The version of "I Must Be King" here sounds more fresh than the "Jonathan Sings\'s" version',
         time: "2011-10-31 08:33:09",
       },
     ],
@@ -9989,7 +9940,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A Very Clear Soundboard recording",
+        text: "A very clear soundboard recording",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -10105,7 +10056,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A rowdy and very lively audience; Jonathan joins 'the Skeletons' for the first 3 songs...",
+        text: "A rowdy and very lively audience; Jonathan joins 'The Skeletons' for the first three songs...",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -10296,7 +10247,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Solo show. The sound quality on this one  is just awful - like it was recorded in a biscuit tin! One for completists only, a pity coz Jonathan sings a couple of songs in Italian. ",
+        text: "Solo show. The sound quality on this one is just awful - like it was recorded in a biscuit tin! One for completists only, a pity coz Jonathan sings a couple of songs in Italian. ",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -10586,7 +10537,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathan is speaking Italian throughout this one, dropping some into the lyrics on a few songs, and even manages to do the whole of  'Monologue on Bermuda' in Italian. ",
+        text: "Jonathan is speaking Italian throughout this one, dropping some into the lyrics on a few songs, and even manages to do the whole of 'Monologue on Bermuda' in Italian.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -10659,7 +10610,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Other than it was recorded in Canada in the 1990's no other info came along with this show. My best guess dates it as sometime in late 1991 - going by the song choices and Jonathans comments between songs. An early version of 'Let Her Go Into The Darkness' is introduced here as a brand new song, \"not even on the new album that just came out\" - Possibly, 'Having A Party With Jonathan Richman' which, far as I know, was released  in late September 1991.About half the show looks to be here- The taping cuts out straight after Jonathan calls an intermission.",
+        text: "Other than it was recorded in Canada in the 1990's. no other info came along with this show. My best guess dates it as sometime in late 1991 - going by the song choices and Jonathans comments between songs. An early version of 'Let Her Go Into The Darkness' is introduced here as a brand new song, \"not even on the new album that just came out\" - Possibly, 'Having A Party With Jonathan Richman' which, far as I know, was released in late September 1991. About half the show looks to be here - the taping cuts out straight after Jonathan calls an intermission.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -10895,7 +10846,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "This one came with the Palomino show above, but without any info about where or when it was recorded, so the date's a bit of a guess... a nice recording though.",
+        text: "This one came with the Palomino show above, but without any info about where or when it was recorded, so the date's a bit of a guess...a nice recording though.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -11061,7 +11012,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "The presenter asks people to phone in with their questions to be put to Jonathan, which according to Jonathan means that 'it's time to pester Jonathan... so ring in with your rude obnoxious questions!'Actually though it's a pretty good interview, the music being discussed is mostly from 'Jonathan goes County'.About 30 minutes long.",
+        text: "The presenter asks people to phone in with their questions to be put to Jonathan, which according to Jonathan means that 'it's time to pester Jonathan... so ring in with your rude obnoxious questions!' Actually though it's a pretty good interview, the music being discussed is mostly from 'Jonathan goes County'. About 30 minutes long.",
         time: "2011-10-19 16:18:09",
       },
     ],
@@ -11144,7 +11095,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A great show including an outstanding version of 'Monologue on Bermuda' - the full story is here with two, yes, two songs within a song, 'Here come the Martian Martians' &  'Abominable Snowman in the Market',  before moving back to where we started at 'Down in Bermuda' - Excellent.It's also one of the few shows I have, so far, that includes a live version of \"Tandem Jump!\" so, set your altimeters...another - Highly recommended!",
+        text: "A great show including an outstanding version of 'Monologue on Bermuda' - the full story is here with two, yes, two songs within a song, 'Here come the Martian Martians' & 'Abominable Snowman in the Market', before moving back to where we started at 'Down in Bermuda' - Excellent. It's also one of the few shows I have, so far, that includes a live version of \"Tandem Jump!\" so, set your altimeters...another - Highly recommended!",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -11298,7 +11249,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A fairly quiet recording this one ,Jonathan is joined on stage towards the end of the show by the Rockin' Robin's: Beth Harrington and Ellie Marshall.",
+        text: "A fairly quiet recording this one, Jonathan is joined on stage towards the end of the show by the Rockin' Robin's: Beth Harrington and Ellie Marshall.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -11325,7 +11276,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "cover files available I really like this recording; lots of fun with the audience in this in-store' appearance and all are obviously having a great time. It only lasts something like 11 minutes in total but it's very, very playable.Until recently I thought this was an audio recording only, but I've since heard that it's actually from a video recording someone made - so film footage of this mini concert exists too!",
+        text: "Cover files available. I really like this recording; lots of fun with the audience in this in-store appearance and all are obviously having a great time. It only lasts something like 11 minutes in total but it's very, very playable. Until recently I thought this was an audio recording only, but I've since heard that it's actually from a video recording someone made - so film footage of this mini concert exists too!",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -11379,7 +11330,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A top-quality recording with the full Bermuda Monologue and a great sounding 'Velvet Underground', including snatches of 3 songs by the Velvets - Sister Ray, What Goes On & Foggy Notion -  and some nice chat too.",
+        text: "A top-quality recording with the full Bermuda Monologue and a great sounding 'Velvet Underground', including snatches of 3 songs by the Velvets - Sister Ray, What Goes On & Foggy Notion - and some nice chat too.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -11420,7 +11371,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Features an ace version of Pablo Picasso and quite a lot of ad-libbing... and a new song that's only on this recording: 'She brings out the best in me'... plus an early version of 'Rock and Roll Drummer' with different verses.",
+        text: "Features an ace version of Pablo Picasso and quite a lot of ad-libbing... and a new song that's only on this recording: 'She Brings Out the Best in Me'... plus an early version of 'Rock and Roll Drummer' with different verses.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -11441,7 +11392,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Among the items being discussed are: performing on the roof of The Hotel Albert, liking for Dick Dale, and  recollections of  'Rec' Rooms.On the same CD as the Janice Long Show, 1985 (and also on the NPR Radio 1994 CD)",
+        text: "Among the items being discussed are: performing on the roof of The Hotel Albert, liking for Dick Dale, and recollections of 'Rec' Rooms. On the same CD as the Janice Long Show, 1985 (and also on the NPR Radio 1994 CD)",
         time: "2011-10-19 16:38:49",
       },
     ],
@@ -11489,7 +11440,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "This is about the very best of all the live recordings - Jonathan's on great form, some great songs, nice chat and the audience are having a hoot too; there are many, many highlights, and all with a sound quality that is just excellent!Personal Highlight - 'I eat with Gusto, Damn You Bet!'This is a must have!!",
+        text: "This is about the very best of all the live recordings - Jonathan's on great form, some great songs, nice chat and the audience are having a hoot too; there are many, many highlights, and all with a sound quality that is just excellent! Personal Highlight - 'I Eat with Gusto, Damn You Bet!' This is a must have!!",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -11630,7 +11581,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Really good recording, On the same CD as 91X Radio interview from the same day.",
+        text: "Really good recording, on the same CD as 91X Radio interview from the same day.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -11815,7 +11766,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "JB",
-        text: "Second to last night of a 3 night stand at Yab Yum's.",
+        text: "Second to last night of a three night stand at Yab Yum's.",
         time: "2011-11-05 09:27:34",
       },
     ],
@@ -11870,7 +11821,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "JB",
-        text: "Last night of a 3 night stand at Yab Yum's. Very intimate shows. you can hear the door to the coffee house or whatever it was opening and closing...",
+        text: "Last night of a three night stand at Yab Yum's. Very intimate shows. You can hear the door to the coffee house or whatever it was opening and closing...",
         time: "2011-11-05 09:27:20",
       },
     ],
@@ -11946,7 +11897,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Studio interview that went out on Radio 1 FM, also being interviewed  is film critic, Mark Kermode. ",
+        text: "Studio interview that went out on Radio 1 FM. Also being interviewed is film critic, Mark Kermode. ",
         time: "2011-10-21 19:04:29",
       },
     ],
@@ -11987,7 +11938,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A fun show with a few nice moments: especially so on the very funny and extended 'Down in Bermuda' ",
+        text: "A fun show with a few nice moments: especially so on the very funny and extended 'Down in Bermuda'",
         time: "2011-10-21 19:15:04",
       },
     ],
@@ -12048,7 +11999,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: 'The first encore is "Give Paris One More Chance and "You Can\'t Talk to the Dude", and the second encore is "Fender Stratocaster"',
+        text: 'The first encore is "Give Paris One More Chance" and "You Can\'t Talk to the Dude", and the second encore is "Fender Stratocaster"',
         time: "2011-10-21 19:26:41",
       },
     ],
@@ -12338,7 +12289,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "The recording's a bit quiet unfortunately. It includes though a great version of 'You're crazy for taking the Bus' - A very funny and extended tale of life on the bus!",
+        text: "The recording's a bit quiet unfortunately. It includes though a great version of 'You're Crazy For Taking the Bus' - A very funny and extended tale of life on the bus!",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -12361,7 +12312,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Another interview with Liane Hanson on Weekend Edition, the previous interview was back in 1992, among the items discussed are Epiphone'guitars, Jonathan's Spanish LP, and his latest album 'You Must Ask The Heart'.With four songs performed live in the studio.",
+        text: "Another interview with Liane Hanson on Weekend Edition, the previous interview was back in 1992, among the items discussed are Epiphone guitars, Jonathan's spanish LP, and his latest album 'You Must Ask The Heart'. With four songs performed live in the studio.",
         time: "2011-10-21 19:40:14",
       },
     ],
@@ -12929,7 +12880,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "With Tommy Larkins on drums and Jonathan on electric guitar throughout the show.A very clean recording overall, affected only by some slight distortion to the high end vocals pretty near the end of the show, but just once or twice and only for a second or two",
+        text: "With Tommy Larkins on drums and Jonathan on electric guitar throughout the show. A very clean recording overall, affected only by some slight distortion to the high end vocals pretty near the end of the show, but just once or twice and only for a second or two",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -13010,7 +12961,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: 'This has the most "clean sheet" feel of the rounder albums...took me a couple listens to start to really hear it though. I have grown to really enjoy and appreciate this record',
+        text: 'This has the most "clean sheet" feel of the Rounder albums...took me a couple listens to start to really hear it though. I have grown to really enjoy and appreciate this record',
         time: "2012-12-19 21:23:18",
       },
       {
@@ -13258,7 +13209,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A full band recording but not a good one - with a bit of a muffled sound and far too much bass. ",
+        text: "A full band recording but not a good one - with a bit of a muffled sound and far too much bass.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -13561,7 +13512,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A very clear recording including several new songs.   ",
+        text: "A very clear recording including several new songs.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -13758,7 +13709,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A few songs by Jonathan and Tommy at the beginning of this great sounding show with many other acts. Jonathan is joined on stage by ex-Modern Lover Ernie Brooks for a couple of songs. The other performers on the night were- Ronnie Spector, Leonard Graves Phillips (the Dickies), The Pristeens, Lenny kaye, Jessie Malin, Joey Ramone, and also the Dictators.",
+        text: "A few songs by Jonathan and Tommy at the beginning of this great sounding show with many other acts. Jonathan is joined on stage by ex-Modern Lover Ernie Brooks for a couple of songs. The other performers on the night were Ronnie Spector, Leonard Graves Phillips (the Dickies), The Pristeens, Lenny Kaye, Jessie Malin, Joey Ramone, and also the Dictators.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -13810,7 +13761,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A pretty good one this: especially so on 'Pablo Picasso' and 'Let her go into the Darkness' both of which have some great and extended guitar playing. Great performance!",
+        text: "A pretty good one this: especially so on 'Pablo Picasso' and 'Let Her Go Into the Darkness' both of which have some great and extended guitar playing. Great performance!",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -14082,7 +14033,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "JB",
-        text: '"The Night Is Still Young" is cut."Nineteen in Naples" has it\'s start missing',
+        text: '"The Night Is Still Young" is cut. "Nineteen in Naples" has it\'s start missing',
         time: "2011-10-09 13:57:03",
       },
     ],
@@ -14207,7 +14158,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "Jerry",
-        text: "On I Can't Find My Best Friend I love the way Jonathan says demanding all my POWER.",
+        text: 'On "I Can\'t Find My Best Friend" I love the way Jonathan says demanding all my POWER.',
         time: "2011-10-31 18:18:48",
       },
       {
@@ -14303,7 +14254,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "The first few seconds of this sound a little strange but the tape soon perks up. 'Velvet Underground' is the highlight for me on this one, Jonathan throws in some great sounding snatches of 'Sister Ray' and 'What goes on...' probably the best version of 'Velvet Underground' I've yet heard.",
+        text: "The first few seconds of this sound a little strange but the tape soon perks up. 'Velvet Underground' is the highlight for me on this one, Jonathan throws in some great sounding snatches of 'Sister Ray' and 'What Goes On...' probably the best version of 'Velvet Underground' I've yet heard.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -14589,7 +14540,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "DMDCAF",
-        text: "Great site. Thanks so much for this resource. Question on this recording date: Has anyone verified it as 1999? It seems very unlikely Jonathan played these songs after so long without playing them: Gail Loves Me; Closer; The Neighbors--to name a few. paz y amor, DMD dmdother@gmail.com",
+        text: "Great site. Thanks so much for this resource. Question on this recording date: Has anyone verified it as 1999? It seems very unlikely Jonathan played these songs after so long without playing them: Gail Loves Me; Closer; The Neighbors - to name a few. paz y amor, DMD dmdother@gmail.com",
         time: "2011-10-29 00:18:24",
       },
       {
@@ -14637,7 +14588,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Not a bad recording but with a couple of silent points on a few of songs it's rated as 'good' only. ",
+        text: "Not a bad recording but with a couple of silent points on a few of songs it's rated as 'good' only.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -14682,12 +14633,12 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "cover files available Excellent recording of a very, very good show, with a few unusual songs and a great finale. Highly recommended!",
+        text: "Cover files available. Excellent recording of a very, very good show, with a few unusual songs and a great finale. Highly recommended!",
         time: "2011-04-09 00:00:00",
       },
       {
         name: "Ramon",
-        text: "track 9 isn't 'You Must Ask', it is a song I hadn't heard before, perhaps called 'Your Mind'",
+        text: "Track 9 isn't 'You Must Ask', it is a song I hadn't heard before, perhaps called 'Your Mind'",
         time: "2013-08-15 05:19:55",
       },
       {
@@ -15098,7 +15049,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathan toured with Belle and Sebastian throughout their West Coast Tour as support act (surely some mistake here!). Have read some of the reports about the shows and regularly Jonathan was reported as having 'virtually stolen the show' from Belle. This is a very clear recording of both nights at the Wiltern.",
+        text: "Jonathan toured with Belle and Sebastian throughout their West Coast Tour as a support act (surely some mistake here!). Have read some of the reports about the shows and regularly Jonathan was reported as having 'virtually stolen the show' from Belle. This is a very clear recording of both nights at the Wiltern.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -15149,7 +15100,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "This is a really good recording and definitely deserves to be classed as Excellent!   ",
+        text: "This is a really good recording and definitely deserves to be classed as Excellent!",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -15420,7 +15371,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Copied straight from the taper. Most of the show's here, there's just a couple of songs that are missing because of some background noise.Some background info to the show... apparently Jonathans guitar had got broken during the flight over so somebody lent him a couple of guitars on the night, and a few songs near the end are played with electric guitar. I've had to take guess at the title of the very last song, it seems to have only been played on this particular tour, and even then just a few times.",
+        text: "Copied straight from the taper. Most of the show's here, there's just a couple of songs that are missing because of some background noise. Some background info to the show... apparently Jonathan's guitar had got broken during the flight over so somebody lent him a couple of guitars on the night, and a few songs near the end are played with electric guitar. I've had to take guess at the title of the very last song, it seems to have only been played on this particular tour, and even then just a few times.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -15726,12 +15677,12 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Just a few crackles during 'Springtime in New York' but otherwise all okay.This is one of the few recordings we have that includes 'Not in my Name', a short verse on the pending American/British attack on Iraq, he didn't choose to do it when we saw him in Liverpool a week later.",
+        text: "Just a few crackles during 'Springtime in New York' but otherwise all okay. This is one of the few recordings we have that includes 'Not in my Name', a short verse on the pending American/British attack on Iraq, he didn't choose to do it when we saw him in Liverpool a week later.",
         time: "2011-04-09 00:00:00",
       },
       {
         name: "Ian",
-        text: '"Life is unpredictable" surely was "in che mondo viviamo". Weird that lots of these shows I went to and I had no idea any recording of any of them existed till now.',
+        text: '"Life Is Unpredictable" surely was "In Che Mondo Viviamo". Weird that lots of these shows I went to and I had no idea any recording of any of them existed till now.',
         time: "2012-05-22 18:30:52",
       },
       {
@@ -15778,7 +15729,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: 'A great show this!We recorded this one ourselves from a great position, in the centre and about 15 feet out from the stage. The recording came out nicely and Jonathan plays quite a few new songs. He also has a really funny new section mid way through "Let her go into the darkness", involving four languages, great stuff!',
+        text: 'A great show this! We recorded this one ourselves from a great position, in the centre and about 15 feet out from the stage. The recording came out nicely and Jonathan plays quite a few new songs. He also has a really funny new section mid-way through "Let Her Go Into the Darkness", involving four languages, great stuff!',
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -15971,7 +15922,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Another great sounding Italian show, and straight from the taper too...  It's a fairly short set though, of maybe only 50 minutes, but a very good recording, and it also gives a good example of Jonathan's multi language abilities... ",
+        text: "Another great sounding Italian show, and straight from the taper too...  It's a fairly short set though, of maybe only 50 minutes, but a very good recording, and it also gives a good example of Jonathan's multi language abilities...",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -16069,7 +16020,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "cover files available",
+        text: "Cover files available",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -16154,7 +16105,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "The first of two recordings that we made ourselves during the Spring 2004 tour, the other one was at the next night's show, 'Night and Day Cafe', Manchester: both nights were excellent and featured a clutch of new songs, some of which, hopefully, will find their way on to Jonathan's next official CD.Tonight's show is in a small pub-type venue with a pretty tightly packed audience, well pretty tightly packed where we were anyway, of probably about 150 people, tops. There's a little bit of conversation picked up on this one, but not too much, and it sounds fine.Tonight's highlight is a great sounding 'Let her go into the Darkness' with the full boyfriend/girlfriend argument done in all five languages... English, Spanish, French, Italian, and Hebrew... great fun!A bit of special show for me too, coz it's the first one that I could take my daughter to: she's now just old enough to start going to see shows, so I was really pleased to be able to take her to a Jonathan one, and Yes, she had a great time too! her words afterwards were... 'I enjoyed it loads...take me again!!'",
+        text: "The first of two recordings that we made ourselves during the Spring 2004 tour, the other one was at the next night's show, 'Night and Day Cafe', Manchester: both nights were excellent and featured a clutch of new songs, some of which, hopefully, will find their way on to Jonathan's next official CD. Tonight's show is in a small pub-type venue with a pretty tightly packed audience, well pretty tightly packed where we were anyway, of probably about 150 people, tops. There's a little bit of conversation picked up on this one, but not too much, and it sounds fine. Tonight's highlight is a great sounding 'Let Her Go Into The Darkness' with the full boyfriend/girlfriend argument done in all five languages... English, Spanish, French, Italian, and Hebrew... great fun! A bit of a special show for me too, coz it's the first one that I could take my daughter to: she's now just old enough to start going to see shows, so I was really pleased to be able to take her to a Jonathan one, and Yes, she had a great time too! Her words afterwards were... 'I enjoyed it loads...take me again!!'",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -16239,7 +16190,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Another great show from the UK spring tour... and the last recording of a run of four successive nights from different cities.You can clearly hear, across the four nights, a couple of new songs being developed and worked on...  'Older Girl' and 'For drama we have the seasons'.",
+        text: "Another great show from the UK spring tour... and the last recording of a run of four successive nights from different cities. You can clearly hear, across the four nights, a couple of new songs being developed and worked on...  'Older Girl' and 'For Drama We Have the Seasons'.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -16491,7 +16442,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "I received a few short extracts from this one a while back - just 3 or 4 songs in total and of pretty poor quality really; the taper wasn't happy with it either - and had been hoping that someday a better recording would  turn up? Well, it now turns out that there was someone else there taping, and he got the full show. So, here's a complete copy...",
+        text: "I received a few short extracts from this one a while back - just 3 or 4 songs in total and of pretty poor quality really; the taper wasn't happy with it either - and had been hoping that someday a better recording would turn up? Well, it now turns out that there was someone else there taping, and he got the full show. So, here's a complete copy...",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -16615,7 +16566,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "JB",
-        text: '"I Love the World", "That Summer Feeling", and "Not So Much to be Loved as to Love" are clipped',
+        text: '"I Love the World", "That Summer Feeling", and "Not So Much To Be Loved As To Love" are clipped',
         time: "2011-10-09 14:05:14",
       },
     ],
@@ -16821,7 +16772,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Not a good recording here, too much background noise and its a bit muffled as well. ",
+        text: "Not a good recording here, too much background noise and its a bit muffled as well.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -17028,7 +16979,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "This show and the ones directly below and above it were recorded by the same taper... they're all high quality recordings, each of them but, of the three, this one sounds the best, to my ears anyway. The atmosphere is just better somehow, so the performance has moved up a notch... What are the highlights?Well 'El Joven se Estremece', and 'Joy over Sorrow' are both sounding terrific tonight...",
+        text: "This show and the ones directly below and above it were recorded by the same taper... they're all high quality recordings, each of them but, of the three, this one sounds the best, to my ears anyway. The atmosphere is just better somehow, so the performance has moved up a notch... What are the highlights? Well 'El Joven se Estremece', and 'Joy over Sorrow' are both sounding terrific tonight...",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -17101,7 +17052,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: "The bus fumes from the diesal motor. My two-year-old mind could only applaud that odor.",
+        text: "The bus fumes from the diesel motor. My two-year-old mind could only applaud that odor.",
         time: "2011-10-28 17:53:12",
       },
     ],
@@ -17871,12 +17822,12 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Pretty chaotic (and fun) show with two guest artists singing and playing guitars: Kiko Veneno and Muchachito Bombo Infierno. The show had three sets. ",
+        text: "Pretty chaotic (and fun) show with two guest artists singing and playing guitars: Kiko Veneno and Muchachito Bombo Infierno. The show had three sets.",
         time: "2011-10-22 12:35:58",
       },
       {
         name: "JB",
-        text: "Set two (South American Folk Song-No More Gasoline) is with Kiko Venero and Muchachito",
+        text: "Set two (South American Folk Song - No More Gasoline) is with Kiko Venero and Muchachito",
         time: "2011-10-22 12:36:43",
       },
     ],
@@ -18019,7 +17970,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Radio recording of Jonathan and Tommy performing live for 'Los Conciertos de Radio 3' (RNE 3), which was aired on the 4th of June 2007. ",
+        text: "Radio recording of Jonathan and Tommy performing live for 'Los Conciertos de Radio 3' (RNE 3), which was aired on the 4th of June 2007.",
         time: "2011-10-22 12:42:19",
       },
     ],
@@ -18212,11 +18163,6 @@ export const recordings: RecordingImport[] = [
         name: "Jerry",
         text: "I have to pull this one out and listen to it more often.",
         time: "2011-11-29 17:45:51",
-      },
-      {
-        name: "JB",
-        text: "I like this album, but I kind of see it as a background thing more than anything.",
-        time: "2011-11-30 07:17:12",
       },
     ],
   },
@@ -18606,7 +18552,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "45 minute interview broadcast on RNE3 (Radio Nacional de Espa&ntilde;a 3) just before the start of Jonathan and Tommy's latest European tour. The conversation is mainly in Spanish and the following few songs performed live in the studio.",
+        text: "45 minute interview broadcast on RNE3 (Radio Nacional de Espana 3) just before the start of Jonathan and Tommy's latest European tour. The conversation is mainly in Spanish and the following few songs performed live in the studio.",
         time: "2011-10-22 12:51:26",
       },
     ],
@@ -18696,7 +18642,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "JB",
-        text: 'The recording stop\'s at "You Can Have a CellPhone..."',
+        text: 'The recording stops at "You Can Have a CellPhone..."',
         time: "2011-10-22 12:53:33",
       },
     ],
@@ -18903,7 +18849,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "JB",
-        text: "A review of this show written by Alberto from the Jojoblog: http://jojofiles.blogspot.com/2009/10/big-mama-rome-25th-october-2009.html",
+        text: "A review of this show written by Alberto from the JojoBlog: http://jojofiles.blogspot.com/2009/10/big-mama-rome-25th-october-2009.html",
         time: "2011-11-13 18:27:50",
       },
     ],
@@ -18983,7 +18929,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "JB",
-        text: "Mr. Sorrow:  http://www.youtube.com/watch?v=gXYjJG-kGR0",
+        text: "Mr. Sorrow: http://www.youtube.com/watch?v=gXYjJG-kGR0",
         time: "2011-11-12 23:44:18",
       },
     ],
@@ -19302,12 +19248,12 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: 'Wow...seems like only a few months ago.The song "I Was the One She Came For" is probably the most common song from this album to get stuck in my head.',
+        text: 'Wow...seems like only a few months ago. The song "I Was the One She Came For" is probably the most common song from this album to get stuck in my head.',
         time: "2011-11-30 07:13:57",
       },
       {
         name: "Jerry",
-        text: "These Bodies,I Was The One She Came For,We'll Be The Noise We'll Be The Scandal,The Bitter Herb,My Affected Accent are my favorites.",
+        text: "These Bodies, I Was The One She Came For, We'll Be The Noise We'll Be The Scandal, The Bitter Herb, and My Affected Accent are my favorites.",
         time: "2011-12-09 19:31:21",
       },
     ],
@@ -19354,12 +19300,12 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "JB",
-        text: "GREAT primitive version of Bohemia here. Even with the poor sound quality of this recording (I recorded this) you can hear JR trying new things out on the cuff",
+        text: "GREAT primitive version of Bohemia here. Even with the poor sound quality of this recording (I recorded this) you can hear JR trying new things out off the cuff",
         time: "2011-10-23 19:58:07",
       },
       {
         name: "JB",
-        text: "This show might have bad sound quality, but it means a lot to me. That version of Bohemia haunts me",
+        text: "This recording might have bad sound quality, but it means a lot to me. That version of Bohemia haunts me",
         time: "2012-06-11 20:35:30",
       },
     ],
@@ -19810,7 +19756,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: 'At the end JR, announced that there wasn\'t going to be an encore because he had "said all he wanted to say", and he did in a way that the audience understood. An interesting end to the night',
+        text: 'At the end, JR announced that there wasn\'t going to be an encore because he had "said all he wanted to say", and he did in a way that the audience understood. An interesting end to the night',
         time: "2012-06-17 23:19:41",
       },
     ],
@@ -19891,7 +19837,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Ryan",
-        text: "This was a very very small place and Jojo was in the crowd alot and away from the mic alot. Great version of Velvet Underground was def. the highlight",
+        text: "This was a very very small place and Jojo was in the crowd alot and away from the mic alot. Great version of Velvet Underground was definitely the highlight",
         time: "2013-07-21 19:46:08",
       },
     ],
@@ -19930,7 +19876,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Ryan",
-        text: "This was a basic Jojo show in my opinion the only thing that set this apart for me was that Jojo Played my request of My Affected Accent",
+        text: "This was a basic Jojo show in my opinion the only thing that set this apart for me was that Jojo played my request of My Affected Accent",
         time: "2013-07-21 19:42:42",
       },
     ],
@@ -20960,7 +20906,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A Modern Lovers Bootleg that originally came out vinyl, I think, in the late eighties, and has long since been copied to CD.   The scanned back cover I have describes it as 'A limited edition of 300 copies'(#253/300)'.",
+        text: "A Modern Lovers bootleg that originally came out vinyl, I think, in the late eighties, and has long since been copied to CD. The scanned back cover I have describes it as 'A limited edition of 300 copies'(#253/300)'.",
         time: "2011-10-16 19:03:49",
       },
     ],
@@ -20999,7 +20945,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "This is a collection of songs that someone put together of lots of Jonathans rarer live songs from various other boots complied onto the one CD. A nice CD this but as I listen U can't help wondering where the rest of the concerts are at? (I can recognize some of the recordings but not all) without this thought it'd be a very nice disc.",
+        text: "This is a collection of songs that someone put together of lots of Jonathan's rarer live songs from various other boots complied onto the one CD. A nice CD this but as I listen you can't help wondering where the rest of the concerts are at? (I can recognize some of the recordings but not all) without this thought it'd be a very nice disc.",
         time: "2011-10-16 19:46:49",
       },
     ],
