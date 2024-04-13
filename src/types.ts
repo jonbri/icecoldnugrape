@@ -1,7 +1,7 @@
 import { SongType } from "./raw";
 
 export interface RecordingImport {
-  linkid: number;
+  id: number;
   type: string;
   venue?: string;
   country?: string;
@@ -52,7 +52,7 @@ export interface Comment {
 }
 export interface RecordingCommentInstance {
   type: string;
-  linkid: number;
+  id: number;
   comment: Comment;
 }
 

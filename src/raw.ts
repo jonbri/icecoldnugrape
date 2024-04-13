@@ -1787,7 +1787,7 @@ export const songs: SongImport[] = [
 
 export const recordings: RecordingImport[] = [
   {
-    linkid: 1971000005,
+    id: 1971000005,
     type: "Show",
     venue: "Harvard University",
     country: "USA",
@@ -1822,7 +1822,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1971000010,
+    id: 1971000010,
     type: "Show",
     venue: "Stonehenge",
     country: "USA",
@@ -1864,7 +1864,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1972000000,
+    id: 1972000000,
     type: "Studio Bootleg",
     quality: "Very Good",
     year: 1972,
@@ -1909,7 +1909,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1972102700,
+    id: 1972102700,
     type: "Show",
     venue: "Radcliffe",
     country: "USA",
@@ -1940,7 +1940,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1973000000,
+    id: 1973000000,
     type: "Show",
     venue: "Cambridge Boathouse",
     country: "USA",
@@ -1968,7 +1968,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1974022300,
+    id: 1974022300,
     type: "Show",
     venue: "Boston Center For the Arts",
     country: "USA",
@@ -2017,7 +2017,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1974000010,
+    id: 1974000010,
     type: "Studio Bootleg",
     quality: "Excellent",
     year: 1974,
@@ -2053,7 +2053,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1974000005,
+    id: 1974000005,
     type: "Studio Bootleg",
     quality: "Excellent",
     year: 1974,
@@ -2087,7 +2087,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1975032000,
+    id: 1975032000,
     type: "Show",
     venue: "The Kitchen",
     country: "USA",
@@ -2152,7 +2152,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1975032900,
+    id: 1975032900,
     type: "Show",
     venue: "Stone Phoenix Coffee House",
     country: "USA",
@@ -2187,7 +2187,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1976041100,
+    id: 1976041100,
     type: "Show",
     country: "USA",
     city: "San Francisco",
@@ -2223,7 +2223,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1976040000,
+    id: 1976040000,
     type: "Show",
     country: "USA",
     city: "Iowa",
@@ -2267,7 +2267,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1976083000,
+    id: 1976083000,
     type: "Interview",
     country: "USA",
     city: "Brookline",
@@ -2287,7 +2287,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1976080000,
+    id: 1976080000,
     type: "Album",
     year: 1976,
     month: 8,
@@ -2328,7 +2328,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1976100300,
+    id: 1976100300,
     type: "Show",
     venue: "The Boarding House",
     country: "USA",
@@ -2377,7 +2377,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1976100900,
+    id: 1976100900,
     type: "Show",
     venue: "Town Hall",
     country: "USA",
@@ -2436,7 +2436,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1976110600,
+    id: 1976110600,
     type: "Interview",
     country: "USA",
     city: "Boston",
@@ -2452,7 +2452,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1976000005,
+    id: 1976000005,
     type: "Single",
     year: 1976,
     name: "New England/Here Come the Martian Martians",
@@ -2463,7 +2463,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1976000010,
+    id: 1976000010,
     type: "Show",
     venue: "Government Center",
     country: "USA",
@@ -2485,7 +2485,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977010000,
+    id: 1977010000,
     type: "Album",
     year: 1977,
     month: 1,
@@ -2518,7 +2518,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977020000,
+    id: 1977020000,
     type: "Album",
     year: 1977,
     month: 2,
@@ -2548,7 +2548,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977031305,
+    id: 1977031305,
     type: "Show",
     venue: "The Boarding House",
     country: "USA",
@@ -2595,7 +2595,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977031310,
+    id: 1977031310,
     type: "Show",
     venue: "The Boarding House",
     country: "USA",
@@ -2641,7 +2641,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977032300,
+    id: 1977032300,
     type: "Show",
     venue: "The Cellar Door",
     country: "USA",
@@ -2675,7 +2675,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977092400,
+    id: 1977092400,
     type: "Show",
     venue: "Paradiso",
     country: "Netherlands",
@@ -2718,7 +2718,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977102900,
+    id: 1977102900,
     type: "Show",
     venue: "New York University",
     country: "USA",
@@ -2773,7 +2773,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977120000,
+    id: 1977120000,
     type: "Album",
     venue: "Hammersmith",
     country: "USA",
@@ -2802,7 +2802,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977000005,
+    id: 1977000005,
     type: "Show",
     venue: "The Paradise",
     country: "USA",
@@ -2836,7 +2836,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977000010,
+    id: 1977000010,
     type: "Show",
     venue: "The Paradise",
     country: "USA",
@@ -2879,7 +2879,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977000015,
+    id: 1977000015,
     type: "Single",
     year: 1977,
     name: "Roadrunner Once/Roadrunner Twice",
@@ -2890,7 +2890,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1977000020,
+    id: 1977000020,
     type: "Single",
     year: 1977,
     name: "Egyptian Reggae/Roller Coaster By the Sea",
@@ -2901,7 +2901,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978021705,
+    id: 1978021705,
     type: "Show",
     venue: "Houston Hall",
     country: "USA",
@@ -2936,7 +2936,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978021710,
+    id: 1978021710,
     type: "Show",
     venue: "University of Pennsylvania",
     country: "USA",
@@ -2976,7 +2976,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978030300,
+    id: 1978030300,
     type: "Show",
     venue: "The Quiet Knight",
     country: "USA",
@@ -3007,7 +3007,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978030400,
+    id: 1978030400,
     type: "Show",
     venue: "The Quiet Knight",
     country: "USA",
@@ -3035,7 +3035,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978041500,
+    id: 1978041500,
     type: "Show",
     venue: "The Paradise",
     country: "USA",
@@ -3067,7 +3067,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978043000,
+    id: 1978043000,
     type: "Show",
     venue: "Ancienne Belgique",
     country: "Belgium",
@@ -3117,7 +3117,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978050100,
+    id: 1978050100,
     type: "Radio",
     country: "UK",
     quality: "Good",
@@ -3137,7 +3137,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978050400,
+    id: 1978050400,
     type: "Radio",
     country: "Netherlands",
     quality: "Very Good",
@@ -3171,7 +3171,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978051500,
+    id: 1978051500,
     type: "Show",
     country: "Netherlands",
     quality: "Excellent",
@@ -3210,7 +3210,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978051800,
+    id: 1978051800,
     type: "Show",
     venue: "Netepark",
     country: "Belgium",
@@ -3245,7 +3245,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978061600,
+    id: 1978061600,
     type: "Radio",
     venue: "",
     country: "Sweden",
@@ -3258,7 +3258,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1978061700,
+    id: 1978061700,
     type: "Radio",
     country: "Sweden",
     city: "Stockholm",
@@ -3302,7 +3302,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978062200,
+    id: 1978062200,
     type: "Show",
     venue: "Bristol University",
     country: "UK",
@@ -3343,7 +3343,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978070700,
+    id: 1978070700,
     type: "Show",
     venue: "My Fathers Place",
     country: "USA",
@@ -3400,7 +3400,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978070800,
+    id: 1978070800,
     type: "Show",
     venue: "My Fathers Place",
     country: "USA",
@@ -3437,7 +3437,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978090000,
+    id: 1978090000,
     type: "Show",
     venue: "The Paradise",
     country: "USA",
@@ -3456,7 +3456,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978000005,
+    id: 1978000005,
     type: "TV",
     country: "Netherlands",
     year: 1978,
@@ -3481,7 +3481,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978000010,
+    id: 1978000010,
     type: "Single",
     year: 1978,
     name: "Abdul & Cleopatra/Oh Carol",
@@ -3492,7 +3492,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978000015,
+    id: 1978000015,
     type: "Single",
     year: 1978,
     name: "New England/Astral Plane",
@@ -3503,7 +3503,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978000020,
+    id: 1978000020,
     type: "Single",
     year: 1978,
     name: "Buzz Buzz Buzz/Hospital",
@@ -3514,7 +3514,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978000025,
+    id: 1978000025,
     type: "Single",
     year: 1978,
     name: "The Morning of Our Lives/Roadrunner Thrice",
@@ -3525,7 +3525,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978000030,
+    id: 1978000030,
     type: "Interview",
     country: "UK",
     quality: "Excellent",
@@ -3541,7 +3541,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1978000035,
+    id: 1978000035,
     type: "Radio",
     country: "Netherlands",
     city: "Amsterdam",
@@ -3563,7 +3563,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1979031700,
+    id: 1979031700,
     type: "Show",
     venue: "Polytechnic",
     country: "UK",
@@ -3576,7 +3576,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1979040100,
+    id: 1979040100,
     type: "Show",
     venue: "Gigant",
     country: "Netherlands",
@@ -3619,7 +3619,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1979071300,
+    id: 1979071300,
     type: "Show",
     venue: "Gaspars",
     country: "USA",
@@ -3674,7 +3674,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1979071400,
+    id: 1979071400,
     type: "Show",
     venue: "Gaspars",
     country: "USA",
@@ -3704,7 +3704,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1979000005,
+    id: 1979000005,
     type: "Studio Bootleg",
     country: "USA",
     city: "Los Angeles",
@@ -3742,7 +3742,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1979000010,
+    id: 1979000010,
     type: "Album",
     year: 1979,
     name: "Back in Your Life",
@@ -3775,7 +3775,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1979000015,
+    id: 1979000015,
     type: "Single",
     year: 1979,
     name: "Lydia",
@@ -3783,7 +3783,7 @@ export const recordings: RecordingImport[] = [
     songs: [{ name: "Lydia", n: 1 }],
   },
   {
-    linkid: 1979000020,
+    id: 1979000020,
     type: "Interview",
     country: "UK",
     quality: "Excellent",
@@ -3800,7 +3800,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1979000025,
+    id: 1979000025,
     type: "Studio Bootleg",
     country: "USA",
     city: "Cambridge",
@@ -3855,7 +3855,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1979000030,
+    id: 1979000030,
     type: "Studio Bootleg",
     quality: "Excellent",
     year: 1979,
@@ -3885,7 +3885,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1980051000,
+    id: 1980051000,
     type: "Show",
     venue: "The Tam O'Shanter",
     country: "USA",
@@ -3929,7 +3929,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1980052300,
+    id: 1980052300,
     type: "Show",
     venue: "Club 57",
     country: "USA",
@@ -3969,7 +3969,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1980071800,
+    id: 1980071800,
     type: "Show",
     venue: "Roxy",
     country: "USA",
@@ -4008,7 +4008,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1980100500,
+    id: 1980100500,
     type: "Show",
     venue: "Roxy",
     country: "USA",
@@ -4040,7 +4040,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1980100700,
+    id: 1980100700,
     type: "Show",
     venue: "The International House",
     country: "USA",
@@ -4107,7 +4107,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1980101800,
+    id: 1980101800,
     type: "Show",
     venue: "The Catalyst",
     country: "USA",
@@ -4153,7 +4153,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1980000005,
+    id: 1980000005,
     type: "Studio Bootleg",
     country: "USA",
     city: "Boston",
@@ -4183,7 +4183,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1980000010,
+    id: 1980000010,
     type: "Radio",
     venue: "Stone Phoenix Coffee House",
     country: "USA",
@@ -4216,7 +4216,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1980000015,
+    id: 1980000015,
     type: "TV",
     country: "USA",
     city: "Boston",
@@ -4231,7 +4231,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1980000020,
+    id: 1980000020,
     type: "Studio Bootleg",
     quality: "Good",
     year: 1980,
@@ -4267,7 +4267,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981020600,
+    id: 1981020600,
     type: "Show",
     venue: "The Dirt Club",
     country: "USA",
@@ -4316,7 +4316,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981021300,
+    id: 1981021300,
     type: "Show",
     venue: "Bradford Ballroom",
     country: "USA",
@@ -4371,7 +4371,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981021400,
+    id: 1981021400,
     type: "Show",
     country: "USA",
     city: "Providence",
@@ -4425,7 +4425,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981022000,
+    id: 1981022000,
     type: "Show",
     venue: "Left Bank",
     country: "USA",
@@ -4476,7 +4476,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981022100,
+    id: 1981022100,
     type: "Show",
     venue: "My Fathers Place",
     country: "USA",
@@ -4521,7 +4521,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981030000,
+    id: 1981030000,
     type: "Show",
     venue: "Bookies",
     country: "USA",
@@ -4563,7 +4563,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981071700,
+    id: 1981071700,
     type: "Show",
     venue: "The Channel",
     country: "USA",
@@ -4607,7 +4607,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981072000,
+    id: 1981072000,
     type: "Show",
     venue: "The Peppermint Lounge",
     country: "USA",
@@ -4648,7 +4648,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981072500,
+    id: 1981072500,
     type: "Show",
     venue: "The Ritz",
     country: "USA",
@@ -4668,7 +4668,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981101000,
+    id: 1981101000,
     type: "Show",
     venue: "Commonwealth Pier Exhibition Hall",
     country: "USA",
@@ -4697,7 +4697,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981111800,
+    id: 1981111800,
     type: "Show",
     venue: "The Bottom Line",
     country: "USA",
@@ -4736,7 +4736,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981122700,
+    id: 1981122700,
     type: "Show",
     venue: "The Bottom Line",
     country: "USA",
@@ -4770,7 +4770,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981000005,
+    id: 1981000005,
     type: "Studio Bootleg",
     year: 1981,
     name: "The Original Modern Lovers",
@@ -4795,7 +4795,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981000010,
+    id: 1981000010,
     type: "Studio Bootleg",
     quality: "Excellent",
     year: 1981,
@@ -4829,7 +4829,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1981000015,
+    id: 1981000015,
     type: "TV",
     quality: "Good",
     year: 1981,
@@ -4851,7 +4851,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982022100,
+    id: 1982022100,
     type: "Interview",
     country: "USA",
     year: 1982,
@@ -4860,7 +4860,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1982020000,
+    id: 1982020000,
     type: "Show",
     venue: "The Other End",
     country: "USA",
@@ -4879,7 +4879,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982030200,
+    id: 1982030200,
     type: "Show",
     venue: "Jonathan Swifts",
     country: "USA",
@@ -4935,7 +4935,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982032005,
+    id: 1982032005,
     type: "Show",
     venue: "The Other End",
     country: "USA",
@@ -5012,7 +5012,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982032100,
+    id: 1982032100,
     type: "Show",
     venue: "The Other End",
     city: "New York City",
@@ -5053,7 +5053,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982050500,
+    id: 1982050500,
     type: "Show",
     venue: "Mississippi Nights",
     country: "USA",
@@ -5098,7 +5098,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982051300,
+    id: 1982051300,
     type: "Show",
     venue: "Jonathan Swifts",
     country: "USA",
@@ -5143,7 +5143,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982051900,
+    id: 1982051900,
     type: "Show",
     venue: "The Rex Club",
     country: "France",
@@ -5185,7 +5185,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982060300,
+    id: 1982060300,
     type: "Show",
     country: "France",
     city: "Lyon",
@@ -5221,7 +5221,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982092300,
+    id: 1982092300,
     type: "Show",
     venue: "Lone Star Cafe",
     country: "USA",
@@ -5257,7 +5257,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982092400,
+    id: 1982092400,
     type: "Show",
     venue: "The Channel",
     country: "USA",
@@ -5298,7 +5298,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982102300,
+    id: 1982102300,
     type: "Show",
     venue: "Tupelos Tavern",
     country: "USA",
@@ -5342,7 +5342,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1982000000,
+    id: 1982000000,
     type: "Radio",
     quality: "Good",
     year: 1982,
@@ -5362,7 +5362,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983021400,
+    id: 1983021400,
     type: "Show",
     venue: "Uncle Charlies",
     country: "USA",
@@ -5423,7 +5423,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983031900,
+    id: 1983031900,
     type: "Show",
     venue: "McCabes Guitar Shop",
     country: "USA",
@@ -5471,7 +5471,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983082700,
+    id: 1983082700,
     type: "Show",
     venue: "Dallas Brooks Hall",
     country: "Australia",
@@ -5510,7 +5510,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983100700,
+    id: 1983100700,
     type: "Show",
     venue: "University of Massachusetts",
     country: "USA",
@@ -5546,7 +5546,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983100900,
+    id: 1983100900,
     type: "Show",
     venue: "The Dirt Club",
     city: "Bloomfield",
@@ -5574,7 +5574,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983101000,
+    id: 1983101000,
     type: "Show",
     venue: "Jonathan Swifts",
     country: "USA",
@@ -5638,7 +5638,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983101100,
+    id: 1983101100,
     type: "Show",
     venue: "The Bottom Line",
     country: "USA",
@@ -5694,7 +5694,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983102500,
+    id: 1983102500,
     type: "Show",
     venue: "Staches",
     country: "USA",
@@ -5713,7 +5713,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983111500,
+    id: 1983111500,
     type: "Show",
     venue: "San Diego State University",
     country: "USA",
@@ -5757,7 +5757,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983112000,
+    id: 1983112000,
     type: "Radio",
     country: "USA",
     city: "Oakland",
@@ -5791,7 +5791,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983112205,
+    id: 1983112205,
     type: "Radio",
     country: "USA",
     city: "New Orleans",
@@ -5803,7 +5803,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1983112210,
+    id: 1983112210,
     type: "Show",
     venue: "Tipitinas",
     country: "USA",
@@ -5845,7 +5845,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983000005,
+    id: 1983000005,
     type: "Radio",
     year: 1983,
     name: "KCSC Radio Show",
@@ -5860,7 +5860,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983000010,
+    id: 1983000010,
     type: "Show",
     venue: "Reed College",
     country: "USA",
@@ -5893,7 +5893,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983000020,
+    id: 1983000020,
     type: "Album",
     year: 1983,
     name: "Jonathan Sings!",
@@ -5935,7 +5935,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983000025,
+    id: 1983000025,
     type: "Studio Bootleg",
     year: 1983,
     name: "Jonathan Sings! Outtakes",
@@ -5951,7 +5951,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1983000030,
+    id: 1983000030,
     type: "Radio",
     year: 1983,
     name: "KALX Radio Show",
@@ -5967,7 +5967,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984000005,
+    id: 1984000005,
     type: "Radio",
     quality: "Very Good",
     year: 1984,
@@ -5982,7 +5982,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984000010,
+    id: 1984000010,
     type: "Single",
     year: 1984,
     name: "That Summer Feeling",
@@ -5994,7 +5994,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984012700,
+    id: 1984012700,
     type: "Show",
     venue: "The Living Room",
     country: "USA",
@@ -6031,7 +6031,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984020000,
+    id: 1984020000,
     type: "Show",
     venue: "Soft Rock Cafe",
     country: "Canada",
@@ -6074,7 +6074,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984062100,
+    id: 1984062100,
     type: "Show",
     venue: "Hammersmith",
     country: "UK",
@@ -6107,7 +6107,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984070100,
+    id: 1984070100,
     type: "Show",
     venue: "",
     country: "Finland",
@@ -6120,7 +6120,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1984070700,
+    id: 1984070700,
     type: "Show",
     venue: "West Side Club",
     country: "France",
@@ -6140,7 +6140,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984071200,
+    id: 1984071200,
     type: "Show",
     venue: "West Side Club",
     country: "France",
@@ -6183,7 +6183,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984072700,
+    id: 1984072700,
     type: "Show",
     venue: "The Hacienda",
     country: "UK",
@@ -6222,7 +6222,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984072900,
+    id: 1984072900,
     type: "Show",
     country: "UK",
     city: "Cornwall",
@@ -6253,7 +6253,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984073100,
+    id: 1984073100,
     type: "Show",
     venue: "Moles Club",
     country: "UK",
@@ -6292,7 +6292,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984070000,
+    id: 1984070000,
     type: "Show",
     country: "Spain",
     city: "Barcelona",
@@ -6315,7 +6315,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984080300,
+    id: 1984080300,
     type: "Show",
     venue: "Queens Hall",
     country: "UK",
@@ -6363,7 +6363,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1984080600,
+    id: 1984080600,
     type: "Show",
     venue: "Dingwalls",
     country: "UK",
@@ -6405,7 +6405,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985042500,
+    id: 1985042500,
     type: "Show",
     venue: "Last Day Saloon",
     country: "USA",
@@ -6444,7 +6444,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985050800,
+    id: 1985050800,
     type: "Show",
     country: "USA",
     city: "Berkeley",
@@ -6487,7 +6487,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985060300,
+    id: 1985060300,
     type: "Show",
     venue: "Shauberg",
     country: "Germany",
@@ -6533,7 +6533,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985061200,
+    id: 1985061200,
     type: "Show",
     venue: "The Rex Club",
     country: "France",
@@ -6580,7 +6580,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985061700,
+    id: 1985061700,
     type: "Show",
     venue: "Jacksons Lane Community Centre",
     country: "UK",
@@ -6612,7 +6612,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985062000,
+    id: 1985062000,
     type: "Show",
     venue: "Glastonbury Festival",
     country: "UK",
@@ -6654,7 +6654,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985062100,
+    id: 1985062100,
     type: "Show",
     venue: "Glastonbury Festival",
     country: "UK",
@@ -6685,7 +6685,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985062400,
+    id: 1985062400,
     type: "Show",
     venue: "Big Club",
     country: "Italy",
@@ -6741,7 +6741,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985070500,
+    id: 1985070500,
     type: "Show",
     venue: "The Riverside",
     country: "UK",
@@ -6779,7 +6779,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985071000,
+    id: 1985071000,
     type: "Interview",
     country: "UK",
     quality: "Very Good",
@@ -6791,7 +6791,7 @@ export const recordings: RecordingImport[] = [
     songs: [{ name: "interview...", n: 1 }],
   },
   {
-    linkid: 1985080600,
+    id: 1985080600,
     type: "Show",
     venue: "The Bottom Line",
     country: "USA",
@@ -6839,7 +6839,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985083100,
+    id: 1985083100,
     type: "Show",
     venue: "Jimmys",
     country: "USA",
@@ -6872,7 +6872,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985092700,
+    id: 1985092700,
     type: "Show",
     country: "USA",
     city: "Santa Monica",
@@ -6906,7 +6906,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985000005,
+    id: 1985000005,
     type: "Single",
     year: 1985,
     name: "I'm Just Beginning to Live",
@@ -6918,7 +6918,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985000010,
+    id: 1985000010,
     type: "Show",
     venue: "Heartbreak Club",
     country: "USA",
@@ -6965,7 +6965,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1985000020,
+    id: 1985000020,
     type: "Album",
     year: 1985,
     name: "Rockin' & Romance",
@@ -6999,7 +6999,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986011600,
+    id: 1986011600,
     type: "Show",
     venue: "Great American Music Hall",
     country: "USA",
@@ -7037,7 +7037,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986011900,
+    id: 1986011900,
     type: "Show",
     venue: "The Roxy",
     country: "USA",
@@ -7050,7 +7050,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1986012100,
+    id: 1986012100,
     type: "Show",
     venue: "The Spirit",
     country: "USA",
@@ -7083,7 +7083,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986030400,
+    id: 1986030400,
     type: "Show",
     venue: "Pub Sparta",
     country: "Sweden",
@@ -7133,7 +7133,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986031600,
+    id: 1986031600,
     type: "Show",
     venue: "Maxwells",
     country: "USA",
@@ -7185,7 +7185,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986032300,
+    id: 1986032300,
     type: "Show",
     venue: "Town and Country Club",
     country: "UK",
@@ -7226,7 +7226,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986041000,
+    id: 1986041000,
     type: "Show",
     country: "Spain",
     city: "Barcelona",
@@ -7263,7 +7263,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986041500,
+    id: 1986041500,
     type: "Show",
     venue: "Viridis",
     country: "Italy",
@@ -7311,7 +7311,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986041600,
+    id: 1986041600,
     type: "Show",
     country: "Italy",
     city: "Turin",
@@ -7357,7 +7357,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986041700,
+    id: 1986041700,
     type: "Show",
     country: "Italy",
     city: "Bologna",
@@ -7404,7 +7404,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986090505,
+    id: 1986090505,
     type: "Show",
     venue: "Holsteins Folk Club",
     country: "USA",
@@ -7453,7 +7453,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986090510,
+    id: 1986090510,
     type: "Show",
     venue: "Holsteins Folk Club",
     country: "USA",
@@ -7501,7 +7501,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986090800,
+    id: 1986090800,
     type: "Show",
     venue: "Second Story",
     country: "USA",
@@ -7546,7 +7546,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986092700,
+    id: 1986092700,
     type: "Show",
     venue: "Maxwell's",
     country: "USA",
@@ -7559,7 +7559,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1986120600,
+    id: 1986120600,
     type: "Show",
     venue: "California Berkley Square",
     country: "USA",
@@ -7594,7 +7594,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986000005,
+    id: 1986000005,
     type: "Show",
     venue: "Town and Country Club",
     country: "UK",
@@ -7612,7 +7612,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986000010,
+    id: 1986000010,
     type: "Album",
     year: 1986,
     name: "It's Time For Jonathan Richman",
@@ -7655,7 +7655,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1986000015,
+    id: 1986000015,
     type: "Show",
     name: "Unknown Location",
     year: 1986,
@@ -7679,7 +7679,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987012500,
+    id: 1987012500,
     type: "Show",
     venue: "Saigon Palace",
     country: "USA",
@@ -7728,7 +7728,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987012700,
+    id: 1987012700,
     type: "Show",
     venue: "Club Congress",
     country: "USA",
@@ -7769,7 +7769,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987022600,
+    id: 1987022600,
     type: "Show",
     venue: "Holsteins Folk Club",
     country: "USA",
@@ -7809,7 +7809,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987022700,
+    id: 1987022700,
     type: "Show",
     venue: "Holsteins Folk Club",
     country: "USA",
@@ -7844,7 +7844,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987031400,
+    id: 1987031400,
     type: "Show",
     venue: "The Bottom Line",
     country: "USA",
@@ -7857,7 +7857,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1987031500,
+    id: 1987031500,
     type: "Show",
     venue: "Knitting Factory",
     country: "USA",
@@ -7890,7 +7890,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987032700,
+    id: 1987032700,
     type: "Show",
     venue: "Parody Hall",
     country: "USA",
@@ -7933,7 +7933,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987050500,
+    id: 1987050500,
     type: "Show",
     venue: "Anderson's 5th Estate",
     country: "USA",
@@ -7980,7 +7980,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987082100,
+    id: 1987082100,
     type: "Show",
     country: "USA",
     city: "Davis",
@@ -8024,7 +8024,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987092500,
+    id: 1987092500,
     type: "Show",
     venue: "Variety Arts Center",
     country: "USA",
@@ -8069,7 +8069,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987101100,
+    id: 1987101100,
     type: "Radio",
     quality: "Very Good",
     year: 1987,
@@ -8087,7 +8087,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987102000,
+    id: 1987102000,
     type: "Show",
     venue: "Nightstage",
     country: "USA",
@@ -8115,7 +8115,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987102700,
+    id: 1987102700,
     type: "Show",
     venue: "Chestnut Cabaret",
     country: "USA",
@@ -8137,7 +8137,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987122600,
+    id: 1987122600,
     type: "Show",
     venue: "The Fillmore",
     country: "USA",
@@ -8173,7 +8173,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1987000000,
+    id: 1987000000,
     type: "Interview",
     venue: "California State University",
     country: "USA",
@@ -8202,7 +8202,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988011400,
+    id: 1988011400,
     type: "Show",
     venue: "Liverpool Polytechnic",
     country: "UK",
@@ -8242,7 +8242,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988011500,
+    id: 1988011500,
     type: "Show",
     venue: "Manchester University",
     country: "UK",
@@ -8269,7 +8269,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988012000,
+    id: 1988012000,
     type: "Radio",
     country: "Netherlands",
     quality: "Excellent",
@@ -8285,7 +8285,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988012200,
+    id: 1988012200,
     type: "Show",
     venue: "",
     country: "Netherlands",
@@ -8298,7 +8298,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1988012700,
+    id: 1988012700,
     type: "Show",
     venue: "Huset",
     country: "Denmark",
@@ -8332,7 +8332,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988020400,
+    id: 1988020400,
     type: "Show",
     venue: "Logo",
     country: "Germany",
@@ -8382,7 +8382,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988021200,
+    id: 1988021200,
     type: "Show",
     venue: "Bloom",
     country: "Italy",
@@ -8444,7 +8444,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988030200,
+    id: 1988030200,
     type: "Show",
     venue: "New Morning",
     country: "France",
@@ -8481,7 +8481,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988030300,
+    id: 1988030300,
     type: "Show",
     venue: "Ancienne Belgique",
     country: "Belgium",
@@ -8526,7 +8526,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988030500,
+    id: 1988030500,
     type: "Show",
     venue: "Manchester University",
     country: "UK",
@@ -8568,7 +8568,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988030600,
+    id: 1988030600,
     type: "Show",
     venue: "Town and Country Club",
     country: "UK",
@@ -8614,7 +8614,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988040700,
+    id: 1988040700,
     type: "Show",
     country: "USA",
     city: "Athens",
@@ -8665,7 +8665,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988062800,
+    id: 1988062800,
     type: "Show",
     venue: "Mean Fiddler",
     country: "UK",
@@ -8712,7 +8712,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988070200,
+    id: 1988070200,
     type: "Show",
     country: "Germany",
     city: "Berlin",
@@ -8745,7 +8745,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988070300,
+    id: 1988070300,
     type: "Show",
     venue: "The Loft",
     country: "Germany",
@@ -8786,7 +8786,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988070900,
+    id: 1988070900,
     type: "Show",
     venue: "Summerstage",
     country: "USA",
@@ -8815,7 +8815,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988071000,
+    id: 1988071000,
     type: "Show",
     venue: "",
     country: "USA",
@@ -8828,7 +8828,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1988091000,
+    id: 1988091000,
     type: "Show",
     country: "Japan",
     city: "Tokyo",
@@ -8868,7 +8868,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988110300,
+    id: 1988110300,
     type: "Show",
     country: "Canada",
     city: "Toronto",
@@ -8916,7 +8916,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988110900,
+    id: 1988110900,
     type: "Show",
     venue: "Nightstage",
     country: "USA",
@@ -8963,7 +8963,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988111000,
+    id: 1988111000,
     type: "Show",
     venue: "Schoeps Teddy Ballgame",
     country: "USA",
@@ -8976,7 +8976,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1988111400,
+    id: 1988111400,
     type: "Show",
     venue: "Staches",
     country: "USA",
@@ -9034,7 +9034,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988120500,
+    id: 1988120500,
     type: "Show",
     venue: "Discoteca Rio",
     country: "Spain",
@@ -9083,7 +9083,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988020905,
+    id: 1988020905,
     type: "Show",
     venue: "Szene Wien",
     country: "Austria",
@@ -9117,7 +9117,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988000010,
+    id: 1988000010,
     type: "Album",
     year: 1988,
     name: "Modern Lovers 88",
@@ -9149,7 +9149,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1988000015,
+    id: 1988000015,
     type: "Single",
     year: 1988,
     name: "California Desert Party",
@@ -9160,7 +9160,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1989061700,
+    id: 1989061700,
     type: "Radio",
     venue: "The Hope Centre",
     country: "UK",
@@ -9185,7 +9185,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1989071300,
+    id: 1989071300,
     type: "Show",
     venue: "Slims",
     country: "USA",
@@ -9214,7 +9214,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1989072200,
+    id: 1989072200,
     type: "Show",
     venue: "Club Lingerie",
     country: "USA",
@@ -9258,7 +9258,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1989080900,
+    id: 1989080900,
     type: "Show",
     venue: "Warehouse Theatre",
     country: "Canada",
@@ -9312,7 +9312,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1989102000,
+    id: 1989102000,
     type: "Show",
     venue: "23 East Cabaret",
     country: "USA",
@@ -9354,7 +9354,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1989120000,
+    id: 1989120000,
     type: "Show",
     venue: "Subterranea Club",
     country: "UK",
@@ -9392,7 +9392,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1989000000,
+    id: 1989000000,
     type: "Album",
     year: 1989,
     name: "Jonathan Richman",
@@ -9435,7 +9435,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990030500,
+    id: 1990030500,
     type: "Show",
     venue: "Tipitinas",
     country: "USA",
@@ -9486,7 +9486,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990070100,
+    id: 1990070100,
     type: "Show",
     venue: "Maxs",
     country: "USA",
@@ -9545,7 +9545,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990082600,
+    id: 1990082600,
     type: "Show",
     venue: "Reading Festival",
     country: "UK",
@@ -9581,7 +9581,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990090400,
+    id: 1990090400,
     type: "Radio",
     country: "Netherlands",
     quality: "Excellent",
@@ -9603,7 +9603,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990090500,
+    id: 1990090500,
     type: "Radio",
     country: "Netherlands",
     quality: "Excellent",
@@ -9627,7 +9627,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990090800,
+    id: 1990090800,
     type: "Show",
     venue: "Borse",
     country: "Germany",
@@ -9677,7 +9677,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990091700,
+    id: 1990091700,
     type: "Show",
     venue: "New Morning",
     country: "France",
@@ -9718,7 +9718,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990093000,
+    id: 1990093000,
     type: "Show",
     venue: "Ancienne Belgique",
     country: "Belgium",
@@ -9765,7 +9765,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990100305,
+    id: 1990100305,
     type: "Show",
     venue: "Vier Linden",
     country: "Germany",
@@ -9817,7 +9817,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990100310,
+    id: 1990100310,
     type: "Show",
     country: "Australia",
     city: "Melbourne",
@@ -9865,7 +9865,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990000005,
+    id: 1990000005,
     type: "Album",
     year: 1990,
     name: "Jonathan Goes Country",
@@ -9903,7 +9903,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1990000010,
+    id: 1990000010,
     type: "Show",
     country: "USA",
     city: "Savannah",
@@ -9946,7 +9946,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991021300,
+    id: 1991021300,
     type: "Show",
     country: "USA",
     city: "Bloomington",
@@ -10007,7 +10007,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991021600,
+    id: 1991021600,
     type: "Show",
     venue: "Lounge Axe",
     country: "USA",
@@ -10062,7 +10062,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991020200,
+    id: 1991020200,
     type: "Show",
     country: "USA",
     city: "St. Petersburg",
@@ -10116,7 +10116,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991020800,
+    id: 1991020800,
     type: "Show",
     venue: "Greenstreets",
     country: "USA",
@@ -10164,7 +10164,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991030000,
+    id: 1991030000,
     type: "Show",
     venue: "Palomino",
     country: "USA",
@@ -10204,7 +10204,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991040000,
+    id: 1991040000,
     type: "Show",
     country: "Italy",
     city: "Genova",
@@ -10253,7 +10253,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991050400,
+    id: 1991050400,
     type: "Show",
     venue: "Sala Consiliare",
     country: "Italy",
@@ -10301,7 +10301,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991050500,
+    id: 1991050500,
     type: "Show",
     venue: "Usignolo Club",
     country: "Italy",
@@ -10350,7 +10350,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991052900,
+    id: 1991052900,
     type: "Show",
     venue: "Manchester International",
     country: "UK",
@@ -10403,7 +10403,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991061700,
+    id: 1991061700,
     type: "Show",
     venue: "",
     country: "Canada",
@@ -10416,7 +10416,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1991081000,
+    id: 1991081000,
     type: "Show",
     venue: "Daily's Bar",
     country: "Sweden",
@@ -10460,7 +10460,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991080000,
+    id: 1991080000,
     type: "Show",
     venue: "Lone Star Roadhouse",
     country: "USA",
@@ -10501,7 +10501,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991091400,
+    id: 1991091400,
     type: "Show",
     venue: "Festa Dell Unita",
     country: "Italy",
@@ -10543,7 +10543,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991093000,
+    id: 1991093000,
     type: "Show",
     venue: "Club Soda",
     country: "Canada",
@@ -10584,7 +10584,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991090000,
+    id: 1991090000,
     type: "Show",
     country: "Canada",
     quality: "Fair",
@@ -10621,7 +10621,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991101000,
+    id: 1991101000,
     type: "Show",
     venue: "Daily's Bar",
     country: "Sweden",
@@ -10634,7 +10634,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1991103000,
+    id: 1991103000,
     type: "Show",
     venue: "S.U.N.Y. Binghamton",
     country: "USA",
@@ -10676,7 +10676,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991111200,
+    id: 1991111200,
     type: "Show",
     venue: "Staches",
     country: "USA",
@@ -10729,7 +10729,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991111500,
+    id: 1991111500,
     type: "Show",
     venue: "Second Story",
     country: "USA",
@@ -10783,7 +10783,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991121100,
+    id: 1991121100,
     type: "Show",
     country: "Canada",
     city: "Ontario",
@@ -10820,7 +10820,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991000005,
+    id: 1991000005,
     type: "Show",
     country: "USA",
     quality: "Excellent",
@@ -10857,7 +10857,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991000010,
+    id: 1991000010,
     type: "Album",
     year: 1991,
     name: "I, Jonathan",
@@ -10893,7 +10893,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991000020,
+    id: 1991000020,
     type: "Show",
     venue: "Sala Universal",
     country: "Spain",
@@ -10920,7 +10920,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1991000025,
+    id: 1991000025,
     type: "Album",
     year: 1991,
     name: "Having A Party With Jonathan Richman",
@@ -10958,7 +10958,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992013000,
+    id: 1992013000,
     type: "Show",
     venue: "Tipitinas",
     country: "USA",
@@ -11001,7 +11001,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992020200,
+    id: 1992020200,
     type: "Radio",
     quality: "Excellent",
     year: 1992,
@@ -11018,7 +11018,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992040000,
+    id: 1992040000,
     type: "Show",
     venue: "New Georges",
     country: "USA",
@@ -11064,7 +11064,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992060900,
+    id: 1992060900,
     type: "Show",
     venue: "The Birchmore",
     country: "USA",
@@ -11101,7 +11101,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992060000,
+    id: 1992060000,
     type: "Show",
     venue: "Glastonbury Festival",
     country: "UK",
@@ -11126,7 +11126,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992071500,
+    id: 1992071500,
     type: "Show",
     venue: "Spectrum Cabaret",
     country: "Canada",
@@ -11179,7 +11179,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992082100,
+    id: 1992082100,
     type: "Show",
     venue: "The Paradise",
     country: "USA",
@@ -11220,7 +11220,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992101100,
+    id: 1992101100,
     type: "Show",
     venue: "Nightstage",
     country: "USA",
@@ -11255,7 +11255,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992101200,
+    id: 1992101200,
     type: "Show",
     venue: "HMV Store",
     country: "USA",
@@ -11287,7 +11287,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992102600,
+    id: 1992102600,
     type: "Show",
     venue: "Jakes",
     country: "USA",
@@ -11336,7 +11336,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992121300,
+    id: 1992121300,
     type: "Show",
     venue: "The Middle East",
     country: "USA",
@@ -11382,7 +11382,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992000005,
+    id: 1992000005,
     type: "Radio",
     quality: "Excellent",
     year: 1992,
@@ -11398,7 +11398,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1992000010,
+    id: 1992000010,
     type: "Show",
     venue: "Caesars",
     country: "USA",
@@ -11446,7 +11446,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1993032500,
+    id: 1993032500,
     type: "Show",
     venue: "Chestnut Cabaret",
     country: "USA",
@@ -11489,7 +11489,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1993061900,
+    id: 1993061900,
     type: "Show",
     venue: "Palomino",
     country: "USA",
@@ -11526,7 +11526,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1993062105,
+    id: 1993062105,
     type: "Radio",
     country: "USA",
     city: "San Diego",
@@ -11546,7 +11546,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1993062110,
+    id: 1993062110,
     type: "Show",
     venue: "The Belly-Up Tavern",
     country: "USA",
@@ -11587,7 +11587,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1993102100,
+    id: 1993102100,
     type: "Show",
     venue: "Nietzsches",
     country: "USA",
@@ -11632,7 +11632,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994020600,
+    id: 1994020600,
     type: "Show",
     venue: "The Howlin' Wolf",
     country: "USA",
@@ -11682,7 +11682,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994020700,
+    id: 1994020700,
     type: "Show",
     venue: "The Varsity",
     country: "USA",
@@ -11724,7 +11724,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994021200,
+    id: 1994021200,
     type: "Show",
     venue: "Yab Yum's",
     country: "USA",
@@ -11772,7 +11772,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994021300,
+    id: 1994021300,
     type: "Show",
     venue: "Yab Yum's",
     country: "USA",
@@ -11827,7 +11827,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994050500,
+    id: 1994050500,
     type: "Show",
     venue: "Bevrijdingspop",
     country: "Netherlands",
@@ -11863,7 +11863,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994050700,
+    id: 1994050700,
     type: "Radio",
     country: "UK",
     quality: "Excellent",
@@ -11884,7 +11884,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994082400,
+    id: 1994082400,
     type: "Radio",
     country: "UK",
     quality: "Very Good",
@@ -11903,7 +11903,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994082500,
+    id: 1994082500,
     type: "Show",
     country: "UK",
     city: "Manchester",
@@ -11944,7 +11944,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994090200,
+    id: 1994090200,
     type: "Show",
     venue: "LGB Nuernberg",
     country: "Germany",
@@ -12005,7 +12005,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994101400,
+    id: 1994101400,
     type: "Show",
     venue: "First Avenue",
     country: "USA",
@@ -12043,7 +12043,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994101600,
+    id: 1994101600,
     type: "Show",
     venue: "Park West",
     country: "USA",
@@ -12086,7 +12086,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994102100,
+    id: 1994102100,
     type: "Show",
     venue: "Cafe Angst",
     country: "USA",
@@ -12127,7 +12127,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994110100,
+    id: 1994110100,
     type: "Show",
     country: "USA",
     city: "Providence",
@@ -12159,7 +12159,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994110400,
+    id: 1994110400,
     type: "Show",
     country: "USA",
     city: "Ogunquit",
@@ -12206,7 +12206,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994110900,
+    id: 1994110900,
     type: "Show",
     venue: "The Birchmore",
     country: "USA",
@@ -12241,7 +12241,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994111000,
+    id: 1994111000,
     type: "Show",
     venue: "The Birchmore",
     country: "USA",
@@ -12295,7 +12295,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994121100,
+    id: 1994121100,
     type: "Radio",
     quality: "Excellent",
     year: 1994,
@@ -12318,7 +12318,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1994000005,
+    id: 1994000005,
     type: "TV",
     country: "Netherlands",
     year: 1994,
@@ -12326,7 +12326,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1994000010,
+    id: 1994000010,
     type: "Album",
     year: 1994,
     name: "Te Vas A Emocionar",
@@ -12357,7 +12357,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995012100,
+    id: 1995012100,
     type: "Show",
     venue: "Que Sera",
     country: "USA",
@@ -12401,7 +12401,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995020100,
+    id: 1995020100,
     type: "Show",
     venue: "The Howlin' Wolf",
     country: "USA",
@@ -12443,7 +12443,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995040400,
+    id: 1995040400,
     type: "Show",
     venue: "Lansdowne Playhouse",
     country: "USA",
@@ -12462,7 +12462,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995040600,
+    id: 1995040600,
     type: "Show",
     venue: "Lansdowne Playhouse",
     country: "USA",
@@ -12511,7 +12511,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995040700,
+    id: 1995040700,
     type: "Show",
     country: "USA",
     city: "Wetlands",
@@ -12538,7 +12538,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995040800,
+    id: 1995040800,
     type: "Show",
     venue: "The Theatre of The Living Arts",
     country: "USA",
@@ -12579,7 +12579,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995042100,
+    id: 1995042100,
     type: "Show",
     venue: "Noe Valley",
     country: "USA",
@@ -12620,7 +12620,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995051100,
+    id: 1995051100,
     type: "Show",
     venue: "8 x 10 Club",
     country: "USA",
@@ -12663,7 +12663,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995051300,
+    id: 1995051300,
     type: "Show",
     venue: "Cats Cradle",
     country: "USA",
@@ -12702,7 +12702,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995052500,
+    id: 1995052500,
     type: "Show",
     venue: "The Howlin' Wolf",
     country: "USA",
@@ -12737,7 +12737,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995071200,
+    id: 1995071200,
     type: "Show",
     venue: "Lounge Axe",
     country: "USA",
@@ -12777,7 +12777,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995071300,
+    id: 1995071300,
     type: "Show",
     venue: "Lounge Axe",
     country: "USA",
@@ -12811,7 +12811,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995071500,
+    id: 1995071500,
     type: "Show",
     venue: "Ciceros",
     country: "USA",
@@ -12846,7 +12846,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995101900,
+    id: 1995101900,
     type: "Show",
     venue: "The Middle East",
     country: "USA",
@@ -12891,7 +12891,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995102400,
+    id: 1995102400,
     type: "Show",
     venue: "Supper Club",
     country: "USA",
@@ -12933,7 +12933,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1995000000,
+    id: 1995000000,
     type: "Album",
     year: 1995,
     name: "You Must Ask the Heart",
@@ -12972,7 +12972,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1996013100,
+    id: 1996013100,
     type: "Show",
     venue: "Yab Yum's",
     country: "USA",
@@ -13014,7 +13014,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1996020300,
+    id: 1996020300,
     type: "Show",
     venue: "The Howlin' Wolf",
     country: "USA",
@@ -13050,7 +13050,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1996051200,
+    id: 1996051200,
     type: "Show",
     venue: "The Milky Way",
     country: "Netherlands",
@@ -13087,7 +13087,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1996072400,
+    id: 1996072400,
     type: "Show",
     venue: "Manchester University",
     country: "UK",
@@ -13131,7 +13131,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1996100900,
+    id: 1996100900,
     type: "Show",
     venue: "Club Soda",
     country: "Canada",
@@ -13177,7 +13177,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1996101100,
+    id: 1996101100,
     type: "Show",
     venue: "The Paradise",
     country: "USA",
@@ -13215,7 +13215,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1996000000,
+    id: 1996000000,
     type: "Album",
     year: 1996,
     name: "Surrender to Jonathan",
@@ -13254,7 +13254,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1997022700,
+    id: 1997022700,
     type: "Show",
     venue: "Second Story",
     country: "USA",
@@ -13286,7 +13286,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1997031200,
+    id: 1997031200,
     type: "Show",
     venue: "Mercury Lounge",
     country: "USA",
@@ -13323,7 +13323,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1997030000,
+    id: 1997030000,
     type: "Radio",
     venue: "The Cowel Theater",
     country: "USA",
@@ -13345,7 +13345,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1997040200,
+    id: 1997040200,
     type: "Radio",
     country: "USA",
     city: "Santa Monica",
@@ -13369,7 +13369,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1997052600,
+    id: 1997052600,
     type: "Show",
     venue: "Taku-Taku",
     country: "Japan",
@@ -13421,7 +13421,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1997052900,
+    id: 1997052900,
     type: "Show",
     venue: "Club Quattro",
     country: "Japan",
@@ -13470,7 +13470,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1997053000,
+    id: 1997053000,
     type: "Show",
     country: "Japan",
     city: "Ebiso",
@@ -13518,7 +13518,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1997081300,
+    id: 1997081300,
     type: "Show",
     venue: "Cafe Rust",
     country: "Denmark",
@@ -13560,7 +13560,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1997101100,
+    id: 1997101100,
     type: "Show",
     venue: "The Magic Stick",
     country: "USA",
@@ -13599,7 +13599,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1997102405,
+    id: 1997102405,
     type: "Show",
     venue: "Knitting Factory",
     country: "USA",
@@ -13633,7 +13633,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1997102410,
+    id: 1997102410,
     type: "Show",
     venue: "Knitting Factory",
     country: "USA",
@@ -13675,7 +13675,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998051200,
+    id: 1998051200,
     type: "Show",
     venue: "",
     country: "USA",
@@ -13688,7 +13688,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 1998051800,
+    id: 1998051800,
     type: "Show",
     venue: "Coney Island High",
     country: "USA",
@@ -13725,7 +13725,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998072600,
+    id: 1998072600,
     type: "Show",
     venue: "The Middle East",
     country: "USA",
@@ -13767,7 +13767,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998080600,
+    id: 1998080600,
     type: "Show",
     venue: "Knitting Factory",
     country: "USA",
@@ -13822,7 +13822,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998080700,
+    id: 1998080700,
     type: "Show",
     venue: "Knitting Factory",
     country: "USA",
@@ -13864,7 +13864,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998101700,
+    id: 1998101700,
     type: "Show",
     venue: "Shoreline Amphitheatre",
     country: "USA",
@@ -13892,7 +13892,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998101800,
+    id: 1998101800,
     type: "Show",
     venue: "Shoreline Amphitheatre",
     country: "USA",
@@ -13920,7 +13920,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998110900,
+    id: 1998110900,
     type: "Show",
     venue: "Irving Plaza",
     country: "USA",
@@ -13962,7 +13962,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998111400,
+    id: 1998111400,
     type: "Show",
     venue: "Little Brothers",
     country: "USA",
@@ -13996,7 +13996,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998120400,
+    id: 1998120400,
     type: "Show",
     venue: "Cubberley Community Center",
     country: "USA",
@@ -14039,7 +14039,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998120600,
+    id: 1998120600,
     type: "Show",
     venue: "Slims",
     country: "USA",
@@ -14093,7 +14093,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998120800,
+    id: 1998120800,
     type: "Show",
     venue: "The Catalyst",
     country: "USA",
@@ -14126,7 +14126,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1998000000,
+    id: 1998000000,
     type: "Album",
     year: 1998,
     name: "I'm So Confused",
@@ -14179,7 +14179,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1999021605,
+    id: 1999021605,
     type: "Radio",
     country: "UK",
     year: 1999,
@@ -14195,7 +14195,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1999021610,
+    id: 1999021610,
     type: "Show",
     country: "USA",
     year: 1999,
@@ -14218,7 +14218,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1999021800,
+    id: 1999021800,
     type: "Show",
     venue: "Jazz Cafe",
     country: "UK",
@@ -14260,7 +14260,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1999022200,
+    id: 1999022200,
     type: "Show",
     country: "France",
     city: "Bordeaux",
@@ -14298,7 +14298,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1999030500,
+    id: 1999030500,
     type: "Show",
     venue: "Auditorium Flog",
     country: "Italy",
@@ -14333,7 +14333,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1999100300,
+    id: 1999100300,
     type: "Show",
     venue: "Schubas Tavern",
     country: "USA",
@@ -14363,7 +14363,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1999101200,
+    id: 1999101200,
     type: "Show",
     venue: "The Middle East",
     country: "USA",
@@ -14396,7 +14396,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1999101500,
+    id: 1999101500,
     type: "Show",
     venue: "Knitting Factory",
     country: "USA",
@@ -14435,7 +14435,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1999101600,
+    id: 1999101600,
     type: "Show",
     venue: "Knitting Factory",
     country: "USA",
@@ -14501,7 +14501,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 1999000000,
+    id: 1999000000,
     type: "Show",
     country: "Germany",
     quality: "Excellent",
@@ -14551,7 +14551,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2000022200,
+    id: 2000022200,
     type: "Show",
     venue: "Fletchers",
     country: "USA",
@@ -14594,7 +14594,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2000030300,
+    id: 2000030300,
     type: "Show",
     venue: "Bowery Ballroom",
     country: "USA",
@@ -14649,7 +14649,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2000030400,
+    id: 2000030400,
     type: "Show",
     venue: "Bowery Ballroom",
     country: "USA",
@@ -14699,7 +14699,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2000062900,
+    id: 2000062900,
     type: "Show",
     venue: "Summerstage",
     country: "USA",
@@ -14743,7 +14743,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2000060000,
+    id: 2000060000,
     type: "Show",
     venue: "Somerville Theatre",
     country: "USA",
@@ -14786,7 +14786,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2000100500,
+    id: 2000100500,
     type: "Radio",
     country: "Spain",
     city: "Madrid",
@@ -14809,7 +14809,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2000102500,
+    id: 2000102500,
     type: "Show",
     venue: "Cafe de la Danse",
     country: "France",
@@ -14860,7 +14860,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2000110405,
+    id: 2000110405,
     type: "Radio",
     country: "UK",
     year: 2000,
@@ -14878,7 +14878,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2000110410,
+    id: 2000110410,
     type: "Show",
     venue: "The Forum",
     country: "UK",
@@ -14919,7 +14919,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2000110500,
+    id: 2000110500,
     type: "Show",
     venue: "Manchester University",
     country: "UK",
@@ -14964,7 +14964,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2000110700,
+    id: 2000110700,
     type: "Show",
     venue: "King Tuts Wah Wah Hut",
     country: "Scotland",
@@ -15009,7 +15009,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2001090500,
+    id: 2001090500,
     type: "Show",
     venue: "Wiltern Theatre",
     country: "USA",
@@ -15060,7 +15060,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2001101700,
+    id: 2001101700,
     type: "Show",
     venue: "Manchester University",
     country: "UK",
@@ -15106,7 +15106,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2001000000,
+    id: 2001000000,
     type: "Album",
     year: 2001,
     name: "Her Mystery Not Of High Heels and Eyeshadow",
@@ -15141,7 +15141,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2002021500,
+    id: 2002021500,
     type: "Show",
     venue: "The Variety Playhouse",
     country: "USA",
@@ -15187,7 +15187,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2002022300,
+    id: 2002022300,
     type: "Show",
     venue: "Little Brothers",
     country: "USA",
@@ -15226,7 +15226,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2002033100,
+    id: 2002033100,
     type: "Show",
     venue: "The Make Out Room",
     country: "USA",
@@ -15266,7 +15266,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2002111105,
+    id: 2002111105,
     type: "Radio",
     quality: "Good",
     year: 2002,
@@ -15294,7 +15294,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2002111110,
+    id: 2002111110,
     type: "Radio",
     country: "USA",
     city: "New York City",
@@ -15314,7 +15314,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2002120400,
+    id: 2002120400,
     type: "Radio",
     country: "USA",
     city: "San Francisco",
@@ -15339,7 +15339,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003030400,
+    id: 2003030400,
     type: "Show",
     venue: "Sala El Sol",
     country: "Spain",
@@ -15382,7 +15382,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003030500,
+    id: 2003030500,
     type: "Show",
     venue: "Sala El Sol",
     country: "Spain",
@@ -15429,7 +15429,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003030600,
+    id: 2003030600,
     type: "Show",
     venue: "Sala Roxy",
     country: "Spain",
@@ -15474,7 +15474,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003030700,
+    id: 2003030700,
     type: "Show",
     venue: "Sala Razzmatazz 3",
     country: "Spain",
@@ -15528,7 +15528,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003030800,
+    id: 2003030800,
     type: "Show",
     venue: "Sala Azkena",
     country: "Spain",
@@ -15578,7 +15578,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003031400,
+    id: 2003031400,
     type: "Show",
     venue: "Cafe de la Danse",
     country: "France",
@@ -15639,7 +15639,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003031600,
+    id: 2003031600,
     type: "Show",
     venue: "Shepherds Bush Empire",
     country: "UK",
@@ -15693,7 +15693,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003032000,
+    id: 2003032000,
     type: "Show",
     venue: "Liverpool University",
     country: "UK",
@@ -15735,7 +15735,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003032400,
+    id: 2003032400,
     type: "Show",
     venue: "Gerbaude 9",
     country: "Germany",
@@ -15773,7 +15773,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003032500,
+    id: 2003032500,
     type: "Show",
     venue: "Schlachthof",
     country: "Germany",
@@ -15812,7 +15812,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003032800,
+    id: 2003032800,
     type: "Show",
     venue: "Columbia Fritz",
     country: "Germany",
@@ -15857,7 +15857,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003033000,
+    id: 2003033000,
     type: "Show",
     venue: "Orangehouse",
     country: "Germany",
@@ -15894,7 +15894,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003040400,
+    id: 2003040400,
     type: "Show",
     venue: "Verbano Park",
     country: "Italy",
@@ -15928,7 +15928,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003041400,
+    id: 2003041400,
     type: "Show",
     venue: "Verbano Park",
     country: "Italy",
@@ -15941,7 +15941,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2003100300,
+    id: 2003100300,
     type: "Show",
     venue: "The Variety Playhouse",
     country: "USA",
@@ -15982,7 +15982,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2003101600,
+    id: 2003101600,
     type: "Show",
     venue: "The Patio",
     country: "USA",
@@ -16026,7 +16026,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004040800,
+    id: 2004040800,
     type: "Show",
     venue: "The Renfrew Ferry",
     country: "Scotland",
@@ -16070,7 +16070,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004040900,
+    id: 2004040900,
     type: "Show",
     venue: "Fibbers",
     country: "UK",
@@ -16111,7 +16111,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004041000,
+    id: 2004041000,
     type: "Show",
     venue: "Night and Day Cafe",
     country: "UK",
@@ -16154,7 +16154,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004041100,
+    id: 2004041100,
     type: "Show",
     venue: "The Fleece and Firkin",
     country: "UK",
@@ -16196,7 +16196,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004041500,
+    id: 2004041500,
     type: "Radio",
     country: "UK",
     year: 2004,
@@ -16214,7 +16214,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004042005,
+    id: 2004042005,
     type: "Radio",
     country: "Spain",
     quality: "Excellent",
@@ -16237,7 +16237,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004042010,
+    id: 2004042010,
     type: "Show",
     venue: "Sala El Sol",
     country: "Spain",
@@ -16289,7 +16289,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004042300,
+    id: 2004042300,
     type: "Show",
     venue: "Sala Capitol",
     country: "Spain",
@@ -16334,7 +16334,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004042400,
+    id: 2004042400,
     type: "Show",
     venue: "Kafe Antzokia",
     country: "Spain",
@@ -16398,7 +16398,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004050200,
+    id: 2004050200,
     type: "Show",
     venue: "De Melkweg",
     country: "Netherlands",
@@ -16448,7 +16448,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004050500,
+    id: 2004050500,
     type: "Show",
     venue: "Vera",
     country: "Netherlands",
@@ -16489,7 +16489,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004050800,
+    id: 2004050800,
     type: "Show",
     venue: "Tragarn",
     country: "Sweden",
@@ -16528,7 +16528,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004051000,
+    id: 2004051000,
     type: "Show",
     venue: "Mondo",
     country: "Sweden",
@@ -16572,7 +16572,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004060400,
+    id: 2004060400,
     type: "Show",
     venue: "Flying Monkey Arts",
     country: "USA",
@@ -16615,7 +16615,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004060500,
+    id: 2004060500,
     type: "Show",
     venue: "Echo Lounge",
     country: "USA",
@@ -16659,7 +16659,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004092400,
+    id: 2004092400,
     type: "Show",
     venue: "Sala Akelarre",
     country: "Spain",
@@ -16696,7 +16696,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004092500,
+    id: 2004092500,
     type: "Show",
     venue: "Teatre Lloseta",
     country: "Spain",
@@ -16737,7 +16737,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004093000,
+    id: 2004093000,
     type: "Show",
     venue: "Picaro Cafe",
     country: "Spain",
@@ -16778,7 +16778,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004100100,
+    id: 2004100100,
     type: "Show",
     venue: "Centro Cultural Caja Segovia",
     country: "Spain",
@@ -16819,7 +16819,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004100500,
+    id: 2004100500,
     type: "Show",
     venue: "Jazz Cafe",
     country: "UK",
@@ -16863,7 +16863,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004100600,
+    id: 2004100600,
     type: "Show",
     venue: "Jazz Cafe",
     country: "UK",
@@ -16904,7 +16904,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004110400,
+    id: 2004110400,
     type: "Show",
     venue: "Vaudeville Mews",
     country: "USA",
@@ -16940,7 +16940,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004110500,
+    id: 2004110500,
     type: "Show",
     venue: "Double Door Lounge",
     country: "USA",
@@ -16985,7 +16985,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004110600,
+    id: 2004110600,
     type: "Show",
     venue: "The Grog Shop",
     country: "USA",
@@ -17022,7 +17022,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2004000000,
+    id: 2004000000,
     type: "Album",
     year: 2004,
     name: "Not So Much To Be Loved As To Love",
@@ -17058,7 +17058,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005012800,
+    id: 2005012800,
     type: "Show",
     venue: "Great American Music Hall",
     country: "USA",
@@ -17079,7 +17079,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005040200,
+    id: 2005040200,
     type: "Show",
     venue: "Feierwerk (Hansa 39)",
     country: "Germany",
@@ -17121,7 +17121,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005041305,
+    id: 2005041305,
     type: "Radio",
     country: "Spain",
     quality: "Excellent",
@@ -17140,7 +17140,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005041310,
+    id: 2005041310,
     type: "Show",
     venue: "Cafe Espana",
     country: "Spain",
@@ -17176,7 +17176,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005041400,
+    id: 2005041400,
     type: "Show",
     venue: "Sala Arena",
     country: "Spain",
@@ -17218,7 +17218,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005041600,
+    id: 2005041600,
     type: "Show",
     venue: "Garaje de la Tia Maria",
     country: "Spain",
@@ -17263,7 +17263,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005041700,
+    id: 2005041700,
     type: "Show",
     venue: "Sala Van Van",
     country: "Spain",
@@ -17313,7 +17313,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005060900,
+    id: 2005060900,
     type: "Show",
     venue: "The Earl",
     country: "USA",
@@ -17353,7 +17353,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005061000,
+    id: 2005061000,
     type: "Show",
     venue: "The Crossroads",
     country: "USA",
@@ -17395,7 +17395,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005061100,
+    id: 2005061100,
     type: "Show",
     venue: "40 Watt Club",
     country: "USA",
@@ -17431,7 +17431,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005062200,
+    id: 2005062200,
     type: "Show",
     venue: "The Lime Spider",
     country: "USA",
@@ -17467,7 +17467,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005062300,
+    id: 2005062300,
     type: "Show",
     venue: "Blueberry Hill",
     country: "USA",
@@ -17511,7 +17511,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2005062500,
+    id: 2005062500,
     type: "Show",
     venue: "The Hurricane",
     country: "USA",
@@ -17549,7 +17549,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2006101300,
+    id: 2006101300,
     type: "Show",
     venue: "All Saints Church",
     country: "UK",
@@ -17591,7 +17591,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2006101500,
+    id: 2006101500,
     type: "Show",
     venue: "The Junction",
     country: "UK",
@@ -17618,7 +17618,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2006101600,
+    id: 2006101600,
     type: "Show",
     venue: "Union Chapel",
     city: "London",
@@ -17650,7 +17650,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2006101700,
+    id: 2006101700,
     type: "Show",
     venue: "Le Trabendo",
     country: "France",
@@ -17688,7 +17688,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2006102700,
+    id: 2006102700,
     type: "Show",
     venue: "Circulo de Bellas Artes",
     country: "Spain",
@@ -17742,7 +17742,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2006110100,
+    id: 2006110100,
     type: "Show",
     venue: "Teatro Moderno",
     country: "Spain",
@@ -17784,7 +17784,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2006110200,
+    id: 2006110200,
     type: "Show",
     venue: "CCCB",
     country: "Spain",
@@ -17833,7 +17833,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2006110300,
+    id: 2006110300,
     type: "Show",
     venue: "El Loco Club",
     country: "Spain",
@@ -17878,7 +17878,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2006121600,
+    id: 2006121600,
     type: "Show",
     venue: "Marilyns on K",
     country: "USA",
@@ -17909,7 +17909,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2007051900,
+    id: 2007051900,
     type: "Show",
     venue: "Teatro Felo Monzon",
     country: "Spain",
@@ -17944,7 +17944,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2007052200,
+    id: 2007052200,
     type: "Radio",
     country: "Spain",
     city: "Madrid",
@@ -17976,7 +17976,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2007052600,
+    id: 2007052600,
     type: "Show",
     venue: "Teatro Amaia",
     country: "Spain",
@@ -18020,7 +18020,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2007092800,
+    id: 2007092800,
     type: "Show",
     venue: "Cultureel Podium Roepaen",
     country: "Netherlands",
@@ -18055,7 +18055,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2007113000,
+    id: 2007113000,
     type: "Show",
     venue: "Safari Sams",
     country: "USA",
@@ -18095,7 +18095,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2007120600,
+    id: 2007120600,
     type: "Show",
     venue: "Great American Music Hall",
     country: "USA",
@@ -18139,7 +18139,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2007000000,
+    id: 2007000000,
     type: "Album",
     year: 2007,
     name: "Revolution Summer",
@@ -18167,7 +18167,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2008030100,
+    id: 2008030100,
     type: "Show",
     venue: "40 Watt Club",
     country: "USA",
@@ -18212,7 +18212,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2008030200,
+    id: 2008030200,
     type: "Show",
     venue: "The Earl",
     country: "USA",
@@ -18225,7 +18225,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2008031400,
+    id: 2008031400,
     type: "Radio",
     country: "USA",
     quality: "Very Good",
@@ -18246,7 +18246,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2008031500,
+    id: 2008031500,
     type: "Show",
     venue: "The Waiting Room",
     country: "USA",
@@ -18275,7 +18275,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2008050600,
+    id: 2008050600,
     type: "Show",
     venue: "La Casa 139",
     country: "Italy",
@@ -18325,7 +18325,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2008050700,
+    id: 2008050700,
     type: "Show",
     venue: "Le Nouveau Casino",
     country: "France",
@@ -18370,7 +18370,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2008060600,
+    id: 2008060600,
     type: "Show",
     venue: "The Mint",
     country: "USA",
@@ -18405,7 +18405,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2008090600,
+    id: 2008090600,
     type: "Show",
     venue: "Nouveau Casino",
     country: "France",
@@ -18418,7 +18418,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2008101000,
+    id: 2008101000,
     type: "Show",
     venue: "Local 506",
     country: "USA",
@@ -18470,7 +18470,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2008000005,
+    id: 2008000005,
     type: "Album",
     year: 2008,
     name: "Because Her Beauty Is Raw & Wild",
@@ -18505,7 +18505,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2008000010,
+    id: 2008000010,
     type: "Album",
     year: 2008,
     name: "A Que Venimos Sino A Caer?",
@@ -18525,7 +18525,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2008000015,
+    id: 2008000015,
     type: "Single",
     year: 2008,
     name: "You Can Have a Cell Phone That's Ok But Not Me",
@@ -18533,7 +18533,7 @@ export const recordings: RecordingImport[] = [
     songs: [{ name: "You Can Have A Cell Phone That's Ok But Not Me", n: 1 }],
   },
   {
-    linkid: 2009030500,
+    id: 2009030500,
     type: "Radio",
     country: "Spain",
     city: "Madrid",
@@ -18558,7 +18558,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2009030600,
+    id: 2009030600,
     type: "Radio",
     country: "Spain",
     quality: "Excellent",
@@ -18577,7 +18577,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2009030700,
+    id: 2009030700,
     type: "Show",
     venue: "Neu! Club",
     country: "Spain",
@@ -18610,7 +18610,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2009031400,
+    id: 2009031400,
     type: "Show",
     venue: "Auditorio Victor Villegas",
     country: "Spain",
@@ -18648,7 +18648,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2009032400,
+    id: 2009032400,
     type: "Show",
     venue: "Zentral Cafe at the K4",
     country: "Germany",
@@ -18679,7 +18679,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2009033000,
+    id: 2009033000,
     type: "Show",
     venue: "Dingwalls",
     country: "UK",
@@ -18715,7 +18715,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2009061600,
+    id: 2009061600,
     type: "Show",
     venue: "Bowery Ballroom",
     country: "USA",
@@ -18747,7 +18747,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2009092200,
+    id: 2009092200,
     type: "Show",
     venue: "The Make Out Room",
     country: "USA",
@@ -18773,7 +18773,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2009101100,
+    id: 2009101100,
     type: "Show",
     venue: "The Deaf Institute",
     country: "UK",
@@ -18813,7 +18813,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2009102500,
+    id: 2009102500,
     type: "Show",
     venue: "Big Mama",
     country: "Italy",
@@ -18855,7 +18855,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010020400,
+    id: 2010020400,
     type: "Show",
     venue: "Jack Rabbits",
     country: "USA",
@@ -18893,7 +18893,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010021400,
+    id: 2010021400,
     type: "Show",
     venue: "Williamsburg Music Hall",
     country: "USA",
@@ -18935,7 +18935,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010051800,
+    id: 2010051800,
     type: "Show",
     venue: "The Smell",
     country: "USA",
@@ -18975,7 +18975,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010052000,
+    id: 2010052000,
     type: "Show",
     venue: "DiPiazzas",
     country: "USA",
@@ -19010,7 +19010,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010052100,
+    id: 2010052100,
     type: "Show",
     venue: "DiPiazzas",
     country: "USA",
@@ -19044,7 +19044,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010052200,
+    id: 2010052200,
     type: "Show",
     venue: "DiPiazzas",
     country: "USA",
@@ -19076,7 +19076,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010100200,
+    id: 2010100200,
     type: "Show",
     venue: "Golden Gate Park",
     country: "USA",
@@ -19103,7 +19103,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010100800,
+    id: 2010100800,
     type: "Radio",
     year: 2010,
     month: 10,
@@ -19120,7 +19120,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010101300,
+    id: 2010101300,
     type: "Show",
     venue: "La Boule Noire",
     country: "France",
@@ -19165,7 +19165,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010102400,
+    id: 2010102400,
     type: "Show",
     venue: "Casa de America",
     country: "Spain",
@@ -19210,7 +19210,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010000000,
+    id: 2010000000,
     type: "Album",
     year: 2010,
     name: "O Moon, Queen of Night on Earth",
@@ -19259,7 +19259,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2010110100,
+    id: 2010110100,
     type: "TV",
     country: "USA",
     year: 2010,
@@ -19267,7 +19267,7 @@ export const recordings: RecordingImport[] = [
     songs: [{ name: "These Bodies That Came To Cavort", n: 1 }],
   },
   {
-    linkid: 2011022400,
+    id: 2011022400,
     type: "Show",
     venue: "Grey Eagle",
     country: "USA",
@@ -19311,7 +19311,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2011022500,
+    id: 2011022500,
     type: "Show",
     venue: "Local 506",
     country: "USA",
@@ -19355,7 +19355,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2011030100,
+    id: 2011030100,
     type: "Show",
     venue: "1st Unitarian Church Basement",
     country: "USA",
@@ -19393,7 +19393,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2011051400,
+    id: 2011051400,
     type: "Show",
     venue: "The 5 Spot",
     country: "USA",
@@ -19423,7 +19423,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2011051500,
+    id: 2011051500,
     type: "Show",
     venue: "The 5 Spot",
     country: "USA",
@@ -19456,7 +19456,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2011102000,
+    id: 2011102000,
     type: "Show",
     venue: "The Patterson",
     country: "USA",
@@ -19508,7 +19508,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2011102800,
+    id: 2011102800,
     type: "Show",
     venue: "The Bishop",
     country: "USA",
@@ -19549,7 +19549,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2012022300,
+    id: 2012022300,
     type: "Interview",
     quality: "Excellent",
     year: 2012,
@@ -19567,7 +19567,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2012022500,
+    id: 2012022500,
     type: "Show",
     venue: "Brudenell Social Club",
     country: "UK",
@@ -19597,7 +19597,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2012022600,
+    id: 2012022600,
     type: "Show",
     venue: "The Kazimier",
     country: "UK",
@@ -19636,7 +19636,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2012030100,
+    id: 2012030100,
     type: "Show",
     venue: "The Tabernacle",
     country: "UK",
@@ -19664,7 +19664,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2012031800,
+    id: 2012031800,
     type: "Show",
     venue: "12 y Medio",
     country: "Spain",
@@ -19693,7 +19693,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2012032000,
+    id: 2012032000,
     type: "Show",
     venue: "Cinemes Girona",
     country: "Spain",
@@ -19707,7 +19707,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2012032100,
+    id: 2012032100,
     type: "Show",
     venue: "Kafe Antzokia",
     country: "Spain",
@@ -19721,7 +19721,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2012061500,
+    id: 2012061500,
     type: "Show",
     venue: "Grey Eagle",
     country: "USA",
@@ -19762,7 +19762,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2013020700,
+    id: 2013020700,
     type: "Show",
     venue: "Zanzabar",
     country: "USA",
@@ -19775,7 +19775,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2013021700,
+    id: 2013021700,
     type: "Show",
     venue: "Cats Cradle",
     country: "USA",
@@ -19788,7 +19788,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2013022100,
+    id: 2013022100,
     type: "Show",
     venue: "Consolidated Fire Hall",
     country: "USA",
@@ -19824,7 +19824,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2013022600,
+    id: 2013022600,
     type: "Show",
     venue: "Russian Recording",
     country: "USA",
@@ -19843,7 +19843,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2013053100,
+    id: 2013053100,
     type: "Show",
     venue: "White Rabbit Cabaret",
     country: "USA",
@@ -19862,7 +19862,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2013062100,
+    id: 2013062100,
     type: "Show",
     venue: "Cosmic Charlies",
     country: "USA",
@@ -19882,7 +19882,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2013062600,
+    id: 2013062600,
     type: "Show",
     venue: "The Stone Fox",
     country: "USA",
@@ -19915,7 +19915,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2013112100,
+    id: 2013112100,
     type: "Show",
     venue: "Bowery Ballroom",
     country: "USA",
@@ -19948,7 +19948,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2013112200,
+    id: 2013112200,
     type: "Show",
     venue: "Bowery Ballroom",
     country: "USA",
@@ -19976,7 +19976,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2013112900,
+    id: 2013112900,
     type: "Show",
     venue: "Continental Club",
     country: "USA",
@@ -20018,7 +20018,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2013120500,
+    id: 2013120500,
     type: "Show",
     venue: "The Mint",
     country: "USA",
@@ -20048,7 +20048,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2014030700,
+    id: 2014030700,
     type: "Show",
     venue: "40 Watt Club",
     country: "USA",
@@ -20075,7 +20075,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2014061700,
+    id: 2014061700,
     type: "Show",
     venue: "Cavalier Theater",
     country: "USA",
@@ -20110,7 +20110,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2014061900,
+    id: 2014061900,
     type: "Show",
     venue: "Paradigm Coffee & Music",
     country: "USA",
@@ -20137,7 +20137,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2014111500,
+    id: 2014111500,
     type: "Show",
     venue: "Haybarn Theatre, Goddard College",
     country: "USA",
@@ -20164,7 +20164,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2014112200,
+    id: 2014112200,
     type: "Show",
     venue: "Cat's Cradle",
     country: "USA",
@@ -20194,7 +20194,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2015030100,
+    id: 2015030100,
     type: "Single",
     name: "O Sun!",
     year: 2015,
@@ -20206,7 +20206,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2015030105,
+    id: 2015030105,
     type: "Single",
     name: "Keith",
     year: 2015,
@@ -20218,7 +20218,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2015030600,
+    id: 2015030600,
     type: "Show",
     venue: "Duke Coffeehouse",
     country: "USA",
@@ -20231,7 +20231,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2015103000,
+    id: 2015103000,
     type: "Show",
     venue: "Duke Coffeehouse",
     country: "USA",
@@ -20244,7 +20244,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2015110100,
+    id: 2015110100,
     type: "Show",
     venue: "Harvester Performance Center",
     country: "USA",
@@ -20257,7 +20257,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2015110500,
+    id: 2015110500,
     type: "Show",
     venue: "Chameleon Club",
     country: "USA",
@@ -20288,7 +20288,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2016030100,
+    id: 2016030100,
     type: "Album",
     name: "Ishkode! Ishkode!",
     year: 2016,
@@ -20309,7 +20309,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2016040200,
+    id: 2016040200,
     type: "Show",
     venue: "Pearl Street Nightclub",
     country: "USA",
@@ -20337,7 +20337,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2016040800,
+    id: 2016040800,
     type: "Show",
     venue: "The Evening Muse",
     country: "USA",
@@ -20371,7 +20371,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2016041900,
+    id: 2016041900,
     type: "Show",
     venue: "The Altamont",
     country: "USA",
@@ -20384,7 +20384,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2016052100,
+    id: 2016052100,
     type: "Show",
     venue: "Fernwood Resort",
     country: "USA",
@@ -20398,7 +20398,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2016111300,
+    id: 2016111300,
     type: "Show",
     venue: "Towne Cinema",
     country: "USA",
@@ -20411,7 +20411,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2016111400,
+    id: 2016111400,
     type: "Show",
     venue: "Cats Cradle Backroom",
     country: "USA",
@@ -20424,7 +20424,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 2016111500,
+    id: 2016111500,
     type: "Single",
     name: "That's All We Need At Our Party",
     year: 2016,
@@ -20436,7 +20436,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2018030100,
+    id: 2018030100,
     type: "Single",
     name: "Penchant For The Stagnant",
     year: 2018,
@@ -20448,7 +20448,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2018022200,
+    id: 2018022200,
     type: "Show",
     venue: "The Basement East",
     country: "USA",
@@ -20481,7 +20481,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2018100100,
+    id: 2018100100,
     type: "Album",
     name: "SA!",
     year: 2018,
@@ -20503,7 +20503,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2018101600,
+    id: 2018101600,
     type: "Show",
     venue: "Middle East Club",
     country: "USA",
@@ -20536,7 +20536,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2019022000,
+    id: 2019022000,
     type: "Show",
     venue: "The Arts Center",
     country: "USA",
@@ -20569,7 +20569,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2021121400,
+    id: 2021121400,
     type: "Album",
     name: "Want To Visit My Inner House?",
     year: 2021,
@@ -20589,7 +20589,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2022031800,
+    id: 2022031800,
     type: "Single",
     name: "Cold Pizza & Other Hot Stuff EP",
     year: 2022,
@@ -20605,7 +20605,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2022101300,
+    id: 2022101300,
     type: "Show",
     venue: "The Arts Center",
     country: "USA",
@@ -20636,7 +20636,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2023030200,
+    id: 2023030200,
     type: "Single",
     name: "Yatasamaroun EP",
     year: 2023,
@@ -20650,7 +20650,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2023100800,
+    id: 2023100800,
     type: "Show",
     venue: "Wilson Theatre",
     country: "USA",
@@ -20680,7 +20680,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2023100900,
+    id: 2023100900,
     type: "Show",
     venue: "Space",
     country: "USA",
@@ -20709,7 +20709,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2023102700,
+    id: 2023102700,
     type: "Show",
     venue: "The Grey Eagle",
     country: "USA",
@@ -20737,7 +20737,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2024030500,
+    id: 2024030500,
     type: "Show",
     venue: "Spire Center For Performing Arts",
     country: "USA",
@@ -20766,7 +20766,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2024030600,
+    id: 2024030600,
     type: "Show",
     venue: "The Kate",
     country: "USA",
@@ -20798,7 +20798,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 2024031400,
+    id: 2024031400,
     type: "Show",
     venue: "Blumenthal Performing Arts Center, Booth Playhouse",
     country: "USA",
@@ -20837,7 +20837,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 9000000000,
+    id: 9000000000,
     type: "Compilation",
     quality: "Good",
     name: "For All the Modern Lovers",
@@ -20859,7 +20859,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 9000000001,
+    id: 9000000001,
     type: "Compilation",
     name: "Regression",
     jon: true,
@@ -20888,7 +20888,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 9000000002,
+    id: 9000000002,
     type: "Compilation",
     quality: "Good",
     name: "Route 128 Revisited",
@@ -20912,7 +20912,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 9000000003,
+    id: 9000000003,
     type: "Compilation",
     quality: "Good",
     name: "USA 1976-1982",
@@ -20951,7 +20951,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    linkid: 9000000004,
+    id: 9000000004,
     type: "Compilation",
     quality: "",
     name: "Beantown Gems",
@@ -20959,7 +20959,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 9000000005,
+    id: 9000000005,
     type: "Compilation",
     quality: "",
     name: "Paley Sessions",
@@ -20967,7 +20967,7 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    linkid: 9000000006,
+    id: 9000000006,
     type: "Radio",
     year: 0,
     country: "USA",

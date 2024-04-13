@@ -11,20 +11,18 @@ import {
 } from "../../data";
 import Fuse from "fuse.js";
 
-const allRecordings = getRecordings().map(
-  ({ linkid, formattedTitle: text }) => ({
-    href: `/recordings/${linkid}`,
-    text,
-  })
-);
+const allRecordings = getRecordings().map(({ id, formattedTitle: text }) => ({
+  href: `/recordings/${id}`,
+  text,
+}));
 const allSongs = getSongs().map(({ sanitized, name }) => ({
   href: `/songs/${sanitized}`,
   text: name,
 }));
 
 const recordingComments = getRecordingComments().map(
-  ({ linkid, type, comment: { text, name } }) => ({
-    href: `/${type}/${linkid}`,
+  ({ id, type, comment: { text, name } }) => ({
+    href: `/${type}/${id}`,
     text: `${name}: ${text}`,
   })
 );

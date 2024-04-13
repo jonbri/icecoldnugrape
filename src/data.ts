@@ -7,7 +7,7 @@ export const getRecordings = () => recordings;
 
 export const getRecording = (id: string) => {
   for (const recording of recordings) {
-    if (recording.linkid === Number(id)) return recording;
+    if (recording.id === Number(id)) return recording;
   }
 };
 
@@ -32,11 +32,11 @@ const recordingsWithComment = recordings.filter(
 );
 const songsWithComment = songs.filter(({ comments }) => comments.length > 0);
 const recordingCommentInstances: RecordingCommentInstance[] = [];
-for (const { linkid, comments } of recordingsWithComment) {
+for (const { id, comments } of recordingsWithComment) {
   comments.forEach((comment) => {
     recordingCommentInstances.push({
       type: "recordings",
-      linkid,
+      id,
       comment,
     });
   });
@@ -61,12 +61,12 @@ export const getRandomUrl = () => {
   const songs = getSongs();
   const recordingsRandomNumber = getRandomNumber(0, recordings.length - 1);
   const songsRandomNumber = getRandomNumber(0, songs.length - 1);
-  const randomRecordingsLinkId = recordings[recordingsRandomNumber].linkid;
-  const randomSongsLinkId = songs[songsRandomNumber].sanitized;
+  const randomRecordingsId = recordings[recordingsRandomNumber].id;
+  const randomSongsId = songs[songsRandomNumber].sanitized;
   if (getRandomNumber(0, 2) === 0) {
-    return `/recordings/${randomRecordingsLinkId}`;
+    return `/recordings/${randomRecordingsId}`;
   }
-  return `/songs/${randomSongsLinkId}`;
+  return `/songs/${randomSongsId}`;
 };
 const getRandomNumber = (min: number, max: number) =>
   Math.floor(Math.random() * (max - min) + min);

@@ -25,9 +25,9 @@ export default function Page({
     <div className="song">
       <h2>{song.name}</h2>
       <ul className="hoverable">
-        {shows.map(({ linkid, formattedTitle }) => (
-          <li key={linkid}>
-            <Link href={`/recordings/${linkid}`}>{formattedTitle}</Link>
+        {shows.map(({ id, formattedTitle }) => (
+          <li key={id}>
+            <Link href={`/recordings/${id}`}>{formattedTitle}</Link>
           </li>
         ))}
       </ul>

@@ -11,14 +11,14 @@ export default function Page() {
   return (
     <div>
       <ul className="hoverable">
-        {all.map(({ linkid, type, formattedTitle }) => {
+        {all.map(({ id, type, formattedTitle }) => {
           let doubleFormattedTitle = formattedTitle;
           if (type !== "Show" && type !== "Radio") {
             doubleFormattedTitle = `${type}: ${formattedTitle}`;
           }
           return (
-            <li key={linkid}>
-              <Link href={`/recordings/${linkid}`}>{doubleFormattedTitle}</Link>
+            <li key={id}>
+              <Link href={`/recordings/${id}`}>{doubleFormattedTitle}</Link>
             </li>
           );
         })}

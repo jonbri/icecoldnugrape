@@ -28,9 +28,9 @@ const generateList = ({ title, collection }: Section) => (
   <section key={title}>
     <h2>{`${title} (${collection.length})`}</h2>
     <ul className="hoverable">
-      {collection.map(({ linkid, formattedTitle }) => (
-        <li key={linkid}>
-          <Link href={`/recordings/${linkid}`}>{formattedTitle}</Link>
+      {collection.map(({ id, formattedTitle }) => (
+        <li key={id}>
+          <Link href={`/recordings/${id}`}>{formattedTitle}</Link>
         </li>
       ))}
     </ul>

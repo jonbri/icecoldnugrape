@@ -4,7 +4,7 @@ import { SongInstance } from "../../../types";
 import Link from "next/link";
 
 export async function generateStaticParams() {
-  const paths = getRecordings().map(({ linkid: id }) => ({
+  const paths = getRecordings().map(({ id }) => ({
     params: {
       id: id.toString(),
     },

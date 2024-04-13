@@ -89,13 +89,13 @@ const aggregateSongs = (): Song[] =>
       .filter(({ songs }) =>
         songs.map(({ name }) => name).includes(rawSong.name)
       )
-      .map(({ linkid }) => linkid),
+      .map(({ id }) => id),
   }));
 
 const getNextRecordingOfSameType = (position: number) => {
   const { type } = recordingsData[position];
   for (let i = position + 1; i < recordingsData.length; i++) {
-    if (recordingsData[i].type === type) return recordingsData[i].linkid;
+    if (recordingsData[i].type === type) return recordingsData[i].id;
   }
   return null;
 };
@@ -103,7 +103,7 @@ const getNextRecordingOfSameType = (position: number) => {
 const getPreviousRecordingOfSameType = (position: number) => {
   const { type } = recordingsData[position];
   for (let i = position - 1; i >= 0; i--) {
-    if (recordingsData[i].type === type) return recordingsData[i].linkid;
+    if (recordingsData[i].type === type) return recordingsData[i].id;
   }
   return null;
 };
