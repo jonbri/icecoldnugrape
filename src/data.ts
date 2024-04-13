@@ -56,17 +56,20 @@ for (const { name: song, comments } of songsWithComment) {
 export const getRecordingComments = () => recordingCommentInstances;
 export const getSongComments = () => songCommentInstances;
 
-export const getRandomUrl = () => {
-  const recordings = getRecordings();
-  const songs = getSongs();
-  const recordingsRandomNumber = getRandomNumber(0, recordings.length - 1);
-  const songsRandomNumber = getRandomNumber(0, songs.length - 1);
-  const randomRecordingsId = recordings[recordingsRandomNumber].id;
-  const randomSongsId = songs[songsRandomNumber].sanitized;
-  if (getRandomNumber(0, 2) === 0) {
-    return `/recordings/${randomRecordingsId}`;
-  }
-  return `/songs/${randomSongsId}`;
-};
 const getRandomNumber = (min: number, max: number) =>
   Math.floor(Math.random() * (max - min) + min);
+
+const getRandomRecording = () => {
+  const recordings = getRecordings();
+  const random = getRandomNumber(0, recordings.length - 1);
+  return `/recordings/${recordings[random].id}`;
+};
+
+const getRandomSong = () => {
+  const songs = getSongs();
+  const random = getRandomNumber(0, songs.length - 1);
+  return `/songs/${songs[random].sanitized}`;
+};
+
+export const getRandomUrl = () =>
+  getRandomNumber(0, 2) === 0 ? getRandomRecording() : getRandomSong();
