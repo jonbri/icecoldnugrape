@@ -41,7 +41,7 @@ export type SongType =
   | "Barcelona"
   | "Because Her Beauty is Raw and Wild"
   | "Behold the Lilies of the Field"
-  | "Blowin in the Wind"
+  | "Blowin' in the Wind"
   | "Blue Moon"
   | "Blue Suede Shoes"
   | "Boogie Woogie Country Girl"
@@ -468,7 +468,7 @@ export type SongType =
   | "Walter Johnson"
   | "We're Having A Party"
   | "Wheels on the Bus"
-  | "When Harpo Played  His Harp"
+  | "When Harpo Played His Harp"
   | "When I Dance"
   | "When I Get Mad at Her"
   | "When I Say I Love You"
@@ -798,7 +798,7 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  { name: "Blowin in the Wind" },
+  { name: "Blowin' in the Wind" },
   { name: "Blue Moon" },
   { name: "Blue Suede Shoes" },
   { name: "Boogie Woogie Country Girl" },
@@ -848,7 +848,7 @@ export const songs: SongImport[] = [
     comments: [
       {
         name: "VinnieQ",
-        text: "I always wanted to hear the full version of Corner Store from the film Kingpin, but i never found it..",
+        text: "I always wanted to hear the full version of Corner Store from the film Kingpin, but I never found it...",
         time: "2013-12-12 11:54:10",
       },
     ],
@@ -1463,7 +1463,7 @@ export const songs: SongImport[] = [
   { name: "We're Having A Party" },
   { name: "Wheels on the Bus" },
   {
-    name: "When Harpo Played  His Harp",
+    name: "When Harpo Played His Harp",
     comments: [
       {
         name: "Jerry",
@@ -1515,7 +1515,7 @@ export const songs: SongImport[] = [
     comments: [
       {
         name: "DMDCAF",
-        text: "There were many shows I was at where Jonathan at least did some of CLOSER as CERCA in espanol! Definitely my favorite song of his in Spanish!",
+        text: "There were many shows I was at where Jonathan at least did some of Closer as Cerca in espanol! Definitely my favorite song of his in Spanish!",
         time: "2011-10-29 00:20:56",
       },
       {
@@ -1893,7 +1893,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "1-4 Jonathan's first demos said to have been made in the Harvard Square area of Boston, Summer 19705-7 From The Modern Lovers first session, Intermedia Studios, Boston, 19718-9 From The Warner Brothers Demos with John Cale, Elektra Studios, LA, April 1972 10-11 From Dinky Dawsons Studio, Boston with Kim Fowley, Summer 1972 12 Gold Star Studios, LA, with Kim Fowley, October 1973 13 Live Radcliffe, Cambridge, October 1972 14 - 17 The Mercer Arts Center, NYC, New Years Eve 1972 18 Cambridge Boathouse, MA, 1972 Also, - Tracks 5, 7, and 9, are among the extra tracks on the 2003 Castle Music re-issue of 'The Modern Lovers' (CMQCD 782) Track 6 was on the original 1976 release of 'The Modern Lovers', but the version here has some brief studio chat before it begins.",
+        text: "1-4 Jonathan's first demos said to have been made in the Harvard Square area of Boston, Summer 19705-7 From The Modern Lovers first session, Intermedia Studios, Boston, 19718-9 From The Warner Brothers Demos with John Cale, Elektra Studios, LA, April 1972 10-11 From Dinky Dawson's Studio, Boston with Kim Fowley, Summer 1972 12 Gold Star Studios, LA, with Kim Fowley, October 1973 13 Live Radcliffe, Cambridge, October 1972 14 - 17 The Mercer Arts Center, NYC, New Years Eve 1972 18 Cambridge Boathouse, MA, 1972 Also, - Tracks 5, 7, and 9, are among the extra tracks on the 2003 Castle Music re-issue of 'The Modern Lovers' (CMQCD 782) Track 6 was on the original 1976 release of 'The Modern Lovers', but the version here has some brief studio chat before it begins.",
         time: "2011-10-14 19:51:25",
       },
       {
@@ -2136,7 +2136,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "Jonathan Paley",
-        text: "I remember that members of what would be the Talking Heads were in attendence.",
+        text: "I remember that members of what would be the Talking Heads were in attendance.",
         time: "2011-11-12 13:37:36",
       },
       {
@@ -2371,7 +2371,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathan and the Modern Lovers - Leroy Radcliffe, Curly Keranen, and D. Sharpe. A really rare recording, with a couple of completely unknown songs - 'At Home with a Lover' and  'I Love People'' - both of them don't seem to exist on any other JR recordings. Some issues with the sound, a bad burn's been done at some time in the past, but nothing too much to spoil it.",
+        text: "Jonathan and the Modern Lovers - Leroy Radcliffe, Curly Keranen, and D. Sharpe. A really rare recording, with a couple of completely unknown songs - 'At Home with a Lover' and  'I Love People' - both of them don't seem to exist on any other JR recordings. Some issues with the sound, a bad burn's been done at some time in the past, but nothing too much to spoil it.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -2420,7 +2420,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "neats",
-        text: "I was at this show too..very close to the front and it was still hard to hear...curly, leroy and the late d sharpe..d sharpe had a great drum kit..big african skin floor tom..leroy had the epiphone casino type guitar...curly was, curly on standup bass..",
+        text: "I was at this show too..very close to the front and it was still hard to hear...Curly, Leroy and the late D Sharpe...D Sharpe had a great drum kit..big african skin floor tom..Leroy had the Epiphone casino type guitar...Curly was, Curly on standup bass..",
         time: "2012-02-26 22:15:00",
       },
       {
@@ -2767,7 +2767,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "neats",
-        text: "I was at this show..I was a freshman at nyu..pretty sure he played nyu 2 different times",
+        text: "I was at this show..I was a freshman at NYU...pretty sure he played NYU two different times",
         time: "2012-02-26 22:08:04",
       },
     ],
@@ -3794,7 +3794,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A few songs from his latest LP, 'Back in Your Life', are played (The songs are - Back in Your Life, Natures Mosquito, Affection and Roadrunner). Jonathan gives a little bit of info about each and also about his new LP. ",
+        text: "A few songs from his latest LP, 'Back in Your Life', are played (The songs are - Back in Your Life, Natures Mosquito, Affection and Roadrunner). Jonathan gives a little bit of info about each and also about his new LP ",
         time: "2011-10-16 18:17:29",
       },
     ],
@@ -3879,7 +3879,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Highly recommended! Previously listed here as 'Unreleased Lost Elpee, 1980'. These seem be better identified as the eight-track demos that were recorded at Perfect Crime Studios during late summer of 1979 (see Tim Mitchell's book 'There's Something About Jonathan' - page 124). ",
+        text: "Highly recommended! Previously listed here as 'Unreleased Lost Elpee, 1980'. These seem be better identified as the eight-track demos that were recorded at Perfect Crime Studios during late summer of 1979 (see Tim Mitchell's book 'There's Something About Jonathan' - page 124) ",
         time: "2011-10-16 18:31:37",
       },
     ],
@@ -3923,7 +3923,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A pretty rare solo show, but not the best of recordings with this one. ",
+        text: "A pretty rare solo show, but not the best of recordings with this one ",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -4081,7 +4081,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Includes a couple of very unusual songs, but, be warned... the sound quality is poor.",
+        text: "Includes a couple of very unusual songs, but, be warned...the sound quality is poor.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -4310,7 +4310,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A cracking two set show featuring the Rockin' Robins (Beth Harrington and Ellie Marshall). The second set is particularly enjoyable... everyone's loosened up and having fun.",
+        text: "A cracking two set show featuring the Rockin' Robins (Beth Harrington and Ellie Marshall). The second set is particularly enjoyable...everyone's loosened up and having fun.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -4642,7 +4642,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Right, I had this previously listed as New York 1982, and as a one CD show only, but now have a copy of the full show as below... the thing is that the one CD copy seemed to sound better than the new complete copy does (the 1 CD copy ran from fireside chat to Abdul & Cleopatra) so I now need to do some further sound checking and come up with the best recording. Here's the show... and by the way, 'Bring Back Springtime' still stands out as a great unlisted and unrecorded song...",
+        text: "Right, I had this previously listed as New York 1982, and as a one CD show only, but now have a copy of the full show as below...the thing is that the one CD copy seemed to sound better than the new complete copy does (the 1 CD copy ran from fireside chat to Abdul & Cleopatra) so I now need to do some further sound checking and come up with the best recording. Here's the show... and by the way, 'Bring Back Springtime' still stands out as a great unlisted and unrecorded song...",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -4764,7 +4764,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "A neat sounding show, the 2nd of two nights at the Bottom Line, and with a very early acapella version of 'That Summer Feeling'... it's pretty different here and sounds like it's completely new to the audience too; Jonathan describes this as his 'Summer Song'...With Beth Harrington, Ellie Marshall, Ken Forfia, Michael Guardabascio, and Curly Keranen.",
+        text: "A neat sounding show, the 2nd of two nights at the Bottom Line, and with a very early acapella version of 'That Summer Feeling'...it's pretty different here and sounds like it's completely new to the audience too; Jonathan describes this as his 'Summer Song'...With Beth Harrington, Ellie Marshall, Ken Forfia, Michael Guardabascio, and Curly Keranen.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -4845,7 +4845,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Pol Dodu",
-        text: "Recorded live at the Theatre de l'Empire in paris, this was actually broadcast on April 8th 1979 in Antoine de Caunes' Chorus show. Now available for sale as a download here: http://www.ina.fr/art-et-culture/arts-du-spectacle/video/I10251089/jonathan-richman-sur-la-scene-du-theatre-de-l-empire-a-paris.fr.html",
+        text: "Recorded live at the Theatre de l'Empire in Paris, this was actually broadcast on April 8th 1979 in Antoine de Caunes' Chorus show. Now available for sale as a download here: http://www.ina.fr/art-et-culture/arts-du-spectacle/video/I10251089/jonathan-richman-sur-la-scene-du-theatre-de-l-empire-a-paris.fr.html",
         time: "2012-05-18 12:37:51",
       },
     ],
@@ -5001,7 +5001,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "Bob",
-        text: "Recently got hold of this one, and guess what... it's as good as the following nights show. And a couple of very rare songs too.",
+        text: "Recently got hold of this one, and guess what...it's as good as the following nights show. And a couple of very rare songs too.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -5300,7 +5300,7 @@ export const recordings: RecordingImport[] = [
   {
     id: 1982102300,
     type: "Show",
-    venue: "Tupelos Tavern",
+    venue: "Tupelo's Tavern",
     country: "USA",
     city: "New Orleans",
     year: 1982,
@@ -6841,7 +6841,7 @@ export const recordings: RecordingImport[] = [
   {
     id: 1985083100,
     type: "Show",
-    venue: "Jimmys",
+    venue: "Jimmy's",
     country: "USA",
     city: "New Orleans",
     quality: "Excellent",
@@ -7585,7 +7585,7 @@ export const recordings: RecordingImport[] = [
       { name: "You're the One For Me", n: 13 },
       { name: "Everything's Gotta Be Right", n: 14 },
       { name: "Pablo Picasso", n: 15 },
-      { name: "When Harpo Played  His Harp", n: 16 },
+      { name: "When Harpo Played His Harp", n: 16 },
       { name: "Corner Store", n: 17 },
       { name: "Neon Sign", n: 18 },
       { name: "Stop This Car", n: 19 },
@@ -7703,7 +7703,7 @@ export const recordings: RecordingImport[] = [
       { name: "Vincent Van Gogh", n: 10 },
       { name: "I Love Hot Nights", n: 11 },
       { name: "New Kind Of Neighborhood", n: 12 },
-      { name: "When Harpo Played  His Harp", n: 13 },
+      { name: "When Harpo Played His Harp", n: 13 },
       { name: "Circle I", n: 14 },
       { name: "Now is Better Than Before", n: 15 },
       { name: "It's You", n: 16 },
@@ -7756,14 +7756,14 @@ export const recordings: RecordingImport[] = [
       { name: "Now is Better Than Before", n: 15 },
       { name: "This Kind Of Music", n: 16 },
       { name: "It's You", n: 17 },
-      { name: "When Harpo Played  His Harp", n: 18 },
+      { name: "When Harpo Played His Harp", n: 18 },
       { name: "I Love Hot Nights", n: 19 },
       { name: "The Neighbors", n: 20 },
     ],
     comments: [
       {
         name: "Bob",
-        text: "With Brennan Totten and Johnny Avila. ",
+        text: "With Brennan Totten and Johnny Avila ",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -7832,7 +7832,7 @@ export const recordings: RecordingImport[] = [
       { name: "I Love Hot Nights", n: 10 },
       { name: "New Kind Of Neighborhood", n: 11 },
       { name: "Affection", n: 12 },
-      { name: "When Harpo Played  His Harp", n: 13 },
+      { name: "When Harpo Played His Harp", n: 13 },
       { name: "Corner Store", n: 14 },
       { name: "Walter Johnson", n: 15 },
       { name: "Neon Sign", n: 16 },
@@ -7880,7 +7880,7 @@ export const recordings: RecordingImport[] = [
       { name: "Pablo Picasso", n: 10 },
       { name: "Double Chocolate Malted", n: 11 },
       { name: "This Kind Of Music", n: 12 },
-      { name: "When Harpo Played  His Harp", n: 13 },
+      { name: "When Harpo Played His Harp", n: 13 },
       { name: "New Kind Of Neighborhood", n: 14 },
       { name: "Not Yet 3", n: 15 },
       { name: "Corner Store", n: 16 },
@@ -7949,7 +7949,7 @@ export const recordings: RecordingImport[] = [
       { name: "When I Dance", n: 3 },
       { name: "Gail Loves Me", n: 4 },
       { name: "Chewing Gum Wrapper", n: 5 },
-      { name: "When Harpo Played  His Harp", n: 6 },
+      { name: "When Harpo Played His Harp", n: 6 },
       { name: "Those Conga Drums", n: 7 },
       { name: "This Kind Of Music", n: 8 },
       { name: "Wipeout", n: 9 },
@@ -7997,7 +7997,7 @@ export const recordings: RecordingImport[] = [
       { name: "Everything's Gotta Be Right", n: 4 },
       { name: "California Desert Party", n: 5 },
       { name: "The UFO Man", n: 6 },
-      { name: "When Harpo Played  His Harp", n: 7 },
+      { name: "When Harpo Played His Harp", n: 7 },
       { name: "Affection", n: 8 },
       { name: "The Beach", n: 9 },
       { name: "New Kind Of Neighborhood", n: 10 },
@@ -8042,7 +8042,7 @@ export const recordings: RecordingImport[] = [
       { name: "That Summer Feeling", n: 5 },
       { name: "Chewing Gum Wrapper", n: 6 },
       { name: "New Kind Of Neighborhood", n: 7 },
-      { name: "When Harpo Played  His Harp", n: 8 },
+      { name: "When Harpo Played His Harp", n: 8 },
       { name: "I Love Hot Nights", n: 9 },
       { name: "California Desert Party", n: 10 },
       { name: "The Neighbors", n: 11 },
@@ -8105,7 +8105,7 @@ export const recordings: RecordingImport[] = [
       { name: "Double Chocolate Malted", n: 4 },
       { name: "Gail Loves Me", n: 5 },
       { name: "The Fenway", n: 6 },
-      { name: "When Harpo Played  His Harp", n: 7 },
+      { name: "When Harpo Played His Harp", n: 7 },
       { name: "The UFO Man", n: 8 },
       { name: "Dancin' Late at Night", n: 9 },
       { name: "Chewing Gum Wrapper", n: 10 },
@@ -8157,7 +8157,7 @@ export const recordings: RecordingImport[] = [
       { name: "Wipeout", n: 7 },
       { name: "Dancin' Late at Night", n: 8 },
       { name: "Neon Sign", n: 9 },
-      { name: "When Harpo Played  His Harp", n: 10 },
+      { name: "When Harpo Played His Harp", n: 10 },
       { name: "I Love Hot Nights", n: 11 },
       { name: "Let's Take a Trip", n: 12 },
       { name: "The Neighbors", n: 13 },
@@ -8280,7 +8280,7 @@ export const recordings: RecordingImport[] = [
     songs: [
       { name: "African Lady", n: 1 },
       { name: "interview...", n: 2 },
-      { name: "When Harpo Played  His Harp", n: 3 },
+      { name: "When Harpo Played His Harp", n: 3 },
       { name: "Gail Loves Me", n: 4 },
     ],
   },
@@ -8318,7 +8318,7 @@ export const recordings: RecordingImport[] = [
       { name: "The Neighbors", n: 7 },
       { name: "That Summer Feeling", n: 8 },
       { name: "This Kind Of Music", n: 9 },
-      { name: "When Harpo Played  His Harp", n: 10 },
+      { name: "When Harpo Played His Harp", n: 10 },
       { name: "Give Paris One More Chance", n: 11 },
       { name: "It's You", n: 12 },
       { name: "When I'm Walking", n: 13 },
@@ -8359,7 +8359,7 @@ export const recordings: RecordingImport[] = [
       { name: "This Kind Of Music", n: 14 },
       { name: "That Summer Feeling", n: 15 },
       { name: "The Beach", n: 16 },
-      { name: "When Harpo Played  His Harp", n: 17 },
+      { name: "When Harpo Played His Harp", n: 17 },
       { name: "Circle I", n: 18 },
       { name: "My Jeans", n: 19 },
     ],
@@ -8475,7 +8475,7 @@ export const recordings: RecordingImport[] = [
       { name: "Place Pigalle", n: 18 },
       { name: "Dancin' Late at Night", n: 19 },
       { name: "Ice Cream Man", n: 20 },
-      { name: "When Harpo Played  His Harp", n: 21 },
+      { name: "When Harpo Played His Harp", n: 21 },
       { name: "Theme From Moulin Rouge", n: 22 },
       { name: "instrumental", n: 23 },
     ],
@@ -8505,7 +8505,7 @@ export const recordings: RecordingImport[] = [
       { name: "The Beach", n: 11 },
       { name: "Lover Please", n: 12 },
       { name: "I Love Hot Nights", n: 13 },
-      { name: "When Harpo Played  His Harp", n: 14 },
+      { name: "When Harpo Played His Harp", n: 14 },
       { name: "Gail Loves Me", n: 15 },
       { name: "African Lady", n: 16 },
       { name: "Those Conga Drums", n: 17 },
@@ -8562,7 +8562,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "With Johnny Avila & Brennan Totten; includes a great sounding 'Affection' peppered with ad-libs. ",
+        text: "With Johnny Avila & Brennan Totten; includes a great sounding 'Affection' peppered with ad-libs ",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -8583,7 +8583,7 @@ export const recordings: RecordingImport[] = [
       { name: "Egyptian Reggae", n: 2 },
       { name: "Vincent Van Gogh", n: 3 },
       { name: "This Kind Of Music", n: 4 },
-      { name: "When Harpo Played  His Harp", n: 5 },
+      { name: "When Harpo Played His Harp", n: 5 },
       { name: "Chewing Gum Wrapper", n: 6 },
       { name: "Hospital", n: 7 },
       { name: "African Lady", n: 8 },
@@ -8691,7 +8691,7 @@ export const recordings: RecordingImport[] = [
       { name: "Yo Jo Jo", n: 12 },
       { name: "Malaguena De Jojo", n: 13 },
       { name: "Those Conga Drums", n: 14 },
-      { name: "When Harpo Played  His Harp", n: 15 },
+      { name: "When Harpo Played His Harp", n: 15 },
       { name: "Not Yet 3", n: 16 },
       { name: "Girlfren'", n: 17 },
       { name: "Gail Loves Me", n: 18 },
@@ -8706,7 +8706,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathan's pretty talkative tonight with a very lively audience that's only too willing to join in with the songs wherever possible. A super show for all, that ends with Jonathan saying how much he's enjoyed himself, unusually he's more than happy to do several encore's on this one. S. E. Rogie comes on stage as guest to sing 'African Lady', one of Sooliman's songs that's usually covered by Jonathan as an instrumental. ",
+        text: "Jonathan's pretty talkative tonight with a very lively audience that's only too willing to join in with the songs wherever possible. A super show for all, that ends with Jonathan saying how much he's enjoyed himself, unusually he's more than happy to do several encore's on this one. S. E. Rogie comes on stage as guest to sing 'African Lady', one of Sooliman's songs that's usually covered by Jonathan as an instrumental ",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -8734,7 +8734,7 @@ export const recordings: RecordingImport[] = [
       { name: "This Kind Of Music", n: 10 },
       { name: "The Heart of Saturday Night", n: 11 },
       { name: "Give Paris One More Chance", n: 12 },
-      { name: "When Harpo Played  His Harp", n: 13 },
+      { name: "When Harpo Played His Harp", n: 13 },
     ],
     comments: [
       {
@@ -8807,7 +8807,7 @@ export const recordings: RecordingImport[] = [
       { name: "Gail Loves Me", n: 8 },
       { name: "California Desert Party", n: 9 },
       { name: "Yo Jo Jo", n: 10 },
-      { name: "When Harpo Played  His Harp", n: 11 },
+      { name: "When Harpo Played His Harp", n: 11 },
       { name: "This Kind Of Music", n: 12 },
       { name: "Everyday Clothes", n: 13 },
       { name: "That Summer Feeling", n: 14 },
@@ -8851,7 +8851,7 @@ export const recordings: RecordingImport[] = [
       { name: "California Desert Party", n: 11 },
       { name: "Lover Please", n: 12 },
       { name: "Affection", n: 13 },
-      { name: "When Harpo Played  His Harp", n: 14 },
+      { name: "When Harpo Played His Harp", n: 14 },
       { name: "The Beach", n: 15 },
       { name: "Now is Better Than Before", n: 16 },
       { name: "Double Chocolate Malted", n: 17 },
@@ -8902,7 +8902,7 @@ export const recordings: RecordingImport[] = [
       { name: "The Beach", n: 22 },
       { name: "Pablo Picasso", n: 23 },
       { name: "Girlfren'", n: 24 },
-      { name: "When Harpo Played  His Harp", n: 25 },
+      { name: "When Harpo Played His Harp", n: 25 },
       { name: "It's You", n: 26 },
       { name: "Corner Store", n: 27 },
       { name: "Just About 17", n: 28 },
@@ -8951,7 +8951,7 @@ export const recordings: RecordingImport[] = [
       { name: "Walter Johnson", n: 21 },
       { name: "Double Chocolate Malted", n: 22 },
       { name: "Neon Sign", n: 23 },
-      { name: "When Harpo Played  His Harp", n: 24 },
+      { name: "When Harpo Played His Harp", n: 24 },
       { name: "Volare", n: 25 },
     ],
     comments: [
@@ -9065,7 +9065,7 @@ export const recordings: RecordingImport[] = [
       { name: "That Summer Feeling", n: 18 },
       { name: "It's You", n: 19 },
       { name: "Just About 17", n: 20 },
-      { name: "When Harpo Played  His Harp", n: 21 },
+      { name: "When Harpo Played His Harp", n: 21 },
       { name: "Blue Moon", n: 22 },
       { name: "Ice Cream Man", n: 23 },
       { name: "La Bamba", n: 24 },
@@ -9111,7 +9111,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: 'From an FM broadcast "O3 Musicbox Live"  Austrian Radio (ORF). With Brennan Totten & Johnny Avila. With Brennan Totten & Johnny Avila.',
+        text: 'From an FM broadcast "O3 Musicbox Live" Austrian Radio (ORF). With Brennan Totten & Johnny Avila. With Brennan Totten & Johnny Avila.',
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -9124,7 +9124,7 @@ export const recordings: RecordingImport[] = [
     jon: false,
     songs: [
       { name: "Dancin' Late at Night", n: 1 },
-      { name: "When Harpo Played  His Harp", n: 2 },
+      { name: "When Harpo Played His Harp", n: 2 },
       { name: "Gail Loves Me", n: 3 },
       { name: "New Kind Of Neighborhood", n: 4 },
       { name: "African Lady", n: 5 },
@@ -9156,7 +9156,7 @@ export const recordings: RecordingImport[] = [
     jon: false,
     songs: [
       { name: "California Desert Party", n: 1 },
-      { name: "When Harpo Played  His Harp", n: 2 },
+      { name: "When Harpo Played His Harp", n: 2 },
     ],
   },
   {
@@ -9285,7 +9285,7 @@ export const recordings: RecordingImport[] = [
       { name: "My Jeans", n: 14 },
       { name: "Everyday Clothes", n: 15 },
       { name: "The Neighbors", n: 16 },
-      { name: "When Harpo Played  His Harp", n: 17 },
+      { name: "When Harpo Played His Harp", n: 17 },
       { name: "You're the One For Me", n: 18 },
       { name: "Twist Twist Senora", n: 19 },
       { name: "Let's Twist Again", n: 20 },
@@ -9466,7 +9466,7 @@ export const recordings: RecordingImport[] = [
       { name: "This Kind Of Music", n: 19 },
       { name: "The Beach", n: 20 },
       { name: "New Kind Of Neighborhood", n: 21 },
-      { name: "When Harpo Played  His Harp", n: 22 },
+      { name: "When Harpo Played His Harp", n: 22 },
       { name: "I Love Hot Nights", n: 23 },
       { name: "It Will Stand", n: 24 },
       { name: "The UFO Man", n: 25 },
@@ -9755,7 +9755,7 @@ export const recordings: RecordingImport[] = [
       { name: "Circle I", n: 24 },
       { name: "Give Paris One More Chance", n: 25 },
       { name: "When I Dance", n: 26 },
-      { name: "When Harpo Played  His Harp", n: 27 },
+      { name: "When Harpo Played His Harp", n: 27 },
       { name: "La Bamba", n: 28 },
       { name: "Twist and Shout", n: 29 },
       { name: "Let's Twist Again", n: 30 },
@@ -9850,7 +9850,7 @@ export const recordings: RecordingImport[] = [
       { name: "New Kind Of Neighborhood", n: 21 },
       { name: "Ice Cream Man", n: 22 },
       { name: "Girlfren'", n: 23 },
-      { name: "When Harpo Played  His Harp", n: 24 },
+      { name: "When Harpo Played His Harp", n: 24 },
       { name: "The Beach", n: 25 },
       { name: "It's You", n: 26 },
       { name: "That Summer Feeling", n: 27 },
@@ -10093,7 +10093,7 @@ export const recordings: RecordingImport[] = [
       { name: "You're Crazy For Taking the Bus", n: 19 },
       { name: "Buzz Buzz Buzz", n: 20 },
       { name: "Chewing Gum Wrapper", n: 21 },
-      { name: "When Harpo Played  His Harp", n: 22 },
+      { name: "When Harpo Played His Harp", n: 22 },
       { name: "I Have Come Out to Play", n: 23 },
       { name: "When I Say Wife", n: 24 },
       { name: "My Career As a Homewrecker", n: 25 },
@@ -10240,14 +10240,14 @@ export const recordings: RecordingImport[] = [
       { name: "The Sweeping Wind", n: 25 },
       { name: "Vincent Van Gogh", n: 26 },
       { name: "When I Dance", n: 27 },
-      { name: "When Harpo Played  His Harp", n: 28 },
+      { name: "When Harpo Played His Harp", n: 28 },
       { name: "Give Paris One More Chance", n: 29 },
       { name: "Everyday Clothes", n: 30 },
     ],
     comments: [
       {
         name: "Bob",
-        text: "Solo show. The sound quality on this one is just awful - like it was recorded in a biscuit tin! One for completists only, a pity coz Jonathan sings a couple of songs in Italian. ",
+        text: "Solo show. The sound quality on this one is just awful - like it was recorded in a biscuit tin! One for completists only, a pity coz Jonathan sings a couple of songs in Italian ",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -10281,7 +10281,7 @@ export const recordings: RecordingImport[] = [
       { name: "Just For Fun", n: 15 },
       { name: "Ice Cream Man", n: 16 },
       { name: "Vincent Van Gogh", n: 17 },
-      { name: "When Harpo Played  His Harp", n: 18 },
+      { name: "When Harpo Played His Harp", n: 18 },
       { name: "Blue Moon", n: 19 },
       { name: "African Lady", n: 20 },
       { name: "You're Crazy For Taking the Bus", n: 21 },
@@ -10383,7 +10383,7 @@ export const recordings: RecordingImport[] = [
       { name: "You're Crazy For Taking the Bus", n: 19 },
       { name: "Rodeo Wind", n: 20 },
       { name: "Since She Started To Ride", n: 21 },
-      { name: "When Harpo Played  His Harp", n: 22 },
+      { name: "When Harpo Played His Harp", n: 22 },
       { name: "Pablo Picasso", n: 23 },
       { name: "Velvet Underground", n: 24 },
       { name: "Vincent Van Gogh", n: 25 },
@@ -10490,7 +10490,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Good quality solo show, something like  45 minutes long. ",
+        text: "Good quality solo show, something like  45 minutes long ",
         time: "2011-10-19 15:52:51",
       },
       {
@@ -10528,7 +10528,7 @@ export const recordings: RecordingImport[] = [
       { name: "Fender Stratocaster", n: 13 },
       { name: "When I Dance", n: 14 },
       { name: "Just For Fun", n: 15 },
-      { name: "When Harpo Played  His Harp", n: 16 },
+      { name: "When Harpo Played His Harp", n: 16 },
       { name: "The UFO Man", n: 17 },
       { name: "Double Chocolate Malted", n: 18 },
       { name: "The Beach", n: 19 },
@@ -10610,7 +10610,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Other than it was recorded in Canada in the 1990's. no other info came along with this show. My best guess dates it as sometime in late 1991 - going by the song choices and Jonathans comments between songs. An early version of 'Let Her Go Into The Darkness' is introduced here as a brand new song, \"not even on the new album that just came out\" - Possibly, 'Having A Party With Jonathan Richman' which, far as I know, was released in late September 1991. About half the show looks to be here - the taping cuts out straight after Jonathan calls an intermission.",
+        text: "Other than it was recorded in Canada in the 1990's. no other info came along with this show. My best guess dates it as sometime in late 1991 - going by the song choices and Jonathan's comments between songs. An early version of 'Let Her Go Into The Darkness' is introduced here as a brand new song, \"not even on the new album that just came out\" - Possibly, 'Having A Party With Jonathan Richman' which, far as I know, was released in late September 1991. About half the show looks to be here - the taping cuts out straight after Jonathan calls an intermission.",
         time: "2011-04-09 00:00:00",
       },
       {
@@ -10907,7 +10907,7 @@ export const recordings: RecordingImport[] = [
       { name: "Fender Stratocaster", n: 3 },
       { name: "Reno", n: 4 },
       { name: "My Little Kookenhaken", n: 5 },
-      { name: "When Harpo Played  His Harp", n: 6 },
+      { name: "When Harpo Played His Harp", n: 6 },
       { name: "The Beach", n: 7 },
       { name: "Chewing Gum Wrapper", n: 8 },
     ],
@@ -11510,7 +11510,7 @@ export const recordings: RecordingImport[] = [
       { name: "Rock n' Roll Number 9", n: 8 },
       { name: "Fender Stratocaster", n: 9 },
       { name: "California Desert Party", n: 10 },
-      { name: "When Harpo Played  His Harp", n: 11 },
+      { name: "When Harpo Played His Harp", n: 11 },
       { name: "Since She Started To Ride", n: 12 },
       { name: "Vampire Girl", n: 13 },
       { name: "Peppermint Twist", n: 14 },
@@ -11574,7 +11574,7 @@ export const recordings: RecordingImport[] = [
       { name: "Vampire Girl", n: 14 },
       { name: "Parties In The USA", n: 15 },
       { name: "I Was Dancing in the Lesbian Bar", n: 16 },
-      { name: "When Harpo Played  His Harp", n: 17 },
+      { name: "When Harpo Played His Harp", n: 17 },
       { name: "Now is Better Than Before", n: 18 },
       { name: "Give Paris One More Chance", n: 19 },
     ],
@@ -11605,7 +11605,7 @@ export const recordings: RecordingImport[] = [
       { name: "Down In Bermuda", n: 5 },
       { name: "Vampire Girl", n: 6 },
       { name: "Everyday Clothes", n: 7 },
-      { name: "When Harpo Played  His Harp", n: 8 },
+      { name: "When Harpo Played His Harp", n: 8 },
       { name: "You Must Ask the Heart", n: 9 },
       { name: "You're Crazy For Taking the Bus", n: 10 },
       { name: "Since She Started To Ride", n: 11 },
@@ -11714,7 +11714,7 @@ export const recordings: RecordingImport[] = [
       { name: "Rockin' Robin", n: 20 },
       { name: "Vincent Van Gogh", n: 21 },
       { name: "Sabor a Mi", n: 22 },
-      { name: "When Harpo Played  His Harp", n: 23 },
+      { name: "When Harpo Played His Harp", n: 23 },
       { name: "You Can't Talk To the Dude", n: 24 },
       { name: "A Higher Power", n: 25 },
       { name: "You Must Ask the Heart", n: 26 },
@@ -11758,7 +11758,7 @@ export const recordings: RecordingImport[] = [
       { name: "California Desert Party", n: 22 },
       { name: "Rollercoaster By the Sea", n: 23 },
       { name: "Sabor a Mi", n: 24 },
-      { name: "When Harpo Played  His Harp", n: 25 },
+      { name: "When Harpo Played His Harp", n: 25 },
       { name: "You Must Ask the Heart", n: 26 },
       { name: "Vampire Girl", n: 27 },
       { name: "Give Paris One More Chance", n: 28 },
@@ -11897,7 +11897,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Studio interview that went out on Radio 1 FM. Also being interviewed is film critic, Mark Kermode. ",
+        text: "Studio interview that went out on Radio 1 FM. Also being interviewed is film critic, Mark Kermode ",
         time: "2011-10-21 19:04:29",
       },
     ],
@@ -11982,7 +11982,7 @@ export const recordings: RecordingImport[] = [
       { name: "The Neighbors", n: 25 },
       { name: "Double Chocolate Malted", n: 26 },
       { name: "The UFO Man", n: 27 },
-      { name: "When Harpo Played  His Harp", n: 28 },
+      { name: "When Harpo Played His Harp", n: 28 },
       { name: "Ice Cream Man", n: 29 },
       { name: "This Kind Of Music", n: 30 },
       { name: "A Higher Power", n: 31 },
@@ -12698,7 +12698,7 @@ export const recordings: RecordingImport[] = [
       { name: "Nothing Can Change This Love", n: 21 },
       { name: "Everyday Clothes", n: 22 },
       { name: "You Can't Talk To the Dude", n: 23 },
-      { name: "When Harpo Played  His Harp", n: 24 },
+      { name: "When Harpo Played His Harp", n: 24 },
     ],
   },
   {
@@ -13165,7 +13165,7 @@ export const recordings: RecordingImport[] = [
       { name: "French Style", n: 21 },
       { name: "Give Paris One More Chance", n: 22 },
       { name: "Surrender", n: 23 },
-      { name: "When Harpo Played  His Harp", n: 24 },
+      { name: "When Harpo Played His Harp", n: 24 },
       { name: "Que reste-t-il de nos amours?", n: 25 },
     ],
     comments: [
@@ -15242,7 +15242,7 @@ export const recordings: RecordingImport[] = [
       { name: "The UFO Man", n: 4 },
       { name: "My Love For Her Ain't Sad", n: 5 },
       { name: "That Summer Feeling", n: 6 },
-      { name: "When Harpo Played  His Harp", n: 7 },
+      { name: "When Harpo Played His Harp", n: 7 },
       { name: "True Love Is Not Nice", n: 8 },
       { name: "Friday Night in Osaka in Japan", n: 9 },
       { name: "Winter is Over For Me", n: 10 },
@@ -15442,7 +15442,7 @@ export const recordings: RecordingImport[] = [
     songs: [
       { name: "True Love Is Not Nice", n: 1 },
       { name: "Yo Tengo una Novia", n: 2 },
-      { name: "When Harpo Played  His Harp", n: 3 },
+      { name: "When Harpo Played His Harp", n: 3 },
       { name: "Egyptian Reggae", n: 4 },
       { name: "Let Her Go Into the Darkness", n: 5 },
       { name: "South American Folk Song", n: 6 },
@@ -15561,7 +15561,7 @@ export const recordings: RecordingImport[] = [
       { name: "Fender Stratocaster", n: 20 },
       { name: "The Night Is Still Young", n: 21 },
       { name: "Barcelona", n: 22 },
-      { name: "When Harpo Played  His Harp", n: 23 },
+      { name: "When Harpo Played His Harp", n: 23 },
       { name: "Vincent Van Gogh", n: 24 },
     ],
     comments: [
@@ -17872,7 +17872,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Jonathan's in a really good mood tonight, still on an up from the last nights show. Its a fun recording too, with lots of people singing along... especially on the Spanish language songs.",
+        text: "Jonathan's in a really good mood tonight, still on an up from the last nights show. It's a fun recording too, with lots of people singing along...especially on the Spanish language songs.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -17988,7 +17988,7 @@ export const recordings: RecordingImport[] = [
     jon: false,
     songs: [
       { name: "Celestial", n: 1 },
-      { name: "When Harpo Played  His Harp", n: 2 },
+      { name: "When Harpo Played His Harp", n: 2 },
       { name: "Egyptian Reggae", n: 3 },
       { name: "Le Printemps Des Amoreux Est Venue", n: 4 },
       { name: "Es Como El Pan", n: 5 },
@@ -18080,7 +18080,7 @@ export const recordings: RecordingImport[] = [
       { name: "The Lovers Are Here and They're Full of Sweat", n: 12 },
       { name: "Le Printemps Des Amoreux Est Venue", n: 13 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 14 },
-      { name: "When Harpo Played  His Harp", n: 15 },
+      { name: "When Harpo Played His Harp", n: 15 },
       { name: "When We Refuse to Suffer", n: 16 },
       { name: "My Baby Love Love Loves Me", n: 17 },
       { name: "This Romance Will Be Different For Me", n: 18 },
@@ -18642,7 +18642,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "JB",
-        text: 'The recording stops at "You Can Have a CellPhone..."',
+        text: 'The recording stops at "You Can Have a Cellphone..."',
         time: "2011-10-22 12:53:33",
       },
     ],
@@ -18807,7 +18807,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "My own recording from pretty near the front of the audience, and about 10 or 12 feet from Jonathans guitar. An intimate venue with good acoustics.",
+        text: "My own recording from pretty near the front of the audience, and about 10 or 12 feet from Jonathan's guitar. An intimate venue with good acoustics.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -18869,7 +18869,7 @@ export const recordings: RecordingImport[] = [
       { name: "Egyptian Reggae", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
       { name: "Let Her Go Into the Darkness", n: 3 },
-      { name: "Blowin in the Wind", n: 4 },
+      { name: "Blowin' in the Wind", n: 4 },
       { name: "Because Her Beauty is Raw and Wild", n: 5 },
       { name: "When We Refuse to Suffer", n: 6 },
       { name: "Vincent Van Gogh", n: 7 },
@@ -19837,7 +19837,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Ryan",
-        text: "This was a very very small place and Jojo was in the crowd alot and away from the mic alot. Great version of Velvet Underground was definitely the highlight",
+        text: "This was a very very small place and Jojo was in the crowd a lot and away from the mic a lot. Great version of Velvet Underground was definitely the highlight",
         time: "2013-07-21 19:46:08",
       },
     ],
