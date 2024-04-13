@@ -689,7 +689,7 @@ export const songs: SongImport[] = [
     comments: [
       {
         name: "JR Fan 1",
-        text: "he should do a duet with Celine Dion",
+        text: "He should do a duet with Celine Dion",
         time: "2011-11-02 00:23:52",
       },
     ],

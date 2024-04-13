@@ -1,3 +1,4 @@
+import { SongType } from "./raw";
 import payload from "./rawImport";
 import { RecordingCommentInstance, SongCommentInstance } from "./types";
 const { recordings, songs } = payload;
@@ -20,10 +21,10 @@ export const getSongs = () =>
     return 0;
   });
 
-export const getSongFromSanitized = (id: string) =>
-  songs.find(({ sanitized }) => sanitized === id);
+export const getSongFromSanitized = (s: string) =>
+  songs.find(({ sanitized }) => sanitized === s);
 
-export const getSongFromName = (name: string) =>
+export const getSongFromName = (name: SongType) =>
   songs.find((song) => song.name === name);
 
 const recordingsWithComment = recordings.filter(
@@ -42,11 +43,11 @@ for (const { linkid, comments } of recordingsWithComment) {
 }
 
 const songCommentInstances: SongCommentInstance[] = [];
-for (const { name, comments } of songsWithComment) {
+for (const { name: song, comments } of songsWithComment) {
   comments.forEach((comment) => {
     songCommentInstances.push({
       type: "songs",
-      song: name,
+      song,
       comment,
     });
   });

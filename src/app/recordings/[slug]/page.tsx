@@ -9,17 +9,19 @@ export async function generateStaticParams() {
       id: id.toString(),
     },
   }));
-
-  return paths.map((path) => ({
-    slug: path.params.id,
+  return paths.map(({ params: { id: slug } }) => ({
+    slug,
   }));
 }
 
-export default function Page({ params }: { params: { slug: string } }) {
-  const id = params.slug;
-  const recording = getRecording(id)!;
+export default function Page({
+  params: { slug: id },
+}: {
+  params: { slug: string };
+}) {
+  const { songs, quality, comments, formattedTitle, jon } = getRecording(id)!;
   const sortedSongs =
-    recording.songs?.sort(({ n: n0 }, { n: n1 }) => {
+    songs?.sort(({ n: n0 }, { n: n1 }) => {
       if (n0 > n1) return 1;
       else if (n0 < n1) return -1;
       return 0;
@@ -48,7 +50,7 @@ export default function Page({ params }: { params: { slug: string } }) {
     ) : null;
   return (
     <div className="recording">
-      <h2>{recording.formattedTitle}</h2>
+      <h2>{formattedTitle}</h2>
 
       {hasSets ? (
         <>
@@ -60,14 +62,12 @@ export default function Page({ params }: { params: { slug: string } }) {
         generateSetList(sortedSongs)
       )}
 
-      {recording.quality !== undefined || recording.comments.length > 0 ? (
+      {quality !== undefined || comments.length > 0 ? (
         <>
-          {recording.quality && (
-            <div className="quality">
-              Best known quality: {recording.quality}
-            </div>
+          {quality && (
+            <div className="quality">Best known quality: {quality}</div>
           )}
-          {recording.jon === true ? (
+          {jon === true ? (
             <div className="quality">
               This recording is{" "}
               <Link href="/trade">
@@ -75,9 +75,7 @@ export default function Page({ params }: { params: { slug: string } }) {
               </Link>
             </div>
           ) : null}
-          {recording.comments.length > 0 ? (
-            <Comments comments={recording.comments} />
-          ) : null}
+          {comments.length > 0 ? <Comments comments={comments} /> : null}
         </>
       ) : null}
     </div>

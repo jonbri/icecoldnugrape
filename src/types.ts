@@ -58,6 +58,6 @@ export interface RecordingCommentInstance {
 
 export interface SongCommentInstance {
   type: string;
-  song: string;
+  song: SongType;
   comment: Comment;
 }

@@ -14,11 +14,13 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function Page({ params }: { params: { slug: string } }) {
-  const id = params.slug;
+export default function Page({
+  params: { slug: id },
+}: {
+  params: { slug: string };
+}) {
   const song = getSongFromSanitized(id)!;
   const shows = idsToShows(song?.shows ?? []);
-
   return (
     <div className="song">
       <h2>{song.name}</h2>
