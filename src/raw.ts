@@ -3840,6 +3840,8 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1979,
     name: "Lydia",
+    discogs:
+      "https://www.discogs.com/release/2115529-Jonathan-Richman-The-Modern-Lovers-Lydia",
     songs: [{ name: "Lydia", n: 1 }],
   },
   {

@@ -19,7 +19,8 @@ export default function Page({
 }: {
   params: { slug: string };
 }) {
-  const { songs, quality, comments, formattedTitle, jon } = getRecording(id)!;
+  const { songs, quality, comments, formattedTitle, jon, discogs } =
+    getRecording(id)!;
   const sortedSongs =
     songs?.sort(({ n: n0 }, { n: n1 }) => {
       if (n0 > n1) return 1;
@@ -61,6 +62,12 @@ export default function Page({
       ) : (
         generateSetList(sortedSongs)
       )}
+
+      {discogs ? (
+        <Link href={discogs} className="discogs">
+          Discogs
+        </Link>
+      ) : null}
 
       {quality !== undefined || comments.length > 0 ? (
         <>
