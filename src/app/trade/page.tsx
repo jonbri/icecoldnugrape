@@ -10,6 +10,9 @@ export default function Page() {
   const totalCount = all.length;
   return (
     <div>
+      <h2>Recordings avaiable for trade (or just ask me)</h2>
+      <div>Contact: icecoldnugrape@yahoo.com</div>
+      <br />
       <ul className="hoverable">
         {all.map(({ id, type, formattedTitle }) => {
           let doubleFormattedTitle = formattedTitle;
@@ -24,7 +27,6 @@ export default function Page() {
         })}
       </ul>
       <Total>{totalCount}</Total>
-      <div className="available">Contact: icecoldnugrape@yahoo.com</div>
     </div>
   );
 }
