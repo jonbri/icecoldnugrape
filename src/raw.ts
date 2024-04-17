@@ -2093,7 +2093,6 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1975,
     name: "Roadrunner",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/1718985-Jonathan-Richman-Roadrunner",
     songs: [
@@ -2307,7 +2306,6 @@ export const recordings: RecordingImport[] = [
     year: 1976,
     month: 8,
     name: "The Modern Lovers",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/6689-The-Modern-Lovers-The-Modern-Lovers",
     songs: [
@@ -2473,7 +2471,6 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1976,
     name: "New England/Here Come the Martian Martians",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/3212193-Jonathan-Richman-The-Modern-Lovers-New-England",
     songs: [
@@ -2509,7 +2506,6 @@ export const recordings: RecordingImport[] = [
     year: 1977,
     month: 1,
     name: "Jonathan Richman and the Modern Lovers",
-    jon: false,
     discogs:
       "https://www.discogs.com/release/1908127-Jonathan-Richman-The-Modern-Lovers-Jonathan-Richman-The-Modern-Lovers",
     songs: [
@@ -2544,7 +2540,6 @@ export const recordings: RecordingImport[] = [
     year: 1977,
     month: 2,
     name: "Rock n' Roll With The Modern Lovers",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/6748-The-Modern-Lovers-Rock-N-Roll-With-The-Modern-Lovers",
     songs: [
@@ -2804,7 +2799,6 @@ export const recordings: RecordingImport[] = [
     year: 1977,
     month: 12,
     name: "Modern Lovers Live",
-    jon: false,
     discogs: "https://www.discogs.com/master/6673-Modern-Lovers-Live",
     songs: [
       { name: "I'm a Little Airplane", n: 1 },
@@ -2909,7 +2903,6 @@ export const recordings: RecordingImport[] = [
     name: "Roadrunner Once/Roadrunner Twice",
     discogs:
       "https://www.discogs.com/master/6702-Jonathan-Richman-Roadrunner-Once",
-    jon: false,
     songs: [
       { name: "Roadrunner", n: 1 },
       { name: "Roadrunner Twice", n: 2 },
@@ -2920,7 +2913,6 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1977,
     name: "Egyptian Reggae/Roller Coaster By the Sea",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/6729-Jonathan-Richman-The-Modern-Lovers-Egyptian-Reggae",
     songs: [
@@ -3549,7 +3541,6 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1978,
     name: "Abdul & Cleopatra/Oh Carol",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/334341-Jonathan-Richman-The-Modern-Lovers-Abdul-Cleopatra",
     songs: [
@@ -3574,7 +3565,6 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1978,
     name: "Buzz Buzz Buzz/Hospital",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/369441-Jonathan-Richman-The-Modern-Lovers-Buzz-Buzz-Buzz-Hospital-Live",
     songs: [
@@ -3587,7 +3577,6 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1978,
     name: "The Morning of Our Lives/Roadrunner Thrice",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/776178-Jonathan-Richman-And-The-Modern-Lovers-The-Morning-Of-Our-Lives-Roadrunner-Thrice",
     songs: [
@@ -3817,7 +3806,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1979,
     name: "Back in Your Life",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/6753-Jonathan-Richman-The-Modern-Lovers-Back-In-Your-Life",
     songs: [
@@ -3852,7 +3840,6 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1979,
     name: "Lydia",
-    jon: false,
     songs: [{ name: "Lydia", n: 1 }],
   },
   {
@@ -5973,7 +5960,6 @@ export const recordings: RecordingImport[] = [
     name: "Jonathan Sings!",
     discogs:
       "https://www.discogs.com/master/6762-Jonathan-Richman-The-Modern-Lovers-Jonathan-Sings",
-    jon: false,
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "This Kind Of Music", n: 2 },
@@ -6062,7 +6048,6 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1984,
     name: "That Summer Feeling",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/294962-Jonathan-Richman-The-Modern-Lovers-That-Summer-Feeling",
     songs: [
@@ -6988,7 +6973,6 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1985,
     name: "I'm Just Beginning to Live",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/294963-Jonathan-Richman-And-The-Modern-Lovers-Im-Just-Beginning-To-Live",
     songs: [
@@ -7049,7 +7033,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1985,
     name: "Rockin' & Romance",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/6773-Jonathan-Richman-The-Modern-Lovers-Rockin-And-Romance",
     songs: [
@@ -7698,7 +7681,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1986,
     name: "It's Time For Jonathan Richman",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/6776-Jonathan-Richman-The-Modern-Lovers-Its-Time-For",
     songs: [
@@ -9205,7 +9187,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1987,
     name: "Modern Lovers 88",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/6803-Jonathan-Richman-The-Modern-Lovers-Modern-Lovers-88",
     songs: [
@@ -9239,7 +9220,6 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1988,
     name: "California Desert Party",
-    jon: false,
     songs: [
       { name: "California Desert Party", n: 1 },
       { name: "When Harpo Played His Harp", n: 2 },
@@ -9482,7 +9462,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1989,
     name: "Jonathan Richman",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/106017-Jonathan-Richman-Jonathan-Richman",
     songs: [
@@ -9959,7 +9938,6 @@ export const recordings: RecordingImport[] = [
     name: "Jonathan Goes Country",
     discogs:
       "https://www.discogs.com/master/106022-Jonathan-Richman-Jonathan-Goes-Country",
-    jon: false,
     songs: [
       { name: "Since She Started To Ride", n: 1 },
       { name: "Reno", n: 2 },
@@ -10951,7 +10929,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1991,
     name: "I, Jonathan",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/229146-Jonathan-Richman-I-Jonathan",
     songs: [
@@ -11018,7 +10995,6 @@ export const recordings: RecordingImport[] = [
     name: "Having A Party With Jonathan Richman",
     discogs:
       "https://www.discogs.com/master/308036-Jonathan-Richman-Having-A-Party-With-Jonathan-Richman",
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Cappuccino Bar", n: 2 },
@@ -12426,7 +12402,6 @@ export const recordings: RecordingImport[] = [
     name: "Te Vas A Emocionar",
     discogs:
       "https://www.discogs.com/master/200364-Jonathan-Richman-Jonathan-Te-Vas-A-Emocionar",
-    jon: false,
     songs: [
       { name: "Pantomima de El Amor Brujo", n: 1 },
       { name: "Harpo En Su Harpa", n: 2 },
@@ -13033,7 +13008,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1995,
     name: "You Must Ask the Heart",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/786467-Jonathan-Richman-You-Must-Ask-The-Heart",
     songs: [
@@ -13319,7 +13293,6 @@ export const recordings: RecordingImport[] = [
     name: "Surrender to Jonathan",
     discogs:
       "https://www.discogs.com/master/227112-Jonathan-Richman-Surrender-To-Jonathan",
-    jon: false,
     songs: [
       { name: "Just Look At Me", n: 1 },
       { name: 'Not Just "Plus One" On The Guest List Anymore', n: 2 },
@@ -14230,7 +14203,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1998,
     name: "I'm So Confused",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/234902-Jonathan-Richman-Im-So-Confused",
     songs: [
@@ -15212,7 +15184,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 2001,
     name: "Her Mystery Not Of High Heels and Eyeshadow",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/308026-Jonathan-Richman-Her-Mystery-Not-Of-High-Heels-And-Eye-Shadow",
     songs: [
@@ -17130,7 +17101,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 2004,
     name: "Not So Much To Be Loved As To Love",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/212975-Jonathan-Richman-Not-So-Much-To-Be-Loved-As-To-Love",
     songs: [
@@ -18581,7 +18551,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 2008,
     name: "Because Her Beauty Is Raw & Wild",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/227110-Jonathan-Richman-Because-Her-Beauty-Is-Raw-And-Wild",
     songs: [
@@ -18618,7 +18587,6 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 2008,
     name: "A Que Venimos Sino A Caer?",
-    jon: false,
     discogs:
       "https://www.discogs.com/master/587486-Jonathan-Richman-A-Qu%C3%A9-Venimos-Sino-A-Caer",
     songs: [
@@ -18640,7 +18608,6 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 2008,
     name: "You Can Have a Cell Phone That's Ok But Not Me",
-    jon: false,
     songs: [{ name: "You Can Have A Cell Phone That's Ok But Not Me", n: 1 }],
   },
   {
