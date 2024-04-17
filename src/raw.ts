@@ -602,7 +602,7 @@ export type SongType =
   | "The Sadness of the Youth"
   | "Rama Lama Ding Dong"
   | "La Festa e Galactica"
-  | "La Guitarra Flamenca Rubia"
+  | "La Guitarra Flamenca Negra"
   | "Come to Our Party"
   | "Tromba"
   | "Her Laugh is Like a Trumpet"
@@ -1685,7 +1685,7 @@ export const songs: SongImport[] = [
     ],
   },
   { name: "La Festa e Galactica" },
-  { name: "La Guitarra Flamenca Rubia" },
+  { name: "La Guitarra Flamenca Negra" },
   { name: "Come to Our Party" },
   { name: "Tromba" },
   { name: "Her Laugh is Like a Trumpet" },
@@ -2089,6 +2089,19 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
+    id: 1975000005,
+    type: "Single",
+    year: 1975,
+    name: "Roadrunner",
+    jon: false,
+    discogs:
+      "https://www.discogs.com/master/1718985-Jonathan-Richman-Roadrunner",
+    songs: [
+      { name: "Roadrunner", n: 1 },
+      { name: "It Will Stand", n: 2 },
+    ],
+  },
+  {
     id: 1975032000,
     type: "Show",
     venue: "The Kitchen",
@@ -2295,6 +2308,8 @@ export const recordings: RecordingImport[] = [
     month: 8,
     name: "The Modern Lovers",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/6689-The-Modern-Lovers-The-Modern-Lovers",
     songs: [
       { name: "Roadrunner", n: 1 },
       { name: "Astral Plane", n: 2 },
@@ -2459,6 +2474,8 @@ export const recordings: RecordingImport[] = [
     year: 1976,
     name: "New England/Here Come the Martian Martians",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/3212193-Jonathan-Richman-The-Modern-Lovers-New-England",
     songs: [
       { name: "New England", n: 1 },
       { name: "Here Come the Martian Martians", n: 2 },
@@ -2493,6 +2510,8 @@ export const recordings: RecordingImport[] = [
     month: 1,
     name: "Jonathan Richman and the Modern Lovers",
     jon: false,
+    discogs:
+      "https://www.discogs.com/release/1908127-Jonathan-Richman-The-Modern-Lovers-Jonathan-Richman-The-Modern-Lovers",
     songs: [
       { name: "Rockin' Shoppin' Center", n: 1 },
       { name: "Back in the USA", n: 2 },
@@ -2526,6 +2545,8 @@ export const recordings: RecordingImport[] = [
     month: 2,
     name: "Rock n' Roll With The Modern Lovers",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/6748-The-Modern-Lovers-Rock-N-Roll-With-The-Modern-Lovers",
     songs: [
       { name: "The Sweeping Wind", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -2784,6 +2805,7 @@ export const recordings: RecordingImport[] = [
     month: 12,
     name: "Modern Lovers Live",
     jon: false,
+    discogs: "https://www.discogs.com/master/6673-Modern-Lovers-Live",
     songs: [
       { name: "I'm a Little Airplane", n: 1 },
       { name: "Hey There Little Insect", n: 2 },
@@ -2885,6 +2907,8 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1977,
     name: "Roadrunner Once/Roadrunner Twice",
+    discogs:
+      "https://www.discogs.com/master/6702-Jonathan-Richman-Roadrunner-Once",
     jon: false,
     songs: [
       { name: "Roadrunner", n: 1 },
@@ -2897,9 +2921,47 @@ export const recordings: RecordingImport[] = [
     year: 1977,
     name: "Egyptian Reggae/Roller Coaster By the Sea",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/6729-Jonathan-Richman-The-Modern-Lovers-Egyptian-Reggae",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Rollercoaster By the Sea", n: 2 },
+    ],
+  },
+  {
+    id: 1977000025,
+    type: "Single",
+    year: 1977,
+    name: "Egyptian Reggae/Ice Cream Man",
+    discogs:
+      "https://www.discogs.com/master/1345671-Jonathan-Richman-The-Modern-Lovers-Egyptian-Reggae-Ice-Cream-Man",
+    songs: [
+      { name: "Egyptian Reggae", n: 1 },
+      { name: "Ice Cream Man", n: 2 },
+    ],
+  },
+  {
+    id: 1977000030,
+    type: "Single",
+    year: 1977,
+    name: "Egyptian Reggae/Morning Of Our Lives",
+    discogs:
+      "https://www.discogs.com/master/1198128-Jonathan-Richman-The-Modern-Lovers-Egyptian-Reggae-Morning-Of-Our-Lives",
+    songs: [
+      { name: "Egyptian Reggae", n: 1 },
+      { name: "The Morning of Our Lives", n: 2 },
+    ],
+  },
+  {
+    id: 1977000035,
+    type: "Single",
+    year: 1977,
+    name: "Egyptian Reggae",
+    discogs:
+      "https://www.discogs.com/master/1345661-Jonathan-Richman-The-Modern-Lovers-Egyptian-Reggae",
+    songs: [
+      { name: "Egyptian Reggae", n: 1 },
+      { name: "The Sweeping Wind", n: 2 },
     ],
   },
   {
@@ -3488,6 +3550,8 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     name: "Abdul & Cleopatra/Oh Carol",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/334341-Jonathan-Richman-The-Modern-Lovers-Abdul-Cleopatra",
     songs: [
       { name: "Abdul and Cleopatra", n: 1 },
       { name: "Oh Carol", n: 2 },
@@ -3498,7 +3562,8 @@ export const recordings: RecordingImport[] = [
     type: "Single",
     year: 1978,
     name: "New England/Astral Plane",
-    jon: false,
+    discogs:
+      "https://www.discogs.com/release/1572014-The-Modern-Lovers-New-England-Astral-Plane",
     songs: [
       { name: "New England", n: 1 },
       { name: "Astral Plane", n: 2 },
@@ -3510,6 +3575,8 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     name: "Buzz Buzz Buzz/Hospital",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/369441-Jonathan-Richman-The-Modern-Lovers-Buzz-Buzz-Buzz-Hospital-Live",
     songs: [
       { name: "Buzz Buzz Buzz", n: 1 },
       { name: "Hospital", n: 2 },
@@ -3521,6 +3588,8 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     name: "The Morning of Our Lives/Roadrunner Thrice",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/776178-Jonathan-Richman-And-The-Modern-Lovers-The-Morning-Of-Our-Lives-Roadrunner-Thrice",
     songs: [
       { name: "The Morning of Our Lives", n: 1 },
       { name: "Roadrunner Thrice", n: 2 },
@@ -3749,6 +3818,8 @@ export const recordings: RecordingImport[] = [
     year: 1979,
     name: "Back in Your Life",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/6753-Jonathan-Richman-The-Modern-Lovers-Back-In-Your-Life",
     songs: [
       { name: "Abdul and Cleopatra", n: 1 },
       { name: "(She's Gonna) Respect Me", n: 2 },
@@ -4776,7 +4847,8 @@ export const recordings: RecordingImport[] = [
     type: "Studio Bootleg",
     year: 1981,
     name: "The Original Modern Lovers",
-    jon: false,
+    discogs:
+      "https://www.discogs.com/master/6676-The-Modern-Lovers-The-Original-Modern-Lovers",
     songs: [
       { name: "Roadrunner", n: 1 },
       { name: "She Cracked", n: 2 },
@@ -5899,6 +5971,8 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1983,
     name: "Jonathan Sings!",
+    discogs:
+      "https://www.discogs.com/master/6762-Jonathan-Richman-The-Modern-Lovers-Jonathan-Sings",
     jon: false,
     songs: [
       { name: "That Summer Feeling", n: 1 },
@@ -5989,6 +6063,8 @@ export const recordings: RecordingImport[] = [
     year: 1984,
     name: "That Summer Feeling",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/294962-Jonathan-Richman-The-Modern-Lovers-That-Summer-Feeling",
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "This Kind Of Music", n: 2 },
@@ -6913,6 +6989,8 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     name: "I'm Just Beginning to Live",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/294963-Jonathan-Richman-And-The-Modern-Lovers-Im-Just-Beginning-To-Live",
     songs: [
       { name: "I'm Just Beginning To Live", n: 1 },
       { name: "Circle I", n: 2 },
@@ -6972,6 +7050,8 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     name: "Rockin' & Romance",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/6773-Jonathan-Richman-The-Modern-Lovers-Rockin-And-Romance",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "My Jeans", n: 2 },
@@ -7619,6 +7699,8 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     name: "It's Time For Jonathan Richman",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/6776-Jonathan-Richman-The-Modern-Lovers-Its-Time-For",
     songs: [
       { name: "It's You", n: 1 },
       { name: "Let's Take a Trip", n: 2 },
@@ -9119,11 +9201,13 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    id: 1988000010,
+    id: 1987000010,
     type: "Album",
-    year: 1988,
+    year: 1987,
     name: "Modern Lovers 88",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/6803-Jonathan-Richman-The-Modern-Lovers-Modern-Lovers-88",
     songs: [
       { name: "Dancin' Late at Night", n: 1 },
       { name: "When Harpo Played His Harp", n: 2 },
@@ -9399,6 +9483,8 @@ export const recordings: RecordingImport[] = [
     year: 1989,
     name: "Jonathan Richman",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/106017-Jonathan-Richman-Jonathan-Richman",
     songs: [
       { name: "Malaguena De Jojo", n: 1 },
       { name: "Action Packed", n: 2 },
@@ -9871,6 +9957,8 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1990,
     name: "Jonathan Goes Country",
+    discogs:
+      "https://www.discogs.com/master/106022-Jonathan-Richman-Jonathan-Goes-Country",
     jon: false,
     songs: [
       { name: "Since She Started To Ride", n: 1 },
@@ -10864,6 +10952,8 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     name: "I, Jonathan",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/229146-Jonathan-Richman-I-Jonathan",
     songs: [
       { name: "Parties In The USA", n: 1 },
       { name: "Tandem Jump", n: 2 },
@@ -10926,6 +11016,8 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1991,
     name: "Having A Party With Jonathan Richman",
+    discogs:
+      "https://www.discogs.com/master/308036-Jonathan-Richman-Having-A-Party-With-Jonathan-Richman",
     jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
@@ -12332,6 +12424,8 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1994,
     name: "Te Vas A Emocionar",
+    discogs:
+      "https://www.discogs.com/master/200364-Jonathan-Richman-Jonathan-Te-Vas-A-Emocionar",
     jon: false,
     songs: [
       { name: "Pantomima de El Amor Brujo", n: 1 },
@@ -12940,6 +13034,8 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     name: "You Must Ask the Heart",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/786467-Jonathan-Richman-You-Must-Ask-The-Heart",
     songs: [
       { name: "To Hide a Little Thought", n: 1 },
       { name: "The Heart of Saturday Night", n: 2 },
@@ -13221,6 +13317,8 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 1996,
     name: "Surrender to Jonathan",
+    discogs:
+      "https://www.discogs.com/master/227112-Jonathan-Richman-Surrender-To-Jonathan",
     jon: false,
     songs: [
       { name: "Just Look At Me", n: 1 },
@@ -14133,6 +14231,8 @@ export const recordings: RecordingImport[] = [
     year: 1998,
     name: "I'm So Confused",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/234902-Jonathan-Richman-Im-So-Confused",
     songs: [
       { name: "When I Dance", n: 1 },
       { name: "Nineteen in Naples", n: 2 },
@@ -15113,6 +15213,8 @@ export const recordings: RecordingImport[] = [
     year: 2001,
     name: "Her Mystery Not Of High Heels and Eyeshadow",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/308026-Jonathan-Richman-Her-Mystery-Not-Of-High-Heels-And-Eye-Shadow",
     songs: [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 1 },
       { name: "Springtime In New York", n: 2 },
@@ -17029,6 +17131,8 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     name: "Not So Much To Be Loved As To Love",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/212975-Jonathan-Richman-Not-So-Much-To-Be-Loved-As-To-Love",
     songs: [
       { name: "Not So Much To Be Loved As To Love", n: 1 },
       { name: "Sunday Afternoon", n: 2 },
@@ -18145,7 +18249,8 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 2007,
     name: "Revolution Summer",
-    jon: false,
+    discogs:
+      "https://www.discogs.com/release/2704748-Jonathan-Richman-Revolution-Summer-Original-Soundtrack-To-The-Film",
     songs: [
       { name: "Weeds Breaking Through The Concrete", n: 1 },
       { name: "Revolution Summer Theme", n: 2 },
@@ -18477,6 +18582,8 @@ export const recordings: RecordingImport[] = [
     year: 2008,
     name: "Because Her Beauty Is Raw & Wild",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/227110-Jonathan-Richman-Because-Her-Beauty-Is-Raw-And-Wild",
     songs: [
       { name: "Because Her Beauty is Raw and Wild", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -18512,6 +18619,8 @@ export const recordings: RecordingImport[] = [
     year: 2008,
     name: "A Que Venimos Sino A Caer?",
     jon: false,
+    discogs:
+      "https://www.discogs.com/master/587486-Jonathan-Richman-A-Qu%C3%A9-Venimos-Sino-A-Caer",
     songs: [
       { name: "A Que Venimos Sino a Caer?", n: 1 },
       { name: "Es Como El Pan", n: 2 },
@@ -19216,6 +19325,8 @@ export const recordings: RecordingImport[] = [
     type: "Album",
     year: 2010,
     name: "O Moon, Queen of Night on Earth",
+    discogs:
+      "https://www.discogs.com/master/324724-Jonathan-Richman-O-Moon-Queen-Of-Night-On-Earth",
     songs: [
       { name: "O Moon, Queen Of Night On Earth", n: 1 },
       { name: "These Bodies That Came To Cavort", n: 2 },
@@ -19621,7 +19732,7 @@ export const recordings: RecordingImport[] = [
       { name: "Because Her Beauty is Raw and Wild", n: 9 },
       { name: "My Affected Accent", n: 10 },
       { name: "drumbeat...", n: 11 },
-      { name: "La Guitarra Flamenca Rubia", n: 12 },
+      { name: "La Guitarra Flamenca Negra", n: 12 },
       { name: "Le Printemps Des Amoreux Est Venue", n: 13 },
       { name: "My Love She Is From Somewhere Else", n: 14 },
       { name: "These Bodies That Came To Cavort", n: 15 },
@@ -19682,7 +19793,7 @@ export const recordings: RecordingImport[] = [
       { name: "Because Her Beauty is Raw and Wild", n: 2 },
       { name: "Let Her Go Into the Darkness", n: 3 },
       { name: "A Que Venimos Sino a Caer?", n: 4 },
-      { name: "La Guitarra Flamenca Rubia", n: 5 },
+      { name: "La Guitarra Flamenca Negra", n: 5 },
       { name: "La Festa e Galactica", n: 6 },
       { name: "Come to Our Party", n: 7 },
       { name: "Tromba", n: 8 },
@@ -19691,7 +19802,7 @@ export const recordings: RecordingImport[] = [
       { name: "My Baby Love Love Loves Me", n: 11 },
       { name: "When We Refuse to Suffer", n: 12 },
       { name: "Volando Voy", n: 13 },
-      { name: "La Guitarra Flamenca Rubia", n: 14 },
+      { name: "La Guitarra Flamenca Negra", n: 14 },
     ],
   },
   {
@@ -19761,6 +19872,18 @@ export const recordings: RecordingImport[] = [
         text: 'At the end, JR announced that there wasn\'t going to be an encore because he had "said all he wanted to say", and he did in a way that the audience understood. An interesting end to the night',
         time: "2012-06-17 23:19:41",
       },
+    ],
+  },
+  {
+    id: 2013000005,
+    type: "Single",
+    name: "La Fiesta Es Para Todos / La Guitarra Flamenca Negra",
+    year: 2013,
+    discogs:
+      "https://www.discogs.com/master/711382-Jonathan-Richman-La-Fiesta-Es-Para-Todos-La-Guitarra-Flamenca-Negra",
+    songs: [
+      { name: "La Fiesta Es Para Todos", n: 1 },
+      { name: "La Guitarra Flamenca Negra", n: 2 },
     ],
   },
   {
@@ -20202,6 +20325,7 @@ export const recordings: RecordingImport[] = [
     year: 2015,
     month: 3,
     date: 1,
+    discogs: "https://www.discogs.com/release/6762381-Jonathan-Richman-O-Sun",
     songs: [
       { name: "O Sun!", n: 1 },
       { name: "Wait! Wait!", n: 2 },
@@ -20214,6 +20338,7 @@ export const recordings: RecordingImport[] = [
     year: 2015,
     month: 3,
     date: 1,
+    discogs: "https://www.discogs.com/release/6762409-Jonathan-Richman-Keith",
     songs: [
       { name: "Keith", n: 1 },
       { name: "Wait! Wait!", n: 2 },
@@ -20296,6 +20421,8 @@ export const recordings: RecordingImport[] = [
     year: 2016,
     month: 3,
     date: 1,
+    discogs:
+      "https://www.discogs.com/master/1084367-Jonathan-Richman-Ishkode-Ishkode",
     songs: [
       { n: 1, name: "Whoa! How Different We All Are!" },
       { n: 2, name: "Ishkode! Ishkode!" },
@@ -20432,6 +20559,8 @@ export const recordings: RecordingImport[] = [
     year: 2016,
     month: 11,
     date: 15,
+    discogs:
+      "https://www.discogs.com/master/1091169-Jonathan-Richman-Tommy-Larkins-Thats-All-We-Need-At-Our-Party",
     songs: [
       { name: "That's All We Need At Our Party", n: 1 },
       { name: "Sad Trumpets Of Afternoon", n: 2 },
@@ -20441,6 +20570,8 @@ export const recordings: RecordingImport[] = [
     id: 2018030100,
     type: "Single",
     name: "Penchant For The Stagnant",
+    discogs:
+      "https://www.discogs.com/master/1456572-Jonathan-Richman-A-Penchant-For-The-Stagnant",
     year: 2018,
     month: 3,
     date: 1,
@@ -20489,6 +20620,7 @@ export const recordings: RecordingImport[] = [
     year: 2018,
     month: 10,
     date: 1,
+    discogs: "https://www.discogs.com/master/1486210-Jonathan-Richman-SA",
     songs: [
       { n: 1, name: "SA" },
       { n: 2, name: "My Love She Is From Somewhere Else" },
@@ -20577,6 +20709,8 @@ export const recordings: RecordingImport[] = [
     year: 2021,
     month: 12,
     date: 14,
+    discogs:
+      "https://www.discogs.com/master/2673077-Jonathan-Richman-Want-To-Visit-My-Inner-House",
     songs: [
       { n: 1, name: "Want To Visit My Inner House?" },
       { n: 2, name: "Me And Her And The Beach" },
@@ -20597,6 +20731,8 @@ export const recordings: RecordingImport[] = [
     year: 2022,
     month: 3,
     date: 18,
+    discogs:
+      "https://www.discogs.com/release/23453396-Jonathan-Richman-Cold-Pizza-Other-Hot-Stuff",
     songs: [
       { name: "Cold Pizza", n: 1 },
       { name: "New Kind Of Neighborhood", n: 2 },
@@ -20640,7 +20776,9 @@ export const recordings: RecordingImport[] = [
   {
     id: 2023030200,
     type: "Single",
-    name: "Yatasamaroun EP",
+    name: "Yatasamaroun",
+    discogs:
+      "https://www.discogs.com/master/3095391-Jonathan-Richman-Yatasamaroun",
     year: 2023,
     month: 3,
     date: 2,
@@ -20982,6 +21120,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000007,
     type: "Compilation",
     name: "Live at the Longbranch Saloon",
+    year: 1992,
+    discogs:
+      "https://www.discogs.com/master/291945-The-Modern-Lovers-Live-At-The-Longbranch-Saloon",
     songs: [
       { name: "Someone I Care About", n: 1 },
       { name: "Dance With Me", n: 2 },
@@ -21069,6 +21210,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000011,
     type: "Compilation",
     name: "Jonathan Richman Songbook",
+    year: 1979,
+    discogs:
+      "https://www.discogs.com/master/2348182-Jonathan-Richman-The-Modern-Lovers-Jonathan-Richman-Songbook",
     songs: [
       { name: "Roadrunner", n: 1 },
       { name: "Pablo Picasso", n: 2 },
@@ -21113,6 +21257,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000013,
     type: "Compilation",
     name: "Mega Hits",
+    year: 1988,
+    discogs:
+      "https://www.discogs.com/master/852129-Jonathan-Richman-The-Modern-Lovers-Mega-Hits",
     songs: [
       { name: "The Sweeping Wind", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -21140,6 +21287,8 @@ export const recordings: RecordingImport[] = [
     id: 9000000014,
     type: "Compilation",
     name: "23 Great Recordings By Jonathan Richman And The Modern Lovers",
+    discogs:
+      "https://www.discogs.com/master/6799-Jonathan-Richman-And-The-Modern-Lovers-23-Great-Recordings-By-Jonathan-Richman-And-The-Modern-Lovers",
     songs: [
       { name: "Roadrunner", n: 1 },
       { name: "Dignified And Old", n: 2 },
@@ -21237,6 +21386,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000016,
     type: "Compilation",
     name: "I Must Be King",
+    year: 1998,
+    discogs:
+      "https://www.discogs.com/master/638211-Jonathan-Richman-I-Must-Be-King",
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "Fender Stratocaster", n: 2 },
@@ -21262,6 +21414,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000017,
     type: "Compilation",
     name: "Roadrunner",
+    year: 1998,
+    discogs:
+      "https://www.discogs.com/master/2963707-Jonathan-Richman-The-Modern-Lovers-Roadrunner",
     songs: [
       { name: "Roadrunner", n: 1 },
       { name: "Someone I Care About", n: 2 },
@@ -21395,6 +21550,8 @@ export const recordings: RecordingImport[] = [
     id: 9000000022,
     type: "Compilation",
     name: "Roadrunner, Roadrunner (The Beserkley Collection)",
+    discogs:
+      "https://www.discogs.com/master/2215621-Jonathan-Richman-The-Modern-Lovers-Roadrunner-Roadrunner-The-Beserkley-Collection",
     songs: [
       { name: "Roadrunner Twice", n: 1 },
       { name: "Astral Plane", n: 2 },
@@ -21463,8 +21620,10 @@ export const recordings: RecordingImport[] = [
     type: "Compilation",
     name: "No Me Quejo De Mi Estrella",
     year: 2014,
+    discogs:
+      "https://www.discogs.com/master/697902-Jonathan-Richman-No-Me-Quejo-De-Mi-Estrella",
     songs: [
-      { name: "La Guitarra Flamenca Rubia", n: 1 },
+      { name: "La Guitarra Flamenca Negra", n: 1 },
       { name: "La Fiesta Es Para Todos", n: 2 },
       { name: "You Can Have A Cell Phone That's Ok But Not Me", n: 3 },
       { name: "Because Her Beauty is Raw and Wild", n: 4 },
@@ -21480,6 +21639,36 @@ export const recordings: RecordingImport[] = [
       { name: "I Took a Chance on Her", n: 14 },
       { name: "Maybe a Walk Home From Natick High School", n: 15 },
       { name: "Con el Merengue", n: 16 },
+    ],
+  },
+  {
+    id: 9000000025,
+    type: "Compilation",
+    name: "Home Of The Hits / The Beserkley Story",
+    year: 1999,
+    discogs:
+      "https://www.discogs.com/master/1258824-Jonathan-Richman-The-Modern-Lovers-Various-Home-Of-The-Hits-The-Beserkley-Story",
+    songs: [
+      { name: "Roadrunner", n: 1 },
+      { name: "She Cracked", n: 2 },
+      { name: "Girlfren'", n: 3 },
+      { name: "Modern World", n: 4 },
+      { name: "Hospital", n: 5 },
+      { name: "Rockin' Shoppin' Center", n: 6 },
+      { name: "Back in the USA", n: 7 },
+      { name: "New England", n: 8 },
+      { name: "Rockin' Rockin' Leprechauns", n: 9 },
+      { name: "Rollercoaster By the Sea", n: 10 },
+      { name: "Dodge Veg-o-matic", n: 11 },
+      { name: "Egyptian Reggae", n: 12 },
+      { name: "I'm a Little Airplane", n: 13 },
+      { name: "Ice Cream Man", n: 14 },
+      { name: "My Little Kookenhaken", n: 15 },
+      { name: "The Morning of Our Lives", n: 16 },
+      { name: "Back in Your Life", n: 17 },
+      { name: "I'm Nature's Mosquito", n: 18 },
+      { name: "Party In The Woods Tonight", n: 19 },
+      { name: "My Love is a Flower (Just Beginning to Bloom)", n: 20 },
     ],
   },
 ];
