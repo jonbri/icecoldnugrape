@@ -19,6 +19,7 @@ const links = {
   jojochords: <Link href="http://www.jojochords.com/index.html">Chords</Link>,
   jojoblog: <Link href="https://jojofiles.blogspot.com/">Blog</Link>,
   trade: <Link href="/trade">Trade</Link>,
+  validate: <Link href="/validate">Validate</Link>,
 };
 
 export default function Page() {
@@ -50,6 +51,7 @@ export default function Page() {
       <br />
       <ul>
         <li>{links.trade} </li>
+        <li>{links.validate} </li>
         <li>
           <Link href="https://github.com/jonbri/icecoldnugrape">GitHub</Link>
         </li>
