@@ -1,12 +1,49 @@
 import { SongType } from "./raw";
 
+type RecordingType =
+  | "Album"
+  | "Studio Bootleg"
+  | "Show"
+  | "Compilation"
+  | "Single"
+  | "Radio"
+  | "Interview"
+  | "TV";
+
+type Country =
+  | "USA"
+  | "Netherlands"
+  | "Belgium"
+  | "UK"
+  | "Sweden"
+  | "France"
+  | "Australia"
+  | "Canada"
+  | "Finland"
+  | "Spain"
+  | "Germany"
+  | "Italy"
+  | "Denmark"
+  | "Japan"
+  | "Austria"
+  | "Scotland";
+
+type Quality =
+  | "Good"
+  | "Very Good"
+  | "Poor"
+  | "Excellent"
+  | "Poor/Good"
+  | "Good/Very Good"
+  | "Fair";
+
 export interface RecordingImport {
   id: number;
-  type: string;
+  type: RecordingType;
   venue?: string;
-  country?: string;
+  country?: Country;
   city?: string;
-  quality?: string;
+  quality?: Quality;
   year?: number;
   month?: number;
   date?: number;

@@ -21062,7 +21062,6 @@ export const recordings: RecordingImport[] = [
   {
     id: 9000000004,
     type: "Compilation",
-    quality: "",
     name: "Beantown Gems",
     jon: true,
     songs: [
