@@ -25,9 +25,14 @@ export default function Page({
     <div className="song">
       <h2>{song.name}</h2>
       <ul className="hoverable">
-        {shows.map(({ id, formattedTitle }) => (
+        {shows.map(({ id, formattedTitle, type }) => (
           <li key={id}>
-            <Link href={`/recordings/${id}`}>{formattedTitle}</Link>
+            <Link
+              href={`/recordings/${id}`}
+              className={type === "Album" ? "album" : undefined}
+            >
+              {formattedTitle}
+            </Link>
           </li>
         ))}
       </ul>
