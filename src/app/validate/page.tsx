@@ -27,14 +27,29 @@ export default function Page() {
       }
     }
 
-    // check for duplicate "n" field
+    // check for duplicate song numbers ("n" field)
     if (songs) {
-      const n = songs.map(({ n }) => n.toString());
-      const uniqueN = n.filter(unique);
-      if (n.length !== uniqueN.length) {
+      const songNumbers = songs.map(({ n }) => n);
+      const uniqueSongNumbers = songNumbers.filter(unique);
+      if (songNumbers.length !== uniqueSongNumbers.length) {
         errors.push({
           href: `/recordings/${id}`,
           message: `"${formattedTitle}" has duplicate "n" fields`,
+        });
+      }
+    }
+
+    // check for skipped/non-sequential song numbers
+    if (songs) {
+      const songNumbers = songs.map(({ n }) => n);
+      const isSequential = songNumbers.every((n, index) => {
+        if (index === 0) return true;
+        return n === songNumbers[index - 1] + 1;
+      });
+      if (!isSequential) {
+        errors.push({
+          href: `/recordings/${id}`,
+          message: `"${formattedTitle}" has skipped "n" fields`,
         });
       }
     }
