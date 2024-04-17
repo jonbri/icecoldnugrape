@@ -21115,6 +21115,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000008,
     type: "Compilation",
     name: "Live at the Longbranch and More",
+    discogs:
+      "https://www.discogs.com/release/2585797-Modern-Lovers-Live-At-The-Longbranch-And-More",
+    year: 1998,
     songs: [
       { name: "Someone I Care About", n: 1 },
       { name: "Dance With Me", n: 2 },
@@ -21139,6 +21142,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000009,
     type: "Compilation",
     name: "96 Tears",
+    discogs:
+      "https://www.discogs.com/release/2770322-The-Modern-Lovers-96-Tears",
+    year: 2010,
     songs: [
       { name: "Modern World", n: 1 },
       { name: "96 Tears", n: 2 },
@@ -21155,6 +21161,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000010,
     type: "Compilation",
     name: "Precise Modern Lovers Order",
+    discogs:
+      "https://www.discogs.com/release/3153031-The-Modern-Lovers-Precise-Modern-Lovers-Order-Live-In-Berkeley-And-Boston",
+    year: 1994,
     songs: [
       { name: "Someone I Care About", n: 1 },
       { name: "Dance With Me", n: 2 },
@@ -21201,6 +21210,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000012,
     type: "Compilation",
     name: "The Best Of Jonathan Richman And The Modern Lovers (The Beserkley Years)",
+    discogs:
+      "https://www.discogs.com/release/1638007-Jonathan-Richman-The-Modern-Lovers-The-Best-Of-Jonathan-Richman-And-The-Modern-Lovers-The-Beserkley-",
+    year: 1986,
     songs: [
       { name: "Roadrunner", n: 1 },
       { name: "Astral Plane", n: 2 },
@@ -21256,6 +21268,7 @@ export const recordings: RecordingImport[] = [
     id: 9000000014,
     type: "Compilation",
     name: "23 Great Recordings By Jonathan Richman And The Modern Lovers",
+    year: 1993,
     discogs:
       "https://www.discogs.com/master/6799-Jonathan-Richman-And-The-Modern-Lovers-23-Great-Recordings-By-Jonathan-Richman-And-The-Modern-Lovers",
     songs: [
@@ -21287,6 +21300,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000015,
     type: "Compilation",
     name: "A Plea For Tenderness",
+    discogs:
+      "https://www.discogs.com/release/5256384-Jonathan-Richman-A-Plea-For-Tenderness",
+    year: 1995,
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "Fender Stratocaster", n: 2 },
@@ -21312,6 +21328,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000016,
     type: "Compilation",
     name: "Radio On: Stop And Shop With The Modern Lovers",
+    year: 1997,
+    discogs:
+      "https://www.discogs.com/release/1638075-Jonathan-Richman-The-Modern-Lovers-Radio-On-Stop-And-Shop-With-The-Modern-Lovers",
     songs: [
       { name: "Roadrunner", n: 1 },
       { name: "Pablo Picasso", n: 2 },
@@ -21413,6 +21432,8 @@ export const recordings: RecordingImport[] = [
     type: "Compilation",
     name: "The Best Of Jonathan Richman and The Modern Lovers",
     year: 2004,
+    discogs:
+      "https://www.discogs.com/release/2748162-Jonathan-Richman-The-Modern-Lovers-The-Best-Of",
     songs: [
       { name: "Roadrunner", n: 1 },
       { name: "She Cracked", n: 2 },
@@ -21440,6 +21461,8 @@ export const recordings: RecordingImport[] = [
     id: 9000000019,
     type: "Compilation",
     name: "Egyptian Reggae",
+    discogs:
+      "https://www.discogs.com/release/3906881-Jonathan-Richman-Egyptian-Reggae",
     year: 2000,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
@@ -21464,6 +21487,8 @@ export const recordings: RecordingImport[] = [
     type: "Compilation",
     name: "Buzz Buzz Buzz: An Introspective",
     year: 2000,
+    discogs:
+      "https://www.discogs.com/release/3277851-Jonathan-Richman-An-Introspective",
     songs: [
       { name: "Roadrunner", n: 1 },
       { name: "My Love is a Flower (Just Beginning to Bloom)", n: 2 },
@@ -21489,6 +21514,8 @@ export const recordings: RecordingImport[] = [
     id: 9000000021,
     type: "Compilation",
     name: "Action Packed: The Best Of Jonathan Richman",
+    discogs:
+      "https://www.discogs.com/release/1430455-Jonathan-Richman-Action-Packed-The-Best-Of-Jonathan-Richman",
     year: 2002,
     songs: [
       { name: "Circle I", n: 1 },
@@ -21518,6 +21545,7 @@ export const recordings: RecordingImport[] = [
   {
     id: 9000000022,
     type: "Compilation",
+    year: 2004,
     name: "Roadrunner, Roadrunner (The Beserkley Collection)",
     discogs:
       "https://www.discogs.com/master/2215621-Jonathan-Richman-The-Modern-Lovers-Roadrunner-Roadrunner-The-Beserkley-Collection",
@@ -21571,6 +21599,9 @@ export const recordings: RecordingImport[] = [
     id: 9000000023,
     type: "Compilation",
     name: "Vampire Girl",
+    year: 2006,
+    discogs:
+      "https://www.discogs.com/release/4301883-Jonathan-Richman-Vampire-Girl",
     songs: [
       { name: "Vampire Girl", n: 1 },
       { name: "I Was Dancing in the Lesbian Bar", n: 2 },
