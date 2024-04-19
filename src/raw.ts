@@ -21067,7 +21067,6 @@ export const recordings: RecordingImport[] = [
   {
     id: 9000000006,
     type: "Radio",
-    year: 0,
     country: "USA",
     city: "Chicago",
     name: "WBEZ",
