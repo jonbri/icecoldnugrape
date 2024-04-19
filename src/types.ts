@@ -37,6 +37,8 @@ type Quality =
   | "Good/Very Good"
   | "Fair";
 
+type Format = "flac" | "mp3" | "wav" | "m4a";
+
 export interface RecordingImport {
   id: number;
   type: RecordingType;
@@ -50,7 +52,7 @@ export interface RecordingImport {
   jon?: boolean;
   jonnote?: string;
   breaks?: number[];
-  format?: string;
+  format?: Format;
   songs: LinkedSongImport[];
   comments?: Comment[];
   name?: string;
