@@ -607,7 +607,6 @@ export type SongType =
   | "Tromba"
   | "Her Laugh is Like a Trumpet"
   | "We Had a Fight Last Night"
-  | "Galactica"
   | "Parent Pushing Stroller"
   | "Your Mind"
   | "Trash on the Beach"
@@ -1690,7 +1689,6 @@ export const songs: SongImport[] = [
   { name: "Tromba" },
   { name: "Her Laugh is Like a Trumpet" },
   { name: "We Had a Fight Last Night" },
-  { name: "Galactica" },
   { name: "Parent Pushing Stroller" },
   { name: "Your Mind" },
   { name: "Trash on the Beach" },
@@ -19897,7 +19895,7 @@ export const recordings: RecordingImport[] = [
       { name: "Celestial", n: 3 },
       { name: "Sa Voix M'Atisse", n: 4 },
       { name: "Le Printemps Des Amoreux Est Venue", n: 5 },
-      { name: "Galactica", n: 6 },
+      { name: "La Festa e Galactica", n: 6 },
       { name: "Her Laugh is Like a Trumpet", n: 7 },
       { name: "I Was Dancing in the Lesbian Bar", n: 8 },
       { name: "The World Is Showing It's Hand", n: 9 },
