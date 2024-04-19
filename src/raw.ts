@@ -20316,7 +20316,6 @@ export const recordings: RecordingImport[] = [
   {
     id: 2015030600,
     type: "Show",
-    venue: "Duke Coffeehouse",
     country: "USA",
     city: "Zanabar",
     format: "",
