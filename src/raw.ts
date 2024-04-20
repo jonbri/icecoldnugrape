@@ -674,7 +674,8 @@ export type SongType =
   | "Atlantique"
   | "Fluids"
   | "007 (Shanty Town)"
-  | "Chapel Of Love";
+  | "Chapel Of Love"
+  | "Now You're A Lover";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1783,6 +1784,7 @@ export const songs: SongImport[] = [
   { name: "Fluids" },
   { name: "007 (Shanty Town)" },
   { name: "Chapel Of Love" },
+  { name: "Now You're A Lover" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -20299,12 +20301,35 @@ export const recordings: RecordingImport[] = [
     id: 2015030600,
     type: "Show",
     country: "USA",
-    city: "Zanabar",
+    city: "Louisville",
+    venue: "Zanzabar",
+    format: "flac",
     year: 2015,
     month: 3,
     date: 6,
     jon: true,
-    songs: [],
+    songs: [
+      { name: "Now You're A Lover", n: 1 },
+      { name: "Let Her Go Into the Darkness", n: 2 },
+      { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 3 },
+      { name: "I Was Dancing in the Lesbian Bar", n: 4 },
+      { name: "We Want to Take You Higher", n: 5 },
+      { name: "Old World", n: 6 },
+      { name: "No One Was Like Vermeer", n: 7 },
+      { name: "That Summer Feeling", n: 8 },
+      { name: "Keith", n: 9 },
+      { name: "O Sun!", n: 10 },
+      { name: "Without The Heart For Chaperone", n: 11 },
+      { name: "Take Me to the Plaza", n: 12 },
+      { name: "Le Printemps Des Amoreux Est Venue", n: 13 },
+      { name: "Egyptian Reggae", n: 14 },
+      { name: "Ishkode! Ishkode!", n: 15 },
+      { name: "La Fiesta Es Para Todos", n: 16 },
+      { name: "We'll Be the Noise, We'll Be the Scandal", n: 17 },
+      { name: "Les Etoiles", n: 18 },
+      { name: "These Bodies That Came To Cavort", n: 19 },
+      { name: "Time Has Been Going By So Fast", n: 20 },
+    ],
   },
   {
     id: 2015103000,
