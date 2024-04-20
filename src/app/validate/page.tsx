@@ -42,6 +42,12 @@ export default function Page() {
     // check for skipped/non-sequential song numbers
     if (songs) {
       const songNumbers = songs.map(({ n }) => n);
+      if (songNumbers.length > 0 && songNumbers[0] !== 1) {
+        errors.push({
+          href: `/recordings/${id}`,
+          message: `"${formattedTitle}" does not start with track 1`,
+        });
+      }
       const isSequential = songNumbers.every((n, index) => {
         if (index === 0) return true;
         return n === songNumbers[index - 1] + 1;
