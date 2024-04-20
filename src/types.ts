@@ -147,6 +147,7 @@ export interface RecordingImport {
   name?: string;
   sublocation?: string;
   discogs?: string;
+  bandcamp?: string;
 }
 export interface Recording extends Omit<RecordingImport, "songs" | "comments"> {
   songs?: SongInstance[];

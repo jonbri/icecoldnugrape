@@ -20274,6 +20274,7 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 1,
     discogs: "https://www.discogs.com/release/6762381-Jonathan-Richman-O-Sun",
+    bandcamp: "https://jonathanrichman.bandcamp.com/album/o-sun-b-w-wait-wait",
     songs: [
       { name: "O Sun!", n: 1 },
       { name: "Wait! Wait!", n: 2 },
@@ -20287,6 +20288,8 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 1,
     discogs: "https://www.discogs.com/release/6762409-Jonathan-Richman-Keith",
+    bandcamp:
+      "https://jonathanrichman.bandcamp.com/album/keith-b-w-they-showed-me-the-door-to-bohemia",
     songs: [
       { name: "Keith", n: 1 },
       { name: "Wait! Wait!", n: 2 },
@@ -20384,6 +20387,7 @@ export const recordings: RecordingImport[] = [
     date: 1,
     discogs:
       "https://www.discogs.com/master/1084367-Jonathan-Richman-Ishkode-Ishkode",
+    bandcamp: "https://jonathanrichman.bandcamp.com/album/ishkode-ishkode",
     songs: [
       { n: 1, name: "Whoa! How Different We All Are!" },
       { n: 2, name: "Ishkode! Ishkode!" },
@@ -20519,6 +20523,8 @@ export const recordings: RecordingImport[] = [
     date: 15,
     discogs:
       "https://www.discogs.com/master/1091169-Jonathan-Richman-Tommy-Larkins-Thats-All-We-Need-At-Our-Party",
+    bandcamp:
+      "https://jonathanrichman.bandcamp.com/album/thats-all-we-need-at-our-party",
     songs: [
       { name: "That's All We Need At Our Party", n: 1 },
       { name: "Sad Trumpets Of Afternoon", n: 2 },
@@ -20530,6 +20536,8 @@ export const recordings: RecordingImport[] = [
     name: "Penchant For The Stagnant",
     discogs:
       "https://www.discogs.com/master/1456572-Jonathan-Richman-A-Penchant-For-The-Stagnant",
+    bandcamp:
+      "https://jonathanrichman.bandcamp.com/album/penchant-for-the-stagnant-b-w-not-so-much-to-be-loved-as-to-love",
     year: 2018,
     month: 3,
     date: 1,
@@ -20579,6 +20587,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 1,
     discogs: "https://www.discogs.com/master/1486210-Jonathan-Richman-SA",
+    bandcamp: "https://jonathanrichman.bandcamp.com/album/sa",
     songs: [
       { n: 1, name: "SA" },
       { n: 2, name: "My Love She Is From Somewhere Else" },
@@ -20668,6 +20677,8 @@ export const recordings: RecordingImport[] = [
     date: 14,
     discogs:
       "https://www.discogs.com/master/2673077-Jonathan-Richman-Want-To-Visit-My-Inner-House",
+    bandcamp:
+      "https://jonathanrichman.bandcamp.com/album/want-to-visit-my-inner-house",
     songs: [
       { n: 1, name: "Want To Visit My Inner House?" },
       { n: 2, name: "Me And Her And The Beach" },
@@ -20690,6 +20701,8 @@ export const recordings: RecordingImport[] = [
     date: 18,
     discogs:
       "https://www.discogs.com/release/23453396-Jonathan-Richman-Cold-Pizza-Other-Hot-Stuff",
+    bandcamp:
+      "https://jonathanrichman.bandcamp.com/album/cold-pizza-other-hot-stuff-ep",
     songs: [
       { name: "Cold Pizza", n: 1 },
       { name: "New Kind Of Neighborhood", n: 2 },
@@ -20735,6 +20748,8 @@ export const recordings: RecordingImport[] = [
     name: "Yatasamaroun",
     discogs:
       "https://www.discogs.com/master/3095391-Jonathan-Richman-Yatasamaroun",
+    bandcamp:
+      "https://jonathanrichman.bandcamp.com/album/jonathan-richman-yatasamaroun-ep",
     year: 2023,
     month: 3,
     date: 2,
