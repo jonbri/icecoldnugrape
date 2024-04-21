@@ -675,7 +675,19 @@ export type SongType =
   | "Fluids"
   | "007 (Shanty Town)"
   | "Chapel Of Love"
-  | "Now You're A Lover";
+  | "Now You're A Lover"
+  | "Just A Spark, On Journey From The Dark"
+  | "I Am The Sky"
+  | "La Festa Qua"
+  | "Pianneforte E Notte"
+  | "Hey Tommy! Whatchu Feel Like Tonight?"
+  | "One More Rhythm From Tommy!"
+  | "I Found A Love That Opens That Door For Me"
+  | "As We Walk Towards Fenway Park In Boston Town"
+  | "Later In Life I Found My Partner In Crime"
+  | "I Love This Sad World"
+  | "No One On Earth Gets Me Like She Does"
+  | "Bajo La Tierra En El Subsuelo";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1785,6 +1797,18 @@ export const songs: SongImport[] = [
   { name: "007 (Shanty Town)" },
   { name: "Chapel Of Love" },
   { name: "Now You're A Lover" },
+  { name: "Just A Spark, On Journey From The Dark" },
+  { name: "I Am The Sky" },
+  { name: "La Festa Qua" },
+  { name: "Pianneforte E Notte" },
+  { name: "Hey Tommy! Whatchu Feel Like Tonight?" },
+  { name: "One More Rhythm From Tommy!" },
+  { name: "I Found A Love That Opens That Door For Me" },
+  { name: "As We Walk Towards Fenway Park In Boston Town" },
+  { name: "Later In Life I Found My Partner In Crime" },
+  { name: "I Love This Sad World" },
+  { name: "No One On Earth Gets Me Like She Does" },
+  { name: "Bajo La Tierra En El Subsuelo" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -21722,6 +21746,52 @@ export const recordings: RecordingImport[] = [
       { name: "I'm Nature's Mosquito", n: 18 },
       { name: "Party In The Woods Tonight", n: 19 },
       { name: "My Love is a Flower (Just Beginning to Bloom)", n: 20 },
+    ],
+  },
+  {
+    id: 9100000000,
+    type: "Compilation",
+    name: "Just A Spark, On Journey From The Dark",
+    year: 2021,
+    month: 9,
+    date: 27,
+    discogs:
+      "https://www.discogs.com/release/20485324-Jonathan-Richman-Just-A-Spark-On-Journey-From-The-Dark",
+    songs: [
+      { name: "Just A Spark, On Journey From The Dark", n: 1 },
+      { name: "No One On Earth Gets Me Like She Does", n: 2 },
+      { name: "Maybe a Walk Home From Natick High School", n: 3 },
+      { name: "Just A Spark, On Journey From The Dark", n: 4 },
+      { name: "I Am The Sky", n: 5 },
+      { name: "Dancing In the Moonlight", n: 6 },
+      { name: "La Festa Qua", n: 7 },
+      { name: "Penchant For The Stagnant", n: 8 },
+      { name: "Want To Visit My Inner House?", n: 9 },
+      { name: "Just A Spark, On Journey From The Dark", n: 10 },
+      { name: "Just A Spark, On Journey From The Dark", n: 11 },
+      { name: "That Summer Feeling", n: 12 },
+      { name: "Egyptian Reggae", n: 13 },
+      { name: "This Is One Sad World", n: 14 },
+      { name: "Pianneforte E Notte", n: 15 },
+      { name: "Hey Tommy! Whatchu Feel Like Tonight?", n: 16 },
+      { name: "Just A Spark, On Journey From The Dark", n: 17 },
+      { name: "Silence alors, Silence", n: 18 },
+      { name: "Springtime In New York", n: 19 },
+      { name: "When Harpo Played His Harp", n: 20 },
+      { name: "One More Rhythm From Tommy!", n: 21 },
+      { name: "Just A Spark, On Journey From The Dark", n: 22 },
+      { name: "I Found A Love That Opens That Door For Me", n: 23 },
+      { name: "New Kind Of Neighborhood", n: 24 },
+      { name: "Cold Pizza", n: 25 },
+      { name: "Just A Spark, On Journey From The Dark", n: 26 },
+      { name: "Just A Spark, On Journey From The Dark", n: 27 },
+      { name: "Bajo La Tierra En El Subsuelo", n: 28 },
+      { name: "As We Walk Towards Fenway Park In Boston Town", n: 29 },
+      { name: "Later In Life I Found My Partner In Crime", n: 30 },
+      { name: "I Love This Sad World", n: 31 },
+      { name: "The Fenway", n: 32 },
+      { name: "Nishi", n: 33 },
+      { name: "Just A Spark, On Journey From The Dark", n: 34 },
     ],
   },
 ];
