@@ -51,10 +51,15 @@ export default function Page() {
       <br />
       <ul>
         <li>{links.trade} </li>
-        <li>{links.validate} </li>
+        <li>
+          <Link href="https://github.com/jonbri/icecoldnugrape/commits/main/">
+            Changes
+          </Link>
+        </li>
         <li>
           <Link href="https://github.com/jonbri/icecoldnugrape">GitHub</Link>
         </li>
+        <li>{links.validate} </li>
         <li>
           <Link href="https://web.archive.org/web/*/icecoldnugrape.com">
             Since 2009
