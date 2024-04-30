@@ -9,7 +9,7 @@ import {
   getRecordingComments,
   getSongComments,
 } from "../../data";
-import Fuse from "fuse.js";
+import Fuse, { FuseResult, RangeTuple } from "fuse.js";
 
 const allRecordings = getRecordings().map(({ id, formattedTitle: text }) => ({
   href: `/recordings/${id}`,
@@ -50,7 +50,7 @@ interface Result {
 
 export default function Search() {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<Fuse.FuseResult<Result>[]>([]);
+  const [results, setResults] = useState<FuseResult<Result>[]>([]);
 
   useEffect(() => {
     if (query === "") {
@@ -95,7 +95,7 @@ export default function Search() {
 }
 
 interface FuseHighlightProps {
-  result: Fuse.FuseResult<Result>;
+  result: FuseResult<Result>;
   attribute: string;
 }
 const FuseHighlight = ({
@@ -105,7 +105,7 @@ const FuseHighlight = ({
   // Recursively builds JSX output adding `<mark>` tags around matches
   const highlight = (
     value: string,
-    indices: readonly Fuse.RangeTuple[] = [],
+    indices: readonly RangeTuple[] = [],
     i = 1
   ): string | ReactNode => {
     const pair = indices[indices.length - i];
