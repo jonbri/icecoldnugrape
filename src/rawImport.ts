@@ -87,7 +87,7 @@ const aggregateSongs = (): Song[] =>
     sanitized: sanitize(rawSong.name),
     shows: recordingsData
       .filter(({ songs }) =>
-        songs.map(({ name }) => name).includes(rawSong.name)
+        songs.map(({ name }) => name).includes(rawSong.name),
       )
       .map(({ id }) => id),
   }));

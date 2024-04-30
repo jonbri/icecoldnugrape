@@ -1147,7 +1147,7 @@ const generateList = ({ group, title, songs, zip }: Section) => (
 export default function Page() {
   const total = sections.reduce(
     (acc, { songs: { length } }) => acc + length,
-    0
+    0,
   );
   return (
     <div className="listen">

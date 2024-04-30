@@ -24,14 +24,14 @@ const recordingComments = getRecordingComments().map(
   ({ id, type, comment: { text, name } }) => ({
     href: `/${type}/${id}`,
     text: `${name}: ${text}`,
-  })
+  }),
 );
 
 const songComments = getSongComments().map(
   ({ song, type, comment: { text, name } }) => ({
     href: `/${type}/${getSongFromName(song)!.sanitized}`,
     text: `${name}: ${text}`,
-  })
+  }),
 );
 
 const fuse = new Fuse(
@@ -40,7 +40,7 @@ const fuse = new Fuse(
     minMatchCharLength: 4,
     includeMatches: true,
     keys: [{ name: "text" }],
-  }
+  },
 );
 
 interface Result {
@@ -106,7 +106,7 @@ const FuseHighlight = ({
   const highlight = (
     value: string,
     indices: readonly RangeTuple[] = [],
-    i = 1
+    i = 1,
   ): string | ReactNode => {
     const pair = indices[indices.length - i];
     return !pair ? (

@@ -28,7 +28,7 @@ export const getSongFromName = (name: SongType) =>
   songs.find((song) => song.name === name);
 
 const recordingsWithComment = recordings.filter(
-  ({ comments }) => comments.length > 0
+  ({ comments }) => comments.length > 0,
 );
 const songsWithComment = songs.filter(({ comments }) => comments.length > 0);
 const recordingCommentInstances: RecordingCommentInstance[] = [];

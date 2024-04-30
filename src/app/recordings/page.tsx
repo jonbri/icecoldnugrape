@@ -45,7 +45,7 @@ export default function Page() {
   }));
   const total = sections.reduce(
     (acc, { collection: { length } }) => acc + length,
-    0
+    0,
   );
   return (
     <div className="recordings">
