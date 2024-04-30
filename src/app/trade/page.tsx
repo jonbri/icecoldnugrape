@@ -14,10 +14,13 @@ export default function Page() {
       <div>Contact: icecoldnugrape@yahoo.com</div>
       <br />
       <ul className="hoverable">
-        {all.map(({ id, type, formattedTitle }) => {
+        {all.map(({ id, type, formattedTitle, format }) => {
           let doubleFormattedTitle = formattedTitle;
           if (type !== "Show" && type !== "Radio") {
             doubleFormattedTitle = `${type}: ${formattedTitle}`;
+          }
+          if (format !== undefined) {
+            doubleFormattedTitle += ` (${format})`;
           }
           return (
             <li key={id}>
