@@ -687,7 +687,8 @@ export type SongType =
   | "Later In Life I Found My Partner In Crime"
   | "I Love This Sad World"
   | "No One On Earth Gets Me Like She Does"
-  | "Bajo La Tierra En El Subsuelo";
+  | "Bajo La Tierra En El Subsuelo"
+  | "Gonna Make You Sweat (Everybody Dance Now)";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1809,6 +1810,7 @@ export const songs: SongImport[] = [
   { name: "I Love This Sad World" },
   { name: "No One On Earth Gets Me Like She Does" },
   { name: "Bajo La Tierra En El Subsuelo" },
+  { name: "Gonna Make You Sweat (Everybody Dance Now)" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -20585,8 +20587,32 @@ export const recordings: RecordingImport[] = [
     year: 2016,
     month: 11,
     date: 14,
+    format: "flac",
     jon: true,
-    songs: [],
+    songs: [
+      { n: 1, name: "No One Was Like Vermeer" },
+      { n: 2, name: "We Want to Take You Higher" },
+      { n: 3, name: "That Summer Feeling" },
+      { n: 4, name: "Old World" },
+      { n: 5, name: "SA" },
+      { n: 6, name: "People Are Disgusting" },
+      { n: 7, name: "La Fiesta Es Para Todos" },
+      { n: 8, name: "I Was Dancing in the Lesbian Bar" },
+      { n: 9, name: "Egyptian Reggae" },
+      { n: 10, name: "The Fenway" },
+      { n: 11, name: "Let Me Do This Right!" },
+      { n: 12, name: "We Had a Fight Last Night" },
+      { n: 13, name: "Take Me to the Plaza" },
+      { n: 14, name: "Gonna Make You Sweat (Everybody Dance Now)" },
+      { n: 15, name: "When We Refuse to Suffer" },
+      { n: 16, name: "I Love This Sad World" },
+      { n: 17, name: "Her Mystery Not Of High Heels and Eye Shadow" },
+      { n: 18, name: "Le Printemps Des Amoreux Est Venue" },
+      { n: 19, name: "La Festa e Galactica" },
+      { n: 20, name: "These Bodies That Came To Cavort" },
+      { n: 21, name: "Egyptian Reggae" },
+      { n: 22, name: "These Bodies That Came To Cavort" },
+    ],
   },
   {
     id: 2016111500,
