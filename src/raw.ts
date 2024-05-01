@@ -689,7 +689,8 @@ export type SongType =
   | "No One On Earth Gets Me Like She Does"
   | "Bajo La Tierra En El Subsuelo"
   | "Gonna Make You Sweat (Everybody Dance Now)"
-  | "I'm Young";
+  | "I'm Young"
+  | "I Want To Go Outside";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1813,6 +1814,7 @@ export const songs: SongImport[] = [
   { name: "Bajo La Tierra En El Subsuelo" },
   { name: "Gonna Make You Sweat (Everybody Dance Now)" },
   { name: "I'm Young" },
+  { name: "I Want To Go Outside" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -20548,11 +20550,27 @@ export const recordings: RecordingImport[] = [
     venue: "The Altamont",
     country: "USA",
     city: "Asheville",
+    format: "flac",
     year: 2016,
     month: 4,
     date: 19,
     jon: true,
-    songs: [],
+    songs: [
+      { n: 1, name: "No One Was Like Vermeer" },
+      { n: 2, name: "We Want to Take You Higher" },
+      { n: 3, name: "spanish guitar" },
+      { n: 4, name: "Outside O'Duffy's" },
+      { n: 5, name: "Egyptian Reggae" },
+      { n: 6, name: "The World Is Showing It's Hand" },
+      { n: 7, name: "I Want To Go Outside" },
+      { n: 8, name: "O Moon, Queen Of Night On Earth" },
+      { n: 9, name: "O Sun!" },
+      { n: 10, name: "Es Como El Pan" },
+      { n: 11, name: "Sad Trumpets Of Afternoon" },
+      { n: 12, name: "Come to Our Party" },
+      { n: 13, name: "We Had a Fight Last Night" },
+      { n: 14, name: "Take Me to the Plaza" },
+    ],
   },
   {
     id: 2016052100,
