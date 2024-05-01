@@ -15996,7 +15996,8 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 4,
     date: 4,
-    jon: false,
+    format: "mp3",
+    jon: true,
     songs: [
       { name: "Give Paris One More Chance", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
@@ -16019,18 +16020,6 @@ export const recordings: RecordingImport[] = [
         time: "2011-04-09 00:00:00",
       },
     ],
-  },
-  {
-    id: 2003041400,
-    type: "Show",
-    venue: "Verbano Park",
-    country: "Italy",
-    city: "Sesto Calende",
-    year: 2003,
-    month: 4,
-    date: 14,
-    jon: true,
-    songs: [],
   },
   {
     id: 2003100300,
