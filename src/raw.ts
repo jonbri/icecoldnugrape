@@ -10944,43 +10944,6 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    id: 1991000010,
-    type: "Album",
-    year: 1991,
-    name: "I, Jonathan",
-    discogs:
-      "https://www.discogs.com/master/229146-Jonathan-Richman-I-Jonathan",
-    songs: [
-      { name: "Parties In The USA", n: 1 },
-      { name: "Tandem Jump", n: 2 },
-      { name: "You Can't Talk To the Dude", n: 3 },
-      { name: "Velvet Underground", n: 4 },
-      { name: "I Was Dancing in the Lesbian Bar", n: 5 },
-      { name: "Rooming House on Venice Beach", n: 6 },
-      { name: "That Summer Feeling", n: 7 },
-      { name: "Grunion Run", n: 8 },
-      { name: "A Higher Power", n: 9 },
-      { name: "Twilight in Boston", n: 10 },
-    ],
-    comments: [
-      {
-        name: "Jerry",
-        text: "So many classic JR songs on this album.",
-        time: "2011-10-28 11:28:58",
-      },
-      {
-        name: "JB",
-        text: '"A Higher Power" is one of JR\'s most under-appreciated songs in my opinion',
-        time: "2011-10-28 17:51:11",
-      },
-      {
-        name: "Jerry",
-        text: "When Einstein saw me looking at her he joined my side. That's just brilliant.",
-        time: "2011-10-28 17:54:20",
-      },
-    ],
-  },
-  {
     id: 1991000020,
     type: "Show",
     venue: "Sala Universal",
@@ -11043,6 +11006,43 @@ export const recordings: RecordingImport[] = [
         name: "JB",
         text: 'My two favorite songs on here are "Our Swinging Pad", and "Just For Fun"',
         time: "2011-12-01 07:26:44",
+      },
+    ],
+  },
+  {
+    id: 1992000000,
+    type: "Album",
+    year: 1992,
+    name: "I, Jonathan",
+    discogs:
+      "https://www.discogs.com/master/229146-Jonathan-Richman-I-Jonathan",
+    songs: [
+      { name: "Parties In The USA", n: 1 },
+      { name: "Tandem Jump", n: 2 },
+      { name: "You Can't Talk To the Dude", n: 3 },
+      { name: "Velvet Underground", n: 4 },
+      { name: "I Was Dancing in the Lesbian Bar", n: 5 },
+      { name: "Rooming House on Venice Beach", n: 6 },
+      { name: "That Summer Feeling", n: 7 },
+      { name: "Grunion Run", n: 8 },
+      { name: "A Higher Power", n: 9 },
+      { name: "Twilight in Boston", n: 10 },
+    ],
+    comments: [
+      {
+        name: "Jerry",
+        text: "So many classic JR songs on this album.",
+        time: "2011-10-28 11:28:58",
+      },
+      {
+        name: "JB",
+        text: '"A Higher Power" is one of JR\'s most under-appreciated songs in my opinion',
+        time: "2011-10-28 17:51:11",
+      },
+      {
+        name: "Jerry",
+        text: "When Einstein saw me looking at her he joined my side. That's just brilliant.",
+        time: "2011-10-28 17:54:20",
       },
     ],
   },
