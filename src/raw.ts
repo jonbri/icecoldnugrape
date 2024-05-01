@@ -690,7 +690,8 @@ export type SongType =
   | "Bajo La Tierra En El Subsuelo"
   | "Gonna Make You Sweat (Everybody Dance Now)"
   | "I'm Young"
-  | "I Want To Go Outside";
+  | "I Want To Go Outside"
+  | "I'm A Prisoner Because Of Fabric Softener";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1815,6 +1816,7 @@ export const songs: SongImport[] = [
   { name: "Gonna Make You Sweat (Everybody Dance Now)" },
   { name: "I'm Young" },
   { name: "I Want To Go Outside" },
+  { name: "I'm A Prisoner Because Of Fabric Softener" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -20584,7 +20586,19 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 21,
     jon: true,
-    songs: [],
+    songs: [
+      { n: 1, name: "Egyptian Reggae" },
+      { n: 2, name: "I'm A Prisoner Because Of Fabric Softener" },
+      { n: 3, name: "La Festa e Galactica" },
+      { n: 4, name: "That's All We Need At Our Party" },
+      { n: 5, name: "No One Was Like Vermeer" },
+      { n: 6, name: "A Que Venimos Sino a Caer?" },
+      { n: 7, name: "The Bitter Herb" },
+      { n: 8, name: "O Sun!" },
+      { n: 9, name: "Old World" },
+      { n: 10, name: "Because Her Beauty is Raw and Wild" },
+      { n: 11, name: "Let Me Do This Right!" },
+    ],
   },
   {
     id: 2016111300,
