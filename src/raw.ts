@@ -20621,7 +20621,7 @@ export const recordings: RecordingImport[] = [
       { n: 20, name: "SA" },
       { n: 21, name: "These Bodies That Came To Cavort" },
       { n: 22, name: "We Had a Fight Last Night" },
-      { n: 22, name: "spanish guitar" },
+      { n: 23, name: "spanish guitar" },
     ],
   },
   {
