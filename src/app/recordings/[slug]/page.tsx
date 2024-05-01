@@ -19,7 +19,7 @@ export default function Page({
 }: {
   params: { slug: string };
 }) {
-  const { songs, quality, comments, formattedTitle, jon, discogs, bandcamp } =
+  const { songs, comments, formattedTitle, jon, discogs, bandcamp } =
     getRecording(id)!;
   const sortedSongs =
     songs?.sort(({ n: n0 }, { n: n1 }) => {
@@ -80,22 +80,16 @@ export default function Page({
         </li>
       </ul>
 
-      {quality !== undefined || comments.length > 0 ? (
-        <>
-          {quality && (
-            <div className="quality">Best known quality: {quality}</div>
-          )}
-          {jon === true ? (
-            <div className="quality">
-              This recording is{" "}
-              <Link href="/trade">
-                <strong>available</strong>
-              </Link>
-            </div>
-          ) : null}
-          {comments.length > 0 ? <Comments comments={comments} /> : null}
-        </>
+      {jon === true ? (
+        <div>
+          This recording is{" "}
+          <Link href="/trade">
+            <strong>available</strong>
+          </Link>
+        </div>
       ) : null}
+
+      {comments.length > 0 ? <Comments comments={comments} /> : null}
     </div>
   );
 }
