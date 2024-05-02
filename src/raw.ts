@@ -208,7 +208,7 @@ export type SongType =
   | "Jambalaya"
   | "Jenny Jenny Jenny"
   | "Johnny Too Bad"
-  | "Jonathan I Feel So Bad"
+  | "Jonathan, I Feel So Bad"
   | "Jose Bove"
   | "Joy Over Sorrow"
   | "Just About 17"
@@ -261,7 +261,7 @@ export type SongType =
   | "More Fun In Our 40's"
   | "More Surprises"
   | "The Morning of Our Lives"
-  | "Mr Squiltage goes to College"
+  | "Mr. Squiltage"
   | "Mr. Sorrow"
   | "My Affected Accent"
   | "My Appearance on the Balcony"
@@ -567,7 +567,7 @@ export type SongType =
   | "Dueling Jojo's"
   | "Something You Believe In"
   | "Start All Over"
-  | "Fear"
+  | "Where Did The Fear Come From"
   | "Oh, Bus Driver"
   | "New York Poem"
   | "Dance With Me"
@@ -690,7 +690,12 @@ export type SongType =
   | "Gonna Make You Sweat (Everybody Dance Now)"
   | "I'm Young"
   | "I Want To Go Outside"
-  | "I'm A Prisoner Because Of Fabric Softener";
+  | "I'm A Prisoner Because Of Fabric Softener"
+  | "Let's Rock and Roll"
+  | "Let's Move Somewhere Else"
+  | "Shopper's World"
+  | "The Secret"
+  | "Beef Burger Ad";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1118,7 +1123,7 @@ export const songs: SongImport[] = [
   { name: "Jambalaya" },
   { name: "Jenny Jenny Jenny" },
   { name: "Johnny Too Bad" },
-  { name: "Jonathan I Feel So Bad" },
+  { name: "Jonathan, I Feel So Bad" },
   { name: "Jose Bove" },
   { name: "Joy Over Sorrow" },
   { name: "Just About 17" },
@@ -1171,7 +1176,7 @@ export const songs: SongImport[] = [
   { name: "More Fun In Our 40's" },
   { name: "More Surprises" },
   { name: "The Morning of Our Lives" },
-  { name: "Mr Squiltage goes to College" },
+  { name: "Mr. Squiltage" },
   { name: "Mr. Sorrow" },
   { name: "My Affected Accent" },
   { name: "My Appearance on the Balcony" },
@@ -1632,7 +1637,7 @@ export const songs: SongImport[] = [
   { name: "Dueling Jojo's" },
   { name: "Something You Believe In" },
   { name: "Start All Over" },
-  { name: "Fear" },
+  { name: "Where Did The Fear Come From" },
   { name: "Oh, Bus Driver" },
   { name: "New York Poem" },
   { name: "Dance With Me" },
@@ -1815,6 +1820,11 @@ export const songs: SongImport[] = [
   { name: "I'm Young" },
   { name: "I Want To Go Outside" },
   { name: "I'm A Prisoner Because Of Fabric Softener" },
+  { name: "Let's Rock and Roll" },
+  { name: "Let's Move Somewhere Else" },
+  { name: "Shopper's World" },
+  { name: "The Secret" },
+  { name: "Beef Burger Ad" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -5945,7 +5955,7 @@ export const recordings: RecordingImport[] = [
       { name: "That Summer Feeling", n: 3 },
       { name: "Egyptian Reggae", n: 4 },
       { name: "Down In Bermuda", n: 5 },
-      { name: "Fear", n: 6 },
+      { name: "Where Did The Fear Come From", n: 6 },
     ],
   },
   {
@@ -6363,7 +6373,7 @@ export const recordings: RecordingImport[] = [
       { name: "When I'm Walking", n: 7 },
       { name: "Here Come the Martian Martians", n: 8 },
       { name: "Up In The Sky Sometime", n: 9 },
-      { name: "Jonathan I Feel So Bad", n: 10 },
+      { name: "Jonathan, I Feel So Bad", n: 10 },
       { name: "Circle I", n: 11 },
       { name: "Affection", n: 12 },
       { name: "The Beach", n: 13 },
@@ -6375,7 +6385,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Very good audience recording of Jonathan with Ellie & Curly. Including an improvised and otherwise completely unknown song, 'Jonathan I feel so Bad', the words of which Jonathan seems to be spilling out, line by line, in a stream of consciousness style of improvisation.",
+        text: "Very good audience recording of Jonathan with Ellie & Curly. Including an improvised and otherwise completely unknown song, 'Jonathan, I feel so Bad', the words of which Jonathan seems to be spilling out, line by line, in a stream of consciousness style of improvisation.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -6472,7 +6482,7 @@ export const recordings: RecordingImport[] = [
       { name: "Rollercoaster By the Sea", n: 6 },
       { name: "Here Come the Martian Martians", n: 7 },
       { name: "My Jeans", n: 8 },
-      { name: "Mr Squiltage goes to College", n: 9 },
+      { name: "Mr. Squiltage", n: 9 },
       { name: "The Little Green and White Wrapper", n: 10 },
       { name: "Rockin' Rockin' Leprechauns", n: 11 },
       { name: "When I Dance", n: 12 },
@@ -21821,7 +21831,7 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    id: 9100000000,
+    id: 9000000026,
     type: "Compilation",
     name: "Just A Spark, On Journey From The Dark",
     year: 2021,
@@ -21864,6 +21874,82 @@ export const recordings: RecordingImport[] = [
       { name: "The Fenway", n: 32 },
       { name: "Nishi", n: 33 },
       { name: "Just A Spark, On Journey From The Dark", n: 34 },
+    ],
+  },
+  {
+    id: 9000000027,
+    type: "Compilation",
+    name: "The Lost Tapes",
+    songs: [
+      { name: "Cozy With a K", n: 1 },
+      { name: "Jail", n: 2 },
+      { name: "Tell How You Feel", n: 3 },
+      { name: "Let's Say We Just Met", n: 4 },
+      { name: "Up In Cold Maine Under the Stars", n: 5 },
+      { name: "Crazy Eddie", n: 6 },
+      { name: "I'm a Jerk", n: 7 },
+      { name: "The Morning of Our Lives", n: 8 },
+      { name: "In the Checkout Line", n: 9 },
+      { name: "Brand New Dance", n: 10 },
+      { name: "Five Year Old Feeling", n: 11 },
+      { name: "Five Year Old Feeling", n: 12 },
+      { name: "Dick Gregory", n: 13 },
+      { name: "Time For Foolin' Around", n: 14 },
+      { name: "Are You Feeling Good?", n: 15 },
+      { name: "I See What's Underneath", n: 16 },
+      { name: "My Name Is Jonathan", n: 17 },
+      { name: "I See What's Underneath", n: 18 },
+      { name: "Have You Got Something You Love", n: 19 },
+      { name: "Let's Rock and Roll", n: 20 },
+      { name: "My Runabout Girl", n: 21 },
+      { name: "Baby Baby Boss Me Around", n: 22 },
+      { name: "She's Running Away", n: 23 },
+      { name: "I Love Her Little Body", n: 24 },
+      { name: "Baby We Can't Go Wrong", n: 25 },
+      { name: "Get In the Groove", n: 26 },
+      { name: "Take Me Off The Shelf", n: 27 },
+      { name: "Are You Feeling Good?", n: 28 },
+      { name: "Too Hip", n: 29 },
+      { name: "Crazy Eddie", n: 30 },
+      { name: "Ice Cold NuGrape", n: 31 },
+      { name: "My Heart Was Won by a Girl", n: 32 },
+      { name: "I Can't Sleep Now", n: 33 },
+      { name: "Astral Plane", n: 34 },
+      { name: "Wonderful Girl", n: 35 },
+      { name: "Dick Gregory", n: 36 },
+      { name: "Rock n' Roll Number 9", n: 37 },
+      { name: "Little Boy In My Heart", n: 38 },
+      { name: "instrumental (trombone)", n: 39 },
+      { name: "My Heart Was Won by a Girl", n: 40 },
+      { name: "Let's Move Somewhere Else", n: 41 },
+      { name: "Tell How You Feel", n: 42 },
+      { name: "Let's Say We Just Met", n: 43 },
+      { name: "Oh, Bus Driver", n: 44 },
+      { name: "Let's Say We Just Met", n: 45 },
+      { name: "Shopper's World", n: 46 },
+      { name: "Mr. Squiltage", n: 47 },
+      { name: "Chewing Gum Wrapper", n: 48 },
+      { name: "I Moved Away", n: 49 },
+      { name: "I'm Your God Pan", n: 50 },
+      { name: "The Secret", n: 51 },
+      { name: "Beef Burger Ad", n: 52 },
+      { name: "I'm Not Afraid To Make Mistakes", n: 53 },
+      { name: "Jonathan, I Feel So Bad", n: 54 },
+      { name: "Miracles Will Start To Happen", n: 55 },
+      { name: "Blue Moon", n: 56 },
+      { name: "Bundle Of Joy", n: 57 },
+      { name: "Where Did The Fear Come From", n: 58 },
+      { name: "She Brings Out the Best in Me", n: 59 },
+      { name: "Mood Lighting for Dreaming", n: 60 },
+      { name: "I Don't Want To Go Halfway", n: 61 },
+      { name: "Her Way Moves Me", n: 62 },
+      { name: "Malingering", n: 63 },
+      { name: "I Had a Favorite Flower", n: 64 },
+      { name: "Time Stopped When We Held Hands", n: 65 },
+      { name: "There's Something About Mary", n: 66 },
+      { name: "I'm Waiting For the Man", n: 67 },
+      { name: "Hospital", n: 68 },
+      { name: "Astral Plane", n: 69 },
     ],
   },
 ];
