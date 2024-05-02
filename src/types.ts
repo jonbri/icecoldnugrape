@@ -138,8 +138,8 @@ export interface RecordingImport {
   year?: Year;
   month?: Month;
   date?: Date;
-  jon?: boolean;
-  jonnote?: string;
+  jb?: boolean;
+  jbnote?: string;
   breaks?: number[];
   format?: Format;
   songs: LinkedSongImport[];

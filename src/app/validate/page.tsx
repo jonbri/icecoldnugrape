@@ -11,7 +11,7 @@ interface Error {
 export default function Page() {
   const errors: Error[] = [];
   const recordings = getRecordings();
-  recordings.forEach(({ id, type, name, jon, songs, formattedTitle }) => {
+  recordings.forEach(({ id, type, name, jb, songs, formattedTitle }) => {
     if (type === "Album" || type === "Single") {
       if (name === undefined) {
         errors.push({
@@ -19,10 +19,10 @@ export default function Page() {
           message: `"${formattedTitle}" is missing a name`,
         });
       }
-      if (jon !== undefined) {
+      if (jb !== undefined) {
         errors.push({
           href: `/recordings/${id}`,
-          message: `"${formattedTitle}" cannot be marked with "jon"`,
+          message: `"${formattedTitle}" cannot be marked with "jb"`,
         });
       }
     }

@@ -1837,7 +1837,7 @@ export const recordings: RecordingImport[] = [
     quality: "Good",
     year: 1971,
     sublocation: "Cambridge",
-    jon: true,
+    jb: true,
     songs: [
       { name: "Walk Up the Street", n: 1 },
       { name: "She Cracked", n: 2 },
@@ -1871,8 +1871,8 @@ export const recordings: RecordingImport[] = [
     city: "Ipswich",
     quality: "Very Good",
     year: 1971,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     breaks: [7],
     songs: [
       { name: "Modern World", n: 1, set: 1 },
@@ -1911,8 +1911,8 @@ export const recordings: RecordingImport[] = [
     quality: "Very Good",
     year: 1972,
     name: "Songs of Rememberance",
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "I'm Waiting For the Man", n: 1 },
       { name: "Hospital", n: 2 },
@@ -1961,8 +1961,8 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 27,
     sublocation: "Cambridge",
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "I'm Dropping My Friends (One by One)", n: 1 },
       { name: "I Wanna Sleep In Your Arms", n: 2 },
@@ -1990,7 +1990,6 @@ export const recordings: RecordingImport[] = [
     quality: "Poor",
     year: 1973,
     sublocation: "Cambridge",
-    jon: false,
     songs: [
       { name: "Cambridge Clown", n: 1 },
       { name: "Fly Into the Mystery", n: 2 },
@@ -2019,7 +2018,7 @@ export const recordings: RecordingImport[] = [
     year: 1974,
     month: 2,
     date: 23,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Boston, USA", n: 1 },
       { name: "Goin' Home", n: 2 },
@@ -2064,8 +2063,8 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1974,
     name: "The Living Room Demo's",
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "I Feel Alright", n: 1 },
       { name: "Veil Of Cold", n: 2 },
@@ -2100,8 +2099,8 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1974,
     name: "The Laura Palmer Tape",
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Government Center", n: 1 },
       { name: "The New Teller", n: 2 },
@@ -2150,7 +2149,7 @@ export const recordings: RecordingImport[] = [
     year: 1975,
     month: 3,
     date: 20,
-    jon: true,
+    jb: true,
     songs: [
       { name: "This Little Light Of Mine", n: 1 },
       { name: "Rock Island Line", n: 2 },
@@ -2215,7 +2214,7 @@ export const recordings: RecordingImport[] = [
     year: 1975,
     month: 3,
     date: 29,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Fly Into the Mystery", n: 1 },
       { name: "Government Center", n: 2 },
@@ -2249,7 +2248,7 @@ export const recordings: RecordingImport[] = [
     year: 1976,
     month: 4,
     date: 11,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Here Come the Martian Martians", n: 1 },
       { name: "Doo Wop Number", n: 2 },
@@ -2284,7 +2283,6 @@ export const recordings: RecordingImport[] = [
     quality: "Poor",
     year: 1976,
     month: 4,
-    jon: false,
     breaks: [14],
     songs: [
       { name: "Here Come the Martian Martians", n: 1, set: 1 },
@@ -2330,7 +2328,6 @@ export const recordings: RecordingImport[] = [
     month: 8,
     date: 30,
     name: "Varulven Interview",
-    jon: false,
     songs: [{ name: "interview...", n: 1 }],
     comments: [
       {
@@ -2392,8 +2389,8 @@ export const recordings: RecordingImport[] = [
     year: 1976,
     month: 10,
     date: 3,
-    jon: true,
-    jonnote: "aiff",
+    jb: true,
+    jbnote: "aiff",
     breaks: [15],
     songs: [
       { name: "instrumental", n: 1, set: 1 },
@@ -2441,8 +2438,8 @@ export const recordings: RecordingImport[] = [
     year: 1976,
     month: 10,
     date: 9,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Back in the USA", n: 1 },
       { name: "Roadrunner", n: 2 },
@@ -2500,7 +2497,6 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 6,
     name: "Oedipus Interview",
-    jon: false,
     songs: [
       { name: "interview...", n: 1 },
       { name: "Girlfren'", n: 2 },
@@ -2526,7 +2522,7 @@ export const recordings: RecordingImport[] = [
     city: "Boston",
     quality: "Excellent",
     year: 1976,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Government Center", n: 1 },
       { name: "Government Center", n: 2 },
@@ -2615,8 +2611,8 @@ export const recordings: RecordingImport[] = [
     year: 1977,
     month: 3,
     date: 13,
-    jon: true,
-    jonnote: "aiff - early show",
+    jb: true,
+    jbnote: "aiff - early show",
     songs: [
       { name: "Afternoon", n: 1 },
       { name: "I'm a Little Dinosaur", n: 2 },
@@ -2662,8 +2658,8 @@ export const recordings: RecordingImport[] = [
     year: 1977,
     month: 3,
     date: 13,
-    jon: true,
-    jonnote: "aiff - late show",
+    jb: true,
+    jbnote: "aiff - late show",
     breaks: [15],
     songs: [
       { name: "Afternoon", n: 1, set: 1 },
@@ -2708,7 +2704,7 @@ export const recordings: RecordingImport[] = [
     year: 1977,
     month: 3,
     date: 23,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Ice Cream Man", n: 1 },
       { name: "Hi Dear", n: 2 },
@@ -2742,7 +2738,6 @@ export const recordings: RecordingImport[] = [
     year: 1977,
     month: 9,
     date: 24,
-    jon: false,
     songs: [
       { name: "I'm a Little Dinosaur", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -2785,7 +2780,6 @@ export const recordings: RecordingImport[] = [
     year: 1977,
     month: 10,
     date: 29,
-    jon: false,
     songs: [
       { name: "Back in the USA", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -2867,7 +2861,6 @@ export const recordings: RecordingImport[] = [
     city: "Boston",
     quality: "Very Good",
     year: 1977,
-    jon: false,
     songs: [
       { name: "My Little Kookenhaken", n: 1 },
       { name: "Afternoon", n: 2 },
@@ -2901,7 +2894,7 @@ export const recordings: RecordingImport[] = [
     city: "Boston",
     quality: "Excellent",
     year: 1977,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -3006,7 +2999,6 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     month: 2,
     date: 17,
-    jon: false,
     songs: [
       { name: "Ice Cream Man", n: 1 },
       { name: "Abdul and Cleopatra", n: 2 },
@@ -3041,7 +3033,7 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     month: 2,
     date: 17,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Ice Cream Man", n: 1 },
       { name: "Abdul and Cleopatra", n: 2 },
@@ -3081,8 +3073,8 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     month: 3,
     date: 3,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Important in Your Life", n: 1 },
       { name: "The New Teller", n: 2 },
@@ -3112,8 +3104,8 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     month: 3,
     date: 4,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Lydia", n: 1, set: 1 },
       { name: "Abominable Snowman in the Market", n: 2, set: 1 },
@@ -3140,7 +3132,7 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     month: 4,
     date: 15,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Lover Please", n: 1 },
       { name: "It's Afternoon And The Range Is Calling", n: 2 },
@@ -3173,8 +3165,8 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     month: 4,
     date: 30,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Hello Josephine", n: 1 },
       { name: "I'm a Little Airplane", n: 2 },
@@ -3221,8 +3213,8 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 1,
     name: "Round Table UK Radio 1",
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [],
     comments: [
       {
@@ -3241,8 +3233,8 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 4,
     name: "VPRO Radio - Amigos De Musica",
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "I'm a Little Dinosaur", n: 1 },
       { name: "Route 66", n: 2 },
@@ -3275,8 +3267,8 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 15,
     name: "Pinkpop Festival",
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "New England", n: 1 },
       { name: "Important in Your Life", n: 2 },
@@ -3315,8 +3307,8 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     month: 5,
     date: 18,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -3349,7 +3341,7 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     month: 6,
     date: 16,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -3362,7 +3354,6 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 17,
     name: "Radiohuset Radio Show",
-    jon: false,
     songs: [
       { name: "Hi Dear", n: 1 },
       { name: "Back in the USA", n: 2 },
@@ -3405,7 +3396,7 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     month: 6,
     date: 22,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Back in the USA", n: 1 },
       { name: "Route 66", n: 2 },
@@ -3447,8 +3438,8 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     month: 7,
     date: 7,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Here Come the Martian Martians", n: 1 },
       { name: "Abdul and Cleopatra", n: 2 },
@@ -3504,8 +3495,8 @@ export const recordings: RecordingImport[] = [
     year: 1978,
     month: 7,
     date: 8,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "My Love is a Flower (Just Beginning to Bloom)", n: 1 },
       { name: "Springtime", n: 2 },
@@ -3539,7 +3530,6 @@ export const recordings: RecordingImport[] = [
     city: "Boston",
     year: 1978,
     month: 9,
-    jon: false,
     songs: [],
     comments: [
       {
@@ -3555,7 +3545,6 @@ export const recordings: RecordingImport[] = [
     country: "Netherlands",
     year: 1978,
     name: "Top Pop",
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "New England", n: 2 },
@@ -3646,7 +3635,6 @@ export const recordings: RecordingImport[] = [
     quality: "Very Good",
     year: 1978,
     name: "VPRO",
-    jon: false,
     songs: [
       { name: "Up In Cold Maine Under the Stars", n: 1 },
       { name: "New England", n: 2 },
@@ -3669,7 +3657,7 @@ export const recordings: RecordingImport[] = [
     year: 1979,
     month: 3,
     date: 17,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -3682,7 +3670,7 @@ export const recordings: RecordingImport[] = [
     year: 1979,
     month: 4,
     date: 1,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Party In The Woods Tonight", n: 1 },
       { name: "It's Afternoon And The Range Is Calling", n: 2 },
@@ -3725,7 +3713,7 @@ export const recordings: RecordingImport[] = [
     year: 1979,
     month: 7,
     date: 13,
-    jon: true,
+    jb: true,
     breaks: [16],
     songs: [
       { name: "Back in Your Life", n: 1, set: 1 },
@@ -3780,7 +3768,7 @@ export const recordings: RecordingImport[] = [
     year: 1979,
     month: 7,
     date: 14,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Ice Cream Man", n: 1, set: 1 },
       { name: "Shirin and Fahrad", n: 2, set: 1 },
@@ -3808,7 +3796,7 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1979,
     name: "Gold Star Studio Demos",
-    jon: true,
+    jb: true,
     songs: [
       { name: "Nuclear Nightmare", n: 1 },
       { name: "Cupid", n: 2 },
@@ -3888,7 +3876,6 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1979,
     name: "Capital in Stereo (UK Radio)",
-    jon: false,
     songs: [{ name: "interview...", n: 1 }],
     comments: [
       {
@@ -3906,7 +3893,7 @@ export const recordings: RecordingImport[] = [
     quality: "Good",
     year: 1979,
     name: "The Paley Sessions",
-    jon: true,
+    jb: true,
     songs: [
       { name: "The Morning of Our Lives", n: 1 },
       { name: "This Little Light Of Mine", n: 2 },
@@ -3959,7 +3946,7 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1979,
     name: "The Lost LP",
-    jon: true,
+    jb: true,
     songs: [
       { name: "I'm a Little Airplane", n: 1 },
       { name: "The Morning of Our Lives", n: 2 },
@@ -3992,7 +3979,7 @@ export const recordings: RecordingImport[] = [
     year: 1980,
     month: 5,
     date: 10,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -4037,7 +4024,7 @@ export const recordings: RecordingImport[] = [
     year: 1980,
     month: 5,
     date: 23,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Ice Cream Man", n: 1 },
       { name: "Hang On Sloopy", n: 2 },
@@ -4077,7 +4064,6 @@ export const recordings: RecordingImport[] = [
     year: 1980,
     month: 7,
     date: 18,
-    jon: false,
     songs: [
       { name: "Back in Your Life", n: 1 },
       { name: "Rockin' Rockin' Leprechauns", n: 2 },
@@ -4116,7 +4102,6 @@ export const recordings: RecordingImport[] = [
     year: 1980,
     month: 10,
     date: 5,
-    jon: false,
     songs: [
       { name: "Miracles Will Start To Happen", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -4148,8 +4133,8 @@ export const recordings: RecordingImport[] = [
     year: 1980,
     month: 10,
     date: 7,
-    jon: true,
-    jonnote: "aiff",
+    jb: true,
+    jbnote: "aiff",
     songs: [
       { name: "Important in Your Life", n: 1 },
       { name: "Back in the USA", n: 2 },
@@ -4214,8 +4199,8 @@ export const recordings: RecordingImport[] = [
     year: 1980,
     month: 10,
     date: 18,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Baby We Can't Go Wrong", n: 1 },
       { name: "Here Come the Martian Martians", n: 2 },
@@ -4259,7 +4244,7 @@ export const recordings: RecordingImport[] = [
     quality: "Very Good",
     year: 1980,
     name: "Boston Area Tape",
-    jon: true,
+    jb: true,
     songs: [
       { name: "Foggy Notion", n: 1 },
       { name: "Back in the USA", n: 2 },
@@ -4290,7 +4275,7 @@ export const recordings: RecordingImport[] = [
     quality: "Very Good",
     year: 1980,
     name: "WBCN Radio Broadcast",
-    jon: true,
+    jb: true,
     songs: [
       { name: "Dueling Jojo's", n: 1 },
       { name: "Somebody To Hold Me", n: 2 },
@@ -4321,7 +4306,6 @@ export const recordings: RecordingImport[] = [
     city: "Boston",
     year: 1980,
     name: "Boston TV",
-    jon: false,
     songs: [
       { name: "Baby We Can't Go Wrong", n: 1 },
       { name: "The Fenway", n: 2 },
@@ -4335,7 +4319,7 @@ export const recordings: RecordingImport[] = [
     quality: "Good",
     year: 1980,
     name: "Studio Session Late 1980 (Jonathan Goes Funky)",
-    jon: true,
+    jb: true,
     songs: [
       { name: "Somebody To Hold Me", n: 1 },
       { name: "The Neighbors", n: 2 },
@@ -4375,7 +4359,7 @@ export const recordings: RecordingImport[] = [
     year: 1981,
     month: 2,
     date: 6,
-    jon: true,
+    jb: true,
     breaks: [12],
     songs: [
       { name: "Baby We Can't Go Wrong", n: 1, set: 1 },
@@ -4424,7 +4408,7 @@ export const recordings: RecordingImport[] = [
     year: 1981,
     month: 2,
     date: 13,
-    jon: true,
+    jb: true,
     breaks: [11],
     songs: [
       { name: "New England", n: 1, set: 1 },
@@ -4478,7 +4462,6 @@ export const recordings: RecordingImport[] = [
     year: 1981,
     month: 2,
     date: 14,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -4532,8 +4515,8 @@ export const recordings: RecordingImport[] = [
     year: 1981,
     month: 2,
     date: 20,
-    jon: true,
-    jonnote: "aiff",
+    jb: true,
+    jbnote: "aiff",
     breaks: [15],
     songs: [
       { name: "New England", n: 1, set: 1 },
@@ -4584,7 +4567,7 @@ export const recordings: RecordingImport[] = [
     year: 1981,
     month: 2,
     date: 21,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Egyptian Reggae", n: 1, set: 1 },
       { name: "Ice Cream Man", n: 2, set: 1 },
@@ -4628,7 +4611,7 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1981,
     month: 3,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Baby We Can't Go Wrong", n: 1 },
       { name: "Back in Your Life", n: 2 },
@@ -4671,7 +4654,7 @@ export const recordings: RecordingImport[] = [
     year: 1981,
     month: 7,
     date: 17,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Ice Cream Man", n: 1 },
       { name: "Roadrunner", n: 2 },
@@ -4715,7 +4698,7 @@ export const recordings: RecordingImport[] = [
     year: 1981,
     month: 7,
     date: 20,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Roadrunner", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -4756,7 +4739,6 @@ export const recordings: RecordingImport[] = [
     year: 1981,
     month: 7,
     date: 25,
-    jon: false,
     songs: [{ name: "Roadrunner", n: 1 }],
     comments: [
       {
@@ -4776,7 +4758,7 @@ export const recordings: RecordingImport[] = [
     year: 1981,
     month: 10,
     date: 10,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Ice Cream Man", n: 1 },
       { name: "My Name Is Jonathan", n: 2 },
@@ -4805,7 +4787,7 @@ export const recordings: RecordingImport[] = [
     year: 1981,
     month: 11,
     date: 18,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Ice Cream Man", n: 1 },
       { name: "Are You Feeling Good?", n: 2 },
@@ -4844,7 +4826,7 @@ export const recordings: RecordingImport[] = [
     year: 1981,
     month: 12,
     date: 27,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Ice Cream Man", n: 1 },
       { name: "instrumental", n: 2 },
@@ -4900,7 +4882,6 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1981,
     name: "Jonathan Sing's Demos",
-    jon: false,
     songs: [
       { name: "Stop This Car", n: 1 },
       { name: "You're the One For Me", n: 2 },
@@ -4934,7 +4915,6 @@ export const recordings: RecordingImport[] = [
     quality: "Good",
     year: 1981,
     name: "French TV",
-    jon: false,
     songs: [
       { name: "Crazy Eddie", n: 1 },
       { name: "Crazy Little Mama", n: 2 },
@@ -4956,7 +4936,7 @@ export const recordings: RecordingImport[] = [
     country: "USA",
     year: 1982,
     name: "WBCN Radio Interview",
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -4967,7 +4947,6 @@ export const recordings: RecordingImport[] = [
     city: "NY",
     year: 1982,
     month: 2,
-    jon: false,
     songs: [],
     comments: [
       {
@@ -4988,7 +4967,7 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 2,
     sublocation: "Cambridge",
-    jon: true,
+    jb: true,
     breaks: [15],
     songs: [
       { name: "That Summer Feeling", n: 1, set: 1 },
@@ -5043,7 +5022,7 @@ export const recordings: RecordingImport[] = [
     year: 1982,
     month: 3,
     date: 20,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Egyptian Reggae", n: 1, set: 1 },
       { name: "Not Yet 3", n: 2, set: 1 },
@@ -5119,7 +5098,7 @@ export const recordings: RecordingImport[] = [
     year: 1982,
     month: 3,
     date: 21,
-    jon: true,
+    jb: true,
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "instrumental", n: 2 },
@@ -5161,8 +5140,8 @@ export const recordings: RecordingImport[] = [
     year: 1982,
     month: 5,
     date: 5,
-    jon: true,
-    jonnote: "aiff",
+    jb: true,
+    jbnote: "aiff",
     songs: [
       { name: "Here Come the Martian Martians", n: 1 },
       { name: "That Summer Feeling", n: 2 },
@@ -5207,8 +5186,8 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 13,
     sublocation: "Cambridge",
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Tahitian Hop", n: 1 },
       { name: "The Neighbors", n: 2 },
@@ -5251,7 +5230,7 @@ export const recordings: RecordingImport[] = [
     year: 1982,
     month: 5,
     date: 19,
-    jon: true,
+    jb: true,
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -5292,7 +5271,6 @@ export const recordings: RecordingImport[] = [
     year: 1982,
     month: 6,
     date: 3,
-    jon: false,
     songs: [
       { name: "Ice Cream Man", n: 1 },
       { name: "Here Come the Martian Martians", n: 2 },
@@ -5329,7 +5307,7 @@ export const recordings: RecordingImport[] = [
     year: 1982,
     month: 9,
     date: 23,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Don't You Just Know It", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -5365,7 +5343,7 @@ export const recordings: RecordingImport[] = [
     year: 1982,
     month: 9,
     date: 24,
-    jon: true,
+    jb: true,
     songs: [
       { name: "South American Folk Song", n: 1 },
       { name: "Here Come the Martian Martians", n: 2 },
@@ -5405,7 +5383,6 @@ export const recordings: RecordingImport[] = [
     year: 1982,
     month: 10,
     date: 23,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -5446,7 +5423,6 @@ export const recordings: RecordingImport[] = [
     quality: "Good",
     year: 1982,
     name: "French Radio Show",
-    jon: false,
     songs: [
       { name: "Up In The Sky Sometime", n: 1 },
       { name: "Let's Go Playing", n: 2 },
@@ -5470,7 +5446,7 @@ export const recordings: RecordingImport[] = [
     year: 1983,
     month: 2,
     date: 14,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Rockin' Robin", n: 1 },
       { name: "Up In The Sky Sometime", n: 2 },
@@ -5531,7 +5507,7 @@ export const recordings: RecordingImport[] = [
     year: 1983,
     month: 3,
     date: 19,
-    jon: true,
+    jb: true,
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "Are You Feeling Good?", n: 2 },
@@ -5579,8 +5555,8 @@ export const recordings: RecordingImport[] = [
     year: 1983,
     month: 8,
     date: 27,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Louie Louie", n: 1 },
       { name: "Hang On Sloopy", n: 2 },
@@ -5619,7 +5595,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 7,
     sublocation: "Bluewall",
-    jon: false,
     songs: [
       { name: "Ice Cream Man", n: 1 },
       { name: "That Summer Feeling", n: 2 },
@@ -5653,8 +5628,8 @@ export const recordings: RecordingImport[] = [
     year: 1983,
     month: 10,
     date: 9,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "Those Conga Drums", n: 2 },
@@ -5682,7 +5657,7 @@ export const recordings: RecordingImport[] = [
     year: 1983,
     month: 10,
     date: 10,
-    jon: true,
+    jb: true,
     breaks: [18],
     songs: [
       { name: "The Fenway", n: 1, set: 1 },
@@ -5746,7 +5721,7 @@ export const recordings: RecordingImport[] = [
     year: 1983,
     month: 10,
     date: 11,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Five Year Old Feeling", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -5801,7 +5776,6 @@ export const recordings: RecordingImport[] = [
     year: 1983,
     month: 10,
     date: 25,
-    jon: false,
     songs: [],
     comments: [
       {
@@ -5821,7 +5795,7 @@ export const recordings: RecordingImport[] = [
     year: 1983,
     month: 11,
     date: 15,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "Here Come the Martian Martians", n: 2 },
@@ -5865,8 +5839,8 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 20,
     name: "The Penthouse Radio Show",
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Not Yet 3", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -5898,7 +5872,6 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 22,
     name: "WTUL Radio",
-    jon: false,
     songs: [],
   },
   {
@@ -5910,7 +5883,6 @@ export const recordings: RecordingImport[] = [
     year: 1983,
     month: 11,
     date: 22,
-    jon: false,
     songs: [
       { name: "instrumental", n: 1 },
       { name: "Rockin' Rockin' Leprechauns", n: 2 },
@@ -5948,7 +5920,6 @@ export const recordings: RecordingImport[] = [
     type: "Radio",
     year: 1983,
     name: "KCSC Radio Show",
-    jon: false,
     songs: [
       { name: "Affection", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -5966,8 +5937,8 @@ export const recordings: RecordingImport[] = [
     city: "Portland",
     quality: "Excellent",
     year: 1983,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "Stop This Car", n: 2 },
@@ -6039,7 +6010,6 @@ export const recordings: RecordingImport[] = [
     type: "Studio Bootleg",
     year: 1983,
     name: "Jonathan Sings! Outtakes",
-    jon: false,
     songs: [
       { name: "I See What's Underneath", n: 1 },
       { name: "Stop This Car", n: 2 },
@@ -6055,7 +6025,6 @@ export const recordings: RecordingImport[] = [
     type: "Radio",
     year: 1983,
     name: "KALX Radio Show",
-    jon: false,
     songs: [
       { name: "Ice Cream Man", n: 1 },
       { name: "Up In The Sky Sometime", n: 2 },
@@ -6072,7 +6041,6 @@ export const recordings: RecordingImport[] = [
     quality: "Very Good",
     year: 1984,
     name: "UK Radio - Radio 1",
-    jon: false,
     songs: [
       { name: "interview...", n: 1 },
       { name: "The Beach", n: 2 },
@@ -6104,7 +6072,7 @@ export const recordings: RecordingImport[] = [
     year: 1984,
     month: 1,
     date: 27,
-    jon: true,
+    jb: true,
     songs: [
       { name: "instrumental", n: 1 },
       { name: "Vincent Van Gogh", n: 2 },
@@ -6140,7 +6108,6 @@ export const recordings: RecordingImport[] = [
     quality: "Very Good",
     year: 1984,
     month: 2,
-    jon: false,
     songs: [
       { name: "instrumental", n: 1 },
       { name: "Vincent Van Gogh", n: 2 },
@@ -6184,8 +6151,8 @@ export const recordings: RecordingImport[] = [
     year: 1984,
     month: 6,
     date: 21,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Yo Jo Jo", n: 2 },
@@ -6216,7 +6183,7 @@ export const recordings: RecordingImport[] = [
     year: 1984,
     month: 7,
     date: 1,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -6228,7 +6195,6 @@ export const recordings: RecordingImport[] = [
     year: 1984,
     month: 7,
     date: 7,
-    jon: false,
     songs: [],
     comments: [
       {
@@ -6248,8 +6214,8 @@ export const recordings: RecordingImport[] = [
     year: 1984,
     month: 7,
     date: 12,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "The Beach", n: 2 },
@@ -6291,7 +6257,6 @@ export const recordings: RecordingImport[] = [
     year: 1984,
     month: 7,
     date: 27,
-    jon: false,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Here Come the Martian Martians", n: 2 },
@@ -6330,7 +6295,7 @@ export const recordings: RecordingImport[] = [
     month: 7,
     date: 29,
     name: "Elephant Fayre",
-    jon: true,
+    jb: true,
     songs: [
       { name: "My Jeans", n: 1 },
       { name: "Hey There Little Insect", n: 2 },
@@ -6361,8 +6326,8 @@ export const recordings: RecordingImport[] = [
     year: 1984,
     month: 7,
     date: 31,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "My Jeans", n: 2 },
@@ -6398,8 +6363,8 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1984,
     month: 7,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "This Kind Of Music", n: 1 },
       { name: "My Jeans", n: 2 },
@@ -6423,7 +6388,6 @@ export const recordings: RecordingImport[] = [
     year: 1984,
     month: 8,
     date: 3,
-    jon: false,
     songs: [
       { name: "Here Come the Martian Martians", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -6471,8 +6435,8 @@ export const recordings: RecordingImport[] = [
     year: 1984,
     month: 8,
     date: 6,
-    jon: true,
-    jonnote: "wav",
+    jb: true,
+    jbnote: "wav",
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "This Kind Of Music", n: 2 },
@@ -6512,7 +6476,6 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     month: 4,
     date: 25,
-    jon: false,
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "Louie Louie", n: 2 },
@@ -6553,7 +6516,7 @@ export const recordings: RecordingImport[] = [
     date: 8,
     name: "Earth First Benefit",
     sublocation: "La Pena",
-    jon: true,
+    jb: true,
     songs: [
       { name: "instrumental", n: 1 },
       { name: "Louie Louie", n: 2 },
@@ -6595,7 +6558,7 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     month: 6,
     date: 3,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -6641,7 +6604,7 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     month: 6,
     date: 12,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "This Kind Of Music", n: 2 },
@@ -6688,8 +6651,8 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     month: 6,
     date: 17,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -6720,7 +6683,6 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     month: 6,
     date: 20,
-    jon: false,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Louie Louie", n: 2 },
@@ -6762,7 +6724,6 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     month: 6,
     date: 21,
-    jon: false,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Corner Store", n: 2 },
@@ -6793,7 +6754,7 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     month: 6,
     date: 24,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Louie Louie", n: 2 },
@@ -6849,7 +6810,7 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     month: 7,
     date: 5,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "This Kind Of Music", n: 2 },
@@ -6886,7 +6847,6 @@ export const recordings: RecordingImport[] = [
     month: 7,
     date: 10,
     name: "The Janice Long Show",
-    jon: false,
     songs: [{ name: "interview...", n: 1 }],
   },
   {
@@ -6899,7 +6859,7 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     month: 8,
     date: 6,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Louie Louie", n: 2 },
@@ -6947,7 +6907,6 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     month: 8,
     date: 31,
-    jon: false,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "The UFO Man", n: 2 },
@@ -6979,7 +6938,6 @@ export const recordings: RecordingImport[] = [
     year: 1985,
     month: 9,
     date: 27,
-    jon: false,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Chewing Gum Wrapper", n: 2 },
@@ -7025,8 +6983,8 @@ export const recordings: RecordingImport[] = [
     city: "St. Louis",
     quality: "Excellent",
     year: 1985,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "This Kind Of Music", n: 2 },
@@ -7108,8 +7066,8 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 1,
     date: 16,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The UFO Man", n: 1 },
       { name: "I'm a Little Dinosaur", n: 2 },
@@ -7146,7 +7104,7 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 1,
     date: 19,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -7159,8 +7117,8 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 1,
     date: 21,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Now is Better Than Before", n: 2 },
@@ -7192,7 +7150,7 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 3,
     date: 4,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Corner Store", n: 1 },
       { name: "Vincent Van Gogh", n: 2 },
@@ -7242,7 +7200,7 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 3,
     date: 16,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -7294,7 +7252,6 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 3,
     date: 23,
-    jon: false,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -7334,8 +7291,8 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 4,
     date: 10,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "My Jeans", n: 2 },
@@ -7373,7 +7330,7 @@ export const recordings: RecordingImport[] = [
     month: 4,
     date: 15,
     sublocation: "San Giuliano",
-    jon: true,
+    jb: true,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -7419,7 +7376,6 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 4,
     date: 16,
-    jon: false,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Chewing Gum Wrapper", n: 2 },
@@ -7465,7 +7421,6 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 4,
     date: 17,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Vincent Van Gogh", n: 2 },
@@ -7513,7 +7468,6 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 9,
     date: 5,
-    jon: false,
     songs: [
       { name: "Gail Loves Me", n: 1 },
       { name: "The Beach", n: 2 },
@@ -7562,7 +7516,6 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 9,
     date: 5,
-    jon: false,
     songs: [
       { name: "instrumental", n: 1 },
       { name: "The Beach", n: 2 },
@@ -7610,8 +7563,8 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 9,
     date: 8,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "Not Yet 3", n: 2 },
@@ -7654,7 +7607,7 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 9,
     date: 27,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -7666,8 +7619,8 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 12,
     date: 6,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -7700,7 +7653,6 @@ export const recordings: RecordingImport[] = [
     city: "London",
     quality: "Excellent",
     year: 1986,
-    jon: false,
     songs: [
       { name: "Let's Take a Trip", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -7759,7 +7711,7 @@ export const recordings: RecordingImport[] = [
     type: "Show",
     name: "Unknown Location",
     year: 1986,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Just About 17", n: 1 },
       { name: "Yo Jo Jo", n: 2 },
@@ -7788,8 +7740,8 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 1,
     date: 25,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Give Paris One More Chance", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -7837,7 +7789,6 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 1,
     date: 27,
-    jon: false,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -7878,7 +7829,6 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 2,
     date: 26,
-    jon: false,
     songs: [
       { name: "The UFO Man", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -7918,7 +7868,6 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 2,
     date: 27,
-    jon: false,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -7953,7 +7902,6 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 3,
     date: 14,
-    jon: false,
     songs: [],
   },
   {
@@ -7966,7 +7914,6 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 3,
     date: 15,
-    jon: false,
     songs: [
       { name: "Dancin' Late at Night", n: 1 },
       { name: "Vincent Van Gogh", n: 2 },
@@ -7999,7 +7946,7 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 3,
     date: 27,
-    jon: true,
+    jb: true,
     songs: [
       { name: "The UFO Man", n: 1 },
       { name: "The Beach", n: 2 },
@@ -8041,8 +7988,8 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 5,
     date: 5,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Vincent Van Gogh", n: 2 },
@@ -8088,8 +8035,8 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 8,
     date: 21,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "You're the One For Me", n: 1 },
       { name: "Chewing Gum Wrapper", n: 2 },
@@ -8133,7 +8080,6 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 9,
     date: 25,
-    jon: false,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -8176,7 +8122,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 11,
     name: "Dr. Demento Radio Show",
-    jon: false,
     songs: [],
     comments: [
       {
@@ -8197,7 +8142,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 20,
     sublocation: "Cambridge",
-    jon: false,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -8223,7 +8167,6 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 10,
     date: 27,
-    jon: false,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Now is Better Than Before", n: 2 },
@@ -8245,8 +8188,8 @@ export const recordings: RecordingImport[] = [
     year: 1987,
     month: 12,
     date: 26,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "California Desert Party", n: 2 },
@@ -8281,7 +8224,6 @@ export const recordings: RecordingImport[] = [
     quality: "Good",
     year: 1987,
     name: "KFSR Interview",
-    jon: false,
     songs: [
       { name: "I'm a Little Dinosaur", n: 1 },
       { name: "The UFO Man", n: 2 },
@@ -8311,7 +8253,6 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 1,
     date: 14,
-    jon: false,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -8351,8 +8292,8 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 1,
     date: 15,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Girlfren'", n: 1 },
       { name: "The Sweeping Wind", n: 2 },
@@ -8393,7 +8334,7 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 1,
     date: 22,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -8406,7 +8347,6 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 1,
     date: 27,
-    jon: false,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -8440,7 +8380,7 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 2,
     date: 4,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Dancin' Late at Night", n: 1 },
       { name: "Those Conga Drums", n: 2 },
@@ -8490,7 +8430,7 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 2,
     date: 12,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Now is Better Than Before", n: 2 },
@@ -8552,7 +8492,7 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 3,
     date: 2,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Gail Loves Me", n: 2 },
@@ -8589,7 +8529,7 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 3,
     date: 3,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -8634,7 +8574,6 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 3,
     date: 5,
-    jon: false,
     songs: [
       { name: "It's You", n: 1 },
       { name: "This Kind Of Music", n: 2 },
@@ -8676,7 +8615,6 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 3,
     date: 6,
-    jon: false,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -8721,8 +8659,8 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 4,
     date: 7,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "The UFO Man", n: 2 },
@@ -8773,8 +8711,8 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 6,
     date: 28,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Chewing Gum Wrapper", n: 2 },
@@ -8819,7 +8757,7 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 7,
     date: 2,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "Malaguena De Jojo", n: 2 },
@@ -8853,7 +8791,7 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 7,
     date: 3,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Let's Take a Trip", n: 1 },
       { name: "The Heart of Saturday Night", n: 2 },
@@ -8893,8 +8831,8 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 7,
     date: 9,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Chewing Gum Wrapper", n: 2 },
@@ -8922,7 +8860,7 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 7,
     date: 10,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -8933,8 +8871,8 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 9,
     date: 10,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Malaguena De Jojo", n: 2 },
@@ -8974,7 +8912,6 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 11,
     date: 3,
-    jon: false,
     songs: [
       { name: "Malaguena De Jojo", n: 1 },
       { name: "Gail Loves Me", n: 2 },
@@ -9024,7 +8961,6 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 9,
     sublocation: "Cambridge",
-    jon: false,
     songs: [
       { name: "Malaguena De Jojo", n: 1 },
       { name: "The Beach", n: 2 },
@@ -9069,7 +9005,7 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 11,
     date: 10,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -9082,8 +9018,8 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 11,
     date: 14,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     breaks: [14],
     songs: [
       { name: "instrumental", n: 1, set: 1 },
@@ -9140,7 +9076,6 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 12,
     date: 5,
-    jon: false,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Gail Loves Me", n: 2 },
@@ -9189,8 +9124,8 @@ export const recordings: RecordingImport[] = [
     year: 1988,
     month: 2,
     date: 9,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -9267,7 +9202,6 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 17,
     name: "BBC Radio",
-    jon: false,
     songs: [
       { name: "The UFO Man", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -9290,7 +9224,6 @@ export const recordings: RecordingImport[] = [
     year: 1989,
     month: 7,
     date: 13,
-    jon: false,
     songs: [
       { name: "This Kind Of Music", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -9320,7 +9253,6 @@ export const recordings: RecordingImport[] = [
     year: 1989,
     month: 7,
     date: 22,
-    jon: false,
     songs: [
       { name: "Gail Loves Me", n: 1 },
       { name: "Rodeo Wind", n: 2 },
@@ -9364,7 +9296,6 @@ export const recordings: RecordingImport[] = [
     year: 1989,
     month: 8,
     date: 9,
-    jon: false,
     songs: [
       { name: "Malaguena De Jojo", n: 1 },
       { name: "Gail Loves Me", n: 2 },
@@ -9417,8 +9348,7 @@ export const recordings: RecordingImport[] = [
     year: 1989,
     month: 10,
     date: 20,
-    jon: false,
-    jonnote: "mp3",
+    jbnote: "mp3",
     songs: [
       { name: "Malaguena De Jojo", n: 1 },
       { name: "The Beach", n: 2 },
@@ -9459,8 +9389,7 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1989,
     month: 12,
-    jon: false,
-    jonnote: "aac",
+    jbnote: "aac",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -9541,7 +9470,6 @@ export const recordings: RecordingImport[] = [
     year: 1990,
     month: 3,
     date: 5,
-    jon: false,
     songs: [
       { name: "Action Packed", n: 1 },
       { name: "The Neighbors", n: 2 },
@@ -9593,7 +9521,6 @@ export const recordings: RecordingImport[] = [
     year: 1990,
     month: 7,
     date: 1,
-    jon: false,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Gail Loves Me", n: 2 },
@@ -9652,7 +9579,6 @@ export const recordings: RecordingImport[] = [
     year: 1990,
     month: 8,
     date: 26,
-    jon: false,
     songs: [
       { name: "Action Packed", n: 1 },
       { name: "Vincent Van Gogh", n: 2 },
@@ -9709,7 +9635,6 @@ export const recordings: RecordingImport[] = [
     month: 9,
     date: 5,
     name: "VPRO Radio",
-    jon: false,
     songs: [
       { name: "You're the One For Me", n: 1 },
       { name: "You're Crazy For Taking the Bus", n: 2 },
@@ -9734,7 +9659,6 @@ export const recordings: RecordingImport[] = [
     year: 1990,
     month: 9,
     date: 8,
-    jon: false,
     songs: [
       { name: "Action Packed", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -9784,7 +9708,6 @@ export const recordings: RecordingImport[] = [
     year: 1990,
     month: 9,
     date: 17,
-    jon: false,
     songs: [
       { name: "The UFO Man", n: 1 },
       { name: "The Neighbors", n: 2 },
@@ -9825,7 +9748,6 @@ export const recordings: RecordingImport[] = [
     year: 1990,
     month: 9,
     date: 30,
-    jon: false,
     songs: [
       { name: "Action Packed", n: 1 },
       { name: "The Beach", n: 2 },
@@ -9873,8 +9795,7 @@ export const recordings: RecordingImport[] = [
     year: 1990,
     month: 10,
     date: 3,
-    jon: false,
-    jonnote: "mp3",
+    jbnote: "mp3",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "I Have Come Out to Play", n: 2 },
@@ -9923,7 +9844,6 @@ export const recordings: RecordingImport[] = [
     year: 1990,
     month: 10,
     date: 3,
-    jon: false,
     songs: [
       { name: "Chewing Gum Wrapper", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -10008,7 +9928,6 @@ export const recordings: RecordingImport[] = [
     city: "Savannah",
     quality: "Excellent",
     year: 1990,
-    jon: false,
     songs: [
       { name: "Action Packed", n: 1 },
       { name: "Back in Your Life", n: 2 },
@@ -10053,7 +9972,6 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 2,
     date: 13,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "When I Say Wife", n: 2 },
@@ -10115,8 +10033,8 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 2,
     date: 16,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Reno", n: 1 },
       { name: "You're Crazy For Taking the Bus", n: 2 },
@@ -10169,7 +10087,6 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 2,
     date: 2,
-    jon: false,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "I Love Hot Nights", n: 2 },
@@ -10224,7 +10141,6 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 2,
     date: 8,
-    jon: false,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "She Doesn't Laugh At My Jokes", n: 2 },
@@ -10271,7 +10187,6 @@ export const recordings: RecordingImport[] = [
     quality: "Good",
     year: 1991,
     month: 3,
-    jon: false,
     songs: [
       { name: "Malaguena De Jojo", n: 1 },
       { name: "Action Packed", n: 2 },
@@ -10310,7 +10225,6 @@ export const recordings: RecordingImport[] = [
     quality: "Poor",
     year: 1991,
     month: 4,
-    jon: false,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Just For Fun", n: 2 },
@@ -10361,7 +10275,7 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 5,
     date: 4,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -10409,7 +10323,6 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 5,
     date: 5,
-    jon: false,
     songs: [
       { name: "Everyday Clothes", n: 1 },
       { name: "Yo Jo Jo", n: 2 },
@@ -10458,8 +10371,8 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 5,
     date: 29,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "She Doesn't Laugh At My Jokes", n: 2 },
@@ -10510,7 +10423,7 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 6,
     date: 17,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -10523,7 +10436,7 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 8,
     date: 10,
-    jon: true,
+    jb: true,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -10566,7 +10479,6 @@ export const recordings: RecordingImport[] = [
     quality: "Very Good",
     year: 1991,
     month: 8,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "I Love Hot Nights", n: 2 },
@@ -10608,8 +10520,8 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 9,
     date: 14,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Yo Jo Jo", n: 2 },
@@ -10650,7 +10562,7 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 9,
     date: 30,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Fender Stratocaster", n: 1 },
       { name: "At Night", n: 2 },
@@ -10688,7 +10600,6 @@ export const recordings: RecordingImport[] = [
     quality: "Fair",
     year: 1991,
     month: 9,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Back in Your Life", n: 2 },
@@ -10727,7 +10638,6 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 10,
     date: 10,
-    jon: false,
     songs: [],
   },
   {
@@ -10740,8 +10650,8 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 10,
     date: 30,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "She Doesn't Laugh At My Jokes", n: 1 },
       { name: "Wipeout", n: 2 },
@@ -10782,8 +10692,8 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 11,
     date: 12,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Everyday Clothes", n: 1 },
       { name: "When I Say Wife", n: 2 },
@@ -10835,7 +10745,6 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 11,
     date: 15,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "I Love Hot Nights", n: 2 },
@@ -10888,7 +10797,6 @@ export const recordings: RecordingImport[] = [
     year: 1991,
     month: 12,
     date: 11,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -10922,7 +10830,6 @@ export const recordings: RecordingImport[] = [
     country: "USA",
     quality: "Excellent",
     year: 1991,
-    jon: false,
     songs: [
       { name: "My Career As a Homewrecker", n: 1 },
       { name: "Fender Stratocaster", n: 2 },
@@ -10961,7 +10868,6 @@ export const recordings: RecordingImport[] = [
     city: "Madrid",
     quality: "Very Good",
     year: 1991,
-    jon: false,
     songs: [
       { name: "Action Packed", n: 1 },
       { name: "Blue Moon", n: 2 },
@@ -11066,7 +10972,6 @@ export const recordings: RecordingImport[] = [
     year: 1992,
     month: 1,
     date: 30,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Vincent Van Gogh", n: 2 },
@@ -11125,7 +11030,6 @@ export const recordings: RecordingImport[] = [
     quality: "Good",
     year: 1992,
     month: 4,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Yo Jo Jo", n: 2 },
@@ -11172,8 +11076,8 @@ export const recordings: RecordingImport[] = [
     year: 1992,
     month: 6,
     date: 9,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "I Was Dancing in the Lesbian Bar", n: 2 },
@@ -11208,7 +11112,6 @@ export const recordings: RecordingImport[] = [
     quality: "Very Good",
     year: 1992,
     month: 6,
-    jon: false,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "The Neighbors", n: 2 },
@@ -11234,7 +11137,6 @@ export const recordings: RecordingImport[] = [
     year: 1992,
     month: 7,
     date: 15,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "My Career As a Homewrecker", n: 2 },
@@ -11287,7 +11189,6 @@ export const recordings: RecordingImport[] = [
     year: 1992,
     month: 8,
     date: 21,
-    jon: false,
     songs: [
       { name: "At Night", n: 1 },
       { name: "Wipeout", n: 2 },
@@ -11329,7 +11230,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 11,
     sublocation: "Cambridge",
-    jon: false,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -11364,8 +11264,8 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 12,
     sublocation: "Cambridge",
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Rooming House on Venice Beach", n: 2 },
@@ -11395,8 +11295,8 @@ export const recordings: RecordingImport[] = [
     year: 1992,
     month: 10,
     date: 26,
-    jon: true,
-    jonnote: "wma",
+    jb: true,
+    jbnote: "wma",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Tandem Jump", n: 2 },
@@ -11445,8 +11345,8 @@ export const recordings: RecordingImport[] = [
     month: 12,
     date: 13,
     sublocation: "Cambridge",
-    jon: true,
-    jonnote: "aac. I only have part of this show",
+    jb: true,
+    jbnote: "aac. I only have part of this show",
     songs: [
       { name: "Parties In The USA", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -11486,7 +11386,6 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1992,
     name: "NPR Radio Interview",
-    jon: false,
     songs: [],
     comments: [
       {
@@ -11504,8 +11403,8 @@ export const recordings: RecordingImport[] = [
     city: "Tampa",
     quality: "Excellent",
     year: 1992,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Cappuccino Bar", n: 1 },
       { name: "They're Not Trying on the Dance Floor", n: 2 },
@@ -11554,8 +11453,8 @@ export const recordings: RecordingImport[] = [
     year: 1993,
     month: 3,
     date: 25,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Seven Day Weekend", n: 2 },
@@ -11597,7 +11496,6 @@ export const recordings: RecordingImport[] = [
     year: 1993,
     month: 6,
     date: 19,
-    jon: false,
     songs: [
       { name: "Ancient Long Ago", n: 1 },
       { name: "Rooming House on Venice Beach", n: 2 },
@@ -11634,7 +11532,6 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 21,
     name: "91X Radio Interview",
-    jon: false,
     songs: [{ name: "Circle I", n: 1 }],
     comments: [
       {
@@ -11654,8 +11551,8 @@ export const recordings: RecordingImport[] = [
     year: 1993,
     month: 6,
     date: 21,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Blue Moon", n: 2 },
@@ -11695,7 +11592,6 @@ export const recordings: RecordingImport[] = [
     year: 1993,
     month: 10,
     date: 21,
-    jon: false,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "Blue Moon", n: 2 },
@@ -11739,7 +11635,6 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 2,
     date: 6,
-    jon: false,
     songs: [
       { name: "Everyday Clothes", n: 1 },
       { name: "Fender Stratocaster", n: 2 },
@@ -11789,7 +11684,6 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 2,
     date: 7,
-    jon: false,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -11831,7 +11725,6 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 2,
     date: 12,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Now is Better Than Before", n: 2 },
@@ -11879,7 +11772,6 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 2,
     date: 13,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "The UFO Man", n: 2 },
@@ -11933,7 +11825,6 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 5,
     date: 5,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Vincent Van Gogh", n: 2 },
@@ -11991,7 +11882,6 @@ export const recordings: RecordingImport[] = [
     month: 8,
     date: 24,
     name: "The Mark Radcliffe Show",
-    jon: false,
     songs: [],
     comments: [
       {
@@ -12010,7 +11900,6 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 8,
     date: 25,
-    jon: false,
     songs: [
       { name: "It's You", n: 1 },
       { name: "Fender Stratocaster", n: 2 },
@@ -12052,7 +11941,7 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 9,
     date: 2,
-    jon: true,
+    jb: true,
     songs: [
       { name: "At Night", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -12112,8 +12001,8 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 10,
     date: 14,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Action Packed", n: 1 },
       { name: "Affection", n: 2 },
@@ -12151,8 +12040,8 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 10,
     date: 16,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Action Packed", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12194,8 +12083,8 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 10,
     date: 21,
-    jon: true,
-    jonnote: "wma",
+    jb: true,
+    jbnote: "wma",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Blue Moon", n: 2 },
@@ -12233,8 +12122,8 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 11,
     date: 1,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -12266,8 +12155,8 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 11,
     date: 4,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12314,7 +12203,6 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 11,
     date: 9,
-    jon: false,
     songs: [
       { name: "To Hide a Little Thought", n: 1 },
       { name: "Fender Stratocaster", n: 2 },
@@ -12349,8 +12237,8 @@ export const recordings: RecordingImport[] = [
     year: 1994,
     month: 11,
     date: 10,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Up In The Sky Sometime", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -12401,7 +12289,6 @@ export const recordings: RecordingImport[] = [
     month: 12,
     date: 11,
     name: "NPR Radio Weekend Edition Interview",
-    jon: false,
     songs: [
       { name: "To Hide a Little Thought", n: 1 },
       { name: "Sabor a Mi", n: 2 },
@@ -12466,8 +12353,8 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 1,
     date: 21,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "To Hide a Little Thought", n: 1 },
       { name: "Parties In The USA", n: 2 },
@@ -12509,7 +12396,6 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 2,
     date: 1,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12553,7 +12439,6 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 4,
     date: 4,
-    jon: false,
     songs: [
       { name: "Pablo Picasso", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -12571,7 +12456,6 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 4,
     date: 6,
-    jon: false,
     songs: [
       { name: "Blue Moon", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -12618,7 +12502,6 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 4,
     date: 7,
-    jon: false,
     songs: [
       { name: "Vampire Girl", n: 1 },
       { name: "They're Not Trying on the Dance Floor", n: 2 },
@@ -12646,8 +12529,8 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 4,
     date: 8,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Parties In The USA", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12688,7 +12571,6 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 4,
     date: 21,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "I Love Hot Nights", n: 2 },
@@ -12729,8 +12611,8 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 5,
     date: 11,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Parties In The USA", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12772,8 +12654,8 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 5,
     date: 13,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "I Love Hot Nights", n: 2 },
@@ -12810,7 +12692,6 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 5,
     date: 25,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12846,7 +12727,6 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 7,
     date: 12,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "City vs. Country", n: 2 },
@@ -12886,8 +12766,8 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 7,
     date: 13,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Blue Moon", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -12920,8 +12800,8 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 7,
     date: 15,
-    jon: true,
-    jonnote: "mp3 (not all of show)",
+    jb: true,
+    jbnote: "mp3 (not all of show)",
     songs: [
       { name: "Everyday Clothes", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12955,8 +12835,8 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 10,
     date: 19,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12999,8 +12879,8 @@ export const recordings: RecordingImport[] = [
     year: 1995,
     month: 10,
     date: 24,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Vampire Girl", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -13081,7 +12961,6 @@ export const recordings: RecordingImport[] = [
     year: 1996,
     month: 1,
     date: 31,
-    jon: false,
     songs: [
       { name: "instrumental", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -13123,7 +13002,6 @@ export const recordings: RecordingImport[] = [
     year: 1996,
     month: 2,
     date: 3,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -13160,7 +13038,7 @@ export const recordings: RecordingImport[] = [
     year: 1996,
     month: 5,
     date: 12,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Fender Stratocaster", n: 2 },
@@ -13197,7 +13075,6 @@ export const recordings: RecordingImport[] = [
     year: 1996,
     month: 7,
     date: 24,
-    jon: false,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -13241,7 +13118,6 @@ export const recordings: RecordingImport[] = [
     year: 1996,
     month: 10,
     date: 9,
-    jon: false,
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -13287,7 +13163,6 @@ export const recordings: RecordingImport[] = [
     year: 1996,
     month: 10,
     date: 11,
-    jon: false,
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -13365,7 +13240,6 @@ export const recordings: RecordingImport[] = [
     year: 1997,
     month: 2,
     date: 27,
-    jon: false,
     songs: [
       { name: "instrumental", n: 1 },
       { name: "It Will Stand", n: 2 },
@@ -13397,7 +13271,7 @@ export const recordings: RecordingImport[] = [
     year: 1997,
     month: 3,
     date: 12,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Fender Stratocaster", n: 1 },
       { name: "Mood Lighting for Dreaming", n: 2 },
@@ -13435,8 +13309,8 @@ export const recordings: RecordingImport[] = [
     year: 1997,
     month: 3,
     name: "KALW - West Coast Live",
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [],
     comments: [
       {
@@ -13456,7 +13330,6 @@ export const recordings: RecordingImport[] = [
     month: 4,
     date: 2,
     name: "KCRW - Morning Becomes Eclectic",
-    jon: false,
     songs: [
       { name: "Rooming House on Venice Beach", n: 1 },
       { name: "My Little Girls Got A Full Time Daddy Now", n: 2 },
@@ -13480,8 +13353,8 @@ export const recordings: RecordingImport[] = [
     year: 1997,
     month: 5,
     date: 26,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -13532,7 +13405,6 @@ export const recordings: RecordingImport[] = [
     year: 1997,
     month: 5,
     date: 29,
-    jon: false,
     songs: [
       { name: "Her Way Moves Me", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -13580,8 +13452,8 @@ export const recordings: RecordingImport[] = [
     year: 1997,
     month: 5,
     date: 30,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "instrumental", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -13629,8 +13501,8 @@ export const recordings: RecordingImport[] = [
     year: 1997,
     month: 8,
     date: 13,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Lover Please", n: 2 },
@@ -13671,7 +13543,6 @@ export const recordings: RecordingImport[] = [
     year: 1997,
     month: 10,
     date: 11,
-    jon: false,
     songs: [
       { name: "Hello from Cupid", n: 1 },
       { name: 'Not Just "Plus One" On The Guest List Anymore', n: 2 },
@@ -13710,7 +13581,6 @@ export const recordings: RecordingImport[] = [
     year: 1997,
     month: 10,
     date: 24,
-    jon: false,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -13744,8 +13614,8 @@ export const recordings: RecordingImport[] = [
     year: 1997,
     month: 10,
     date: 24,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Wipeout", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -13785,7 +13655,7 @@ export const recordings: RecordingImport[] = [
     year: 1998,
     month: 5,
     date: 12,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -13798,8 +13668,8 @@ export const recordings: RecordingImport[] = [
     year: 1998,
     month: 5,
     date: 18,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "I Was Dancing in the Lesbian Bar", n: 1 },
       { name: "There's Something About Mary", n: 2 },
@@ -13836,7 +13706,7 @@ export const recordings: RecordingImport[] = [
     month: 7,
     date: 26,
     sublocation: "Cambridge",
-    jon: true,
+    jb: true,
     songs: [
       { name: "When I Dance", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -13877,7 +13747,6 @@ export const recordings: RecordingImport[] = [
     year: 1998,
     month: 8,
     date: 6,
-    jon: false,
     breaks: [16],
     songs: [
       { name: "Let Her Go Into the Darkness", n: 1, set: 1 },
@@ -13932,7 +13801,6 @@ export const recordings: RecordingImport[] = [
     year: 1998,
     month: 8,
     date: 7,
-    jon: false,
     songs: [
       { name: "A Song About New York", n: 1, set: 1 },
       { name: "I'm So Confused", n: 2, set: 1 },
@@ -13975,7 +13843,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 17,
     name: "Bridge School Benefit",
-    jon: false,
     songs: [
       { name: "Nineteen in Naples", n: 1 },
       { name: "I'm So Confused", n: 2 },
@@ -14003,7 +13870,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 18,
     name: "Bridge School Benefit",
-    jon: false,
     songs: [
       { name: "Parties In The USA", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -14030,7 +13896,7 @@ export const recordings: RecordingImport[] = [
     year: 1998,
     month: 11,
     date: 9,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Parties In The USA", n: 1 },
       { name: "I'm So Confused", n: 2 },
@@ -14072,7 +13938,6 @@ export const recordings: RecordingImport[] = [
     year: 1998,
     month: 11,
     date: 14,
-    jon: false,
     songs: [
       { name: "If She Don't Love Me", n: 1 },
       { name: "Fender Stratocaster", n: 2 },
@@ -14106,7 +13971,6 @@ export const recordings: RecordingImport[] = [
     year: 1998,
     month: 12,
     date: 4,
-    jon: false,
     songs: [
       { name: "True Love Is Not Nice", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -14149,7 +14013,7 @@ export const recordings: RecordingImport[] = [
     year: 1998,
     month: 12,
     date: 6,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Nineteen in Naples", n: 1 },
       { name: "Surrender", n: 2 },
@@ -14204,8 +14068,8 @@ export const recordings: RecordingImport[] = [
     year: 1998,
     month: 12,
     date: 8,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "True Love Is Not Nice", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -14303,7 +14167,6 @@ export const recordings: RecordingImport[] = [
     year: 1999,
     month: 2,
     date: 16,
-    jon: false,
     songs: [
       { name: "I Love Life More and More", n: 1 },
       { name: "True Love Is Not Nice", n: 2 },
@@ -14329,7 +14192,6 @@ export const recordings: RecordingImport[] = [
     year: 1999,
     month: 2,
     date: 18,
-    jon: false,
     songs: [
       { name: "I'm So Confused", n: 1 },
       { name: "Fender Stratocaster", n: 2 },
@@ -14370,7 +14232,7 @@ export const recordings: RecordingImport[] = [
     year: 1999,
     month: 2,
     date: 22,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Pablo Picasso", n: 2 },
@@ -14409,7 +14271,6 @@ export const recordings: RecordingImport[] = [
     year: 1999,
     month: 3,
     date: 5,
-    jon: false,
     songs: [
       { name: "Fender Stratocaster", n: 1 },
       { name: "South American Folk Song", n: 2 },
@@ -14444,7 +14305,6 @@ export const recordings: RecordingImport[] = [
     year: 1999,
     month: 10,
     date: 3,
-    jon: false,
     songs: [
       { name: "Sex Machine", n: 1 },
       { name: "Pablo Picasso", n: 2 },
@@ -14475,7 +14335,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 12,
     sublocation: "Cambridge",
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Nineteen in Naples", n: 2 },
@@ -14507,7 +14366,6 @@ export const recordings: RecordingImport[] = [
     year: 1999,
     month: 10,
     date: 15,
-    jon: false,
     songs: [
       { name: "The Crush", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -14546,7 +14404,7 @@ export const recordings: RecordingImport[] = [
     year: 1999,
     month: 10,
     date: 16,
-    jon: true,
+    jb: true,
     breaks: [20],
     songs: [
       { name: "When She Kisses Me", n: 1, set: 1 },
@@ -14608,7 +14466,6 @@ export const recordings: RecordingImport[] = [
     country: "Germany",
     quality: "Excellent",
     year: 1999,
-    jon: false,
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "I Love Hot Nights", n: 2 },
@@ -14662,7 +14519,6 @@ export const recordings: RecordingImport[] = [
     year: 2000,
     month: 2,
     date: 22,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -14705,8 +14561,8 @@ export const recordings: RecordingImport[] = [
     year: 2000,
     month: 3,
     date: 3,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -14760,7 +14616,6 @@ export const recordings: RecordingImport[] = [
     year: 2000,
     month: 3,
     date: 4,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -14810,8 +14665,8 @@ export const recordings: RecordingImport[] = [
     year: 2000,
     month: 6,
     date: 29,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -14853,7 +14708,6 @@ export const recordings: RecordingImport[] = [
     quality: "Good",
     year: 2000,
     month: 6,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -14897,7 +14751,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 5,
     name: "Radio 3 Studios",
-    jon: false,
     songs: [
       { name: "Barcelona", n: 1 },
       { name: "Pablo Picasso", n: 2 },
@@ -14920,8 +14773,8 @@ export const recordings: RecordingImport[] = [
     year: 2000,
     month: 10,
     date: 25,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -14969,7 +14822,6 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 4,
     name: "BBC Radio 2 - Jonathan Ross Show Interview",
-    jon: false,
     songs: [],
     comments: [
       {
@@ -14989,7 +14841,6 @@ export const recordings: RecordingImport[] = [
     year: 2000,
     month: 11,
     date: 4,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -15030,7 +14881,6 @@ export const recordings: RecordingImport[] = [
     year: 2000,
     month: 11,
     date: 5,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -15075,8 +14925,8 @@ export const recordings: RecordingImport[] = [
     year: 2000,
     month: 11,
     date: 7,
-    jon: true,
-    jonnote: "aac. need to find rest of this show",
+    jb: true,
+    jbnote: "aac. need to find rest of this show",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -15120,8 +14970,8 @@ export const recordings: RecordingImport[] = [
     year: 2001,
     month: 9,
     date: 5,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 2 },
@@ -15171,8 +15021,8 @@ export const recordings: RecordingImport[] = [
     year: 2001,
     month: 10,
     date: 17,
-    jon: true,
-    jonnote: "I have a video of this",
+    jb: true,
+    jbnote: "I have a video of this",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "The UFO Man", n: 2 },
@@ -15253,8 +15103,8 @@ export const recordings: RecordingImport[] = [
     year: 2002,
     month: 2,
     date: 15,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -15299,7 +15149,7 @@ export const recordings: RecordingImport[] = [
     year: 2002,
     month: 2,
     date: 23,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -15337,7 +15187,6 @@ export const recordings: RecordingImport[] = [
     year: 2002,
     month: 3,
     date: 31,
-    jon: false,
     songs: [
       { name: "South American Folk Song", n: 1 },
       { name: "I Had to Change", n: 2 },
@@ -15406,7 +15255,6 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 11,
     name: "WFMU Interview",
-    jon: false,
     songs: [],
     comments: [
       {
@@ -15426,7 +15274,6 @@ export const recordings: RecordingImport[] = [
     month: 12,
     date: 4,
     name: "KFOG Morning Show Interview",
-    jon: false,
     songs: [
       { name: "My Love For Her Ain't Sad", n: 1 },
       { name: "Girlfren'", n: 2 },
@@ -15451,7 +15298,6 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 4,
-    jon: false,
     songs: [
       { name: "Affection", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -15494,7 +15340,6 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 5,
-    jon: false,
     songs: [
       { name: "Give Paris One More Chance", n: 1 },
       { name: "That Summer Feeling", n: 2 },
@@ -15541,7 +15386,6 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 6,
-    jon: false,
     songs: [
       { name: "True Love Is Not Nice", n: 1 },
       { name: "Yo Tengo una Novia", n: 2 },
@@ -15586,7 +15430,6 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 7,
-    jon: false,
     songs: [
       { name: "Behold the Lilies of the Field", n: 1 },
       { name: "Yo Tengo una Novia", n: 2 },
@@ -15640,7 +15483,6 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 8,
-    jon: false,
     songs: [
       { name: "The World Is Showing It's Hand", n: 1 },
       { name: "That Summer Feeling", n: 2 },
@@ -15690,8 +15532,8 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 14,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "C'etait Toujours Toi", n: 1 },
       { name: "Pablo Picasso", n: 2 },
@@ -15751,7 +15593,6 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 16,
-    jon: false,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "Not So Much To Be Loved As To Love", n: 2 },
@@ -15805,7 +15646,6 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 20,
-    jon: false,
     songs: [
       { name: "I Have No Reason to Doubt Her", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -15847,7 +15687,6 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 24,
-    jon: false,
     songs: [
       { name: "My Baby Love Love Loves Me", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -15885,7 +15724,6 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 25,
-    jon: false,
     songs: [
       { name: "In Che Mondo Vivamo", n: 1 },
       { name: "Not So Much To Be Loved As To Love", n: 2 },
@@ -15924,7 +15762,6 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 28,
-    jon: false,
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "My Baby Love Love Loves Me", n: 2 },
@@ -15969,7 +15806,6 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 3,
     date: 30,
-    jon: false,
     songs: [
       { name: "Rooming House on Venice Beach", n: 1 },
       { name: "Springtime In New York", n: 2 },
@@ -16007,7 +15843,7 @@ export const recordings: RecordingImport[] = [
     month: 4,
     date: 4,
     format: "mp3",
-    jon: true,
+    jb: true,
     songs: [
       { name: "Give Paris One More Chance", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
@@ -16041,7 +15877,7 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 10,
     date: 3,
-    jon: true,
+    jb: true,
     songs: [
       { name: "He Gave Us the Wine to Taste", n: 1 },
       { name: "Abu Jamal", n: 2 },
@@ -16082,8 +15918,8 @@ export const recordings: RecordingImport[] = [
     year: 2003,
     month: 10,
     date: 16,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Yo Tengo una Novia", n: 1 },
       { name: "Nineteen in Naples", n: 2 },
@@ -16126,7 +15962,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 4,
     date: 8,
-    jon: false,
     songs: [
       { name: "instrumental", n: 1 },
       { name: "Springtime In New York", n: 2 },
@@ -16170,7 +16005,7 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 4,
     date: 9,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Old World", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
@@ -16211,7 +16046,7 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 4,
     date: 10,
-    jon: true,
+    jb: true,
     songs: [
       { name: "The World Is Showing It's Hand", n: 1 },
       { name: "Pablo Picasso", n: 2 },
@@ -16254,7 +16089,7 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 4,
     date: 11,
-    jon: true,
+    jb: true,
     songs: [
       { name: "The World Is Showing It's Hand", n: 1 },
       { name: "Girlfren'", n: 2 },
@@ -16294,7 +16129,6 @@ export const recordings: RecordingImport[] = [
     month: 4,
     date: 15,
     name: "BBC6 Interview",
-    jon: false,
     songs: [],
     comments: [
       {
@@ -16313,7 +16147,6 @@ export const recordings: RecordingImport[] = [
     month: 4,
     date: 20,
     name: "M80 Radio Interview",
-    jon: false,
     songs: [
       { name: "Vampiresa Mujer", n: 1 },
       { name: "Ha Muerto la Rosa", n: 2 },
@@ -16337,7 +16170,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 4,
     date: 20,
-    jon: false,
     songs: [
       { name: "Behold the Lilies of the Field", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
@@ -16389,7 +16221,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 4,
     date: 23,
-    jon: false,
     songs: [
       { name: "Mystery of the Summer Night", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -16434,7 +16265,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 4,
     date: 24,
-    jon: false,
     songs: [
       { name: "Not So Much To Be Loved As To Love", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -16498,7 +16328,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 5,
     date: 2,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Behold the Lilies of the Field", n: 2 },
@@ -16548,7 +16377,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 5,
     date: 5,
-    jon: false,
     songs: [
       { name: "In Che Mondo Vivamo", n: 1 },
       { name: "He Gave Us the Wine to Taste", n: 2 },
@@ -16589,7 +16417,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 5,
     date: 8,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "That Summer Feeling", n: 2 },
@@ -16628,7 +16455,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 5,
     date: 10,
-    jon: false,
     songs: [
       { name: "My Baby Love Love Loves Me", n: 1 },
       { name: "Springtime In New York", n: 2 },
@@ -16672,8 +16498,8 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 6,
     date: 4,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Give Paris One More Chance", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
@@ -16715,7 +16541,7 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 6,
     date: 5,
-    jon: true,
+    jb: true,
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
@@ -16759,7 +16585,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 9,
     date: 24,
-    jon: false,
     songs: [
       { name: "I Don't Complain About My Lucky Star", n: 1 },
       { name: "Mystery of the Summer Night", n: 2 },
@@ -16797,7 +16622,6 @@ export const recordings: RecordingImport[] = [
     month: 9,
     date: 25,
     sublocation: "Palma",
-    jon: false,
     songs: [
       { name: "My Baby Love Love Loves Me", n: 1 },
       { name: "Vampiresa Mujer", n: 2 },
@@ -16837,7 +16661,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 9,
     date: 30,
-    jon: false,
     songs: [
       { name: "He Gave Us the Wine to Taste", n: 1 },
       { name: "El Joven se Estemece", n: 2 },
@@ -16878,7 +16701,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 10,
     date: 1,
-    jon: false,
     songs: [
       { name: "El Joven se Estemece", n: 1 },
       { name: "Cosi Veloce", n: 2 },
@@ -16919,7 +16741,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 10,
     date: 5,
-    jon: false,
     songs: [
       { name: "Give Paris One More Chance", n: 1 },
       { name: "My Love For Her Ain't Sad", n: 2 },
@@ -16963,7 +16784,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 10,
     date: 6,
-    jon: false,
     songs: [
       { name: "My Baby Love Love Loves Me", n: 1 },
       { name: "Joy Over Sorrow", n: 2 },
@@ -17004,7 +16824,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 11,
     date: 4,
-    jon: false,
     songs: [
       { name: "Behold the Lilies of the Field", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -17040,7 +16859,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 11,
     date: 5,
-    jon: false,
     songs: [
       { name: "The World Is Showing It's Hand", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -17085,7 +16903,6 @@ export const recordings: RecordingImport[] = [
     year: 2004,
     month: 11,
     date: 6,
-    jon: false,
     songs: [
       { name: "Behold the Lilies of the Field", n: 1 },
       { name: "The World Is Showing It's Hand", n: 2 },
@@ -17160,7 +16977,7 @@ export const recordings: RecordingImport[] = [
     month: 1,
     date: 28,
     name: "Tsunami Relief Benefit",
-    jon: true,
+    jb: true,
     songs: [
       { name: "No Habla Mis Palabras De Amor", n: 1 },
       { name: "Springtime In New York", n: 2 },
@@ -17180,7 +16997,7 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 4,
     date: 2,
-    jon: true,
+    jb: true,
     songs: [
       { name: "He Gave Us the Wine to Taste", n: 1 },
       { name: "Springtime In New York", n: 2 },
@@ -17221,7 +17038,6 @@ export const recordings: RecordingImport[] = [
     month: 4,
     date: 13,
     name: "M80 Radio Interview",
-    jon: false,
     songs: [{ name: "Cosi Veloce", n: 1 }],
     comments: [
       {
@@ -17241,7 +17057,6 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 4,
     date: 13,
-    jon: false,
     songs: [
       { name: "Behold the Lilies of the Field", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
@@ -17277,7 +17092,6 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 4,
     date: 14,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -17319,7 +17133,6 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 4,
     date: 16,
-    jon: false,
     songs: [
       { name: "Celestial", n: 1 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 2 },
@@ -17364,7 +17177,6 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 4,
     date: 17,
-    jon: false,
     songs: [
       { name: "Con el Merengue", n: 1 },
       { name: "Springtime In New York", n: 2 },
@@ -17414,7 +17226,6 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 6,
     date: 9,
-    jon: false,
     songs: [
       { name: "Give Paris One More Chance", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -17454,7 +17265,6 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 6,
     date: 10,
-    jon: false,
     songs: [
       { name: "Give Paris One More Chance", n: 1 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 2 },
@@ -17496,7 +17306,6 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 6,
     date: 11,
-    jon: false,
     breaks: [12],
     songs: [
       { name: "Mystery of the Summer Night", n: 1, set: 1 },
@@ -17532,7 +17341,6 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 6,
     date: 22,
-    jon: false,
     songs: [
       { name: "Let Her Go Into the Darkness", n: 1 },
       { name: "The World Is Showing It's Hand", n: 2 },
@@ -17567,7 +17375,7 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 6,
     date: 23,
-    jon: true,
+    jb: true,
     breaks: [10],
     songs: [
       { name: "In Che Mondo Vivamo", n: 1, set: 1 },
@@ -17611,7 +17419,6 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 6,
     date: 25,
-    jon: false,
     breaks: [11],
     songs: [
       { name: "Give Paris One More Chance", n: 1, set: 1 },
@@ -17650,7 +17457,6 @@ export const recordings: RecordingImport[] = [
     year: 2006,
     month: 10,
     date: 13,
-    jon: false,
     songs: [
       { name: "My Baby Love Love Loves Me", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -17692,7 +17498,6 @@ export const recordings: RecordingImport[] = [
     year: 2006,
     month: 10,
     date: 15,
-    jon: false,
     songs: [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 1 },
       { name: "He Gave Us the Wine to Taste", n: 2 },
@@ -17718,7 +17523,6 @@ export const recordings: RecordingImport[] = [
     year: 2006,
     month: 10,
     date: 16,
-    jon: false,
     songs: [
       { name: "Old World", n: 1 },
       { name: "He Gave Us the Wine to Taste", n: 2 },
@@ -17750,7 +17554,6 @@ export const recordings: RecordingImport[] = [
     year: 2006,
     month: 10,
     date: 17,
-    jon: false,
     songs: [
       { name: "Celestial", n: 1 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 2 },
@@ -17789,8 +17592,8 @@ export const recordings: RecordingImport[] = [
     year: 2006,
     month: 10,
     date: 27,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Chiusa la Festa, Chiusa la Sera", n: 1 },
       { name: "Pablo Picasso", n: 2 },
@@ -17843,7 +17646,6 @@ export const recordings: RecordingImport[] = [
     year: 2006,
     month: 11,
     date: 1,
-    jon: false,
     songs: [
       { name: "He Gave Us the Wine to Taste", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -17885,7 +17687,6 @@ export const recordings: RecordingImport[] = [
     year: 2006,
     month: 11,
     date: 2,
-    jon: false,
     breaks: [10],
     songs: [
       { name: "Stupenda e Misera Citta", n: 1, set: 1 },
@@ -17934,7 +17735,6 @@ export const recordings: RecordingImport[] = [
     year: 2006,
     month: 11,
     date: 3,
-    jon: false,
     songs: [
       { name: "Bajando, Bajando por Ceniza y Mineral", n: 1 },
       { name: "He Gave Us the Wine to Taste", n: 2 },
@@ -17979,8 +17779,8 @@ export const recordings: RecordingImport[] = [
     year: 2006,
     month: 12,
     date: 16,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -18010,7 +17810,6 @@ export const recordings: RecordingImport[] = [
     year: 2007,
     month: 5,
     date: 19,
-    jon: false,
     songs: [
       { name: "A Que Venimos Sino a Caer?", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -18045,7 +17844,6 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 22,
     name: "Radio 3",
-    jon: false,
     songs: [
       { name: "A Que Venimos Sino a Caer?", n: 1 },
       { name: "Celestial", n: 2 },
@@ -18077,7 +17875,6 @@ export const recordings: RecordingImport[] = [
     year: 2007,
     month: 5,
     date: 26,
-    jon: false,
     songs: [
       { name: "Celestial", n: 1 },
       { name: "When Harpo Played His Harp", n: 2 },
@@ -18121,8 +17918,8 @@ export const recordings: RecordingImport[] = [
     year: 2007,
     month: 9,
     date: 28,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "I Love Life So", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -18156,7 +17953,6 @@ export const recordings: RecordingImport[] = [
     year: 2007,
     month: 11,
     date: 30,
-    jon: false,
     songs: [
       { name: "Because Her Beauty is Raw and Wild", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -18196,7 +17992,6 @@ export const recordings: RecordingImport[] = [
     year: 2007,
     month: 12,
     date: 6,
-    jon: false,
     songs: [
       { name: "Our Party Will Be On The Beach Tonight", n: 1 },
       { name: "The World Is Showing It's Hand", n: 2 },
@@ -18269,7 +18064,6 @@ export const recordings: RecordingImport[] = [
     year: 2008,
     month: 3,
     date: 1,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "You Can Have A Cell Phone That's Ok But Not Me", n: 2 },
@@ -18313,7 +18107,7 @@ export const recordings: RecordingImport[] = [
     year: 2008,
     month: 3,
     date: 2,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -18327,7 +18121,6 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 14,
     name: "Radio K Student Radio Station - University of Minnesota Interview",
-    jon: false,
     songs: [],
     comments: [
       {
@@ -18347,7 +18140,6 @@ export const recordings: RecordingImport[] = [
     year: 2008,
     month: 3,
     date: 15,
-    jon: false,
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -18376,7 +18168,6 @@ export const recordings: RecordingImport[] = [
     year: 2008,
     month: 5,
     date: 6,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
@@ -18426,7 +18217,6 @@ export const recordings: RecordingImport[] = [
     year: 2008,
     month: 5,
     date: 7,
-    jon: false,
     songs: [
       { name: "Here It Is", n: 1 },
       { name: "Le Printemps Des Amoreux Est Venue", n: 2 },
@@ -18472,8 +18262,8 @@ export const recordings: RecordingImport[] = [
     year: 2008,
     month: 6,
     date: 6,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Because Her Beauty is Raw and Wild", n: 2 },
@@ -18505,7 +18295,7 @@ export const recordings: RecordingImport[] = [
     year: 2008,
     month: 9,
     date: 6,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -18518,8 +18308,8 @@ export const recordings: RecordingImport[] = [
     year: 2008,
     month: 10,
     date: 10,
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Behold the Lilies of the Field", n: 2 },
@@ -18658,7 +18448,6 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 6,
     name: "RTVE Radio Interview",
-    jon: false,
     songs: [{ name: "Celestial", n: 1 }],
     comments: [
       {
@@ -18678,7 +18467,6 @@ export const recordings: RecordingImport[] = [
     year: 2009,
     month: 3,
     date: 7,
-    jon: false,
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Celestial", n: 2 },
@@ -18711,7 +18499,6 @@ export const recordings: RecordingImport[] = [
     year: 2009,
     month: 3,
     date: 14,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "A Que Venimos Sino a Caer?", n: 2 },
@@ -18749,7 +18536,6 @@ export const recordings: RecordingImport[] = [
     year: 2009,
     month: 3,
     date: 24,
-    jon: false,
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -18780,7 +18566,6 @@ export const recordings: RecordingImport[] = [
     year: 2009,
     month: 3,
     date: 30,
-    jon: false,
     songs: [
       { name: "Take Me to the Plaza", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -18816,8 +18601,8 @@ export const recordings: RecordingImport[] = [
     year: 2009,
     month: 6,
     date: 16,
-    jon: true,
-    jonnote: "aiff",
+    jb: true,
+    jbnote: "aiff",
     songs: [
       { name: "My Baby Love Love Loves Me", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -18849,8 +18634,8 @@ export const recordings: RecordingImport[] = [
     year: 2009,
     month: 9,
     date: 22,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Dancing In the Moonlight", n: 1, set: 1 },
       { name: "I Was Dancing in the Lesbian Bar", n: 2, set: 1 },
@@ -18874,7 +18659,7 @@ export const recordings: RecordingImport[] = [
     year: 2009,
     month: 10,
     date: 11,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Celestial", n: 1 },
       { name: "I Was Dancing in the Lesbian Bar", n: 2 },
@@ -18913,7 +18698,6 @@ export const recordings: RecordingImport[] = [
     year: 2009,
     month: 10,
     date: 25,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
@@ -18956,7 +18740,7 @@ export const recordings: RecordingImport[] = [
     year: 2010,
     month: 2,
     date: 4,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -18994,7 +18778,7 @@ export const recordings: RecordingImport[] = [
     year: 2010,
     month: 2,
     date: 14,
-    jon: true,
+    jb: true,
     songs: [
       { name: "This Romance Will Be Different For Me", n: 1 },
       { name: "These Bodies That Came To Cavort", n: 2 },
@@ -19036,7 +18820,7 @@ export const recordings: RecordingImport[] = [
     year: 2010,
     month: 5,
     date: 18,
-    jon: true,
+    jb: true,
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Mr. Sorrow", n: 2 },
@@ -19077,8 +18861,8 @@ export const recordings: RecordingImport[] = [
     year: 2010,
     month: 5,
     date: 20,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Because Her Beauty is Raw and Wild", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -19112,8 +18896,8 @@ export const recordings: RecordingImport[] = [
     year: 2010,
     month: 5,
     date: 21,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Pacific Coast Highway", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -19146,8 +18930,8 @@ export const recordings: RecordingImport[] = [
     year: 2010,
     month: 5,
     date: 22,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Stultified", n: 2 },
@@ -19178,7 +18962,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 2,
     name: "Hardly Strictly Bluegrass Festival",
-    jon: true,
+    jb: true,
     songs: [
       { name: "Because Her Beauty is Raw and Wild", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -19201,7 +18985,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 8,
     name: "BBC 6 Interview",
-    jon: false,
     songs: [],
     comments: [
       {
@@ -19221,7 +19004,6 @@ export const recordings: RecordingImport[] = [
     year: 2010,
     month: 10,
     date: 13,
-    jon: false,
     songs: [
       { name: "Here It Is", n: 1 },
       { name: "Sa Voix M'Atisse", n: 2 },
@@ -19266,7 +19048,6 @@ export const recordings: RecordingImport[] = [
     year: 2010,
     month: 10,
     date: 24,
-    jon: false,
     songs: [
       { name: "When We Refuse to Suffer", n: 1 },
       { name: "Vampiresa Mujer", n: 2 },
@@ -19369,7 +19150,7 @@ export const recordings: RecordingImport[] = [
     year: 2011,
     month: 2,
     date: 24,
-    jon: true,
+    jb: true,
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "They Showed Me The Door To Bohemia", n: 2 },
@@ -19413,7 +19194,7 @@ export const recordings: RecordingImport[] = [
     year: 2011,
     month: 2,
     date: 25,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Affection", n: 1 },
       { name: "If You Want To Leave Our Party Just Go", n: 2 },
@@ -19458,7 +19239,7 @@ export const recordings: RecordingImport[] = [
     year: 2011,
     month: 3,
     date: 1,
-    jon: true,
+    jb: true,
     songs: [
       { name: "I Was The One She Came For", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -19495,7 +19276,7 @@ export const recordings: RecordingImport[] = [
     year: 2011,
     month: 5,
     date: 14,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Because Her Beauty is Raw and Wild", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
@@ -19525,7 +19306,7 @@ export const recordings: RecordingImport[] = [
     year: 2011,
     month: 5,
     date: 15,
-    jon: true,
+    jb: true,
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -19558,7 +19339,7 @@ export const recordings: RecordingImport[] = [
     year: 2011,
     month: 10,
     date: 20,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Stupenda e Misera Citta", n: 1 },
       { name: "Because Her Beauty is Raw and Wild", n: 2 },
@@ -19612,7 +19393,7 @@ export const recordings: RecordingImport[] = [
     year: 2011,
     month: 10,
     date: 28,
-    jon: true,
+    jb: true,
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -19650,7 +19431,6 @@ export const recordings: RecordingImport[] = [
     month: 2,
     date: 23,
     name: "Mojo Magazine",
-    jon: false,
     songs: [],
     comments: [
       {
@@ -19670,7 +19450,7 @@ export const recordings: RecordingImport[] = [
     year: 2012,
     month: 2,
     date: 25,
-    jon: true,
+    jb: true,
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -19700,7 +19480,6 @@ export const recordings: RecordingImport[] = [
     year: 2012,
     month: 2,
     date: 26,
-    jon: false,
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -19740,7 +19519,6 @@ export const recordings: RecordingImport[] = [
     year: 2012,
     month: 3,
     date: 1,
-    jon: false,
     songs: [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 1 },
       { name: "They Showed Me The Door To Bohemia", n: 2 },
@@ -19768,7 +19546,6 @@ export const recordings: RecordingImport[] = [
     year: 2012,
     month: 3,
     date: 18,
-    jon: false,
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Because Her Beauty is Raw and Wild", n: 2 },
@@ -19796,8 +19573,8 @@ export const recordings: RecordingImport[] = [
     year: 2012,
     month: 3,
     date: 20,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [],
   },
   {
@@ -19810,8 +19587,8 @@ export const recordings: RecordingImport[] = [
     year: 2012,
     month: 3,
     date: 21,
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [],
   },
   {
@@ -19824,7 +19601,7 @@ export const recordings: RecordingImport[] = [
     year: 2012,
     month: 6,
     date: 15,
-    jon: true,
+    jb: true,
     songs: [
       { name: "My Affected Accent", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -19877,7 +19654,7 @@ export const recordings: RecordingImport[] = [
     year: 2013,
     month: 2,
     date: 7,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -19889,7 +19666,7 @@ export const recordings: RecordingImport[] = [
     year: 2013,
     month: 2,
     date: 17,
-    jon: true,
+    jb: true,
     songs: [],
   },
   {
@@ -19901,7 +19678,6 @@ export const recordings: RecordingImport[] = [
     year: 2013,
     month: 2,
     date: 21,
-    jon: false,
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -19937,7 +19713,7 @@ export const recordings: RecordingImport[] = [
     year: 2013,
     month: 2,
     date: 26,
-    jon: true,
+    jb: true,
     songs: [],
     comments: [
       {
@@ -19956,7 +19732,7 @@ export const recordings: RecordingImport[] = [
     year: 2013,
     month: 5,
     date: 31,
-    jon: true,
+    jb: true,
     songs: [],
     comments: [
       {
@@ -19976,7 +19752,7 @@ export const recordings: RecordingImport[] = [
     year: 2013,
     month: 6,
     date: 21,
-    jon: true,
+    jb: true,
     songs: [],
     comments: [
       {
@@ -19996,7 +19772,7 @@ export const recordings: RecordingImport[] = [
     year: 2013,
     month: 6,
     date: 26,
-    jon: true,
+    jb: true,
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "He Gave Us the Wine to Taste", n: 2 },
@@ -20029,7 +19805,7 @@ export const recordings: RecordingImport[] = [
     year: 2013,
     month: 11,
     date: 21,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Take Me to the Plaza", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -20062,7 +19838,7 @@ export const recordings: RecordingImport[] = [
     year: 2013,
     month: 11,
     date: 22,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Old World", n: 1 },
       { name: "My Baby Love Love Loves Me", n: 2 },
@@ -20090,7 +19866,7 @@ export const recordings: RecordingImport[] = [
     year: 2013,
     month: 11,
     date: 29,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Take Me to the Plaza", n: 1 },
       { name: "Celestial", n: 2 },
@@ -20132,7 +19908,7 @@ export const recordings: RecordingImport[] = [
     year: 2013,
     month: 12,
     date: 5,
-    jon: true,
+    jb: true,
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -20162,7 +19938,7 @@ export const recordings: RecordingImport[] = [
     year: 2014,
     month: 3,
     date: 7,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Behold the Lilies of the Field", n: 1 },
       { name: "Stultified", n: 2 },
@@ -20189,7 +19965,7 @@ export const recordings: RecordingImport[] = [
     year: 2014,
     month: 6,
     date: 17,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Touched More", n: 1 },
       { name: "But Then Ego Went Away", n: 2 },
@@ -20224,7 +20000,6 @@ export const recordings: RecordingImport[] = [
     year: 2014,
     month: 6,
     date: 19,
-    jon: false,
     songs: [
       { name: "But Then Ego Went Away", n: 1 },
       { name: "Because Her Beauty is Raw and Wild", n: 2 },
@@ -20251,7 +20026,7 @@ export const recordings: RecordingImport[] = [
     year: 2014,
     month: 11,
     date: 15,
-    jon: true,
+    jb: true,
     songs: [
       { name: "We Had a Fight Last Night", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -20277,7 +20052,7 @@ export const recordings: RecordingImport[] = [
     year: 2014,
     month: 11,
     date: 22,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Springtime In New York", n: 1 },
       { name: "Older Girl", n: 2 },
@@ -20336,7 +20111,7 @@ export const recordings: RecordingImport[] = [
     year: 2015,
     month: 3,
     date: 6,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Now You're A Lover", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -20370,7 +20145,7 @@ export const recordings: RecordingImport[] = [
     year: 2015,
     month: 10,
     date: 30,
-    jon: true,
+    jb: true,
     songs: [
       { name: "Springtime In New York", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -20399,7 +20174,7 @@ export const recordings: RecordingImport[] = [
     year: 2015,
     month: 11,
     date: 1,
-    jon: true,
+    jb: true,
     songs: [
       { name: "We Had a Fight Last Night", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -20436,7 +20211,7 @@ export const recordings: RecordingImport[] = [
     year: 2015,
     month: 11,
     date: 5,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "No One Was Like Vermeer" },
       { n: 2, name: "Let Her Go Into the Darkness" },
@@ -20491,7 +20266,7 @@ export const recordings: RecordingImport[] = [
     year: 2016,
     month: 4,
     date: 2,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "No One Was Like Vermeer" },
       { n: 2, name: "O Sun!" },
@@ -20519,7 +20294,7 @@ export const recordings: RecordingImport[] = [
     year: 2016,
     month: 4,
     date: 18,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "Whoa! How Different We All Are!" },
       { n: 2, name: "No One Was Like Vermeer" },
@@ -20553,7 +20328,7 @@ export const recordings: RecordingImport[] = [
     year: 2016,
     month: 4,
     date: 19,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "No One Was Like Vermeer" },
       { n: 2, name: "We Want to Take You Higher" },
@@ -20582,7 +20357,7 @@ export const recordings: RecordingImport[] = [
     year: 2016,
     month: 5,
     date: 21,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "Egyptian Reggae" },
       { n: 2, name: "I'm A Prisoner Because Of Fabric Softener" },
@@ -20607,7 +20382,7 @@ export const recordings: RecordingImport[] = [
     year: 2016,
     month: 11,
     date: 13,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "No One Was Like Vermeer" },
       { n: 2, name: "La Fiesta Es Para Todos" },
@@ -20644,7 +20419,7 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 14,
     format: "flac",
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "No One Was Like Vermeer" },
       { n: 2, name: "We Want to Take You Higher" },
@@ -20712,7 +20487,7 @@ export const recordings: RecordingImport[] = [
     year: 2018,
     month: 2,
     date: 22,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "Because Her Beauty is Raw and Wild" },
       { n: 2, name: "No One Was Like Vermeer" },
@@ -20769,7 +20544,7 @@ export const recordings: RecordingImport[] = [
     year: 2018,
     month: 10,
     date: 16,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "Take Me to the Plaza" },
       { n: 2, name: "Whoa! How Different We All Are!" },
@@ -20801,7 +20576,7 @@ export const recordings: RecordingImport[] = [
     year: 2019,
     month: 2,
     date: 20,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "The Fading Of An Old World" },
       { n: 2, name: "He Gave Us the Wine to Taste" },
@@ -20877,7 +20652,7 @@ export const recordings: RecordingImport[] = [
     year: 2022,
     month: 10,
     date: 13,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "Everybody Loves Dolly" },
       { n: 2, name: "When We Refuse to Suffer" },
@@ -20926,7 +20701,7 @@ export const recordings: RecordingImport[] = [
     year: 2023,
     month: 10,
     date: 8,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "This Is One Sad World" },
       { n: 2, name: "Affection" },
@@ -20956,7 +20731,7 @@ export const recordings: RecordingImport[] = [
     year: 2023,
     month: 10,
     date: 9,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "No One Was Like Vermeer" },
       { n: 2, name: "Let Her Go Into the Darkness" },
@@ -20985,7 +20760,7 @@ export const recordings: RecordingImport[] = [
     year: 2023,
     month: 10,
     date: 27,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "Sento, Sento" },
       { n: 2, name: "Springtime In New York" },
@@ -21013,7 +20788,7 @@ export const recordings: RecordingImport[] = [
     year: 2024,
     month: 3,
     date: 5,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "That Summer Feeling" },
       { n: 2, name: "Me And Her And The Beach" },
@@ -21042,7 +20817,7 @@ export const recordings: RecordingImport[] = [
     year: 2024,
     month: 3,
     date: 6,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "Springtime In New York" },
       { n: 2, name: "Egyptian Reggae" },
@@ -21074,7 +20849,7 @@ export const recordings: RecordingImport[] = [
     year: 2024,
     month: 3,
     date: 14,
-    jon: true,
+    jb: true,
     songs: [
       { n: 1, name: "Affection" },
       { n: 2, name: "He Gave Us the Wine to Taste" },
@@ -21108,7 +20883,6 @@ export const recordings: RecordingImport[] = [
     type: "Compilation",
     quality: "Good",
     name: "For All the Modern Lovers",
-    jon: false,
     songs: [
       { name: "Modern World", n: 1 },
       { name: "Walk Up the Street", n: 2 },
@@ -21129,8 +20903,8 @@ export const recordings: RecordingImport[] = [
     id: 9000000001,
     type: "Compilation",
     name: "Regression",
-    jon: true,
-    jonnote: "mp3",
+    jb: true,
+    jbnote: "mp3",
     songs: [
       { name: "Hi Dear", n: 1 },
       { name: "Back in Your Life", n: 2 },
@@ -21159,7 +20933,7 @@ export const recordings: RecordingImport[] = [
     type: "Compilation",
     quality: "Good",
     name: "Route 128 Revisited",
-    jon: true,
+    jb: true,
     songs: [
       { name: "A Plea For Tenderness", n: 1 },
       { name: "Song Of Remembrance For Old Girlfriends", n: 2 },
@@ -21183,8 +20957,8 @@ export const recordings: RecordingImport[] = [
     type: "Compilation",
     quality: "Good",
     name: "USA 1976-1982",
-    jon: true,
-    jonnote: "aac",
+    jb: true,
+    jbnote: "aac",
     songs: [
       { name: "Baby We Can't Go Wrong", n: 1 },
       { name: "I Love Her Little Body", n: 2 },
@@ -21221,7 +20995,7 @@ export const recordings: RecordingImport[] = [
     id: 9000000004,
     type: "Compilation",
     name: "Beantown Gems",
-    jon: true,
+    jb: true,
     songs: [
       { name: "Modern World", n: 1 },
       { name: "She Cracked", n: 2 },
@@ -21241,7 +21015,7 @@ export const recordings: RecordingImport[] = [
     country: "USA",
     city: "Chicago",
     name: "WBEZ",
-    jon: true,
+    jb: true,
     songs: [],
   },
   {

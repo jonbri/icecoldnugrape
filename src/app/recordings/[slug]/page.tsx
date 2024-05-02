@@ -19,7 +19,7 @@ export default function Page({
 }: {
   params: { slug: string };
 }) {
-  const { songs, comments, formattedTitle, jon, discogs, bandcamp } =
+  const { songs, comments, formattedTitle, jb, discogs, bandcamp } =
     getRecording(id)!;
   const sortedSongs =
     songs?.sort(({ n: n0 }, { n: n1 }) => {
@@ -80,7 +80,7 @@ export default function Page({
         </li>
       </ul>
 
-      {jon === true ? (
+      {jb === true ? (
         <div>
           This recording is{" "}
           <Link href="/trade">

@@ -6,7 +6,7 @@ export default function Page() {
   const recordings = getRecordings();
   const all = recordings
     .filter(({ type }) => type !== "Album")
-    .filter(({ jon }) => jon);
+    .filter(({ jb }) => jb);
   const totalCount = all.length;
   return (
     <div>
