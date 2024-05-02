@@ -1872,7 +1872,7 @@ export const recordings: RecordingImport[] = [
     quality: "Very Good",
     year: 1971,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     breaks: [7],
     songs: [
       { name: "Modern World", n: 1, set: 1 },
@@ -1912,7 +1912,7 @@ export const recordings: RecordingImport[] = [
     year: 1972,
     name: "Songs of Rememberance",
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "I'm Waiting For the Man", n: 1 },
       { name: "Hospital", n: 2 },
@@ -1962,7 +1962,7 @@ export const recordings: RecordingImport[] = [
     date: 27,
     sublocation: "Cambridge",
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "I'm Dropping My Friends (One by One)", n: 1 },
       { name: "I Wanna Sleep In Your Arms", n: 2 },
@@ -2064,7 +2064,7 @@ export const recordings: RecordingImport[] = [
     year: 1974,
     name: "The Living Room Demo's",
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "I Feel Alright", n: 1 },
       { name: "Veil Of Cold", n: 2 },
@@ -2100,7 +2100,7 @@ export const recordings: RecordingImport[] = [
     year: 1974,
     name: "The Laura Palmer Tape",
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Government Center", n: 1 },
       { name: "The New Teller", n: 2 },
@@ -2390,7 +2390,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 3,
     jb: true,
-    jbnote: "aiff",
+    format: "aiff",
     breaks: [15],
     songs: [
       { name: "instrumental", n: 1, set: 1 },
@@ -2439,7 +2439,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 9,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "Back in the USA", n: 1 },
       { name: "Roadrunner", n: 2 },
@@ -2612,7 +2612,7 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 13,
     jb: true,
-    jbnote: "aiff - early show",
+    format: "aiff",
     songs: [
       { name: "Afternoon", n: 1 },
       { name: "I'm a Little Dinosaur", n: 2 },
@@ -2659,7 +2659,7 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 13,
     jb: true,
-    jbnote: "aiff - late show",
+    format: "aiff",
     breaks: [15],
     songs: [
       { name: "Afternoon", n: 1, set: 1 },
@@ -3074,7 +3074,7 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 3,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Important in Your Life", n: 1 },
       { name: "The New Teller", n: 2 },
@@ -3105,7 +3105,7 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 4,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Lydia", n: 1, set: 1 },
       { name: "Abominable Snowman in the Market", n: 2, set: 1 },
@@ -3166,7 +3166,6 @@ export const recordings: RecordingImport[] = [
     month: 4,
     date: 30,
     jb: true,
-    jbnote: "aac",
     songs: [
       { name: "Hello Josephine", n: 1 },
       { name: "I'm a Little Airplane", n: 2 },
@@ -3214,7 +3213,7 @@ export const recordings: RecordingImport[] = [
     date: 1,
     name: "Round Table UK Radio 1",
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [],
     comments: [
       {
@@ -3234,7 +3233,7 @@ export const recordings: RecordingImport[] = [
     date: 4,
     name: "VPRO Radio - Amigos De Musica",
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "I'm a Little Dinosaur", n: 1 },
       { name: "Route 66", n: 2 },
@@ -3268,7 +3267,7 @@ export const recordings: RecordingImport[] = [
     date: 15,
     name: "Pinkpop Festival",
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "New England", n: 1 },
       { name: "Important in Your Life", n: 2 },
@@ -3308,7 +3307,7 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 18,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -3439,7 +3438,7 @@ export const recordings: RecordingImport[] = [
     month: 7,
     date: 7,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Here Come the Martian Martians", n: 1 },
       { name: "Abdul and Cleopatra", n: 2 },
@@ -3496,7 +3495,7 @@ export const recordings: RecordingImport[] = [
     month: 7,
     date: 8,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "My Love is a Flower (Just Beginning to Bloom)", n: 1 },
       { name: "Springtime", n: 2 },
@@ -4134,7 +4133,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 7,
     jb: true,
-    jbnote: "aiff",
+    format: "aiff",
     songs: [
       { name: "Important in Your Life", n: 1 },
       { name: "Back in the USA", n: 2 },
@@ -4200,7 +4199,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 18,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Baby We Can't Go Wrong", n: 1 },
       { name: "Here Come the Martian Martians", n: 2 },
@@ -4516,7 +4515,7 @@ export const recordings: RecordingImport[] = [
     month: 2,
     date: 20,
     jb: true,
-    jbnote: "aiff",
+    format: "aiff",
     breaks: [15],
     songs: [
       { name: "New England", n: 1, set: 1 },
@@ -5141,7 +5140,7 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 5,
     jb: true,
-    jbnote: "aiff",
+    format: "aiff",
     songs: [
       { name: "Here Come the Martian Martians", n: 1 },
       { name: "That Summer Feeling", n: 2 },
@@ -5187,7 +5186,7 @@ export const recordings: RecordingImport[] = [
     date: 13,
     sublocation: "Cambridge",
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Tahitian Hop", n: 1 },
       { name: "The Neighbors", n: 2 },
@@ -5556,7 +5555,7 @@ export const recordings: RecordingImport[] = [
     month: 8,
     date: 27,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "Louie Louie", n: 1 },
       { name: "Hang On Sloopy", n: 2 },
@@ -5629,7 +5628,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 9,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "Those Conga Drums", n: 2 },
@@ -5840,7 +5839,7 @@ export const recordings: RecordingImport[] = [
     date: 20,
     name: "The Penthouse Radio Show",
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Not Yet 3", n: 1 },
       { name: "Ice Cream Man", n: 2 },
@@ -5938,7 +5937,7 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1983,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "Stop This Car", n: 2 },
@@ -6152,7 +6151,7 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 21,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Yo Jo Jo", n: 2 },
@@ -6215,7 +6214,7 @@ export const recordings: RecordingImport[] = [
     month: 7,
     date: 12,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "The Beach", n: 2 },
@@ -6327,7 +6326,7 @@ export const recordings: RecordingImport[] = [
     month: 7,
     date: 31,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "My Jeans", n: 2 },
@@ -6364,7 +6363,7 @@ export const recordings: RecordingImport[] = [
     year: 1984,
     month: 7,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "This Kind Of Music", n: 1 },
       { name: "My Jeans", n: 2 },
@@ -6436,7 +6435,7 @@ export const recordings: RecordingImport[] = [
     month: 8,
     date: 6,
     jb: true,
-    jbnote: "wav",
+    format: "wav",
     songs: [
       { name: "That Summer Feeling", n: 1 },
       { name: "This Kind Of Music", n: 2 },
@@ -6652,7 +6651,7 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 17,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -6984,7 +6983,7 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1985,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "This Kind Of Music", n: 2 },
@@ -7067,7 +7066,7 @@ export const recordings: RecordingImport[] = [
     month: 1,
     date: 16,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The UFO Man", n: 1 },
       { name: "I'm a Little Dinosaur", n: 2 },
@@ -7118,7 +7117,7 @@ export const recordings: RecordingImport[] = [
     month: 1,
     date: 21,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Now is Better Than Before", n: 2 },
@@ -7292,7 +7291,7 @@ export const recordings: RecordingImport[] = [
     month: 4,
     date: 10,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "My Jeans", n: 2 },
@@ -7564,7 +7563,7 @@ export const recordings: RecordingImport[] = [
     month: 9,
     date: 8,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "Not Yet 3", n: 2 },
@@ -7620,7 +7619,7 @@ export const recordings: RecordingImport[] = [
     month: 12,
     date: 6,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -7741,7 +7740,7 @@ export const recordings: RecordingImport[] = [
     month: 1,
     date: 25,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Give Paris One More Chance", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -7989,7 +7988,7 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 5,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Vincent Van Gogh", n: 2 },
@@ -8036,7 +8035,7 @@ export const recordings: RecordingImport[] = [
     month: 8,
     date: 21,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "You're the One For Me", n: 1 },
       { name: "Chewing Gum Wrapper", n: 2 },
@@ -8189,7 +8188,7 @@ export const recordings: RecordingImport[] = [
     month: 12,
     date: 26,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "California Desert Party", n: 2 },
@@ -8293,7 +8292,7 @@ export const recordings: RecordingImport[] = [
     month: 1,
     date: 15,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Girlfren'", n: 1 },
       { name: "The Sweeping Wind", n: 2 },
@@ -8660,7 +8659,7 @@ export const recordings: RecordingImport[] = [
     month: 4,
     date: 7,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "The UFO Man", n: 2 },
@@ -8712,7 +8711,7 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 28,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Chewing Gum Wrapper", n: 2 },
@@ -8832,7 +8831,7 @@ export const recordings: RecordingImport[] = [
     month: 7,
     date: 9,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Chewing Gum Wrapper", n: 2 },
@@ -8872,7 +8871,7 @@ export const recordings: RecordingImport[] = [
     month: 9,
     date: 10,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Malaguena De Jojo", n: 2 },
@@ -9019,7 +9018,7 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 14,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     breaks: [14],
     songs: [
       { name: "instrumental", n: 1, set: 1 },
@@ -9125,7 +9124,7 @@ export const recordings: RecordingImport[] = [
     month: 2,
     date: 9,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -9348,7 +9347,7 @@ export const recordings: RecordingImport[] = [
     year: 1989,
     month: 10,
     date: 20,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "Malaguena De Jojo", n: 1 },
       { name: "The Beach", n: 2 },
@@ -9389,7 +9388,7 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1989,
     month: 12,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -9795,7 +9794,6 @@ export const recordings: RecordingImport[] = [
     year: 1990,
     month: 10,
     date: 3,
-    jbnote: "mp3",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "I Have Come Out to Play", n: 2 },
@@ -10034,7 +10032,7 @@ export const recordings: RecordingImport[] = [
     month: 2,
     date: 16,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Reno", n: 1 },
       { name: "You're Crazy For Taking the Bus", n: 2 },
@@ -10372,7 +10370,7 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 29,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "She Doesn't Laugh At My Jokes", n: 2 },
@@ -10521,7 +10519,7 @@ export const recordings: RecordingImport[] = [
     month: 9,
     date: 14,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Yo Jo Jo", n: 2 },
@@ -10651,7 +10649,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 30,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "She Doesn't Laugh At My Jokes", n: 1 },
       { name: "Wipeout", n: 2 },
@@ -10693,7 +10691,7 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 12,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Everyday Clothes", n: 1 },
       { name: "When I Say Wife", n: 2 },
@@ -11077,7 +11075,7 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 9,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "I Was Dancing in the Lesbian Bar", n: 2 },
@@ -11265,7 +11263,7 @@ export const recordings: RecordingImport[] = [
     date: 12,
     sublocation: "Cambridge",
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Rooming House on Venice Beach", n: 2 },
@@ -11296,7 +11294,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 26,
     jb: true,
-    jbnote: "wma",
+    format: "wma",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Tandem Jump", n: 2 },
@@ -11346,7 +11344,7 @@ export const recordings: RecordingImport[] = [
     date: 13,
     sublocation: "Cambridge",
     jb: true,
-    jbnote: "aac. I only have part of this show",
+    format: "aac",
     songs: [
       { name: "Parties In The USA", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -11375,7 +11373,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: '"Wipeout" is cut',
+        text: '"Wipeout" is cut, I only have part of this show',
         time: "2011-10-09 14:14:55",
       },
     ],
@@ -11404,7 +11402,7 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1992,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "Cappuccino Bar", n: 1 },
       { name: "They're Not Trying on the Dance Floor", n: 2 },
@@ -11454,7 +11452,7 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 25,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Seven Day Weekend", n: 2 },
@@ -11552,7 +11550,7 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 21,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Blue Moon", n: 2 },
@@ -12002,7 +12000,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 14,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Action Packed", n: 1 },
       { name: "Affection", n: 2 },
@@ -12041,7 +12039,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 16,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Action Packed", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12084,7 +12082,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 21,
     jb: true,
-    jbnote: "wma",
+    format: "wma",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Blue Moon", n: 2 },
@@ -12123,7 +12121,7 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 1,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -12156,7 +12154,7 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 4,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12238,7 +12236,7 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 10,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Up In The Sky Sometime", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -12354,7 +12352,7 @@ export const recordings: RecordingImport[] = [
     month: 1,
     date: 21,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "To Hide a Little Thought", n: 1 },
       { name: "Parties In The USA", n: 2 },
@@ -12530,7 +12528,7 @@ export const recordings: RecordingImport[] = [
     month: 4,
     date: 8,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Parties In The USA", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12612,7 +12610,7 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 11,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Parties In The USA", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12655,7 +12653,7 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 13,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "I Love Hot Nights", n: 2 },
@@ -12767,7 +12765,7 @@ export const recordings: RecordingImport[] = [
     month: 7,
     date: 13,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "Blue Moon", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -12801,7 +12799,7 @@ export const recordings: RecordingImport[] = [
     month: 7,
     date: 15,
     jb: true,
-    jbnote: "mp3 (not all of show)",
+    format: "mp3",
     songs: [
       { name: "Everyday Clothes", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12824,6 +12822,13 @@ export const recordings: RecordingImport[] = [
       { name: "Give Paris One More Chance", n: 19 },
       { name: "You Must Ask the Heart", n: 20 },
     ],
+    comments: [
+      {
+        name: "JB",
+        text: "Not all of show",
+        time: "2024-05-02 00:00:00",
+      },
+    ],
   },
   {
     id: 1995101900,
@@ -12836,7 +12841,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 19,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -12880,7 +12885,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 24,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Vampire Girl", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -13310,7 +13315,6 @@ export const recordings: RecordingImport[] = [
     month: 3,
     name: "KALW - West Coast Live",
     jb: true,
-    jbnote: "mp3",
     songs: [],
     comments: [
       {
@@ -13354,7 +13358,7 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 26,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -13453,7 +13457,7 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 30,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "instrumental", n: 1 },
       { name: "Everyday Clothes", n: 2 },
@@ -13502,7 +13506,7 @@ export const recordings: RecordingImport[] = [
     month: 8,
     date: 13,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Lover Please", n: 2 },
@@ -13615,7 +13619,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 24,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Wipeout", n: 1 },
       { name: "The Girl Stands Up to Me Now", n: 2 },
@@ -13669,7 +13673,7 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 18,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "I Was Dancing in the Lesbian Bar", n: 1 },
       { name: "There's Something About Mary", n: 2 },
@@ -14069,7 +14073,6 @@ export const recordings: RecordingImport[] = [
     month: 12,
     date: 8,
     jb: true,
-    jbnote: "aac",
     songs: [
       { name: "True Love Is Not Nice", n: 1 },
       { name: "Let Her Go Into the Darkness", n: 2 },
@@ -14562,7 +14565,7 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 3,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
@@ -14666,7 +14669,7 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 29,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -14774,7 +14777,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 25,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -14926,7 +14929,7 @@ export const recordings: RecordingImport[] = [
     month: 11,
     date: 7,
     jb: true,
-    jbnote: "aac. need to find rest of this show",
+    format: "aac",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -14971,7 +14974,7 @@ export const recordings: RecordingImport[] = [
     month: 9,
     date: 5,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 2 },
@@ -15022,7 +15025,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 17,
     jb: true,
-    jbnote: "I have a video of this",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "The UFO Man", n: 2 },
@@ -15054,6 +15056,11 @@ export const recordings: RecordingImport[] = [
         name: "Bob",
         text: "This is a really good recording and definitely deserves to be classed as Excellent!",
         time: "2011-04-09 00:00:00",
+      },
+      {
+        name: "JB",
+        text: "I have a video of this show",
+        time: "2024-05-02 00:00:00",
       },
     ],
   },
@@ -15104,7 +15111,7 @@ export const recordings: RecordingImport[] = [
     month: 2,
     date: 15,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Give Paris One More Chance", n: 2 },
@@ -15533,7 +15540,7 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 14,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "C'etait Toujours Toi", n: 1 },
       { name: "Pablo Picasso", n: 2 },
@@ -15919,7 +15926,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 16,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "Yo Tengo una Novia", n: 1 },
       { name: "Nineteen in Naples", n: 2 },
@@ -16499,7 +16506,7 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 4,
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "Give Paris One More Chance", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
@@ -17593,7 +17600,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 27,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Chiusa la Festa, Chiusa la Sera", n: 1 },
       { name: "Pablo Picasso", n: 2 },
@@ -17780,7 +17787,7 @@ export const recordings: RecordingImport[] = [
     month: 12,
     date: 16,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -17919,7 +17926,7 @@ export const recordings: RecordingImport[] = [
     month: 9,
     date: 28,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "I Love Life So", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -18263,7 +18270,6 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 6,
     jb: true,
-    jbnote: "mp3",
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Because Her Beauty is Raw and Wild", n: 2 },
@@ -18309,7 +18315,7 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 10,
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Behold the Lilies of the Field", n: 2 },
@@ -18602,7 +18608,7 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 16,
     jb: true,
-    jbnote: "aiff",
+    format: "aiff",
     songs: [
       { name: "My Baby Love Love Loves Me", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -18635,7 +18641,6 @@ export const recordings: RecordingImport[] = [
     month: 9,
     date: 22,
     jb: true,
-    jbnote: "mp3",
     songs: [
       { name: "Dancing In the Moonlight", n: 1, set: 1 },
       { name: "I Was Dancing in the Lesbian Bar", n: 2, set: 1 },
@@ -18862,7 +18867,6 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 20,
     jb: true,
-    jbnote: "mp3",
     songs: [
       { name: "Because Her Beauty is Raw and Wild", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -18897,7 +18901,6 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 21,
     jb: true,
-    jbnote: "mp3",
     songs: [
       { name: "Pacific Coast Highway", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
@@ -18931,7 +18934,6 @@ export const recordings: RecordingImport[] = [
     month: 5,
     date: 22,
     jb: true,
-    jbnote: "mp3",
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Stultified", n: 2 },
@@ -19574,7 +19576,6 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 20,
     jb: true,
-    jbnote: "mp3",
     songs: [],
   },
   {
@@ -19588,7 +19589,6 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 21,
     jb: true,
-    jbnote: "mp3",
     songs: [],
   },
   {
@@ -20904,7 +20904,7 @@ export const recordings: RecordingImport[] = [
     type: "Compilation",
     name: "Regression",
     jb: true,
-    jbnote: "mp3",
+    format: "mp3",
     songs: [
       { name: "Hi Dear", n: 1 },
       { name: "Back in Your Life", n: 2 },
@@ -20958,7 +20958,7 @@ export const recordings: RecordingImport[] = [
     quality: "Good",
     name: "USA 1976-1982",
     jb: true,
-    jbnote: "aac",
+    format: "aac",
     songs: [
       { name: "Baby We Can't Go Wrong", n: 1 },
       { name: "I Love Her Little Body", n: 2 },

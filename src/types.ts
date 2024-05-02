@@ -37,7 +37,7 @@ type Quality =
   | "Good/Very Good"
   | "Fair";
 
-type Format = "flac" | "mp3" | "wav" | "m4a";
+type Format = "flac" | "mp3" | "wav" | "m4a" | "aiff" | "aac" | "wma";
 
 type Year =
   | 1971
