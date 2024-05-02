@@ -57,6 +57,11 @@ export default function Page() {
           </Link>
         </li>
         <li>
+          <Link href="https://github.com/jonbri/icecoldnugrape/issues">
+            Issues
+          </Link>
+        </li>
+        <li>
           <Link href="https://github.com/jonbri/icecoldnugrape">GitHub</Link>
         </li>
         <li>{links.validate} </li>
