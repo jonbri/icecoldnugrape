@@ -29,7 +29,19 @@ export default function Page({
           <li key={id}>
             <Link
               href={`/recordings/${id}`}
-              className={type === "Album" ? "album" : undefined}
+              className={
+                [
+                  "Album",
+                  "Studio Bootleg",
+                  "Compilation",
+                  "Single",
+                  "Radio",
+                  "Interview",
+                  "TV",
+                ].includes(type)
+                  ? "album"
+                  : undefined
+              }
             >
               {formattedTitle}
             </Link>
