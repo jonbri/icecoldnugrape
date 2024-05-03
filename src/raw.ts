@@ -695,7 +695,8 @@ export type SongType =
   | "Let's Move Somewhere Else"
   | "Shopper's World"
   | "The Secret"
-  | "Beef Burger Ad";
+  | "Beef Burger Ad"
+  | "Get Up Off Your Chair";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1825,6 +1826,7 @@ export const songs: SongImport[] = [
   { name: "Shopper's World" },
   { name: "The Secret" },
   { name: "Beef Burger Ad" },
+  { name: "Get Up Off Your Chair" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -19714,7 +19716,27 @@ export const recordings: RecordingImport[] = [
     month: 2,
     date: 26,
     jb: true,
-    songs: [],
+    format: "flac",
+    songs: [
+      { name: "No One Was Like Vermeer", n: 1, set: 1 },
+      { name: "My Baby Love Love Loves Me", n: 2, set: 1 },
+      { name: "O Moon, Queen Of Night On Earth", n: 3, set: 1 },
+      { name: "Let Her Go Into the Darkness", n: 4, set: 1 },
+      { name: "My Love She Is From Somewhere Else", n: 5, set: 1 },
+      { name: "Sa Voix M'Atisse", n: 6, set: 1 },
+      { name: "Velvet Underground", n: 7, set: 1 },
+      { name: "We Had a Fight Last Night", n: 8, set: 1 },
+      { name: "Stultified", n: 9, set: 1 },
+      { name: "Get Up Off Your Chair", n: 10, set: 1 },
+      { name: "La Festa Qua", n: 11, set: 2 },
+      { name: "La Fiesta Es Para Todos", n: 12, set: 2 },
+      { name: "Ja La BBQ", n: 13, set: 2 },
+      { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 14, set: 2 },
+      { name: "Keith", n: 15, set: 2 },
+      { name: "We Want to Take You Higher", n: 16, set: 2 },
+      { name: "Dancing In the Moonlight", n: 17, set: 2 },
+      { name: "When We Refuse to Suffer", n: 18, set: 2 },
+    ],
     comments: [
       {
         name: "Ryan",
