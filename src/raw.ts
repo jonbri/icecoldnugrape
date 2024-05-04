@@ -19669,7 +19669,21 @@ export const recordings: RecordingImport[] = [
     month: 2,
     date: 17,
     jb: true,
-    songs: [],
+    format: "flac",
+    songs: [
+      { name: "When We Refuse to Suffer", n: 1 },
+      { name: "Sa Voix M'Atisse", n: 2 },
+      { name: "Because Her Beauty is Raw and Wild", n: 3 },
+      { name: "Old World", n: 4 },
+      { name: "Let Her Go Into the Darkness", n: 5 },
+    ],
+    comments: [
+      {
+        name: "JB",
+        text: "Partial recording",
+        time: "2024-05-03 00:00:00",
+      },
+    ],
   },
   {
     id: 2013022100,
