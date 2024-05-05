@@ -696,7 +696,9 @@ export type SongType =
   | "Shopper's World"
   | "The Secret"
   | "Beef Burger Ad"
-  | "Get Up Off Your Chair";
+  | "Get Up Off Your Chair"
+  | "They're Mistaken"
+  | "I Love Gail";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1827,6 +1829,8 @@ export const songs: SongImport[] = [
   { name: "The Secret" },
   { name: "Beef Burger Ad" },
   { name: "Get Up Off Your Chair" },
+  { name: "They're Mistaken" },
+  { name: "I Love Gail" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -3659,7 +3663,42 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 17,
     jb: true,
-    songs: [],
+    format: "flac",
+    songs: [
+      { name: "Five Year Old Feeling", n: 1 },
+      { name: "Back in Your Life", n: 2 },
+      { name: "Fly Into the Mystery", n: 3 },
+      { name: "I'm Nature's Mosquito", n: 4 },
+      { name: "Party In The Woods Tonight", n: 5 },
+      { name: "South American Folk Song", n: 6 },
+      { name: "Here Come the Martian Martians", n: 7 },
+      { name: "My Love is a Flower (Just Beginning to Bloom)", n: 8 },
+      { name: "Ice Cream Man", n: 9 },
+      { name: "(She's Gonna) Respect Me", n: 10 },
+      { name: "Buzz Buzz Buzz", n: 11 },
+      { name: "Walter Johnson", n: 12 },
+      { name: "It's Afternoon And The Range Is Calling", n: 13 },
+      { name: "Theme From Moulin Rouge", n: 14 },
+      { name: "Summer Morning", n: 15 },
+      { name: "New England", n: 16 },
+      { name: "Up In Cold Maine Under the Stars", n: 17 },
+      { name: "Rockin' Rockin' Leprechauns", n: 18 },
+      { name: "Important in Your Life", n: 19 },
+      { name: "Shirin and Fahrad", n: 20 },
+      { name: "Back in Your Life", n: 21 },
+      { name: "My Little Kookenhaken", n: 22 },
+      { name: "Pretty Little Girl", n: 22 },
+      { name: "I'm a Little Dinosaur", n: 22 },
+      { name: "They're Mistaken", n: 22 },
+      { name: "I Love Gail", n: 22 },
+      { name: "I Don't Want No Nuclear Power Plants (In My Life)", n: 22 },
+      { name: "I'm Nature's Mosquito", n: 22 },
+      { name: "Party In The Woods Tonight", n: 22 },
+      { name: "instrumental", n: 22 },
+      { name: "The New Teller", n: 22 },
+      { name: "instrumental", n: 22 },
+      { name: "Affection", n: 22 },
+    ],
   },
   {
     id: 1979040100,
