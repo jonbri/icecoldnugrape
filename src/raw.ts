@@ -274,7 +274,7 @@ export type SongType =
   | "My Heart Was Won by a Girl"
   | "My Honest Dear"
   | "My Jeans"
-  | "My Little Girls Got A Full Time Daddy Now"
+  | "My Little Girl's Got A Full Time Daddy Now"
   | "My Little Kookenhaken"
   | "My Love For Her Ain't Sad"
   | "My Love is a Flower (Just Beginning to Bloom)"
@@ -1208,7 +1208,7 @@ export const songs: SongImport[] = [
   { name: "My Heart Was Won by a Girl" },
   { name: "My Honest Dear" },
   { name: "My Jeans" },
-  { name: "My Little Girls Got A Full Time Daddy Now" },
+  { name: "My Little Girl's Got A Full Time Daddy Now" },
   {
     name: "My Little Kookenhaken",
     comments: [
@@ -12891,7 +12891,7 @@ export const recordings: RecordingImport[] = [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "To Hide a Little Thought", n: 2 },
       { name: "Blue Moon", n: 3 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 4 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 4 },
       { name: "Parties In The USA", n: 5 },
       { name: "Sex Machine", n: 6 },
       { name: "Velvet Underground", n: 7 },
@@ -12945,7 +12945,7 @@ export const recordings: RecordingImport[] = [
       { name: "Let Her Go Into the Darkness", n: 11 },
       { name: "Fender Stratocaster", n: 12 },
       { name: "Affection", n: 13 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 14 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 14 },
       { name: "Rock 'N' Roll Drummer Straight From The Hospy-Tel", n: 15 },
       { name: "Velvet Underground", n: 16 },
       { name: "Give Paris One More Chance", n: 17 },
@@ -13028,7 +13028,7 @@ export const recordings: RecordingImport[] = [
       { name: "When She Kisses Me", n: 14 },
       { name: "Theme From Moulin Rouge", n: 15 },
       { name: "French Style", n: 16 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 17 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 17 },
       { name: "It's You", n: 18 },
       { name: 'Not Just "Plus One" On The Guest List Anymore', n: 19 },
       { name: "Nothing Can Change This Love", n: 20 },
@@ -13064,7 +13064,7 @@ export const recordings: RecordingImport[] = [
       { name: "Twist and Shout", n: 9 },
       { name: "Egyptian Reggae", n: 10 },
       { name: "I Was Dancing in the Lesbian Bar", n: 11 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 12 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 12 },
       { name: "That Little Sleeper Car", n: 13 },
       { name: "Nothing Can Change This Love", n: 14 },
       { name: "instrumental", n: 15 },
@@ -13092,7 +13092,7 @@ export const recordings: RecordingImport[] = [
     songs: [
       { name: "Egyptian Reggae", n: 1 },
       { name: "Fender Stratocaster", n: 2 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 3 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 3 },
       { name: "That Little Sleeper Car", n: 4 },
       { name: "Feel It", n: 5 },
       { name: "South American Folk Song", n: 6 },
@@ -13132,7 +13132,7 @@ export const recordings: RecordingImport[] = [
       { name: "To Hide a Little Thought", n: 4 },
       { name: "Let Her Go Into the Darkness", n: 5 },
       { name: "Everyday Clothes", n: 6 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 7 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 7 },
       { name: "Just Look At Me", n: 8 },
       { name: "Rock 'N' Roll Drummer Straight From The Hospy-Tel", n: 9 },
       { name: "Sex Machine", n: 10 },
@@ -13175,7 +13175,7 @@ export const recordings: RecordingImport[] = [
       { name: "South American Folk Song", n: 4 },
       { name: 'Not Just "Plus One" On The Guest List Anymore', n: 5 },
       { name: "Coin De Rue", n: 6 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 7 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 7 },
       { name: "Floatin'", n: 8 },
       { name: "Everyday Clothes", n: 9 },
       { name: "Rooming House on Venice Beach", n: 10 },
@@ -13224,7 +13224,7 @@ export const recordings: RecordingImport[] = [
       { name: "Blue Moon", n: 8 },
       { name: "Let Her Go Into the Darkness", n: 9 },
       { name: "Rock 'N' Roll Drummer Straight From The Hospy-Tel", n: 10 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 11 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 11 },
       { name: "I Don't Want To Go Halfway", n: 12 },
       { name: "A Higher Power", n: 13 },
       { name: "Give Paris One More Chance", n: 14 },
@@ -13259,7 +13259,7 @@ export const recordings: RecordingImport[] = [
       { name: "When She Kisses Me", n: 9 },
       { name: "Satisfy", n: 10 },
       { name: "Rock 'N' Roll Drummer Straight From The Hospy-Tel", n: 11 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 12 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 12 },
       { name: "Floatin'", n: 13 },
     ],
     comments: [
@@ -13293,7 +13293,7 @@ export const recordings: RecordingImport[] = [
     songs: [
       { name: "instrumental", n: 1 },
       { name: "It Will Stand", n: 2 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 3 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 3 },
       { name: "Blue Moon", n: 4 },
       { name: "The Girl Stands Up to Me Now", n: 5 },
       { name: "Reelin' & Rockin'", n: 6 },
@@ -13338,7 +13338,7 @@ export const recordings: RecordingImport[] = [
       { name: "The UFO Man", n: 13 },
       { name: "Sex Machine", n: 14 },
       { name: "Let Her Go Into the Darkness", n: 15 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 16 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 16 },
       { name: 'Not Just "Plus One" On The Guest List Anymore', n: 17 },
       { name: "Yo Jo Jo", n: 18 },
       { name: "I Was Dancing in the Lesbian Bar", n: 19 },
@@ -13381,7 +13381,7 @@ export const recordings: RecordingImport[] = [
     name: "KCRW - Morning Becomes Eclectic",
     songs: [
       { name: "Rooming House on Venice Beach", n: 1 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 2 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 2 },
       { name: "Surrender", n: 3 },
     ],
     comments: [
@@ -13461,7 +13461,7 @@ export const recordings: RecordingImport[] = [
       { name: "I Was Dancing in the Lesbian Bar", n: 4 },
       { name: "South American Folk Song", n: 5 },
       { name: "Egyptian Reggae", n: 6 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 7 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 7 },
       { name: 'Not Just "Plus One" On The Guest List Anymore', n: 8 },
       { name: "They're Not Trying on the Dance Floor", n: 9 },
       { name: "Blue Moon", n: 10 },
@@ -13526,7 +13526,7 @@ export const recordings: RecordingImport[] = [
       { name: "Give Paris One More Chance", n: 20 },
       { name: "True Love Is Not Nice", n: 21 },
       { name: 'Not Just "Plus One" On The Guest List Anymore', n: 22 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 23 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 23 },
       { name: "Surrender", n: 24 },
       { name: "Theme From Moulin Rouge", n: 25 },
       { name: "You Can't Talk To the Dude", n: 26 },
@@ -13694,18 +13694,6 @@ export const recordings: RecordingImport[] = [
         time: "2011-04-09 00:00:00",
       },
     ],
-  },
-  {
-    id: 1998051200,
-    type: "Show",
-    venue: "",
-    country: "USA",
-    city: "Amsterdam",
-    year: 1998,
-    month: 5,
-    date: 12,
-    jb: true,
-    songs: [],
   },
   {
     id: 1998051800,
@@ -14077,7 +14065,7 @@ export const recordings: RecordingImport[] = [
       { name: "I Was Dancing in the Lesbian Bar", n: 11 },
       { name: "True Love Is Not Nice", n: 12 },
       { name: "Let Her Go Into the Darkness", n: 13 },
-      { name: "My Little Girls Got A Full Time Daddy Now", n: 14 },
+      { name: "My Little Girl's Got A Full Time Daddy Now", n: 14 },
       { name: "instrumental", n: 15 },
       { name: "Happy Birthday Dawn", n: 16 },
       { name: "Pablo Picasso", n: 17 },
