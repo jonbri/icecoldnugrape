@@ -698,7 +698,9 @@ export type SongType =
   | "Beef Burger Ad"
   | "Get Up Off Your Chair"
   | "They're Mistaken"
-  | "I Love Gail";
+  | "I Love Gail"
+  | "The Sad Part Is They're Crazy"
+  | "Your Sex Life";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1831,6 +1833,8 @@ export const songs: SongImport[] = [
   { name: "Get Up Off Your Chair" },
   { name: "They're Mistaken" },
   { name: "I Love Gail" },
+  { name: "The Sad Part Is They're Crazy" },
+  { name: "Your Sex Life" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -18156,7 +18160,24 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 2,
     jb: true,
-    songs: [],
+    songs: [
+      { name: "Egyptian Reggae", n: 1 },
+      { name: "Your Sex Life", n: 2 },
+      { name: "That Summer Feeling", n: 3 },
+      { name: "Here Come the Martian Martians", n: 4 },
+      { name: "In Che Mondo Vivamo", n: 5 },
+      { name: "Because Her Beauty is Raw and Wild", n: 6 },
+      { name: "Time Has Been Going By So Fast", n: 7 },
+      { name: "El Joven se Estemece", n: 8 },
+      { name: "You Can Have A Cell Phone That's Ok But Not Me", n: 9 },
+      { name: "Le Printemps Des Amoreux Est Venue", n: 10 },
+      { name: "Let Her Go Into the Darkness", n: 11 },
+      { name: "No One Was Like Vermeer", n: 12 },
+      { name: "When We Refuse to Suffer", n: 13 },
+      { name: "The Sad Part Is They're Crazy", n: 14 },
+      { name: "Cosi Veloce", n: 15 },
+      { name: "Not So Much To Be Loved As To Love", n: 16 },
+    ],
   },
   {
     id: 2008031400,
