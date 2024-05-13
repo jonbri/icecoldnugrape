@@ -10480,6 +10480,7 @@ export const recordings: RecordingImport[] = [
     month: 8,
     date: 10,
     jb: true,
+    format: "flac",
     songs: [
       { name: "The Girl Stands Up to Me Now", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -10671,17 +10672,6 @@ export const recordings: RecordingImport[] = [
         time: "2011-10-09 14:18:23",
       },
     ],
-  },
-  {
-    id: 1991101000,
-    type: "Show",
-    venue: "Daily's Bar",
-    country: "Sweden",
-    city: "Stockholm",
-    year: 1991,
-    month: 10,
-    date: 10,
-    songs: [],
   },
   {
     id: 1991103000,
