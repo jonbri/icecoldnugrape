@@ -3340,7 +3340,6 @@ export const recordings: RecordingImport[] = [
   {
     id: 1978061600,
     type: "Radio",
-    venue: "",
     country: "Sweden",
     city: "Stockholm",
     year: 1978,
