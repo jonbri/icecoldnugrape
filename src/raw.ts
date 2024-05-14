@@ -1883,7 +1883,6 @@ export const recordings: RecordingImport[] = [
     year: 1971,
     jb: true,
     format: "mp3",
-    breaks: [7],
     songs: [
       { name: "Modern World", n: 1, set: 1 },
       { name: "Ride Down On The Highway", n: 2, set: 1 },
@@ -2293,7 +2292,6 @@ export const recordings: RecordingImport[] = [
     quality: "Poor",
     year: 1976,
     month: 4,
-    breaks: [14],
     songs: [
       { name: "Here Come the Martian Martians", n: 1, set: 1 },
       { name: "The New Teller", n: 2, set: 1 },
@@ -2401,7 +2399,6 @@ export const recordings: RecordingImport[] = [
     date: 3,
     jb: true,
     format: "aiff",
-    breaks: [15],
     songs: [
       { name: "instrumental", n: 1, set: 1 },
       { name: "Angels Watching Over Me", n: 2, set: 1 },
@@ -2670,7 +2667,6 @@ export const recordings: RecordingImport[] = [
     date: 13,
     jb: true,
     format: "aiff",
-    breaks: [15],
     songs: [
       { name: "Afternoon", n: 1, set: 1 },
       { name: "I'm a Little Dinosaur", n: 2, set: 1 },
@@ -3758,7 +3754,6 @@ export const recordings: RecordingImport[] = [
     month: 7,
     date: 13,
     jb: true,
-    breaks: [16],
     songs: [
       { name: "Back in Your Life", n: 1, set: 1 },
       { name: "Hi Dear", n: 2, set: 1 },
@@ -4404,7 +4399,6 @@ export const recordings: RecordingImport[] = [
     month: 2,
     date: 6,
     jb: true,
-    breaks: [12],
     songs: [
       { name: "Baby We Can't Go Wrong", n: 1, set: 1 },
       { name: "Don't You Just Know It", n: 2, set: 1 },
@@ -4453,7 +4447,6 @@ export const recordings: RecordingImport[] = [
     month: 2,
     date: 13,
     jb: true,
-    breaks: [11],
     songs: [
       { name: "New England", n: 1, set: 1 },
       { name: "Back in Your Life", n: 2, set: 1 },
@@ -4561,7 +4554,6 @@ export const recordings: RecordingImport[] = [
     date: 20,
     jb: true,
     format: "aiff",
-    breaks: [15],
     songs: [
       { name: "New England", n: 1, set: 1 },
       { name: "Back in Your Life", n: 2, set: 1 },
@@ -5012,7 +5004,6 @@ export const recordings: RecordingImport[] = [
     date: 2,
     sublocation: "Cambridge",
     jb: true,
-    breaks: [15],
     songs: [
       { name: "That Summer Feeling", n: 1, set: 1 },
       { name: "Ice Cream Man", n: 2, set: 1 },
@@ -5702,7 +5693,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 10,
     jb: true,
-    breaks: [18],
     songs: [
       { name: "The Fenway", n: 1, set: 1 },
       { name: "Five Year Old Feeling", n: 2, set: 1 },
@@ -9142,7 +9132,6 @@ export const recordings: RecordingImport[] = [
     date: 14,
     jb: true,
     format: "aac",
-    breaks: [14],
     songs: [
       { name: "instrumental", n: 1, set: 1 },
       { name: "When I Dance", n: 2, set: 1 },
@@ -13884,7 +13873,6 @@ export const recordings: RecordingImport[] = [
     year: 1998,
     month: 8,
     date: 6,
-    breaks: [16],
     songs: [
       { name: "Let Her Go Into the Darkness", n: 1, set: 1 },
       { name: "Time Stopped When We Held Hands", n: 2, set: 1 },
@@ -14541,7 +14529,6 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 16,
     jb: true,
-    breaks: [20],
     songs: [
       { name: "When She Kisses Me", n: 1, set: 1 },
       { name: "Give Paris One More Chance", n: 2, set: 1 },
@@ -17446,7 +17433,6 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 6,
     date: 11,
-    breaks: [12],
     songs: [
       { name: "Mystery of the Summer Night", n: 1, set: 1 },
       { name: "Tout ce que je cherchais etait toujours toi", n: 2, set: 1 },
@@ -17516,7 +17502,6 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 23,
     jb: true,
-    breaks: [10],
     songs: [
       { name: "In Che Mondo Vivamo", n: 1, set: 1 },
       { name: "Egyptian Reggae", n: 2, set: 1 },
@@ -17559,7 +17544,6 @@ export const recordings: RecordingImport[] = [
     year: 2005,
     month: 6,
     date: 25,
-    breaks: [11],
     songs: [
       { name: "Give Paris One More Chance", n: 1, set: 1 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 2, set: 1 },
@@ -17827,7 +17811,6 @@ export const recordings: RecordingImport[] = [
     year: 2006,
     month: 11,
     date: 2,
-    breaks: [10],
     songs: [
       { name: "Stupenda e Misera Citta", n: 1, set: 1 },
       { name: "Let Her Go Into the Darkness", n: 2, set: 1 },

@@ -140,7 +140,6 @@ export interface RecordingImport {
   date?: Date;
   jb?: boolean;
   jbnote?: string;
-  breaks?: number[];
   format?: Format;
   songs: LinkedSongImport[];
   comments?: Comment[];
