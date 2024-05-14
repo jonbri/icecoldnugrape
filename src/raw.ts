@@ -6231,24 +6231,6 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    id: 1984070700,
-    type: "Show",
-    venue: "West Side Club",
-    country: "France",
-    city: "Lyon",
-    year: 1984,
-    month: 7,
-    date: 7,
-    songs: [],
-    comments: [
-      {
-        name: "JB",
-        text: "With the Modern Lovers",
-        time: "2023-03-27 11:01:26",
-      },
-    ],
-  },
-  {
     id: 1984071200,
     type: "Show",
     venue: "West Side Club",
