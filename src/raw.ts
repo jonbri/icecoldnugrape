@@ -5812,24 +5812,6 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
-    id: 1983102500,
-    type: "Show",
-    venue: "Staches",
-    country: "USA",
-    city: "Columbus",
-    year: 1983,
-    month: 10,
-    date: 25,
-    songs: [],
-    comments: [
-      {
-        name: "JB",
-        text: "There are two sets",
-        time: "2012-06-12 19:02:16",
-      },
-    ],
-  },
-  {
     id: 1983111500,
     type: "Show",
     venue: "San Diego State University",
