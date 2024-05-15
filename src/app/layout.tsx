@@ -72,7 +72,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <title>icecoldnugrape</title>
+        <title>icecoldnugrape.com</title>
         <meta name="og:title" content="icecoldnugrape" />
         <meta name="description" content="icecoldnugrape" />
         <link rel="icon" href="/icecoldnugrape/favicon.ico" />
