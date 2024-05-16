@@ -285,8 +285,10 @@ export type SongType =
   | "Neon Sign"
   | "New England"
   | "New Kind Of Neighborhood"
+  | "unknown"
   | "unknown (french)"
   | "unknown (spanish)"
+  | "unknown (italian)"
   | "New York at 4am is More My Style"
   | "Nineteen in Naples"
   | "Nishi"
@@ -453,7 +455,6 @@ export type SongType =
   | "Twist and Shout"
   | "Twist Twist Senora"
   | "Twisting the Night Away"
-  | "unknown (?)"
   | "Up In Cold Maine Under the Stars"
   | "Up In The Sky Sometime"
   | "Vampire Girl"
@@ -504,7 +505,6 @@ export type SongType =
   | "I Can't Stay Mad At You"
   | "1963"
   | "Grunion Run"
-  | "unknown (italian)"
   | "Harpo En Su Harpa"
   | "No Te Oye"
   | "No Mas Por Fun"
@@ -669,7 +669,6 @@ export type SongType =
   | "mirabai poem"
   | "As We Walk To Fenway Park In Boston Town"
   | "Crazy Love"
-  | "unknown"
   | "Atlantique"
   | "Fluids"
   | "007 (Shanty Town)"
@@ -1237,8 +1236,10 @@ export const songs: SongImport[] = [
   { name: "Neon Sign" },
   { name: "New England" },
   { name: "New Kind Of Neighborhood" },
+  { name: "unknown" },
   { name: "unknown (french)" },
   { name: "unknown (spanish)" },
+  { name: "unknown (italian)" },
   { name: "New York at 4am is More My Style" },
   { name: "Nineteen in Naples" },
   { name: "Nishi" },
@@ -1450,7 +1451,6 @@ export const songs: SongImport[] = [
   { name: "Twist and Shout" },
   { name: "Twist Twist Senora" },
   { name: "Twisting the Night Away" },
-  { name: "unknown (?)" },
   { name: "Up In Cold Maine Under the Stars" },
   { name: "Up In The Sky Sometime" },
   {
@@ -1570,7 +1570,6 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  { name: "unknown (italian)" },
   { name: "Harpo En Su Harpa" },
   { name: "No Te Oye" },
   { name: "No Mas Por Fun" },
@@ -1803,7 +1802,6 @@ export const songs: SongImport[] = [
       },
     ],
   },
-  { name: "unknown" },
   { name: "Atlantique" },
   { name: "Fluids" },
   { name: "007 (Shanty Town)" },
@@ -11895,7 +11893,7 @@ export const recordings: RecordingImport[] = [
       { name: "When She Kisses Me", n: 22 },
       { name: "California Desert Party", n: 23 },
       { name: "(Marie's the Name) Of His Latest Flame", n: 24 },
-      { name: "unknown (?)", n: 25 },
+      { name: "unknown", n: 25 },
       { name: "Sabor a Mi", n: 26 },
       { name: "The Fenway", n: 27 },
       { name: "South American Folk Song", n: 28 },
@@ -12506,7 +12504,7 @@ export const recordings: RecordingImport[] = [
       { name: "instrumental", n: 9 },
       { name: "Rock Your Baby", n: 10 },
       { name: "Pablo Picasso", n: 11 },
-      { name: "unknown (?)", n: 12 },
+      { name: "unknown", n: 12 },
       { name: "A Higher Power", n: 13 },
       { name: "Sleepwalk", n: 14 },
       { name: "The Neighbors", n: 15 },
@@ -15450,7 +15448,7 @@ export const recordings: RecordingImport[] = [
       { name: "Follow the Leader", n: 14 },
       { name: "Girlfren'", n: 15 },
       { name: "Yo Tengo una Novia", n: 16 },
-      { name: "unknown (?)", n: 17 },
+      { name: "unknown", n: 17 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 18 },
       { name: "He Gave Us the Wine to Taste", n: 19 },
       { name: "Springtime In New York", n: 20 },
@@ -15868,7 +15866,7 @@ export const recordings: RecordingImport[] = [
       { name: "The World Is Showing It's Hand", n: 10 },
       { name: "I Was Dancing in the Lesbian Bar", n: 11 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 12 },
-      { name: "unknown (?)", n: 13 },
+      { name: "unknown", n: 13 },
       { name: "Do You Want To Dance", n: 14 },
       { name: "Girlfren'", n: 15 },
       { name: "El Joven se Estemece", n: 16 },
@@ -17648,7 +17646,7 @@ export const recordings: RecordingImport[] = [
       { name: "Celestial", n: 1 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 2 },
       { name: "Old World", n: 3 },
-      { name: "unknown (?)", n: 4 },
+      { name: "unknown", n: 4 },
       { name: "Egyptian Reggae", n: 5 },
       { name: "Springtime In New York", n: 6 },
       { name: "Les Etoiles", n: 7 },
@@ -19499,7 +19497,7 @@ export const recordings: RecordingImport[] = [
       { name: "They Showed Me The Door To Bohemia", n: 11 },
       { name: "My Baby Love Love Loves Me", n: 12 },
       { name: "unknown (italian)", n: 13 },
-      { name: "unknown (?)", n: 14 },
+      { name: "unknown", n: 14 },
       { name: "When We Refuse to Suffer", n: 15 },
       { name: "Mr. Sorrow", n: 16 },
       { name: "Vampire Girl", n: 17 },
