@@ -4940,23 +4940,6 @@ export const recordings: RecordingImport[] = [
     songs: [],
   },
   {
-    id: 1982020000,
-    type: "Show",
-    venue: "The Other End",
-    country: "USA",
-    city: "NY",
-    year: 1982,
-    month: 2,
-    songs: [],
-    comments: [
-      {
-        name: "JB",
-        text: "Set 1, Solo",
-        time: "2023-03-27 11:01:26",
-      },
-    ],
-  },
-  {
     id: 1982030200,
     type: "Show",
     venue: "Jonathan Swifts",
