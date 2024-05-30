@@ -286,9 +286,6 @@ export type SongType =
   | "New England"
   | "New Kind Of Neighborhood"
   | "unknown"
-  | "unknown (french)"
-  | "unknown (spanish)"
-  | "unknown (italian)"
   | "New York at 4am is More My Style"
   | "Nineteen in Naples"
   | "Nishi"
@@ -1237,9 +1234,6 @@ export const songs: SongImport[] = [
   { name: "New England" },
   { name: "New Kind Of Neighborhood" },
   { name: "unknown" },
-  { name: "unknown (french)" },
-  { name: "unknown (spanish)" },
-  { name: "unknown (italian)" },
   { name: "New York at 4am is More My Style" },
   { name: "Nineteen in Naples" },
   { name: "Nishi" },
@@ -9367,7 +9361,7 @@ export const recordings: RecordingImport[] = [
       { name: "Angels Watching Over Me", n: 10 },
       { name: "Now is Better Than Before", n: 11 },
       { name: "Volare", n: 12 },
-      { name: "unknown (french)", n: 13 },
+      { name: "unknown", n: 13 },
       { name: "My Jeans", n: 14 },
       { name: "Everyday Clothes", n: 15 },
       { name: "The Neighbors", n: 16 },
@@ -10173,7 +10167,7 @@ export const recordings: RecordingImport[] = [
       { name: "Double Chocolate Malted", n: 26 },
       { name: "The Beach", n: 27 },
       { name: "Give Paris One More Chance", n: 28 },
-      { name: "unknown (french)", n: 29 },
+      { name: "unknown", n: 29 },
     ],
     comments: [
       {
@@ -10302,8 +10296,8 @@ export const recordings: RecordingImport[] = [
       { name: "Buzz Buzz Buzz", n: 17 },
       { name: "Let's Take a Trip", n: 18 },
       { name: "New England", n: 19 },
-      { name: "unknown (italian)", n: 20 },
-      { name: "unknown (italian)", n: 21 },
+      { name: "unknown", n: 20 },
+      { name: "unknown", n: 21 },
       { name: "Now is Better Than Before", n: 22 },
       { name: "You're Crazy For Taking the Bus", n: 23 },
       { name: "Since She Started To Ride", n: 24 },
@@ -10673,7 +10667,7 @@ export const recordings: RecordingImport[] = [
       { name: "A Higher Power", n: 17 },
       { name: "This Kind Of Music", n: 18 },
       { name: "Give Paris One More Chance", n: 19 },
-      { name: "unknown (french)", n: 20 },
+      { name: "unknown", n: 20 },
     ],
     comments: [
       {
@@ -11791,7 +11785,7 @@ export const recordings: RecordingImport[] = [
       { name: "A Higher Power", n: 25 },
       { name: "You Must Ask the Heart", n: 26 },
       { name: "Give Paris One More Chance", n: 27 },
-      { name: "unknown (french)", n: 28 },
+      { name: "unknown", n: 28 },
       { name: "Let Her Go Into the Darkness", n: 29 },
     ],
   },
@@ -11884,7 +11878,7 @@ export const recordings: RecordingImport[] = [
       { name: "City vs. Country", n: 30 },
       { name: "A Higher Power", n: 31 },
       { name: "Man Walks Among Us", n: 32 },
-      { name: "unknown (french)", n: 33 },
+      { name: "unknown", n: 33 },
       { name: "Let Her Go Into the Darkness", n: 34 },
       { name: "Everyday Clothes", n: 35 },
     ],
@@ -13344,7 +13338,7 @@ export const recordings: RecordingImport[] = [
       { name: "I Was Dancing in the Lesbian Bar", n: 15 },
       { name: "You Can't Talk To the Dude", n: 16 },
       { name: "Rock 'N' Roll Drummer Straight From The Hospy-Tel", n: 17 },
-      { name: "unknown (spanish)", n: 18 },
+      { name: "unknown", n: 18 },
     ],
   },
   {
@@ -14708,7 +14702,7 @@ export const recordings: RecordingImport[] = [
       { name: "Let Her Go Into the Darkness", n: 19 },
       { name: "I Was Dancing in the Lesbian Bar", n: 20 },
       { name: "Barcelona", n: 21 },
-      { name: "unknown (spanish)", n: 22 },
+      { name: "unknown", n: 22 },
       { name: "The Night Is Still Young", n: 23 },
       { name: "You Must Ask the Heart", n: 24 },
     ],
@@ -15285,7 +15279,7 @@ export const recordings: RecordingImport[] = [
       { name: "Girlfren'", n: 21 },
       { name: "The Night Is Still Young", n: 22 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 23 },
-      { name: "unknown (italian)", n: 24 },
+      { name: "unknown", n: 24 },
       { name: "Lonely Little Thrift Store", n: 25 },
       { name: "Vincent Van Gogh", n: 26 },
       { name: "Maybe a Walk Home From Natick High School", n: 27 },
@@ -15439,7 +15433,7 @@ export const recordings: RecordingImport[] = [
       { name: "Camina y Ven", n: 22 },
       { name: "Behold the Lilies of the Field", n: 23 },
       { name: "Haseemla Classica", n: 24 },
-      { name: "unknown (italian)", n: 25 },
+      { name: "unknown", n: 25 },
       { name: "Take Me to the Plaza", n: 26 },
     ],
     comments: [
@@ -16868,7 +16862,7 @@ export const recordings: RecordingImport[] = [
       { name: "El Joven se Estemece", n: 7 },
       { name: "Pablo Picasso", n: 8 },
       { name: "Les Etoiles", n: 9 },
-      { name: "unknown (spanish)", n: 10 },
+      { name: "unknown", n: 10 },
       { name: "Let Her Go Into the Darkness", n: 11 },
       { name: "Jose Bove", n: 12 },
       { name: "My Love For Her Ain't Sad", n: 13 },
@@ -19086,7 +19080,7 @@ export const recordings: RecordingImport[] = [
       { name: "Le Printemps Des Amoreux Est Venue", n: 7 },
       { name: "He Gave Us the Wine to Taste", n: 8 },
       { name: "Because Her Beauty is Raw and Wild", n: 9 },
-      { name: "unknown (french)", n: 10 },
+      { name: "unknown", n: 10 },
       { name: "Si el Sexo hay que Planificar", n: 11 },
       { name: "In Che Mondo Vivamo", n: 12 },
       { name: "Egyptian Reggae", n: 13 },
@@ -20262,7 +20256,7 @@ export const recordings: RecordingImport[] = [
       { name: "Take Me to the Plaza", n: 12 },
       { name: "These Bodies That Came To Cavort", n: 13 },
       { name: "That Summer Feeling", n: 14 },
-      { name: "unknown (italian)", n: 15 },
+      { name: "unknown", n: 15 },
       { name: "My Affected Accent", n: 16 },
     ],
   },
@@ -20355,7 +20349,7 @@ export const recordings: RecordingImport[] = [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 12 },
       { name: "O Sun!", n: 13 },
       { name: "When We Refuse to Suffer", n: 14 },
-      { name: "unknown (italian)", n: 15 },
+      { name: "unknown", n: 15 },
     ],
   },
   {
