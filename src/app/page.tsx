@@ -33,7 +33,7 @@ export default function Page() {
           <li>{links.jojochords}</li>
           <li>{links.jojoblog}</li>
         </ul>
-        <ul className="inline">
+        <ul className="inline social">
           <li>
             <a href="https://twitter.com/search?q=%23jonathanrichman&src=typed_query&f=live">
               #JonathanRichman
