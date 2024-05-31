@@ -64,20 +64,8 @@ export default function Page({
       )}
 
       <ul className="links">
-        <li>
-          {discogs ? (
-            <Link href={discogs}>
-              Discogs
-            </Link>
-          ) : null}
-        </li>
-        <li>
-          {bandcamp ? (
-            <Link href={bandcamp}>
-              Bandcamp
-            </Link>
-          ) : null}
-        </li>
+        <li>{discogs ? <Link href={discogs}>Discogs</Link> : null}</li>
+        <li>{bandcamp ? <Link href={bandcamp}>Bandcamp</Link> : null}</li>
       </ul>
 
       {jb === true ? (
