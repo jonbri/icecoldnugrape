@@ -63,17 +63,17 @@ export default function Page({
         generateSetList(sortedSongs)
       )}
 
-      <ul>
+      <ul className="links">
         <li>
           {discogs ? (
-            <Link href={discogs} className="discogs">
+            <Link href={discogs}>
               Discogs
             </Link>
           ) : null}
         </li>
         <li>
           {bandcamp ? (
-            <Link href={bandcamp} className="bandcamp">
+            <Link href={bandcamp}>
               Bandcamp
             </Link>
           ) : null}

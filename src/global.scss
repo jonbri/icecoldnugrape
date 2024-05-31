@@ -76,6 +76,13 @@ h3 {
   }
 }
 
+.recording {
+  ul.links a {
+   font-style: italic;
+   font-size: 18px;
+  }
+}
+
 .hoverable {
   margin: 0;
   @media (hover: hover) {
@@ -147,15 +154,6 @@ ul.inline {
   margin: 10px 0;
   font-size: 18px;
   user-select: none;
-}
-
-.discogs {
-  font-style: italic;
-  font-size: 18px;
-}
-.bandcamp {
-  font-style: italic;
-  font-size: 18px;
 }
 
 .album {

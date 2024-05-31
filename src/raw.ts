@@ -11005,6 +11005,7 @@ export const recordings: RecordingImport[] = [
     name: "I, Jonathan",
     discogs:
       "https://www.discogs.com/master/229146-Jonathan-Richman-I-Jonathan",
+    bandcamp: "https://rounderrecords.bandcamp.com/album/i-jonathan",
     songs: [
       { name: "Parties In The USA", n: 1 },
       { name: "Tandem Jump", n: 2 },
