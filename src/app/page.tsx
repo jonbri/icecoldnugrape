@@ -3,6 +3,8 @@
 import YoutubeWidget from "../components/YoutubeWidget";
 import TwitterWidget from "../components/TwitterWidget";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
+import "../i18n";
 
 const links = {
   bandcamp: <Link href="https://jonathanrichman.bandcamp.com/">Bandcamp</Link>,
@@ -23,10 +25,12 @@ const links = {
 };
 
 export default function Page() {
+  const { t } = useTranslation();
   return (
     <div>
       <div className="external-links">
         <ul className="inline">
+          <li>{t('total')}</li>
           <li>{links.bandcamp}</li>
           <li>{links.tour}</li>
           <li>{links.label}</li>
