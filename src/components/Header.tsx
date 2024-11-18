@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { getRandomUrl, getRecording } from "../data";
+import { getRecording } from "../data";
+import RandomLink from "@/components/RandomLink";
 
 const Header = () => {
   const pathname = usePathname();
@@ -26,7 +27,7 @@ const Header = () => {
         Songs
       </Link>
     ),
-    random: <Link href={getRandomUrl()}>Random</Link>,
+    random: <RandomLink />,
     search: (
       <Link href="/search" className={isSearch ? "active" : undefined}>
         Search
