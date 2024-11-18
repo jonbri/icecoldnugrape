@@ -14,11 +14,13 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function Page({
-  params: { slug: id },
-}: {
-  params: { slug: string };
+export default async function Page(props: {
+  params: Promise<{ slug: string }>;
 }) {
+  const params = await props.params;
+
+  const { slug: id } = params;
+
   const { songs, comments, formattedTitle, jb, discogs, bandcamp } =
     getRecording(id)!;
   const sortedSongs =
