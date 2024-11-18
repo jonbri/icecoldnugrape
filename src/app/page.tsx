@@ -1,5 +1,3 @@
-"use client";
-
 import YoutubeWidget from "../components/YoutubeWidget";
 import TwitterWidget from "../components/TwitterWidget";
 import Link from "next/link";
