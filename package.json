@@ -22,8 +22,6 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-next": "^0.0.0",
     "prettier": "^3.2.5",
     "sass": "^1.81.0",
     "slugify": "^1.6.6",
