@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 
 const id = "twitter-wjs";
-const TwitterWidget = () => {
+export const TwitterWidget = () => {
   useEffect(() => {
     // remove existing script tag (if it exists)
     const oExistingScriptTag = document.getElementById(id);
@@ -34,5 +34,3 @@ const TwitterWidget = () => {
     </div>
   );
 };
-
-export default TwitterWidget;

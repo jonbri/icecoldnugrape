@@ -64,7 +64,7 @@ const dayOfYear = () => {
   return Math.floor(diff / oneDay);
 };
 
-const YoutubeWidget = () => {
+export const YoutubeWidget = () => {
   const [youtubeHash, setYoutubeHash] = useState("");
   useEffect(() => {
     const hash = data[dayOfYear() % data.length];
@@ -87,5 +87,3 @@ const YoutubeWidget = () => {
     />
   );
 };
-
-export default YoutubeWidget;

@@ -1,6 +1,7 @@
-import { SongType } from "./raw";
-import payload from "./rawImport";
-import { RecordingCommentInstance, SongCommentInstance } from "./types";
+import { SongType } from "@/raw";
+import payload from "@/rawImport";
+import { RecordingCommentInstance, SongCommentInstance } from "@/types";
+
 const { recordings, songs } = payload;
 
 export const getRecordings = () => recordings;

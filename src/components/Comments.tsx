@@ -1,9 +1,9 @@
-import { Comment } from "../types";
+import { Comment } from "@/types";
 
-interface CommentsProps {
+export interface CommentsProps {
   comments: Comment[];
 }
-const Comments = ({ comments }: CommentsProps) => (
+export const Comments = ({ comments }: CommentsProps) => (
   <div className="comments">
     <ul>
       {comments.map(({ name, text, time }) => (
@@ -15,5 +15,3 @@ const Comments = ({ comments }: CommentsProps) => (
     </ul>
   </div>
 );
-
-export default Comments;

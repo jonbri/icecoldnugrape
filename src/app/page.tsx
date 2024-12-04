@@ -1,6 +1,6 @@
-import YoutubeWidget from "../components/YoutubeWidget";
-import TwitterWidget from "../components/TwitterWidget";
 import Link from "next/link";
+import { TwitterWidget } from "@/components/TwitterWidget";
+import { YoutubeWidget } from "@/components/YoutubeWidget";
 
 const links = {
   bandcamp: <Link href="https://jonathanrichman.bandcamp.com/">Bandcamp</Link>,

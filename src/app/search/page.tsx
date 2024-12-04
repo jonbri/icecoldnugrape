@@ -1,15 +1,15 @@
 "use client";
 
-import Link from "next/link";
 import { ReactNode, useEffect, useRef, useState } from "react";
+import Link from "next/link";
+import Fuse, { FuseResult, RangeTuple } from "fuse.js";
 import {
   getRecordings,
   getSongs,
   getSongFromName,
   getRecordingComments,
   getSongComments,
-} from "../../data";
-import Fuse, { FuseResult, RangeTuple } from "fuse.js";
+} from "@/data";
 
 const allRecordings = getRecordings().map(({ id, formattedTitle: text }) => ({
   href: `/recordings/${id}`,

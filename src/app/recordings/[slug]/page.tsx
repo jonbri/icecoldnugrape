@@ -1,7 +1,7 @@
-import Comments from "../../../components/Comments";
-import { getRecording, getRecordings } from "../../../data";
-import { SongInstance } from "../../../types";
 import Link from "next/link";
+import { Comments } from "@/components/Comments";
+import { getRecording, getRecordings } from "@/data";
+import { SongInstance } from "@/types";
 
 export async function generateStaticParams() {
   const paths = getRecordings().map(({ id }) => ({

@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { getRecordings } from "../../data";
-import { Recording } from "../../types";
-import Total from "../../components/Total";
+import { getRecordings } from "@/data";
+import { Recording } from "@/types";
+import { Total } from "@/components/Total";
 
 interface Section {
   title: string;

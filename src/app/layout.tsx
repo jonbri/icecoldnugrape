@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { Ubuntu as Font } from "next/font/google";
-import Header from "@/components/Header";
-import "../global.scss";
+import { Header } from "@/components/Header";
+import "@/global.scss";
 
 const font = Font({ subsets: ["latin"], weight: "300" });
 

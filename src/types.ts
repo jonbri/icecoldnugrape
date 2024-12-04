@@ -1,4 +1,4 @@
-import { SongType } from "./raw";
+import { SongType } from "@/raw";
 
 type RecordingType =
   | "Album"

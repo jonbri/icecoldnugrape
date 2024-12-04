@@ -1,6 +1,6 @@
-import { recordings as recordingsData, songs as songsData } from "./raw";
-import { RecordingImport, Recording, Song } from "./types";
 import slugify from "slugify";
+import { recordings as recordingsData, songs as songsData } from "@/raw";
+import { RecordingImport, Recording, Song } from "@/types";
 
 const sanitize = (s: string) =>
   slugify(s, {

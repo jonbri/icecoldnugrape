@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { getSongs } from "../../data";
-import Total from "../../components/Total";
+import { getSongs } from "@/data";
+import { Total } from "@/components/Total";
 
 export default function Page() {
   const songs = getSongs();

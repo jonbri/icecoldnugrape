@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { getRecording } from "../data";
-import RandomLink from "@/components/RandomLink";
+import { getRecording } from "@/data";
+import { RandomLink } from "@/components/RandomLink";
 
-const Header = () => {
+export const Header = () => {
   const pathname = usePathname();
   const id = pathname.split("/").reverse()[0];
   const isHome = pathname === "/";
@@ -91,5 +91,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

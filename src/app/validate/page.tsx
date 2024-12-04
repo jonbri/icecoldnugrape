@@ -1,5 +1,5 @@
-import { getRecordings } from "../../data";
 import Link from "next/link";
+import { getRecordings } from "@/data";
 
 const unique = <T,>(value: T, index: number, array: T[]) =>
   array.indexOf(value) === index;

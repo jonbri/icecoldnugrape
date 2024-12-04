@@ -1,4 +1,4 @@
-import { RecordingImport, SongImport } from "./types";
+import { RecordingImport, SongImport } from "@/types";
 
 export type SongType =
   | "drumbeat..."

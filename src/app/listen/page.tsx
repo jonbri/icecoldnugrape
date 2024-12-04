@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Total from "../../components/Total";
+import { Total } from "@/components/Total";
 
 interface Download {
   title: string;

@@ -1,7 +1,7 @@
-import Comments from "../../../components/Comments";
-import Total from "../../../components/Total";
-import { getSongFromSanitized, getSongs, idsToShows } from "../../../data";
 import Link from "next/link";
+import { Comments } from "@/components/Comments";
+import { Total } from "@/components/Total";
+import { getSongFromSanitized, getSongs, idsToShows } from "@/data";
 
 export async function generateStaticParams() {
   const paths = getSongs().map(({ sanitized: id }) => ({
