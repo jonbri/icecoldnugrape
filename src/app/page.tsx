@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { TwitterWidget } from "@/components/TwitterWidget";
 import { YoutubeWidget } from "@/components/YoutubeWidget";
 
 const links = {
@@ -33,20 +32,18 @@ export default function Page() {
         </ul>
         <ul className="inline social">
           <li>
-            <a href="https://twitter.com/search?q=%23jonathanrichman&src=typed_query&f=live">
-              #JonathanRichman
+            <a href="https://www.reddit.com/r/jonathanrichman/">
+              r/jonathanrichman
             </a>
           </li>
           <li>
-            <a href="https://www.reddit.com/r/jonathanrichman/">
-              r/jonathanrichman
+            <a href="https://twitter.com/search?q=%23jonathanrichman&src=typed_query&f=live">
+              #JonathanRichman
             </a>
           </li>
         </ul>
       </div>
       {<YoutubeWidget />}
-      {<TwitterWidget />}
-      <br />
       <ul>
         <li>{links.trade} </li>
         <li>
