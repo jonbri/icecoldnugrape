@@ -674,7 +674,6 @@ export type SongType =
   | "Just A Spark, On Journey From The Dark"
   | "I Am The Sky"
   | "La Festa Qua"
-  | "Pianneforte E Notte"
   | "Hey Tommy! Whatchu Feel Like Tonight?"
   | "One More Rhythm From Tommy!"
   | "I Found A Love That Opens That Door For Me"
@@ -1804,7 +1803,6 @@ export const songs: SongImport[] = [
   { name: "Just A Spark, On Journey From The Dark" },
   { name: "I Am The Sky" },
   { name: "La Festa Qua" },
-  { name: "Pianneforte E Notte" },
   { name: "Hey Tommy! Whatchu Feel Like Tonight?" },
   { name: "One More Rhythm From Tommy!" },
   { name: "I Found A Love That Opens That Door For Me" },
@@ -21845,7 +21843,7 @@ export const recordings: RecordingImport[] = [
       { name: "That Summer Feeling", n: 12 },
       { name: "Egyptian Reggae", n: 13 },
       { name: "This Is One Sad World", n: 14 },
-      { name: "Pianneforte E Notte", n: 15 },
+      { name: "Pianefforte 'e notte", n: 15 },
       { name: "Hey Tommy! Whatchu Feel Like Tonight?", n: 16 },
       { name: "Just A Spark, On Journey From The Dark", n: 17 },
       { name: "Silence alors, Silence", n: 18 },
