@@ -695,7 +695,8 @@ export type SongType =
   | "They're Mistaken"
   | "I Love Gail"
   | "The Sad Part Is They're Crazy"
-  | "Your Sex Life";
+  | "Your Sex Life"
+  | "City Lights";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1825,6 +1826,7 @@ export const songs: SongImport[] = [
   { name: "I Love Gail" },
   { name: "The Sad Part Is They're Crazy" },
   { name: "Your Sex Life" },
+  { name: "City Lights" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -21011,19 +21013,20 @@ export const recordings: RecordingImport[] = [
       { n: 3, name: "Let Her Go Into the Darkness" },
       { n: 4, name: "In Che Mondo Vivamo" },
       { n: 5, name: "That Summer Feeling" },
-      { n: 6, name: "My Baby Love Love Loves Me" },
-      { n: 7, name: "Guitar In Orange Drums In Pale Purple" },
-      { n: 8, name: "Sa Voix M'Atisse" },
-      { n: 9, name: "New England" },
-      { n: 10, name: "New Kind Of Neighborhood" },
-      { n: 11, name: "Old World" },
-      { n: 12, name: "Shameless, Shameless" },
-      { n: 13, name: "Pablo Picasso" },
-      { n: 14, name: "When She Is Walking Up The Street Towards Me" },
-      { n: 15, name: "Surrender" },
-      { n: 16, name: "Cold Pizza" },
-      { n: 17, name: "Affection" },
-      { n: 18, name: "O Mind! Let Us Go Home!" },
+      { n: 6, name: "City Lights" },
+      { n: 7, name: "My Baby Love Love Loves Me" },
+      { n: 8, name: "Guitar In Orange Drums In Pale Purple" },
+      { n: 9, name: "Sa Voix M'Atisse" },
+      { n: 10, name: "New England" },
+      { n: 11, name: "New Kind Of Neighborhood" },
+      { n: 12, name: "Old World" },
+      { n: 13, name: "Shameless, Shameless" },
+      { n: 14, name: "Pablo Picasso" },
+      { n: 15, name: "When She Is Walking Up The Street Towards Me" },
+      { n: 16, name: "Surrender" },
+      { n: 17, name: "Cold Pizza" },
+      { n: 18, name: "Affection" },
+      { n: 19, name: "O Mind! Let Us Go Home!" },
     ],
   },
   {
