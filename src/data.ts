@@ -16,11 +16,13 @@ export const idsToShows = (ids: number[]) =>
   ids.map((id) => getRecording(id + "")!);
 
 export const getSongs = () =>
-  songs.sort(({ name: name0 }, { name: name1 }) => {
-    if (name0.toLowerCase() > name1.toLowerCase()) return 1;
-    else if (name0.toLowerCase() < name1.toLowerCase()) return -1;
-    return 0;
-  });
+  songs
+    .sort(({ name: name0 }, { name: name1 }) => {
+      if (name0.toLowerCase() > name1.toLowerCase()) return 1;
+      else if (name0.toLowerCase() < name1.toLowerCase()) return -1;
+      return 0;
+    })
+    .filter(({ name }) => name !== "interview...");
 
 export const getSongFromSanitized = (s: string) =>
   songs.find(({ sanitized }) => sanitized === s);
