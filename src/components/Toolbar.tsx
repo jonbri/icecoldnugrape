@@ -8,8 +8,6 @@ import { RandomLink } from "@/components/RandomLink";
 export const Toolbar = () => {
   const pathname = usePathname();
   const id = pathname.split("/").reverse()[0];
-  const isHome = pathname === "/";
-  const isTrade = pathname === "/trade";
   const isRecordings = pathname.startsWith("/recordings");
   const isSongs = pathname.startsWith("/songs");
   const isSearch = pathname.startsWith("/search");
@@ -64,13 +62,13 @@ export const Toolbar = () => {
     ),
   };
 
-  return !isTrade ? (
+  return (
     <ul className="inline">
       <li>{links.recordings}</li>
       <li>{links.songs}</li>
       <li>{links.random}</li>
       <li>{links.search}</li>
-      {isHome ? <li>{links.listen}</li> : null}
+      <li>{links.listen}</li>
       {showNextPrev ? (
         <>
           <li className="nextprev">{links.prev}</li>
@@ -78,5 +76,5 @@ export const Toolbar = () => {
         </>
       ) : null}
     </ul>
-  ) : null;
+  );
 };
