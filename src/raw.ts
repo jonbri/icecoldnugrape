@@ -589,7 +589,6 @@ export type SongType =
   | "El Muerto Vivo"
   | "Coge la Guitarra"
   | "Loneliness"
-  | "The Other World"
   | "Si el Sexo hay que Planificar"
   | "We Want to Take You Higher"
   | "Naked (poem)"
@@ -1684,7 +1683,6 @@ export const songs: SongImport[] = [
   { name: "El Muerto Vivo" },
   { name: "Coge la Guitarra" },
   { name: "Loneliness" },
-  { name: "The Other World" },
   { name: "Si el Sexo hay que Planificar" },
   { name: "We Want to Take You Higher" },
   { name: "Naked (poem)" },
@@ -19074,7 +19072,7 @@ export const recordings: RecordingImport[] = [
       { name: "David and Goliath", n: 3 },
       { name: "Egyptian Reggae", n: 4 },
       { name: "Let Her Go Into the Darkness", n: 5 },
-      { name: "The Other World", n: 6 },
+      { name: "It Was Time For Me To Be With Her", n: 6 },
       { name: "A Que Venimos Sino a Caer?", n: 7 },
       { name: "Here It Is", n: 8 },
       { name: "Le Printemps Des Amoreux Est Venue", n: 9 },
