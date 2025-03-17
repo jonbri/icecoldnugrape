@@ -15,7 +15,7 @@ const links = {
   ),
   jojochords: <Link href="http://www.jojochords.com/index.html">Chords</Link>,
   jojoblog: <Link href="https://jojofiles.blogspot.com/">Blog</Link>,
-  trade: <Link href="/trade">Trade</Link>,
+  contact: <Link href="/contact">Contact</Link>,
   validate: <Link href="/validate">Validate</Link>,
 };
 
@@ -45,7 +45,7 @@ export default function Page() {
       </div>
       {<YoutubeWidget />}
       <ul>
-        <li>{links.trade} </li>
+        <li>{links.contact} </li>
         <li>
           <Link href="https://github.com/jonbri/icecoldnugrape/commits/main/">
             Changes
