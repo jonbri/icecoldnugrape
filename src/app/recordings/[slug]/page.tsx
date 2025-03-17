@@ -70,14 +70,16 @@ export default async function Page(props: {
         <li>{bandcamp ? <Link href={bandcamp}>Bandcamp</Link> : null}</li>
       </ul>
 
-      {jb === true ? (
-        <div>
-          This recording is{" "}
-          <Link href="/trade">
-            <strong>available</strong>
-          </Link>
-        </div>
-      ) : null}
+      <div className="thisrecordingisavailable">
+        {jb === true ? (
+          <div>
+            This recording is{" "}
+            <Link href="/trade">
+              <strong>available</strong>
+            </Link>
+          </div>
+        ) : null}
+      </div>
 
       {comments.length > 0 ? <Comments comments={comments} /> : null}
     </div>
