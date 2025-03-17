@@ -695,7 +695,10 @@ export type SongType =
   | "I Love Gail"
   | "The Sad Part Is They're Crazy"
   | "Your Sex Life"
-  | "City Lights";
+  | "City Lights"
+  | "Weird Stuff"
+  | "Dog Star"
+  | "Little Black Bat";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1825,6 +1828,9 @@ export const songs: SongImport[] = [
   { name: "The Sad Part Is They're Crazy" },
   { name: "Your Sex Life" },
   { name: "City Lights" },
+  { name: "Weird Stuff" },
+  { name: "Dog Star" },
+  { name: "Little Black Bat" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -21132,6 +21138,40 @@ export const recordings: RecordingImport[] = [
       { n: 14, name: "I Was Dancing in the Lesbian Bar" },
     ],
   },
+  {
+    id: 2025031500,
+    type: "Show",
+    venue: "Ottobar",
+    country: "USA",
+    city: "Baltimore",
+    format: "flac",
+    year: 2025,
+    month: 3,
+    date: 15,
+    jb: true,
+    songs: [
+      { n: 1, name: "Weird Stuff" },
+      { n: 2, name: "Dog Star" },
+      { n: 3, name: "No One Was Like Vermeer" },
+      { n: 4, name: "That Summer Feeling" },
+      { n: 5, name: "David and Goliath" },
+      { n: 6, name: "Pablo Picasso" },
+      { n: 7, name: "Egyptian Reggae" },
+      { n: 8, name: "I Love This Sad World" },
+      { n: 9, name: "Affection" },
+      { n: 10, name: "Let Her Go Into the Darkness" },
+      { n: 11, name: "En La Discoteca Reggaeton" },
+      { n: 12, name: "I Was Dancing in the Lesbian Bar" },
+      { n: 13, name: "Girlfren'" },
+      { n: 14, name: "Little Black Bat" },
+      { n: 15, name: "Whoa! How Different We All Are!" },
+      { n: 16, name: "SA" },
+      { n: 17, name: "When We Refuse to Suffer" },
+      { n: 18, name: "Older Girl" },
+      { n: 19, name: "Cold Pizza" },
+    ],
+  },
+
   {
     id: 9000000000,
     type: "Compilation",
