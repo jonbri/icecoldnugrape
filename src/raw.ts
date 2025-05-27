@@ -698,7 +698,9 @@ export type SongType =
   | "City Lights"
   | "Weird Stuff"
   | "Dog Star"
-  | "Little Black Bat";
+  | "Little Black Bat"
+  | "Guitar That Tells Us How We Feel"
+  | "Frozen Sky";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1831,6 +1833,8 @@ export const songs: SongImport[] = [
   { name: "Weird Stuff" },
   { name: "Dog Star" },
   { name: "Little Black Bat" },
+  { name: "Guitar That Tells Us How We Feel" },
+  { name: "Frozen Sky" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -21174,7 +21178,38 @@ export const recordings: RecordingImport[] = [
       { n: 19, name: "Cold Pizza" },
     ],
   },
-
+  {
+    id: 2025031900,
+    type: "Show",
+    venue: "Rubber Gloes Rehearsal Studios",
+    country: "USA",
+    city: "Denton",
+    format: "mp3",
+    year: 2025,
+    month: 3,
+    date: 19,
+    jb: true,
+    songs: [
+      { n: 1, name: "Weird Stuff" },
+      { n: 2, name: "That Summer Feeling" },
+      { n: 3, name: "No One Was Like Vermeer" },
+      { n: 4, name: "Wait! Wait!" },
+      { n: 5, name: "Affection" },
+      { n: 6, name: "Egyptian Reggae" },
+      { n: 7, name: "Shameless, Shameless" },
+      { n: 8, name: "Guitar That Tells Us How We Feel" },
+      { n: 9, name: "I Was Dancing in the Lesbian Bar" },
+      { n: 10, name: "Frozen Sky" },
+      { n: 11, name: "Little Black Bat" },
+      { n: 12, name: "En La Discoteca Reggaeton" },
+      { n: 13, name: "My Baby Love Love Loves Me" },
+      { n: 14, name: "David and Goliath" },
+      { n: 15, name: "Whoa! How Different We All Are!" },
+      { n: 16, name: "La Festa Qua" },
+      { n: 17, name: "Pablo Picasso" },
+      { n: 18, name: "When Harpo Played His Harp" },
+    ],
+  },
   {
     id: 9000000000,
     type: "Compilation",
