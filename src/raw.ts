@@ -303,7 +303,7 @@ export type SongType =
   | "Oh Boy"
   | "Oh Carol"
   | "Old World"
-  | "Older Girl"
+  | "That Older Girl"
   | "On a du Soleil"
   | "Our Party Will Be On The Beach Tonight"
   | "Our Swinging Pad"
@@ -696,11 +696,15 @@ export type SongType =
   | "The Sad Part Is They're Crazy"
   | "Your Sex Life"
   | "City Lights"
-  | "Weird Stuff"
-  | "Dog Star"
+  | "But We Might Try Weird Stuff"
+  | "The Dog Star"
   | "Little Black Bat"
-  | "Guitar That Tells Us How We Feel"
-  | "Frozen Sky";
+  | "I Was Just A Piece Of Frozen Sky Anyway"
+  | "Night Fever"
+  | "You Need Me Too"
+  | "Se Va Pa'volver"
+  | "O Guitar"
+  | "The Wavelet";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1255,7 +1259,7 @@ export const songs: SongImport[] = [
   { name: "Oh Boy" },
   { name: "Oh Carol" },
   { name: "Old World" },
-  { name: "Older Girl" },
+  { name: "That Older Girl" },
   { name: "On a du Soleil" },
   { name: "Our Party Will Be On The Beach Tonight" },
   { name: "Our Swinging Pad" },
@@ -1830,11 +1834,15 @@ export const songs: SongImport[] = [
   { name: "The Sad Part Is They're Crazy" },
   { name: "Your Sex Life" },
   { name: "City Lights" },
-  { name: "Weird Stuff" },
-  { name: "Dog Star" },
+  { name: "But We Might Try Weird Stuff" },
+  { name: "The Dog Star" },
   { name: "Little Black Bat" },
-  { name: "Guitar That Tells Us How We Feel" },
-  { name: "Frozen Sky" },
+  { name: "I Was Just A Piece Of Frozen Sky Anyway" },
+  { name: "You Need Me Too" },
+  { name: "Se Va Pa'volver" },
+  { name: "O Guitar" },
+  { name: "The Wavelet" },
+  { name: "Night Fever" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -16096,7 +16104,7 @@ export const recordings: RecordingImport[] = [
       { name: "Here It Is", n: 14 },
       { name: "Les Etoiles", n: 15 },
       { name: "Take Me to the Plaza", n: 16 },
-      { name: "Older Girl", n: 17 },
+      { name: "That Older Girl", n: 17 },
       { name: "Girlfren'", n: 18 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 19 },
       { name: "Couples Must Fight", n: 20 },
@@ -16134,7 +16142,7 @@ export const recordings: RecordingImport[] = [
       { name: "Maybe a Walk Home From Natick High School", n: 8 },
       { name: "Here It Is", n: 9 },
       { name: "Egyptian Reggae", n: 10 },
-      { name: "Older Girl", n: 11 },
+      { name: "That Older Girl", n: 11 },
       { name: "Girlfren'", n: 12 },
       { name: "Couples Must Fight", n: 13 },
       { name: "Cosi Veloce", n: 14 },
@@ -16178,7 +16186,7 @@ export const recordings: RecordingImport[] = [
       { name: "Girlfren'", n: 11 },
       { name: "My Baby Love Love Loves Me", n: 12 },
       { name: "I Was Dancing in the Lesbian Bar", n: 13 },
-      { name: "Older Girl", n: 14 },
+      { name: "That Older Girl", n: 14 },
       { name: "Couples Must Fight", n: 15 },
       { name: "Les Etoiles", n: 16 },
       { name: "Let Her Go Into the Darkness", n: 17 },
@@ -16213,7 +16221,7 @@ export const recordings: RecordingImport[] = [
       { name: "Egyptian Reggae", n: 3 },
       { name: "In Che Mondo Vivamo", n: 4 },
       { name: "Pablo Picasso", n: 5 },
-      { name: "Older Girl", n: 6 },
+      { name: "That Older Girl", n: 6 },
       { name: "I Was Dancing in the Lesbian Bar", n: 7 },
       { name: "Let Her Go Into the Darkness", n: 8 },
       { name: "My Love For Her Ain't Sad", n: 9 },
@@ -16233,7 +16241,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Bob",
-        text: "Another great show from the UK spring tour... and the last recording of a run of four successive nights from different cities. You can clearly hear, across the four nights, a couple of new songs being developed and worked on...  'Older Girl' and 'For Drama We Have the Seasons'.",
+        text: "Another great show from the UK spring tour... and the last recording of a run of four successive nights from different cities. You can clearly hear, across the four nights, a couple of new songs being developed and worked on...  'That Older Girl' and 'For Drama We Have the Seasons'.",
         time: "2011-04-09 00:00:00",
       },
     ],
@@ -16470,7 +16478,7 @@ export const recordings: RecordingImport[] = [
       { name: "I Was Dancing in the Lesbian Bar", n: 22 },
       { name: "My Baby Love Love Loves Me", n: 23 },
       { name: "Not So Much To Be Loved As To Love", n: 24 },
-      { name: "Older Girl", n: 25 },
+      { name: "That Older Girl", n: 25 },
       { name: "Vampire Girl", n: 26 },
       { name: "He Gave Us the Wine to Taste", n: 27 },
       { name: "In Che Mondo Vivamo", n: 28 },
@@ -16664,7 +16672,7 @@ export const recordings: RecordingImport[] = [
       { name: "That Summer Feeling", n: 1 },
       { name: "In Che Mondo Vivamo", n: 2 },
       { name: "Pablo Picasso", n: 3 },
-      { name: "Older Girl", n: 4 },
+      { name: "That Older Girl", n: 4 },
       { name: "Mystery of the Summer Night", n: 5 },
       { name: "Les Etoiles", n: 6 },
       { name: "El Joven se Estemece", n: 7 },
@@ -18011,7 +18019,7 @@ export const recordings: RecordingImport[] = [
       { name: "This Romance Will Be Different For Me", n: 19 },
       { name: "Bajando, Bajando por Ceniza y Mineral", n: 20 },
       { name: "South American Folk Song", n: 21 },
-      { name: "Older Girl", n: 22 },
+      { name: "That Older Girl", n: 22 },
       { name: "My Baby Love Love Loves Me", n: 23 },
     ],
     comments: [
@@ -18197,7 +18205,7 @@ export const recordings: RecordingImport[] = [
       { name: "No One Was Like Vermeer", n: 16 },
       { name: "My Baby Love Love Loves Me", n: 17 },
       { name: "Girlfren'", n: 18 },
-      { name: "Older Girl", n: 19 },
+      { name: "That Older Girl", n: 19 },
     ],
     comments: [
       {
@@ -18308,7 +18316,7 @@ export const recordings: RecordingImport[] = [
       { name: "When We Refuse to Suffer", n: 6 },
       { name: "Le Printemps Des Amoreux Est Venue", n: 7 },
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 8 },
-      { name: "Older Girl", n: 9 },
+      { name: "That Older Girl", n: 9 },
       { name: "Cosi Veloce", n: 10 },
       { name: "Poem by Pier Paolo Pasolini", n: 11 },
       { name: "You Can Have A Cell Phone That's Ok But Not Me", n: 12 },
@@ -18368,7 +18376,7 @@ export const recordings: RecordingImport[] = [
       { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 15 },
       { name: "Springtime In New York", n: 16 },
       { name: "Es Como El Pan", n: 17 },
-      { name: "Older Girl", n: 18 },
+      { name: "That Older Girl", n: 18 },
       { name: "Girlfren'", n: 19 },
       { name: "My Baby Love Love Loves Me", n: 20 },
       { name: "He Gave Us the Wine to Taste", n: 21 },
@@ -18407,7 +18415,7 @@ export const recordings: RecordingImport[] = [
       { name: "I Was Dancing in the Lesbian Bar", n: 8 },
       { name: "Pablo Picasso", n: 9 },
       { name: "Vincent Van Gogh", n: 10 },
-      { name: "Older Girl", n: 11 },
+      { name: "That Older Girl", n: 11 },
       { name: "Velvet Underground", n: 12 },
       { name: "Egyptian Reggae", n: 13 },
       { name: "Stultified", n: 14 },
@@ -18460,7 +18468,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "Chris",
-        text: "This track list is slightly incorrect. Jonathan played Behold The Lilies Of The Field between No One Was Like Vermeer and Older Girl.",
+        text: "This track list is slightly incorrect. Jonathan played Behold The Lilies Of The Field between No One Was Like Vermeer and That Older Girl.",
         time: "2012-02-25 11:29:53",
       },
       {
@@ -18696,7 +18704,7 @@ export const recordings: RecordingImport[] = [
       { name: "Egyptian Reggae", n: 7 },
       { name: "Es Como El Pan", n: 8 },
       { name: "He Gave Us the Wine to Taste", n: 9 },
-      { name: "Older Girl", n: 10 },
+      { name: "That Older Girl", n: 10 },
       { name: "I Was Dancing in the Lesbian Bar", n: 11 },
       { name: "My Baby Love Love Loves Me", n: 12 },
       { name: "When We Refuse to Suffer", n: 13 },
@@ -19019,7 +19027,7 @@ export const recordings: RecordingImport[] = [
       { name: "Pacific Coast Highway", n: 1 },
       { name: "No One Was Like Vermeer", n: 2 },
       { name: "Old World", n: 3 },
-      { name: "Older Girl", n: 4 },
+      { name: "That Older Girl", n: 4 },
       { name: "He Gave Us the Wine to Taste", n: 5 },
       { name: "Celestial", n: 6 },
       { name: "Egyptian Reggae", n: 7 },
@@ -19051,7 +19059,7 @@ export const recordings: RecordingImport[] = [
     songs: [
       { name: "No One Was Like Vermeer", n: 1 },
       { name: "Stultified", n: 2 },
-      { name: "Older Girl", n: 3 },
+      { name: "That Older Girl", n: 3 },
       { name: "Pablo Picasso", n: 4 },
       { name: "Egyptian Reggae", n: 5 },
       { name: "The Bitter Herb", n: 6 },
@@ -19637,7 +19645,7 @@ export const recordings: RecordingImport[] = [
       { name: "Keith", n: 5 },
       { name: "No One Was Like Vermeer", n: 6 },
       { name: "La Festa Qua", n: 7 },
-      { name: "Older Girl", n: 8 },
+      { name: "That Older Girl", n: 8 },
       { name: "Egyptian Reggae", n: 9 },
       { name: "My Baby Love Love Loves Me", n: 10 },
       { name: "Because Her Beauty is Raw and Wild", n: 11 },
@@ -20187,7 +20195,7 @@ export const recordings: RecordingImport[] = [
       { name: "Old World", n: 7 },
       { name: "I Was Dancing in the Lesbian Bar", n: 8 },
       { name: "My Baby Love Love Loves Me", n: 9 },
-      { name: "Older Girl", n: 10 },
+      { name: "That Older Girl", n: 10 },
       { name: "Trash on the Beach", n: 11 },
       { name: "A Que Venimos Sino a Caer?", n: 12 },
       { name: "As My Mother Lay Lying", n: 13 },
@@ -20293,7 +20301,7 @@ export const recordings: RecordingImport[] = [
     jb: true,
     songs: [
       { name: "Springtime In New York", n: 1 },
-      { name: "Older Girl", n: 2 },
+      { name: "That Older Girl", n: 2 },
       { name: "No One Was Like Vermeer", n: 3 },
       { name: "Sa Voix M'Atisse", n: 4 },
       { name: "Egyptian Reggae", n: 5 },
@@ -21157,8 +21165,8 @@ export const recordings: RecordingImport[] = [
     date: 15,
     jb: true,
     songs: [
-      { n: 1, name: "Weird Stuff" },
-      { n: 2, name: "Dog Star" },
+      { n: 1, name: "But We Might Try Weird Stuff" },
+      { n: 2, name: "The Dog Star" },
       { n: 3, name: "No One Was Like Vermeer" },
       { n: 4, name: "That Summer Feeling" },
       { n: 5, name: "David and Goliath" },
@@ -21174,7 +21182,7 @@ export const recordings: RecordingImport[] = [
       { n: 15, name: "Whoa! How Different We All Are!" },
       { n: 16, name: "SA" },
       { n: 17, name: "When We Refuse to Suffer" },
-      { n: 18, name: "Older Girl" },
+      { n: 18, name: "That Older Girl" },
       { n: 19, name: "Cold Pizza" },
     ],
   },
@@ -21190,16 +21198,16 @@ export const recordings: RecordingImport[] = [
     date: 19,
     jb: true,
     songs: [
-      { n: 1, name: "Weird Stuff" },
+      { n: 1, name: "But We Might Try Weird Stuff" },
       { n: 2, name: "That Summer Feeling" },
       { n: 3, name: "No One Was Like Vermeer" },
       { n: 4, name: "Wait! Wait!" },
       { n: 5, name: "Affection" },
       { n: 6, name: "Egyptian Reggae" },
       { n: 7, name: "Shameless, Shameless" },
-      { n: 8, name: "Guitar That Tells Us How We Feel" },
+      { n: 8, name: "O Guitar" },
       { n: 9, name: "I Was Dancing in the Lesbian Bar" },
-      { n: 10, name: "Frozen Sky" },
+      { n: 10, name: "I Was Just A Piece Of Frozen Sky Anyway" },
       { n: 11, name: "Little Black Bat" },
       { n: 12, name: "En La Discoteca Reggaeton" },
       { n: 13, name: "My Baby Love Love Loves Me" },
@@ -21208,6 +21216,30 @@ export const recordings: RecordingImport[] = [
       { n: 16, name: "La Festa Qua" },
       { n: 17, name: "Pablo Picasso" },
       { n: 18, name: "When Harpo Played His Harp" },
+    ],
+  },
+  {
+    id: 2025071600,
+    type: "Album",
+    name: "Only Frozen Sky Anyway",
+    year: 2025,
+    month: 7,
+    date: 16,
+    bandcamp:
+      "https://jonathanrichman.bandcamp.com/album/only-frozen-sky-anyway",
+    songs: [
+      { n: 1, name: "I Was Just A Piece Of Frozen Sky Anyway" },
+      { n: 2, name: "But We Might Try Weird Stuff" },
+      { n: 3, name: "Night Fever" },
+      { n: 4, name: "You Need Me Too" },
+      { n: 5, name: "The Dog Star" },
+      { n: 6, name: "Se Va Pa'volver" },
+      { n: 7, name: "That Older Girl" },
+      { n: 8, name: "Little Black Bat" },
+      { n: 9, name: "O Guitar" },
+      { n: 10, name: "David and Goliath" },
+      { n: 11, name: "The Wavelet" },
+      { n: 12, name: "I Am The Sky" },
     ],
   },
   {
