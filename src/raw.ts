@@ -21189,7 +21189,7 @@ export const recordings: RecordingImport[] = [
   {
     id: 2025031900,
     type: "Show",
-    venue: "Rubber Gloes Rehearsal Studios",
+    venue: "Rubber Gloves Rehearsal Studios",
     country: "USA",
     city: "Denton",
     format: "mp3",
