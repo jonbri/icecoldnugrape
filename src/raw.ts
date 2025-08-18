@@ -5532,7 +5532,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: "This show has also been listed as September 27 1985",
+        text: "This show has also been listed as September 27 1985, but that is that may be incorrect, as there is a separate (superb) show at McCabes from March 27 1985",
         time: "2011-10-23 11:34:32",
       },
     ],
@@ -6904,10 +6904,12 @@ export const recordings: RecordingImport[] = [
     type: "Show",
     country: "USA",
     city: "Santa Monica",
+    venue: "McCabes Guitar Shop",
     quality: "Very Good",
     year: 1985,
-    month: 9,
+    month: 3,
     date: 27,
+    jb: true,
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Chewing Gum Wrapper", n: 2 },
