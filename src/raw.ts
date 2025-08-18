@@ -4891,7 +4891,7 @@ export const recordings: RecordingImport[] = [
     type: "Studio Bootleg",
     quality: "Excellent",
     year: 1981,
-    name: "Jonathan Sing's Demos",
+    name: "Jonathan Sings! Demos",
     songs: [
       { name: "Stop This Car", n: 1 },
       { name: "You're the One For Me", n: 2 },
