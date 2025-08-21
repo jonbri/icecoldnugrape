@@ -704,7 +704,9 @@ export type SongType =
   | "You Need Me Too"
   | "Se Va Pa'volver"
   | "O Guitar"
-  | "The Wavelet";
+  | "The Wavelet"
+  | "Life Is Danger"
+  | "The Origin of Love";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1843,6 +1845,8 @@ export const songs: SongImport[] = [
   { name: "O Guitar" },
   { name: "The Wavelet" },
   { name: "Night Fever" },
+  { name: "Life Is Danger" },
+  { name: "The Origin of Love" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -15412,6 +15416,46 @@ export const recordings: RecordingImport[] = [
         name: "Bob",
         text: "A short studio interview, at about 10 minutes long, with a rapid fire performance of the following four songs...",
         time: "2011-10-22 09:37:13",
+      },
+    ],
+  },
+  {
+    id: 2003012300,
+    type: "Show",
+    venue: "Thursday's Pub",
+    country: "Canada",
+    city: "Victoria",
+    year: 2003,
+    month: 1,
+    date: 23,
+    jb: true,
+    format: "flac",
+    songs: [
+      { name: "Her Mystery Not Of High Heels and Eye Shadow", n: 1 },
+      { name: "When Harpo Played His Harp", n: 2 },
+      { name: "Let Her Go Into the Darkness", n: 3 },
+      { name: "The World Is Showing It's Hand", n: 4 },
+      { name: "Nineteen in Naples", n: 5 },
+      { name: "I Was Dancing in the Lesbian Bar", n: 6 },
+      { name: "Vampire Girl", n: 7 },
+      { name: "Here Come the Martian Martians", n: 8 },
+      { name: "The Night Is Still Young", n: 9 },
+      { name: "Not So Much To Be Loved As To Love", n: 10 },
+      { name: "Life Is Danger", n: 11 },
+      { name: "Maybe a Walk Home From Natick High School", n: 12 },
+      { name: "Yo Tengo una Novia", n: 13 },
+      { name: "South American Folk Song", n: 14 },
+      { name: "David and Goliath", n: 15 },
+      { name: "Salvador Dali", n: 16 },
+      { name: "The Origin of Love", n: 17 },
+      { name: "You Can't Talk To the Dude", n: 18 },
+      { name: "I Took a Chance on Her", n: 19 },
+    ],
+    comments: [
+      {
+        name: "JB",
+        text: "'Here Come the Martian Martians' includes a short version of the old folk song 'Maryanne'",
+        time: "2025-08-21 13:30:00",
       },
     ],
   },
