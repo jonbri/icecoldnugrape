@@ -678,7 +678,6 @@ export type SongType =
   | "I Found A Love That Opens That Door For Me"
   | "As We Walk Towards Fenway Park In Boston Town"
   | "Later In Life I Found My Partner In Crime"
-  | "I Love This Sad World"
   | "No One On Earth Gets Me Like She Does"
   | "Bajo La Tierra En El Subsuelo"
   | "Gonna Make You Sweat (Everybody Dance Now)"
@@ -1818,7 +1817,6 @@ export const songs: SongImport[] = [
   { name: "I Found A Love That Opens That Door For Me" },
   { name: "As We Walk Towards Fenway Park In Boston Town" },
   { name: "Later In Life I Found My Partner In Crime" },
-  { name: "I Love This Sad World" },
   { name: "No One On Earth Gets Me Like She Does" },
   { name: "Bajo La Tierra En El Subsuelo" },
   { name: "Gonna Make You Sweat (Everybody Dance Now)" },
@@ -20728,7 +20726,7 @@ export const recordings: RecordingImport[] = [
       { n: 13, name: "Take Me to the Plaza" },
       { n: 14, name: "Gonna Make You Sweat (Everybody Dance Now)" },
       { n: 15, name: "When We Refuse to Suffer" },
-      { n: 16, name: "I Love This Sad World" },
+      { n: 16, name: "This Is One Sad World" },
       { n: 17, name: "Her Mystery Not Of High Heels and Eye Shadow" },
       { n: 18, name: "Le Printemps Des Amoreux Est Venue" },
       { n: 19, name: "La Festa Qua" },
@@ -21218,7 +21216,7 @@ export const recordings: RecordingImport[] = [
       { n: 5, name: "David and Goliath" },
       { n: 6, name: "Pablo Picasso" },
       { n: 7, name: "Egyptian Reggae" },
-      { n: 8, name: "I Love This Sad World" },
+      { n: 8, name: "This Is One Sad World" },
       { n: 9, name: "Affection" },
       { n: 10, name: "Let Her Go Into the Darkness" },
       { n: 11, name: "En La Discoteca Reggaeton" },
@@ -22054,7 +22052,7 @@ export const recordings: RecordingImport[] = [
       { name: "Bajo La Tierra En El Subsuelo", n: 28 },
       { name: "As We Walk Towards Fenway Park In Boston Town", n: 29 },
       { name: "Later In Life I Found My Partner In Crime", n: 30 },
-      { name: "I Love This Sad World", n: 31 },
+      { name: "This Is One Sad World", n: 31 },
       { name: "The Fenway", n: 32 },
       { name: "Nishi", n: 33 },
       { name: "Just A Spark, On Journey From The Dark", n: 34 },
