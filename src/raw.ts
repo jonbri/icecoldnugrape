@@ -3335,6 +3335,7 @@ export const recordings: RecordingImport[] = [
     month: 6,
     date: 17,
     name: "Radiohuset Radio Show",
+    jb: true,
     songs: [
       { name: "Hi Dear", n: 1 },
       { name: "Back in the USA", n: 2 },
