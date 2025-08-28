@@ -705,7 +705,9 @@ export type SongType =
   | "O Guitar"
   | "The Wavelet"
   | "Life Is Danger"
-  | "The Origin of Love";
+  | "The Origin of Love"
+  | "Broken Promises"
+  | "J'Aime Paris Au Mois De Mai";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1845,6 +1847,8 @@ export const songs: SongImport[] = [
   { name: "Night Fever" },
   { name: "Life Is Danger" },
   { name: "The Origin of Love" },
+  { name: "Broken Promises" },
+  { name: "J'Aime Paris Au Mois De Mai" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -7376,6 +7380,8 @@ export const recordings: RecordingImport[] = [
     year: 1986,
     month: 4,
     date: 16,
+    jb: true,
+    format: "m4a",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Chewing Gum Wrapper", n: 2 },
@@ -8156,6 +8162,8 @@ export const recordings: RecordingImport[] = [
     month: 10,
     date: 20,
     sublocation: "Cambridge",
+    jb: true,
+    format: "m4a",
     songs: [
       { name: "The Beach", n: 1 },
       { name: "Egyptian Reggae", n: 2 },
@@ -8522,6 +8530,7 @@ export const recordings: RecordingImport[] = [
     month: 3,
     date: 2,
     jb: true,
+    format: "mp3",
     songs: [
       { name: "Yo Jo Jo", n: 1 },
       { name: "Gail Loves Me", n: 2 },
@@ -9326,6 +9335,8 @@ export const recordings: RecordingImport[] = [
     year: 1989,
     month: 7,
     date: 22,
+    jb: true,
+    format: "m4a",
     songs: [
       { name: "Gail Loves Me", n: 1 },
       { name: "Rodeo Wind", n: 2 },
@@ -9462,7 +9473,8 @@ export const recordings: RecordingImport[] = [
     quality: "Excellent",
     year: 1989,
     month: 12,
-    format: "aac",
+    jb: true,
+    format: "mp3",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
       { name: "When I Dance", n: 2 },
@@ -9780,6 +9792,7 @@ export const recordings: RecordingImport[] = [
     country: "France",
     city: "Paris",
     quality: "Very Good",
+    jb: true,
     year: 1990,
     month: 9,
     date: 17,
@@ -11326,6 +11339,7 @@ export const recordings: RecordingImport[] = [
     year: 1992,
     month: 10,
     date: 11,
+    jb: true,
     sublocation: "Cambridge",
     songs: [
       { name: "Vincent Van Gogh", n: 1 },
@@ -13470,6 +13484,8 @@ export const recordings: RecordingImport[] = [
     year: 1997,
     month: 4,
     date: 2,
+    jb: true,
+    format: "mp3",
     name: "KCRW - Morning Becomes Eclectic",
     songs: [
       { name: "Rooming House on Venice Beach", n: 1 },
@@ -13479,7 +13495,7 @@ export const recordings: RecordingImport[] = [
     comments: [
       {
         name: "JB",
-        text: "A nice short interview at about 30 minutes long. 'Surrender to Jonathan' has just been released, and besides being interviewed about this, Jonathan is also playing a few songs live in the studio.",
+        text: "A nice short interview at about 30 minutes long. 'Surrender to Jonathan' has just been released, and besides being interviewed about this, Jonathan is also playing a few songs live in the studio. https://www.kcrw.com/music/shows/morning-becomes-eclectic/jonathan-richman",
         time: "2011-10-21 21:36:11",
       },
     ],
@@ -22133,6 +22149,18 @@ export const recordings: RecordingImport[] = [
       { name: "I'm Waiting For the Man", n: 67 },
       { name: "Hospital", n: 68 },
       { name: "Astral Plane", n: 69 },
+    ],
+  },
+  {
+    id: 9000000028,
+    type: "Compilation",
+    name: "A.P.C. Presents: The Unreleasable Tapes",
+    discogs:
+      "https://www.discogs.com/release/8537873-Jean-Touitou-The-Unreleasable-Tapes",
+    year: 1997,
+    songs: [
+      { name: "Broken Promises", n: 1 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 2 },
     ],
   },
 ];
