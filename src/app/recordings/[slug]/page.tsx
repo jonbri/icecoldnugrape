@@ -53,7 +53,10 @@ export default async function Page(props: {
     ) : null;
   return (
     <div className="recording">
-      <h2>{`${formattedTitle}${jb ? "*" : ""}`}</h2>
+      <h2>
+        {formattedTitle}
+        {jb ? <span className="asterisk">*</span> : null}
+      </h2>
 
       {hasSets ? (
         <>
