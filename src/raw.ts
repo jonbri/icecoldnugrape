@@ -310,7 +310,6 @@ export type SongType =
   | "Pablo Picasso"
   | "Pacific Coast Highway"
   | "Pantomima de El Amor Brujo"
-  | "J'aime Paris au mois de mai"
   | "Parties In The USA"
   | "Partners in Crime"
   | "Party In The Woods Tonight"
@@ -1269,7 +1268,6 @@ export const songs: SongImport[] = [
   { name: "Pablo Picasso" },
   { name: "Pacific Coast Highway" },
   { name: "Pantomima de El Amor Brujo" },
-  { name: "J'aime Paris au mois de mai" },
   { name: "Parties In The USA" },
   { name: "Partners in Crime" },
   { name: "Party In The Woods Tonight" },
@@ -10787,7 +10785,7 @@ export const recordings: RecordingImport[] = [
       { name: "Twist and Shout", n: 23 },
       { name: "Louie Louie", n: 24 },
       { name: "Chewing Gum Wrapper", n: 25 },
-      { name: "J'aime Paris au mois de mai", n: 26 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 26 },
       { name: "Fender Stratocaster", n: 27 },
     ],
   },
@@ -12738,7 +12736,7 @@ export const recordings: RecordingImport[] = [
       { name: "They're Not Trying on the Dance Floor", n: 15 },
       { name: "Theme From Moulin Rouge", n: 16 },
       { name: "Give Paris One More Chance", n: 17 },
-      { name: "J'aime Paris au mois de mai", n: 18 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 18 },
       { name: "Pablo Picasso", n: 19 },
       { name: "A Higher Power", n: 20 },
     ],
@@ -13285,7 +13283,7 @@ export const recordings: RecordingImport[] = [
       { name: "Floatin'", n: 8 },
       { name: "Everyday Clothes", n: 9 },
       { name: "Rooming House on Venice Beach", n: 10 },
-      { name: "J'aime Paris au mois de mai", n: 11 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 11 },
       { name: "Fender Stratocaster", n: 12 },
       { name: "Just Look At Me", n: 13 },
       { name: "Blue Moon", n: 14 },
@@ -13586,7 +13584,7 @@ export const recordings: RecordingImport[] = [
       { name: "Rock 'N' Roll Drummer Straight From The Hospy-Tel", n: 21 },
       { name: "Let Her Go Into the Darkness", n: 22 },
       { name: "Give Paris One More Chance", n: 23 },
-      { name: "J'aime Paris au mois de mai", n: 24 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 24 },
       { name: "Peppermint Twist", n: 25 },
       { name: "Action Packed", n: 26 },
       { name: "You Can't Talk To the Dude", n: 27 },
@@ -13961,7 +13959,7 @@ export const recordings: RecordingImport[] = [
       { name: "The Night Is Still Young", n: 13, set: 1 },
       { name: "I Can't Find My Best Friend", n: 14, set: 1 },
       { name: "Give Paris One More Chance", n: 15, set: 1 },
-      { name: "J'aime Paris au mois de mai", n: 16, set: 1 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 16, set: 1 },
     ],
     comments: [
       {
@@ -14930,7 +14928,7 @@ export const recordings: RecordingImport[] = [
       { name: "Pablo Picasso", n: 10 },
       { name: "Lonely Without Her", n: 11 },
       { name: "I'm Not Obsessed With Her", n: 12 },
-      { name: "J'aime Paris au mois de mai", n: 13 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 13 },
       { name: "Love Me Like I Love", n: 14 },
       { name: "The Lonely Little Thrift Store", n: 15 },
       { name: "Couples Must Fight", n: 16 },
@@ -15747,14 +15745,14 @@ export const recordings: RecordingImport[] = [
       { name: "On a du Soleil", n: 24 },
       { name: "Take Me to the Plaza", n: 25 },
       { name: "Who Can Say When a Wall Is Ready to Come Down", n: 26 },
-      { name: "J'aime Paris au mois de mai", n: 27 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 27 },
       { name: "Con el Merengue", n: 28 },
       { name: "Vampire Girl", n: 29 },
       { name: "Not In My Name", n: 30 },
       { name: "Not So Much To Be Loved As To Love", n: 31 },
       { name: "He Gave Us the Wine to Taste", n: 32 },
       { name: "Coin De Rue", n: 33 },
-      { name: "J'aime Paris au mois de mai", n: 34 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 34 },
     ],
     comments: [
       {
@@ -16522,7 +16520,7 @@ export const recordings: RecordingImport[] = [
       { name: "Springtime In New York", n: 5 },
       { name: "Pablo Picasso", n: 6 },
       { name: "Give Paris One More Chance", n: 7 },
-      { name: "J'aime Paris au mois de mai", n: 8 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 8 },
       { name: "Salvador Dali", n: 9 },
       { name: "In Che Mondo Vivamo", n: 10 },
       { name: "South American Folk Song", n: 11 },
@@ -16621,7 +16619,7 @@ export const recordings: RecordingImport[] = [
       { name: "Vampire Girl", n: 14 },
       { name: "You Can't Talk To the Dude", n: 15 },
       { name: "Give Paris One More Chance", n: 16 },
-      { name: "J'aime Paris au mois de mai", n: 17 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 17 },
       { name: "Nishi", n: 18 },
     ],
     comments: [
@@ -17033,7 +17031,7 @@ export const recordings: RecordingImport[] = [
       { name: "He Gave Us the Wine to Taste", n: 19 },
       { name: "You Can't Talk To the Dude", n: 20 },
       { name: "Walter Johnson", n: 21 },
-      { name: "J'aime Paris au mois de mai", n: 22 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 22 },
     ],
   },
   {
@@ -18443,7 +18441,7 @@ export const recordings: RecordingImport[] = [
       { name: "He Gave Us the Wine to Taste", n: 21 },
       { name: "You Can Have A Cell Phone That's Ok But Not Me", n: 22 },
       { name: "Not So Much To Be Loved As To Love", n: 23 },
-      { name: "J'aime Paris au mois de mai", n: 24 },
+      { name: "J'Aime Paris Au Mois De Mai", n: 24 },
     ],
     comments: [
       {
