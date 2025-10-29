@@ -6,7 +6,6 @@ export const Header = () => {
     <header>
       <div id="header-content">
         <div className="header-brand">
-          <div className="brand-icon">♪</div>
           <div className="brand-text">
             <h1>
               <Link href="/">icecoldnugrape</Link>
