@@ -66,30 +66,44 @@ export default function Search() {
   }, []);
 
   return (
-    <div>
-      <input
-        ref={inputRef}
-        placeholder="Search for recordings, songs, or comments"
-        size={40}
-        value={query}
-        onChange={({ target: { value } }) => {
-          setQuery(value);
-        }}
-      />
-      <ul className="hoverable">
-        {results.map((result, index) => {
-          const {
-            item: { href },
-          } = result;
-          return (
-            <li key={`${href}-${index}`}>
-              <Link href={href}>
-                <FuseHighlight result={result} attribute="text" />
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
+    <div className="search-container">
+      <div className="search-input-container">
+        <input
+          ref={inputRef}
+          className="search-input"
+          placeholder="Search for recordings, songs, or comments"
+          value={query}
+          onChange={({ target: { value } }) => {
+            setQuery(value);
+          }}
+        />
+      </div>
+      {query && results.length === 0 && (
+        <div className="no-results">
+          No results found for &ldquo;{query}&rdquo;
+        </div>
+      )}
+      {results.length > 0 && (
+        <>
+          <div className="search-count">
+            {results.length} result{results.length !== 1 ? "s" : ""} found
+          </div>
+          <ul className="search-results">
+            {results.map((result, index) => {
+              const {
+                item: { href },
+              } = result;
+              return (
+                <li key={`${href}-${index}`}>
+                  <Link href={href}>
+                    <FuseHighlight result={result} attribute="text" />
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </>
+      )}
     </div>
   );
 }
