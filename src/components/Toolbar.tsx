@@ -38,29 +38,29 @@ export const Toolbar = () => {
         Listen
       </Link>
     ),
-    prev: (
-      <Link
-        href={`/recordings/${prev}`}
-        aria-disabled={!prev}
-        style={{
-          opacity: prev ? 1 : 0.2,
-          pointerEvents: prev ? "auto" : "none",
-        }}
+    prev: prev ? (
+      <Link href={`/recordings/${prev}`}>Prev</Link>
+    ) : (
+      <span
+        style={{ opacity: 0.2, cursor: "not-allowed" }}
+        aria-disabled="true"
+        role="button"
+        tabIndex={-1}
       >
         Prev
-      </Link>
+      </span>
     ),
-    next: (
-      <Link
-        href={`/recordings/${next}`}
-        aria-disabled={!next}
-        style={{
-          opacity: next ? 1 : 0.2,
-          pointerEvents: next ? "auto" : "none",
-        }}
+    next: next ? (
+      <Link href={`/recordings/${next}`}>Next</Link>
+    ) : (
+      <span
+        style={{ opacity: 0.2, cursor: "not-allowed" }}
+        aria-disabled="true"
+        role="button"
+        tabIndex={-1}
       >
         Next
-      </Link>
+      </span>
     ),
   };
 
