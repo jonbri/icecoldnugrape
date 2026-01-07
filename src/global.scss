@@ -176,7 +176,6 @@ a {
 
   &:hover {
     color: lighten($gold, 10%);
-    transform: translateY(-1px);
   }
 }
 
@@ -260,11 +259,6 @@ h3 {
 
   li {
     margin-bottom: 4px;
-    transition: all 0.2s ease;
-
-    &:hover {
-      transform: translateX(4px);
-    }
   }
 
   @media (hover: hover) {
@@ -336,7 +330,6 @@ ul.inline {
       &:hover {
         background: rgba($gold, 0.1);
         border-color: rgba($gold, 0.4);
-        transform: translateY(-1px);
       }
     }
   }
@@ -457,7 +450,6 @@ ul.inline {
 
   a:hover {
     background: rgba($white, 0.1);
-    transform: translateY(-1px);
   }
 
   span[aria-disabled="true"] {
