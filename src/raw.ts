@@ -226,7 +226,6 @@ export type SongType =
   | "Leaves On The Sidewalk After The Rain"
   | "Les Etoiles"
   | "Let Her Go Into the Darkness"
-  | "Let Her Go To Her Old Boyfriend"
   | "Let The Four Winds Blow"
   | "Let's Get Wild"
   | "Let's Say We Just Met"
@@ -1152,7 +1151,6 @@ export const songs: SongImport[] = [
   { name: "Leaves On The Sidewalk After The Rain" },
   { name: "Les Etoiles" },
   { name: "Let Her Go Into the Darkness" },
-  { name: "Let Her Go To Her Old Boyfriend" },
   { name: "Let The Four Winds Blow" },
   { name: "Let's Get Wild" },
   { name: "Let's Say We Just Met" },
@@ -10732,7 +10730,7 @@ export const recordings: RecordingImport[] = [
       { name: "Parties In The USA", n: 6 },
       { name: "This Kind Of Music", n: 7 },
       { name: "The Neighbors", n: 8 },
-      { name: "Let Her Go To Her Old Boyfriend", n: 9 },
+      { name: "Let Her Go Into the Darkness", n: 9 },
       { name: "Round and Round", n: 10 },
       { name: "You Can't Talk To the Dude", n: 11 },
       { name: "You're Crazy For Taking the Bus", n: 12 },
@@ -10747,7 +10745,7 @@ export const recordings: RecordingImport[] = [
       },
       {
         name: "JB",
-        text: '"Let Her Go To Her Old Boyfriend" is cut at the end',
+        text: '"Let Her Go Into the Darkness" is cut at the end',
         time: "2011-10-09 14:18:23",
       },
     ],
