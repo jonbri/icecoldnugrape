@@ -22254,4 +22254,21 @@ export const recordings: RecordingImport[] = [
       { name: "J'Aime Paris Au Mois De Mai", n: 2 },
     ],
   },
+  {
+    id: 9000000029,
+    type: "Compilation",
+    name: "Vacant Stare",
+    year: 2026,
+    songs: [
+      { name: "Someone I Care About", n: 1 },
+      { name: "Hospital", n: 2 },
+      { name: "Roadrunner", n: 3 },
+      { name: "Girlfren'", n: 4 },
+      { name: "Such Loneliness", n: 5 },
+      { name: "Modern World", n: 6 },
+      { name: "Song Of Remembrance For Old Girlfriends", n: 7 },
+      { name: "A Plea For Tenderness", n: 8 },
+      { name: "Fly Into the Mystery", n: 9 },
+    ],
+  },
 ];
