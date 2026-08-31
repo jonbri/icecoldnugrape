@@ -472,7 +472,7 @@ export type SongType =
   | "When I'm Walking"
   | "When She Kisses Me"
   | "When We Refuse to Suffer"
-  | "Who Can Say When a Wall Is Ready to Come Down"
+  | "When A Wall Is Ready To Come Down"
   | "Wild Thing"
   | "Wild Weekend"
   | "Wild Wild Party"
@@ -705,7 +705,8 @@ export type SongType =
   | "Life Is Danger"
   | "The Origin of Love"
   | "Broken Promises"
-  | "J'Aime Paris Au Mois De Mai";
+  | "J'Aime Paris Au Mois De Mai"
+  | "As My Heart Changes";
 
 export const songs: SongImport[] = [
   { name: "drumbeat..." },
@@ -1506,7 +1507,7 @@ export const songs: SongImport[] = [
   { name: "When I'm Walking" },
   { name: "When She Kisses Me" },
   { name: "When We Refuse to Suffer" },
-  { name: "Who Can Say When a Wall Is Ready to Come Down" },
+  { name: "When A Wall Is Ready To Come Down" },
   { name: "Wild Thing" },
   { name: "Wild Weekend" },
   {
@@ -1845,6 +1846,7 @@ export const songs: SongImport[] = [
   { name: "The Origin of Love" },
   { name: "Broken Promises" },
   { name: "J'Aime Paris Au Mois De Mai" },
+  { name: "As My Heart Changes" },
 ];
 
 export const recordings: RecordingImport[] = [
@@ -15502,7 +15504,7 @@ export const recordings: RecordingImport[] = [
       { name: "He Gave Us the Wine to Taste", n: 14 },
       { name: "Couples Must Fight", n: 15 },
       { name: "Give Paris One More Chance", n: 16 },
-      { name: "Who Can Say When a Wall Is Ready to Come Down", n: 17 },
+      { name: "When A Wall Is Ready To Come Down", n: 17 },
     ],
     comments: [
       {
@@ -15747,7 +15749,7 @@ export const recordings: RecordingImport[] = [
       { name: "In Che Mondo Vivamo", n: 23 },
       { name: "On a du Soleil", n: 24 },
       { name: "Take Me to the Plaza", n: 25 },
-      { name: "Who Can Say When a Wall Is Ready to Come Down", n: 26 },
+      { name: "When A Wall Is Ready To Come Down", n: 26 },
       { name: "J'Aime Paris Au Mois De Mai", n: 27 },
       { name: "Con el Merengue", n: 28 },
       { name: "Vampire Girl", n: 29 },
@@ -21000,6 +21002,20 @@ export const recordings: RecordingImport[] = [
     ],
   },
   {
+    id: 2026082700,
+    type: "Single",
+    name: "When A Wall Is Ready To Come Down",
+    bandcamp:
+      "https://jonathanrichman.bandcamp.com/album/when-a-wall-is-ready-to-come-down-as-my-heart-changes",
+    year: 2026,
+    month: 8,
+    date: 27,
+    songs: [
+      { name: "When A Wall Is Ready To Come Down", n: 1 },
+      { name: "As My Heart Changes", n: 2 },
+    ],
+  },
+  {
     id: 2023100800,
     type: "Show",
     venue: "Wilson Theatre",
@@ -21350,7 +21366,7 @@ export const recordings: RecordingImport[] = [
       { n: 1, name: "Affection" },
       { n: 2, name: "No One Was Like Vermeer" },
       { n: 3, name: "Whoa! How Different We All Are!" },
-      { n: 4, name: "Who Can Say When a Wall Is Ready to Come Down" },
+      { n: 4, name: "When A Wall Is Ready To Come Down" },
       { n: 5, name: "Egyptian Reggae" },
       { n: 6, name: "Little Black Bat" },
       { n: 7, name: "David and Goliath" },

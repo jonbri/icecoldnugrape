@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "/home/jonbri/.vscode-server/extensions/internal.vscode-rtk-0.2.2/bin/linux-x64/rtk hook copilot",
+        "cwd": ".",
+        "timeout": 5
+      }
+    ]
+  }
+}
